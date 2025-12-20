@@ -1,0 +1,29 @@
+{
+  "description": "Estructura de eventos del día para InforMessi",
+  "schema_version": "1.0",
+  "events": [
+    {
+      "date": "2024-01-01",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Lionel Messi",
+      "age": 37,
+      "description": "Cumpleaños de Lionel Messi"
+    }
+  ],
+  "event_types": {
+    "birthday": "Cumpleaños de jugador o cuerpo técnico",
+    "match": "Partido oficial o amistoso",
+    "announcement": "Anuncio oficial (lista, convocatoria, etc.)",
+    "historical": "Aniversario o evento histórico del fútbol",
+    "patriotic": "Fecha patria argentina",
+    "news": "Noticia relevante del día"
+  },
+  "priorities": {
+    "critical": "Máxima prioridad - el mensaje debe girar alrededor de esto",
+    "high": "Alta prioridad - debe estar en el bloque principal",
+    "medium": "Prioridad media - puede estar en bloque secundario",
+    "low": "Prioridad baja - mencionar si hay espacio"
+  }
+}
+

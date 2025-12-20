@@ -1,0 +1,41 @@
+{
+  "description": "Datos mock para día con partido - InforMessi",
+  "schema_version": "1.0",
+  "date": "2025-03-25",
+  "mundial_2026_start": "2026-06-11",
+  "days_remaining": 442,
+  "weather": {
+    "amba": {
+      "min": 18,
+      "max": 25,
+      "description": "Soleado"
+    },
+    "la_plata": {
+      "min": 16,
+      "max": 23,
+      "description": "Soleado"
+    },
+    "link_argentina": "https://www.smn.gob.ar/pronostico"
+  },
+  "events": [
+    {
+      "date": "2025-03-25",
+      "type": "match",
+      "priority": "critical",
+      "opponent": "Brasil",
+      "venue": "Maracaná",
+      "time": "21:00",
+      "competition": "Amistoso",
+      "description": "Amistoso de la selección argentina contra Brasil en el Maracaná"
+    }
+  ],
+  "news": [
+    {
+      "title": "Último partido antes de definir lista para el Mundial",
+      "source": "AFA",
+      "relevance": "high",
+      "summary": "Scaloni observará de cerca a los jugadores que buscan su lugar en la convocatoria final."
+    }
+  ]
+}
+

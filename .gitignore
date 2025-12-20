@@ -1,0 +1,57 @@
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# n8n
+n8n/.n8n/
+n8n/.env
+
+# Datos sensibles
+data/secrets/
+data/*.secret.json
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# Node (si se usa)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (si se usa)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Archivos de backup
+*.bak
+*.backup
+*~
+

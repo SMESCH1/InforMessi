@@ -1,0 +1,58 @@
+{
+  "description": "Plantillas opcionales para estructura de mensajes",
+  "schema_version": "1.0",
+  "templates": {
+    "standard": {
+      "name": "Formato estándar",
+      "description": "Para días sin evento especial",
+      "structure": [
+        "saludo",
+        "cuenta_regresiva",
+        "clima",
+        "bloque_principal",
+        "bloque_argentina",
+        "dato_dia",
+        "cierre"
+      ]
+    },
+    "event_focused": {
+      "name": "Enfocado en evento",
+      "description": "Cuando hay un evento importante del día",
+      "structure": [
+        "saludo",
+        "cuenta_regresiva",
+        "clima",
+        "bloque_principal_evento",
+        "bloque_argentina",
+        "dato_dia",
+        "cierre"
+      ],
+      "note": "El bloque principal debe centrarse en el evento"
+    },
+    "match_day": {
+      "name": "Día de partido",
+      "description": "Cuando hay un partido de la selección",
+      "structure": [
+        "saludo",
+        "cuenta_regresiva",
+        "clima",
+        "bloque_principal_partido",
+        "bloque_argentina",
+        "dato_dia",
+        "cierre"
+      ]
+    }
+  },
+  "phrases": {
+    "greetings": [
+      "Buenos días 🇦🇷",
+      "Buen día 🇦🇷"
+    ],
+    "closing": [
+      "Buen día",
+      "Que tengas un buen día"
+    ],
+    "ritual_phrase": "Coronados de gloria vivamos"
+  }
+}
+
