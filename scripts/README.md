@@ -8,6 +8,95 @@ Este directorio contiene scripts auxiliares que pueden ser necesarios para el fu
 
 Script de prueba para generar mensajes con LLM local (Ollama).
 
+### `telegram-preview.py`
+
+Script para enviar mensajes a Telegram para revisión humana.
+
+#### Requisitos
+
+```bash
+pip install requests
+```
+
+#### Uso Básico
+
+```bash
+python3 scripts/telegram-preview.py \
+  --message "$(cat mensaje.txt)" \
+  --preview-chat-id TU_CHAT_ID \
+  --token TU_TOKEN
+```
+
+#### Opciones
+
+```bash
+python3 scripts/telegram-preview.py \
+  --message "Texto del mensaje" \
+  --message-id "unique-id" \
+  --preview-chat-id -123456789 \
+  --publish-chat-id -987654321 \
+  --token TU_TOKEN \
+  --timeout 3600 \
+  --no-wait
+```
+
+#### Parámetros
+
+- `--message`: Texto del mensaje a revisar (requerido)
+- `--message-id`: ID único del mensaje (opcional, default: timestamp)
+- `--preview-chat-id`: Chat ID del canal de preview (requerido)
+- `--publish-chat-id`: Chat ID del canal público (opcional)
+- `--token`: Token del bot de Telegram (o usar TELEGRAM_BOT_TOKEN)
+- `--timeout`: Timeout en segundos (default: 3600)
+- `--no-wait`: Solo enviar preview, no esperar respuesta
+
+#### Ejemplos
+
+```bash
+# Enviar para revisión y esperar respuesta
+python3 scripts/telegram-preview.py \
+  --message "$(cat mensaje.txt)" \
+  --preview-chat-id $TELEGRAM_PREVIEW_CHAT_ID \
+  --publish-chat-id $TELEGRAM_PUBLISH_CHAT_ID
+
+# Solo enviar preview sin esperar
+python3 scripts/telegram-preview.py \
+  --message "$(cat mensaje.txt)" \
+  --preview-chat-id $TELEGRAM_PREVIEW_CHAT_ID \
+  --no-wait
+```
+
+### `get-telegram-chat-id.py`
+
+Script auxiliar para obtener Chat IDs de Telegram.
+
+#### Uso
+
+```bash
+python3 scripts/get-telegram-chat-id.py --token TU_TOKEN
+```
+
+#### Instrucciones
+
+1. Agrega el bot al grupo/canal
+2. Envía un mensaje al grupo/canal
+3. Ejecuta el script
+4. Copia el Chat ID que aparece
+
+### `demo-mvp.py`
+
+Script de demostración que muestra cómo se construye el prompt (sin necesidad de Ollama).
+
+#### Uso
+
+```bash
+python3 scripts/demo-mvp.py --data mock-data.json
+```
+
+### `generate-message.py`
+
+Script de prueba para generar mensajes con LLM local (Ollama).
+
 #### Requisitos
 
 ```bash

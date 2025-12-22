@@ -7,9 +7,6 @@ A continuación recibirás la información del día para generar el mensaje:
 ### Datos del Día
 - **Fecha**: [FECHA]
 - **Días restantes al Mundial 2026**: [X días]
-- **Clima AMBA**: min [°C] / max [°C]
-- **Clima La Plata**: min [°C] / max [°C]
-- **Link clima Argentina**: [URL]
 
 ### Eventos del Día
 [Lista de eventos relevantes: cumpleaños, partidos, anuncios, etc.]
@@ -23,6 +20,18 @@ A continuación recibirás la información del día para generar el mensaje:
 
 Genera un mensaje informativo diario siguiendo estas especificaciones:
 
+### Secciones Especiales por Día de la Semana
+
+Algunos días de la semana tienen secciones especiales que deben incluirse:
+
+- **Lunes y Viernes**: Sección sobre "Selección Argentina en Mundiales" (historia, participaciones, títulos, momentos destacados)
+- **Martes y Jueves**: Sección sobre "Jugador de la Scaloneta" (análisis, información, momento actual de un jugador)
+- **Sábado**: Sección "Dato Mundialista" (curiosidades, estadísticas, historia de los Mundiales)
+- **Domingo**: Sección "Dato del País Sede" (información sobre Estados Unidos, Canadá, México - países sede 2026)
+- **Miércoles**: Formato estándar sin sección especial
+
+Estas secciones deben integrarse naturalmente en el mensaje, no como bloques separados.
+
 ### Estructura Requerida
 
 1. **Saludo** (1 línea)
@@ -31,15 +40,7 @@ Genera un mensaje informativo diario siguiendo estas especificaciones:
 2. **Cuenta regresiva** (1 línea)
    - Ejemplo: "Faltan X días para el Mundial 2026"
 
-3. **Clima** (4-5 líneas)
-   ```
-   🌤 Clima
-   AMBA: min X° / max X°
-   La Plata: min X° / max X°
-   [Link al clima en otras partes de Argentina]
-   ```
-
-4. **Bloque principal del día** (3-5 líneas)
+3. **Bloque principal del día** (3-5 líneas)
    - Si hay evento importante (cumpleaños de jugador, partido, anuncio oficial): este bloque debe girar alrededor de eso
    - Si no hay evento importante: usa formato estándar con noticia relevante o dato interesante
 
@@ -64,7 +65,7 @@ Genera un mensaje informativo diario siguiendo estas especificaciones:
 
 - **Objetivo**: 90-130 palabras
 - **Formato**: Texto plano, sin markdown
-- **Emojis**: Usar con moderación (🇦🇷, 🌤, ⚽)
+- **Emojis**: Usar con moderación (🇦🇷, ⚽)
 
 ### Priorización
 
@@ -98,11 +99,6 @@ Genera SOLO el texto del mensaje, sin explicaciones adicionales, sin markdown, s
 Buenos días 🇦🇷
 
 Faltan 247 días para el Mundial 2026.
-
-🌤 Clima
-AMBA: min 12° / max 18°
-La Plata: min 10° / max 16°
-Clima en otras partes de Argentina: [link]
 
 Hoy cumple 37 años Lionel Messi. El capitán de la Scaloneta sigue siendo la referencia mundial del fútbol y prepara su sexta participación en un Mundial.
 

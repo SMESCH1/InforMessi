@@ -1,0 +1,47 @@
+{
+  "name": "InforMessi - Flujo Diario (Code Node)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 8 * * *"
+            }
+          ]
+        }
+      },
+      "id": "cron-trigger",
+      "name": "Cron Trigger (8:00 AM)",
+      "type": "n8n-nodes-base.cron",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Ejecutar script de InforMessi\nconst { exec } = require('child_process');\nconst util = require('util');\nconst execPromise = util.promisify(exec);\n\nconst projectPath = '/home/sebastian-mesch-henriques/Escritorio/Personal/InforMessi';\nconst command = `cd ${projectPath} && source venv/bin/activate && export $(grep -v '^#' .env | grep -v '^$' | xargs) && bash scripts/daily-flow.sh`;\n\ntry {\n  const { stdout, stderr } = await execPromise(command, {\n    cwd: projectPath,\n    shell: '/bin/bash',\n    env: process.env\n  });\n  \n  return {\n    json: {\n      success: true,\n      stdout: stdout,\n      stderr: stderr,\n      message: 'Flujo ejecutado correctamente'\n    }\n  };\n} catch (error) {\n  return {\n    json: {\n      success: false,\n      error: error.message,\n      stdout: error.stdout || '',\n      stderr: error.stderr || ''\n    }\n  };\n}"
+      },
+      "id": "execute-script",
+      "name": "Ejecutar Flujo InforMessi",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [450, 300]
+    }
+  ],
+  "connections": {
+    "Cron Trigger (8:00 AM)": {
+      "main": [[{"node": "Ejecutar Flujo InforMessi", "type": "main", "index": 0}]]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 1,
+  "updatedAt": "2025-12-22T00:00:00.000Z",
+  "versionId": "1"
+}
+

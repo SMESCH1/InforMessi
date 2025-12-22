@@ -42,6 +42,16 @@ def build_prompt(data):
     system_prompt = load_prompt("system-prompt.md")
     main_prompt = load_prompt("main-editorial.md")
     
+    # Agregar sección semanal según el día
+    import sys
+    from pathlib import Path
+    sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from generate_weekly_sections import build_weekly_section_prompt
+        weekly_section = build_weekly_section_prompt(data["date"])
+    except ImportError:
+        weekly_section = ""  # Si no se puede importar, continuar sin sección especial
+    
     # Calcular días restantes
     days_remaining = calculate_days_remaining(
         data["mundial_2026_start"],
@@ -67,10 +77,12 @@ def build_prompt(data):
     
     # Formatear noticias
     news_text = "No hay noticias relevantes del día."
-    if data["news"]:
+    if data.get("news"):
         news_list = []
         for news in data["news"]:
-            news_list.append(f"- {news['title']}: {news['summary']}")
+            # Usar 'description' si existe, sino 'title' solo
+            desc = news.get("description", news.get("title", ""))
+            news_list.append(f"- {news['title']}: {desc[:150]}")
         news_text = "\n".join(news_list)
     
     # Construir prompt con datos
@@ -83,15 +95,13 @@ def build_prompt(data):
 ### Datos del Día
 - **Fecha**: {data['date']}
 - **Días restantes al Mundial 2026**: {days_remaining} días
-- **Clima AMBA**: min {data['weather']['amba']['min']}° / max {data['weather']['amba']['max']}°
-- **Clima La Plata**: min {data['weather']['la_plata']['min']}° / max {data['weather']['la_plata']['max']}°
-- **Link clima Argentina**: {data['weather']['link_argentina']}
 
 ### Eventos del Día
 {events_text}
 
 ### Noticias Relevantes
 {news_text}
+{weekly_section}
 """
     
     return prompt

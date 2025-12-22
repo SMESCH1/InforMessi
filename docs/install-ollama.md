@@ -158,3 +158,4 @@ curl http://localhost:11434/api/tags
 
 *Una vez instalado Ollama, podrás usar `scripts/generate-message.py` para generar mensajes reales*
 
+

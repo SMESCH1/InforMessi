@@ -48,8 +48,8 @@ El estilo emula Informesch, pero evolucionado:
 ┌─────────────────┐
 │  Revisión       │
 │  Humana         │
-│  (Notion/       │
-│   Telegram)     │
+│  (Telegram)     │
+│  (Notion: futuro)│
 └────────┬────────┘
          │
          ▼
@@ -64,8 +64,8 @@ El estilo emula Informesch, pero evolucionado:
 
 - **n8n**: Orquestación y automatización de workflows
 - **LLM**: Redacción y edición de contenido (modelo local)
-- **Telegram**: Preview y publicación
-- **Notion/Telegram privado**: Revisión humana
+- **Telegram**: Preview, revisión humana y publicación (actual)
+- **Notion**: Revisión humana alternativa (futuro, ver `docs/future-features.md`)
 
 ## Estructura del Repositorio
 
@@ -116,8 +116,8 @@ Cada mensaje sigue este esquema (flexible):
 - **Fase 0**: Setup del repo + README ✅
 - **Fase 1**: Diseño editorial + prompts ✅
 - **Fase 2**: MVP con datos mock ✅
-- **Fase 3**: Revisión humana
-- **Fase 4**: APIs reales
+- **Fase 3**: Revisión humana ✅
+- **Fase 4**: APIs reales ✅
 - **Fase 5**: Visuales
 - **Fase 6**: Publicación
 - **Fase 7**: Documentación portfolio
