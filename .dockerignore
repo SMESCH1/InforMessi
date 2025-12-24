@@ -1,0 +1,19 @@
+# .dockerignore
+venv/
+__pycache__/
+*.pyc
+.git/
+.gitignore
+*.log
+/tmp/
+.DS_Store
+*.swp
+*.swo
+*~
+.env.local
+.env.*.local
+n8n/
+docs/
+*.md
+!README.md
+

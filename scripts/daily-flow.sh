@@ -71,6 +71,13 @@ if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_PREVIEW_CHAT_ID" ]; then
     exit 0
 fi
 
+# Ajustar OLLAMA_BASE_URL si estamos en Docker
+if [ -n "$OLLAMA_BASE_URL" ]; then
+    export OLLAMA_BASE_URL
+else
+    export OLLAMA_BASE_URL="http://ollama:11434"
+fi
+
 python3 scripts/telegram-preview.py \
   --message "$(cat $MESSAGE_FILE)" \
   --preview-chat-id "$TELEGRAM_PREVIEW_CHAT_ID" \
