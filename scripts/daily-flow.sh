@@ -48,7 +48,7 @@ if [ $? -ne 0 ]; then
 fi
 
 echo ""
-echo -e "${BLUE}📤 Paso 2: Enviando informe a Telegram...${NC}"
+echo -e "${BLUE}📤 Paso 2: Enviando informe a chat de revisión...${NC}"
 
 if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_PREVIEW_CHAT_ID" ]; then
     echo -e "${YELLOW}⚠️  Variables de Telegram no configuradas${NC}"
@@ -57,7 +57,7 @@ if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_PREVIEW_CHAT_ID" ]; then
     exit 0
 fi
 
-python3 scripts/send-daily-report.py --date "$DATE" 2>&1 | tail -10
+python3 scripts/send-daily-report-review.py --date "$DATE" 2>&1 | tail -10
 
 echo ""
 echo "================================================"

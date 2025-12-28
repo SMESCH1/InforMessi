@@ -37,10 +37,15 @@ def build_prompt(data):
     system_prompt = load_prompt("system-prompt.md")
     main_prompt = load_prompt("main-editorial.md")
     
-    # Agregar sección semanal según el día
-    import sys
-    from pathlib import Path
+    # Agregar RAG de estilo desde informes editados
     sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from rag_style_learning import get_style_context
+        style_context = get_style_context()
+    except (ImportError, Exception) as e:
+        style_context = ""  # Si no se puede importar, continuar sin RAG
+    
+    # Agregar sección semanal según el día
     try:
         from generate_weekly_sections import build_weekly_section_prompt
         weekly_section = build_weekly_section_prompt(data["date"])
@@ -77,8 +82,25 @@ def build_prompt(data):
         for news in data["news"]:
             # Usar 'description' si existe, sino 'title' solo
             desc = news.get("description", news.get("title", ""))
-            news_list.append(f"- {news['title']}: {desc[:150]}")
+            source = news.get("source", "Sin fuente")
+            news_list.append(f"- {news['title']}: {desc[:150]} ({source})")
         news_text = "\n".join(news_list)
+    
+    # Detectar contenido audiovisual
+    sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from detect_media import get_media_for_date
+        media = get_media_for_date(data["date"])
+        media_context = ""
+        if media and media.get("has_media"):
+            media_context = f"\n### Contenido Visual Disponible\n"
+            if media.get("images"):
+                media_context += f"Hay {len(media['images'])} imagen(es) disponible(s) para este día.\n"
+            if media.get("videos"):
+                media_context += f"Hay {len(media['videos'])} video(s) disponible(s) para este día.\n"
+            media_context += "Menciona el contenido visual en el mensaje si es relevante y apropiado.\n"
+    except (ImportError, Exception):
+        media_context = ""
     
     # Construir prompt con datos
     prompt = f"""{system_prompt}
@@ -97,6 +119,8 @@ def build_prompt(data):
 ### Noticias Relevantes
 {news_text}
 {weekly_section}
+{media_context}
+{style_context}
 """
     
     return prompt

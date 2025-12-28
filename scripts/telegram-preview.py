@@ -147,6 +147,38 @@ def publish_message(bot: TelegramBot, chat_id: str, message: str) -> Dict:
     return bot.send_message(chat_id, message)
 
 
+def send_photo(token: str, chat_id: str, caption: str, photo_path: str):
+    """Envía una foto con caption a Telegram"""
+    from pathlib import Path
+    
+    url = f"https://api.telegram.org/bot{token}/sendPhoto"
+    
+    photo_file = Path(photo_path)
+    if not photo_file.exists():
+        print(f"⚠️  Archivo no encontrado: {photo_path}, enviando solo texto")
+        bot = TelegramBot(token)
+        bot.send_message(chat_id, caption)
+        return
+    
+    try:
+        with open(photo_file, 'rb') as photo:
+            files = {'photo': photo}
+            data = {
+                "chat_id": chat_id,
+                "caption": caption,
+                "parse_mode": "HTML"
+            }
+            response = requests.post(url, files=files, data=data, timeout=30)
+            response.raise_for_status()
+            print(f"✅ Foto enviada a Telegram: {photo_file.name}")
+            return response.json()
+    except Exception as e:
+        print(f"❌ Error al enviar foto: {e}")
+        # Fallback: enviar solo texto
+        bot = TelegramBot(token)
+        bot.send_message(chat_id, caption)
+
+
 def main():
     """Función principal"""
     import argparse
@@ -188,6 +220,10 @@ def main():
         action="store_true",
         help="Solo enviar preview, no esperar respuesta"
     )
+    parser.add_argument(
+        "--media",
+        help="Ruta a archivo de imagen/video para enviar junto con el mensaje"
+    )
     
     args = parser.parse_args()
     
@@ -207,12 +243,18 @@ def main():
     # Inicializar bot
     bot = TelegramBot(token)
     
-    # Enviar preview
+    # Enviar preview (con o sin media)
     print(f"📤 Enviando preview a chat {args.preview_chat_id}...")
     try:
-        result = send_preview(bot, args.preview_chat_id, args.message, message_id)
-        preview_message_id = result["result"]["message_id"]
-        print(f"   ✅ Preview enviado (mensaje ID: {preview_message_id})")
+        if args.media and Path(args.media).exists():
+            # Enviar foto con mensaje como caption
+            send_photo(token, args.preview_chat_id, args.message, args.media)
+            print(f"   ✅ Preview con foto enviado")
+        else:
+            # Enviar solo texto
+            result = send_preview(bot, args.preview_chat_id, args.message, message_id)
+            preview_message_id = result["result"]["message_id"]
+            print(f"   ✅ Preview enviado (mensaje ID: {preview_message_id})")
     except Exception as e:
         print(f"   ❌ Error al enviar preview: {e}")
         sys.exit(1)
@@ -223,7 +265,18 @@ def main():
         
         if response == "approve":
             print("\n✅ Mensaje aprobado")
-            if args.publish_chat_id:
+            
+            # Intentar publicar en grupo público si está configurado
+            public_chat_id = os.getenv("TELEGRAM_PUBLIC_CHAT_ID")
+            if public_chat_id:
+                print(f"📤 Publicando en grupo público ({public_chat_id})...")
+                try:
+                    publish_message(bot, public_chat_id, args.message)
+                    print("   ✅ Mensaje publicado en grupo público")
+                except Exception as e:
+                    print(f"   ❌ Error al publicar: {e}")
+                    print("   ⚠️  Usa: python3 scripts/publish-approved-report.py para publicar manualmente")
+            elif args.publish_chat_id:
                 print(f"📤 Publicando en canal {args.publish_chat_id}...")
                 try:
                     publish_message(bot, args.publish_chat_id, args.message)
@@ -232,7 +285,8 @@ def main():
                     print(f"   ❌ Error al publicar: {e}")
                     sys.exit(1)
             else:
-                print("⚠️  No se especificó --publish-chat-id, mensaje no publicado")
+                print("⚠️  No se especificó TELEGRAM_PUBLIC_CHAT_ID ni --publish-chat-id")
+                print("   Usa: python3 scripts/publish-approved-report.py para publicar manualmente")
         
         elif response == "reject":
             print("\n❌ Mensaje rechazado")
@@ -240,7 +294,35 @@ def main():
         
         elif response == "edit":
             print("\n✏️  Mensaje marcado para edición")
-            print("   Edita el mensaje manualmente y luego publícalo")
+            print("   Abriendo editor...")
+            
+            # Intentar abrir el editor automáticamente
+            try:
+                import subprocess
+                from pathlib import Path
+                
+                # Obtener la fecha del mensaje (si está disponible en args)
+                # Si no, usar la fecha de hoy
+                from datetime import datetime
+                target_date = datetime.now().strftime("%Y-%m-%d")
+                
+                # Si hay un archivo de reporte, abrirlo
+                project_root = Path(__file__).parent.parent
+                report_file = project_root / "reports" / f"{target_date}.json"
+                
+                if report_file.exists():
+                    # Usar el script edit-report.py
+                    edit_script = project_root / "scripts" / "edit-report.py"
+                    subprocess.run([sys.executable, str(edit_script), "--date", target_date])
+                    print("   ✅ Editor cerrado. Si guardaste cambios, el informe fue actualizado.")
+                    print("   💡 Para publicar el informe editado:")
+                    print(f"      python3 scripts/publish-approved-report.py --date {target_date}")
+                else:
+                    print("   ⚠️  No se encontró el archivo de informe para editar")
+                    print("   💡 Edita el mensaje manualmente y luego publícalo")
+            except Exception as e:
+                print(f"   ⚠️  No se pudo abrir el editor automáticamente: {e}")
+                print("   💡 Edita el mensaje manualmente y luego publícalo")
         
         elif response is None:
             print("\n⏱️  No se recibió respuesta (timeout o interrupción)")

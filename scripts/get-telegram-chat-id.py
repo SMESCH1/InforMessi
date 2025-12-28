@@ -6,6 +6,24 @@ Script auxiliar para obtener Chat IDs de Telegram
 
 import sys
 import os
+from pathlib import Path
+
+# Cargar variables de entorno desde .env
+try:
+    from dotenv import load_dotenv
+    env_path = Path(__file__).parent.parent / ".env"
+    if env_path.exists():
+        load_dotenv(env_path)
+except ImportError:
+    # Si no hay python-dotenv, intentar cargar manualmente
+    env_path = Path(__file__).parent.parent / ".env"
+    if env_path.exists():
+        with open(env_path, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, value = line.split('=', 1)
+                    os.environ[key.strip()] = value.strip()
 
 try:
     import requests

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Envía el informe del día a Telegram
+Envía el informe del día al chat de revisión y ESPERA la respuesta
+Versión que espera aprobación/rechazo/edición
 MVP - InforMessi
 """
 
@@ -10,8 +11,22 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-# Agregar scripts al path para imports
-sys.path.insert(0, str(Path(__file__).parent))
+# Cargar variables de entorno desde .env
+try:
+    from dotenv import load_dotenv
+    env_path = Path(__file__).parent.parent / ".env"
+    if env_path.exists():
+        load_dotenv(env_path)
+except ImportError:
+    # Si no hay python-dotenv, intentar cargar manualmente
+    env_path = Path(__file__).parent.parent / ".env"
+    if env_path.exists():
+        with open(env_path, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, value = line.split('=', 1)
+                    os.environ[key.strip()] = value.strip()
 
 PROJECT_ROOT = Path(__file__).parent.parent
 REPORTS_DIR = PROJECT_ROOT / "reports"
@@ -30,17 +45,24 @@ def load_report(date: str) -> dict:
         return json.load(f)
 
 
-def send_to_telegram(message: str, preview_chat_id: str, token: str):
-    """Envía mensaje a Telegram usando telegram-preview.py"""
+def send_and_wait_for_response(message: str, preview_chat_id: str, token: str, media_path: str = None):
+    """Envía mensaje al chat de revisión y espera respuesta"""
     import subprocess
     
+    cmd = [
+        sys.executable, str(PROJECT_ROOT / "scripts" / "telegram-preview.py"),
+        "--message", message,
+        "--preview-chat-id", preview_chat_id,
+        "--token", token,
+        # NO usar --no-wait, para que espere la respuesta
+    ]
+    
+    if media_path:
+        cmd.extend(["--media", media_path])
+    
     result = subprocess.run(
-        [sys.executable, str(PROJECT_ROOT / "scripts" / "telegram-preview.py"),
-         "--message", message,
-         "--preview-chat-id", preview_chat_id,
-         "--token", token,
-         "--no-wait"],
-        capture_output=True,
+        cmd,
+        capture_output=False,  # Mostrar output en tiempo real
         text=True
     )
     
@@ -52,7 +74,7 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(
-        description="Envía el informe del día a Telegram"
+        description="Envía el informe al chat de revisión y espera respuesta"
     )
     parser.add_argument(
         "--date",
@@ -75,7 +97,7 @@ def main():
         print("   Configura TELEGRAM_BOT_TOKEN y TELEGRAM_PREVIEW_CHAT_ID en .env")
         sys.exit(1)
     
-    print("📤 Enviando informe del día")
+    print("📤 Enviando informe al chat de revisión")
     print("=" * 50)
     print(f"📅 Fecha: {target_date}")
     print("")
@@ -96,27 +118,21 @@ def main():
     except:
         media_path = None
     
-    # Enviar
-    print("📨 Enviando a Telegram...")
-    success = send_to_telegram(message, preview_chat_id, token, media_path)
+    # Enviar al chat de revisión y esperar respuesta
+    print("📨 Enviando a chat de revisión (privado)...")
+    print("⏳ Esperando tu respuesta en Telegram...")
+    print("")
+    
+    success = send_and_wait_for_response(message, preview_chat_id, token, media_path)
     
     if success:
-        # Marcar como publicado
-        report["status"] = "published"
-        report["published_at"] = datetime.now().isoformat()
-        
-        report_file = REPORTS_DIR / f"{target_date}.json"
-        with open(report_file, 'w', encoding='utf-8') as f:
-            json.dump(report, f, indent=2, ensure_ascii=False)
-        
         print("")
         print("=" * 50)
-        print("✅ Informe enviado y marcado como publicado")
+        print("✅ Proceso completado")
     else:
         print("")
         print("=" * 50)
-        print("❌ Error al enviar informe")
-        sys.exit(1)
+        print("⚠️  Proceso terminado (puede haber sido cancelado o rechazado)")
 
 
 if __name__ == "__main__":

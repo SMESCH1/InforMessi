@@ -98,6 +98,57 @@ def collect_all_data(date: str = None) -> dict:
         print(f"⚠️  Error al obtener noticias: {e}")
         news = []
     
+    # Reddit - obtener posts relevantes
+    print("🔴 Obteniendo posts de Reddit...")
+    try:
+        result = subprocess.run(
+            [sys.executable, str(PROJECT_ROOT / "scripts" / "fetch-reddit.py"), "--max-results", "3", "--json-only"],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            timeout=30
+        )
+        if result.returncode == 0:
+            output = result.stdout.strip()
+            # Buscar JSON en la salida (puede haber mensajes antes)
+            json_found = False
+            for line in output.split('\n'):
+                line = line.strip()
+                if line.startswith('['):
+                    try:
+                        reddit_posts = json.loads(line)
+                        json_found = True
+                        break
+                    except json.JSONDecodeError:
+                        continue
+            if not json_found:
+                # Intentar parsear toda la salida como JSON
+                try:
+                    reddit_posts = json.loads(output)
+                except:
+                    reddit_posts = []
+        else:
+            print(f"⚠️  Error en fetch-reddit.py: {result.stderr}")
+            reddit_posts = []
+    except Exception as e:
+        print(f"⚠️  Error al obtener posts de Reddit: {e}")
+        reddit_posts = []
+    
+    # Combinar noticias y posts de Reddit
+    # Convertir posts de Reddit al formato de noticias para consistencia
+    reddit_as_news = []
+    for post in reddit_posts:
+        reddit_as_news.append({
+            "title": post.get("title", ""),
+            "description": post.get("content", "")[:200],
+            "url": post.get("url", ""),
+            "source": f"Reddit r/{post.get('subreddit', 'unknown')}",
+            "published_at": post.get("created_at", datetime.now().isoformat())
+        })
+    
+    # Combinar todas las noticias
+    all_news = news + reddit_as_news
+    
     # Calcular días restantes
     mundial_start = "2026-06-11"
     mundial = datetime.strptime(mundial_start, "%Y-%m-%d").date()
@@ -109,7 +160,7 @@ def collect_all_data(date: str = None) -> dict:
         "mundial_2026_start": mundial_start,
         "days_remaining": days_remaining,
         "events": events,
-        "news": news
+        "news": all_news
     }
     
     print()
@@ -118,6 +169,8 @@ def collect_all_data(date: str = None) -> dict:
     print(f"   Días restantes: {days_remaining}")
     print(f"   Eventos: {len(events)}")
     print(f"   Noticias: {len(news)}")
+    print(f"   Reddit: {len(reddit_posts)}")
+    print(f"   Total noticias: {len(all_news)}")
     
     return data
 

@@ -1,0 +1,30 @@
+{
+  "date": "2026-01-01",
+  "generated_at": "2025-12-28T18:47:01.663281",
+  "data": {
+    "date": "2026-01-01",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 161,
+    "events": [],
+    "news": [
+      {
+        "title": "Liga Profesional de Fútbol",
+        "description": "",
+        "url": "https://www.tycsports.com/liga-profesional-de-futbol.html",
+        "source": "TyC Sports",
+        "published_at": "2025-12-28T18:47:00.589632"
+      },
+      {
+        "title": "Cómo es la nueva ley del offside que podría cambiar el fútbol por completo",
+        "description": "",
+        "url": "https://www.tycsports.com/mundial/como-es-la-nueva-ley-del-offside-que-estudia-la-fifa-y-podria-cambiar-el-futbol-por-completo-id701811.html",
+        "source": "TyC Sports",
+        "published_at": "2025-12-28T18:47:00.589710"
+      }
+    ]
+  },
+  "message": "Buenas noches. Faltan 161 días para el Mundial 2026.\n\nEl equipo nacional sigue preparándose en su base de entrenamiento en la ciudad de San Luis. La selección argentina ha sido la más activa en sus prácticas, con Lionel Messi liderando el grupo y demostrando su dedicación al entrenamiento y la condición física.\n\nLa Scaloneta sigue siendo la referencia mundial del fútbol, pero su campeón continúa sin un título importante. La historia de Lionel Messi es una de las más destacadas en la selección argentina: cuatro mundiales completos, dos títulos, varias finalistas y un lugar entre los mejores jugadores de la historia.\n\nDato del día: El Mundial 2026 será el primero en tener 48 equipos, expandiendo la competencia a nuevas regiones del mundo.\n\nBuenas noches\nCoronados de gloria vivamos",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null
+}
