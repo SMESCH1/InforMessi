@@ -1,0 +1,51 @@
+name: Actualizar Informe Diario
+
+on:
+  schedule:
+    # Ejecutar todos los días a las 8:00 AM UTC (5:00 AM Argentina)
+    - cron: '0 8 * * *'
+  workflow_dispatch: # Permite ejecución manual
+
+jobs:
+  update-report:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+      
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      
+      - name: Instalar dependencias
+        run: |
+          pip install -r requirements.txt
+      
+      - name: Configurar variables de entorno
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_PREVIEW_CHAT_ID: ${{ secrets.TELEGRAM_PREVIEW_CHAT_ID }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+        run: |
+          echo "Variables configuradas"
+      
+      - name: Actualizar informe del día
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_PREVIEW_CHAT_ID: ${{ secrets.TELEGRAM_PREVIEW_CHAT_ID }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+        run: |
+          python3 scripts/update-today-report.py
+      
+      - name: Commit y push cambios
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add reports/
+          git diff --staged --quiet || git commit -m "Actualizar informe del día $(date +%Y-%m-%d)"
+          git push
+

@@ -1,6 +1,7 @@
 #!/bin/bash
 # Flujo diario completo de InforMessi
-# Ejecuta: recolección → generación → revisión
+# Actualiza el informe del día y lo envía a Telegram
+# MVP - Generación Anticipada
 
 set -e
 
@@ -32,65 +33,37 @@ fi
 
 # Fecha del día
 DATE=$(date +"%Y-%m-%d")
-DATA_FILE="/tmp/informessi-datos-${DATE}.json"
-MESSAGE_FILE="/tmp/informessi-mensaje-${DATE}.txt"
 
-echo -e "${BLUE}🚀 InforMessi - Flujo Diario Completo${NC}"
+echo -e "${BLUE}🚀 InforMessi - Actualización Diaria${NC}"
 echo "================================================"
 echo ""
 
-# Paso 1: Recolectar datos
-echo -e "${BLUE}📊 Paso 1: Recolectando datos del día...${NC}"
-python3 scripts/collect-daily-data.py \
-  --date "$DATE" \
-  --output "$DATA_FILE" 2>&1 | tail -8
+# Paso 1: Actualizar informe del día
+echo -e "${BLUE}🔄 Paso 1: Actualizando informe del día...${NC}"
+python3 scripts/update-today-report.py --date "$DATE" 2>&1 | tail -10
 
-if [ ! -f "$DATA_FILE" ]; then
-    echo "❌ Error al recolectar datos"
+if [ $? -ne 0 ]; then
+    echo "❌ Error al actualizar informe"
     exit 1
 fi
 
 echo ""
-echo -e "${BLUE}📝 Paso 2: Generando mensaje...${NC}"
-python3 scripts/generate-message.py \
-  --data "$DATA_FILE" \
-  --output "$MESSAGE_FILE" 2>&1 | tail -15
-
-if [ ! -f "$MESSAGE_FILE" ]; then
-    echo "❌ Error al generar mensaje"
-    exit 1
-fi
-
-echo ""
-echo -e "${BLUE}📤 Paso 3: Enviando para revisión en Telegram...${NC}"
+echo -e "${BLUE}📤 Paso 2: Enviando informe a Telegram...${NC}"
 
 if [ -z "$TELEGRAM_BOT_TOKEN" ] || [ -z "$TELEGRAM_PREVIEW_CHAT_ID" ]; then
     echo -e "${YELLOW}⚠️  Variables de Telegram no configuradas${NC}"
-    echo "   Mensaje generado en: $MESSAGE_FILE"
+    echo "   Informe actualizado en: reports/${DATE}.json"
     echo "   Configura TELEGRAM_BOT_TOKEN y TELEGRAM_PREVIEW_CHAT_ID en .env"
     exit 0
 fi
 
-# Ajustar OLLAMA_BASE_URL si estamos en Docker
-if [ -n "$OLLAMA_BASE_URL" ]; then
-    export OLLAMA_BASE_URL
-else
-    export OLLAMA_BASE_URL="http://ollama:11434"
-fi
-
-python3 scripts/telegram-preview.py \
-  --message "$(cat $MESSAGE_FILE)" \
-  --preview-chat-id "$TELEGRAM_PREVIEW_CHAT_ID" \
-  --token "$TELEGRAM_BOT_TOKEN" \
-  --no-wait 2>&1 | tail -10
+python3 scripts/send-daily-report.py --date "$DATE" 2>&1 | tail -10
 
 echo ""
 echo "================================================"
 echo -e "${GREEN}✅ Flujo completo finalizado${NC}"
 echo "================================================"
 echo ""
-echo "📄 Archivos generados:"
-echo "   Datos: $DATA_FILE"
-echo "   Mensaje: $MESSAGE_FILE"
+echo "📄 Informe guardado en: reports/${DATE}.json"
 echo ""
 

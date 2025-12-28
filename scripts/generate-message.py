@@ -22,12 +22,7 @@ def load_prompt(filename):
         raise FileNotFoundError(f"Prompt no encontrado: {filename}")
     return filepath.read_text(encoding='utf-8')
 
-def load_mock_data(filename="mock-data.json"):
-    """Carga datos mock desde data/"""
-    filepath = DATA_DIR / filename
-    if not filepath.exists():
-        raise FileNotFoundError(f"Datos mock no encontrados: {filename}")
-    return json.loads(filepath.read_text(encoding='utf-8'))
+# Función load_mock_data removida - ahora se carga directamente desde archivo JSON
 
 def calculate_days_remaining(mundial_date, current_date):
     """Calcula días restantes hasta el Mundial"""
@@ -146,8 +141,8 @@ def main():
     )
     parser.add_argument(
         "--data",
-        default="mock-data.json",
-        help="Archivo de datos mock a usar (default: mock-data.json)"
+        required=True,
+        help="Archivo JSON con datos del día"
     )
     parser.add_argument(
         "--model",
@@ -170,12 +165,18 @@ def main():
     print("=" * 50)
     
     # Cargar datos
-    print(f"📂 Cargando datos mock: {args.data}")
-    data = load_mock_data(args.data)
+    data_path = Path(args.data)
+    if not data_path.exists():
+        print(f"❌ Archivo no encontrado: {data_path}")
+        sys.exit(1)
+    
+    print(f"📂 Cargando datos: {data_path}")
+    with open(data_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
     print(f"   Fecha: {data['date']}")
     print(f"   Días restantes: {calculate_days_remaining(data['mundial_2026_start'], data['date'])}")
-    print(f"   Eventos: {len(data['events'])}")
-    print(f"   Noticias: {len(data['news'])}")
+    print(f"   Eventos: {len(data.get('events', []))}")
+    print(f"   Noticias: {len(data.get('news', []))}")
     
     # Construir prompt
     print("\n📝 Construyendo prompt...")
