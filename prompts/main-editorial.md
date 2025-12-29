@@ -65,7 +65,22 @@ Estas secciones deben integrarse naturalmente en el mensaje, no como bloques sep
 
 - **Objetivo**: 90-130 palabras
 - **Formato**: Texto plano, sin markdown
-- **Emojis**: Usar con moderación (🇦🇷, ⚽)
+- **Emojis**: Usar emojis relevantes y variados para hacer el mensaje más atractivo y visual:
+  - 🇦🇷 (bandera Argentina) - en saludo o cierre
+  - ⚽ (fútbol) - para mencionar partidos, jugadores, fútbol en general
+  - 🏆 (trofeo) - para títulos, logros, campeonatos
+  - 🎉 (celebración) - para cumpleaños, aniversarios, logros
+  - 📅 (calendario) - para fechas importantes
+  - ⭐ (estrella) - para jugadores destacados, momentos especiales
+  - 🔥 (fuego) - para momentos emocionantes, actuaciones destacadas
+  - 💪 (fuerza) - para esfuerzo, preparación, determinación
+  - 🌍 (mundo) - para Mundial, países, sedes
+  - ⚡ (rayo) - para velocidad, acción, dinamismo
+  - 🎯 (objetivo) - para metas, objetivos, preparación
+  - 💙 (corazón azul) - para pasión, amor por la selección
+  - 📊 (gráfico) - para estadísticas, datos
+  - 🚀 (cohete) - para progreso, avance, futuro
+  - Usa 3-5 emojis por mensaje, distribuidos estratégicamente para mejorar la lectura
 
 ### Priorización
 
@@ -98,16 +113,16 @@ Genera SOLO el texto del mensaje, sin explicaciones adicionales, sin markdown, s
 ```
 Buenos días 🇦🇷
 
-Faltan 247 días para el Mundial 2026.
+Faltan 247 días para el Mundial 2026 ⚽
 
-Hoy cumple 37 años Lionel Messi. El capitán de la Scaloneta sigue siendo la referencia mundial del fútbol y prepara su sexta participación en un Mundial.
+🎉 Hoy cumple 37 años Lionel Messi. El capitán de la Scaloneta sigue siendo la referencia mundial del fútbol y prepara su sexta participación en un Mundial 🏆
 
-La selección argentina continúa su preparación para defender el título en 2026. Con Scaloni al mando, el equipo mantiene la base campeona y suma nuevas caras.
+La selección argentina continúa su preparación para defender el título en 2026 💪 Con Scaloni al mando, el equipo mantiene la base campeona y suma nuevas caras.
 
-Dato del día: El Mundial 2026 será el primero en tener 48 equipos, expandiendo la competencia a nuevas regiones del mundo.
+📊 Dato del día: El Mundial 2026 será el primero en tener 48 equipos 🌍, expandiendo la competencia a nuevas regiones del mundo.
 
-Buen día
-Coronados de gloria vivamos
+Buen día ⭐
+Coronados de gloria vivamos 💙
 ```
 
 ---

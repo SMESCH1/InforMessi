@@ -2,8 +2,9 @@ name: InforMessi - Flujo Diario Completo
 
 on:
   schedule:
-    # Ejecutar todos los días a las 8:00 AM UTC (5:00 AM Argentina)
-    - cron: '0 8 * * *'
+    # Ejecutar todos los días a las 13:15 UTC (10:15 AM Argentina, UTC-3)
+    # Comienza a funcionar desde hoy (2025-12-28)
+    - cron: '15 13 * * *'
   workflow_dispatch: # Permite ejecución manual
 
 jobs:

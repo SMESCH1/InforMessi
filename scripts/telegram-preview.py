@@ -142,6 +142,45 @@ def wait_for_response(bot: TelegramBot, message_id: str, timeout: int = 3600) ->
     return None
 
 
+def wait_for_edited_message(bot: TelegramBot, chat_id: str, timeout: int = 300) -> Optional[str]:
+    """Espera que el usuario envíe un mensaje editado en el chat"""
+    
+    print(f"⏳ Esperando mensaje editado en chat {chat_id}...")
+    print(f"   (Timeout: {timeout} segundos)")
+    
+    start_time = time.time()
+    last_update_id = None
+    
+    while time.time() - start_time < timeout:
+        try:
+            updates = bot.get_updates(offset=last_update_id, timeout=10)
+            
+            if updates.get("ok") and updates.get("result"):
+                for update in updates["result"]:
+                    last_update_id = update["update_id"] + 1
+                    
+                    # Verificar si es un mensaje de texto del chat correcto
+                    if "message" in update and "text" in update["message"]:
+                        message = update["message"]
+                        if str(message["chat"]["id"]) == str(chat_id):
+                            text = message["text"]
+                            # Si el mensaje es suficientemente largo, asumimos que es la edición
+                            if len(text) > 50:
+                                return text
+            
+            time.sleep(1)
+            
+        except KeyboardInterrupt:
+            print("\n⚠️  Interrumpido por el usuario")
+            return None
+        except Exception as e:
+            print(f"⚠️  Error al obtener actualizaciones: {e}")
+            time.sleep(5)
+    
+    print(f"⏱️  Timeout alcanzado ({timeout} segundos)")
+    return None
+
+
 def publish_message(bot: TelegramBot, chat_id: str, message: str) -> Dict:
     """Publica el mensaje aprobado en el canal público"""
     return bot.send_message(chat_id, message)
@@ -294,35 +333,58 @@ def main():
         
         elif response == "edit":
             print("\n✏️  Mensaje marcado para edición")
-            print("   Abriendo editor...")
+            print("   Esperando mensaje editado en Telegram...")
+            print("   💡 Envía el mensaje editado como respuesta en el chat privado de Telegram")
+            print("   📝 El bot detectará tu mensaje y lo publicará automáticamente en el grupo público")
             
-            # Intentar abrir el editor automáticamente
-            try:
-                import subprocess
-                from pathlib import Path
+            # Esperar mensaje editado del usuario
+            from datetime import datetime
+            target_date = datetime.now().strftime("%Y-%m-%d")
+            
+            # Esperar mensaje de texto del usuario
+            edited_message = wait_for_edited_message(bot, args.preview_chat_id, timeout=300)  # 5 minutos
+            
+            if edited_message:
+                print(f"\n✅ Mensaje editado recibido ({len(edited_message)} caracteres)")
                 
-                # Obtener la fecha del mensaje (si está disponible en args)
-                # Si no, usar la fecha de hoy
-                from datetime import datetime
-                target_date = datetime.now().strftime("%Y-%m-%d")
+                # Actualizar informe
+                try:
+                    project_root = Path(__file__).parent.parent
+                    report_file = project_root / "reports" / f"{target_date}.json"
+                    
+                    if report_file.exists():
+                        with open(report_file, 'r', encoding='utf-8') as f:
+                            report = json.load(f)
+                        
+                        report["message"] = edited_message
+                        report["status"] = "updated"
+                        report["updated_at"] = datetime.now().isoformat()
+                        
+                        with open(report_file, 'w', encoding='utf-8') as f:
+                            json.dump(report, f, indent=2, ensure_ascii=False)
+                        
+                        print("   ✅ Informe actualizado")
+                    else:
+                        print("   ⚠️  No se encontró el archivo de informe")
+                except Exception as e:
+                    print(f"   ⚠️  Error al actualizar informe: {e}")
                 
-                # Si hay un archivo de reporte, abrirlo
-                project_root = Path(__file__).parent.parent
-                report_file = project_root / "reports" / f"{target_date}.json"
-                
-                if report_file.exists():
-                    # Usar el script edit-report.py
-                    edit_script = project_root / "scripts" / "edit-report.py"
-                    subprocess.run([sys.executable, str(edit_script), "--date", target_date])
-                    print("   ✅ Editor cerrado. Si guardaste cambios, el informe fue actualizado.")
-                    print("   💡 Para publicar el informe editado:")
-                    print(f"      python3 scripts/publish-approved-report.py --date {target_date}")
+                # Publicar automáticamente en grupo público
+                public_chat_id = os.getenv("TELEGRAM_PUBLIC_CHAT_ID")
+                if public_chat_id:
+                    print(f"📤 Publicando mensaje editado en grupo público ({public_chat_id})...")
+                    try:
+                        publish_message(bot, public_chat_id, edited_message)
+                        print("   ✅ Mensaje editado publicado en grupo público")
+                    except Exception as e:
+                        print(f"   ❌ Error al publicar: {e}")
+                        print("   ⚠️  Usa: python3 scripts/publish-approved-report.py para publicar manualmente")
                 else:
-                    print("   ⚠️  No se encontró el archivo de informe para editar")
-                    print("   💡 Edita el mensaje manualmente y luego publícalo")
-            except Exception as e:
-                print(f"   ⚠️  No se pudo abrir el editor automáticamente: {e}")
-                print("   💡 Edita el mensaje manualmente y luego publícalo")
+                    print("⚠️  No se especificó TELEGRAM_PUBLIC_CHAT_ID")
+                    print("   Usa: python3 scripts/publish-approved-report.py para publicar manualmente")
+            else:
+                print("\n⏱️  No se recibió mensaje editado (timeout)")
+                print("   💡 Puedes editar el informe manualmente y luego publicarlo")
         
         elif response is None:
             print("\n⏱️  No se recibió respuesta (timeout o interrupción)")
