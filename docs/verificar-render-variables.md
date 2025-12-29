@@ -13,15 +13,15 @@ Guía para verificar y configurar correctamente las variables de entorno en Rend
 
 ```
 TELEGRAM_BOT_TOKEN = tu_token_completo
-TELEGRAM_PREVIEW_CHAT_ID = tu_chat_privado_id
-TELEGRAM_PUBLIC_CHAT_ID = tu_grupo_publico_id
+TELEGRAM_PREVIEW_CHAT_ID = TU_CHAT_PRIVADO_ID
+TELEGRAM_PUBLIC_CHAT_ID = TU_GRUPO_PUBLICO_ID
 NEWSAPI_KEY = tu_newsapi_key
 ```
 
 ### Cómo Verificar los Valores:
 
 **TELEGRAM_BOT_TOKEN:**
-- Debe ser el token completo del bot (ej: `***REMOVED***`)
+- Debe ser el token completo del bot
 - Obtenerlo de @BotFather en Telegram
 
 **TELEGRAM_PREVIEW_CHAT_ID:**

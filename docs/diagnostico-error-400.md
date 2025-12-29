@@ -16,7 +16,7 @@ Guía para diagnosticar y resolver el error 400 al publicar en el grupo público
 
 **Solución**:
 - Verifica que `TELEGRAM_PUBLIC_CHAT_ID` en Render sea correcto
-- Debe ser un número negativo para grupos (ej: `-5227996854`)
+- Debe ser un número negativo para grupos (ej: `-1001234567890`)
 - No debe tener espacios ni caracteres extra
 
 **Cómo verificar**:
@@ -74,7 +74,7 @@ Asegúrate de:
 
 1. Ve a Render → Tu servicio → **Environment**
 2. Verifica `TELEGRAM_PUBLIC_CHAT_ID`:
-   - Debe ser el número completo (ej: `-5227996854`)
+   - Debe ser el número completo (ej: `-1001234567890`)
    - Sin espacios
    - Sin comillas
    - Debe empezar con `-` si es un grupo
