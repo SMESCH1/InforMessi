@@ -34,6 +34,35 @@ except ImportError:
 
 def get_chat_id(token: str):
     """Obtiene el chat ID del último mensaje recibido"""
+    # Primero verificar si hay webhook configurado
+    webhook_url = f"https://api.telegram.org/bot{token}/getWebhookInfo"
+    try:
+        webhook_response = requests.get(webhook_url, timeout=10)
+        webhook_data = webhook_response.json()
+        if webhook_data.get("ok") and webhook_data.get("result", {}).get("url"):
+            webhook_info = webhook_data["result"]
+            print("⚠️  Webhook detectado (esto causa el error 409)")
+            print(f"   URL: {webhook_info.get('url')}")
+            print()
+            print("💡 Soluciones:")
+            print()
+            print("Opción 1: Eliminar webhook temporalmente")
+            print("   python3 scripts/setup-webhook.py --remove")
+            print("   python3 scripts/get-telegram-chat-id.py")
+            print("   python3 scripts/setup-webhook.py --webhook-url https://informessi-webhook.onrender.com")
+            print()
+            print("Opción 2: Usar @userinfobot en Telegram")
+            print("   - Agrega @userinfobot al grupo/canal")
+            print("   - El bot te mostrará el Chat ID")
+            print()
+            print("Opción 3: Revisar logs de Render")
+            print("   - Envía un mensaje al bot en el grupo")
+            print("   - Ve a Render → Tu servicio → Logs")
+            print("   - Busca 'chat_id' en los logs del webhook")
+            return None
+    except:
+        pass  # Si falla, continuar con getUpdates
+    
     url = f"https://api.telegram.org/bot{token}/getUpdates"
     
     try:
@@ -42,7 +71,19 @@ def get_chat_id(token: str):
         data = response.json()
         
         if not data.get("ok"):
-            print(f"❌ Error: {data.get('description', 'Unknown error')}")
+            error_desc = data.get('description', 'Unknown error')
+            print(f"❌ Error: {error_desc}")
+            
+            # Si es error 409, explicar mejor
+            if "409" in str(response.status_code) or "conflict" in error_desc.lower():
+                print()
+                print("💡 Este error ocurre porque hay un webhook activo.")
+                print("   Telegram no permite usar getUpdates cuando hay webhook.")
+                print()
+                print("   Soluciones:")
+                print("   1. Elimina el webhook temporalmente:")
+                print("      python3 scripts/setup-webhook.py --remove")
+                print("   2. O usa @userinfobot en Telegram para obtener el Chat ID")
             return None
         
         updates = data.get("result", [])

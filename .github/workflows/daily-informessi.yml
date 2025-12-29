@@ -56,6 +56,15 @@ jobs:
           echo "✅ Informe enviado a Telegram para revisión"
           echo "💡 Revisa el mensaje en tu chat privado y aprueba/rechaza cuando puedas"
       
+      - name: Publicación automática de respaldo (si no hay aprobación)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_PUBLIC_CHAT_ID: ${{ secrets.TELEGRAM_PUBLIC_CHAT_ID }}
+        run: |
+          # Verificar informes de los últimos 3 días que no fueron publicados
+          # Si pasaron más de 2 horas desde la actualización, publicar automáticamente
+          python3 scripts/auto-publish-fallback.py --check-all --hours 2 || echo "⚠️  Error en publicación automática, continuando..."
+      
       - name: Commit y push cambios
         run: |
           git config --local user.email "action@github.com"

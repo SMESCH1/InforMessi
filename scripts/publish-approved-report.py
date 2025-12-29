@@ -149,6 +149,13 @@ def main():
         with open(report_file, 'w', encoding='utf-8') as f:
             json.dump(report, f, indent=2, ensure_ascii=False)
         
+        # Actualizar base de datos de memoria
+        try:
+            from update_memory_db import update_memory_for_report
+            update_memory_for_report(target_date)
+        except:
+            pass  # No crítico si falla
+        
         print("")
         print("=" * 50)
         print("✅ Informe publicado y marcado como publicado")
