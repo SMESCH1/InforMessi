@@ -70,17 +70,21 @@ flowchart TD
 
 ### 4. Revisión Humana
 
-- **Canal**: Telegram privado o Notion
+- **Canal actual**: Telegram privado (✅ implementado)
+- **Canal futuro**: Notion (planificado, ver `docs/future-features.md`)
 - **Proceso**:
-  1. Preview del mensaje generado
-  2. Opción de aprobar, rechazar o editar
-  3. Si se edita, actualización y publicación
+  1. Preview del mensaje generado (Telegram)
+  2. Opción de aprobar, rechazar o editar (botones inline)
+  3. Si se edita: edición manual externa, luego publicación manual o reenvío
 - **Tiempo**: Sin límite (pero workflow espera respuesta)
+- **Nota sobre edición**: Actualmente la edición es manual (copiar, editar, publicar). Notion permitiría edición inline en el futuro.
 
 ### 5. Publicación
 
-- **Canales**:
-  - Telegram (principal)
+- **Canales actuales**:
+  - Telegram (✅ implementado)
+- **Canales futuros**:
+  - WhatsApp (whatsmeow) - ver `docs/future-features.md`
   - X / Twitter (adaptado)
   - Instagram (adaptado)
 - **Formato**: Texto plano, con imagen opcional
@@ -136,9 +140,10 @@ flowchart TD
 
 ### Implementación
 
-- **Canal de preview**: Telegram bot con botones interactivos
+- **Canal de preview**: Telegram bot con botones interactivos (actual)
 - **Tiempo de espera**: Sin límite (pero puede configurarse timeout)
-- **Edición**: Manual en Telegram o Notion, luego re-publicación
+- **Edición actual**: Manual externa (copiar, editar, publicar)
+- **Edición futura**: Notion permitiría edición inline (ver `docs/future-features.md`)
 
 ## Escalabilidad
 

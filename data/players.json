@@ -1,0 +1,77 @@
+{
+  "description": "Jugadores de la Scaloneta para secciones semanales",
+  "schema_version": "1.0",
+  "players": [
+    {
+      "name": "Lionel Messi",
+      "position": "Delantero",
+      "club": "Inter Miami",
+      "age": 37,
+      "notes": "Capitán, máximo goleador histórico"
+    },
+    {
+      "name": "Ángel Di María",
+      "position": "Delantero",
+      "club": "Benfica",
+      "age": 36,
+      "notes": "Experiencia mundialista, clave en títulos"
+    },
+    {
+      "name": "Emiliano Martínez",
+      "position": "Arquero",
+      "club": "Aston Villa",
+      "age": 32,
+      "notes": "Arquero titular, héroe en penales"
+    },
+    {
+      "name": "Cristian Romero",
+      "position": "Defensor",
+      "club": "Tottenham",
+      "age": 26,
+      "notes": "Defensor central clave"
+    },
+    {
+      "name": "Rodrigo De Paul",
+      "position": "Volante",
+      "club": "Atlético Madrid",
+      "age": 30,
+      "notes": "Mediocampista de contención"
+    },
+    {
+      "name": "Nicolás Otamendi",
+      "position": "Defensor",
+      "club": "Benfica",
+      "age": 36,
+      "notes": "Experiencia y liderazgo en defensa"
+    },
+    {
+      "name": "Alexis Mac Allister",
+      "position": "Volante",
+      "club": "Liverpool",
+      "age": 25,
+      "notes": "Mediocampista creativo"
+    },
+    {
+      "name": "Lautaro Martínez",
+      "position": "Delantero",
+      "club": "Inter",
+      "age": 27,
+      "notes": "Goleador, referente ofensivo"
+    },
+    {
+      "name": "Julian Álvarez",
+      "position": "Delantero",
+      "club": "Manchester City",
+      "age": 24,
+      "notes": "Joven promesa, versatilidad"
+    },
+    {
+      "name": "Nicolás Tagliafico",
+      "position": "Defensor",
+      "club": "Lyon",
+      "age": 32,
+      "notes": "Lateral izquierdo experimentado"
+    }
+  ]
+}
+

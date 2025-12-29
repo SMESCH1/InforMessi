@@ -43,11 +43,10 @@ Cada mensaje debe incluir (en orden flexible):
 
 1. Saludo breve
 2. Cuenta regresiva al Mundial 2026
-3. Clima (AMBA y La Plata, con un link al clima en otras partes de Argentina)
-4. Bloque principal del día (evento relevante)
-5. Bloque Argentina (selección, jugador, historia)
-6. Dato del día (mundial, país sede, cultura)
-7. Cierre con frase ritual
+3. Bloque principal del día (evento relevante)
+4. Bloque Argentina (selección, jugador, historia)
+5. Dato del día (mundial, país sede, cultura)
+6. Cierre con frase ritual
 
 ## Frase Ritual de Cierre
 

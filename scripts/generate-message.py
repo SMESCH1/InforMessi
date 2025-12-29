@@ -22,12 +22,7 @@ def load_prompt(filename):
         raise FileNotFoundError(f"Prompt no encontrado: {filename}")
     return filepath.read_text(encoding='utf-8')
 
-def load_mock_data(filename="mock-data.json"):
-    """Carga datos mock desde data/"""
-    filepath = DATA_DIR / filename
-    if not filepath.exists():
-        raise FileNotFoundError(f"Datos mock no encontrados: {filename}")
-    return json.loads(filepath.read_text(encoding='utf-8'))
+# Función load_mock_data removida - ahora se carga directamente desde archivo JSON
 
 def calculate_days_remaining(mundial_date, current_date):
     """Calcula días restantes hasta el Mundial"""
@@ -41,6 +36,33 @@ def build_prompt(data):
     # Cargar prompts
     system_prompt = load_prompt("system-prompt.md")
     main_prompt = load_prompt("main-editorial.md")
+    
+    # Agregar RAG de estilo desde informes editados
+    sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from rag_style_learning import get_style_context
+        style_context = get_style_context()
+    except (ImportError, Exception) as e:
+        style_context = ""  # Si no se puede importar, continuar sin RAG
+    
+    # Agregar RAG de memoria para evitar repeticiones (base de datos persistente)
+    try:
+        from rag_memory_database import build_memory_context_from_db
+        memory_context = build_memory_context_from_db(data["date"])
+    except (ImportError, Exception) as e:
+        # Fallback al sistema anterior si no está disponible
+        try:
+            from rag_memory_system import build_memory_context
+            memory_context = build_memory_context(data["date"], days_back=30)
+        except:
+            memory_context = ""
+    
+    # Agregar sección semanal según el día
+    try:
+        from generate_weekly_sections import build_weekly_section_prompt
+        weekly_section = build_weekly_section_prompt(data["date"])
+    except ImportError:
+        weekly_section = ""  # Si no se puede importar, continuar sin sección especial
     
     # Calcular días restantes
     days_remaining = calculate_days_remaining(
@@ -67,11 +89,30 @@ def build_prompt(data):
     
     # Formatear noticias
     news_text = "No hay noticias relevantes del día."
-    if data["news"]:
+    if data.get("news"):
         news_list = []
         for news in data["news"]:
-            news_list.append(f"- {news['title']}: {news['summary']}")
+            # Usar 'description' si existe, sino 'title' solo
+            desc = news.get("description", news.get("title", ""))
+            source = news.get("source", "Sin fuente")
+            news_list.append(f"- {news['title']}: {desc[:150]} ({source})")
         news_text = "\n".join(news_list)
+    
+    # Detectar contenido audiovisual
+    sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from detect_media import get_media_for_date
+        media = get_media_for_date(data["date"])
+        media_context = ""
+        if media and media.get("has_media"):
+            media_context = f"\n### Contenido Visual Disponible\n"
+            if media.get("images"):
+                media_context += f"Hay {len(media['images'])} imagen(es) disponible(s) para este día.\n"
+            if media.get("videos"):
+                media_context += f"Hay {len(media['videos'])} video(s) disponible(s) para este día.\n"
+            media_context += "Menciona el contenido visual en el mensaje si es relevante y apropiado.\n"
+    except (ImportError, Exception):
+        media_context = ""
     
     # Construir prompt con datos
     prompt = f"""{system_prompt}
@@ -83,15 +124,16 @@ def build_prompt(data):
 ### Datos del Día
 - **Fecha**: {data['date']}
 - **Días restantes al Mundial 2026**: {days_remaining} días
-- **Clima AMBA**: min {data['weather']['amba']['min']}° / max {data['weather']['amba']['max']}°
-- **Clima La Plata**: min {data['weather']['la_plata']['min']}° / max {data['weather']['la_plata']['max']}°
-- **Link clima Argentina**: {data['weather']['link_argentina']}
 
 ### Eventos del Día
 {events_text}
 
 ### Noticias Relevantes
 {news_text}
+{weekly_section}
+{media_context}
+{memory_context}
+{style_context}
 """
     
     return prompt
@@ -136,8 +178,8 @@ def main():
     )
     parser.add_argument(
         "--data",
-        default="mock-data.json",
-        help="Archivo de datos mock a usar (default: mock-data.json)"
+        required=True,
+        help="Archivo JSON con datos del día"
     )
     parser.add_argument(
         "--model",
@@ -160,12 +202,18 @@ def main():
     print("=" * 50)
     
     # Cargar datos
-    print(f"📂 Cargando datos mock: {args.data}")
-    data = load_mock_data(args.data)
+    data_path = Path(args.data)
+    if not data_path.exists():
+        print(f"❌ Archivo no encontrado: {data_path}")
+        sys.exit(1)
+    
+    print(f"📂 Cargando datos: {data_path}")
+    with open(data_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
     print(f"   Fecha: {data['date']}")
     print(f"   Días restantes: {calculate_days_remaining(data['mundial_2026_start'], data['date'])}")
-    print(f"   Eventos: {len(data['events'])}")
-    print(f"   Noticias: {len(data['news'])}")
+    print(f"   Eventos: {len(data.get('events', []))}")
+    print(f"   Noticias: {len(data.get('news', []))}")
     
     # Construir prompt
     print("\n📝 Construyendo prompt...")

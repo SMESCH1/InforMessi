@@ -11,11 +11,6 @@ Buenos días 🇦🇷
 
 Faltan 247 días para el Mundial 2026.
 
-🌤 Clima
-AMBA: min 12° / max 18°
-La Plata: min 10° / max 16°
-Clima en otras partes de Argentina: https://ejemplo.com/clima-argentina
-
 Hoy cumple 37 años Lionel Messi. El capitán de la Scaloneta sigue siendo la referencia mundial del fútbol y prepara su sexta participación en un Mundial. Un legado que trasciende estadísticas.
 
 La selección argentina continúa su preparación para defender el título en 2026. Con Scaloni al mando, el equipo mantiene la base campeona y suma nuevas caras que aportan frescura al proyecto.
@@ -30,7 +25,7 @@ Coronados de gloria vivamos
 - Centra el mensaje en el evento del día (cumpleaños de Messi)
 - Mantiene el tono editorial, no exagerado
 - Integra el evento con el contexto del Mundial
-- Respeta la estructura de 7 bloques
+- Respeta la estructura de 6 bloques
 - Longitud apropiada (~110 palabras)
 
 ---
@@ -41,11 +36,6 @@ Coronados de gloria vivamos
 Buenos días 🇦🇷
 
 Faltan 180 días para el Mundial 2026.
-
-🌤 Clima
-AMBA: min 8° / max 15°
-La Plata: min 6° / max 13°
-Clima en otras partes de Argentina: https://ejemplo.com/clima-argentina
 
 Hoy la selección argentina juega un amistoso contra Brasil en el Maracaná. Es el último encuentro antes de que Scaloni defina la lista para el Mundial. Todos los ojos están puestos en los jugadores que buscan su lugar.
 
@@ -73,11 +63,6 @@ Buenos días 🇦🇷
 
 Faltan 320 días para el Mundial 2026.
 
-🌤 Clima
-AMBA: min 15° / max 22°
-La Plata: min 13° / max 20°
-Clima en otras partes de Argentina: https://ejemplo.com/clima-argentina
-
 La FIFA confirmó ayer los horarios de los partidos de la fase de grupos. Argentina debutará el 12 de junio a las 20:00 hora local en el estadio de Nueva York. El sorteo definirá a los rivales en los próximos meses.
 
 La selección argentina sigue trabajando en el predio de Ezeiza. Scaloni evalúa variantes tácticas y prueba nuevos nombres que podrían sumarse al proyecto mundialista. La competencia por los lugares es intensa.
@@ -104,11 +89,6 @@ Buenos días 🇦🇷
 
 Faltan 95 días para el Mundial 2026.
 
-🌤 Clima
-AMBA: min 5° / max 12°
-La Plata: min 3° / max 10°
-Clima en otras partes de Argentina: https://ejemplo.com/clima-argentina
-
 Scaloni anunció ayer la lista preliminar de 55 jugadores para el Mundial. La novedad es la inclusión de tres nombres que no estaban en el radar: un defensor de la liga local y dos jóvenes que vienen de buenas temporadas en Europa.
 
 La base campeona sigue siendo el núcleo. Messi, Di María, Martínez y el resto del grupo histórico mantienen sus lugares. La competencia por los 26 lugares finales será feroz en los próximos meses.
@@ -134,11 +114,6 @@ Buenos días 🇦🇷
 
 Faltan 200 días para el Mundial 2026.
 
-🌤 Clima
-AMBA: min 10° / max 17°
-La Plata: min 8° / max 15°
-Clima en otras partes de Argentina: https://ejemplo.com/clima-argentina
-
 Hoy se conmemora el Día de la Bandera. La selección argentina siempre ha llevado la celeste y blanca con orgullo en los Mundiales, y 2026 no será la excepción. La Scaloneta representa a todo un país.
 
 La preparación continúa en Ezeiza. Los jugadores saben que defender el título conlleva una responsabilidad histórica. Cada entrenamiento cuenta para llegar en el mejor nivel a Norteamérica.
@@ -159,7 +134,7 @@ Coronados de gloria vivamos
 
 ## Características Comunes de los Buenos Ejemplos
 
-1. **Estructura completa**: Los 7 bloques están presentes
+1. **Estructura completa**: Los 6 bloques están presentes
 2. **Longitud apropiada**: Entre 90-130 palabras
 3. **Tono consistente**: Editorial, argentino, cercano
 4. **Datos reales**: No inventan información

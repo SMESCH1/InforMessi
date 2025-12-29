@@ -1,0 +1,1070 @@
+{
+  "description": "Eventos históricos scrapeados de Wikipedia",
+  "schema_version": "1.0",
+  "events": [
+    {
+      "date": "2026-01-07",
+      "type": "historical",
+      "priority": "low",
+      "description": "2000:Marcus Scribner, actor estadounidense.Renzo Giampaoli, futbolista argentino.Lea Friedrich, ciclista alemana.José Manuel Calderón Portillo, futbolista español.Jorge Valín, futbolista español.Rosar",
+      "historical_year": "2000",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/7_de_enero"
+    },
+    {
+      "date": "2026-01-07",
+      "type": "historical",
+      "priority": "low",
+      "description": "2003:Vicente Conelli, futbolista chileno.Félix Nzouango, futbolista francés.Máximo Perrone, futbolista argentino.Yegor Parkhomenko, futbolista bielorruso.Diego González Alcaraz, futbolista paraguayo.R",
+      "historical_year": "2003",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/7_de_enero"
+    },
+    {
+      "date": "2026-01-07",
+      "type": "historical",
+      "priority": "low",
+      "description": "Estefanía Palomar, futbolista argentina.",
+      "historical_year": null,
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/7_de_enero"
+    },
+    {
+      "date": "2026-01-09",
+      "type": "historical",
+      "priority": "low",
+      "description": "2012: enZúrich(Suiza),Lionel Messigana su tercerBalón de Oropor sobreCristiano RonaldoyXavi Hernández. Iguala así aJohan Cruyff,Marco van BastenyMichel Platinien el número de trofeos.",
+      "historical_year": "2012",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/9_de_enero"
+    },
+    {
+      "date": "2026-01-11",
+      "type": "historical",
+      "priority": "low",
+      "description": "2016: enZúrich(Suiza), Lionel Messi recibe su quinto Balón de Oro.",
+      "historical_year": "2016",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/11_de_enero"
+    },
+    {
+      "date": "2026-01-14",
+      "type": "historical",
+      "priority": "low",
+      "description": "1985: El argentinoEmilio Scotto, salió de su casa enBuenos Airesy 10 años después, el 2 de abril de 1995, se convierte en elRécord mundialdel viaje más largo en motocicleta. Durante 10 años, 2 meses y",
+      "historical_year": "1985",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/14_de_enero"
+    },
+    {
+      "date": "2026-01-14",
+      "type": "historical",
+      "priority": "low",
+      "description": "1995:Esteban Laureano Maradona, médico argentino (n. 1895).",
+      "historical_year": "1995",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/14_de_enero"
+    },
+    {
+      "date": "2026-01-18",
+      "type": "historical",
+      "priority": "low",
+      "description": "2020: en la ciudad argentina deVilla Gesell(provincia de Buenos Aires), un grupo de 8 rugbistasasesinan a golpes a Fernando Báez Sosa.",
+      "historical_year": "2020",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/18_de_enero"
+    },
+    {
+      "date": "2026-01-18",
+      "type": "historical",
+      "priority": "low",
+      "description": "2021: a la 1:15 a. m., en laciudad de San Juan (Argentina),Boca Juniorsse impone en los penales anteBánfield, saliendo campeón de laCopa Diego Armando Maradona.[1]​",
+      "historical_year": "2021",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/18_de_enero"
+    },
+    {
+      "date": "2026-01-20",
+      "type": "historical",
+      "priority": "low",
+      "description": "2000:Milagros Pagliero, futbolista argentina.",
+      "historical_year": "2000",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/20_de_enero"
+    },
+    {
+      "date": "2026-01-22",
+      "type": "historical",
+      "priority": "low",
+      "description": "1999:Luana Florencia Muñoz, futbolista argentina.",
+      "historical_year": "1999",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/22_de_enero"
+    },
+    {
+      "date": "2026-02-01",
+      "type": "historical",
+      "priority": "low",
+      "description": "2007:Lucía Almada, futbolista argentina.",
+      "historical_year": "2007",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/1_de_febrero"
+    },
+    {
+      "date": "2026-02-03",
+      "type": "historical",
+      "priority": "low",
+      "description": "1930: laReal Federación Española de Fútbolacuerda no participar en el Campeonato Mundial deMontevideo.",
+      "historical_year": "1930",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/3_de_febrero"
+    },
+    {
+      "date": "2026-02-03",
+      "type": "historical",
+      "priority": "low",
+      "description": "1999:Alejandra Giménez, futbolista argentina.",
+      "historical_year": "1999",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/3_de_febrero"
+    },
+    {
+      "date": "2026-02-11",
+      "type": "historical",
+      "priority": "low",
+      "description": "1998:María Sol Benzaquen, futbolista argentina.",
+      "historical_year": "1998",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/11_de_febrero"
+    },
+    {
+      "date": "2026-02-13",
+      "type": "historical",
+      "priority": "low",
+      "description": "1921:Jeanne Demessieux, pianista y compositora francesa (f. 1968).",
+      "historical_year": "1921",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/13_de_febrero"
+    },
+    {
+      "date": "2026-02-18",
+      "type": "historical",
+      "priority": "low",
+      "description": "Argentina:Misiones:Día Provincial de Sensibilización sobre elSíndrome de Asperger.[11]​LaCámara de Representantesinstituyó esta fecha en coincidencia con la conmemoración mundial. La norma rige desde ",
+      "historical_year": "2020",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/18_de_febrero"
+    },
+    {
+      "date": "2026-02-23",
+      "type": "historical",
+      "priority": "low",
+      "description": "1995:Marilyn Esquivel, futbolista argentina.",
+      "historical_year": "1995",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/23_de_febrero"
+    },
+    {
+      "date": "2026-02-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "1994:Victoria Tanco, golfista argentina.",
+      "historical_year": "1994",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_febrero"
+    },
+    {
+      "date": "2026-02-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "2015:Nuccio Messina, periodista italiano (n. 1929).",
+      "historical_year": "2015",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_febrero"
+    },
+    {
+      "date": "2026-03-10",
+      "type": "historical",
+      "priority": "low",
+      "description": "1936:Joseph Blatter, administrador suizo,presidente de la FIFAentre 1998 y 2015.",
+      "historical_year": "1936",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/10_de_marzo"
+    },
+    {
+      "date": "2026-03-11",
+      "type": "historical",
+      "priority": "low",
+      "description": "1976: enSalta (Argentina), once días antes del golpe de Estado contra la presidenta constitucionalIsabel Martínez de Perón, la banda paramilitarultraconservadoraterroristaTriple Asecuestra, tortura y ",
+      "historical_year": "1976",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/11_de_marzo"
+    },
+    {
+      "date": "2026-03-18",
+      "type": "historical",
+      "priority": "low",
+      "description": "1781:Charles Messierdescubre el objeto estelarM92.",
+      "historical_year": null,
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/18_de_marzo"
+    },
+    {
+      "date": "2026-03-18",
+      "type": "historical",
+      "priority": "low",
+      "description": "1962: enArgentina, tras siete años de dictadura, se levanta la prohibición delPartido Peronista. Entonces el peronismo ganó en las cinco provincias en que se celebraron elecciones a gobernador provinc",
+      "historical_year": "1962",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/18_de_marzo"
+    },
+    {
+      "date": "2026-03-18",
+      "type": "historical",
+      "priority": "low",
+      "description": "1985: en el pueblo deAcerra, 15 km al noreste de Nápoles (Italia), el futbolista argentinoDiego Maradona―apenas medio año después de aterrizar en Nápoles― juega un partido clandestino para colectar fo",
+      "historical_year": "1985",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/18_de_marzo"
+    },
+    {
+      "date": "2026-03-18",
+      "type": "historical",
+      "priority": "low",
+      "description": "↑Jiménez, Juan (2022):«El día que Maradona bajó al fango en Acerra  Aseguró sus piernas en el Lloyds Bank británico por 12 millones de liras y jugó sin permiso de Ferlaino un amistoso que salvó la vid",
+      "historical_year": "2022",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/18_de_marzo"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "2025: En elMonumental,Argentina, por primera en la historiaBrasilpierde porgoleadaen lasEliminatorias Conmeboltras caer por 4 a 1 conArgentina. A su vez,Lionel Scalonise convierte en el primer entrena",
+      "historical_year": "2025",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_marzo"
+    },
+    {
+      "date": "2026-03-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "1961:Arthur Drewry, dirigente deportivo británico,Presidente de la FIFAentre 1955 y 1961 (n. 1891).",
+      "historical_year": "1961",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_marzo"
+    },
+    {
+      "date": "2026-04-01",
+      "type": "historical",
+      "priority": "low",
+      "description": "Argentina:Día Nacional del Donante de Médula Ósea.[10]​[11]​Se celebra el aniversario de la puesta en funcionamiento del Registro Nacional de Donantes de Células Progenitoras Hematopoyéticas (CPH) del",
+      "historical_year": null,
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/1_de_abril"
+    },
+    {
+      "date": "2026-04-20",
+      "type": "historical",
+      "priority": "low",
+      "description": "1994: enArgentina, laAsociación del Fútbol Argentino, inaugura elestadio El Gigante del NortedelClub de Gimnasia y Tiro de Saltacon un partido amistoso entreArgentinayMarruecos.",
+      "historical_year": "1994",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/20_de_abril"
+    },
+    {
+      "date": "2026-04-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "1895:Stanley Rous, árbitro y dirigente de fútbol británico,presidente de la FIFAentre 1961 y 1974 (f. 1986).",
+      "historical_year": "1961",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_abril"
+    },
+    {
+      "date": "2026-05-01",
+      "type": "historical",
+      "priority": "low",
+      "description": "2005:Lionel Messimarca su primer gol como jugador profesional en el primer equipo delF.C Barcelona",
+      "historical_year": "2005",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/1_de_mayo"
+    },
+    {
+      "date": "2026-05-01",
+      "type": "historical",
+      "priority": "low",
+      "description": "1998:Juliana Berardo, futbolista argentina.",
+      "historical_year": "1998",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/1_de_mayo"
+    },
+    {
+      "date": "2026-05-13",
+      "type": "historical",
+      "priority": "low",
+      "description": "Día Mundial delentrenador de fútbol.En homenaje a los profesionales cuya labor es clave en la formación de equipos y sus estrategias. La fecha fue elegida en honor al escocésAlexander Ferguson, DT del",
+      "historical_year": "2013",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/13_de_mayo"
+    },
+    {
+      "date": "2026-05-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "Día Mundial delFútbol.[1]​De acuerdo con la resolución de laOrganización de las Naciones UnidasA/RES/78/281, se declaró elDía Mundial del Fútbol[2]​el 25 de mayo para reconocer\"el alcance global del f",
+      "historical_year": null,
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_mayo"
+    },
+    {
+      "date": "2026-05-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "↑FIFA(23 de mayo de 2024).«La Organización de las Naciones Unidas (ONU) adoptó recientemente por unanimidad una resolución para proclamar el Día Mundial del Fútbol». Consultado el 23 de mayo de 2024.",
+      "historical_year": "2024",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_mayo"
+    },
+    {
+      "date": "2026-05-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "↑Primera Edición (diario)(25 de mayo de 2025).«Por qué se celebra hoy el Día Mundial del Fútbol ● La efeméride, de muy reciente creación, se conmemora cada 25 de mayo por impulso de la ONU». Consultad",
+      "historical_year": "2025",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_mayo"
+    },
+    {
+      "date": "2026-06-03",
+      "type": "historical",
+      "priority": "low",
+      "description": "1962: enArica (Chile)―en laCopa Mundial de la FIFA― se anota el primergol olímpicoen un mundial. Lo anota el colombianoMarcos Coll.",
+      "historical_year": "1962",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/3_de_junio"
+    },
+    {
+      "date": "2026-06-10",
+      "type": "historical",
+      "priority": "low",
+      "description": "1998: enFranciase inaugura elMundial de Fútbol.",
+      "historical_year": "1998",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/10_de_junio"
+    },
+    {
+      "date": "2026-06-14",
+      "type": "historical",
+      "priority": "low",
+      "description": "2018: enRusiacomienza laCopa Mundial de Fútbol de 2018.",
+      "historical_year": "2018",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/14_de_junio"
+    },
+    {
+      "date": "2026-06-14",
+      "type": "historical",
+      "priority": "low",
+      "description": "2022:Costa Ricavence 1-0 aNueva Zelanday gana laRepesca Concacaf-OFC por la clasificación para la Copa Mundial de Fútbol de 2022.",
+      "historical_year": "2022",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/14_de_junio"
+    },
+    {
+      "date": "2026-06-14",
+      "type": "historical",
+      "priority": "low",
+      "description": "2025: Comienza la vigesimoprimera y la primera edición de un formato ampliado de 32 clubes de las 6 confederaciones continentales de laCopa Mundial de Clubes de la FIFA 2025.",
+      "historical_year": "2025",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/14_de_junio"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "historical",
+      "priority": "low",
+      "description": "1982: durante la celebración de laCopa Mundial de Fútboltiene lugar la derrota más grande de la historia de estos juegos hasta la fecha:El Salvadorpierde anteHungríapor 1 a 10.",
+      "historical_year": "1982",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/15_de_junio"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "historical",
+      "priority": "low",
+      "description": "2013: enBrasilcomienza laCopa FIFA Confederacionesde Fútbol Brasil 2013.",
+      "historical_year": "2013",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/15_de_junio"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "historical",
+      "priority": "low",
+      "description": "2025: Comienza laCopa Mundial de Clubes de la FIFA de 2025, enEstados Unidos.",
+      "historical_year": "2025",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/15_de_junio"
+    },
+    {
+      "date": "2026-06-15",
+      "type": "historical",
+      "priority": "low",
+      "description": "1852:Daniel Burley Woolfall,Presidente de la FIFAentre 1906 y 1918 (f. 1918).",
+      "historical_year": "1906",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/15_de_junio"
+    },
+    {
+      "date": "2026-06-20",
+      "type": "historical",
+      "priority": "low",
+      "description": "1867: enBuenos Aires(Argentina) se juega elprimer partidodefútbolen ese país.",
+      "historical_year": null,
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/20_de_junio"
+    },
+    {
+      "date": "2026-06-20",
+      "type": "historical",
+      "priority": "low",
+      "description": "2007: ElClub Atlético Boca JuniorsdeArgentinavence por 2 goles a 0 alGrêmiodeBrasilen la vuelta de la final de laCopa Libertadores, para así ganar por un total global de 5 a 0 y llevarse su sexto títu",
+      "historical_year": "2007",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/20_de_junio"
+    },
+    {
+      "date": "2026-07-01",
+      "type": "historical",
+      "priority": "low",
+      "description": "2012: laselección de fútbol de Españagana laUEFA Euro 2012celebrada en Polonia y Ucrania, siendo la primera selección de fútbol de la historia que logra conseguir dos títulos continentales consecutivo",
+      "historical_year": "2012",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/1_de_julio"
+    },
+    {
+      "date": "2026-07-04",
+      "type": "historical",
+      "priority": "low",
+      "description": "2015: Laselección de fútbol de Chilegana laCopa Américapor primera vez en su historia, al derrotar por penales aArgentina.",
+      "historical_year": "2015",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/4_de_julio"
+    },
+    {
+      "date": "2026-07-04",
+      "type": "historical",
+      "priority": "low",
+      "description": "1895:Esteban Laureano Maradona, médico, naturalista y filántropo argentino (f. 1995).",
+      "historical_year": "1995",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/4_de_julio"
+    },
+    {
+      "date": "2026-07-04",
+      "type": "historical",
+      "priority": "low",
+      "description": "Argentina:Día delMédico Rural.Nacimiento delDr. Esteban Maradona.[7]​Día Nacional de la Convivencia y Pluralidad de las Expresiones Políticas.[8]​Conmemora el fraternal mensaje histórico de despedida ",
+      "historical_year": null,
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/4_de_julio"
+    },
+    {
+      "date": "2026-07-04",
+      "type": "historical",
+      "priority": "low",
+      "description": "Día delMédico Rural.Nacimiento delDr. Esteban Maradona.[7]​",
+      "historical_year": null,
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/4_de_julio"
+    },
+    {
+      "date": "2026-07-04",
+      "type": "historical",
+      "priority": "low",
+      "description": "↑Diario Primera Edición(3 de julio de 2024).«El Doctor Maradona, una oda al altruismo y la medicina rural». Consultado el 14 de enero de 2024.",
+      "historical_year": "2024",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/4_de_julio"
+    },
+    {
+      "date": "2026-07-06",
+      "type": "historical",
+      "priority": "low",
+      "description": "2000:Milagros Vargas, futbolista argentina.",
+      "historical_year": "2000",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/6_de_julio"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "historical",
+      "priority": "low",
+      "description": "1966: enInglaterrase da inicio laIX Copa Mundial de fútbol.",
+      "historical_year": "1966",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/11_de_julio"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "historical",
+      "priority": "low",
+      "description": "2010: Laselección españolade fútbol se proclama campeona delMundial de fútbolde Sudáfrica, venciendo 0-1 a la selección dePaíses Bajoscon un gol anotado en el 116' porAndrés Iniesta.",
+      "historical_year": "2010",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/11_de_julio"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "historical",
+      "priority": "low",
+      "description": "1997:Abigaíl Chaves, futbolista argentina.",
+      "historical_year": "1997",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/11_de_julio"
+    },
+    {
+      "date": "2026-07-11",
+      "type": "historical",
+      "priority": "low",
+      "description": "1997:Nicolle Durso de Leon, futbolista argentina.",
+      "historical_year": "1997",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/11_de_julio"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "historical",
+      "priority": "low",
+      "description": "1930: Comienza elPrimer Campeonato Mundial de FútbolenUruguay.",
+      "historical_year": "1930",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/13_de_julio"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "historical",
+      "priority": "low",
+      "description": "2007: final de laCopa Américajugada enVenezuela, con victoria deBrasilfrente aArgentina.",
+      "historical_year": "2007",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/13_de_julio"
+    },
+    {
+      "date": "2026-07-13",
+      "type": "historical",
+      "priority": "low",
+      "description": "2014: enBrasil,Alemaniaalcanza su 4° título deMundial de Fútbol, venciendo aArgentina1 a 0 en elEstadio MaracanádeRío de Janeiro.",
+      "historical_year": "2014",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/13_de_julio"
+    },
+    {
+      "date": "2026-07-17",
+      "type": "historical",
+      "priority": "low",
+      "description": "Argentina:Día del Investigador Neurocientífico.[8]​Por disposición del Centro de Investigaciones Neurobiológicas delMinisterio de Saludel 17 de julio, día de la llegada deChristofredo Jakobal laborato",
+      "historical_year": "1982",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/17_de_julio"
+    },
+    {
+      "date": "2026-07-18",
+      "type": "historical",
+      "priority": "low",
+      "description": "2004: en alguna ciudad de la Argentina,Carlos Sainzgana el Rally de Argentina, lo que supone su 26.ª victoria en pruebas del Mundial, récord en la historia del campeonato.",
+      "historical_year": "2004",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/18_de_julio"
+    },
+    {
+      "date": "2026-07-18",
+      "type": "historical",
+      "priority": "low",
+      "description": "1997:Micaela Cabrera, futbolista argentina.",
+      "historical_year": "1997",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/18_de_julio"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "historical",
+      "priority": "low",
+      "description": "1951: el club de fútbolSE Palmeirasvence la primera competición de clubes mundial, realizada en Brasil, el Campeonato Internacional de Clubes Campeones (Copa Río).",
+      "historical_year": "1951",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/22_de_julio"
+    },
+    {
+      "date": "2026-07-22",
+      "type": "historical",
+      "priority": "low",
+      "description": "2007: enCanadá, laSelección Argentina sub-20se consagró campeona mundial de la categoría tras derrotar en lafinala laRepública Checapor 2-1. Esta consagración significó la 6° paraLa Rrina del Fútbolen",
+      "historical_year": "2007",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/22_de_julio"
+    },
+    {
+      "date": "2026-07-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "1993:Boliviale quita el invicto histórico aBrasilen eliminatorias al Mundial de fútbol al vencer por 2 a 0.",
+      "historical_year": "1993",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_julio"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "historical",
+      "priority": "low",
+      "description": "1930: laselección uruguayase consagra como el primer campeón mundial defútbolen laCopa Mundial de Fútbol de 1930al vencer en la final a su parargentinopor 4 goles contra 2.",
+      "historical_year": "1930",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/30_de_julio"
+    },
+    {
+      "date": "2026-07-30",
+      "type": "historical",
+      "priority": "low",
+      "description": "1985:Fabiana Vallejos, futbolista argentina.",
+      "historical_year": "1985",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/30_de_julio"
+    },
+    {
+      "date": "2026-08-09",
+      "type": "historical",
+      "priority": "low",
+      "description": "1946:Issa Hayatou, dirigente deportivo y atleta camerunés,presidente interino de la FIFAentre 2015 y 2016.",
+      "historical_year": "1946",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/9_de_agosto"
+    },
+    {
+      "date": "2026-08-09",
+      "type": "historical",
+      "priority": "low",
+      "description": "2000:Justina Morcillo, futbolista argentina.",
+      "historical_year": "2000",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/9_de_agosto"
+    },
+    {
+      "date": "2026-08-13",
+      "type": "historical",
+      "priority": "low",
+      "description": "2008: en Buenos Aires (Argentina), el futbolistaMartín Palermoalcanza aFrancisco Varallocomo máximo goleador deBoca Juniorsdurante el profesionalismo con 194 goles.",
+      "historical_year": "2008",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/13_de_agosto"
+    },
+    {
+      "date": "2026-08-20",
+      "type": "historical",
+      "priority": "low",
+      "description": "2023: Laselección femenina de fútbol de Españagana su primer Mundial por 1-0 frente aInglaterraen la final del Copa Mundial de Fútbol femenino de  Australia-Nueva Zelanda 2023. El gol de la victoria f",
+      "historical_year": "2023",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/20_de_agosto"
+    },
+    {
+      "date": "2026-08-22",
+      "type": "historical",
+      "priority": "low",
+      "description": "1981:Sofía Elliot, actriz argentina.Takumi Saitō, actor y modelo japonés.Logan Pause, futbolista estadounidense.Solace Nkosi, futbolista sudafricano.",
+      "historical_year": "1981",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/22_de_agosto"
+    },
+    {
+      "date": "2026-09-01",
+      "type": "historical",
+      "priority": "low",
+      "description": "1891: en Argentina,Juan Vucetichfunda el primer laboratorio de identificación dactiloscópica; en el futuro esta fecha se establecerá como el Día Mundial de laDactiloscopía.",
+      "historical_year": null,
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/1_de_septiembre"
+    },
+    {
+      "date": "2026-09-07",
+      "type": "historical",
+      "priority": "low",
+      "description": "1979: enJapón, la Selección Juvenil deArgentinase consagra campeona de laCopa Mundial de Fútbol Juvenil.",
+      "historical_year": "1979",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/7_de_septiembre"
+    },
+    {
+      "date": "2026-09-07",
+      "type": "historical",
+      "priority": "low",
+      "description": "↑Gobierno de Argentina(7 de septiembre de 2020).«7 de septiembre ● Día Mundial de Concientización de la Distrofia Muscular de Duchenne». Consultado el 7 de septiembre de 2024.",
+      "historical_year": "2020",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/7_de_septiembre"
+    },
+    {
+      "date": "2026-09-23",
+      "type": "historical",
+      "priority": "low",
+      "description": "1973: enArgentina,Juan Domingo Perón—quien fue presidente constitucional entre 1946 y 1955, y quedó proscrito desde el golpe de Estado que lo derrocó en 1955— es electopresidentecon el 62 % de los vot",
+      "historical_year": "1973",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/23_de_septiembre"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "historical",
+      "priority": "low",
+      "description": "Argentina:Día del Guardaparque Nacional.[6]​[7]​Día del Técnico de Laboratorio.[6]​Un día como hoy de 1898 se aprobaron los planes de estudio de Mecánica, Química y Construcciones, elaborados por el i",
+      "historical_year": "1934",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/9_de_octubre"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "historical",
+      "priority": "low",
+      "description": "Día del Técnico de Laboratorio.[6]​Un día como hoy de 1898 se aprobaron los planes de estudio de Mecánica, Química y Construcciones, elaborados por el ingenieroOtto Krause. Un año después, Krause fund",
+      "historical_year": "1934",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/9_de_octubre"
+    },
+    {
+      "date": "2026-10-09",
+      "type": "historical",
+      "priority": "low",
+      "description": "Misiones:Aniversario delParque Nacional Iguazú.[6]​Instituido por laAdministración de Parques Nacionalespara homenajear a los guardaparques nacionales. Recuerda la fecha de 1934 en que se sancionó la ",
+      "historical_year": "1934",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/9_de_octubre"
+    },
+    {
+      "date": "2026-10-11",
+      "type": "historical",
+      "priority": "low",
+      "description": "2013 EnBarranquilla,ColombiaLaSelección ColombiaClasifica a laCopa Mundial de Fútbol de 2014Tras empatar en elEstadio Metropolitano Roberto Meléndez3-3 Frente a laSelección de fútbol de ChileY volver ",
+      "historical_year": "2013",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/11_de_octubre"
+    },
+    {
+      "date": "2026-10-11",
+      "type": "historical",
+      "priority": "low",
+      "description": "Argentina:Día Nacional delAsado.[9]​ En 2013 se decidió convertir a esta fecha en una efeméride por iniciativa privada de una comunidad deFacebookque hizo coincidir con la previa del 12 de octubre, fe",
+      "historical_year": "2013",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/11_de_octubre"
+    },
+    {
+      "date": "2026-10-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "1982: El presidente Belisario Betancur anuncia la renuncia de Colombia como sede de laCopa Mundial de Fútbol 1986.",
+      "historical_year": "1982",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_octubre"
+    },
+    {
+      "date": "2026-10-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "1985: enBuenos Aires(Argentina) ―tras menos de dos años de democracia desde ladictadura cívico-militar―, el presidenteRaúl Alfonsíndecreta el estado de sitio por 60 días para salir al paso deintentos ",
+      "historical_year": "1985",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_octubre"
+    },
+    {
+      "date": "2026-10-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "1997: enBuenos Aires(Argentina) el futbolistaDiego Armando Maradonajuega el último partido de su carrera profesional.",
+      "historical_year": "1997",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_octubre"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "historical",
+      "priority": "low",
+      "description": "1921: laselección argentina de fútbolgana aUruguay1 a 0 (con gol deJulio Libonatti) la final deltorneo sudamericano, primer título internacional para los argentinos.",
+      "historical_year": "1921",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/30_de_octubre"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "historical",
+      "priority": "low",
+      "description": "2022: en Argentina, el club de fútbolPatronato(de la provincia de Entre Ríos) vence 1 a 0 aTalleres de Córdobala final de laCopa Argentina 2022. El equipo entrerriano logra así el primer título de su ",
+      "historical_year": "2022",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/30_de_octubre"
+    },
+    {
+      "date": "2026-10-30",
+      "type": "historical",
+      "priority": "low",
+      "description": "Maradona1960:Diego Armando Maradona, futbolista y entrenador argentino (f. 2020).",
+      "historical_year": "2020",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/30_de_octubre"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "historical",
+      "priority": "low",
+      "description": "1934: en Argentina se unifican la Liga Argentina de Football y la Asociación Argentina de Fútbol Amateur y Profesional para formar laAsociación del Fútbol Argentino.",
+      "historical_year": "1934",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/3_de_noviembre"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "historical",
+      "priority": "low",
+      "description": "1950: en la primera Copa Mundial de Baloncesto, celebrada en Buenos Aires, la selección argentina derrota a la de Estados Unidos 64 a 50 y gana la final.",
+      "historical_year": "1950",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/3_de_noviembre"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "historical",
+      "priority": "low",
+      "description": "1757:Ferdinando Messia de Prado, astrónomo italiano (f. 1810).",
+      "historical_year": null,
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/3_de_noviembre"
+    },
+    {
+      "date": "2026-11-03",
+      "type": "historical",
+      "priority": "low",
+      "description": "1994:Messías(Messias Rodrigues da Silva Júnior), futbolista brasileño.",
+      "historical_year": "1994",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/3_de_noviembre"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "historical",
+      "priority": "low",
+      "description": "1967: enMontevideo(Uruguay),Racing Clubde Argentina vence1–0aCeltic F. C.de Escocia en elEstadio Centenario, y se consagra campeón de laCopa Intercontinental 1967. Se transforma en el primer equipo ar",
+      "historical_year": "1967",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/4_de_noviembre"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "historical",
+      "priority": "low",
+      "description": "1983:Uruguaygana su decimosegundaCopa América",
+      "historical_year": "1983",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/4_de_noviembre"
+    },
+    {
+      "date": "2026-11-04",
+      "type": "historical",
+      "priority": "low",
+      "description": "2023: enRío de Janeiro(Brasil),Fluminensede Brasil vence2–1aBoca Juniorsde Argentina en elEstadio de Maracaná, y se consagra campeón de laCopa Libertadores 2023.",
+      "historical_year": "2023",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/4_de_noviembre"
+    },
+    {
+      "date": "2026-11-09",
+      "type": "historical",
+      "priority": "low",
+      "description": "1981: enBuenos Aires(Argentina) se realiza la primera manifestación popular contra eldictadura militar argentinadesde el golpe de1976.",
+      "historical_year": "1981",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/9_de_noviembre"
+    },
+    {
+      "date": "2026-11-11",
+      "type": "historical",
+      "priority": "low",
+      "description": "2018: en el estadio de Boca Juniors, en Buenos Aires (Argentina), los equipos de fútbolRiver PlateyBoca Juniorsdisputan la primerafinal de la Copa Libertadores 2018.",
+      "historical_year": "2018",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/11_de_noviembre"
+    },
+    {
+      "date": "2026-11-22",
+      "type": "historical",
+      "priority": "low",
+      "description": "1955: en Buenos Aires (Argentina) ―en el marco del golpe de Estado contra el gobierno constitucional deJuan Domingo Perón― militares del Ejército Argentino ingresan en laCGT(Confederación General del ",
+      "historical_year": "1955",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/22_de_noviembre"
+    },
+    {
+      "date": "2026-11-22",
+      "type": "historical",
+      "priority": "low",
+      "description": "2022: laselección de fútbol de Arabia Sauditada la sorpresa del mundial tras vencer 2 a 1 aArgentinaen su primer encuentro del mundial.",
+      "historical_year": "2022",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/22_de_noviembre"
+    },
+    {
+      "date": "2026-11-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "2020: Fallece el exfutbolista argentinoDiego Armando Maradona.",
+      "historical_year": "2020",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_noviembre"
+    },
+    {
+      "date": "2026-11-25",
+      "type": "historical",
+      "priority": "low",
+      "description": "2020:Diego Armando Maradona, futbolista y entrenador argentino (n. 1960).",
+      "historical_year": "2020",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/25_de_noviembre"
+    },
+    {
+      "date": "2026-11-28",
+      "type": "historical",
+      "priority": "low",
+      "description": "2020: acontecimientos en torno al fallecimiento deDiego Armando Maradona:cuarto día sin Diego Armando Maradona. Se erigen santuarios en varias partes del mundo en su honor.enNewcastle,Australia, en el",
+      "historical_year": "2020",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/28_de_noviembre"
+    },
+    {
+      "date": "2026-11-28",
+      "type": "historical",
+      "priority": "low",
+      "description": "cuarto día sin Diego Armando Maradona. Se erigen santuarios en varias partes del mundo en su honor.",
+      "historical_year": null,
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/28_de_noviembre"
+    },
+    {
+      "date": "2026-11-28",
+      "type": "historical",
+      "priority": "low",
+      "description": "enNewcastle,Australia, en el encuentro entre losPumasylos All Blacks, antes de lahaka, el conjunto de rugby neozelandés le regaló al conjunto argentino una camiseta de los All Blacks con la 10 de Mara",
+      "historical_year": null,
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/28_de_noviembre"
+    },
+    {
+      "date": "2026-11-28",
+      "type": "historical",
+      "priority": "low",
+      "description": "enBrasil, elSantos, club en el que brillóPelé, anunció que la remera 10 en vez de decirYeferson Soteldo(delantero que habitualmente la viste) dirá Maradona en el partido contraSport Recife.[3]​",
+      "historical_year": null,
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/28_de_noviembre"
+    },
+    {
+      "date": "2026-11-28",
+      "type": "historical",
+      "priority": "low",
+      "description": "↑de 2020, 28 de Noviembre.«All Blacks homenajean a Maradona antes de vencer a Argentina».infobae. Consultado el 28 de noviembre de 2020.",
+      "historical_year": "2020",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/28_de_noviembre"
+    },
+    {
+      "date": "2026-11-28",
+      "type": "historical",
+      "priority": "low",
+      "description": "↑PERÚ, NOTICIAS EL COMERCIO (28 de noviembre de 2020).«Diego Maradona | Santos homenajeará a la leyenda usando su nombre en la camiseta ’10′ de Yeferson Soteldo y que también usó Pelé | NCZD | DEPORTE",
+      "historical_year": "2020",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/28_de_noviembre"
+    },
+    {
+      "date": "2026-11-30",
+      "type": "historical",
+      "priority": "low",
+      "description": "2024: en elEstadio Monumental,Argentina, disputándose lafinal de la Copa LibertadoresentreMineiroyBotafogo,Gregorees expulsado a los 30 segundos de partido. Siendo la expulsión más rápida de la histor",
+      "historical_year": "2024",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/30_de_noviembre"
+    },
+    {
+      "date": "2026-12-01",
+      "type": "historical",
+      "priority": "low",
+      "description": "1994 : ElClub Atlético Vélez SarsfielddeArgentinavence por 2-0 alAC MilandeItaliapara ganar laCopa Intercontinentaldisputada enTokio,Japón.",
+      "historical_year": "1994",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/1_de_diciembre"
+    },
+    {
+      "date": "2026-12-01",
+      "type": "historical",
+      "priority": "low",
+      "description": "2001: enBusan(Corea del Sur), se lleva a cabo elSorteo de la Copa Mundial de Fútbol de 2002.",
+      "historical_year": "2001",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/1_de_diciembre"
+    },
+    {
+      "date": "2026-12-02",
+      "type": "historical",
+      "priority": "low",
+      "description": "1979: enArgentina, es utilizado por última vez el estadio \"Gasómetro\" delClub Atlético San Lorenzo de Almagropara alojar un partido de fútbol.",
+      "historical_year": "1979",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/2_de_diciembre"
+    },
+    {
+      "date": "2026-12-02",
+      "type": "historical",
+      "priority": "low",
+      "description": "2007: en Argentina, elClub Atlético Lanússe consagra por primera vez campeón nacional defútbol.",
+      "historical_year": "2007",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/2_de_diciembre"
+    },
+    {
+      "date": "2026-12-02",
+      "type": "historical",
+      "priority": "low",
+      "description": "2010: laFIFAotorga la XXI edición de laCopa Mundial de FútbolaRusiala cual se llevó a cabo del8 de junioal8 de juliode2018. Así mismo, otorgó la XXII edición de laCopa Mundial de FútbolaCatarla cual s",
+      "historical_year": "2010",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/2_de_diciembre"
+    },
+    {
+      "date": "2026-12-18",
+      "type": "historical",
+      "priority": "low",
+      "description": "2022:  laSelección de Argentinase consagra campeón del mundo después de 36 años al derrotar en tanda de penaltis a laselección francesapor 4 a 2, en la final deCatar 2022.",
+      "historical_year": "2022",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/18_de_diciembre"
+    },
+    {
+      "date": "2026-12-20",
+      "type": "historical",
+      "priority": "low",
+      "description": "Argentina:Día del Hincha Argentino.[5]​El 20 de diciembre de 2022, una marea de hinchas de casi seis millones de personas,[6]​se hizo presente en elconurbano bonaerensey laCiudad de Buenos Airespara r",
+      "historical_year": "2022",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/20_de_diciembre"
+    },
+    {
+      "date": "2026-12-20",
+      "type": "historical",
+      "priority": "low",
+      "description": "Día del Hincha Argentino.[5]​El 20 de diciembre de 2022, una marea de hinchas de casi seis millones de personas,[6]​se hizo presente en elconurbano bonaerensey laCiudad de Buenos Airespara recibir a l",
+      "historical_year": "2022",
+      "source": "Wikipedia",
+      "url": "https://es.wikipedia.org/wiki/20_de_diciembre"
+    }
+  ],
+  "last_updated": "2025-12-22 15:26:21",
+  "total_events": 118
+}

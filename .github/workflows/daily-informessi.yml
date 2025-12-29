@@ -1,0 +1,75 @@
+name: InforMessi - Flujo Diario Completo
+
+on:
+  schedule:
+    # Ejecutar todos los días a las 13:15 UTC (10:15 AM Argentina, UTC-3)
+    # Comienza a funcionar desde hoy (2025-12-28)
+    - cron: '15 13 * * *'
+  workflow_dispatch: # Permite ejecución manual
+
+jobs:
+  update-and-send-report:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v4
+      
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      
+      - name: Instalar dependencias
+        run: |
+          pip install -r requirements.txt
+      
+      - name: Configurar Ollama (simulado)
+        run: |
+          echo "⚠️  Ollama no disponible en GitHub Actions"
+          echo "   El workflow actualizará el informe pero no generará mensaje nuevo"
+          echo "   Para generar mensajes, necesitas ejecutar localmente o en servidor con Ollama"
+      
+      - name: Actualizar informe del día
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_PREVIEW_CHAT_ID: ${{ secrets.TELEGRAM_PREVIEW_CHAT_ID }}
+          TELEGRAM_PUBLIC_CHAT_ID: ${{ secrets.TELEGRAM_PUBLIC_CHAT_ID }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
+        run: |
+          # Actualizar informe del día (sin generar nuevo mensaje si no hay Ollama)
+          python3 scripts/update-today-report.py || echo "⚠️  Error al actualizar, continuando..."
+      
+      - name: Enviar a revisión en Telegram (sin esperar)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_PREVIEW_CHAT_ID: ${{ secrets.TELEGRAM_PREVIEW_CHAT_ID }}
+          TELEGRAM_PUBLIC_CHAT_ID: ${{ secrets.TELEGRAM_PUBLIC_CHAT_ID }}
+        run: |
+          # Enviar a Telegram usando --no-wait (no espera aprobación)
+          # El usuario aprobará/rechazará desde Telegram cuando vea el mensaje
+          python3 scripts/send-daily-report-review.py || echo "⚠️  Error al enviar, continuando..."
+          echo "✅ Informe enviado a Telegram para revisión"
+          echo "💡 Revisa el mensaje en tu chat privado y aprueba/rechaza cuando puedas"
+      
+      - name: Publicación automática de respaldo (si no hay aprobación)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_PUBLIC_CHAT_ID: ${{ secrets.TELEGRAM_PUBLIC_CHAT_ID }}
+        run: |
+          # Verificar informes de los últimos 3 días que no fueron publicados
+          # Si pasaron más de 2 horas desde la actualización, publicar automáticamente
+          python3 scripts/auto-publish-fallback.py --check-all --hours 2 || echo "⚠️  Error en publicación automática, continuando..."
+      
+      - name: Commit y push cambios
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add reports/ || true
+          git diff --staged --quiet || git commit -m "Actualizar informe del día $(date +%Y-%m-%d)"
+          git push || echo "No hay cambios para commitear"
+
