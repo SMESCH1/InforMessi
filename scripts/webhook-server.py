@@ -124,6 +124,12 @@ def webhook():
     try:
         update = request.get_json()
         
+        # Log para debugging (sin información sensible)
+        if 'callback_query' in update:
+            callback = update['callback_query']
+            data = callback.get('data', '')
+            print(f"📥 Callback recibido: {data[:50]}...")
+        
         # Verificar si es un callback query (botón presionado)
         if 'callback_query' in update:
             callback = update['callback_query']
@@ -131,9 +137,13 @@ def webhook():
             query_id = callback['id']
             chat_id = str(callback['message']['chat']['id'])
             
+            print(f"🔔 Callback query recibido: {data}")
+            print(f"   Chat ID: {chat_id}")
+            
             # Inicializar bot
             token = os.getenv('TELEGRAM_BOT_TOKEN')
             if not token:
+                print("❌ TELEGRAM_BOT_TOKEN no configurado")
                 return jsonify({'ok': False, 'error': 'Token no configurado'}), 500
             
             bot = TelegramBot(token)
@@ -143,6 +153,7 @@ def webhook():
             
             # Procesar acción
             if data.startswith('approve:'):
+                print("✅ Procesando aprobación...")
                 message_id = data.split(':')[1]
                 
                 # Cargar informe del día
@@ -158,25 +169,29 @@ def webhook():
                 
                 # Publicar en grupo público
                 public_chat_id = os.getenv('TELEGRAM_PUBLIC_CHAT_ID')
+                print(f"🔍 TELEGRAM_PUBLIC_CHAT_ID: {'Configurado' if public_chat_id else 'NO CONFIGURADO'}")
+                
                 if not public_chat_id:
-                    bot.send_message(
-                        chat_id,
-                        "⚠️ TELEGRAM_PUBLIC_CHAT_ID no configurado en Render"
-                    )
+                    error_msg = "⚠️ TELEGRAM_PUBLIC_CHAT_ID no configurado en Render"
+                    print(f"❌ {error_msg}")
+                    bot.send_message(chat_id, error_msg)
                     return jsonify({'ok': True})
                 
                 # Validar chat_id
                 public_chat_id = str(public_chat_id).strip()
+                print(f"📋 Public Chat ID: {public_chat_id[:20]}... (longitud: {len(public_chat_id)})")
+                
                 if not public_chat_id or public_chat_id == 'None':
-                    bot.send_message(
-                        chat_id,
-                        "⚠️ TELEGRAM_PUBLIC_CHAT_ID está vacío o inválido"
-                    )
+                    error_msg = "⚠️ TELEGRAM_PUBLIC_CHAT_ID está vacío o inválido"
+                    print(f"❌ {error_msg}")
+                    bot.send_message(chat_id, error_msg)
                     return jsonify({'ok': True})
                 
                 try:
+                    print(f"📤 Intentando publicar en grupo público (Chat ID: {public_chat_id})...")
                     # Publicar sin parse_mode para evitar problemas
                     publish_message(bot, public_chat_id, report['message'])
+                    print("✅ Mensaje publicado exitosamente")
                     
                     # Actualizar base de datos de memoria
                     try:
@@ -202,6 +217,13 @@ def webhook():
                     except:
                         pass
                     
+                    # Log del error
+                    print(f"❌ Error al publicar: {error_msg}")
+                    if error_detail:
+                        print(f"   Detalle: {error_detail}")
+                    if error_code:
+                        print(f"   Código: {error_code}")
+                    
                     # Mensaje de error detallado
                     error_notification = (
                         f"❌ Error al publicar:\n"
@@ -223,7 +245,7 @@ def webhook():
                     try:
                         bot.send_message(chat_id, error_notification)
                     except:
-                        print(f"Error crítico: {error_msg} - {error_detail}")
+                        print(f"❌ Error crítico: {error_msg} - {error_detail}")
                 
                 return jsonify({'ok': True})
             
