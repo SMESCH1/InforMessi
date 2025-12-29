@@ -10,13 +10,43 @@ import requests
 from pathlib import Path
 
 # Cargar variables de entorno
+def load_env_file(env_path):
+    """Carga variables de entorno desde archivo .env manualmente"""
+    if not env_path.exists():
+        return
+    
+    with open(env_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            # Ignorar comentarios y líneas vacías
+            if not line or line.startswith('#'):
+                continue
+            # Separar key y value
+            if '=' in line:
+                key, value = line.split('=', 1)
+                key = key.strip()
+                value = value.strip()
+                # Remover comillas si las hay
+                if value.startswith('"') and value.endswith('"'):
+                    value = value[1:-1]
+                elif value.startswith("'") and value.endswith("'"):
+                    value = value[1:-1]
+                # Solo establecer si no existe ya
+                if key and value and key not in os.environ:
+                    os.environ[key] = value
+
+# Intentar cargar con dotenv primero, luego manualmente
+env_path = Path(__file__).parent.parent / ".env"
 try:
     from dotenv import load_dotenv
-    env_path = Path(__file__).parent.parent / ".env"
     if env_path.exists():
         load_dotenv(env_path)
 except ImportError:
-    pass
+    # Si no hay dotenv, cargar manualmente
+    load_env_file(env_path)
+except Exception:
+    # Si hay error, intentar cargar manualmente
+    load_env_file(env_path)
 
 def setup_webhook(token: str, webhook_url: str):
     """Configura el webhook en Telegram"""
@@ -39,6 +69,27 @@ def setup_webhook(token: str, webhook_url: str):
     
     except Exception as e:
         print(f"❌ Error al configurar webhook: {e}")
+        return False
+
+
+def remove_webhook(token: str):
+    """Elimina el webhook configurado"""
+    url = f"https://api.telegram.org/bot{token}/deleteWebhook"
+    
+    try:
+        response = requests.post(url, json={"drop_pending_updates": True}, timeout=10)
+        response.raise_for_status()
+        result = response.json()
+        
+        if result.get("ok"):
+            print("✅ Webhook eliminado exitosamente")
+            return True
+        else:
+            print(f"❌ Error: {result.get('description', 'Unknown error')}")
+            return False
+    
+    except Exception as e:
+        print(f"❌ Error al eliminar webhook: {e}")
         return False
 
 
@@ -81,17 +132,51 @@ def main():
         help="URL del servidor webhook (ej: https://tu-proyecto.up.railway.app)"
     )
     parser.add_argument(
+        "--token",
+        help="Token del bot de Telegram (opcional, si no está en .env)"
+    )
+    parser.add_argument(
         "--info",
         action="store_true",
         help="Solo muestra información del webhook actual"
     )
+    parser.add_argument(
+        "--remove",
+        action="store_true",
+        help="Elimina el webhook configurado"
+    )
     
     args = parser.parse_args()
     
-    token = os.getenv("TELEGRAM_BOT_TOKEN")
+    # Intentar cargar .env nuevamente por si acaso
+    try:
+        from dotenv import load_dotenv
+        env_path = Path(__file__).parent.parent / ".env"
+        if env_path.exists():
+            load_dotenv(env_path, override=True)
+    except:
+        pass
+    
+    token = args.token or os.getenv("TELEGRAM_BOT_TOKEN")
     if not token:
-        print("❌ TELEGRAM_BOT_TOKEN no configurado en .env")
+        print("❌ TELEGRAM_BOT_TOKEN no configurado")
+        print("   Opciones:")
+        print("   1. Configura TELEGRAM_BOT_TOKEN en .env")
+        print("   2. Usa --token TU_TOKEN al ejecutar el script")
+        print()
+        print("   Debug:")
+        env_path = Path(__file__).parent.parent / ".env"
+        print(f"   - Ruta .env: {env_path}")
+        print(f"   - ¿Existe?: {env_path.exists()}")
         sys.exit(1)
+    
+    if args.remove:
+        print("🗑️  Eliminando webhook...")
+        if remove_webhook(token):
+            print("\n✅ Webhook eliminado. Ahora puedes usar get-telegram-chat-id.py")
+            print("💡 Recuerda restaurar el webhook después:")
+            print("   python3 scripts/setup-webhook.py --webhook-url TU_URL")
+        return
     
     if args.info:
         get_webhook_info(token)

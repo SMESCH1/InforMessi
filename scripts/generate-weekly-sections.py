@@ -68,34 +68,57 @@ def get_weekday_section(weekday: int) -> Dict:
     return sections.get(weekday, sections[2])  # Default a estándar
 
 
-def get_player_info() -> Optional[Dict]:
+def get_player_info(date: str = None) -> Optional[Dict]:
     """Obtiene información de jugadores de la Scaloneta para las secciones"""
     # Lista de jugadores conocidos (puede venir de un archivo JSON)
     players_file = DATA_DIR / "players.json"
+    
+    available_players = []
     
     if players_file.exists():
         try:
             with open(players_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                players = data.get("players", [])
-                # Retornar un jugador aleatorio o según alguna lógica
-                if players:
-                    import random
-                    return random.choice(players)
+                available_players = data.get("players", [])
         except:
             pass
     
     # Fallback: lista básica
-    basic_players = [
-        {"name": "Lionel Messi", "position": "Delantero", "club": "Inter Miami"},
-        {"name": "Ángel Di María", "position": "Delantero", "club": "Benfica"},
-        {"name": "Emiliano Martínez", "position": "Arquero", "club": "Aston Villa"},
-        {"name": "Cristian Romero", "position": "Defensor", "club": "Tottenham"},
-        {"name": "Rodrigo De Paul", "position": "Volante", "club": "Atlético Madrid"},
-    ]
+    if not available_players:
+        available_players = [
+            {"name": "Lionel Messi", "position": "Delantero", "club": "Inter Miami"},
+            {"name": "Ángel Di María", "position": "Delantero", "club": "Benfica"},
+            {"name": "Emiliano Martínez", "position": "Arquero", "club": "Aston Villa"},
+            {"name": "Cristian Romero", "position": "Defensor", "club": "Tottenham"},
+            {"name": "Rodrigo De Paul", "position": "Volante", "club": "Atlético Madrid"},
+        ]
     
+    # Si hay fecha, usar base de datos persistente para evitar jugadores usados
+    if date:
+        try:
+            from rag_memory_database import MemoryDatabase
+            db = MemoryDatabase()
+            # Obtener jugadores menos usados de la base de datos
+            available_players = db.get_least_used_players(available_players, limit=len(available_players))
+        except:
+            # Fallback al sistema anterior
+            try:
+                from rag_memory_system import get_used_weekly_sections
+                weekly_info = get_used_weekly_sections(date, days_back=30)
+                players_used = weekly_info.get('players_used', {})
+                
+                # Priorizar jugadores menos usados
+                if players_used:
+                    # Ordenar por frecuencia de uso (menos usado primero)
+                    player_freq = {p['name']: players_used.get(p['name'], 0) for p in available_players}
+                    available_players.sort(key=lambda p: player_freq.get(p['name'], 0))
+            except:
+                pass
+    
+    # Retornar un jugador (priorizando los menos usados)
     import random
-    return random.choice(basic_players)
+    # Tomar de los primeros 3 menos usados para dar variedad
+    return random.choice(available_players[:min(3, len(available_players))])
 
 
 def build_weekly_section_prompt(date: str) -> str:
@@ -113,11 +136,12 @@ def build_weekly_section_prompt(date: str) -> str:
     
     # Agregar información adicional según el tipo
     if section["type"] == "jugador_scaloneta":
-        player = get_player_info()
+        player = get_player_info(date)  # Pasar fecha para evitar repeticiones
         if player:
             prompt += f"**Jugador sugerido**: {player.get('name', 'Jugador de la Scaloneta')} "
             prompt += f"({player.get('position', '')}, {player.get('club', '')})\n"
-            prompt += "Puedes usar este jugador o elegir otro relevante según el contexto del día.\n\n"
+            prompt += "Puedes usar este jugador o elegir otro relevante según el contexto del día.\n"
+            prompt += "💡 Si este jugador ya fue destacado recientemente, busca un ángulo diferente o elige otro jugador.\n\n"
     
     prompt += "Esta sección debe integrarse naturalmente en el mensaje, no como un bloque separado.\n"
     

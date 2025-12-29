@@ -45,6 +45,18 @@ def build_prompt(data):
     except (ImportError, Exception) as e:
         style_context = ""  # Si no se puede importar, continuar sin RAG
     
+    # Agregar RAG de memoria para evitar repeticiones (base de datos persistente)
+    try:
+        from rag_memory_database import build_memory_context_from_db
+        memory_context = build_memory_context_from_db(data["date"])
+    except (ImportError, Exception) as e:
+        # Fallback al sistema anterior si no está disponible
+        try:
+            from rag_memory_system import build_memory_context
+            memory_context = build_memory_context(data["date"], days_back=30)
+        except:
+            memory_context = ""
+    
     # Agregar sección semanal según el día
     try:
         from generate_weekly_sections import build_weekly_section_prompt
@@ -120,6 +132,7 @@ def build_prompt(data):
 {news_text}
 {weekly_section}
 {media_context}
+{memory_context}
 {style_context}
 """
     

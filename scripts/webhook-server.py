@@ -40,17 +40,56 @@ class TelegramBot:
         self.token = token
         self.base_url = f"https://api.telegram.org/bot{token}"
     
-    def send_message(self, chat_id: str, text: str, parse_mode: str = 'HTML') -> Dict:
+    def send_message(self, chat_id: str, text: str, parse_mode: str = None) -> Dict:
         """Envía un mensaje a Telegram"""
         url = f"{self.base_url}/sendMessage"
+        
+        # Validar longitud del mensaje
+        if len(text) > 4096:
+            text = text[:4096] + "\n\n[Mensaje truncado...]"
+        
         data = {
             "chat_id": chat_id,
-            "text": text,
-            "parse_mode": parse_mode
+            "text": text
         }
-        response = requests.post(url, json=data, timeout=10)
-        response.raise_for_status()
-        return response.json()
+        
+        # Solo agregar parse_mode si se especifica
+        if parse_mode:
+            data["parse_mode"] = parse_mode
+        
+        # Intentar enviar, si falla con HTML, intentar sin parse_mode
+        try:
+            response = requests.post(url, json=data, timeout=10)
+            response.raise_for_status()
+            return response.json()
+        except requests.exceptions.HTTPError as e:
+            # Si falla y tenía parse_mode, intentar sin él
+            if parse_mode:
+                try:
+                    data.pop("parse_mode", None)
+                    response = requests.post(url, json=data, timeout=10)
+                    response.raise_for_status()
+                    return response.json()
+                except Exception as e2:
+                    # Obtener detalles del error
+                    error_detail = ""
+                    try:
+                        if hasattr(e2, 'response') and e2.response:
+                            error_response = e2.response.json()
+                            error_detail = f" - {error_response.get('description', '')}"
+                    except:
+                        pass
+                    raise Exception(f"Error al enviar mensaje: {str(e2)}{error_detail}")
+            else:
+                # Si ya estaba sin parse_mode, mostrar error completo
+                error_detail = ""
+                try:
+                    if hasattr(e, 'response') and e.response:
+                        error_response = e.response.json()
+                        error_detail = f" - {error_response.get('description', '')}"
+                except:
+                    pass
+                raise Exception(f"Error al enviar mensaje: {str(e)}{error_detail}")
     
     def answer_callback_query(self, callback_query_id: str, text: Optional[str] = None) -> Dict:
         """Responde a una query de callback"""
@@ -119,23 +158,72 @@ def webhook():
                 
                 # Publicar en grupo público
                 public_chat_id = os.getenv('TELEGRAM_PUBLIC_CHAT_ID')
-                if public_chat_id:
-                    try:
-                        publish_message(bot, public_chat_id, report['message'])
-                        bot.send_message(
-                            chat_id,
-                            "✅ Informe publicado en el grupo público"
-                        )
-                    except Exception as e:
-                        bot.send_message(
-                            chat_id,
-                            f"❌ Error al publicar: {str(e)}"
-                        )
-                else:
+                if not public_chat_id:
                     bot.send_message(
                         chat_id,
-                        "⚠️ TELEGRAM_PUBLIC_CHAT_ID no configurado"
+                        "⚠️ TELEGRAM_PUBLIC_CHAT_ID no configurado en Render"
                     )
+                    return jsonify({'ok': True})
+                
+                # Validar chat_id
+                public_chat_id = str(public_chat_id).strip()
+                if not public_chat_id or public_chat_id == 'None':
+                    bot.send_message(
+                        chat_id,
+                        "⚠️ TELEGRAM_PUBLIC_CHAT_ID está vacío o inválido"
+                    )
+                    return jsonify({'ok': True})
+                
+                try:
+                    # Publicar sin parse_mode para evitar problemas
+                    publish_message(bot, public_chat_id, report['message'])
+                    
+                    # Actualizar base de datos de memoria
+                    try:
+                        from update_memory_db import update_memory_for_report
+                        update_memory_for_report(today)
+                    except:
+                        pass
+                    
+                    bot.send_message(
+                        chat_id,
+                        "✅ Informe publicado en el grupo público"
+                    )
+                except Exception as e:
+                    # Obtener más detalles del error
+                    error_msg = str(e)
+                    error_detail = ""
+                    error_code = ""
+                    try:
+                        if hasattr(e, 'response') and e.response:
+                            error_response = e.response.json()
+                            error_detail = error_response.get('description', '')
+                            error_code = error_response.get('error_code', '')
+                    except:
+                        pass
+                    
+                    # Mensaje de error detallado
+                    error_notification = (
+                        f"❌ Error al publicar:\n"
+                        f"Error: {error_msg}\n"
+                    )
+                    if error_detail:
+                        error_notification += f"Detalle Telegram: {error_detail}\n"
+                    if error_code:
+                        error_notification += f"Código: {error_code}\n"
+                    
+                    error_notification += (
+                        f"\n💡 Verifica:\n"
+                        f"- Que el bot esté en el grupo público\n"
+                        f"- Que el bot tenga permisos para enviar mensajes\n"
+                        f"- Que TELEGRAM_PUBLIC_CHAT_ID sea correcto ({public_chat_id[:20]}...)\n"
+                        f"- Que el chat_id sea un número (negativo para grupos)"
+                    )
+                    
+                    try:
+                        bot.send_message(chat_id, error_notification)
+                    except:
+                        print(f"Error crítico: {error_msg} - {error_detail}")
                 
                 return jsonify({'ok': True})
             
@@ -161,14 +249,13 @@ def webhook():
                     return jsonify({'ok': True})
                 
                 # Enviar mensaje pidiendo la versión editada
-                bot.send_message(
-                    chat_id,
-                    f"✏️ <b>Modo Edición</b>\n\n"
+                preview_text = (
+                    f"✏️ Modo Edición\n\n"
                     f"Envía el mensaje editado como respuesta a este mensaje.\n\n"
-                    f"<i>Mensaje actual:</i>\n{report['message'][:200]}...\n\n"
-                    f"<b>Envía tu versión editada ahora:</b>",
-                    parse_mode='HTML'
+                    f"Mensaje actual:\n{report['message'][:200]}...\n\n"
+                    f"Envía tu versión editada ahora:"
                 )
+                bot.send_message(chat_id, preview_text)
                 
                 # Guardar estado de edición (en memoria por ahora)
                 # En producción, usar Redis o base de datos
@@ -208,23 +295,73 @@ def webhook():
                     
                     # Publicar automáticamente en grupo público
                     public_chat_id = os.getenv('TELEGRAM_PUBLIC_CHAT_ID')
-                    if public_chat_id:
-                        try:
-                            publish_message(bot, public_chat_id, text)
-                            bot.send_message(
-                                chat_id,
-                                "✅ Mensaje editado y publicado en el grupo público"
-                            )
-                        except Exception as e:
-                            bot.send_message(
-                                chat_id,
-                                f"❌ Error al publicar: {str(e)}"
-                            )
-                    else:
+                    if not public_chat_id:
                         bot.send_message(
                             chat_id,
-                            "✅ Mensaje editado guardado. ⚠️ TELEGRAM_PUBLIC_CHAT_ID no configurado para publicar."
+                            "⚠️ TELEGRAM_PUBLIC_CHAT_ID no configurado en Render"
                         )
+                        return jsonify({'ok': True})
+                    
+                    # Validar chat_id
+                    public_chat_id = str(public_chat_id).strip()
+                    if not public_chat_id or public_chat_id == 'None':
+                        bot.send_message(
+                            chat_id,
+                            "⚠️ TELEGRAM_PUBLIC_CHAT_ID está vacío o inválido"
+                        )
+                        return jsonify({'ok': True})
+                    
+                    try:
+                        # Publicar sin parse_mode para evitar problemas con HTML
+                        publish_message(bot, public_chat_id, text)
+                        
+                        # Actualizar base de datos de memoria
+                        try:
+                            from update_memory_db import update_memory_for_report
+                            update_memory_for_report(today)
+                        except:
+                            pass
+                        
+                        bot.send_message(
+                            chat_id,
+                            "✅ Mensaje editado y publicado en el grupo público"
+                        )
+                    except Exception as e:
+                        # Obtener más detalles del error
+                        error_msg = str(e)
+                        error_detail = ""
+                        error_code = ""
+                        try:
+                            if hasattr(e, 'response') and e.response:
+                                error_response = e.response.json()
+                                error_detail = error_response.get('description', '')
+                                error_code = error_response.get('error_code', '')
+                        except:
+                            pass
+                        
+                        # Mensaje de error detallado
+                        error_notification = (
+                            f"❌ Error al publicar:\n"
+                            f"Error: {error_msg}\n"
+                        )
+                        if error_detail:
+                            error_notification += f"Detalle Telegram: {error_detail}\n"
+                        if error_code:
+                            error_notification += f"Código: {error_code}\n"
+                        
+                        error_notification += (
+                            f"\n💡 Verifica:\n"
+                            f"- Que el mensaje no exceda 4096 caracteres ({len(text)} chars)\n"
+                            f"- Que el bot esté en el grupo público\n"
+                            f"- Que el bot tenga permisos para enviar mensajes\n"
+                            f"- Que TELEGRAM_PUBLIC_CHAT_ID sea correcto ({public_chat_id[:20]}...)\n"
+                            f"- Que el chat_id sea un número (negativo para grupos)"
+                        )
+                        
+                        try:
+                            bot.send_message(chat_id, error_notification)
+                        except:
+                            print(f"Error crítico: {error_msg} - {error_detail}")
                 else:
                     bot.send_message(
                         chat_id,
