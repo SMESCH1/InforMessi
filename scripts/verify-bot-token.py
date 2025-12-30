@@ -10,11 +10,12 @@ import requests
 from pathlib import Path
 
 # Cargar variables de entorno
-def load_env_file(env_path):
+def load_env_file(env_path, force=False):
     """Carga variables de entorno desde archivo .env manualmente"""
     if not env_path.exists():
-        return
+        return {}
     
+    env_vars = {}
     with open(env_path, 'r', encoding='utf-8') as f:
         for line in f:
             line = line.strip()
@@ -28,19 +29,40 @@ def load_env_file(env_path):
                     value = value[1:-1]
                 elif value.startswith("'") and value.endswith("'"):
                     value = value[1:-1]
-                if key and value and key not in os.environ:
-                    os.environ[key] = value
+                if key and value:
+                    env_vars[key] = value
+                    # Si force=True o la variable no existe, establecerla
+                    if force or key not in os.environ:
+                        os.environ[key] = value
+    return env_vars
 
 env_path = Path(__file__).parent.parent / ".env"
-load_env_file(env_path)
 
+# Verificar si hay token en variables de entorno del sistema
+system_token = os.environ.get("TELEGRAM_BOT_TOKEN")
+
+# Cargar .env (forzar si existe)
+env_vars = load_env_file(env_path, force=True)
+
+# También intentar con dotenv (sobrescribirá si override=True)
 try:
     from dotenv import load_dotenv
-    load_dotenv(env_path)
+    # override=True para que sobrescriba variables existentes
+    load_dotenv(env_path, override=True)
 except:
     pass
 
 token = os.getenv("TELEGRAM_BOT_TOKEN")
+token_source = "desconocido"
+
+# Determinar de dónde viene el token
+if token:
+    if system_token and system_token == token:
+        token_source = "variables de entorno del sistema"
+    elif env_vars.get("TELEGRAM_BOT_TOKEN") == token:
+        token_source = "archivo .env"
+    else:
+        token_source = "archivo .env (cargado con dotenv)"
 
 print("🔍 Verificación de Token del Bot")
 print("=" * 50)
@@ -59,6 +81,11 @@ if not token:
     sys.exit(1)
 
 print(f"📋 Token encontrado: {'*' * 20}...{token[-10:]}")
+print(f"   Fuente: {token_source}")
+if system_token and system_token != token:
+    print(f"   ⚠️  Hay un token diferente en variables de entorno del sistema")
+    print(f"   Token del sistema: {'*' * 20}...{system_token[-10:]}")
+    print(f"   Token del .env: {'*' * 20}...{token[-10:]}")
 print()
 
 # Verificar token con getMe
