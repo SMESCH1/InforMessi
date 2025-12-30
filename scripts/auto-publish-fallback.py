@@ -12,11 +12,34 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 # Cargar variables de entorno
+def load_env_file(env_path):
+    """Carga variables de entorno desde archivo .env manualmente"""
+    if not env_path.exists():
+        return
+    
+    with open(env_path, 'r', encoding='utf-8') as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
+            if '=' in line:
+                key, value = line.split('=', 1)
+                key = key.strip()
+                value = value.strip()
+                if value.startswith('"') and value.endswith('"'):
+                    value = value[1:-1]
+                elif value.startswith("'") and value.endswith("'"):
+                    value = value[1:-1]
+                if key and value and key not in os.environ:
+                    os.environ[key] = value
+
+env_path = Path(__file__).parent.parent / ".env"
+load_env_file(env_path)
+
 try:
     from dotenv import load_dotenv
-    env_path = Path(__file__).parent.parent / ".env"
     if env_path.exists():
-        load_dotenv(env_path)
+        load_dotenv(env_path, override=True)
 except ImportError:
     pass
 
@@ -24,12 +47,7 @@ PROJECT_ROOT = Path(__file__).parent.parent
 REPORTS_DIR = PROJECT_ROOT / "reports"
 
 # Importar funciones de telegram
-sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
-try:
-    from telegram_preview import TelegramBot, publish_message
-except ImportError:
-    print("❌ Error: No se pudo importar telegram_preview")
-    sys.exit(1)
+import requests
 
 
 def load_report(date: str) -> dict:
@@ -43,7 +61,7 @@ def load_report(date: str) -> dict:
         return json.load(f)
 
 
-def should_auto_publish(report: dict, hours_threshold: int = 2) -> bool:
+def should_auto_publish(report: dict, hours_threshold: float = 2) -> bool:
     """
     Determina si se debe publicar automáticamente
     
@@ -71,7 +89,7 @@ def should_auto_publish(report: dict, hours_threshold: int = 2) -> bool:
     return hours_passed >= hours_threshold
 
 
-def auto_publish_report(date: str, hours_threshold: int = 2):
+def auto_publish_report(date: str, hours_threshold: float = 2):
     """Publica un informe automáticamente si no fue aprobado"""
     
     report = load_report(date)
@@ -101,8 +119,14 @@ def auto_publish_report(date: str, hours_threshold: int = 2):
     
     # Publicar
     try:
-        bot = TelegramBot(token)
-        publish_message(bot, public_chat_id, message)
+        # Enviar mensaje directamente usando requests
+        url = f"https://api.telegram.org/bot{token}/sendMessage"
+        data = {
+            "chat_id": public_chat_id,
+            "text": message
+        }
+        response = requests.post(url, json=data, timeout=10)
+        response.raise_for_status()
         
         # Actualizar estado del informe
         report["status"] = "published"
@@ -142,7 +166,7 @@ def main():
     )
     parser.add_argument(
         "--hours",
-        type=int,
+        type=float,
         default=2,
         help="Horas de espera antes de publicar automáticamente (default: 2)"
     )

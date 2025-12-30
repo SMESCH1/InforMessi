@@ -1,9 +1,0 @@
-To Be Done:
-
-- 
-
-- agregar eventos importantes manualmente y generas base de datos para que tome LLM
-
-- bot mundialista
-prompt:
-agreguemos otro deseable que quiero implementar a futuro, quiero que ya que voy a estar desplegando en wpp y telegram los bots que van a enviar diaramente los mensajes, quiero implementar un bot en esas aps que sea especifico de informacion relacionada al mundial y la seleccion argentina. es decir, quiero implementar un bot InforMessi mundialista, que pueda responder solo consultas relacionadas a eso. la idea es que use el LLM que ya tiene implementado por detras para responderlas. quiero que documentes esto y verifiquemos qué sera necesario, que recursos necesitaría para que esto funcione, si lo ves posible, y como podria hacer para hacer RAG para darle mas informacion, y como fine tunearlo y ponerle guidelines y railguards para que solamente responda consultas relacionadas al mundial y que no puedan hacerle jailbreak o consultarle cosas que no esten relacionadas al mundial. 

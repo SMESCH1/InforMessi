@@ -1,30 +1,15 @@
 {
   "date": "2025-12-31",
-  "generated_at": "2025-12-28T18:46:59.903642",
+  "generated_at": "2025-12-30T11:21:57.983883",
   "data": {
     "date": "2025-12-31",
-    "mundial_2026_start": "2026-06-11",
-    "days_remaining": 162,
+    "days_remaining": 100,
     "events": [],
-    "news": [
-      {
-        "title": "Liga Profesional de Fútbol",
-        "description": "",
-        "url": "https://www.tycsports.com/liga-profesional-de-futbol.html",
-        "source": "TyC Sports",
-        "published_at": "2025-12-28T18:46:59.225393"
-      },
-      {
-        "title": "Cómo es la nueva ley del offside que podría cambiar el fútbol por completo",
-        "description": "",
-        "url": "https://www.tycsports.com/mundial/como-es-la-nueva-ley-del-offside-que-estudia-la-fifa-y-podria-cambiar-el-futbol-por-completo-id701811.html",
-        "source": "TyC Sports",
-        "published_at": "2025-12-28T18:46:59.225484"
-      }
-    ]
+    "news": []
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 162 días para el Mundial 2026.\n\nLa selección argentina continúa su preparación para defender el título en 2026. Con Scaloni al mando, el equipo mantiene la base campeona y suma nuevas caras.\n\nDato del día: El Mundial 2026 será el primero en tener 48 equipos, expandiendo la competencia a nuevas regiones del mundo.\n\nBuen día\nCoronados de gloria vivamos",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null
+  "message": "🧪 Mensaje de prueba para informe pre-aprobado",
+  "status": "published",
+  "pre_approved": true,
+  "pre_approved_at": "2025-12-30T11:24:55.915781",
+  "published_at": "2025-12-30T11:24:56.850907"
 }

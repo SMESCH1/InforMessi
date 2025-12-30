@@ -69,17 +69,17 @@ jobs:
         run: |
           python3 scripts/diagnose-workflow.py || echo "⚠️  Error en diagnóstico"
       
-      - name: Enviar a revisión en Telegram (sin esperar)
+      - name: Enviar a revisión en Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_PREVIEW_CHAT_ID: ${{ secrets.TELEGRAM_PREVIEW_CHAT_ID }}
           TELEGRAM_PUBLIC_CHAT_ID: ${{ secrets.TELEGRAM_PUBLIC_CHAT_ID }}
         run: |
-          # Enviar a Telegram usando --no-wait (no espera aprobación)
-          # El usuario aprobará/rechazará desde Telegram cuando vea el mensaje
-          python3 scripts/send-daily-report-review.py
-          echo "✅ Informe enviado a Telegram para revisión"
-          echo "💡 Revisa el mensaje en tu chat privado y aprueba/rechaza cuando puedas"
+          # Enviar a Telegram - si está pre-aprobado, se publica directamente
+          # Si no, se envía a preview para aprobación manual
+          python3 scripts/send-daily-report-review.py || echo "⚠️  Error al enviar, continuando..."
+          echo "✅ Informe procesado"
+          echo "💡 Si no está pre-aprobado, revisa el mensaje en tu chat privado"
       
       - name: Publicación automática de respaldo (si no hay aprobación)
         env:
