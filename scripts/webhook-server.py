@@ -250,13 +250,6 @@ def webhook():
                     except:
                         pass
                     
-                    # Log del error
-                    print(f"❌ Error al publicar: {error_msg}")
-                    if error_detail:
-                        print(f"   Detalle: {error_detail}")
-                    if error_code:
-                        print(f"   Código: {error_code}")
-                    
                     # Mensaje de error detallado
                     error_notification = (
                         f"❌ Error al publicar:\n"
@@ -278,7 +271,7 @@ def webhook():
                     try:
                         bot.send_message(chat_id, error_notification)
                     except:
-                        print(f"❌ Error crítico: {error_msg} - {error_detail}")
+                        print(f"Error crítico: {error_msg} - {error_detail}")
                 
                 return jsonify({'ok': True})
             
@@ -369,14 +362,6 @@ def webhook():
                     try:
                         # Publicar sin parse_mode para evitar problemas con HTML
                         publish_message(bot, public_chat_id, text)
-                        
-                        # Actualizar informe: marcar como publicado
-                        report['status'] = 'published'
-                        report['published_at'] = datetime.now().isoformat()
-                        
-                        # Guardar informe actualizado
-                        with open(report_file, 'w', encoding='utf-8') as f:
-                            json.dump(report, f, indent=2, ensure_ascii=False)
                         
                         # Actualizar base de datos de memoria
                         try:
