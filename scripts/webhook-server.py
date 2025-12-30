@@ -440,16 +440,6 @@ def webhook():
         return jsonify({'ok': False, 'error': str(e)}), 500
 
 
-@app.route('/health', methods=['GET'])
-def health():
-    """Endpoint de salud para verificar que el servidor está activo"""
-    return jsonify({
-        'status': 'ok',
-        'service': 'InforMessi Webhook',
-        'timestamp': datetime.now().isoformat()
-    })
-
-
 if __name__ == '__main__':
     port = int(os.getenv('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=False)
