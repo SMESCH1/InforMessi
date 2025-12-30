@@ -106,6 +106,87 @@ def main():
     report = load_report(target_date)
     message = report["message"]
     
+    # Verificar si está pre-aprobado
+    if report.get("pre_approved"):
+        print("✅ Informe pre-aprobado detectado")
+        print("   Publicando directamente en grupo público...")
+        print("")
+        
+        # Publicar directamente sin pasar por preview
+        public_chat_id = os.getenv("TELEGRAM_PUBLIC_CHAT_ID")
+        if not public_chat_id:
+            print("⚠️  TELEGRAM_PUBLIC_CHAT_ID no configurado")
+            print("   El informe está pre-aprobado pero no se puede publicar")
+            sys.exit(1)
+        
+        # Importar función de publicación directamente
+        import requests
+        from pathlib import Path as PathLib
+        
+        def send_to_public_chat(message: str, public_chat_id: str, token: str, media_path: str = None):
+            """Envía mensaje al grupo público de Telegram"""
+            if media_path and PathLib(media_path).exists():
+                # Enviar foto con mensaje como caption
+                url = f"https://api.telegram.org/bot{token}/sendPhoto"
+                try:
+                    with open(media_path, 'rb') as photo:
+                        files = {'photo': photo}
+                        data = {
+                            "chat_id": public_chat_id,
+                            "caption": message
+                        }
+                        response = requests.post(url, files=files, data=data, timeout=30)
+                        response.raise_for_status()
+                        return True
+                except Exception as e:
+                    print(f"⚠️  Error al enviar foto: {e}, enviando solo texto")
+                    return send_to_public_chat(message, public_chat_id, token, None)
+            else:
+                # Enviar solo texto
+                url = f"https://api.telegram.org/bot{token}/sendMessage"
+                data = {
+                    "chat_id": public_chat_id,
+                    "text": message
+                }
+                try:
+                    response = requests.post(url, json=data, timeout=10)
+                    response.raise_for_status()
+                    return True
+                except Exception as e:
+                    print(f"❌ Error al publicar: {e}")
+                    return False
+        
+        try:
+            success = send_to_public_chat(message, public_chat_id, token, None)
+            
+            if success:
+                # Marcar como publicado
+                report["status"] = "published"
+                report["published_at"] = datetime.now().isoformat()
+                
+                report_file = REPORTS_DIR / f"{target_date}.json"
+                with open(report_file, 'w', encoding='utf-8') as f:
+                    json.dump(report, f, indent=2, ensure_ascii=False)
+                
+                # Actualizar base de datos de memoria
+                try:
+                    from update_memory_db import update_memory_for_report
+                    update_memory_for_report(target_date)
+                except:
+                    pass
+                
+                print("")
+                print("=" * 50)
+                print("✅ Informe pre-aprobado publicado directamente")
+                print("=" * 50)
+                sys.exit(0)
+            else:
+                print("❌ Error al publicar informe pre-aprobado")
+                sys.exit(1)
+        except Exception as e:
+            print(f"❌ Error al publicar: {e}")
+            sys.exit(1)
+    
     # Detectar contenido audiovisual
     sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
     try:
@@ -118,7 +199,7 @@ def main():
     except:
         media_path = None
     
-    # Enviar al chat de revisión (privado)
+    # Enviar al chat de revisión (privado) solo si no está pre-aprobado
     print("📨 Enviando a chat de revisión (privado)...")
     success = send_to_review_chat(message, preview_chat_id, token, media_path)
     

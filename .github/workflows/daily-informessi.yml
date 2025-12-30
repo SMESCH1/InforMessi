@@ -30,6 +30,23 @@ jobs:
           echo "   El workflow actualizará el informe pero no generará mensaje nuevo"
           echo "   Para generar mensajes, necesitas ejecutar localmente o en servidor con Ollama"
       
+      - name: Generar informe si no existe
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+          REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
+          REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
+        run: |
+          # Verificar si existe el informe del día
+          DATE=$(date +%Y-%m-%d)
+          if [ ! -f "reports/${DATE}.json" ]; then
+            echo "📝 Informe para ${DATE} no existe, generando..."
+            python3 scripts/generate-advance-reports.py --days 1 --start-date ${DATE} || echo "⚠️  Error al generar, continuando..."
+          else
+            echo "✅ Informe para ${DATE} ya existe"
+          fi
+      
       - name: Actualizar informe del día
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -41,7 +58,7 @@ jobs:
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
         run: |
-          # Actualizar informe del día (sin generar nuevo mensaje si no hay Ollama)
+          # Actualizar informe del día con datos recientes
           python3 scripts/update-today-report.py || echo "⚠️  Error al actualizar, continuando..."
       
       - name: Diagnóstico de configuración

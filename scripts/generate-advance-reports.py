@@ -73,7 +73,9 @@ def generate_report_for_date(date: str) -> dict:
         "message": message,
         "status": "draft",  # draft, updated, published
         "updated_at": None,
-        "published_at": None
+        "published_at": None,
+        "pre_approved": False,  # Si está pre-aprobado, se publica directamente sin preview
+        "pre_approved_at": None
     }
     
     report_file = REPORTS_DIR / f"{date}.json"

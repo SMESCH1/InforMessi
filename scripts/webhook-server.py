@@ -118,11 +118,35 @@ def load_report(date: str) -> dict:
         return json.load(f)
 
 
-@app.route('/webhook', methods=['POST'])
+@app.route('/health', methods=['GET'])
+def health():
+    """Endpoint de salud para verificar que el servidor está activo"""
+    return jsonify({
+        'status': 'ok',
+        'service': 'InforMessi Webhook',
+        'timestamp': datetime.now().isoformat()
+    })
+
+
+@app.route('/webhook', methods=['POST', 'GET'])
 def webhook():
     """Maneja los webhooks de Telegram"""
+    # Log de que se recibió una request
+    print(f"📨 Request recibida: {request.method} a /webhook")
+    print(f"   Headers: {dict(request.headers)}")
+    
+    if request.method == 'GET':
+        # Telegram verifica el webhook con GET
+        return jsonify({'ok': True, 'method': 'GET'})
+    
     try:
         update = request.get_json()
+        
+        if not update:
+            print("⚠️  Request sin JSON body")
+            return jsonify({'ok': False, 'error': 'No JSON body'}), 400
+        
+        print(f"📦 Update recibido: {list(update.keys())}")
         
         # Log para debugging (sin información sensible)
         if 'callback_query' in update:
@@ -192,6 +216,15 @@ def webhook():
                     # Publicar sin parse_mode para evitar problemas
                     publish_message(bot, public_chat_id, report['message'])
                     print("✅ Mensaje publicado exitosamente")
+                    
+                    # Actualizar informe: marcar como publicado
+                    report['status'] = 'published'
+                    report['published_at'] = datetime.now().isoformat()
+                    
+                    # Guardar informe actualizado
+                    report_file = REPORTS_DIR / f"{today}.json"
+                    with open(report_file, 'w', encoding='utf-8') as f:
+                        json.dump(report, f, indent=2, ensure_ascii=False)
                     
                     # Actualizar base de datos de memoria
                     try:
@@ -336,6 +369,14 @@ def webhook():
                     try:
                         # Publicar sin parse_mode para evitar problemas con HTML
                         publish_message(bot, public_chat_id, text)
+                        
+                        # Actualizar informe: marcar como publicado
+                        report['status'] = 'published'
+                        report['published_at'] = datetime.now().isoformat()
+                        
+                        # Guardar informe actualizado
+                        with open(report_file, 'w', encoding='utf-8') as f:
+                            json.dump(report, f, indent=2, ensure_ascii=False)
                         
                         # Actualizar base de datos de memoria
                         try:

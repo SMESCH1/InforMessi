@@ -107,6 +107,10 @@ def update_report_for_date(date: str) -> bool:
     report["status"] = "updated"
     report["updated_at"] = datetime.now().isoformat()
     
+    # Mantener pre_approved si ya estaba configurado
+    if "pre_approved" not in report:
+        report["pre_approved"] = False
+    
     # Guardar
     with open(report_file, 'w', encoding='utf-8') as f:
         json.dump(report, f, indent=2, ensure_ascii=False)

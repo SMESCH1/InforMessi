@@ -111,3 +111,5 @@ print("📊 Para revisar logs de Render:")
 print("   1. Ve a Render → Tu servicio → Logs")
 print("   2. Busca errores cuando clickeas 'Aprobar'")
 
+
+
