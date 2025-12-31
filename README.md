@@ -112,7 +112,7 @@ InforMessi es un pipeline editorial automatizado que:
 ### APIs y Fuentes de Datos
 - **NewsAPI**: Noticias sobre fútbol argentino y mundial
 - **Reddit API (PRAW)**: Posts relevantes de subreddits
-- **Telegram Bot API**: Envío y recepción de mensajes
+- **Telegram Bot API**: Envío y recepción de mensajes (grupos o canales)
 - **Archivos JSON**: Eventos manuales y datos estructurados
 
 ### Almacenamiento
@@ -123,7 +123,7 @@ InforMessi es un pipeline editorial automatizado que:
 ### Infraestructura
 - **GitHub Actions**: Ejecución diaria automática
 - **Render**: Hosting del servidor webhook (gratis)
-- **Telegram**: Plataforma de publicación
+- **Telegram**: Plataforma de publicación (grupos o canales)
 
 ---
 
@@ -378,6 +378,13 @@ Cada informe en `reports/YYYY-MM-DD.json`:
   - Cómo editar informes
   - Cómo pre-aprobar
   - Flujo recomendado
+
+### Configurar Canal de Telegram
+
+- **[Guía: Configurar Canal](docs/guia-configurar-canal-telegram.md)**
+  - Cómo usar un canal en lugar de un grupo
+  - Obtener Chat ID del canal
+  - Configuración paso a paso
 
 ### Configuración
 
