@@ -82,3 +82,4 @@ Este script:
 3. Revisa los logs de Render cuando presionas un botón
 4. Como último recurso, usa el script local: `send-and-wait-local.py`
 
+

@@ -195,3 +195,4 @@ python3 scripts/edit-and-validate-report.py --date 2025-12-30
 2. Verificar que las APIs estén configuradas (NewsAPI, Reddit, etc.)
 3. Revisar logs de errores
 
+

@@ -106,6 +106,18 @@ def main():
     report = load_report(target_date)
     message = report["message"]
     
+    # Detectar contenido audiovisual (antes de verificar pre-aprobación)
+    sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
+    media_path = None
+    try:
+        from detect_media import get_media_for_date
+        media = get_media_for_date(target_date)
+        if media and media.get("primary_image"):
+            media_path = str(PROJECT_ROOT / media["primary_image"])
+            print(f"📷 Contenido visual detectado: {media['primary_image']}")
+    except:
+        media_path = None
+    
     # Verificar si está pre-aprobado
     if report.get("pre_approved"):
         print("✅ Informe pre-aprobado detectado")
@@ -157,7 +169,7 @@ def main():
                     return False
         
         try:
-            success = send_to_public_chat(message, public_chat_id, token, None)
+            success = send_to_public_chat(message, public_chat_id, token, media_path)
             
             if success:
                 # Marcar como publicado
@@ -186,18 +198,6 @@ def main():
         except Exception as e:
             print(f"❌ Error al publicar: {e}")
             sys.exit(1)
-    
-    # Detectar contenido audiovisual
-    sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
-    try:
-        from detect_media import get_media_for_date
-        media = get_media_for_date(target_date)
-        media_path = None
-        if media and media.get("primary_image"):
-            media_path = str(PROJECT_ROOT / media["primary_image"])
-            print(f"📷 Contenido visual detectado: {media['primary_image']}")
-    except:
-        media_path = None
     
     # Enviar al chat de revisión (privado) solo si no está pre-aprobado
     print("📨 Enviando a chat de revisión (privado)...")

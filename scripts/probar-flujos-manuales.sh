@@ -70,3 +70,4 @@ echo "   2. ¿Está pre-aprobado? → Verifica en el JSON"
 echo "   3. ¿Se publicó directamente? → Revisa el grupo público de Telegram"
 echo ""
 
+

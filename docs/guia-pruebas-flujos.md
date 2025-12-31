@@ -137,3 +137,4 @@ Antes de que funcione automáticamente mañana, verifica:
 - El webhook requiere que Render esté activo (puede dormirse después de inactividad)
 - Si Render está dormido, el primer callback lo despertará (puede tardar 30 segundos)
 
+

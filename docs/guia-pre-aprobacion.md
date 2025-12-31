@@ -307,3 +307,4 @@ nano reports/2025-12-31.json
 
 O edita el mensaje y no pre-apruebes de nuevo.
 
+
