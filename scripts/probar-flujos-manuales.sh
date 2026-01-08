@@ -71,3 +71,5 @@ echo "   3. ¿Se publicó directamente? → Revisa el grupo público de Telegram
 echo ""
 
 
+
+

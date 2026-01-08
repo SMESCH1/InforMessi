@@ -23,8 +23,12 @@
       }
     ]
   },
-  "message": "Buenas tardes. Faltan 154 días para el Mundial 2026.\n\nEl equipo de Lionel Scaloni sigue trabajando sin descanso, preparándose para defender el título en Estados Unidos y Canadá. Hoy se anuncia la lista provisional de jugadores que formarán parte del equipo argentino, con varios nombres destacados como Lionel Messi, Paulo Dybala y ángel Di María.\n\nLa selección argentina sigue su proceso de selección, buscando los mejores jugadores para llevar el título en 2026. Con una nueva generación emergiendo en la Scaloneta, hay expectativas de que este Mundial sea un éxito.\n\nDato del día: El Mundial 2026 será el primero en tener 48 equipos, expandiendo la competencia a nuevas regiones del mundo.\n\nBuen día\nCoronados de gloria vivamos",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null
+  "message": "Buen día. Faltan 154 días para el Mundial 2026\n\nCoronados de gloria vivamos",
+  "status": "updated",
+  "updated_at": "2026-01-05T14:32:50.643290",
+  "published_at": null,
+  "edited_manually": true,
+  "edited_at": "2026-01-05T14:32:50.643300",
+  "pre_approved": true,
+  "pre_approved_at": "2026-01-05T14:32:52.230832"
 }

@@ -23,8 +23,12 @@
       }
     ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 152 días para el Mundial 2026.\n\nHoy se presentó el nuevo logo oficial de la FIFA, un cambio significativo en la historia del organismo que rige al fútbol mundial. El nuevo diseño busca modernizar y adaptarse a las nuevas tendencias del deporte.\n\nLa selección argentina continúa su preparación para defender el título en 2026. Con Scaloni al mando, el equipo mantiene la base campeona y suma nuevas caras.\n\nDato del día: El Mundial 2026 será el primero en tener 48 equipos, expandiendo la competencia a nuevas regiones del mundo.\n\nBuen día\nCoronados de gloria vivamos",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 152 días para el Mundial 2026.\n\nBuen día\nCoronados de gloria vivamos",
+  "status": "updated",
+  "updated_at": "2026-01-08T10:07:28.592926",
+  "published_at": null,
+  "edited_manually": true,
+  "edited_at": "2026-01-08T10:07:28.592936",
+  "pre_approved": true,
+  "pre_approved_at": "2026-01-08T10:07:30.042273"
 }

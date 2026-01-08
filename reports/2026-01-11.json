@@ -23,8 +23,12 @@
       }
     ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 151 días para el Mundial 2026.\n\nHoy se anunció el nuevo equipo técnico de la Liga Profesional de Fútbol. El seleccionador argentino Diego Simeone es elegido para dirigir a las mejores selecciones del continente en preparación para el Mundial 2026.\n\nLa selección argentina continúa su preparación para defender el título en 2026. Con Scaloni al mando, el equipo mantiene la base campeona y suma nuevas caras.\n\nDato del día: El Mundial 2026 será el primero en tener 48 equipos, expandiendo la competencia a nuevas regiones del mundo.\n\nBuen día\nCoronados de gloria vivamos",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 151 días para el Mundial 2026.\n\nBuen día\nCoronados de gloria vivamos",
+  "status": "updated",
+  "updated_at": "2026-01-08T10:07:57.694807",
+  "published_at": null,
+  "edited_manually": true,
+  "edited_at": "2026-01-08T10:07:57.694817",
+  "pre_approved": true,
+  "pre_approved_at": "2026-01-08T10:07:58.895674"
 }

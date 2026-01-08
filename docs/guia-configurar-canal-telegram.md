@@ -253,3 +253,5 @@ Si ya tienes un grupo configurado y quieres migrar a un canal:
 - `docs/obtener-chat-id-sin-bots.md` - Cómo obtener Chat IDs
 - `docs/checklist-configuracion.md` - Checklist completo de configuración
 
+
+
