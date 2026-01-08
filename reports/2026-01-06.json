@@ -24,11 +24,12 @@
     ]
   },
   "message": "Buenos días 🇦🇷\n\nFaltan 156 días para el Mundial 2026.\n\nJugador destacado: Enzo Fernández sigue siendo el pieza clave para la selección argentina. Con un año y medio antes de la competición, el mediocampista busca seguir creciendo como jugador.\n\nBuen día\nCoronados de gloria vivamos",
-  "status": "updated",
+  "status": "published",
   "updated_at": "2026-01-05T14:30:28.543115",
-  "published_at": null,
+  "published_at": "2026-01-08T13:52:27.147596",
   "edited_manually": true,
   "edited_at": "2026-01-05T14:30:28.543127",
   "pre_approved": true,
-  "pre_approved_at": "2026-01-05T14:30:30.930984"
+  "pre_approved_at": "2026-01-05T14:30:30.930984",
+  "auto_published": true
 }
