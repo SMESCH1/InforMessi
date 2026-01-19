@@ -38,11 +38,12 @@
     ]
   },
   "message": "Buenos días 🇦🇷\n\nFaltan 143 días para el Mundial 2026 ⚽\n\nBuen día ⭐\nCoronados de gloria vivamos 💙",
-  "status": "updated",
+  "status": "published",
   "updated_at": "2026-01-08T10:15:58.492552",
-  "published_at": null,
+  "published_at": "2026-01-19T13:54:23.444672",
   "pre_approved": false,
   "pre_approved_at": null,
   "edited_manually": true,
-  "edited_at": "2026-01-08T10:15:58.492562"
+  "edited_at": "2026-01-08T10:15:58.492562",
+  "auto_published": true
 }
