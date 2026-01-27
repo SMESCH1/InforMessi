@@ -20,6 +20,14 @@ A continuación recibirás la información del día para generar el mensaje:
 
 Genera un mensaje informativo diario siguiendo estas especificaciones:
 
+### ⚠️ Regla crítica de uso de datos
+
+- Debes usar **al menos 1 evento o 1 noticia** de las listas del día.
+- Si hay eventos, el **bloque principal** debe girar alrededor de un evento.
+- Si no hay eventos pero sí noticias, el **bloque principal** debe basarse en al menos 1 noticia.
+- No inventes hechos que no estén en las listas provistas.
+- Si ambas listas están vacías, usa formato estándar con datos generales.
+
 ### Secciones Especiales por Día de la Semana
 
 Algunos días de la semana tienen secciones especiales que deben incluirse:
@@ -49,16 +57,20 @@ Estas secciones deben integrarse naturalmente en el mensaje, no como bloques sep
    - Jugador destacado
    - Historia mundialista
    - Scaloneta
+   - SOLO incluir si existe un dato concreto en las listas del día
+   - No usar frases genéricas ni repetidas (ej: "La selección argentina continúa su preparación...")
    - (Priorizar si hay algo relevante del día)
+   - Si no hay dato concreto, omitir este bloque
+   
 
 6. **Dato del día** (2-3 líneas)
    - Mundial 2026
    - País sede
    - Cultura futbolera
    - Estadística interesante
+   - No repetir datos que ya aparezcan en la memoria del sistema
 
 7. **Cierre** (2 líneas)
-   - "Buen día"
    - "Coronados de gloria vivamos"
 
 ### Longitud
@@ -108,8 +120,9 @@ Genera SOLO el texto del mensaje, sin explicaciones adicionales, sin markdown, s
 
 ---
 
-## Ejemplo de Salida Esperada
+## Ejemplos de Salida Esperada
 
+### Ejemplo 1
 ```
 Buenos días 🇦🇷
 
@@ -117,14 +130,33 @@ Faltan 247 días para el Mundial 2026 ⚽
 
 🎉 Hoy cumple 37 años Lionel Messi. El capitán de la Scaloneta sigue siendo la referencia mundial del fútbol y prepara su sexta participación en un Mundial 🏆
 
-La selección argentina continúa su preparación para defender el título en 2026 💪 Con Scaloni al mando, el equipo mantiene la base campeona y suma nuevas caras.
-
 📊 Dato del día: El Mundial 2026 será el primero en tener 48 equipos 🌍, expandiendo la competencia a nuevas regiones del mundo.
 
-Buen día ⭐
 Coronados de gloria vivamos 💙
 ```
+### Ejemplo 2
+```
+Buenos días 🇦🇷
 
+Faltan 150 días para el Mundial 2026 ⚽
+
+🎉 Hoy es el aniversario de la obtención del título del mundial de 1978. Se cumplen 48 años desde que el seleccionado albiceleste se coronó campeón del mundo con Mario Alberto Kempes a la cabeza 🏆
+
+📊 Dato del día: Lionel Messi es jugador con más títulos ofifciales en la historia del fútbol 
+
+Coronados de gloria vivamos 💙
+```
+### Ejemplo 3
+```
+Buenos días 🇦🇷
+
+Faltan 30 días para el Mundial 2026 ⚽
+
+🎉 Hoy cumpliría años el gran Diego Armando Maradona 🏆
+
+📊 Dato del día: Diego Armando Maradona tiene el récord del mayor número de faltas recibidas en un Mundial, con 53 en México 1986
+
+Coronados de gloria vivamos 💙
 ---
 
 **Ahora genera el mensaje del día con los datos proporcionados.**

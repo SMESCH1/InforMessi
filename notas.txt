@@ -1,0 +1,10 @@
+
+
+TBD:
+- sacar reddit que no es deportivo? o mejorar el fetch de keywords
+
+- revisar y mejorar system prompt
+- revisar y mejorar selection prompt
+- agregar events
+- agregar datos
+- generar y validar proximos informes
