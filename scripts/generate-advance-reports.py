@@ -26,7 +26,7 @@ def generate_report_for_date(date: str) -> dict:
     try:
         result = subprocess.run(
             [sys.executable, str(PROJECT_ROOT / "scripts" / "collect-daily-data.py"),
-             "--date", date, "--output", str(data_file)],
+             "--date", date, "--output", str(data_file), "--no-news"],
             capture_output=True,
             text=True,
             timeout=60

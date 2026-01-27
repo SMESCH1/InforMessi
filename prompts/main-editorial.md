@@ -89,7 +89,8 @@ Estas secciones deben integrarse naturalmente en el mensaje, no como bloques sep
   - 🌍 (mundo) - para Mundial, países, sedes
   - ⚡ (rayo) - para velocidad, acción, dinamismo
   - 🎯 (objetivo) - para metas, objetivos, preparación
-  - 💙 (corazón azul) - para pasión, amor por la selección
+  - 🩵 (corazón celeste) - para pasión, amor por la selección
+  - 🤍 (corazón blanco) - para pasión, amor por la selección
   - 📊 (gráfico) - para estadísticas, datos
   - 🚀 (cohete) - para progreso, avance, futuro
   - Usa 3-5 emojis por mensaje, distribuidos estratégicamente para mejorar la lectura
@@ -132,7 +133,7 @@ Faltan 247 días para el Mundial 2026 ⚽
 
 📊 Dato del día: El Mundial 2026 será el primero en tener 48 equipos 🌍, expandiendo la competencia a nuevas regiones del mundo.
 
-Coronados de gloria vivamos 💙
+Coronados de gloria vivamos 🩵🤍🩵
 ```
 ### Ejemplo 2
 ```
@@ -144,7 +145,7 @@ Faltan 150 días para el Mundial 2026 ⚽
 
 📊 Dato del día: Lionel Messi es jugador con más títulos ofifciales en la historia del fútbol 
 
-Coronados de gloria vivamos 💙
+Coronados de gloria vivamos 🩵🤍🩵
 ```
 ### Ejemplo 3
 ```
@@ -156,7 +157,7 @@ Faltan 30 días para el Mundial 2026 ⚽
 
 📊 Dato del día: Diego Armando Maradona tiene el récord del mayor número de faltas recibidas en un Mundial, con 53 en México 1986
 
-Coronados de gloria vivamos 💙
+Coronados de gloria vivamos 🩵🤍🩵
 ---
 
 **Ahora genera el mensaje del día con los datos proporcionados.**

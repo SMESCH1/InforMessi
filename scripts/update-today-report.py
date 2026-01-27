@@ -59,25 +59,27 @@ def update_report_for_date(date: str) -> bool:
         print(f"❌ Error: {e}")
         return False
     
-    # Comparar datos (ver si hay cambios significativos)
-    old_news_count = len(report.get("data", {}).get("news", []))
-    new_news_count = len(updated_data.get("news", []))
-    
-    old_events_count = len(report.get("data", {}).get("events", []))
-    new_events_count = len(updated_data.get("events", []))
-    
-    has_changes = (
-        old_news_count != new_news_count or
-        old_events_count != new_events_count
-    )
+    def _normalize_news_titles(items):
+        return sorted([item.get("title", "").strip() for item in items if item.get("title")])
+
+    def _normalize_event_desc(items):
+        return sorted([item.get("description", "").strip() for item in items if item.get("description")])
+
+    old_news_titles = _normalize_news_titles(report.get("data", {}).get("news", []))
+    new_news_titles = _normalize_news_titles(updated_data.get("news", []))
+
+    old_event_desc = _normalize_event_desc(report.get("data", {}).get("events", []))
+    new_event_desc = _normalize_event_desc(updated_data.get("events", []))
+
+    has_changes = (old_news_titles != new_news_titles) or (old_event_desc != new_event_desc)
     
     if not has_changes:
         print("ℹ️  No hay cambios significativos en los datos")
         return True
     
     print(f"📊 Cambios detectados:")
-    print(f"   Noticias: {old_news_count} → {new_news_count}")
-    print(f"   Eventos: {old_events_count} → {new_events_count}")
+    print(f"   Noticias: {len(old_news_titles)} → {len(new_news_titles)}")
+    print(f"   Eventos: {len(old_event_desc)} → {len(new_event_desc)}")
     
     # Regenerar mensaje con datos actualizados
     message_file = PROJECT_ROOT / "tmp" / f"message-{date}.txt"
@@ -106,10 +108,8 @@ def update_report_for_date(date: str) -> bool:
     report["message"] = updated_message
     report["status"] = "updated"
     report["updated_at"] = datetime.now().isoformat()
-    
-    # Mantener pre_approved si ya estaba configurado
-    if "pre_approved" not in report:
-        report["pre_approved"] = False
+    report["pre_approved"] = True
+    report["pre_approved_at"] = datetime.now().isoformat()
     
     # Guardar
     with open(report_file, 'w', encoding='utf-8') as f:
@@ -118,7 +118,7 @@ def update_report_for_date(date: str) -> bool:
     # Actualizar base de datos de memoria
     try:
         from update_memory_db import update_memory_for_report
-        update_memory_for_report(target_date)
+        update_memory_for_report(date)
     except:
         pass  # No crítico si falla
     

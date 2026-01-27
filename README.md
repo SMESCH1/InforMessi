@@ -278,6 +278,13 @@ python3 scripts/setup-webhook.py --webhook-url https://tu-webhook.onrender.com
 python3 scripts/generate-advance-reports.py --days 15
 ```
 
+Si querés generar informes anticipados **sin noticias** (para evitar repetir noticias viejas),
+usá `--no-news` en la recolección de datos:
+
+```bash
+python3 scripts/collect-daily-data.py --date 2026-01-26 --output tmp/data-2026-01-26.json --no-news
+```
+
 ---
 
 ## 📁 Estructura del Proyecto
@@ -401,6 +408,9 @@ Cada informe en `reports/YYYY-MM-DD.json`:
 ```bash
 # Generar informes anticipados
 python3 scripts/generate-advance-reports.py --days 15
+
+# Recolectar datos sin noticias (útil para anticipados)
+python3 scripts/collect-daily-data.py --date 2026-01-26 --output tmp/data-2026-01-26.json --no-news
 
 # Actualizar informe del día
 python3 scripts/update-today-report.py

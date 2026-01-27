@@ -35,7 +35,12 @@ def get_events_from_json(date: str, events_file: str = "events.json") -> List[Di
             data = json.load(f)
         
         events = data.get("events", [])
-        today_events = [e for e in events if e.get("date") == date]
+        date_key = date[5:]  # MM-DD
+        today_events = []
+        for event in events:
+            event_date = event.get("date", "")
+            if len(event_date) >= 10 and event_date[5:] == date_key:
+                today_events.append(event)
         
         # Ordenar por prioridad
         priority_order = {"critical": 0, "high": 1, "medium": 2, "low": 3}
