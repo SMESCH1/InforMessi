@@ -26,10 +26,16 @@ except ImportError:
     print("⚠️  feedparser no instalado, solo se usará scraping")
 
 
-def _validate_news_basic(news_list: List[Dict], max_days: int = 3) -> List[Dict]:
+def _validate_news_basic(news_list: List[Dict], max_days: int = 3, reference_date: Optional[str] = None) -> List[Dict]:
     """Validación básica de noticias (fecha y contenido obsoleto)"""
     valid_news = []
-    today = datetime.now().date()
+    if reference_date:
+        try:
+            today = datetime.strptime(reference_date, "%Y-%m-%d").date()
+        except Exception:
+            today = datetime.now().date()
+    else:
+        today = datetime.now().date()
     
     # Palabras clave que indican información obsoleta
     obsolete_keywords = [
@@ -278,7 +284,7 @@ def get_news_tyc_sports(max_results: int = 5) -> List[Dict]:
         return []
 
 
-def get_news_argentina(max_results: int = 5, silent: bool = False) -> List[Dict]:
+def get_news_argentina(max_results: int = 5, silent: bool = False, reference_date: Optional[str] = None, max_days: int = 3) -> List[Dict]:
     """Obtiene noticias deportivas de Argentina desde múltiples fuentes"""
     
     all_news = []
@@ -332,7 +338,7 @@ def get_news_argentina(max_results: int = 5, silent: bool = False) -> List[Dict]
             unique_news.append(item)
     
     # Validar noticias (fecha y contenido obsoleto)
-    validated_news = _validate_news_basic(unique_news, max_days=3)
+    validated_news = _validate_news_basic(unique_news, max_days=max_days, reference_date=reference_date)
     
     # Limitar resultados
     return validated_news[:max_results]
@@ -360,6 +366,17 @@ def main():
         action="store_true",
         help="Solo imprimir JSON (para uso en scripts)"
     )
+    parser.add_argument(
+        "--date",
+        help="Fecha de referencia para filtrar noticias (YYYY-MM-DD)",
+        default=None
+    )
+    parser.add_argument(
+        "--max-days",
+        type=int,
+        default=3,
+        help="Ventana en días hacia atrás desde la fecha de referencia (default: 3)"
+    )
     
     args = parser.parse_args()
     
@@ -367,7 +384,12 @@ def main():
         print("📰 Obteniendo noticias deportivas...")
         print("=" * 50)
     
-    news = get_news_argentina(args.max_results, silent=args.json_only)
+    news = get_news_argentina(
+        args.max_results,
+        silent=args.json_only,
+        reference_date=args.date,
+        max_days=args.max_days
+    )
     
     if args.json_only:
         # Solo imprimir JSON (para uso en scripts)

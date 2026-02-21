@@ -6,10 +6,19 @@ MVP - InforMessi
 """
 
 import json
+import unicodedata
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Set
 from collections import defaultdict
+
+
+def _normalize_text(text: str) -> str:
+    """Lowercase, strip accents, collapse whitespace."""
+    text = text.lower().strip()
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
+    return " ".join(text.split())
 
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
@@ -53,6 +62,7 @@ class MemoryDatabase:
             "topics_mentioned": {},  # {topic: [dates]}
             "events_mentioned": {},  # {event_description: [dates]}
             "news_topics": {},  # {news_title: [dates]}
+            "facts_used": {},  # {fact_text: [dates]}
             "phrases_used": []  # [{"date": date, "phrase": phrase}]
         }
     
@@ -114,14 +124,25 @@ class MemoryDatabase:
             self.save()
     
     def record_news(self, news_title: str, date: str):
-        """Registra que una noticia fue mencionada"""
-        # Normalizar título (primeros 150 caracteres)
-        normalized = news_title[:150]
+        """Registra que una noticia fue mencionada (primeros 50 chars, normalizado)"""
+        normalized = _normalize_text(news_title)[:50]
+        if not normalized:
+            return
         if normalized not in self.data["news_topics"]:
             self.data["news_topics"][normalized] = []
-        
+
         if date not in self.data["news_topics"][normalized]:
             self.data["news_topics"][normalized].append(date)
+            self.save()
+
+    def record_fact(self, fact_text: str, date: str):
+        """Registra un dato del día usado"""
+        normalized = fact_text[:200]
+        if normalized not in self.data["facts_used"]:
+            self.data["facts_used"][normalized] = []
+
+        if date not in self.data["facts_used"][normalized]:
+            self.data["facts_used"][normalized].append(date)
             self.save()
     
     def get_players_usage_count(self) -> Dict[str, int]:
@@ -198,12 +219,28 @@ class MemoryDatabase:
             if desc:
                 self.record_event(desc, date)
         
-        # Registrar noticias
+        # Registrar noticias (match parcial: primeros 40 chars del titulo normalizado)
+        msg_norm = _normalize_text(message)
         news = data.get("news", [])
         for item in news:
             title = item.get("title", "")
-            if title:
+            if not title:
+                continue
+            title_norm = _normalize_text(title)[:40]
+            if title_norm and title_norm in msg_norm:
                 self.record_news(title, date)
+
+        # Registrar dato del día (si aparece en el mensaje)
+        for line in message.splitlines():
+            line_strip = line.strip()
+            if "dato del día" in line_strip.lower() or "dato del dia" in line_strip.lower():
+                # Remover prefijos comunes y guardar el contenido
+                cleaned = line_strip
+                for prefix in ["📊", "Dato del día:", "Dato del dia:", "Dato del día", "Dato del dia"]:
+                    cleaned = cleaned.replace(prefix, "").strip(" :.-")
+                if cleaned:
+                    self.record_fact(cleaned, date)
+                break
         
         # Registrar temas generales
         if "mundial" in message.lower():
@@ -267,6 +304,43 @@ def build_memory_context_from_db(target_date: str) -> str:
     if topics:
         context_parts.append("\n**Temas generales ya cubiertos:**")
         context_parts.append("Asegúrate de variar el enfoque si mencionas estos temas.")
+
+    def _filter_recent_items(items_map: Dict[str, List[str]], days: int = 30) -> List[str]:
+        """Retorna claves ordenadas por uso reciente dentro de ventana de dias."""
+        cutoff = datetime.now().date()
+        recent_items = []
+        for key, dates in items_map.items():
+            parsed_dates = []
+            for d in dates:
+                try:
+                    parsed_dates.append(datetime.strptime(d, "%Y-%m-%d").date())
+                except Exception:
+                    continue
+            if not parsed_dates:
+                continue
+            last_date = max(parsed_dates)
+            if (cutoff - last_date).days <= days:
+                recent_items.append((last_date, key))
+        recent_items.sort(key=lambda x: x[0], reverse=True)
+        return [key for _, key in recent_items]
+
+    facts_used = db.data.get("facts_used", {})
+    if facts_used:
+        recent_facts = _filter_recent_items(facts_used, days=30)
+        if recent_facts:
+            context_parts.append("\n**Datos del día usados recientemente (últimos 30 días):**")
+            for fact in recent_facts[:10]:
+                context_parts.append(f"- {fact}")
+            context_parts.append("Evita repetir estos datos en nuevos informes.")
+
+    news_used = db.data.get("news_topics", {})
+    if news_used:
+        recent_news = _filter_recent_items(news_used, days=30)
+        if recent_news:
+            context_parts.append("\n**Noticias usadas recientemente (últimos 30 días):**")
+            for title in recent_news[:10]:
+                context_parts.append(f"- {title}")
+            context_parts.append("Evita repetir estas noticias en nuevos informes.")
     
     context_parts.append("\n**Instrucciones generales:**")
     context_parts.append("- NO repitas exactamente la misma información, datos o frases")

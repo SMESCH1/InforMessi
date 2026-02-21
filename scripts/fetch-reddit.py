@@ -18,8 +18,14 @@ SUBREDDITS = [
     "soccer",           # Fútbol general
     "argentina",        # Argentina general (puede tener contenido de fútbol)
     "fulbo",            # Fútbol argentino
+    "futbol",          
     "worldcup",         # Mundial
     "messi",            # Messi específico
+    "football",         # Fútbol general
+    "fifa",             # FIFA general
+    "mundial",          
+    "worldcup2026"    # Mundial 2026
+
 ]
 
 # Palabras clave para filtrar posts relevantes

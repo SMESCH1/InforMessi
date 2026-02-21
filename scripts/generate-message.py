@@ -10,10 +10,15 @@ import sys
 from pathlib import Path
 from datetime import datetime, date
 
-# Configuración
 PROJECT_ROOT = Path(__file__).parent.parent
 PROMPTS_DIR = PROJECT_ROOT / "prompts"
 DATA_DIR = PROJECT_ROOT / "data"
+
+try:
+    from dotenv import load_dotenv
+    load_dotenv(PROJECT_ROOT / ".env")
+except ImportError:
+    pass
 
 def load_prompt(filename):
     """Carga un archivo de prompt desde prompts/"""
@@ -30,7 +35,136 @@ def calculate_days_remaining(mundial_date, current_date):
     current = datetime.strptime(current_date, "%Y-%m-%d").date()
     return (mundial - current).days
 
-def build_prompt(data):
+def _format_event_for_selection(event):
+    """Formatea un evento para el paso de seleccion."""
+    if event.get("type") == "birthday":
+        return f"{event.get('person', '')} cumple {event.get('age', '')} anos. {event.get('description', '')}".strip()
+    if event.get("type") == "match":
+        return (
+            f"Partido: Argentina vs {event.get('opponent', '')} "
+            f"en {event.get('venue', '')} a las {event.get('time', '')}. "
+            f"{event.get('description', '')}"
+        ).strip()
+    return event.get("description", "")
+
+
+def _format_event_for_prompt(event):
+    """Formatea un evento para el prompt final."""
+    if event.get("type") == "birthday":
+        return f"- {event.get('person', '')} cumple {event.get('age', '')} años ({event.get('description', '')})"
+    if event.get("type") == "match":
+        return (
+            f"- Partido: Argentina vs {event.get('opponent', '')} en {event.get('venue', '')} "
+            f"a las {event.get('time', '')} ({event.get('description', '')})"
+        )
+    return f"- {event.get('description', '')}"
+
+
+def _format_news_for_prompt(news):
+    """Formatea una noticia para el prompt final."""
+    title = news.get("title", "")
+    desc = news.get("description", "")
+    source = news.get("source", "Sin fuente")
+    if desc:
+        return f"- {title}: {desc[:150]} ({source})"
+    return f"- {title} ({source})"
+
+
+def build_selection_prompt(data):
+    """Construye el prompt de seleccion de evidencias."""
+    selector_prompt = load_prompt("selection-prompt.md")
+
+    events = data.get("events", [])
+    news = data.get("news", [])
+
+    if events:
+        events_lines = []
+        for idx, event in enumerate(events, start=1):
+            events_lines.append(f"- [E{idx}] {_format_event_for_selection(event)}")
+        events_text = "\n".join(events_lines)
+    else:
+        events_text = "No hay eventos del dia."
+
+    if news:
+        news_lines = []
+        for idx, item in enumerate(news, start=1):
+            title = item.get("title", "")
+            desc = item.get("description", "")
+            source = item.get("source", "Sin fuente")
+            news_lines.append(f"- [N{idx}] {title} | {desc[:140]} | {source}")
+        news_text = "\n".join(news_lines)
+    else:
+        news_text = "No hay noticias del dia."
+
+    prompt = f"""{selector_prompt}
+
+### Eventos del Dia
+{events_text}
+
+### Noticias del Dia
+{news_text}
+"""
+    return prompt
+
+
+def _extract_json(text):
+    """Extrae el primer objeto JSON de una respuesta."""
+    start = text.find("{")
+    end = text.rfind("}")
+    if start == -1 or end == -1 or end <= start:
+        return ""
+    return text[start:end + 1]
+
+
+def parse_selection_response(response_text, events, news):
+    """Parsea la seleccion del LLM y devuelve items seleccionados."""
+    selected_events = []
+    selected_news = []
+
+    raw_json = _extract_json(response_text)
+    if not raw_json:
+        return _fallback_selection(events, news)
+
+    try:
+        data = json.loads(raw_json)
+    except json.JSONDecodeError:
+        return _fallback_selection(events, news)
+
+    event_ids = data.get("selected_event_ids", []) or []
+    news_ids = data.get("selected_news_ids", []) or []
+
+    for event_id in event_ids:
+        if isinstance(event_id, str) and event_id.startswith("E"):
+            try:
+                idx = int(event_id[1:]) - 1
+                if 0 <= idx < len(events):
+                    selected_events.append(events[idx])
+            except ValueError:
+                continue
+
+    for news_id in news_ids:
+        if isinstance(news_id, str) and news_id.startswith("N"):
+            try:
+                idx = int(news_id[1:]) - 1
+                if 0 <= idx < len(news):
+                    selected_news.append(news[idx])
+            except ValueError:
+                continue
+
+    if not selected_events and not selected_news:
+        return _fallback_selection(events, news)
+
+    return selected_events, selected_news
+
+
+def _fallback_selection(events, news):
+    """Seleccion por defecto si falla el parseo."""
+    selected_events = events[:1] if events else []
+    selected_news = news[:2] if news else []
+    return selected_events, selected_news
+
+
+def build_prompt(data, selected_events=None, selected_news=None):
     """Construye el prompt completo con system prompt y datos del día"""
     
     # Cargar prompts
@@ -70,32 +204,18 @@ def build_prompt(data):
         data["date"]
     )
     
-    # Formatear eventos
+    # Formatear eventos (seleccionados)
+    events_to_use = selected_events if selected_events is not None else data.get("events", [])
     events_text = "No hay eventos importantes del día."
-    if data["events"]:
-        events_list = []
-        for event in data["events"]:
-            if event["type"] == "birthday":
-                events_list.append(
-                    f"- {event['person']} cumple {event['age']} años ({event['description']})"
-                )
-            elif event["type"] == "match":
-                events_list.append(
-                    f"- Partido: Argentina vs {event['opponent']} en {event['venue']} a las {event['time']} ({event['description']})"
-                )
-            else:
-                events_list.append(f"- {event['description']}")
+    if events_to_use:
+        events_list = [_format_event_for_prompt(event) for event in events_to_use]
         events_text = "\n".join(events_list)
-    
-    # Formatear noticias
+
+    # Formatear noticias (seleccionadas)
+    news_to_use = selected_news if selected_news is not None else data.get("news", [])
     news_text = "No hay noticias relevantes del día."
-    if data.get("news"):
-        news_list = []
-        for news in data["news"]:
-            # Usar 'description' si existe, sino 'title' solo
-            desc = news.get("description", news.get("title", ""))
-            source = news.get("source", "Sin fuente")
-            news_list.append(f"- {news['title']}: {desc[:150]} ({source})")
+    if news_to_use:
+        news_list = [_format_news_for_prompt(item) for item in news_to_use]
         news_text = "\n".join(news_list)
     
     # Detectar contenido audiovisual
@@ -138,36 +258,64 @@ def build_prompt(data):
     
     return prompt
 
-def call_llm_ollama(prompt, model="llama3.2", base_url="http://localhost:11434"):
+def call_llm_ollama(prompt, model="qwen2.5:7b-instruct", base_url="http://localhost:11434", temperature=0.7, max_tokens=300):
     """Llama a Ollama para generar el mensaje"""
-    try:
-        import requests
-        
-        response = requests.post(
-            f"{base_url}/api/generate",
-            json={
-                "model": model,
-                "prompt": prompt,
-                "stream": False,
-                "options": {
-                    "temperature": 0.7,
-                    "max_tokens": 300
-                }
-            },
-            timeout=120
-        )
-        response.raise_for_status()
-        return response.json()["response"]
-    except ImportError:
-        print("ERROR: Necesitas instalar 'requests': pip install requests")
+    import requests
+
+    response = requests.post(
+        f"{base_url}/api/generate",
+        json={
+            "model": model,
+            "prompt": prompt,
+            "stream": False,
+            "options": {
+                "temperature": temperature,
+                "max_tokens": max_tokens
+            }
+        },
+        timeout=120
+    )
+    response.raise_for_status()
+    return response.json()["response"]
+
+
+def call_llm_groq(prompt, model="llama-3.1-8b-instant", temperature=0.7, max_tokens=300):
+    """Llama a Groq API (gratuita) para generar el mensaje"""
+    import requests
+
+    api_key = os.environ.get("GROQ_API_KEY", "")
+    if not api_key:
+        print("ERROR: GROQ_API_KEY no configurada")
         sys.exit(1)
-    except requests.exceptions.ConnectionError:
-        print(f"ERROR: No se pudo conectar a Ollama en {base_url}")
-        print("Asegúrate de que Ollama esté corriendo y el modelo {model} esté instalado")
-        sys.exit(1)
-    except Exception as e:
-        print(f"ERROR al llamar a Ollama: {e}")
-        sys.exit(1)
+
+    response = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        },
+        json={
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": temperature,
+            "max_tokens": max_tokens
+        },
+        timeout=60
+    )
+    response.raise_for_status()
+    return response.json()["choices"][0]["message"]["content"]
+
+
+def _get_llm_caller(provider, model, base_url):
+    """Returns a callable (prompt, temperature, max_tokens) -> str based on provider."""
+    if provider == "groq":
+        def _call(prompt, temperature=0.7, max_tokens=300):
+            return call_llm_groq(prompt, model=model, temperature=temperature, max_tokens=max_tokens)
+        return _call
+
+    def _call(prompt, temperature=0.7, max_tokens=300):
+        return call_llm_ollama(prompt, model=model, base_url=base_url, temperature=temperature, max_tokens=max_tokens)
+    return _call
 
 def main():
     """Función principal"""
@@ -183,13 +331,19 @@ def main():
     )
     parser.add_argument(
         "--model",
-        default="llama3.2",
-        help="Modelo de Ollama a usar (default: llama3.2)"
+        default=os.environ.get("LLM_MODEL", "qwen2.5:7b-instruct"),
+        help="Modelo a usar (default: env LLM_MODEL o qwen2.5:7b-instruct)"
     )
     parser.add_argument(
         "--base-url",
-        default="http://localhost:11434",
-        help="URL base de Ollama (default: http://localhost:11434)"
+        default=os.environ.get("LLM_BASE_URL", "http://localhost:11434"),
+        help="URL base de Ollama (default: env LLM_BASE_URL o http://localhost:11434)"
+    )
+    parser.add_argument(
+        "--provider",
+        default=os.environ.get("LLM_PROVIDER", "ollama"),
+        choices=["ollama", "groq"],
+        help="Proveedor LLM (default: env LLM_PROVIDER o ollama)"
     )
     parser.add_argument(
         "--output",
@@ -215,15 +369,31 @@ def main():
     print(f"   Eventos: {len(data.get('events', []))}")
     print(f"   Noticias: {len(data.get('news', []))}")
     
-    # Construir prompt
+    llm_call = _get_llm_caller(args.provider, args.model, args.base_url)
+
+    events = data.get("events", [])
+    news = data.get("news", [])
+
+    if events or news:
+        print("\n🔎 Seleccionando eventos y noticias relevantes...")
+        selection_prompt = build_selection_prompt(data)
+        selection_response = llm_call(selection_prompt, temperature=0.1, max_tokens=200)
+        selected_events, selected_news = parse_selection_response(
+            selection_response, events, news
+        )
+        print(f"   Eventos seleccionados: {len(selected_events)}")
+        print(f"   Noticias seleccionadas: {len(selected_news)}")
+    else:
+        print("\nℹ️  Sin eventos ni noticias, omitiendo paso de selección")
+        selected_events, selected_news = [], []
+
     print("\n📝 Construyendo prompt...")
-    prompt = build_prompt(data)
-    
-    # Generar mensaje
-    print(f"\n🤖 Generando mensaje con {args.model}...")
+    prompt = build_prompt(data, selected_events, selected_news)
+
+    print(f"\n🤖 Generando mensaje con {args.provider}/{args.model}...")
     print("   (Esto puede tardar unos momentos...)\n")
-    
-    message = call_llm_ollama(prompt, args.model, args.base_url)
+
+    message = llm_call(prompt)
     
     # Mostrar resultado
     print("=" * 50)

@@ -26,7 +26,7 @@ def generate_report_for_date(date: str) -> dict:
     try:
         result = subprocess.run(
             [sys.executable, str(PROJECT_ROOT / "scripts" / "collect-daily-data.py"),
-             "--date", date, "--output", str(data_file)],
+             "--date", date, "--output", str(data_file), "--no-news"],
             capture_output=True,
             text=True,
             timeout=60
@@ -43,27 +43,30 @@ def generate_report_for_date(date: str) -> dict:
         print(f"❌ Error: {e}")
         return None
     
-    # Generar mensaje
-    message_file = PROJECT_ROOT / "tmp" / f"message-{date}.txt"
-    
-    try:
-        result = subprocess.run(
-            [sys.executable, str(PROJECT_ROOT / "scripts" / "generate-message.py"),
-             "--data", str(data_file), "--output", str(message_file)],
-            capture_output=True,
-            text=True,
-            timeout=120
-        )
-        
-        if result.returncode != 0:
-            print(f"⚠️  Error al generar mensaje: {result.stderr}")
-            return None
-            
-        # Leer mensaje
-        message = message_file.read_text(encoding='utf-8')
-    except Exception as e:
-        print(f"❌ Error: {e}")
-        return None
+    has_events = bool(data.get("events"))
+    has_news = bool(data.get("news"))
+
+    if not has_events and not has_news:
+        print(f"ℹ️  Sin eventos ni noticias para {date}, guardando borrador sin mensaje")
+        message = ""
+    else:
+        message_file = PROJECT_ROOT / "tmp" / f"message-{date}.txt"
+        try:
+            result = subprocess.run(
+                [sys.executable, str(PROJECT_ROOT / "scripts" / "generate-message.py"),
+                 "--data", str(data_file), "--output", str(message_file)],
+                capture_output=True,
+                text=True,
+                timeout=120
+            )
+            if result.returncode != 0:
+                print(f"⚠️  Error al generar mensaje: {result.stderr}")
+                message = ""
+            else:
+                message = message_file.read_text(encoding='utf-8')
+        except Exception as e:
+            print(f"❌ Error: {e}")
+            message = ""
     
     # Guardar informe
     report = {
@@ -81,13 +84,6 @@ def generate_report_for_date(date: str) -> dict:
     report_file = REPORTS_DIR / f"{date}.json"
     with open(report_file, 'w', encoding='utf-8') as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
-    
-    # Actualizar base de datos de memoria
-    try:
-        from update_memory_db import update_memory_for_report
-        update_memory_for_report(date)
-    except:
-        pass  # No crítico si falla
     
     print(f"✅ Informe guardado: {report_file}")
     return report

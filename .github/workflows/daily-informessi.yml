@@ -1,100 +1,77 @@
-name: InforMessi - Flujo Diario Completo
+name: InforMessi - Flujo Diario
 
 on:
   schedule:
-    # Ejecutar todos los días a las 13:15 UTC (10:15 AM Argentina, UTC-3)
-    # Comienza a funcionar desde hoy (2025-12-28)
-    - cron: '15 13 * * *'
-  workflow_dispatch: # Permite ejecución manual
+    - cron: '15 13 * * *' # 10:15 AM Argentina (UTC-3)
+  workflow_dispatch:
 
 jobs:
-  update-and-send-report:
+  daily-report:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - name: Checkout código
+      - name: Checkout codigo
         uses: actions/checkout@v4
-      
+
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.12'
-      
+
       - name: Instalar dependencias
-        run: |
-          pip install -r requirements.txt
-      
-      - name: Configurar Ollama (simulado)
-        run: |
-          echo "⚠️  Ollama no disponible en GitHub Actions"
-          echo "   El workflow actualizará el informe pero no generará mensaje nuevo"
-          echo "   Para generar mensajes, necesitas ejecutar localmente o en servidor con Ollama"
-      
+        run: pip install -r requirements.txt
+
       - name: Generar informe si no existe
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
-          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
+          LLM_PROVIDER: groq
+          LLM_MODEL: llama-3.1-8b-instant
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
-          # Verificar si existe el informe del día
           DATE=$(date +%Y-%m-%d)
           if [ ! -f "reports/${DATE}.json" ]; then
-            echo "📝 Informe para ${DATE} no existe, generando..."
-            python3 scripts/generate-advance-reports.py --days 1 --start-date ${DATE} || echo "⚠️  Error al generar, continuando..."
+            echo "Generando informe para ${DATE}..."
+            python3 scripts/generate-advance-reports.py --days 1 --start-date "${DATE}"
           else
-            echo "✅ Informe para ${DATE} ya existe"
+            echo "Informe para ${DATE} ya existe"
           fi
-      
-      - name: Actualizar informe del día
+
+      - name: Actualizar informe con noticias recientes
         env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_PREVIEW_CHAT_ID: ${{ secrets.TELEGRAM_PREVIEW_CHAT_ID }}
-          TELEGRAM_PUBLIC_CHAT_ID: ${{ secrets.TELEGRAM_PUBLIC_CHAT_ID }}
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
-          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
-        run: |
-          # Actualizar informe del día con datos recientes
-          python3 scripts/update-today-report.py || echo "⚠️  Error al actualizar, continuando..."
-      
-      - name: Diagnóstico de configuración
+          LLM_PROVIDER: groq
+          LLM_MODEL: llama-3.1-8b-instant
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_PREVIEW_CHAT_ID: ${{ secrets.TELEGRAM_PREVIEW_CHAT_ID }}
+          TELEGRAM_PUBLIC_CHAT_ID: ${{ secrets.TELEGRAM_PUBLIC_CHAT_ID }}
+        run: python3 scripts/update-today-report.py
+
+      - name: Enviar a Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_PREVIEW_CHAT_ID: ${{ secrets.TELEGRAM_PREVIEW_CHAT_ID }}
           TELEGRAM_PUBLIC_CHAT_ID: ${{ secrets.TELEGRAM_PUBLIC_CHAT_ID }}
-        run: |
-          python3 scripts/diagnose-workflow.py || echo "⚠️  Error en diagnóstico"
-      
-      - name: Enviar a revisión en Telegram
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_PREVIEW_CHAT_ID: ${{ secrets.TELEGRAM_PREVIEW_CHAT_ID }}
-          TELEGRAM_PUBLIC_CHAT_ID: ${{ secrets.TELEGRAM_PUBLIC_CHAT_ID }}
-        run: |
-          # Enviar a Telegram - si está pre-aprobado, se publica directamente
-          # Si no, se envía a preview para aprobación manual
-          python3 scripts/send-daily-report-review.py || echo "⚠️  Error al enviar, continuando..."
-          echo "✅ Informe procesado"
-          echo "💡 Si no está pre-aprobado, revisa el mensaje en tu chat privado"
-      
-      - name: Publicación automática de respaldo (si no hay aprobación)
+        run: python3 scripts/send-daily-report-review.py
+
+      - name: Publicacion automatica de respaldo
+        if: always()
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_PUBLIC_CHAT_ID: ${{ secrets.TELEGRAM_PUBLIC_CHAT_ID }}
-        run: |
-          # Verificar informes de los últimos 3 días que no fueron publicados
-          # Si pasaron más de 2 horas desde la actualización, publicar automáticamente
-          python3 scripts/auto-publish-fallback.py --check-all --hours 2 || echo "⚠️  Error en publicación automática, continuando..."
-      
+        run: python3 scripts/auto-publish-fallback.py --check-all --hours 2 || true
+
       - name: Commit y push cambios
+        if: always()
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add reports/ || true
-          git diff --staged --quiet || git commit -m "Actualizar informe del día $(date +%Y-%m-%d)"
-          git push || echo "No hay cambios para commitear"
-
+          git add reports/ data/ || true
+          git diff --staged --quiet || git commit -m "Actualizar informe $(date +%Y-%m-%d)"
+          git push || true
