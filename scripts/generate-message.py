@@ -10,10 +10,15 @@ import sys
 from pathlib import Path
 from datetime import datetime, date
 
-# Configuración
 PROJECT_ROOT = Path(__file__).parent.parent
 PROMPTS_DIR = PROJECT_ROOT / "prompts"
 DATA_DIR = PROJECT_ROOT / "data"
+
+try:
+    from dotenv import load_dotenv
+    load_dotenv(PROJECT_ROOT / ".env")
+except ImportError:
+    pass
 
 def load_prompt(filename):
     """Carga un archivo de prompt desde prompts/"""
@@ -253,36 +258,64 @@ def build_prompt(data, selected_events=None, selected_news=None):
     
     return prompt
 
-def call_llm_ollama(prompt, model="llama3.2", base_url="http://localhost:11434", temperature=0.7, max_tokens=300):
+def call_llm_ollama(prompt, model="qwen2.5:7b-instruct", base_url="http://localhost:11434", temperature=0.7, max_tokens=300):
     """Llama a Ollama para generar el mensaje"""
-    try:
-        import requests
-        
-        response = requests.post(
-            f"{base_url}/api/generate",
-            json={
-                "model": model,
-                "prompt": prompt,
-                "stream": False,
-                "options": {
-                    "temperature": temperature,
-                    "max_tokens": max_tokens
-                }
-            },
-            timeout=120
-        )
-        response.raise_for_status()
-        return response.json()["response"]
-    except ImportError:
-        print("ERROR: Necesitas instalar 'requests': pip install requests")
+    import requests
+
+    response = requests.post(
+        f"{base_url}/api/generate",
+        json={
+            "model": model,
+            "prompt": prompt,
+            "stream": False,
+            "options": {
+                "temperature": temperature,
+                "max_tokens": max_tokens
+            }
+        },
+        timeout=120
+    )
+    response.raise_for_status()
+    return response.json()["response"]
+
+
+def call_llm_groq(prompt, model="llama-3.1-8b-instant", temperature=0.7, max_tokens=300):
+    """Llama a Groq API (gratuita) para generar el mensaje"""
+    import requests
+
+    api_key = os.environ.get("GROQ_API_KEY", "")
+    if not api_key:
+        print("ERROR: GROQ_API_KEY no configurada")
         sys.exit(1)
-    except requests.exceptions.ConnectionError:
-        print(f"ERROR: No se pudo conectar a Ollama en {base_url}")
-        print("Asegúrate de que Ollama esté corriendo y el modelo {model} esté instalado")
-        sys.exit(1)
-    except Exception as e:
-        print(f"ERROR al llamar a Ollama: {e}")
-        sys.exit(1)
+
+    response = requests.post(
+        "https://api.groq.com/openai/v1/chat/completions",
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        },
+        json={
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": temperature,
+            "max_tokens": max_tokens
+        },
+        timeout=60
+    )
+    response.raise_for_status()
+    return response.json()["choices"][0]["message"]["content"]
+
+
+def _get_llm_caller(provider, model, base_url):
+    """Returns a callable (prompt, temperature, max_tokens) -> str based on provider."""
+    if provider == "groq":
+        def _call(prompt, temperature=0.7, max_tokens=300):
+            return call_llm_groq(prompt, model=model, temperature=temperature, max_tokens=max_tokens)
+        return _call
+
+    def _call(prompt, temperature=0.7, max_tokens=300):
+        return call_llm_ollama(prompt, model=model, base_url=base_url, temperature=temperature, max_tokens=max_tokens)
+    return _call
 
 def main():
     """Función principal"""
@@ -298,13 +331,19 @@ def main():
     )
     parser.add_argument(
         "--model",
-        default="llama3.2",
-        help="Modelo de Ollama a usar (default: llama3.2)"
+        default=os.environ.get("LLM_MODEL", "qwen2.5:7b-instruct"),
+        help="Modelo a usar (default: env LLM_MODEL o qwen2.5:7b-instruct)"
     )
     parser.add_argument(
         "--base-url",
-        default="http://localhost:11434",
-        help="URL base de Ollama (default: http://localhost:11434)"
+        default=os.environ.get("LLM_BASE_URL", "http://localhost:11434"),
+        help="URL base de Ollama (default: env LLM_BASE_URL o http://localhost:11434)"
+    )
+    parser.add_argument(
+        "--provider",
+        default=os.environ.get("LLM_PROVIDER", "ollama"),
+        choices=["ollama", "groq"],
+        help="Proveedor LLM (default: env LLM_PROVIDER o ollama)"
     )
     parser.add_argument(
         "--output",
@@ -330,33 +369,31 @@ def main():
     print(f"   Eventos: {len(data.get('events', []))}")
     print(f"   Noticias: {len(data.get('news', []))}")
     
-    # Seleccionar evidencias con LLM (RAG simple en 2 pasos)
-    print("\n🔎 Seleccionando eventos y noticias relevantes...")
-    selection_prompt = build_selection_prompt(data)
-    selection_response = call_llm_ollama(
-        selection_prompt,
-        args.model,
-        args.base_url,
-        temperature=0.1,
-        max_tokens=200
-    )
-    selected_events, selected_news = parse_selection_response(
-        selection_response,
-        data.get("events", []),
-        data.get("news", [])
-    )
-    print(f"   Eventos seleccionados: {len(selected_events)}")
-    print(f"   Noticias seleccionadas: {len(selected_news)}")
+    llm_call = _get_llm_caller(args.provider, args.model, args.base_url)
 
-    # Construir prompt final
+    events = data.get("events", [])
+    news = data.get("news", [])
+
+    if events or news:
+        print("\n🔎 Seleccionando eventos y noticias relevantes...")
+        selection_prompt = build_selection_prompt(data)
+        selection_response = llm_call(selection_prompt, temperature=0.1, max_tokens=200)
+        selected_events, selected_news = parse_selection_response(
+            selection_response, events, news
+        )
+        print(f"   Eventos seleccionados: {len(selected_events)}")
+        print(f"   Noticias seleccionadas: {len(selected_news)}")
+    else:
+        print("\nℹ️  Sin eventos ni noticias, omitiendo paso de selección")
+        selected_events, selected_news = [], []
+
     print("\n📝 Construyendo prompt...")
     prompt = build_prompt(data, selected_events, selected_news)
-    
-    # Generar mensaje
-    print(f"\n🤖 Generando mensaje con {args.model}...")
+
+    print(f"\n🤖 Generando mensaje con {args.provider}/{args.model}...")
     print("   (Esto puede tardar unos momentos...)\n")
-    
-    message = call_llm_ollama(prompt, args.model, args.base_url)
+
+    message = llm_call(prompt)
     
     # Mostrar resultado
     print("=" * 50)

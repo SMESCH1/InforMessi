@@ -6,10 +6,19 @@ MVP - InforMessi
 """
 
 import json
+import unicodedata
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Set
 from collections import defaultdict
+
+
+def _normalize_text(text: str) -> str:
+    """Lowercase, strip accents, collapse whitespace."""
+    text = text.lower().strip()
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
+    return " ".join(text.split())
 
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
@@ -115,12 +124,13 @@ class MemoryDatabase:
             self.save()
     
     def record_news(self, news_title: str, date: str):
-        """Registra que una noticia fue mencionada"""
-        # Normalizar título (primeros 150 caracteres)
-        normalized = news_title[:150]
+        """Registra que una noticia fue mencionada (primeros 50 chars, normalizado)"""
+        normalized = _normalize_text(news_title)[:50]
+        if not normalized:
+            return
         if normalized not in self.data["news_topics"]:
             self.data["news_topics"][normalized] = []
-        
+
         if date not in self.data["news_topics"][normalized]:
             self.data["news_topics"][normalized].append(date)
             self.save()
@@ -209,11 +219,15 @@ class MemoryDatabase:
             if desc:
                 self.record_event(desc, date)
         
-        # Registrar noticias
+        # Registrar noticias (match parcial: primeros 40 chars del titulo normalizado)
+        msg_norm = _normalize_text(message)
         news = data.get("news", [])
         for item in news:
             title = item.get("title", "")
-            if title and title.lower() in message.lower():
+            if not title:
+                continue
+            title_norm = _normalize_text(title)[:40]
+            if title_norm and title_norm in msg_norm:
                 self.record_news(title, date)
 
         # Registrar dato del día (si aparece en el mensaje)

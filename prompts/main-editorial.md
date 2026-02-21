@@ -22,11 +22,10 @@ Genera un mensaje informativo diario siguiendo estas especificaciones:
 
 ### ⚠️ Regla crítica de uso de datos
 
-- Debes usar **al menos 1 evento o 1 noticia** de las listas del día.
-- Si hay eventos, el **bloque principal** debe girar alrededor de un evento.
-- Si no hay eventos pero sí noticias, el **bloque principal** debe basarse en al menos 1 noticia.
-- No inventes hechos que no estén en las listas provistas.
-- Si ambas listas están vacías, usa formato estándar con datos generales.
+- Si hay eventos, el **bloque principal** DEBE girar alrededor de un evento de la lista.
+- Si no hay eventos pero sí noticias, el **bloque principal** DEBE basarse en al menos 1 noticia de la lista.
+- **NUNCA** inventes noticias, convocatorias, anuncios, lesiones ni datos que no estén en las listas provistas.
+- Si ambas listas están vacías, genera un mensaje corto con solo saludo, cuenta regresiva y cierre. No agregues bloques de contenido inventado.
 
 ### Secciones Especiales por Día de la Semana
 

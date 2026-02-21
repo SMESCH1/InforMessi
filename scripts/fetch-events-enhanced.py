@@ -25,27 +25,39 @@ DATA_DIR = PROJECT_ROOT / "data"
 
 
 def get_events_from_json(date: str, events_file: str = "events.json") -> List[Dict]:
-    """Obtiene eventos desde archivo JSON"""
+    """Obtiene eventos desde archivo JSON, matcheando por MM-DD"""
     filepath = DATA_DIR / events_file
     if not filepath.exists():
         return []
-    
+
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             data = json.load(f)
-        
+
         events = data.get("events", [])
         date_key = date[5:]  # MM-DD
+        target_year = int(date[:4])
         today_events = []
         for event in events:
             event_date = event.get("date", "")
-            if len(event_date) >= 10 and event_date[5:] == date_key:
-                today_events.append(event)
-        
-        # Ordenar por prioridad
+            if len(event_date) < 10 or event_date[5:] != date_key:
+                continue
+
+            ev = dict(event)
+
+            if ev.get("type") == "birthday" and "age" in ev:
+                event_year = int(event_date[:4])
+                birth_year = event_year - ev["age"]
+                ev["age"] = target_year - birth_year
+                ev["description"] = (
+                    f"Cumpleaños de {ev.get('person', '')} ({ev['age']} años)"
+                )
+
+            today_events.append(ev)
+
         priority_order = {"critical": 0, "high": 1, "medium": 2, "low": 3}
         today_events.sort(key=lambda x: priority_order.get(x.get("priority", "low"), 3))
-        
+
         return today_events
     except Exception as e:
         print(f"⚠️  Error al leer eventos.json: {e}")
@@ -104,30 +116,28 @@ def get_events_wikipedia(date: str) -> List[Dict]:
 def get_events_calendar(date: str) -> List[Dict]:
     """Obtiene eventos del calendario (cumpleaños de jugadores, partidos, etc.)"""
     events = []
-    
-    # Cumpleaños conocidos (podrían venir de un archivo JSON)
+
     birthdays = {
-        "06-24": {"person": "Lionel Messi", "age": 37},
-        "12-15": {"person": "Santiago Armando Rodríguez", "age": 43},
-        # Agregar más cumpleaños relevantes
+        "06-24": {"person": "Lionel Messi", "birth_year": 1987},
+        "12-15": {"person": "Santiago Armando Rodríguez", "birth_year": 1983},
     }
-    
+
     date_key = date[5:]  # MM-DD
     if date_key in birthdays:
         bday = birthdays[date_key]
-        current_year = datetime.now().year
-        age = current_year - bday["age"] if "age" in bday else None
-        
+        target_year = int(date[:4])
+        age = target_year - bday["birth_year"]
+
         events.append({
             "date": date,
             "type": "birthday",
             "priority": "high",
             "person": bday["person"],
             "age": age,
-            "description": f"Cumpleaños de {bday['person']}" + (f" ({age} años)" if age else ""),
+            "description": f"Cumpleaños de {bday['person']} ({age} años)",
             "source": "calendario"
         })
-    
+
     return events
 
 
