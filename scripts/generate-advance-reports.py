@@ -5,10 +5,14 @@ MVP - InforMessi
 """
 
 import json
+import logging
 import sys
 import subprocess
 from datetime import datetime, timedelta
 from pathlib import Path
+
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logger = logging.getLogger(__name__)
 
 PROJECT_ROOT = Path(__file__).parent.parent
 REPORTS_DIR = PROJECT_ROOT / "reports"
@@ -17,7 +21,7 @@ REPORTS_DIR.mkdir(exist_ok=True)
 
 def generate_report_for_date(date: str) -> dict:
     """Genera un informe para una fecha específica"""
-    print(f"📅 Generando informe para {date}...")
+    logger.info(f"📅 Generando informe para {date}...")
     
     # Recolectar datos
     data_file = PROJECT_ROOT / "tmp" / f"data-{date}.json"
@@ -33,21 +37,21 @@ def generate_report_for_date(date: str) -> dict:
         )
         
         if result.returncode != 0:
-            print(f"⚠️  Error al recolectar datos: {result.stderr}")
+            logger.warning(f"⚠️  Error al recolectar datos: {result.stderr}")
             return None
             
         # Cargar datos
         with open(data_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
     except Exception as e:
-        print(f"❌ Error: {e}")
+        logger.error(f"❌ Error: {e}")
         return None
     
     has_events = bool(data.get("events"))
     has_news = bool(data.get("news"))
 
     if not has_events and not has_news:
-        print(f"ℹ️  Sin eventos ni noticias para {date}, guardando borrador sin mensaje")
+        logger.info(f"ℹ️  Sin eventos ni noticias para {date}, guardando borrador sin mensaje")
         message = ""
     else:
         message_file = PROJECT_ROOT / "tmp" / f"message-{date}.txt"
@@ -60,12 +64,12 @@ def generate_report_for_date(date: str) -> dict:
                 timeout=120
             )
             if result.returncode != 0:
-                print(f"⚠️  Error al generar mensaje: {result.stderr}")
+                logger.warning(f"⚠️  Error al generar mensaje: {result.stderr}")
                 message = ""
             else:
                 message = message_file.read_text(encoding='utf-8')
         except Exception as e:
-            print(f"❌ Error: {e}")
+            logger.error(f"❌ Error: {e}")
             message = ""
     
     # Guardar informe
@@ -85,7 +89,7 @@ def generate_report_for_date(date: str) -> dict:
     with open(report_file, 'w', encoding='utf-8') as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
     
-    print(f"✅ Informe guardado: {report_file}")
+    logger.info(f"✅ Informe guardado: {report_file}")
     return report
 
 
@@ -114,11 +118,11 @@ def main():
     else:
         start_date = datetime.now()
     
-    print("🚀 Generando informes con antelación")
-    print("=" * 50)
-    print(f"📅 Fecha inicio: {start_date.strftime('%Y-%m-%d')}")
-    print(f"📊 Días a generar: {args.days}")
-    print("")
+    logger.info("🚀 Generando informes con antelación")
+    logger.info("=" * 50)
+    logger.info(f"📅 Fecha inicio: {start_date.strftime('%Y-%m-%d')}")
+    logger.info(f"📊 Días a generar: {args.days}")
+    logger.info("")
     
     generated = 0
     failed = 0
@@ -130,7 +134,7 @@ def main():
         # Verificar si ya existe
         report_file = REPORTS_DIR / f"{date_str}.json"
         if report_file.exists():
-            print(f"⏭️  Informe para {date_str} ya existe, omitiendo...")
+            logger.info(f"⏭️  Informe para {date_str} ya existe, omitiendo...")
             continue
         
         report = generate_report_for_date(date_str)
@@ -138,13 +142,13 @@ def main():
             generated += 1
         else:
             failed += 1
-        print("")
+        logger.info("")
     
-    print("=" * 50)
-    print(f"✅ Informes generados: {generated}")
+    logger.info("=" * 50)
+    logger.info(f"✅ Informes generados: {generated}")
     if failed > 0:
-        print(f"❌ Informes fallidos: {failed}")
-    print(f"📁 Ubicación: {REPORTS_DIR}")
+        logger.error(f"❌ Informes fallidos: {failed}")
+    logger.info(f"📁 Ubicación: {REPORTS_DIR}")
 
 
 if __name__ == "__main__":

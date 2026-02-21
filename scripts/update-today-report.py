@@ -10,6 +10,10 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 
+import logging
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logger = logging.getLogger(__name__)
+
 PROJECT_ROOT = Path(__file__).parent.parent
 REPORTS_DIR = PROJECT_ROOT / "reports"
 
@@ -19,7 +23,7 @@ def update_report_for_date(date: str) -> bool:
     report_file = REPORTS_DIR / f"{date}.json"
     
     if not report_file.exists():
-        print(f"⚠️  Informe para {date} no existe. Generando nuevo informe...")
+        logger.warning(f"⚠️  Informe para {date} no existe. Generando nuevo informe...")
         # Generar nuevo informe
         result = subprocess.run(
             [sys.executable, str(PROJECT_ROOT / "scripts" / "generate-advance-reports.py"),
@@ -29,7 +33,7 @@ def update_report_for_date(date: str) -> bool:
         )
         return result.returncode == 0
     
-    print(f"📅 Actualizando informe para {date}...")
+    logger.info(f"📅 Actualizando informe para {date}...")
     
     # Cargar informe existente
     with open(report_file, 'r', encoding='utf-8') as f:
@@ -49,14 +53,14 @@ def update_report_for_date(date: str) -> bool:
         )
         
         if result.returncode != 0:
-            print(f"⚠️  Error al recolectar datos: {result.stderr}")
+            logger.warning(f"⚠️  Error al recolectar datos: {result.stderr}")
             return False
             
         # Cargar datos actualizados
         with open(data_file, 'r', encoding='utf-8') as f:
             updated_data = json.load(f)
     except Exception as e:
-        print(f"❌ Error: {e}")
+        logger.error(f"❌ Error: {e}")
         return False
     
     def _normalize_news_titles(items):
@@ -74,12 +78,12 @@ def update_report_for_date(date: str) -> bool:
     has_changes = (old_news_titles != new_news_titles) or (old_event_desc != new_event_desc)
     
     if not has_changes:
-        print("ℹ️  No hay cambios significativos en los datos")
+        logger.info("ℹ️  No hay cambios significativos en los datos")
         return True
     
-    print(f"📊 Cambios detectados:")
-    print(f"   Noticias: {len(old_news_titles)} → {len(new_news_titles)}")
-    print(f"   Eventos: {len(old_event_desc)} → {len(new_event_desc)}")
+    logger.info(f"📊 Cambios detectados:")
+    logger.info(f"   Noticias: {len(old_news_titles)} → {len(new_news_titles)}")
+    logger.info(f"   Eventos: {len(old_event_desc)} → {len(new_event_desc)}")
     
     # Regenerar mensaje con datos actualizados
     message_file = PROJECT_ROOT / "tmp" / f"message-{date}.txt"
@@ -94,13 +98,13 @@ def update_report_for_date(date: str) -> bool:
         )
         
         if result.returncode != 0:
-            print(f"⚠️  Error al generar mensaje: {result.stderr}")
+            logger.warning(f"⚠️  Error al generar mensaje: {result.stderr}")
             return False
             
         # Leer mensaje actualizado
         updated_message = message_file.read_text(encoding='utf-8')
     except Exception as e:
-        print(f"❌ Error: {e}")
+        logger.error(f"❌ Error: {e}")
         return False
     
     # Actualizar informe
@@ -122,7 +126,7 @@ def update_report_for_date(date: str) -> bool:
     except:
         pass  # No crítico si falla
     
-    print(f"✅ Informe actualizado: {report_file}")
+    logger.info(f"✅ Informe actualizado: {report_file}")
     return True
 
 
@@ -145,21 +149,21 @@ def main():
     else:
         target_date = datetime.now().strftime("%Y-%m-%d")
     
-    print("🔄 Actualizando informe del día")
-    print("=" * 50)
-    print(f"📅 Fecha: {target_date}")
-    print("")
+    logger.info("🔄 Actualizando informe del día")
+    logger.info("=" * 50)
+    logger.info(f"📅 Fecha: {target_date}")
+    logger.info("")
     
     success = update_report_for_date(target_date)
     
     if success:
-        print("")
-        print("=" * 50)
-        print("✅ Actualización completada")
+        logger.info("")
+        logger.info("=" * 50)
+        logger.info("✅ Actualización completada")
     else:
-        print("")
-        print("=" * 50)
-        print("❌ Error en la actualización")
+        logger.info("")
+        logger.info("=" * 50)
+        logger.error("❌ Error en la actualización")
         sys.exit(1)
 
 

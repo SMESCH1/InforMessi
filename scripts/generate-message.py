@@ -10,6 +10,10 @@ import sys
 from pathlib import Path
 from datetime import datetime, date
 
+import logging
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logger = logging.getLogger(__name__)
+
 PROJECT_ROOT = Path(__file__).parent.parent
 PROMPTS_DIR = PROJECT_ROOT / "prompts"
 DATA_DIR = PROJECT_ROOT / "data"
@@ -285,7 +289,7 @@ def call_llm_groq(prompt, model="llama-3.1-8b-instant", temperature=0.7, max_tok
 
     api_key = os.environ.get("GROQ_API_KEY", "")
     if not api_key:
-        print("ERROR: GROQ_API_KEY no configurada")
+        logger.error("ERROR: GROQ_API_KEY no configurada")
         sys.exit(1)
 
     response = requests.post(
@@ -352,22 +356,22 @@ def main():
     
     args = parser.parse_args()
     
-    print("🚀 InforMessi - Generador de Mensajes MVP")
-    print("=" * 50)
+    logger.info("🚀 InforMessi - Generador de Mensajes MVP")
+    logger.info("=" * 50)
     
     # Cargar datos
     data_path = Path(args.data)
     if not data_path.exists():
-        print(f"❌ Archivo no encontrado: {data_path}")
+        logger.error(f"❌ Archivo no encontrado: {data_path}")
         sys.exit(1)
     
-    print(f"📂 Cargando datos: {data_path}")
+    logger.info(f"📂 Cargando datos: {data_path}")
     with open(data_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
-    print(f"   Fecha: {data['date']}")
-    print(f"   Días restantes: {calculate_days_remaining(data['mundial_2026_start'], data['date'])}")
-    print(f"   Eventos: {len(data.get('events', []))}")
-    print(f"   Noticias: {len(data.get('news', []))}")
+    logger.info(f"   Fecha: {data['date']}")
+    logger.info(f"   Días restantes: {calculate_days_remaining(data['mundial_2026_start'], data['date'])}")
+    logger.info(f"   Eventos: {len(data.get('events', []))}")
+    logger.info(f"   Noticias: {len(data.get('news', []))}")
     
     llm_call = _get_llm_caller(args.provider, args.model, args.base_url)
 
@@ -375,23 +379,23 @@ def main():
     news = data.get("news", [])
 
     if events or news:
-        print("\n🔎 Seleccionando eventos y noticias relevantes...")
+        logger.info("\n🔎 Seleccionando eventos y noticias relevantes...")
         selection_prompt = build_selection_prompt(data)
         selection_response = llm_call(selection_prompt, temperature=0.1, max_tokens=200)
         selected_events, selected_news = parse_selection_response(
             selection_response, events, news
         )
-        print(f"   Eventos seleccionados: {len(selected_events)}")
-        print(f"   Noticias seleccionadas: {len(selected_news)}")
+        logger.info(f"   Eventos seleccionados: {len(selected_events)}")
+        logger.info(f"   Noticias seleccionadas: {len(selected_news)}")
     else:
-        print("\nℹ️  Sin eventos ni noticias, omitiendo paso de selección")
+        logger.info("\nℹ️  Sin eventos ni noticias, omitiendo paso de selección")
         selected_events, selected_news = [], []
 
-    print("\n📝 Construyendo prompt...")
+    logger.info("\n📝 Construyendo prompt...")
     prompt = build_prompt(data, selected_events, selected_news)
 
-    print(f"\n🤖 Generando mensaje con {args.provider}/{args.model}...")
-    print("   (Esto puede tardar unos momentos...)\n")
+    logger.info(f"\n🤖 Generando mensaje con {args.provider}/{args.model}...")
+    logger.info("   (Esto puede tardar unos momentos...)\n")
 
     message = llm_call(prompt)
     
@@ -406,17 +410,17 @@ def main():
     if args.output:
         output_path = Path(args.output)
         output_path.write_text(message, encoding='utf-8')
-        print(f"\n💾 Mensaje guardado en: {output_path}")
+        logger.info(f"\n💾 Mensaje guardado en: {output_path}")
     
     # Estadísticas
     word_count = len(message.split())
-    print(f"\n📊 Estadísticas:")
-    print(f"   Palabras: {word_count}")
-    print(f"   Longitud objetivo: 90-130 palabras")
+    logger.info(f"\n📊 Estadísticas:")
+    logger.info(f"   Palabras: {word_count}")
+    logger.info(f"   Longitud objetivo: 90-130 palabras")
     if 90 <= word_count <= 130:
-        print("   ✅ Longitud apropiada")
+        logger.info("   ✅ Longitud apropiada")
     else:
-        print("   ⚠️  Longitud fuera del rango objetivo")
+        logger.warning("   ⚠️  Longitud fuera del rango objetivo")
 
 if __name__ == "__main__":
     main()

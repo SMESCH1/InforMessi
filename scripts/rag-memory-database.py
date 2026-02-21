@@ -12,6 +12,9 @@ from datetime import datetime
 from typing import Dict, List, Set
 from collections import defaultdict
 
+import logging
+logger = logging.getLogger(__name__)
+
 
 def _normalize_text(text: str) -> str:
     """Lowercase, strip accents, collapse whitespace."""
@@ -43,7 +46,7 @@ class MemoryDatabase:
                 # Asegurar estructura
                 return self._ensure_structure(data)
         except Exception as e:
-            print(f"⚠️  Error al cargar base de datos: {e}")
+            logger.warning(f"⚠️  Error al cargar base de datos: {e}")
             return self._create_empty_database()
     
     def _create_empty_database(self) -> Dict:
@@ -85,7 +88,7 @@ class MemoryDatabase:
             with open(self.db_file, 'w', encoding='utf-8') as f:
                 json.dump(self.data, f, indent=2, ensure_ascii=False)
         except Exception as e:
-            print(f"⚠️  Error al guardar base de datos: {e}")
+            logger.warning(f"⚠️  Error al guardar base de datos: {e}")
     
     def record_player_used(self, player_name: str, date: str):
         """Registra que un jugador fue usado en una fecha"""
@@ -359,7 +362,7 @@ def update_database_from_reports():
     REPORTS_DIR = PROJECT_ROOT / "reports"
     db = MemoryDatabase()
     
-    print("🔄 Actualizando base de datos desde informes existentes...")
+    logger.info("🔄 Actualizando base de datos desde informes existentes...")
     
     count = 0
     for report_file in sorted(REPORTS_DIR.glob("*.json")):
@@ -369,12 +372,12 @@ def update_database_from_reports():
                 db.analyze_report(report)
                 count += 1
         except Exception as e:
-            print(f"⚠️  Error al procesar {report_file}: {e}")
+            logger.warning(f"⚠️  Error al procesar {report_file}: {e}")
     
-    print(f"✅ Base de datos actualizada: {count} informes procesados")
-    print(f"   - Jugadores registrados: {len(db.data['players_used'])}")
-    print(f"   - Secciones registradas: {sum(len(v) for v in db.data['weekly_sections'].values())}")
-    print(f"   - Temas registrados: {len(db.data['topics_mentioned'])}")
+    logger.info(f"✅ Base de datos actualizada: {count} informes procesados")
+    logger.info(f"   - Jugadores registrados: {len(db.data['players_used'])}")
+    logger.info(f"   - Secciones registradas: {sum(len(v) for v in db.data['weekly_sections'].values())}")
+    logger.info(f"   - Temas registrados: {len(db.data['topics_mentioned'])}")
 
 
 def main():

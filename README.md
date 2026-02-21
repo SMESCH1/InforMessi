@@ -106,38 +106,82 @@ InforMessi/
 └── docs/                          # Documentación detallada
 ```
 
+## Arquitectura
+
+```mermaid
+flowchart TD
+    subgraph sources [Fuentes de datos]
+        NewsAPI[NewsAPI]
+        Reddit[Reddit API]
+        Events[events.json]
+        Media[assets/media/]
+    end
+
+    subgraph pipeline [Pipeline de generacion]
+        Collect[collect-daily-data.py]
+        Select["Paso 1: Seleccion RAG"]
+        Generate["Paso 2: Generacion LLM"]
+        Memory[memory-database.json]
+    end
+
+    subgraph delivery [Entrega]
+        Report[reports/YYYY-MM-DD.json]
+        PreApproved{Pre-aprobado?}
+        Preview[Chat de revision]
+        Webhook[Webhook Render]
+        Channel[Canal publico Telegram]
+        Fallback[Auto-publish 2h]
+    end
+
+    subgraph infra [Infraestructura]
+        Actions[GitHub Actions cron]
+        Ollama[Ollama local]
+        Groq[Groq API fallback]
+    end
+
+    NewsAPI --> Collect
+    Reddit --> Collect
+    Events --> Collect
+    Media --> Collect
+
+    Collect --> Select
+    Select --> Generate
+    Memory --> Generate
+    Generate --> Report
+
+    Actions --> Collect
+    Ollama --> Generate
+    Groq --> Generate
+
+    Report --> PreApproved
+    PreApproved -- Si --> Channel
+    PreApproved -- No --> Preview
+    Preview --> Webhook
+    Webhook --> Channel
+    Preview --> Fallback
+    Fallback --> Channel
+
+    Channel --> Memory
+```
+
 ## Flujo diario
 
-```
-                    ┌──────────────────┐
-                    │   GitHub Actions  │  10:15 AM Argentina
-                    │   (cron diario)   │
-                    └────────┬─────────┘
-                             │
-              ┌──────────────┴──────────────┐
-              │                             │
-     ¿Existe informe?               Actualizar datos
-     No → Generar con Groq          (noticias + eventos)
-              │                             │
-              └──────────────┬──────────────┘
-                             │
-                    ¿Pre-aprobado?
-                    ├── Sí → Publicar directo en canal público
-                    └── No → Enviar a preview
-                                    │
-                         ┌──────────┴──────────┐
-                         │   Chat de revisión   │
-                         │  ✅ Aprobar          │
-                         │  ✏️ Editar           │
-                         │  ❌ Rechazar         │
-                         └──────────┬──────────┘
-                                    │
-                         Webhook (Render) procesa
-                                    │
-                         Publica en canal público
-                                    │
-                         (Fallback: auto-publica
-                          después de 2 horas)
+```mermaid
+flowchart TD
+    Start[GitHub Actions 10:15 AM ARG] --> Exists{Existe informe?}
+    Exists -- No --> GenReport[Generar con Groq]
+    Exists -- Si --> Update[Actualizar datos]
+    GenReport --> Update
+    Update --> CheckApproved{Pre-aprobado?}
+    CheckApproved -- Si --> PublishDirect[Publicar en canal]
+    CheckApproved -- No --> SendPreview[Enviar a preview]
+    SendPreview --> UserAction{Accion del usuario}
+    UserAction -- Aprobar --> PublishDirect
+    UserAction -- Editar --> EditMsg[Editar mensaje] --> PublishDirect
+    UserAction -- Rechazar --> Discard[No publicar]
+    UserAction -- Sin respuesta --> AutoPublish[Auto-publicar 2h]
+    AutoPublish --> PublishDirect
+    PublishDirect --> UpdateMemory[Actualizar memoria]
 ```
 
 ## Generación de mensajes (RAG en 2 pasos)
@@ -201,6 +245,34 @@ Crear carpeta `assets/media/YYYY-MM-DD/` con imágenes o videos. Se detectan aut
 - **Sábado**: Dato Mundialista
 - **Domingo**: Dato del País Sede
 - **Miércoles**: Formato estándar
+
+## Tests
+
+```bash
+python3 -m pytest tests/ -v
+```
+
+43 tests unitarios cubren:
+- Calculo de dias restantes al Mundial
+- Parseo de seleccion RAG (JSON extraction, fallback, edge cases)
+- Formateo de eventos y noticias para prompts
+- Base de datos de memoria (normalizacion, deduplicacion, analisis de reportes)
+- Calculo dinamico de edad en cumpleanos
+- Match de eventos por MM-DD
+
+## Lecciones aprendidas
+
+- **LLMs pequenos (3B) no siguen instrucciones complejas**: llama3.2 (3B) ignora restricciones del system prompt, alucina noticias y revierte a tono de "asistente". Modelos de 7B+ (qwen2.5, llama3.1) son significativamente mejores para seguir formatos estrictos.
+
+- **Sin datos concretos, el LLM inventa**: la solucion fue no llamar al LLM cuando no hay eventos ni noticias, en vez de confiar en que "no invente". Esto elimino el 100% de las alucinaciones en reportes anticipados.
+
+- **RAG en 2 pasos funciona mejor que un prompt unico**: separar seleccion (JSON estricto, baja temperatura) de generacion (texto libre, temperatura normal) fuerza al modelo a comprometerse con datos especificos antes de escribir.
+
+- **La memoria debe actualizarse solo al publicar**: actualizar la base de datos de memoria con drafts contaminaba el historial. Ahora solo se registra contenido que efectivamente se publico.
+
+- **El error swallowing en CI oculta fallas criticas**: usar `|| echo "error"` en GitHub Actions hacia que todo pareciera funcionar cuando en realidad los scripts fallaban silenciosamente. Los scripts criticos ahora fallan el workflow para visibilizar problemas.
+
+- **Los eventos historicos necesitan match por MM-DD, no por fecha completa**: matchear por `YYYY-MM-DD` excluia aniversarios. Matchear solo por `MM-DD` permite que eventos de 1978 aparezcan cada 25 de junio.
 
 ## Troubleshooting
 

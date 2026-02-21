@@ -28,6 +28,12 @@ tmp/
 .DS_Store
 Thumbs.db
 
+# Test cache
+.pytest_cache/
+
+# Cursor IDE
+.cursor/
+
 # Informes (mantener estructura pero no datos sensibles)
 # reports/*.json
 # Descomentar si no quieres versionar los informes
