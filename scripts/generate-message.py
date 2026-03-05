@@ -74,8 +74,55 @@ def _format_news_for_prompt(news):
     return f"- {title} ({source})"
 
 
+def _filter_already_used(events, news):
+    """Filtra noticias y eventos ya publicados usando la base de memoria."""
+    sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from rag_memory_database import MemoryDatabase
+        db = MemoryDatabase()
+    except (ImportError, Exception):
+        return events, news
+
+    fresh_events = [e for e in events if not db.is_event_used(e.get("description", ""))]
+    fresh_news = [n for n in news if not db.is_news_used(n.get("title", ""))]
+
+    if not fresh_news and news:
+        logger.info("   ⚠️ Todas las noticias ya fueron publicadas, usando originales como fallback")
+        fresh_news = news
+    if not fresh_events and events:
+        logger.info("   ⚠️ Todos los eventos ya fueron publicados, usando originales como fallback")
+        fresh_events = events
+
+    return fresh_events, fresh_news
+
+
+def _build_used_content_summary():
+    """Genera resumen de contenido ya publicado para inyectar en el selection prompt."""
+    sys.path.insert(0, str(Path(__file__).parent))
+    try:
+        from rag_memory_database import MemoryDatabase
+        db = MemoryDatabase()
+    except (ImportError, Exception):
+        return ""
+
+    parts = []
+    news_keys = db.get_used_news_keys()
+    if news_keys:
+        parts.append("\n### Noticias YA PUBLICADAS (evitar seleccionarlas)")
+        for key in list(news_keys)[:10]:
+            parts.append(f"- {key}")
+
+    fact_keys = db.get_used_fact_keys()
+    if fact_keys:
+        parts.append("\n### Datos del dia YA PUBLICADOS (evitar seleccionarlos)")
+        for key in list(fact_keys)[:10]:
+            parts.append(f"- {key}")
+
+    return "\n".join(parts) if parts else ""
+
+
 def build_selection_prompt(data):
-    """Construye el prompt de seleccion de evidencias."""
+    """Construye el prompt de seleccion de evidencias con contexto de memoria."""
     selector_prompt = load_prompt("selection-prompt.md")
 
     events = data.get("events", [])
@@ -100,6 +147,8 @@ def build_selection_prompt(data):
     else:
         news_text = "No hay noticias del dia."
 
+    used_summary = _build_used_content_summary()
+
     prompt = f"""{selector_prompt}
 
 ### Eventos del Dia
@@ -107,6 +156,7 @@ def build_selection_prompt(data):
 
 ### Noticias del Dia
 {news_text}
+{used_summary}
 """
     return prompt
 
@@ -379,11 +429,20 @@ def main():
     news = data.get("news", [])
 
     if events or news:
+        logger.info("\n🔍 Filtrando contenido ya publicado...")
+        fresh_events, fresh_news = _filter_already_used(events, news)
+        logger.info(f"   Eventos frescos: {len(fresh_events)}/{len(events)}")
+        logger.info(f"   Noticias frescas: {len(fresh_news)}/{len(news)}")
+
+        filtered_data = dict(data)
+        filtered_data["events"] = fresh_events
+        filtered_data["news"] = fresh_news
+
         logger.info("\n🔎 Seleccionando eventos y noticias relevantes...")
-        selection_prompt = build_selection_prompt(data)
+        selection_prompt = build_selection_prompt(filtered_data)
         selection_response = llm_call(selection_prompt, temperature=0.1, max_tokens=200)
         selected_events, selected_news = parse_selection_response(
-            selection_response, events, news
+            selection_response, fresh_events, fresh_news
         )
         logger.info(f"   Eventos seleccionados: {len(selected_events)}")
         logger.info(f"   Noticias seleccionadas: {len(selected_news)}")

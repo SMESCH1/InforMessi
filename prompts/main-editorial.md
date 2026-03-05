@@ -67,7 +67,8 @@ Estas secciones deben integrarse naturalmente en el mensaje, no como bloques sep
    - País sede
    - Cultura futbolera
    - Estadística interesante
-   - No repetir datos que ya aparezcan en la memoria del sistema
+   - ⚠️ PROHIBIDO repetir datos que aparezcan en la sección "Datos del día YA PUBLICADOS" de la memoria
+   - Si todos los datos disponibles ya fueron publicados, OMITIR esta sección por completo
 
 7. **Cierre** (2 líneas)
    - "Coronados de gloria vivamos"
@@ -122,41 +123,33 @@ Genera SOLO el texto del mensaje, sin explicaciones adicionales, sin markdown, s
 
 ## Ejemplos de Salida Esperada
 
-### Ejemplo 1
+### Ejemplo 1 (solo formato de referencia)
 ```
 Buenos días 🇦🇷
 
 Faltan 247 días para el Mundial 2026 ⚽
 
-🎉 Hoy cumple 37 años Lionel Messi. El capitán de la Scaloneta sigue siendo la referencia mundial del fútbol y prepara su sexta participación en un Mundial 🏆
+🎉 [Evento del día basado en los datos provistos]
 
-📊 Dato del día: El Mundial 2026 será el primero en tener 48 equipos 🌍, expandiendo la competencia a nuevas regiones del mundo.
+📊 Dato del día: [Dato ÚNICO extraído de las listas o la sección semanal, NUNCA repetido de días anteriores]
 
 Coronados de gloria vivamos 🩵🤍🩵
 ```
-### Ejemplo 2
+### Ejemplo 2 (solo formato de referencia)
 ```
 Buenos días 🇦🇷
 
 Faltan 150 días para el Mundial 2026 ⚽
 
-🎉 Hoy es el aniversario de la obtención del título del mundial de 1978. Se cumplen 48 años desde que el seleccionado albiceleste se coronó campeón del mundo con Mario Alberto Kempes a la cabeza 🏆
+🎉 [Aniversario o cumpleaños basado en la lista de eventos del día]
 
-📊 Dato del día: Lionel Messi es jugador con más títulos ofifciales en la historia del fútbol 
+📊 Dato del día: [Estadística verificable diferente a las listadas en la memoria de contenido anterior]
 
 Coronados de gloria vivamos 🩵🤍🩵
 ```
-### Ejemplo 3
-```
-Buenos días 🇦🇷
 
-Faltan 30 días para el Mundial 2026 ⚽
+**IMPORTANTE**: Los ejemplos son SOLO referencia de formato y estructura. NUNCA copies un dato, frase o estadística de un ejemplo. Usa ÚNICAMENTE datos de las listas de eventos/noticias del día y de la sección de memoria proporcionadas.
 
-🎉 Hoy cumpliría años el gran Diego Armando Maradona 🏆
-
-📊 Dato del día: Diego Armando Maradona tiene el récord del mayor número de faltas recibidas en un Mundial, con 53 en México 1986
-
-Coronados de gloria vivamos 🩵🤍🩵
 ---
 
 **Ahora genera el mensaje del día con los datos proporcionados.**

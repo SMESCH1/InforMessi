@@ -79,10 +79,10 @@ InforMessi/
 │   ├── fetch-news.py              # NewsAPI + RSS + scraping
 │   ├── fetch-reddit.py            # Reddit scraper
 │   ├── fetch-events-enhanced.py   # Eventos desde JSON + Wikipedia + calendario
-│   ├── rag-memory-database.py     # Base de datos de memoria anti-repetición
-│   ├── rag-style-learning.py      # RAG de estilo desde informes editados
-│   ├── generate-weekly-sections.py # Secciones temáticas por día de semana
-│   ├── detect-media.py            # Detecta contenido audiovisual por fecha
+│   ├── rag_memory_database.py     # Base de datos de memoria anti-repetición
+│   ├── rag_style_learning.py      # RAG de estilo desde informes editados
+│   ├── generate_weekly_sections.py # Secciones temáticas por día de semana
+│   ├── detect_media.py            # Detecta contenido audiovisual por fecha
 │   ├── diagnose-workflow.py       # Diagnóstico de configuración
 │   └── verify-bot-token.py        # Verifica token de Telegram
 │
@@ -207,7 +207,7 @@ python3 scripts/edit-and-validate-report.py --date 2026-02-01
 python3 scripts/send-daily-report-review.py
 
 # Ver base de datos de memoria
-python3 scripts/rag-memory-database.py --show
+python3 scripts/rag_memory_database.py --show
 
 # Verificar configuración de Telegram
 python3 scripts/diagnose-workflow.py
@@ -282,7 +282,7 @@ python3 -m pytest tests/ -v
 | Mensajes genéricos/inventados | Verificar que hay eventos o noticias. Sin datos, el LLM genera solo saludo + cierre |
 | Botones de Telegram no responden | Verificar webhook: `python3 scripts/setup-webhook.py --info` |
 | GitHub Actions no genera mensaje | Configurar `GROQ_API_KEY` en GitHub Secrets |
-| Noticias repetidas | Ejecutar `python3 scripts/rag-memory-database.py --show` para ver historial |
+| Noticias repetidas | Ejecutar `python3 scripts/rag_memory_database.py --show` para ver historial |
 
 ## Documentación adicional
 

@@ -10,9 +10,11 @@ Reglas:
 - Si no hay eventos o noticias relevantes, devuelve listas vacias.
 - Usa los IDs provistos (por ejemplo "E1", "N2").
 - No inventes items que no esten en la lista.
-- Prioriza eventos del día anterior si exsiten
+- Prioriza eventos del día anterior si existen.
 - Selecciona solo noticias relacionadas con fútbol argentino, jugadores de la selección argentina de futbol o la selección argentina de futbol, o noticias relacionadas a selecciones de futbol que van a participar en el mundial.
 - Ignora noticias de política/economía o sin relación con fútbol.
+- ⚠️ Si se incluye una sección de "Noticias YA PUBLICADAS" o "Datos YA PUBLICADOS", NO selecciones items que coincidan con esa lista. Prioriza contenido NUEVO.
+- Si todas las noticias disponibles ya fueron publicadas, devuelve listas vacías en vez de repetir.
 
 Formato de salida (JSON estricto):
 {

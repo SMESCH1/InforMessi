@@ -116,12 +116,13 @@ class MemoryDatabase:
             self.save()
     
     def record_event(self, event_description: str, date: str):
-        """Registra que un evento fue mencionado"""
-        # Normalizar descripción (primeros 100 caracteres)
-        normalized = event_description[:100]
+        """Registra que un evento fue mencionado (normalizado)"""
+        normalized = _normalize_text(event_description)[:100]
+        if not normalized:
+            return
         if normalized not in self.data["events_mentioned"]:
             self.data["events_mentioned"][normalized] = []
-        
+
         if date not in self.data["events_mentioned"][normalized]:
             self.data["events_mentioned"][normalized].append(date)
             self.save()
@@ -139,8 +140,10 @@ class MemoryDatabase:
             self.save()
 
     def record_fact(self, fact_text: str, date: str):
-        """Registra un dato del día usado"""
-        normalized = fact_text[:200]
+        """Registra un dato del día usado (normalizado)"""
+        normalized = _normalize_text(fact_text)[:100]
+        if not normalized:
+            return
         if normalized not in self.data["facts_used"]:
             self.data["facts_used"][normalized] = []
 
@@ -174,9 +177,39 @@ class MemoryDatabase:
     
     def get_recent_topics(self, days: int = 30) -> List[str]:
         """Obtiene temas mencionados recientemente"""
-        cutoff_date = datetime.now().isoformat()[:10]  # YYYY-MM-DD
-        # Simplificado: retornar todos los temas
         return list(self.data["topics_mentioned"].keys())
+
+    def get_used_news_keys(self) -> Set[str]:
+        """Retorna set de claves normalizadas de noticias ya registradas."""
+        return set(self.data.get("news_topics", {}).keys())
+
+    def get_used_event_keys(self) -> Set[str]:
+        """Retorna set de claves normalizadas de eventos ya registrados."""
+        return set(self.data.get("events_mentioned", {}).keys())
+
+    def get_used_fact_keys(self) -> Set[str]:
+        """Retorna set de claves normalizadas de datos del día ya registrados."""
+        return set(self.data.get("facts_used", {}).keys())
+
+    def is_news_used(self, title: str) -> bool:
+        """Verifica si una noticia ya fue registrada (matching parcial normalizado)."""
+        norm = _normalize_text(title)[:50]
+        if not norm:
+            return False
+        for key in self.data.get("news_topics", {}):
+            if norm in key or key in norm:
+                return True
+        return False
+
+    def is_event_used(self, description: str) -> bool:
+        """Verifica si un evento ya fue registrado (matching parcial normalizado)."""
+        norm = _normalize_text(description)[:100]
+        if not norm:
+            return False
+        for key in self.data.get("events_mentioned", {}):
+            if norm in key or key in norm:
+                return True
+        return False
     
     def analyze_report(self, report: Dict):
         """Analiza un informe y registra todo su contenido"""
@@ -222,28 +255,33 @@ class MemoryDatabase:
             if desc:
                 self.record_event(desc, date)
         
-        # Registrar noticias (match parcial: primeros 40 chars del titulo normalizado)
-        msg_norm = _normalize_text(message)
+        # Registrar TODAS las noticias provistas al LLM para ese día
         news = data.get("news", [])
         for item in news:
             title = item.get("title", "")
-            if not title:
-                continue
-            title_norm = _normalize_text(title)[:40]
-            if title_norm and title_norm in msg_norm:
+            if title:
                 self.record_news(title, date)
 
-        # Registrar dato del día (si aparece en el mensaje)
+        # Registrar dato del día (detección robusta con múltiples marcadores)
+        msg_lower = message.lower()
         for line in message.splitlines():
             line_strip = line.strip()
-            if "dato del día" in line_strip.lower() or "dato del dia" in line_strip.lower():
-                # Remover prefijos comunes y guardar el contenido
-                cleaned = line_strip
-                for prefix in ["📊", "Dato del día:", "Dato del dia:", "Dato del día", "Dato del dia"]:
-                    cleaned = cleaned.replace(prefix, "").strip(" :.-")
-                if cleaned:
-                    self.record_fact(cleaned, date)
-                break
+            line_lower = line_strip.lower()
+            is_fact_line = any(marker in line_lower for marker in [
+                "dato del día", "dato del dia", "📊",
+                "dato mundialista", "sabías que", "sabias que",
+            ])
+            if not is_fact_line:
+                continue
+            cleaned = line_strip
+            for prefix in ["📊", "ℹ️", "Dato del día:", "Dato del dia:",
+                           "Dato del día", "Dato del dia",
+                           "Dato mundialista:", "Dato mundialista"]:
+                cleaned = cleaned.replace(prefix, "")
+            cleaned = cleaned.strip(" :.-")
+            if cleaned:
+                self.record_fact(cleaned, date)
+            break
         
         # Registrar temas generales
         if "mundial" in message.lower():
@@ -329,21 +367,30 @@ def build_memory_context_from_db(target_date: str) -> str:
 
     facts_used = db.data.get("facts_used", {})
     if facts_used:
-        recent_facts = _filter_recent_items(facts_used, days=30)
+        recent_facts = _filter_recent_items(facts_used, days=60)
         if recent_facts:
-            context_parts.append("\n**Datos del día usados recientemente (últimos 30 días):**")
-            for fact in recent_facts[:10]:
+            context_parts.append("\n**Datos del día YA PUBLICADOS (NO repetir):**")
+            for fact in recent_facts[:15]:
                 context_parts.append(f"- {fact}")
-            context_parts.append("Evita repetir estos datos en nuevos informes.")
+            context_parts.append("⚠️ PROHIBIDO repetir estos datos. Usa información diferente.")
 
     news_used = db.data.get("news_topics", {})
     if news_used:
         recent_news = _filter_recent_items(news_used, days=30)
         if recent_news:
-            context_parts.append("\n**Noticias usadas recientemente (últimos 30 días):**")
-            for title in recent_news[:10]:
+            context_parts.append("\n**Noticias YA PUBLICADAS (NO repetir):**")
+            for title in recent_news[:15]:
                 context_parts.append(f"- {title}")
-            context_parts.append("Evita repetir estas noticias en nuevos informes.")
+            context_parts.append("⚠️ PROHIBIDO repetir estas noticias. Usa noticias diferentes.")
+
+    events_used = db.data.get("events_mentioned", {})
+    if events_used:
+        recent_events = _filter_recent_items(events_used, days=60)
+        if recent_events:
+            context_parts.append("\n**Eventos YA MENCIONADOS (NO repetir):**")
+            for ev in recent_events[:15]:
+                context_parts.append(f"- {ev}")
+            context_parts.append("⚠️ PROHIBIDO repetir estos eventos salvo que sea su aniversario exacto.")
     
     context_parts.append("\n**Instrucciones generales:**")
     context_parts.append("- NO repitas exactamente la misma información, datos o frases")
@@ -356,13 +403,12 @@ def build_memory_context_from_db(target_date: str) -> str:
 
 
 def update_database_from_reports():
-    """Actualiza la base de datos analizando todos los informes existentes"""
-    from pathlib import Path
-    
+    """Reconstruye la base de datos analizando todos los informes existentes."""
     REPORTS_DIR = PROJECT_ROOT / "reports"
     db = MemoryDatabase()
+    db.data = db._create_empty_database()
     
-    logger.info("🔄 Actualizando base de datos desde informes existentes...")
+    logger.info("🔄 Reconstruyendo base de datos desde informes existentes...")
     
     count = 0
     for report_file in sorted(REPORTS_DIR.glob("*.json")):
@@ -378,6 +424,9 @@ def update_database_from_reports():
     logger.info(f"   - Jugadores registrados: {len(db.data['players_used'])}")
     logger.info(f"   - Secciones registradas: {sum(len(v) for v in db.data['weekly_sections'].values())}")
     logger.info(f"   - Temas registrados: {len(db.data['topics_mentioned'])}")
+    logger.info(f"   - Datos del día registrados: {len(db.data.get('facts_used', {}))}")
+    logger.info(f"   - Noticias registradas: {len(db.data.get('news_topics', {}))}")
+    logger.info(f"   - Eventos registrados: {len(db.data.get('events_mentioned', {}))}")
 
 
 def main():
@@ -413,12 +462,22 @@ def main():
         db = MemoryDatabase()
         print("📊 Contenido de la Base de Datos:")
         print("=" * 50)
-        print(f"Jugadores registrados: {len(db.data['players_used'])}")
+        print(f"Última actualización: {db.data.get('last_updated', 'N/A')}")
+        print(f"\nJugadores registrados: {len(db.data['players_used'])}")
         for player, dates in sorted(db.data['players_used'].items(), key=lambda x: len(x[1]), reverse=True):
             print(f"  - {player}: {len(dates)} vez(es)")
         print(f"\nSecciones usadas:")
         for section_type, dates in db.data['weekly_sections'].items():
             print(f"  - {section_type}: {len(dates)} vez(es)")
+        print(f"\nDatos del día registrados: {len(db.data.get('facts_used', {}))}")
+        for fact, dates in db.data.get("facts_used", {}).items():
+            print(f"  - [{len(dates)}x] {fact[:80]}")
+        print(f"\nNoticias registradas: {len(db.data.get('news_topics', {}))}")
+        for title, dates in db.data.get("news_topics", {}).items():
+            print(f"  - [{len(dates)}x] {title[:80]}")
+        print(f"\nEventos registrados: {len(db.data.get('events_mentioned', {}))}")
+        for ev, dates in db.data.get("events_mentioned", {}).items():
+            print(f"  - [{len(dates)}x] {ev[:80]}")
         return
     
     # Generar contexto

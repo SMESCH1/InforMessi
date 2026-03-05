@@ -1,4 +1,4 @@
-"""Tests for rag-memory-database.py core functions."""
+"""Tests for rag_memory_database.py core functions."""
 
 import sys
 import json
@@ -7,12 +7,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from importlib import import_module
-
-rmd = import_module("rag-memory-database")
-
-MemoryDatabase = rmd.MemoryDatabase
-_normalize_text = rmd._normalize_text
+from rag_memory_database import MemoryDatabase, _normalize_text
 
 
 class TestNormalizeText:
@@ -67,7 +62,9 @@ class TestMemoryDatabase:
     def test_record_fact(self, tmp_path):
         db = self._make_db(tmp_path)
         db.record_fact("El Mundial 2026 tendrá 48 equipos", "2026-02-01")
-        assert "El Mundial 2026 tendrá 48 equipos" in db.data["facts_used"]
+        keys = list(db.data["facts_used"].keys())
+        assert len(keys) == 1
+        assert "el mundial 2026 tendra 48 equipos" in keys[0]
 
     def test_record_weekly_section(self, tmp_path):
         db = self._make_db(tmp_path)
@@ -95,13 +92,14 @@ class TestMemoryDatabase:
         db.analyze_report(report)
         assert len(db.data["facts_used"]) == 1
         fact_key = list(db.data["facts_used"].keys())[0]
-        assert "Argentina" in fact_key
+        assert "argentina" in fact_key
 
-    def test_analyze_report_matches_news_partial(self, tmp_path):
+    def test_analyze_report_registers_all_news(self, tmp_path):
+        """analyze_report now registers ALL news provided in data, not just those found in message text."""
         db = self._make_db(tmp_path)
         report = {
             "date": "2026-02-03",
-            "message": "messi anoto un gol en el partido de ayer contra brasil en un amistoso importante",
+            "message": "messi anoto un gol en el partido de ayer contra brasil",
             "data": {
                 "events": [],
                 "news": [
@@ -111,7 +109,7 @@ class TestMemoryDatabase:
             },
         }
         db.analyze_report(report)
-        assert len(db.data["news_topics"]) == 1
+        assert len(db.data["news_topics"]) == 2
 
     def test_get_least_used_players(self, tmp_path):
         db = self._make_db(tmp_path)
