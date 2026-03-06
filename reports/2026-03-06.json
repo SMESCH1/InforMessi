@@ -6,12 +6,27 @@
     "mundial_2026_start": "2026-06-11",
     "days_remaining": 97,
     "events": [],
-    "news": []
+    "news": [
+      {
+        "title": "Liga Profesional de Fútbol",
+        "description": "",
+        "url": "https://www.tycsports.com/liga-profesional-de-futbol.html",
+        "source": "TyC Sports",
+        "published_at": "2026-03-06T14:01:17.215911"
+      },
+      {
+        "title": "Con gol de Messi, Inter Miami le ganó a Independiente del Valle",
+        "description": "",
+        "url": "https://www.tycsports.com/futbol/amistosos-clubes-2026-inter-miami-vs-independiente-del-valle-amistosos-messi-gol-penal-de-paul-suarez-id712654.html",
+        "source": "TyC Sports",
+        "published_at": "2026-03-06T14:01:17.216081"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 97 días para el Mundial 2026 ⚽\n\n📊 Dato del día: El Mundial 2026 será el primero en tener 48 equipos 🌍, expandiendo la competencia a nuevas regiones del mundo.\n\n📊 Dato de fútbol: Lionel Messi es jugador con más títulos oficiales en la historia del fútbol 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-03-06T14:01:25.597261",
+  "published_at": "2026-03-06T14:01:26.542920",
+  "pre_approved": true,
+  "pre_approved_at": "2026-03-06T14:01:25.597269"
 }
