@@ -94,21 +94,32 @@ class TestMemoryDatabase:
         fact_key = list(db.data["facts_used"].keys())[0]
         assert "argentina" in fact_key
 
-    def test_analyze_report_registers_all_news(self, tmp_path):
-        """analyze_report now registers ALL news provided in data, not just those found in message text."""
+    def test_analyze_report_registers_news_only_for_published(self, tmp_path):
+        """analyze_report registers news ONLY when report is pre_approved or published."""
         db = self._make_db(tmp_path)
-        report = {
+        news_items = [
+            {"title": "Messi anotó un gol en el partido de ayer"},
+            {"title": "Noticias completamente diferentes no relacionadas"},
+        ]
+
+        # draft → news NOT registered
+        draft_report = {
             "date": "2026-02-03",
-            "message": "messi anoto un gol en el partido de ayer contra brasil",
-            "data": {
-                "events": [],
-                "news": [
-                    {"title": "Messi anotó un gol en el partido de ayer"},
-                    {"title": "Noticias completamente diferentes no relacionadas"},
-                ],
-            },
+            "status": "draft",
+            "message": "messi anoto un gol",
+            "data": {"events": [], "news": news_items},
         }
-        db.analyze_report(report)
+        db.analyze_report(draft_report)
+        assert len(db.data["news_topics"]) == 0
+
+        # pre_approved → news registered
+        published_report = {
+            "date": "2026-02-04",
+            "status": "pre_approved",
+            "message": "messi anoto un gol",
+            "data": {"events": [], "news": news_items},
+        }
+        db.analyze_report(published_report)
         assert len(db.data["news_topics"]) == 2
 
     def test_get_least_used_players(self, tmp_path):

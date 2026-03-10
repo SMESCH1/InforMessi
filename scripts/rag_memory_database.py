@@ -176,8 +176,18 @@ class MemoryDatabase:
         return len(self.data["weekly_sections"].get(section_type, []))
     
     def get_recent_topics(self, days: int = 30) -> List[str]:
-        """Obtiene temas mencionados recientemente"""
-        return list(self.data["topics_mentioned"].keys())
+        """Obtiene temas mencionados recientemente dentro de la ventana de días."""
+        cutoff = datetime.now().date()
+        result = []
+        for topic, dates in self.data["topics_mentioned"].items():
+            for d in dates:
+                try:
+                    if (cutoff - datetime.strptime(d, "%Y-%m-%d").date()).days <= days:
+                        result.append(topic)
+                        break
+                except Exception:
+                    pass
+        return result
 
     def get_used_news_keys(self) -> Set[str]:
         """Retorna set de claves normalizadas de noticias ya registradas."""
@@ -191,25 +201,44 @@ class MemoryDatabase:
         """Retorna set de claves normalizadas de datos del día ya registrados."""
         return set(self.data.get("facts_used", {}).keys())
 
-    def is_news_used(self, title: str) -> bool:
-        """Verifica si una noticia ya fue registrada (matching parcial normalizado)."""
+    def _days_since_last_used(self, items_map: dict, norm_key: str) -> "int | None":
+        """Retorna días desde el último uso, o None si nunca fue usado."""
+        today = datetime.now().date()
+        for stored_key, dates in items_map.items():
+            if norm_key in stored_key or stored_key in norm_key:
+                parsed = []
+                for d in dates:
+                    try:
+                        parsed.append(datetime.strptime(d, "%Y-%m-%d").date())
+                    except Exception:
+                        pass
+                if parsed:
+                    return (today - max(parsed)).days
+        return None
+
+    def is_news_used_within(self, title: str, days: int = 14) -> bool:
+        """Verifica si una noticia fue usada dentro de los últimos N días."""
         norm = _normalize_text(title)[:50]
         if not norm:
             return False
-        for key in self.data.get("news_topics", {}):
-            if norm in key or key in norm:
-                return True
-        return False
+        days_ago = self._days_since_last_used(self.data.get("news_topics", {}), norm)
+        return days_ago is not None and days_ago <= days
 
-    def is_event_used(self, description: str) -> bool:
-        """Verifica si un evento ya fue registrado (matching parcial normalizado)."""
+    def is_event_used_within(self, description: str, days: int = 30) -> bool:
+        """Verifica si un evento fue usado dentro de los últimos N días."""
         norm = _normalize_text(description)[:100]
         if not norm:
             return False
-        for key in self.data.get("events_mentioned", {}):
-            if norm in key or key in norm:
-                return True
-        return False
+        days_ago = self._days_since_last_used(self.data.get("events_mentioned", {}), norm)
+        return days_ago is not None and days_ago <= days
+
+    def is_news_used(self, title: str) -> bool:
+        """Wrapper backward-compatible: usa ventana de 14 días."""
+        return self.is_news_used_within(title, days=14)
+
+    def is_event_used(self, description: str) -> bool:
+        """Wrapper backward-compatible: usa ventana de 30 días."""
+        return self.is_event_used_within(description, days=30)
     
     def analyze_report(self, report: Dict):
         """Analiza un informe y registra todo su contenido"""
@@ -255,12 +284,13 @@ class MemoryDatabase:
             if desc:
                 self.record_event(desc, date)
         
-        # Registrar TODAS las noticias provistas al LLM para ese día
-        news = data.get("news", [])
-        for item in news:
-            title = item.get("title", "")
-            if title:
-                self.record_news(title, date)
+        # Registrar noticias SOLO si el informe fue pre-aprobado o publicado
+        if report.get("status") in ("pre_approved", "published"):
+            news = data.get("news", [])
+            for item in news:
+                title = item.get("title", "")
+                if title:
+                    self.record_news(title, date)
 
         # Registrar dato del día (detección robusta con múltiples marcadores)
         msg_lower = message.lower()
@@ -365,32 +395,61 @@ def build_memory_context_from_db(target_date: str) -> str:
         recent_items.sort(key=lambda x: x[0], reverse=True)
         return [key for _, key in recent_items]
 
+    def _split_tiers(items_map: dict, hard_days: int, soft_days: int):
+        """Divide ítems en tier duro (PROHIBIDO) y tier suave (EVITAR)."""
+        today = datetime.now().date()
+        hard, soft = [], []
+        for key, dates in items_map.items():
+            parsed = []
+            for d in dates:
+                try:
+                    parsed.append(datetime.strptime(d, "%Y-%m-%d").date())
+                except Exception:
+                    continue
+            if not parsed:
+                continue
+            age = (today - max(parsed)).days
+            if age <= hard_days:
+                hard.append(key)
+            elif age <= soft_days:
+                soft.append(key)
+        return hard, soft
+
     facts_used = db.data.get("facts_used", {})
     if facts_used:
-        recent_facts = _filter_recent_items(facts_used, days=60)
-        if recent_facts:
-            context_parts.append("\n**Datos del día YA PUBLICADOS (NO repetir):**")
-            for fact in recent_facts[:15]:
+        hard_facts, soft_facts = _split_tiers(facts_used, hard_days=14, soft_days=60)
+        if hard_facts:
+            context_parts.append("\n**⛔ Datos del día PROHIBIDOS (últimos 14 días — NO usar bajo ningún concepto):**")
+            for fact in hard_facts[:15]:
                 context_parts.append(f"- {fact}")
-            context_parts.append("⚠️ PROHIBIDO repetir estos datos. Usa información diferente.")
+        if soft_facts:
+            context_parts.append("\n**⚠️ Datos del día EVITAR SI POSIBLE (15–60 días — usar solo si no hay alternativa):**")
+            for fact in soft_facts[:10]:
+                context_parts.append(f"- {fact}")
 
     news_used = db.data.get("news_topics", {})
     if news_used:
-        recent_news = _filter_recent_items(news_used, days=30)
-        if recent_news:
-            context_parts.append("\n**Noticias YA PUBLICADAS (NO repetir):**")
-            for title in recent_news[:15]:
+        hard_news, soft_news = _split_tiers(news_used, hard_days=7, soft_days=30)
+        if hard_news:
+            context_parts.append("\n**⛔ Noticias PROHIBIDAS (últimos 7 días — NO seleccionar bajo ningún concepto):**")
+            for title in hard_news[:15]:
                 context_parts.append(f"- {title}")
-            context_parts.append("⚠️ PROHIBIDO repetir estas noticias. Usa noticias diferentes.")
+        if soft_news:
+            context_parts.append("\n**⚠️ Noticias EVITAR SI POSIBLE (8–30 días — seleccionar solo como última opción):**")
+            for title in soft_news[:10]:
+                context_parts.append(f"- {title}")
 
     events_used = db.data.get("events_mentioned", {})
     if events_used:
-        recent_events = _filter_recent_items(events_used, days=60)
-        if recent_events:
-            context_parts.append("\n**Eventos YA MENCIONADOS (NO repetir):**")
-            for ev in recent_events[:15]:
+        hard_events, soft_events = _split_tiers(events_used, hard_days=14, soft_days=60)
+        if hard_events:
+            context_parts.append("\n**⛔ Eventos PROHIBIDOS (últimos 14 días — NO mencionar salvo aniversario exacto):**")
+            for ev in hard_events[:15]:
                 context_parts.append(f"- {ev}")
-            context_parts.append("⚠️ PROHIBIDO repetir estos eventos salvo que sea su aniversario exacto.")
+        if soft_events:
+            context_parts.append("\n**⚠️ Eventos EVITAR SI POSIBLE (15–60 días — usar solo si no hay alternativa):**")
+            for ev in soft_events[:10]:
+                context_parts.append(f"- {ev}")
     
     context_parts.append("\n**Instrucciones generales:**")
     context_parts.append("- NO repitas exactamente la misma información, datos o frases")
@@ -411,14 +470,20 @@ def update_database_from_reports():
     logger.info("🔄 Reconstruyendo base de datos desde informes existentes...")
     
     count = 0
+    skipped = 0
     for report_file in sorted(REPORTS_DIR.glob("*.json")):
         try:
             with open(report_file, 'r', encoding='utf-8') as f:
                 report = json.load(f)
+                status = report.get("status", "")
+                if status not in ("pre_approved", "published"):
+                    skipped += 1
+                    continue
                 db.analyze_report(report)
                 count += 1
         except Exception as e:
             logger.warning(f"⚠️  Error al procesar {report_file}: {e}")
+    logger.info(f"   - Informes omitidos (no publicados): {skipped}")
     
     logger.info(f"✅ Base de datos actualizada: {count} informes procesados")
     logger.info(f"   - Jugadores registrados: {len(db.data['players_used'])}")

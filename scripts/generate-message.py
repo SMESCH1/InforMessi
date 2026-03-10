@@ -74,8 +74,8 @@ def _format_news_for_prompt(news):
     return f"- {title} ({source})"
 
 
-def _filter_already_used(events, news):
-    """Filtra noticias y eventos ya publicados usando la base de memoria."""
+def _filter_already_used(events, news, target_date: str = ""):
+    """Filtra noticias y eventos ya publicados usando la base de memoria con ventanas temporales."""
     sys.path.insert(0, str(Path(__file__).parent))
     try:
         from rag_memory_database import MemoryDatabase
@@ -83,8 +83,32 @@ def _filter_already_used(events, news):
     except (ImportError, Exception):
         return events, news
 
-    fresh_events = [e for e in events if not db.is_event_used(e.get("description", ""))]
-    fresh_news = [n for n in news if not db.is_news_used(n.get("title", ""))]
+    today_mm_dd = ""
+    if target_date:
+        try:
+            today_mm_dd = target_date[5:]  # "MM-DD"
+        except Exception:
+            pass
+
+    def _is_anniversary_event(event):
+        """Devuelve True si el evento es un aniversario de hoy (MM-DD match)."""
+        event_date = event.get("date", "")
+        if not event_date or not today_mm_dd:
+            return False
+        return str(event_date)[-5:] == today_mm_dd
+
+    fresh_events = []
+    for e in events:
+        desc = e.get("description", "")
+        if _is_anniversary_event(e):
+            # Aniversarios: permitir si no fue usado en el último año
+            if not db.is_event_used_within(desc, days=365):
+                fresh_events.append(e)
+        else:
+            if not db.is_event_used_within(desc, days=30):
+                fresh_events.append(e)
+
+    fresh_news = [n for n in news if not db.is_news_used_within(n.get("title", ""), days=14)]
 
     if not fresh_news and news:
         logger.info("   ⚠️ Todas las noticias ya fueron publicadas, usando originales como fallback")
@@ -142,7 +166,16 @@ def build_selection_prompt(data):
             title = item.get("title", "")
             desc = item.get("description", "")
             source = item.get("source", "Sin fuente")
-            news_lines.append(f"- [N{idx}] {title} | {desc[:140]} | {source}")
+            score = item.get("freshness_score", 0.5)
+            if score >= 1.0:
+                freshness_label = "[HOY]"
+            elif score >= 0.8:
+                freshness_label = "[AYER]"
+            elif score >= 0.5:
+                freshness_label = "[2 días]"
+            else:
+                freshness_label = "[+3 días]"
+            news_lines.append(f"- [N{idx}] {freshness_label} {title} | {desc[:140]} | {source}")
         news_text = "\n".join(news_lines)
     else:
         news_text = "No hay noticias del dia."
@@ -430,7 +463,7 @@ def main():
 
     if events or news:
         logger.info("\n🔍 Filtrando contenido ya publicado...")
-        fresh_events, fresh_news = _filter_already_used(events, news)
+        fresh_events, fresh_news = _filter_already_used(events, news, target_date=data.get("date", ""))
         logger.info(f"   Eventos frescos: {len(fresh_events)}/{len(events)}")
         logger.info(f"   Noticias frescas: {len(fresh_news)}/{len(news)}")
 

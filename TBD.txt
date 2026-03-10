@@ -1,0 +1,3 @@
+- con correcciones de que no repita datos, no esta generando nada del mensaje nuevo pq toma todo lo anterior como error
+- hacer front/ app
+- iterar y corregir informes de forma manual, con un LLM por fuera

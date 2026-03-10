@@ -93,6 +93,43 @@ def _validate_news_basic(news_list: List[Dict], max_days: int = 3, reference_dat
     return valid_news
 
 
+def _add_freshness_score(news_list: List[Dict], reference_date: Optional[str] = None) -> List[Dict]:
+    """Añade freshness_score a cada noticia y ordena de más fresco a más viejo."""
+    if reference_date:
+        try:
+            today = datetime.strptime(reference_date, "%Y-%m-%d").date()
+        except Exception:
+            today = datetime.now().date()
+    else:
+        today = datetime.now().date()
+
+    for news in news_list:
+        published_at = news.get("published_at", "")
+        score = 0.5  # default para fecha desconocida
+        if published_at:
+            try:
+                if "T" in published_at:
+                    date_str = published_at.split("T")[0]
+                    news_date = datetime.strptime(date_str, "%Y-%m-%d").date()
+                else:
+                    news_date = datetime.fromisoformat(published_at.replace("Z", "+00:00")).date()
+                days_diff = (today - news_date).days
+                if days_diff <= 0:
+                    score = 1.0
+                elif days_diff == 1:
+                    score = 0.8
+                elif days_diff == 2:
+                    score = 0.5
+                else:
+                    score = 0.2
+            except Exception:
+                score = 0.5
+        news["freshness_score"] = score
+
+    news_list.sort(key=lambda n: n.get("freshness_score", 0.5), reverse=True)
+    return news_list
+
+
 def get_news_newsapi(api_key: str, max_results: int = 5, silent: bool = False) -> List[Dict]:
     """Obtiene noticias de NewsAPI relacionadas con selección argentina y mundial 2026"""
     
@@ -339,7 +376,10 @@ def get_news_argentina(max_results: int = 5, silent: bool = False, reference_dat
     
     # Validar noticias (fecha y contenido obsoleto)
     validated_news = _validate_news_basic(unique_news, max_days=max_days, reference_date=reference_date)
-    
+
+    # Añadir score de frescura y ordenar
+    validated_news = _add_freshness_score(validated_news, reference_date=reference_date)
+
     # Limitar resultados
     return validated_news[:max_results]
 
@@ -374,8 +414,8 @@ def main():
     parser.add_argument(
         "--max-days",
         type=int,
-        default=3,
-        help="Ventana en días hacia atrás desde la fecha de referencia (default: 3)"
+        default=2,
+        help="Ventana en días hacia atrás desde la fecha de referencia (default: 2)"
     )
     
     args = parser.parse_args()

@@ -1,17 +1,55 @@
 {
   "date": "2026-03-05",
-  "generated_at": "2026-02-21T20:01:30.999399",
+  "generated_at": "2026-03-05T17:26:26.122507",
   "data": {
     "date": "2026-03-05",
     "mundial_2026_start": "2026-06-11",
     "days_remaining": 98,
     "events": [],
-    "news": []
+    "news": [
+      {
+        "title": "Liga Profesional de Fútbol",
+        "description": "",
+        "url": "https://www.tycsports.com/liga-profesional-de-futbol.html",
+        "source": "TyC Sports",
+        "published_at": "2026-03-05T17:27:01.171791"
+      },
+      {
+        "title": "Con gol de Messi, Inter Miami le ganó a Independiente del Valle",
+        "description": "",
+        "url": "https://www.tycsports.com/futbol/amistosos-clubes-2026-inter-miami-vs-independiente-del-valle-amistosos-messi-gol-penal-de-paul-suarez-id712654.html",
+        "source": "TyC Sports",
+        "published_at": "2026-03-05T17:27:01.171883"
+      },
+      {
+        "title": "Bale: “Zidane didn't do too much... if you played against Barça or Bayern, we did 15 minutes of tactics.”",
+        "description": "The Champions League and Madrid: \"Just by getting there, I realized that they prioritize the Champions League. It's difficult to be in Spain because these two teams (Barça and Madrid), and perhaps Atl",
+        "url": "https://reddit.com/r/soccer/comments/1rljiuo/bale_zidane_didnt_do_too_much_if_you_played/",
+        "source": "Reddit r/soccer",
+        "published_at": "2026-03-05T11:48:41"
+      },
+      {
+        "title": "It’s been eight years since Leo Messi gave us an iconic celebration after scoring a last-minute Clásico winner at the Bernabeu.",
+        "description": "",
+        "url": "https://reddit.com/r/messi/comments/1rldb6l/its_been_eight_years_since_leo_messi_gave_us_an/",
+        "source": "Reddit r/messi",
+        "published_at": "2026-03-05T06:35:56"
+      },
+      {
+        "title": "Es oficial. Pese a los rumores, Infantino confirmo que finalmente se jugara la Finalisima en la fecha FIFA de marzo. Esta es la lista de convocados que acaba de dar Scaloni:",
+        "description": "Porteros: \n\nEmiliano Martínez (Aston Villa), Pedro Armani (River Plate), Gerónimo Rulli (Marsella).\n\nDefensas: \n\nNicolás Otamendi (Benfica), Cristian Romero (Tottenham), Nicolás Tagliafico (Lyon), Mar",
+        "url": "https://reddit.com/r/fulbo/comments/1rj4grw/es_oficial_pese_a_los_rumores_infantino_confirmo/",
+        "source": "Reddit r/fulbo",
+        "published_at": "2026-03-02T17:38:14"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
+  "message": "Buenos días 🇦🇷\n\nFaltan 98 días para el Mundial 2026 ⚽\n\nCoronados de gloria vivamos",
+  "status": "updated",
+  "updated_at": "2026-03-05T17:29:37.676855",
   "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "pre_approved": true,
+  "pre_approved_at": "2026-03-05T17:29:39.951587",
+  "edited_manually": true,
+  "edited_at": "2026-03-05T17:29:37.676866"
 }

@@ -13,8 +13,12 @@ Reglas:
 - Prioriza eventos del día anterior si existen.
 - Selecciona solo noticias relacionadas con fútbol argentino, jugadores de la selección argentina de futbol o la selección argentina de futbol, o noticias relacionadas a selecciones de futbol que van a participar en el mundial.
 - Ignora noticias de política/economía o sin relación con fútbol.
-- ⚠️ Si se incluye una sección de "Noticias YA PUBLICADAS" o "Datos YA PUBLICADOS", NO selecciones items que coincidan con esa lista. Prioriza contenido NUEVO.
-- Si todas las noticias disponibles ya fueron publicadas, devuelve listas vacías en vez de repetir.
+- Prioriza noticias con etiqueta [HOY] > [AYER] > [2 días] > [+3 días]. Las noticias más recientes tienen prioridad.
+- Si todo el contenido disponible fue publicado recientemente, selecciona el menos reciente o el de mayor score de frescura. Nunca devuelvas listas vacías si hay items disponibles.
+
+Niveles de restricción de memoria:
+- ⛔ PROHIBIDO: ítems marcados como PROHIBIDOS en la memoria. NO seleccionarlos bajo ningún concepto.
+- ⚠️ EVITAR SI POSIBLE: ítems marcados como EVITAR. Seleccionarlos solo si no hay ninguna alternativa disponible.
 
 Formato de salida (JSON estricto):
 {
