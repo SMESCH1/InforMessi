@@ -26,8 +26,8 @@ git clone <repo-url> && cd InforMessi
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
-cp .env.example .env
-# Editar .env con tus API keys
+# Crear .env en la raíz con las variables de la sección "Configuración (.env)" abajo.
+# Nunca subas .env ni .env.example con valores reales al repo (usa GitHub Secrets en CI).
 
 ollama pull qwen2.5:7b-instruct  # o llama3.2
 
@@ -42,6 +42,8 @@ python3 scripts/send-daily-report-review.py
 ```
 
 ## Configuración (.env)
+
+Crea un archivo `.env` en la raíz del proyecto con las variables siguientes. **No lo subas al repo**: está en `.gitignore`. En GitHub Actions usa Secrets; en local solo en tu máquina.
 
 ```env
 # LLM
@@ -79,8 +81,8 @@ InforMessi/
 │   ├── fetch-news.py              # NewsAPI + RSS + scraping
 │   ├── fetch-reddit.py            # Reddit scraper
 │   ├── fetch-events-enhanced.py   # Eventos desde JSON + Wikipedia + calendario
-│   ├── rag-memory-database.py     # Base de datos de memoria anti-repetición
-│   ├── rag-style-learning.py      # RAG de estilo desde informes editados
+│   ├── rag_memory_database.py     # Base de datos de memoria anti-repetición
+│   ├── rag_style_learning.py      # RAG de estilo desde informes editados
 │   ├── generate-weekly-sections.py # Secciones temáticas por día de semana
 │   ├── detect-media.py            # Detecta contenido audiovisual por fecha
 │   ├── diagnose-workflow.py       # Diagnóstico de configuración
@@ -207,7 +209,7 @@ python3 scripts/edit-and-validate-report.py --date 2026-02-01
 python3 scripts/send-daily-report-review.py
 
 # Ver base de datos de memoria
-python3 scripts/rag-memory-database.py --show
+python3 scripts/rag_memory_database.py --show
 
 # Verificar configuración de Telegram
 python3 scripts/diagnose-workflow.py
@@ -282,7 +284,7 @@ python3 -m pytest tests/ -v
 | Mensajes genéricos/inventados | Verificar que hay eventos o noticias. Sin datos, el LLM genera solo saludo + cierre |
 | Botones de Telegram no responden | Verificar webhook: `python3 scripts/setup-webhook.py --info` |
 | GitHub Actions no genera mensaje | Configurar `GROQ_API_KEY` en GitHub Secrets |
-| Noticias repetidas | Ejecutar `python3 scripts/rag-memory-database.py --show` para ver historial |
+| Noticias repetidas | Ejecutar `python3 scripts/rag_memory_database.py --show` para ver historial |
 
 ## Documentación adicional
 

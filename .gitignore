@@ -9,8 +9,10 @@ env/
 ENV/
 .venv
 
-# Variables de entorno
+# Variables de entorno (nunca subir al repo; pueden contener secretos)
 .env
+.env.*
+.env.example
 .env.local
 
 # Archivos temporales

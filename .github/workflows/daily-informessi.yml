@@ -13,6 +13,15 @@ jobs:
       - name: Checkout codigo
         uses: actions/checkout@v4
 
+      - name: Verificar que no haya archivos de entorno en el repo
+        run: |
+          TRACKED=$(git ls-files .env .env.example .env.local 2>/dev/null || true)
+          if [ -n "$TRACKED" ]; then
+            echo "::error::No se deben subir archivos de entorno al repo (contienen secretos). Estan trackeados: $TRACKED"
+            echo "Quitalos con: git rm --cached .env .env.example .env.local"
+            exit 1
+          fi
+
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
@@ -74,4 +83,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add reports/ data/ || true
           git diff --staged --quiet || git commit -m "Actualizar informe $(date +%Y-%m-%d)"
-          git push || true
+          # Si el push falla, el job falla: el siguiente run no tendrá reports/data actualizados (memoria desactualizada)
+          git push
