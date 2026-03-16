@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2025-12-29T11:08:09.068171",
-  "last_updated": "2026-03-15T13:55:07.704011",
+  "last_updated": "2026-03-16T14:38:27.855934",
   "players_used": {
     "Messi": [
       "2025-12-28",
@@ -11,7 +11,8 @@
       "2026-01-05",
       "2026-01-07",
       "2026-01-08",
-      "2026-03-15"
+      "2026-03-15",
+      "2026-03-16"
     ],
     "Scaloni": [
       "2025-12-29",
@@ -44,7 +45,8 @@
       "2026-01-02",
       "2026-01-05",
       "2026-01-09",
-      "2026-01-12"
+      "2026-01-12",
+      "2026-03-16"
     ],
     "jugador_scaloneta": [
       "2025-12-30",
@@ -81,7 +83,8 @@
       "2026-01-10",
       "2026-01-11",
       "2026-01-12",
-      "2026-03-15"
+      "2026-03-15",
+      "2026-03-16"
     ],
     "seleccion": [
       "2025-12-28",
@@ -148,13 +151,17 @@
       "2026-01-12"
     ],
     "con gol de messi, inter miami le gano a independie": [
-      "2026-03-15"
+      "2026-03-15",
+      "2026-03-16"
     ]
   },
   "phrases_used": [],
   "facts_used": {
     "Lionel Messi ha jugado en tres países diferentes en el año 2026. El capitán de la Scaloneta sigue siendo la referencia mundial del fútbol y prepara su sexta participación en un Mundial 🏆": [
       "2026-03-15"
+    ],
+    "**** Lionel Messi es el jugador con más títulos oficiales en la historia del fútbol 🔥": [
+      "2026-03-16"
     ]
   }
 }
