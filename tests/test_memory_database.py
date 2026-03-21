@@ -1,4 +1,4 @@
-"""Tests for rag-memory-database.py core functions."""
+"""Tests for rag_memory_database.py core functions."""
 
 import sys
 import json
@@ -9,7 +9,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from importlib import import_module
 
-rmd = import_module("rag-memory-database")
+rmd = import_module("rag_memory_database")
 
 MemoryDatabase = rmd.MemoryDatabase
 _normalize_text = rmd._normalize_text

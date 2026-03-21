@@ -70,13 +70,13 @@ Para las secciones de "Jugador de la Scaloneta" (Martes/Jueves):
 ### Ver qué información se extrae:
 
 ```bash
-python3 scripts/rag-memory-system.py --date 2026-01-01
+python3 scripts/rag_memory_system.py --date 2026-01-01
 ```
 
 ### Ver contexto generado para una fecha:
 
 ```bash
-python3 scripts/rag-memory-system.py --date 2026-01-01 --days-back 30
+python3 scripts/rag_memory_system.py --date 2026-01-01 --days-back 30
 ```
 
 ### Generar un mensaje con memoria:
@@ -102,7 +102,7 @@ memory_context = build_memory_context(data["date"], days_back=30)
 
 ### Ajustar sensibilidad
 
-En `rag-memory-system.py`, puedes ajustar:
+En `rag_memory_system.py`, puedes ajustar:
 - `days_back`: Cuántos días hacia atrás analizar
 - `max_reports`: Cuántos informes recientes considerar
 - `players_used`: Umbral para considerar un jugador "muy usado"

@@ -119,13 +119,7 @@ def update_report_for_date(date: str) -> bool:
     with open(report_file, 'w', encoding='utf-8') as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
     
-    # Actualizar base de datos de memoria
-    try:
-        from update_memory_db import update_memory_for_report
-        update_memory_for_report(date)
-    except:
-        pass  # No crítico si falla
-    
+    # La memoria se actualiza solo al publicar (send-daily, auto-publish, webhook, publish-approved)
     logger.info(f"✅ Informe actualizado: {report_file}")
     return True
 

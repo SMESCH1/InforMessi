@@ -85,6 +85,19 @@ Guía para diagnosticar problemas con el workflow de GitHub Actions.
 2. Verifica que los nombres sean exactos (mayúsculas/minúsculas)
 3. No uses espacios en los valores
 
+### 6. El paso "Commit y push" falla
+
+**Síntomas:**
+- El job de GitHub Actions falla en el step "Commit y push cambios"
+- Error de permisos o red al hacer `git push`
+
+**Comportamiento:** Si el push falla, el job falla a propósito (ya no se usa `|| true`). Así se hace visible el problema. El siguiente run del workflow partirá del último commit exitoso: no tendrá los `reports/` ni `data/memory-database.json` del día, por lo que la memoria en CI puede quedar desactualizada hasta que el push vuelva a funcionar.
+
+**Solución:**
+1. Revisa que el token/workflow tenga permisos de escritura en el repo (Settings → Actions → General → Workflow permissions: Read and write).
+2. Si usas branch protection, permite que el workflow haga push a `main` o usa un token con permisos suficientes.
+3. Tras corregir, el siguiente run hará commit y push de los cambios pendientes.
+
 ## 🧪 Diagnóstico Paso a Paso
 
 ### Paso 1: Verificar Secrets en GitHub
