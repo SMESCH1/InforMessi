@@ -163,7 +163,43 @@ def collect_all_data(date: str = None, include_news: bool = True) -> dict:
     
     # Combinar todas las noticias
     all_news = news + reddit_as_news
-    
+
+    # Filtrar noticias usadas recientemente (últimos 7 días) para evitar repetición
+    try:
+        import sys
+        from pathlib import Path
+        sys.path.insert(0, str(Path(__file__).parent))
+        from rag_memory_database import MemoryDatabase
+        import unicodedata
+        db = MemoryDatabase()
+        used_news = db.data.get("news_topics", {})
+        def _norm(t):
+            t = t.lower().strip()
+            t = unicodedata.normalize("NFD", t)
+            t = "".join(c for c in t if unicodedata.category(c) != "Mn")
+            return " ".join(t.split())[:50]
+        recent_used = set()
+        from datetime import timedelta
+        cutoff = datetime.strptime(date, "%Y-%m-%d").date() - timedelta(days=7)
+        for norm_title, dates_used in used_news.items():
+            for d in dates_used:
+                try:
+                    if datetime.strptime(d, "%Y-%m-%d").date() >= cutoff:
+                        recent_used.add(norm_title)
+                        break
+                except Exception:
+                    continue
+        filtered_news = []
+        for item in all_news:
+            title_norm = _norm(item.get("title", ""))
+            if title_norm not in recent_used:
+                filtered_news.append(item)
+            else:
+                print(f"   🚫 Noticia filtrada (ya usada recientemente): {item.get('title', '')[:60]}")
+        all_news = filtered_news
+    except Exception as e:
+        print(f"⚠️  No se pudo filtrar noticias repetidas: {e}")
+
     # Calcular días restantes
     mundial_start = "2026-06-11"
     mundial = datetime.strptime(mundial_start, "%Y-%m-%d").date()

@@ -231,7 +231,7 @@
         { "date": "2001-07-08", "type": "title", "priority": "low", "person": "N/A", "description": "Argentina 3-0 Ghana en final Sub-20." },
         { "date": "2008-08-16", "type": "match", "priority": "low", "person": "N/A", "description": "Argentina elimina a Brasil 3-0 en semis de JJ.OO. Pekín." },
         { "date": "2021-07-10", "type": "celebration", "priority": "high", "person": "Lionel Messi", "description": "Primer título de Messi con la Selección Mayor." },
-        { "date": "2026-01-26", "type": "birthday", "priority": "high", "person": "Lionel Messi", "age": 38, "description": "Cumpleaños de Lionel Messi (Dato actual)." }
+        { "date": "2026-01-26", "type": "birthday", "priority": "high", "person": "Lionel Messi", "age": 38, "description": "Cumpleaños de Lionel Messi (Dato actual)." },
 
     {
       "date": "2024-01-01",

@@ -1,77 +1,292 @@
 {
-  "description": "Jugadores de la Scaloneta para secciones semanales",
-  "schema_version": "1.0",
+  "description": "Jugadores de la Scaloneta - Perfiles para secciones semanales",
+  "schema_version": "2.0",
   "players": [
     {
       "name": "Lionel Messi",
       "position": "Delantero",
       "club": "Inter Miami",
-      "age": 37,
-      "notes": "Capitán, máximo goleador histórico"
+      "birth_date": "1987-06-24",
+      "age": 38,
+      "bio": "Capitán eterno y máximo goleador histórico de la Selección (109 goles). Ganó los tres grandes títulos con Argentina: Copa América 2021, Finalísima 2022 y Copa del Mundo 2022. En Qatar 2022 ganó el Balón de Oro del torneo y marcó 7 goles. Es el único jugador en ganar 8 Balones de Oro. Disputó 5 Mundiales (2006, 2010, 2014, 2018, 2022) y jugará su sexto en 2026. En 2026 se convierte en el jugador con más partidos mundialistas de la historia si disputa al menos 3 juegos. Renunció a la selección tras perder la Copa América 2016 y volvió convencido por los hinchas.",
+      "world_cup_moments": [
+        "2006: Debut mundialista con gol vs Serbia y Montenegro a los 18 años",
+        "2010: Gran torneo pero eliminados por Alemania 4-0",
+        "2014: Finalista en Brasil, gana el Balón de Oro del torneo",
+        "2018: Eliminados por Francia en octavos (3-4), crisis total",
+        "2022: Campeón del Mundo en Qatar, máximo goleador (7 goles), Balón de Oro del torneo"
+      ],
+      "fun_facts": [
+        "Es el único jugador en ganar la Copa del Mundo, Copa América, Finalísima, Champions, Liga y Balón de Oro",
+        "Fue expulsado a los 47 segundos en su debut con la Mayor (2005)",
+        "Marcó en cada uno de sus últimos 4 Mundiales",
+        "Lleva más de 1000 partidos profesionales"
+      ],
+      "current_context": "Juega en Inter Miami desde 2023. En el Mundial 2026 buscará defender el título a sus 39 años. Sería el capitán más veterano en levantar una copa mundial."
     },
     {
-      "name": "Ángel Di María",
-      "position": "Delantero",
-      "club": "Benfica",
-      "age": 36,
-      "notes": "Experiencia mundialista, clave en títulos"
-    },
-    {
-      "name": "Emiliano Martínez",
+      "name": "Emiliano 'Dibu' Martínez",
       "position": "Arquero",
       "club": "Aston Villa",
-      "age": 32,
-      "notes": "Arquero titular, héroe en penales"
-    },
-    {
-      "name": "Cristian Romero",
-      "position": "Defensor",
-      "club": "Tottenham",
-      "age": 26,
-      "notes": "Defensor central clave"
+      "birth_date": "1992-09-02",
+      "age": 33,
+      "bio": "El mejor arquero del mundo según muchos expertos. Arquero titular indiscutible de la Scaloneta. Héroe absoluto en dos series de penales clave: vs Colombia en Copa América 2021 y vs Francia en la final del Mundial 2022. Ganó el Guante de Oro como mejor arquero de Qatar 2022. Nació en Mar del Plata. Pasó 10 años en el Arsenal sin jugar antes de explotar en el Aston Villa.",
+      "world_cup_moments": [
+        "2022: Tapó el penal de Randal Kolo Muani en los últimos segundos para ganar la final",
+        "2022: Atajó en la tanda de penales vs Francia para consagrar a Argentina",
+        "Copa América 2021: Atajó 3 penales vs Colombia en semis"
+      ],
+      "fun_facts": [
+        "Sus celebraciones en las tandas de penales son icónicas y polémicas",
+        "Tardó hasta los 29 años en ser titular indiscutible del Aston Villa",
+        "Es el portero con más atajas en tandas de penales en torneos de la FIFA (Copa del Mundo + Copa América)",
+        "Dijo 'mirá que te como hermano' mientras miraba fijo a los pateadores colombianos"
+      ],
+      "current_context": "Aston Villa busca clasificar Champions cada temporada con Dibu como pilar. Es considerado el mejor arquero del mundo en la actualidad."
     },
     {
       "name": "Rodrigo De Paul",
-      "position": "Volante",
+      "position": "Mediocampista",
       "club": "Atlético Madrid",
-      "age": 30,
-      "notes": "Mediocampista de contención"
+      "birth_date": "1994-05-24",
+      "age": 31,
+      "bio": "El 'Motorcito'. Motor irremplazable del mediocampo de la Scaloneta. Su energía y capacidad de trabajo sin pelota son fundamentales en el esquema de Scaloni. Ganó Copa América 2021, Finalísima 2022 y Mundial 2022. Es emblema del 'correo' de Messi: cubre, presiona y libera al 10.",
+      "world_cup_moments": [
+        "2022: Pieza clave en todos los partidos, récord de kilómetros recorridos en el torneo",
+        "Copa América 2021: Fundamental en el giro táctico que cambió el torneo"
+      ],
+      "fun_facts": [
+        "Creció en el Barrio Lomas de Zamora",
+        "Pasó por Racing, Udinese y Valencia antes del Atlético Madrid",
+        "Es el jugador que más kilómetros recorre por partido en la Selección",
+        "Amigo personal de Messi fuera de la cancha"
+      ],
+      "current_context": "Continúa siendo titular en el Atlético de Simeone. Su relación con Messi dentro y fuera de la cancha es un pilar del equipo."
+    },
+    {
+      "name": "Julián Álvarez",
+      "position": "Delantero",
+      "club": "Atlético Madrid",
+      "birth_date": "2000-01-31",
+      "age": 26,
+      "bio": "La 'Araña'. Surgido de River Plate, se convirtió en figura del Mundial 2022 con 4 goles. Fue clave cuando Messi necesitó compañía. Transferido al Atlético de Madrid en 2024. Considerado el futuro de la Selección. En Copa América 2024 fue subcampeón, con gran actuación.",
+      "world_cup_moments": [
+        "2022: 4 goles, el segundo máximo goleador de Argentina. Dos goles en semis vs Croacia",
+        "2022: Gol espectacular vs Polonia y gol olímpico vs Australia"
+      ],
+      "fun_facts": [
+        "Fue campeón de la Libertadores y la Copa del Mundo en el mismo año (2022)",
+        "Surgió en River Plate donde fue figura del plantel de Gallardo",
+        "Tiene capacidad para jugar de centrodelantero y de segunda punta",
+        "Fichó al Atlético Madrid rompiendo el molde de 'segundo plato' detrás de Messi"
+      ],
+      "current_context": "Busca consolidarse en el Atlético de Madrid. En la Selección, es el socio ideal de Messi para 2026."
+    },
+    {
+      "name": "Alexis Mac Allister",
+      "position": "Mediocampista",
+      "club": "Liverpool",
+      "birth_date": "1998-12-24",
+      "age": 27,
+      "bio": "Nacido en Santa Rosa, La Pampa. Surgió en Boca Juniors. Uno de los futbolistas más completos de su generación. Campeón del mundo en Qatar 2022 donde jugó un papel fundamental. En Liverpool se convirtió en titular indiscutible bajo Klopp y continuó siendo vital con el nuevo cuerpo técnico.",
+      "world_cup_moments": [
+        "2022: Jugó como interior en el mediocampo tricampeón",
+        "2022: Jugó en la final vs Francia y fue crucial en la tanda de penales (él anotó)"
+      ],
+      "fun_facts": [
+        "Su padre, Patricio, también fue futbolista profesional",
+        "Ganó el título de la Liga con el Brighton antes de ir al Liverpool",
+        "Es el mediocampista con más recuperaciones de balón en el Liverpool",
+        "En el Mundial 2022 fue el jugador con más pases correctos de Argentina"
+      ],
+      "current_context": "Titular en el Liverpool, uno de los mejores mediocampistas del mundo. Apunta a ser el cerebro del mediocampo en 2026."
+    },
+    {
+      "name": "Cristian 'Cuti' Romero",
+      "position": "Defensor",
+      "club": "Tottenham",
+      "birth_date": "1997-10-08",
+      "age": 28,
+      "bio": "El 'Cuti'. Central titular de la Scaloneta, nacido en Córdoba. Agresivo, fuerte en el juego aéreo y con buena salida. Pasó por Belgrano, Juventus, Atalanta y Tottenham. Fue fundamental en la defensa que solo recibió 8 goles en todo el Mundial 2022.",
+      "world_cup_moments": [
+        "2022: Parte del bloque defensivo más sólido del torneo (8 goles en 7 partidos)",
+        "2022: Cortes aéreos clave en los partidos más difíciles"
+      ],
+      "fun_facts": [
+        "Surgió en Belgrano de Córdoba antes de ser descubierto por la Juventus",
+        "Fue el defensa más joven en el plantel campeón del mundo",
+        "Es conocido por su agresividad bien entendida y su liderazgo a pesar de su juventud",
+        "Le regaló la camiseta de Argentina a varios adversarios que se la pidieron"
+      ],
+      "current_context": "Titular y pilar defensivo en el Tottenham. Uno de los mejores centrales del mundo, disputará el Mundial a los 28 años."
     },
     {
       "name": "Nicolás Otamendi",
       "position": "Defensor",
       "club": "Benfica",
-      "age": 36,
-      "notes": "Experiencia y liderazgo en defensa"
-    },
-    {
-      "name": "Alexis Mac Allister",
-      "position": "Volante",
-      "club": "Liverpool",
-      "age": 25,
-      "notes": "Mediocampista creativo"
+      "birth_date": "1988-02-12",
+      "age": 37,
+      "bio": "El veterano de hierro de la defensa argentina. Más de 15 años en la Selección Mayor. Fue capitán en varias instancias. Jugó su primer Mundial en 2010. Tiene 5 participaciones en Copas del Mundo (2010, 2014, 2018, 2022 y potencialmente 2026). En Qatar 2022 fue pieza clave pese a su edad.",
+      "world_cup_moments": [
+        "2010: Su primer Mundial en Sudáfrica bajo Maradona",
+        "2014: Parte de la defensa finalista en Brasil",
+        "2022: A los 34 años fue titular en el equipo campeón"
+      ],
+      "fun_facts": [
+        "Es el defensor argentino con más partidos en la Selección Mayor",
+        "Jugó en el Manchester City bajo Guardiola y fue pieza clave",
+        "Tiene más de 100 partidos con la camiseta albiceleste",
+        "Si juega en 2026 sería el defensor más veterano en un Mundial para Argentina"
+      ],
+      "current_context": "Continúa en el Benfica a los 37 años. Scaloni lo tiene en consideración para 2026 por su experiencia irremplazable."
     },
     {
       "name": "Lautaro Martínez",
       "position": "Delantero",
-      "club": "Inter",
-      "age": 27,
-      "notes": "Goleador, referente ofensivo"
+      "club": "Inter de Milán",
+      "birth_date": "1997-08-22",
+      "age": 28,
+      "bio": "El 'Toro'. Goleador nato nacido en Bahía Blanca. Surgió en Racing Club. En el Inter se convirtió en uno de los mejores delanteros del mundo, ganando el Scudetto 2023-24 con 24 goles. En la Selección fue clave en Copa América 2024, siendo el máximo goleador del torneo y levantando el título.",
+      "world_cup_moments": [
+        "2022: Anotó en la final vs Francia y fue clave en la tanda de penales",
+        "Copa América 2024: Máximo goleador del torneo, MVP, levantó el trofeo"
+      ],
+      "fun_facts": [
+        "Surgió en Racing Club de Avellaneda, donde se formó desde niño",
+        "En el Inter marcó más de 100 goles en la Serie A",
+        "Es considerado el mejor centrodelantero del mundo en la actualidad",
+        "En Copa América 2024 hizo el gol que dio el bicampeonato a Argentina vs Colombia"
+      ],
+      "current_context": "Es el mejor centrodelantero del mundo. En 2026 será una de las grandes figuras del torneo junto a Messi."
     },
     {
-      "name": "Julian Álvarez",
-      "position": "Delantero",
-      "club": "Manchester City",
-      "age": 24,
-      "notes": "Joven promesa, versatilidad"
+      "name": "Ángel Di María",
+      "position": "Delantero/Extremo",
+      "club": "Benfica",
+      "birth_date": "1988-02-14",
+      "age": 37,
+      "bio": "El 'Fideo'. Leyenda viviente de la Selección Argentina. Clave en los 3 títulos consecutivos: Copa América 2021, Finalísima 2022 y Mundial 2022. Su gol en la final de Qatar 2022 vs Francia fue quizás el más importante de su carrera. Se despidió de la Selección tras ganar la Copa América 2024.",
+      "world_cup_moments": [
+        "2014: Gol en la prórroga vs Suiza para clasificar a cuartos de final (lo sacaron lesionado en cuartos)",
+        "2022: Gol en la final vs Francia que puso el 2-0 parcial en un partido histórico"
+      ],
+      "fun_facts": [
+        "Viene del barrio El Fuerte, Rosario, donde jugó con Messi desde las inferiores",
+        "Ganó Champions, La Liga, Serie A y Copa del Mundo entre muchos títulos",
+        "Su gol en la final del Mundial 2022 fue su despedida soñada",
+        "Es el rosarino más victorioso junto a Messi en la historia del fútbol"
+      ],
+      "current_context": "Se retiró de la Selección tras el Mundial 2026. Una leyenda del fútbol argentino."
     },
     {
       "name": "Nicolás Tagliafico",
-      "position": "Defensor",
+      "position": "Lateral izquierdo",
       "club": "Lyon",
-      "age": 32,
-      "notes": "Lateral izquierdo experimentado"
+      "birth_date": "1992-08-31",
+      "age": 33,
+      "bio": "Lateral izquierdo de la Selección. Surgió en Independiente. Jugó en Ajax, donde ganó varios títulos y llegó a semis de Champions 2019. Parte del equipo campeón del mundo en 2022. Conocido por su equilibrio defensivo y aporte ofensivo.",
+      "world_cup_moments": [
+        "2022: Lateral izquierdo titular en el equipo campeón del mundo",
+        "Copa América 2021: Parte del equipo histórico que terminó con 28 años de sequía"
+      ],
+      "fun_facts": [
+        "Fue parte del Ajax que llegó a semis de Champions en 2019 con De Jong y De Ligt",
+        "Surgió en Independiente de Avellaneda",
+        "Es uno de los laterales con más asistencias en la historia de la Selección",
+        "Su cabeza siempre tranquila lo hace un jugador valioso bajo presión"
+      ],
+      "current_context": "Juega en el Lyon de Francia. Con Marcos Acuña como competencia, sigue en el radar de Scaloni."
+    },
+    {
+      "name": "Leonel Scaloni",
+      "position": "Director Técnico",
+      "club": "Selección Argentina",
+      "birth_date": "1978-05-16",
+      "age": 47,
+      "bio": "El arquitecto del nuevo ciclo dorado argentino. Asumió interinamente en 2018 sin experiencia como DT. Transformó a la Selección de un equipo en crisis a tricampeón consecutivo (Copa América 2021, Finalísima 2022, Mundial 2022). Su secreto: equilibrio defensivo, confianza en los jugadores y creación de grupo.",
+      "world_cup_moments": [
+        "2022: Ganó el Mundial 2022 en Qatar con una gestión impecable",
+        "Copa América 2021: Primer título, el que demostró que era el indicado"
+      ],
+      "fun_facts": [
+        "Como jugador fue campeón del mundo Sub-20 con Argentina (1997)",
+        "Nadie apostaba por él cuando asumió interinamente en 2018",
+        "Transformó el esquema táctico para adaptarse a los jugadores disponibles",
+        "Es el DT con mejor porcentaje de victorias en la historia de la Selección Argentina"
+      ],
+      "current_context": "Renovó hasta 2026. Su objetivo es hacer historia nuevamente siendo el primer equipo en ganar dos Mundiales consecutivos desde Brasil 58/62."
+    },
+    {
+      "name": "Gonzalo Montiel",
+      "position": "Lateral derecho",
+      "club": "Nottingham Forest",
+      "birth_date": "1997-01-01",
+      "age": 29,
+      "bio": "El lateral que entró a la historia argentina por la puerta grande. Surgió en River Plate donde fue campeón de la Libertadores 2018. En el Mundial 2022 entró como sustituto y fue elegido para patear el penal definitivo que le dio el campeonato a Argentina. No falló.",
+      "world_cup_moments": [
+        "2022: Convirtió el penal final que hizo campeón del mundo a Argentina vs Francia"
+      ],
+      "fun_facts": [
+        "Antes del penal decisivo, tuvo nervios pero no lo demostró",
+        "Scaloni lo eligió específicamente para ese momento de presión máxima",
+        "Su penal es uno de los más importantes en la historia del fútbol argentino",
+        "Surgió en las inferiores del River Plate de Gallardo"
+      ],
+      "current_context": "Juega en el Nottingham Forest. Sigue convocado a la Selección como opción en el lateral derecho."
+    },
+    {
+      "name": "Enzo Fernández",
+      "position": "Mediocampista",
+      "club": "Chelsea",
+      "birth_date": "2001-01-17",
+      "age": 25,
+      "bio": "El jugador con mayor proyección de la Selección. Ganó el premio al Mejor Jugador Joven del Mundial 2022 a los 21 años. Fue vendido al Chelsea en enero 2023 por 121 millones de euros, el fichaje más caro de la historia del fútbol inglés en ese momento. Surgió en River Plate.",
+      "world_cup_moments": [
+        "2022: Premio al Mejor Jugador Joven del torneo. Gol vs México en la fase de grupos"
+      ],
+      "fun_facts": [
+        "Su precio de transferencia al Chelsea (121M€) batió el récord de la Premier League",
+        "Antes del Mundial 2022 casi no era considerado, pero lo convocaron a último momento",
+        "Su gol vs México fue clave para mantener vivo a Argentina tras la derrota vs Arabia",
+        "A los 25 años ya tiene un Mundial ganado"
+      ],
+      "current_context": "En el Chelsea busca consolidarse y mostrar todo su potencial. Uno de los grandes pilares del futuro de la Selección."
+    },
+    {
+      "name": "Alejandro Garnacho",
+      "position": "Extremo",
+      "club": "Manchester United",
+      "birth_date": "2004-07-01",
+      "age": 21,
+      "bio": "El más joven de la nueva generación. Nació en Madrid de madre española y padre argentino. Eligió jugar para Argentina. Surgió en el Manchester United donde Rubén Amorim le dio lugar. En la Selección, Scaloni lo convocó regularmente desde 2023. Su dribling, velocidad y gambeta recuerdan a los grandes de la historia.",
+      "world_cup_moments": [
+        "Demasiado joven para Qatar 2022, pero proyectado como figura en 2026"
+      ],
+      "fun_facts": [
+        "Nació en Madrid pero eligió representar a Argentina por sangre paterna",
+        "Es hincha del Atlético de Madrid pero juega en el Manchester United",
+        "A los 21 años ya tiene rodaje internacional con la Selección Mayor",
+        "Su sobrenombre es 'La nueva joya argentina'"
+      ],
+      "current_context": "Disputará su primer Mundial en 2026 a los 21 años. Es una de las grandes esperanzas del recambio generacional."
+    },
+    {
+      "name": "Leandro Paredes",
+      "position": "Mediocampista",
+      "club": "Roma",
+      "birth_date": "1994-06-29",
+      "age": 31,
+      "bio": "El director de orquesta del mediocampo. Surgido en Boca Juniors. Juega en la Roma. Campeón del Mundo en Qatar 2022, donde fue el encargado de manejar los tiempos del equipo. Su habilidad con el balón en espacios reducidos es ideal para el estilo de la Scaloneta.",
+      "world_cup_moments": [
+        "2022: Titular y pieza clave en el mediocampo tricampeón"
+      ],
+      "fun_facts": [
+        "Surgió en Boca Juniors antes de emigrar a Europa",
+        "Jugó en Chievo, Empoli, Roma, PSG, Juventus y Roma nuevamente",
+        "Es conocido por su elegancia con el balón bajo presión",
+        "Tiene una relación especial de amistad con De Paul y Messi"
+      ],
+      "current_context": "Regresó a la Roma. Sigue en el radar de Scaloni como opción en el mediocampo para 2026."
     }
   ]
 }
-
