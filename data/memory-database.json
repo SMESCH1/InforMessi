@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2025-12-29T11:08:09.068171",
-  "last_updated": "2026-03-20T14:06:26.485610",
+  "last_updated": "2026-03-21T13:51:55.498839",
   "players_used": {
     "Messi": [
       "2025-12-28",
@@ -16,7 +16,8 @@
       "2026-03-17",
       "2026-03-18",
       "2026-03-19",
-      "2026-03-20"
+      "2026-03-20",
+      "2026-03-21"
     ],
     "Scaloni": [
       "2025-12-29",
@@ -63,7 +64,8 @@
     ],
     "dato_mundialista": [
       "2026-01-03",
-      "2026-01-10"
+      "2026-01-10",
+      "2026-03-21"
     ],
     "dato_pais_sede": [
       "2025-12-28",
@@ -95,7 +97,8 @@
       "2026-03-17",
       "2026-03-18",
       "2026-03-19",
-      "2026-03-20"
+      "2026-03-20",
+      "2026-03-21"
     ],
     "seleccion": [
       "2025-12-28",
@@ -116,7 +119,8 @@
       "2026-01-12",
       "2026-03-17",
       "2026-03-19",
-      "2026-03-20"
+      "2026-03-20",
+      "2026-03-21"
     ]
   },
   "events_mentioned": {},
@@ -172,7 +176,8 @@
     ],
     "golpazo para el inter miami de messi: empate y tem": [
       "2026-03-19",
-      "2026-03-20"
+      "2026-03-20",
+      "2026-03-21"
     ]
   },
   "phrases_used": [],
@@ -190,6 +195,9 @@
     "Lionel Messi es el jugador con más títulos oficiales en la historia del fútbol 🔥": [
       "2026-03-18",
       "2026-03-19"
+    ],
+    "**** Inter Miami de Messi, a pesar del empate, ha tenido una campaña destacada en la Concachampions. El equipo ha mostrado una gran evolución desde la llegada de Messi y sigue siendo una de las opcion": [
+      "2026-03-21"
     ]
   }
 }
