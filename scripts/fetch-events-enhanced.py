@@ -12,13 +12,19 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Optional
 
+# Evita UnicodeEncodeError en consolas Windows (cp1252) al imprimir emojis
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+
 try:
     import requests
     from bs4 import BeautifulSoup
+    HAS_WEB_DEPS = True
 except ImportError:
-    print("ERROR: Necesitas instalar 'requests' y 'beautifulsoup4':")
-    print("  pip install requests beautifulsoup4")
-    sys.exit(1)
+    HAS_WEB_DEPS = False
 
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
@@ -46,8 +52,7 @@ def get_events_from_json(date: str, events_file: str = "events.json") -> List[Di
             ev = dict(event)
 
             if ev.get("type") == "birthday" and "age" in ev:
-                event_year = int(event_date[:4])
-                birth_year = event_year - ev["age"]
+                birth_year = int(event_date[:4])
                 ev["age"] = target_year - birth_year
                 ev["description"] = (
                     f"Cumpleaños de {ev.get('person', '')} ({ev['age']} años)"
@@ -66,6 +71,8 @@ def get_events_from_json(date: str, events_file: str = "events.json") -> List[Di
 
 def get_events_wikipedia(date: str) -> List[Dict]:
     """Obtiene eventos históricos de fútbol desde Wikipedia"""
+    if not HAS_WEB_DEPS:
+        return []
     try:
         # Formato: DD de mes (ej: "22 de diciembre")
         day = datetime.strptime(date, "%Y-%m-%d").day
@@ -231,8 +238,8 @@ def main():
             json.dump(output_data, f, indent=2, ensure_ascii=False)
         print(f"\n💾 Datos guardados en: {args.output}")
     
-    # Retornar JSON para uso en scripts
-    print(json.dumps(events, indent=2, ensure_ascii=False))
+    # Retornar JSON single-line para parseo en collect-daily-data.py
+    print(json.dumps(events, ensure_ascii=False))
 
 
 if __name__ == "__main__":

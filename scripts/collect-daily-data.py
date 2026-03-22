@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Script para recolectar todos los datos del día (clima, eventos, noticias)
+Script para recolectar todos los datos del día (eventos, noticias)
 Fase 4 - InforMessi
 """
 
@@ -12,6 +12,13 @@ from datetime import datetime
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).parent.parent
+
+# Evita UnicodeEncodeError en consolas Windows (cp1252) al imprimir emojis
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except Exception:
+        pass
 
 
 def collect_all_data(date: str = None, include_news: bool = True) -> dict:
@@ -26,44 +33,69 @@ def collect_all_data(date: str = None, include_news: bool = True) -> dict:
     # Clima: Removido (feature futura)
     # El clima se dejó como feature futura, no se incluye en el flujo actual
     
-    # Eventos - usar script mejorado
+    # Eventos - usar script mejorado, con fallback directo a events.json
     print("📅 Obteniendo eventos...")
+    events = []
     try:
+        _env = {**os.environ, "PYTHONUTF8": "1"}
         result = subprocess.run(
             [sys.executable, str(PROJECT_ROOT / "scripts" / "fetch-events-enhanced.py"), "--date", date],
             capture_output=True,
             text=True,
-            timeout=30
+            timeout=30,
+            encoding="utf-8",
+            env=_env
         )
         if result.returncode == 0:
-            # Buscar JSON en la salida
+            # Buscar JSON en la salida (single-line o multi-line)
             output_lines = result.stdout.strip().split('\n')
-            json_line = None
+            # Primero intentar línea por línea (JSON single-line)
             for line in reversed(output_lines):
                 line = line.strip()
                 if line.startswith('[') or line.startswith('{'):
                     try:
                         events = json.loads(line)
                         break
-                    except:
+                    except json.JSONDecodeError:
                         continue
-            else:
-                events = []
-        else:
-            events = []
+            # Si no encontró, intentar parsear toda la salida buscando el JSON completo
+            if not events:
+                full_output = result.stdout.strip()
+                # Buscar el último bloque JSON válido en la salida
+                bracket_start = full_output.rfind('\n[')
+                if bracket_start >= 0:
+                    try:
+                        events = json.loads(full_output[bracket_start + 1:])
+                    except json.JSONDecodeError:
+                        pass
     except Exception as e:
-        print(f"⚠️  Error al obtener eventos: {e}, usando solo JSON")
-        # Fallback a JSON directo
+        print(f"⚠️  Error al ejecutar fetch-events-enhanced.py: {e}")
+
+    # Fallback: leer events.json directamente si no se obtuvieron eventos
+    if not events:
+        print("📅 Fallback: leyendo eventos directamente desde events.json...")
         events_file = PROJECT_ROOT / "data" / "events.json"
-        events = []
         if events_file.exists():
-            with open(events_file, 'r', encoding='utf-8') as f:
-                events_data = json.load(f)
+            try:
+                with open(events_file, 'r', encoding='utf-8') as f:
+                    events_data = json.load(f)
                 date_key = date[5:]  # MM-DD
-                events = [
-                    e for e in events_data.get("events", [])
-                    if isinstance(e.get("date", ""), str) and e.get("date", "")[5:] == date_key
-                ]
+                target_year = int(date[:4])
+                for e in events_data.get("events", []):
+                    event_date = e.get("date", "")
+                    if isinstance(event_date, str) and len(event_date) >= 10 and event_date[5:] == date_key:
+                        ev = dict(e)
+                        # Recalcular edad para birthdays
+                        if ev.get("type") == "birthday" and "age" in ev:
+                            birth_year = int(event_date[:4])
+                            ev["age"] = target_year - birth_year
+                            ev["description"] = f"Cumpleaños de {ev.get('person', '')} ({ev['age']} años)"
+                        events.append(ev)
+                # Ordenar por prioridad
+                priority_order = {"critical": 0, "high": 1, "medium": 2, "low": 3}
+                events.sort(key=lambda x: priority_order.get(x.get("priority", "low"), 3))
+            except Exception as e:
+                print(f"⚠️  Error al leer events.json: {e}")
     
     news = []
     reddit_posts = []
@@ -166,8 +198,6 @@ def collect_all_data(date: str = None, include_news: bool = True) -> dict:
 
     # Filtrar noticias usadas recientemente (últimos 7 días) para evitar repetición
     try:
-        import sys
-        from pathlib import Path
         sys.path.insert(0, str(Path(__file__).parent))
         from rag_memory_database import MemoryDatabase
         import unicodedata
