@@ -29,6 +29,10 @@ Este documento detalla las restricciones técnicas y de contenido que deben apli
    - No uses memes viejos o referencias que ya no aplican
    - El humor debe ser actual y contextual
 
+### ❌ Clima y meteorología
+
+- **No incluyas** temperatura, pronóstico, estado del tiempo ni ninguna sección de clima en el mensaje.
+
 ### ❌ Estilo Prohibido
 
 - **No publicitario**: No promociones marcas, productos o servicios

@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-13",
+  "generated_at": "2026-03-22T16:04:30.499493",
+  "data": {
+    "date": "2026-05-13",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 29,
+    "events": [
+      {
+        "date": "2026-05-13",
+        "type": "historical",
+        "priority": "low",
+        "description": "Día Mundial delentrenador de fútbol.En homenaje a los profesionales cuya labor es clave en la formación de equipos y sus estrategias. La fecha fue elegida en honor al escocésAlexander Ferguson, DT del",
+        "historical_year": "2013",
+        "source": "Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/13_de_mayo"
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

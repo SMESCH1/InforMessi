@@ -1,0 +1,25 @@
+{
+  "date": "2026-04-01",
+  "generated_at": "2026-03-22T22:31:23.520832",
+  "data": {
+    "date": "2026-04-01",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 71,
+    "events": [
+      {
+        "date": "2009-04-01",
+        "type": "failure",
+        "priority": "high",
+        "person": "Diego Maradona",
+        "description": "Bolivia 6-1 Argentina en La Paz: la peor derrota de Argentina en Eliminatorias. Papelón histórico bajo la dirección de Maradona."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan 71 días para el Mundial 2026 ⚽\n\n📅 Un día como hoy en la historia, Argentina sufrió su peor derrota en Eliminatorias bajo la dirección de Maradona, cayendo 6-1 ante Bolivia en La Paz 🌄\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

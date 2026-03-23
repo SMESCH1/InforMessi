@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-19",
+  "generated_at": "2026-03-22T16:04:34.033043",
+  "data": {
+    "date": "2026-05-19",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 23,
+    "events": [
+      {
+        "date": "1978-05-19",
+        "type": "decision",
+        "priority": "high",
+        "person": "Menotti",
+        "description": "Menotti deja a Maradona fuera de la lista final para el Mundial 78."
+      },
+      {
+        "date": "1979-05-19",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Diego Forlán",
+        "age": 46,
+        "description": "Cumpleaños del histórico uruguayo (Referencia Mundial)."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

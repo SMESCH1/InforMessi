@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-08",
+  "generated_at": "2026-03-22T22:32:57.827814",
+  "data": {
+    "date": "2026-04-08",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 64,
+    "events": [
+      {
+        "date": "1950-04-08",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Grzegorz Lato",
+        "age": 76,
+        "description": "Cumpleaños de Grzegorz Lato (76 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan 64 días para el Mundial 2026 ⚽\n\nHoy cumple 76 años Grzegorz Lato, un gran jugador polaco 🎉. Aunque no es un jugador de la Scaloneta, su legado en el fútbol es destacado 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

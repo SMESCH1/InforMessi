@@ -64,6 +64,23 @@ REDDIT_CLIENT_SECRET=...
 REDDIT_USER_AGENT=InforMessi/1.0
 ```
 
+### Groq (API en la nube)
+
+Para generar mensajes sin Ollama local:
+
+1. Creá una cuenta en [Groq Console](https://console.groq.com/) y generá una **API Key**.
+2. En `.env` añadí o ajustá:
+   - `LLM_PROVIDER=groq`
+   - `GROQ_API_KEY=gsk_...` (tu clave)
+   - `LLM_MODEL=llama-3.1-8b-instant` (u otro modelo compatible con la API de Groq; el proyecto usa por defecto `qwen2.5:7b-instruct`, pensado para Ollama)
+3. Probar un solo día con noticias y Groq explícito:
+
+```bash
+python scripts/generate-advance-reports.py --days 1 --start-date 2026-03-29 --overwrite --with-news --provider groq
+```
+
+El flag `--provider` elige el backend para `generate-message.py`: `ollama` (por defecto si no definís `LLM_PROVIDER`) o `groq`. Coincide con `LLM_PROVIDER` en `.env` para evitar sorpresas.
+
 ## Estructura del proyecto
 
 ```
@@ -196,8 +213,11 @@ Si no hay eventos ni noticias, el paso de selección se omite y el LLM genera so
 ## Scripts útiles
 
 ```bash
-# Generar informes anticipados (sin noticias, solo eventos)
+# Generar informes anticipados (sin noticias, solo eventos; Ollama por defecto)
 python3 scripts/generate-advance-reports.py --days 15
+
+# Mismo flujo usando Groq (requiere GROQ_API_KEY en .env)
+python3 scripts/generate-advance-reports.py --days 3 --provider groq --with-news --overwrite
 
 # Actualizar informe del día con noticias frescas
 python3 scripts/update-today-report.py

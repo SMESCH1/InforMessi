@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-16",
+  "generated_at": "2026-03-22T16:06:58.101964",
+  "data": {
+    "date": "2026-05-16",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 26,
+    "events": [
+      {
+        "date": "1901-05-16",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Primer partido de la historia de la Selección Argentina (3-2 vs Uruguay)."
+      },
+      {
+        "date": "1978-05-16",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Lionel Scaloni",
+        "age": 47,
+        "description": "Cumpleaños de Lionel Scaloni."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

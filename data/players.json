@@ -1,5 +1,5 @@
 {
-  "description": "Jugadores de la Scaloneta - Perfiles para secciones semanales",
+  "description": "Jugadores de la Scaloneta - Perfiles para secciones semanales (convocatoria Mundial 2026)",
   "schema_version": "2.0",
   "players": [
     {
@@ -45,67 +45,101 @@
       "current_context": "Aston Villa busca clasificar Champions cada temporada con Dibu como pilar. Es considerado el mejor arquero del mundo en la actualidad."
     },
     {
-      "name": "Rodrigo De Paul",
-      "position": "Mediocampista",
+      "name": "Gerónimo Rulli",
+      "position": "Arquero",
       "club": "Atlético Madrid",
-      "birth_date": "1994-05-24",
-      "age": 31,
-      "bio": "El 'Motorcito'. Motor irremplazable del mediocampo de la Scaloneta. Su energía y capacidad de trabajo sin pelota son fundamentales en el esquema de Scaloni. Ganó Copa América 2021, Finalísima 2022 y Mundial 2022. Es emblema del 'correo' de Messi: cubre, presiona y libera al 10.",
+      "birth_date": "1992-05-20",
+      "age": 34,
+      "bio": "Arquero experimentado nacido en La Plata. Surgió en Estudiantes de La Plata antes de emigrar a Europa. Pasó por Real Sociedad, Montpellier, Villarreal y Ajax antes de llegar al Atlético Madrid. Fue héroe en la Europa League 2021 con Villarreal, atajando el penal decisivo a De Gea en la final vs Manchester United. Es el suplente de jerarquía detrás del Dibu.",
       "world_cup_moments": [
-        "2022: Pieza clave en todos los partidos, récord de kilómetros recorridos en el torneo",
-        "Copa América 2021: Fundamental en el giro táctico que cambió el torneo"
+        "2022: Parte del plantel campeón del mundo en Qatar como tercer arquero"
       ],
       "fun_facts": [
-        "Creció en el Barrio Lomas de Zamora",
-        "Pasó por Racing, Udinese y Valencia antes del Atlético Madrid",
-        "Es el jugador que más kilómetros recorre por partido en la Selección",
-        "Amigo personal de Messi fuera de la cancha"
+        "Atajó el penal decisivo en la final de la Europa League 2021 con Villarreal vs Manchester United",
+        "Es hincha de Estudiantes de La Plata donde se formó",
+        "Jugó en 5 clubes europeos diferentes antes del Atlético Madrid",
+        "Compite con Juan Musso por el puesto de suplente del Dibu"
       ],
-      "current_context": "Continúa siendo titular en el Atlético de Simeone. Su relación con Messi dentro y fuera de la cancha es un pilar del equipo."
+      "current_context": "En el Atlético Madrid pelea por ser titular con Oblak. En la Selección es opción confiable como suplente del Dibu."
     },
     {
-      "name": "Julián Álvarez",
-      "position": "Delantero",
-      "club": "Atlético Madrid",
-      "birth_date": "2000-01-31",
-      "age": 26,
-      "bio": "La 'Araña'. Surgido de River Plate, se convirtió en figura del Mundial 2022 con 4 goles. Fue clave cuando Messi necesitó compañía. Transferido al Atlético de Madrid en 2024. Considerado el futuro de la Selección. En Copa América 2024 fue subcampeón, con gran actuación.",
+      "name": "Juan Musso",
+      "position": "Arquero",
+      "club": "Atalanta",
+      "birth_date": "1994-05-06",
+      "age": 32,
+      "bio": "Arquero sólido nacido en San Nicolás, Buenos Aires. Surgió en Racing Club donde se destacó como una de las promesas del arco argentino. Emigró al Udinese y luego al Atalanta donde se consolidó como titular. Conocido por sus reflejos y seguridad bajo los tres palos.",
       "world_cup_moments": [
-        "2022: 4 goles, el segundo máximo goleador de Argentina. Dos goles en semis vs Croacia",
-        "2022: Gol espectacular vs Polonia y gol olímpico vs Australia"
+        "Parte del plantel ampliado de la Selección en varias convocatorias"
       ],
       "fun_facts": [
-        "Fue campeón de la Libertadores y la Copa del Mundo en el mismo año (2022)",
-        "Surgió en River Plate donde fue figura del plantel de Gallardo",
-        "Tiene capacidad para jugar de centrodelantero y de segunda punta",
-        "Fichó al Atlético Madrid rompiendo el molde de 'segundo plato' detrás de Messi"
+        "Surgió en Racing Club de Avellaneda",
+        "En el Atalanta fue clave para la clasificación a Champions League",
+        "Es uno de los arqueros argentinos con más atajadas en la Serie A",
+        "Compite con Rulli por el puesto de suplente del Dibu en la Selección"
       ],
-      "current_context": "Busca consolidarse en el Atlético de Madrid. En la Selección, es el socio ideal de Messi para 2026."
+      "current_context": "Titular en el Atalanta. Tercer arquero en la consideración de Scaloni para el Mundial 2026."
     },
     {
-      "name": "Alexis Mac Allister",
-      "position": "Mediocampista",
-      "club": "Liverpool",
-      "birth_date": "1998-12-24",
+      "name": "Nahuel Molina",
+      "position": "Lateral derecho",
+      "club": "Atlético Madrid",
+      "birth_date": "1998-04-06",
+      "age": 28,
+      "bio": "Lateral derecho dinámico nacido en Embalse, Córdoba. Surgió en Boca Juniors y explotó en Udinese antes de pasar al Atlético Madrid. En el Mundial 2022 marcó un gol clave en cuartos de final vs Países Bajos. Su capacidad ofensiva y recorrido lo hacen un lateral moderno y completo.",
+      "world_cup_moments": [
+        "2022: Gol en cuartos de final vs Países Bajos que abrió el marcador",
+        "2022: Titular en la fase de grupos, aportando en ataque y defensa"
+      ],
+      "fun_facts": [
+        "Surgió en las inferiores de Boca Juniors pero debutó profesionalmente en Rosario Central",
+        "En el Udinese se convirtió en uno de los mejores laterales de la Serie A",
+        "Su gol vs Países Bajos fue uno de los más gritados del Mundial 2022",
+        "Juega bajo las órdenes de Simeone en el Atlético Madrid"
+      ],
+      "current_context": "Titular en el Atlético Madrid. Compite con Montiel por el puesto de lateral derecho en la Selección."
+    },
+    {
+      "name": "Gonzalo Montiel",
+      "position": "Lateral derecho",
+      "club": "Nottingham Forest",
+      "birth_date": "1997-01-01",
+      "age": 29,
+      "bio": "El lateral que entró a la historia argentina por la puerta grande. Surgió en River Plate donde fue campeón de la Libertadores 2018. En el Mundial 2022 entró como sustituto y fue elegido para patear el penal definitivo que le dio el campeonato a Argentina. No falló.",
+      "world_cup_moments": [
+        "2022: Convirtió el penal final que hizo campeón del mundo a Argentina vs Francia"
+      ],
+      "fun_facts": [
+        "Antes del penal decisivo, tuvo nervios pero no lo demostró",
+        "Scaloni lo eligió específicamente para ese momento de presión máxima",
+        "Su penal es uno de los más importantes en la historia del fútbol argentino",
+        "Surgió en las inferiores del River Plate de Gallardo"
+      ],
+      "current_context": "Juega en el Nottingham Forest. Sigue convocado a la Selección como opción en el lateral derecho."
+    },
+    {
+      "name": "Leonardo Balerdi",
+      "position": "Defensor central",
+      "club": "Olympique Marsella",
+      "birth_date": "1999-01-26",
       "age": 27,
-      "bio": "Nacido en Santa Rosa, La Pampa. Surgió en Boca Juniors. Uno de los futbolistas más completos de su generación. Campeón del mundo en Qatar 2022 donde jugó un papel fundamental. En Liverpool se convirtió en titular indiscutible bajo Klopp y continuó siendo vital con el nuevo cuerpo técnico.",
+      "bio": "Defensor central nacido en Buenos Aires. Surgió en Boca Juniors y fue fichado por Borussia Dortmund siendo muy joven. Tras un paso por el Dortmund, se consolidó en el Olympique de Marsella donde se convirtió en capitán del equipo. Su liderazgo y solidez defensiva lo pusieron en el radar de Scaloni.",
       "world_cup_moments": [
-        "2022: Jugó como interior en el mediocampo tricampeón",
-        "2022: Jugó en la final vs Francia y fue crucial en la tanda de penales (él anotó)"
+        "Buscará su primer Mundial en 2026"
       ],
       "fun_facts": [
-        "Su padre, Patricio, también fue futbolista profesional",
-        "Ganó el título de la Liga con el Brighton antes de ir al Liverpool",
-        "Es el mediocampista con más recuperaciones de balón en el Liverpool",
-        "En el Mundial 2022 fue el jugador con más pases correctos de Argentina"
+        "Fue capitán del Olympique de Marsella, algo inusual para un argentino en Francia",
+        "Surgió en Boca Juniors y fue vendido al Borussia Dortmund a los 19 años",
+        "Es uno de los defensores argentinos más cotizados en Europa",
+        "Su nombre completo es Leonardo Nicolás Balerdi"
       ],
-      "current_context": "Titular en el Liverpool, uno de los mejores mediocampistas del mundo. Apunta a ser el cerebro del mediocampo en 2026."
+      "current_context": "Capitán y líder del Olympique de Marsella. Se ganó un lugar en la Selección con su gran nivel en la Ligue 1."
     },
     {
       "name": "Cristian 'Cuti' Romero",
       "position": "Defensor",
       "club": "Tottenham",
-      "birth_date": "1997-10-08",
+      "birth_date": "1998-04-27",
       "age": 28,
       "bio": "El 'Cuti'. Central titular de la Scaloneta, nacido en Córdoba. Agresivo, fuerte en el juego aéreo y con buena salida. Pasó por Belgrano, Juventus, Atalanta y Tottenham. Fue fundamental en la defensa que solo recibió 8 goles en todo el Mundial 2022.",
       "world_cup_moments": [
@@ -119,6 +153,24 @@
         "Le regaló la camiseta de Argentina a varios adversarios que se la pidieron"
       ],
       "current_context": "Titular y pilar defensivo en el Tottenham. Uno de los mejores centrales del mundo, disputará el Mundial a los 28 años."
+    },
+    {
+      "name": "Marcos Senesi",
+      "position": "Defensor central",
+      "club": "Bournemouth",
+      "birth_date": "1997-05-10",
+      "age": 29,
+      "bio": "Defensor central nacido en Concordia, Entre Ríos. Surgió en San Lorenzo y emigró al Feyenoord de Holanda donde se destacó por su juego aéreo y capacidad con el balón. Fichó por el Bournemouth de la Premier League. Scaloni lo incorporó como opción sólida para la defensa central.",
+      "world_cup_moments": [
+        "Buscará su primer Mundial en 2026"
+      ],
+      "fun_facts": [
+        "Surgió en San Lorenzo de Almagro",
+        "En el Feyenoord fue titular indiscutible y llegó a la final de la Conference League",
+        "Es zurdo, lo que le da versatilidad para jugar como central izquierdo",
+        "Tiene doble nacionalidad argentino-italiana"
+      ],
+      "current_context": "Titular en el Bournemouth de la Premier League. Opción como central zurdo en la Selección."
     },
     {
       "name": "Nicolás Otamendi",
@@ -141,42 +193,41 @@
       "current_context": "Continúa en el Benfica a los 37 años. Scaloni lo tiene en consideración para 2026 por su experiencia irremplazable."
     },
     {
-      "name": "Lautaro Martínez",
-      "position": "Delantero",
+      "name": "Tomás Palacios",
+      "position": "Defensor",
       "club": "Inter de Milán",
-      "birth_date": "1997-08-22",
-      "age": 28,
-      "bio": "El 'Toro'. Goleador nato nacido en Bahía Blanca. Surgió en Racing Club. En el Inter se convirtió en uno de los mejores delanteros del mundo, ganando el Scudetto 2023-24 con 24 goles. En la Selección fue clave en Copa América 2024, siendo el máximo goleador del torneo y levantando el título.",
+      "birth_date": "2003-11-08",
+      "age": 22,
+      "bio": "Joven defensor central nacido en Tucumán. Surgió en Talleres de Córdoba y pasó por Independiente Rivadavia antes de ser fichado por el Inter de Milán. Alto y con buena salida de balón, es una de las grandes apuestas de Scaloni para el recambio generacional en la defensa.",
       "world_cup_moments": [
-        "2022: Anotó en la final vs Francia y fue clave en la tanda de penales",
-        "Copa América 2024: Máximo goleador del torneo, MVP, levantó el trofeo"
+        "Buscará su primer Mundial en 2026 con solo 22 años"
       ],
       "fun_facts": [
-        "Surgió en Racing Club de Avellaneda, donde se formó desde niño",
-        "En el Inter marcó más de 100 goles en la Serie A",
-        "Es considerado el mejor centrodelantero del mundo en la actualidad",
-        "En Copa América 2024 hizo el gol que dio el bicampeonato a Argentina vs Colombia"
+        "Fue fichado por el Inter de Milán siendo muy joven",
+        "Su altura (1.96m) lo convierte en una torre en el juego aéreo",
+        "Es uno de los defensores más jóvenes en el plantel de la Selección",
+        "Surgió en el fútbol del interior argentino (Tucumán/Córdoba)"
       ],
-      "current_context": "Es el mejor centrodelantero del mundo. En 2026 será una de las grandes figuras del torneo junto a Messi."
+      "current_context": "En el Inter de Milán busca sumar minutos y experiencia. Es parte del proyecto a futuro de Scaloni."
     },
     {
-      "name": "Ángel Di María",
-      "position": "Delantero/Extremo",
-      "club": "Benfica",
-      "birth_date": "1988-02-14",
-      "age": 37,
-      "bio": "El 'Fideo'. Leyenda viviente de la Selección Argentina. Clave en los 3 títulos consecutivos: Copa América 2021, Finalísima 2022 y Mundial 2022. Su gol en la final de Qatar 2022 vs Francia fue quizás el más importante de su carrera. Se despidió de la Selección tras ganar la Copa América 2024.",
+      "name": "Marcos Acuña",
+      "position": "Lateral izquierdo",
+      "club": "River Plate",
+      "birth_date": "1991-10-28",
+      "age": 34,
+      "bio": "El 'Huevo'. Lateral izquierdo aguerrido y combativo nacido en Zapala, Neuquén. Surgió en Racing de Córdoba y pasó por Ferro Carril Oeste, Racing Club y Sporting de Lisboa antes de brillar en Sevilla, donde ganó la Europa League. Volvió a Argentina para jugar en River Plate.",
       "world_cup_moments": [
-        "2014: Gol en la prórroga vs Suiza para clasificar a cuartos de final (lo sacaron lesionado en cuartos)",
-        "2022: Gol en la final vs Francia que puso el 2-0 parcial en un partido histórico"
+        "2022: Parte del plantel campeón del mundo en Qatar",
+        "Copa América 2021: Lateral izquierdo titular en varios partidos del torneo ganado en el Maracaná"
       ],
       "fun_facts": [
-        "Viene del barrio El Fuerte, Rosario, donde jugó con Messi desde las inferiores",
-        "Ganó Champions, La Liga, Serie A y Copa del Mundo entre muchos títulos",
-        "Su gol en la final del Mundial 2022 fue su despedida soñada",
-        "Es el rosarino más victorioso junto a Messi en la historia del fútbol"
+        "Su apodo 'Huevo' viene de su actitud guerrera en la cancha",
+        "Nació en la Patagonia argentina (Zapala, Neuquén)",
+        "Ganó la Europa League con el Sevilla en 2020",
+        "Volvió a Argentina para jugar en River Plate tras años en Europa"
       ],
-      "current_context": "Se retiró de la Selección tras el Mundial 2026. Una leyenda del fútbol argentino."
+      "current_context": "Juega en River Plate. Aporta experiencia y garra como opción en el lateral izquierdo de la Selección."
     },
     {
       "name": "Nicolás Tagliafico",
@@ -198,41 +249,79 @@
       "current_context": "Juega en el Lyon de Francia. Con Marcos Acuña como competencia, sigue en el radar de Scaloni."
     },
     {
-      "name": "Leonel Scaloni",
-      "position": "Director Técnico",
-      "club": "Selección Argentina",
-      "birth_date": "1978-05-16",
-      "age": 47,
-      "bio": "El arquitecto del nuevo ciclo dorado argentino. Asumió interinamente en 2018 sin experiencia como DT. Transformó a la Selección de un equipo en crisis a tricampeón consecutivo (Copa América 2021, Finalísima 2022, Mundial 2022). Su secreto: equilibrio defensivo, confianza en los jugadores y creación de grupo.",
+      "name": "Rodrigo De Paul",
+      "position": "Mediocampista",
+      "club": "Inter Miami",
+      "birth_date": "1994-05-24",
+      "age": 31,
+      "bio": "El 'Motorcito'. Motor irremplazable del mediocampo de la Scaloneta. Su energía y capacidad de trabajo sin pelota son fundamentales en el esquema de Scaloni. Ganó Copa América 2021, Finalísima 2022 y Mundial 2022. Es emblema del 'correo' de Messi: cubre, presiona y libera al 10.",
       "world_cup_moments": [
-        "2022: Ganó el Mundial 2022 en Qatar con una gestión impecable",
-        "Copa América 2021: Primer título, el que demostró que era el indicado"
+        "2022: Pieza clave en todos los partidos, récord de kilómetros recorridos en el torneo",
+        "Copa América 2021: Fundamental en el giro táctico que cambió el torneo"
       ],
       "fun_facts": [
-        "Como jugador fue campeón del mundo Sub-20 con Argentina (1997)",
-        "Nadie apostaba por él cuando asumió interinamente en 2018",
-        "Transformó el esquema táctico para adaptarse a los jugadores disponibles",
-        "Es el DT con mejor porcentaje de victorias en la historia de la Selección Argentina"
+        "Creció en el Barrio Lomas de Zamora",
+        "Pasó por Racing, Udinese, Valencia y Atlético Madrid antes de Inter Miami",
+        "Es el jugador que más kilómetros recorre por partido en la Selección",
+        "Amigo personal de Messi fuera de la cancha"
       ],
-      "current_context": "Renovó hasta 2026. Su objetivo es hacer historia nuevamente siendo el primer equipo en ganar dos Mundiales consecutivos desde Brasil 58/62."
+      "current_context": "Se mudó a Inter Miami para jugar junto a Messi en la MLS. Su conexión con el capitán dentro y fuera de la cancha es un pilar del equipo."
     },
     {
-      "name": "Gonzalo Montiel",
-      "position": "Lateral derecho",
-      "club": "Nottingham Forest",
-      "birth_date": "1997-01-01",
-      "age": 29,
-      "bio": "El lateral que entró a la historia argentina por la puerta grande. Surgió en River Plate donde fue campeón de la Libertadores 2018. En el Mundial 2022 entró como sustituto y fue elegido para patear el penal definitivo que le dio el campeonato a Argentina. No falló.",
+      "name": "Lautaro Martínez",
+      "position": "Delantero",
+      "club": "Inter de Milán",
+      "birth_date": "1997-08-22",
+      "age": 28,
+      "bio": "El 'Toro'. Goleador nato nacido en Bahía Blanca. Surgió en Racing Club. En el Inter se convirtió en uno de los mejores delanteros del mundo, ganando el Scudetto 2023-24 con 24 goles. En la Selección fue clave en Copa América 2024, siendo el máximo goleador del torneo y levantando el título.",
       "world_cup_moments": [
-        "2022: Convirtió el penal final que hizo campeón del mundo a Argentina vs Francia"
+        "2022: Anotó en la final vs Francia y fue clave en la tanda de penales",
+        "Copa América 2024: Máximo goleador del torneo, MVP, levantó el trofeo"
       ],
       "fun_facts": [
-        "Antes del penal decisivo, tuvo nervios pero no lo demostró",
-        "Scaloni lo eligió específicamente para ese momento de presión máxima",
-        "Su penal es uno de los más importantes en la historia del fútbol argentino",
-        "Surgió en las inferiores del River Plate de Gallardo"
+        "Surgió en Racing Club de Avellaneda, donde se formó desde niño",
+        "En el Inter marcó más de 100 goles en la Serie A",
+        "Es considerado el mejor centrodelantero del mundo en la actualidad",
+        "En Copa América 2024 hizo el gol que dio el bicampeonato a Argentina vs Colombia"
       ],
-      "current_context": "Juega en el Nottingham Forest. Sigue convocado a la Selección como opción en el lateral derecho."
+      "current_context": "Es el mejor centrodelantero del mundo. En 2026 será una de las grandes figuras del torneo junto a Messi."
+    },
+    {
+      "name": "Leandro Paredes",
+      "position": "Mediocampista",
+      "club": "Boca Juniors",
+      "birth_date": "1994-06-29",
+      "age": 31,
+      "bio": "El director de orquesta del mediocampo. Surgido en Boca Juniors, volvió al club de sus amores tras años en Europa. Campeón del Mundo en Qatar 2022, donde fue el encargado de manejar los tiempos del equipo. Su habilidad con el balón en espacios reducidos es ideal para el estilo de la Scaloneta.",
+      "world_cup_moments": [
+        "2022: Titular y pieza clave en el mediocampo tricampeón"
+      ],
+      "fun_facts": [
+        "Surgió en Boca Juniors y volvió al club tras años en Europa",
+        "Jugó en Chievo, Empoli, Roma, PSG, Juventus y Roma antes de volver a Boca",
+        "Es conocido por su elegancia con el balón bajo presión",
+        "Tiene una relación especial de amistad con De Paul y Messi"
+      ],
+      "current_context": "Volvió a Boca Juniors, el club que lo vio nacer. Sigue siendo convocado por Scaloni como opción de jerarquía en el mediocampo."
+    },
+    {
+      "name": "Alexis Mac Allister",
+      "position": "Mediocampista",
+      "club": "Liverpool",
+      "birth_date": "1998-12-24",
+      "age": 27,
+      "bio": "Nacido en Santa Rosa, La Pampa. Surgió en Boca Juniors. Uno de los futbolistas más completos de su generación. Campeón del mundo en Qatar 2022 donde jugó un papel fundamental. En Liverpool se convirtió en titular indiscutible bajo Klopp y continuó siendo vital con el nuevo cuerpo técnico.",
+      "world_cup_moments": [
+        "2022: Jugó como interior en el mediocampo tricampeón",
+        "2022: Jugó en la final vs Francia y fue crucial en la tanda de penales (él anotó)"
+      ],
+      "fun_facts": [
+        "Su padre, Patricio, también fue futbolista profesional",
+        "Ganó el título de la Liga con el Brighton antes de ir al Liverpool",
+        "Es el mediocampista con más recuperaciones de balón en el Liverpool",
+        "En el Mundial 2022 fue el jugador con más pases correctos de Argentina"
+      ],
+      "current_context": "Titular en el Liverpool, uno de los mejores mediocampistas del mundo. Apunta a ser el cerebro del mediocampo en 2026."
     },
     {
       "name": "Enzo Fernández",
@@ -253,40 +342,272 @@
       "current_context": "En el Chelsea busca consolidarse y mostrar todo su potencial. Uno de los grandes pilares del futuro de la Selección."
     },
     {
-      "name": "Alejandro Garnacho",
-      "position": "Extremo",
-      "club": "Manchester United",
-      "birth_date": "2004-07-01",
-      "age": 21,
-      "bio": "El más joven de la nueva generación. Nació en Madrid de madre española y padre argentino. Eligió jugar para Argentina. Surgió en el Manchester United donde Rubén Amorim le dio lugar. En la Selección, Scaloni lo convocó regularmente desde 2023. Su dribling, velocidad y gambeta recuerdan a los grandes de la historia.",
+      "name": "Exequiel Palacios",
+      "position": "Mediocampista",
+      "club": "Bayer Leverkusen",
+      "birth_date": "1998-10-05",
+      "age": 27,
+      "bio": "Mediocampista elegante nacido en Famaillá, Tucumán. Surgió en River Plate donde fue pieza clave del equipo de Gallardo. Fichó por el Bayer Leverkusen donde fue campeón invicto de la Bundesliga 2023-24 bajo Xabi Alonso. Su visión de juego y capacidad de pase lo hacen un mediocampista de élite.",
       "world_cup_moments": [
-        "Demasiado joven para Qatar 2022, pero proyectado como figura en 2026"
+        "2022: Parte del plantel campeón del mundo en Qatar"
       ],
       "fun_facts": [
-        "Nació en Madrid pero eligió representar a Argentina por sangre paterna",
-        "Es hincha del Atlético de Madrid pero juega en el Manchester United",
-        "A los 21 años ya tiene rodaje internacional con la Selección Mayor",
-        "Su sobrenombre es 'La nueva joya argentina'"
+        "Fue campeón invicto de la Bundesliga 2023-24 con el Bayer Leverkusen",
+        "Surgió en River Plate bajo la tutela de Marcelo Gallardo",
+        "Es tucumano, del interior profundo del fútbol argentino",
+        "Sufrió lesiones graves que casi frenan su carrera, pero siempre volvió más fuerte"
       ],
-      "current_context": "Disputará su primer Mundial en 2026 a los 21 años. Es una de las grandes esperanzas del recambio generacional."
+      "current_context": "Titular en el Bayer Leverkusen campeón de Alemania. Aporta jerarquía y experiencia europea al mediocampo de la Selección."
     },
     {
-      "name": "Leandro Paredes",
+      "name": "Máximo Perrone",
       "position": "Mediocampista",
-      "club": "Roma",
-      "birth_date": "1994-06-29",
-      "age": 31,
-      "bio": "El director de orquesta del mediocampo. Surgido en Boca Juniors. Juega en la Roma. Campeón del Mundo en Qatar 2022, donde fue el encargado de manejar los tiempos del equipo. Su habilidad con el balón en espacios reducidos es ideal para el estilo de la Scaloneta.",
+      "club": "Manchester City",
+      "birth_date": "2003-01-07",
+      "age": 23,
+      "bio": "Mediocampista creativo nacido en Buenos Aires. Surgió en Vélez Sarsfield y fue fichado por el Manchester City. Su capacidad técnica, visión de juego y personalidad con el balón llamaron la atención de Guardiola. Es una de las joyas jóvenes del mediocampo argentino para el ciclo mundialista.",
       "world_cup_moments": [
-        "2022: Titular y pieza clave en el mediocampo tricampeón"
+        "Buscará su primer Mundial en 2026 con solo 23 años"
       ],
       "fun_facts": [
-        "Surgió en Boca Juniors antes de emigrar a Europa",
-        "Jugó en Chievo, Empoli, Roma, PSG, Juventus y Roma nuevamente",
-        "Es conocido por su elegancia con el balón bajo presión",
-        "Tiene una relación especial de amistad con De Paul y Messi"
+        "Fue fichado por el Manchester City de Guardiola siendo muy joven",
+        "Surgió en Vélez Sarsfield donde debutó en primera división",
+        "Es uno de los mediocampistas sub-23 más prometedores del fútbol argentino",
+        "Su juego recuerda al de los clásicos volantes creativos argentinos"
       ],
-      "current_context": "Regresó a la Roma. Sigue en el radar de Scaloni como opción en el mediocampo para 2026."
+      "current_context": "En el Manchester City busca ganarse un lugar. En la Selección, Scaloni lo ve como parte del futuro del mediocampo."
+    },
+    {
+      "name": "Franco Mastantuono",
+      "position": "Mediocampista ofensivo",
+      "club": "Real Madrid",
+      "birth_date": "2007-08-11",
+      "age": 18,
+      "bio": "La joya más joven de la Selección. Nacido en Buenos Aires, surgió en River Plate donde debutó a los 16 años batiendo récords de precocidad. Fue fichado por el Real Madrid en 2025. Su talento descomunal con el balón, gambeta y visión de juego lo perfilan como una de las grandes estrellas del fútbol mundial.",
+      "world_cup_moments": [
+        "Buscará su primer Mundial en 2026 con apenas 18 años, siendo el más joven del plantel"
+      ],
+      "fun_facts": [
+        "Debutó en primera división con River Plate a los 16 años",
+        "Es el jugador más joven en la historia del Real Madrid en marcar en Champions League",
+        "Scaloni lo convocó a la Mayor siendo aún menor de edad",
+        "Su talento fue comparado con el de Messi por varios referentes del fútbol argentino"
+      ],
+      "current_context": "Juega en el Real Madrid. Con apenas 18 años, será la gran apuesta juvenil de Scaloni para el Mundial 2026."
+    },
+    {
+      "name": "Valentín Barco",
+      "position": "Lateral izquierdo / Extremo",
+      "club": "Sevilla",
+      "birth_date": "2004-05-09",
+      "age": 22,
+      "bio": "Lateral izquierdo ofensivo nacido en Buenos Aires. Surgió en Boca Juniors donde debutó muy joven y se ganó un lugar en el primer equipo. Fichó por el Brighton de la Premier League y fue cedido al Sevilla. Su proyección ofensiva y capacidad de desborde lo hacen un lateral diferente.",
+      "world_cup_moments": [
+        "Buscará su primer Mundial en 2026"
+      ],
+      "fun_facts": [
+        "Debutó en Boca Juniors siendo menor de edad",
+        "Puede jugar como lateral izquierdo o como extremo",
+        "Es uno de los laterales más ofensivos del fútbol argentino joven",
+        "Fue fichado por el Brighton de la Premier League"
+      ],
+      "current_context": "Cedido en el Sevilla desde Brighton. Aporta juventud y profundidad en la banda izquierda de la Selección."
+    },
+    {
+      "name": "Nico Paz",
+      "position": "Mediocampista ofensivo",
+      "club": "Como 1907",
+      "birth_date": "2004-10-08",
+      "age": 21,
+      "bio": "Mediocampista creativo nacido en Tenerife, España, de padre argentino (Pablo Paz, ex Selección). Eligió representar a Argentina. Surgió en la cantera del Real Madrid y fue cedido al Como 1907 en la Serie A. Su elegancia con el balón, creatividad y capacidad de pase lo convierten en un mediocampista de lujo.",
+      "world_cup_moments": [
+        "Buscará su primer Mundial en 2026 con 21 años"
+      ],
+      "fun_facts": [
+        "Su padre Pablo Paz jugó en la Selección Argentina en el Mundial 1998",
+        "Nació en España pero eligió jugar para Argentina",
+        "Surgió en la cantera del Real Madrid antes de ser cedido al Como",
+        "Es uno de los mediocampistas más creativos de la Serie A pese a su juventud"
+      ],
+      "current_context": "Brilla en el Como 1907 de la Serie A. Scaloni lo ve como una pieza clave del recambio generacional en la Selección."
+    },
+    {
+      "name": "Nicolás González",
+      "position": "Extremo",
+      "club": "Juventus",
+      "birth_date": "1998-04-06",
+      "age": 28,
+      "bio": "Extremo versátil nacido en Belén de Escobar, Buenos Aires. Surgió en Argentinos Juniors y pasó por Stuttgart antes de llegar a la Fiorentina y luego a la Juventus. Puede jugar por ambas bandas y como segundo delantero. Su velocidad, potencia física y capacidad goleadora lo hacen un atacante peligroso.",
+      "world_cup_moments": [
+        "2022: Parte del plantel campeón del mundo en Qatar"
+      ],
+      "fun_facts": [
+        "Surgió en Argentinos Juniors, el mismo club donde debutó Maradona",
+        "Puede jugar por derecha, izquierda o como segundo punta",
+        "En la Juventus encontró continuidad y un rol importante",
+        "Es uno de los atacantes más versátiles de la Selección"
+      ],
+      "current_context": "Juega en la Juventus. Su versatilidad táctica lo hace valioso para Scaloni en el ataque de la Selección."
+    },
+    {
+      "name": "Giuliano Simeone",
+      "position": "Extremo",
+      "club": "Atlético Madrid",
+      "birth_date": "2003-03-23",
+      "age": 23,
+      "bio": "Extremo veloz y desequilibrante, hijo de Diego Simeone. Nacido en Madrid pero formado futbolísticamente entre España y Argentina. Surgió en las inferiores del Atlético Madrid y se ganó un lugar en el primer equipo. Su velocidad, sacrificio táctico y capacidad de desborde llamaron la atención de Scaloni.",
+      "world_cup_moments": [
+        "Buscará su primer Mundial en 2026"
+      ],
+      "fun_facts": [
+        "Es hijo de Diego 'Cholo' Simeone, leyenda del fútbol argentino y DT del Atlético",
+        "Juega en el mismo club que dirige su padre",
+        "Nació en Madrid pero eligió representar a Argentina como su padre",
+        "Su estilo combina la garra de su padre con una técnica depurada"
+      ],
+      "current_context": "Se ganó un lugar en el primer equipo del Atlético Madrid. Scaloni lo convocó por su gran momento de forma."
+    },
+    {
+      "name": "Thiago Almada",
+      "position": "Mediocampista ofensivo",
+      "club": "Lyon",
+      "birth_date": "2001-04-26",
+      "age": 25,
+      "bio": "Mediocampista ofensivo nacido en Ciudadela, Buenos Aires. Surgió en Vélez Sarsfield y pasó por Atlanta United en la MLS antes de ir al Botafogo de Brasil donde fue campeón de la Copa Libertadores 2024. Fichó por el Lyon de Francia. Su gambeta, creatividad y capacidad de desequilibrio lo hacen un jugador distinto.",
+      "world_cup_moments": [
+        "2022: Parte del plantel campeón del mundo en Qatar como uno de los más jóvenes"
+      ],
+      "fun_facts": [
+        "Fue campeón de la Copa Libertadores 2024 con Botafogo",
+        "Surgió en Vélez Sarsfield, el mismo club que produjo a Perrone",
+        "Pasó por la MLS (Atlanta United) antes de volver a Sudamérica",
+        "Es uno de los jugadores con mejor gambeta del fútbol argentino actual"
+      ],
+      "current_context": "Juega en el Lyon de Francia tras su paso por Botafogo. Aporta creatividad y desequilibrio al ataque de la Selección."
+    },
+    {
+      "name": "Julián Álvarez",
+      "position": "Delantero",
+      "club": "Atlético Madrid",
+      "birth_date": "2000-01-31",
+      "age": 26,
+      "bio": "La 'Araña'. Surgido de River Plate, se convirtió en figura del Mundial 2022 con 4 goles. Fue clave cuando Messi necesitó compañía. Transferido al Atlético de Madrid en 2024. Considerado el futuro de la Selección. En Copa América 2024 fue subcampeón, con gran actuación.",
+      "world_cup_moments": [
+        "2022: 4 goles, el segundo máximo goleador de Argentina. Dos goles en semis vs Croacia",
+        "2022: Gol espectacular vs Polonia y gol olímpico vs Australia"
+      ],
+      "fun_facts": [
+        "Fue campeón de la Libertadores y la Copa del Mundo en el mismo año (2022)",
+        "Surgió en River Plate donde fue figura del plantel de Gallardo",
+        "Tiene capacidad para jugar de centrodelantero y de segunda punta",
+        "Fichó al Atlético Madrid rompiendo el molde de 'segundo plato' detrás de Messi"
+      ],
+      "current_context": "Busca consolidarse en el Atlético de Madrid. En la Selección, es el socio ideal de Messi para 2026."
+    },
+    {
+      "name": "Giovanni Simeone",
+      "position": "Delantero",
+      "club": "Napoli",
+      "birth_date": "1995-07-05",
+      "age": 31,
+      "bio": "Delantero goleador, hijo de Diego Simeone. Nacido en Buenos Aires. Surgió en River Plate y emigró joven a Europa. Pasó por Genoa, Fiorentina, Cagliari y Hellas Verona antes de llegar al Napoli. Conocido como 'Cholito', su instinto goleador y entrega física lo hacen un delantero confiable.",
+      "world_cup_moments": [
+        "Buscará su primer Mundial en 2026"
+      ],
+      "fun_facts": [
+        "Es hijo de Diego 'Cholo' Simeone y hermano mayor de Giuliano",
+        "Su apodo 'Cholito' es en honor a su padre",
+        "Marcó 4 goles en un partido con el Hellas Verona, igualando un récord de la Serie A",
+        "En el Napoli fue parte del plantel que ganó el Scudetto 2022-23"
+      ],
+      "current_context": "Juega en el Napoli de la Serie A. Aporta gol y sacrificio como opción ofensiva en la Selección."
+    },
+    {
+      "name": "Germán Rojas",
+      "position": "Mediocampista",
+      "club": "Sin datos confirmados",
+      "birth_date": "2003-01-01",
+      "age": 23,
+      "bio": "Joven mediocampista argentino convocado por Scaloni como parte del recambio generacional. Su versatilidad y capacidad de trabajo lo pusieron en el radar de la Selección.",
+      "world_cup_moments": [
+        "Buscará su primer Mundial en 2026"
+      ],
+      "fun_facts": [
+        "Es parte de la nueva generación de mediocampistas argentinos",
+        "Scaloni lo convocó como apuesta al futuro"
+      ],
+      "current_context": "Convocado por Scaloni para el plantel del Mundial 2026."
+    },
+    {
+      "name": "Valentín Castellanos",
+      "position": "Delantero",
+      "club": "Lazio",
+      "birth_date": "1998-10-03",
+      "age": 27,
+      "bio": "Delantero goleador nacido en Mendoza. Surgió en Murialdo de San Rafael y emigró a la Universidad de Chile antes de pasar al New York City FC de la MLS donde fue goleador del torneo. Fichó por la Lazio de la Serie A. Su capacidad goleadora y juego aéreo lo hacen un centrodelantero completo.",
+      "world_cup_moments": [
+        "Buscará su primer Mundial en 2026"
+      ],
+      "fun_facts": [
+        "Fue máximo goleador de la MLS con el New York City FC",
+        "Nació en Mendoza y su carrera temprana lo llevó a Chile",
+        "En la Lazio se consolidó como goleador en la Serie A",
+        "Es uno de los delanteros argentinos con mejor juego aéreo"
+      ],
+      "current_context": "Goleador en la Lazio. Scaloni lo tiene como opción de centrodelantero para el Mundial 2026."
+    },
+    {
+      "name": "Alejandro Prestianni",
+      "position": "Extremo",
+      "club": "Vélez Sarsfield",
+      "birth_date": "2006-06-14",
+      "age": 20,
+      "bio": "Joven extremo nacido en Buenos Aires. Surgió en Vélez Sarsfield donde debutó siendo muy joven y rápidamente se ganó un lugar como titular. Su velocidad, gambeta y desparpajo llamaron la atención de Scaloni, que lo convocó para el ciclo mundialista. Es una de las mayores promesas del fútbol argentino.",
+      "world_cup_moments": [
+        "Buscará su primer Mundial en 2026 con apenas 20 años"
+      ],
+      "fun_facts": [
+        "Debutó en primera división con Vélez siendo menor de edad",
+        "Es uno de los jugadores más jóvenes en la historia de la Selección Mayor",
+        "Su velocidad y gambeta lo hacen un jugador desequilibrante",
+        "Surgió en la cantera de Vélez, que también formó a Perrone y Almada"
+      ],
+      "current_context": "Figura en Vélez Sarsfield. Scaloni lo convocó como parte de la camada de jóvenes promesas para el Mundial."
+    },
+    {
+      "name": "Julián López",
+      "position": "Mediocampista / Delantero",
+      "club": "Sin datos confirmados",
+      "birth_date": "2002-01-01",
+      "age": 24,
+      "bio": "Joven jugador argentino convocado por Scaloni para el plantel mundialista. Su versatilidad y capacidad en el frente de ataque lo pusieron en consideración para el Mundial 2026.",
+      "world_cup_moments": [
+        "Buscará su primer Mundial en 2026"
+      ],
+      "fun_facts": [
+        "Es parte de la nueva generación convocada por Scaloni",
+        "Su versatilidad táctica es valorada por el cuerpo técnico"
+      ],
+      "current_context": "Convocado por Scaloni para el plantel del Mundial 2026."
+    },
+    {
+      "name": "Leonel Scaloni",
+      "position": "Director Técnico",
+      "club": "Selección Argentina",
+      "birth_date": "1978-05-16",
+      "age": 47,
+      "bio": "El arquitecto del nuevo ciclo dorado argentino. Asumió interinamente en 2018 sin experiencia como DT. Transformó a la Selección de un equipo en crisis a tricampeón consecutivo (Copa América 2021, Finalísima 2022, Mundial 2022). Su secreto: equilibrio defensivo, confianza en los jugadores y creación de grupo.",
+      "world_cup_moments": [
+        "2022: Ganó el Mundial 2022 en Qatar con una gestión impecable",
+        "Copa América 2021: Primer título, el que demostró que era el indicado"
+      ],
+      "fun_facts": [
+        "Como jugador fue campeón del mundo Sub-20 con Argentina (1997)",
+        "Nadie apostaba por él cuando asumió interinamente en 2018",
+        "Transformó el esquema táctico para adaptarse a los jugadores disponibles",
+        "Es el DT con mejor porcentaje de victorias en la historia de la Selección Argentina"
+      ],
+      "current_context": "Renovó hasta 2026. Su objetivo es hacer historia nuevamente siendo el primer equipo en ganar dos Mundiales consecutivos desde Brasil 58/62."
     }
   ]
 }

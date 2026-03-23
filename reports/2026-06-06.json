@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-06",
+  "generated_at": "2026-03-22T16:04:44.432415",
+  "data": {
+    "date": "2026-06-06",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 5,
+    "events": [
+      {
+        "date": "1978-06-06",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Passarella",
+        "description": "Argentina 2-1 Francia en fase de grupos."
+      },
+      {
+        "date": "2009-06-06",
+        "type": "match",
+        "priority": "low",
+        "person": "Daniel Díaz",
+        "description": "Argentina 1-0 Colombia en Eliminatorias 2010. Gol de Daniel Díaz en el Monumental."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

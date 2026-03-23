@@ -1,0 +1,61 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-03-22T16:04:41.695595",
+  "data": {
+    "date": "2026-06-02",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 9,
+    "events": [
+      {
+        "date": "1978-06-02",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Leopoldo Luque",
+        "description": "Debut en el Mundial 78 con victoria 2-1 ante Hungría."
+      },
+      {
+        "date": "1979-06-02",
+        "type": "goal",
+        "priority": "high",
+        "person": "Diego Maradona",
+        "description": "Primer gol de Maradona en la Selección Mayor (vs Escocia)."
+      },
+      {
+        "date": "1986-06-02",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Debut en México 86: Argentina 3-1 Corea del Sur."
+      },
+      {
+        "date": "1988-06-02",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Sergio Agüero",
+        "age": 37,
+        "description": "Cumpleaños de Sergio 'Kun' Agüero."
+      },
+      {
+        "date": "2002-06-02",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Batistuta",
+        "description": "Último gol de Batistuta en mundiales (1-0 vs Nigeria)."
+      },
+      {
+        "date": "1978-06-02",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Argentina debuta ganando 2-1 a Hungría."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

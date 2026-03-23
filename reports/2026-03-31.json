@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-31",
+  "generated_at": "2026-03-22T22:31:10.609783",
+  "data": {
+    "date": "2026-03-31",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 72,
+    "events": [
+      {
+        "date": "1968-03-31",
+        "type": "birthday",
+        "priority": "low",
+        "person": "César Sampaio",
+        "age": 58,
+        "description": "Cumpleaños de César Sampaio (58 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días \n\nFaltan 72 días para el Mundial 2026 \n\nHoy César Sampaio cumple 58 años . El exfutbolista brasileño es recordado por su destacada carrera en clubes como el Palmeiras y la selección brasileña . \n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

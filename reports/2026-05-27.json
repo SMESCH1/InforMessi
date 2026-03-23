@@ -1,0 +1,25 @@
+{
+  "date": "2026-05-27",
+  "generated_at": "2026-03-22T16:04:37.972490",
+  "data": {
+    "date": "2026-05-27",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 15,
+    "events": [
+      {
+        "date": "1934-05-27",
+        "type": "world_cup",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Debut y eliminación de Argentina en el Mundial de Italia 1934 (2-3 vs Suecia)."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

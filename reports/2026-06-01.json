@@ -1,0 +1,51 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-03-22T16:04:40.900428",
+  "data": {
+    "date": "2026-06-01",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 10,
+    "events": [
+      {
+        "date": "2022-06-01",
+        "type": "title",
+        "priority": "high",
+        "person": "Lionel Messi",
+        "description": "Argentina gana la Finalissima goleando 3-0 a Italia en Wembley."
+      },
+      {
+        "date": "2026-06-01",
+        "type": "historical",
+        "priority": "low",
+        "description": "1978: EnBuenos Aires(Argentina) comienza laCopa Mundial de Fútbol.",
+        "historical_year": "1978",
+        "source": "Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/1_de_junio"
+      },
+      {
+        "date": "2026-06-01",
+        "type": "historical",
+        "priority": "low",
+        "description": "2022: En Londres, Inglaterra, en el Estadio de Wimbledon, ante 90 mil personas, la Selección de Futbol de Argentina se consagra Campeón de Campeones al vencer a la Selección de Futbol de Italia ganand",
+        "historical_year": "2022",
+        "source": "Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/1_de_junio"
+      },
+      {
+        "date": "1966-06-01",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Abel Balbo",
+        "age": 60,
+        "description": "Cumpleaños de Abel Balbo. Goleador histórico argentino en la Serie A italiana, 11 goles en 32 partidos con la Selección."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

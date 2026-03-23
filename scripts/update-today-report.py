@@ -5,6 +5,7 @@ MVP - InforMessi
 """
 
 import json
+import os
 import sys
 import subprocess
 from datetime import datetime
@@ -17,6 +18,16 @@ logger = logging.getLogger(__name__)
 PROJECT_ROOT = Path(__file__).parent.parent
 REPORTS_DIR = PROJECT_ROOT / "reports"
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv(PROJECT_ROOT / ".env")
+except ImportError:
+    pass
+
+
+def _llm_provider() -> str:
+    return os.environ.get("LLM_PROVIDER", "ollama")
+
 
 def update_report_for_date(date: str) -> bool:
     """Actualiza el informe de una fecha específica"""
@@ -26,10 +37,18 @@ def update_report_for_date(date: str) -> bool:
         logger.warning(f"⚠️  Informe para {date} no existe. Generando nuevo informe...")
         # Generar nuevo informe
         result = subprocess.run(
-            [sys.executable, str(PROJECT_ROOT / "scripts" / "generate-advance-reports.py"),
-             "--days", "1", "--start-date", date],
+            [
+                sys.executable,
+                str(PROJECT_ROOT / "scripts" / "generate-advance-reports.py"),
+                "--days",
+                "1",
+                "--start-date",
+                date,
+                "--provider",
+                _llm_provider(),
+            ],
             capture_output=True,
-            text=True
+            text=True,
         )
         return result.returncode == 0
     
@@ -90,11 +109,19 @@ def update_report_for_date(date: str) -> bool:
     
     try:
         result = subprocess.run(
-            [sys.executable, str(PROJECT_ROOT / "scripts" / "generate-message.py"),
-             "--data", str(data_file), "--output", str(message_file)],
+            [
+                sys.executable,
+                str(PROJECT_ROOT / "scripts" / "generate-message.py"),
+                "--data",
+                str(data_file),
+                "--output",
+                str(message_file),
+                "--provider",
+                _llm_provider(),
+            ],
             capture_output=True,
             text=True,
-            timeout=120
+            timeout=120,
         )
         
         if result.returncode != 0:

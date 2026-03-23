@@ -1,0 +1,27 @@
+{
+  "date": "2026-04-20",
+  "generated_at": "2026-03-22T16:04:20.446764",
+  "data": {
+    "date": "2026-04-20",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 52,
+    "events": [
+      {
+        "date": "2026-04-20",
+        "type": "historical",
+        "priority": "low",
+        "description": "1994: enArgentina, laAsociación del Fútbol Argentino, inaugura elestadio El Gigante del NortedelClub de Gimnasia y Tiro de Saltacon un partido amistoso entreArgentinayMarruecos.",
+        "historical_year": "1994",
+        "source": "Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/20_de_abril"
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

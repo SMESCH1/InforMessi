@@ -1,0 +1,26 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-03-22T16:04:38.662213",
+  "data": {
+    "date": "2026-05-28",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 14,
+    "events": [
+      {
+        "date": "1999-05-28",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Facundo Medina",
+        "age": 27,
+        "description": "Cumpleaños de Facundo Medina. Defensor argentino del Olympique de Marsella, internacional con la Selección."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-26",
+  "generated_at": "2026-03-22T22:29:54.371779",
+  "data": {
+    "date": "2026-03-26",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 77,
+    "events": [
+      {
+        "date": "2000-03-26",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Fausto Vera",
+        "age": 26,
+        "description": "Cumpleaños de Fausto Vera (26 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan 77 días para el Mundial 2026 ⚽\n\n🎉 Hoy Fausto Vera cumple 26 años. El mediocampista es una de las jóvenes promesas de la Scaloneta 🌟\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

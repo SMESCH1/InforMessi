@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-26",
+  "generated_at": "2026-03-22T16:04:23.155401",
+  "data": {
+    "date": "2026-04-26",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 46,
+    "events": [
+      {
+        "date": "2001-04-26",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Thiago Almada",
+        "age": 25,
+        "description": "Cumpleaños de Thiago Almada. Mediapunta campeón del mundo en Qatar 2022, juega en Atlético Madrid."
+      },
+      {
+        "date": "2000-04-26",
+        "type": "match",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Venezuela 0-4 Argentina en Eliminatorias 2002. Goleada de visitante en Maracaibo."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

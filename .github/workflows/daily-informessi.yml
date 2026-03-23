@@ -43,7 +43,7 @@ jobs:
           DATE=$(date +%Y-%m-%d)
           if [ ! -f "reports/${DATE}.json" ]; then
             echo "Generando informe para ${DATE}..."
-            python3 scripts/generate-advance-reports.py --days 1 --start-date "${DATE}"
+            python3 scripts/generate-advance-reports.py --days 1 --start-date "${DATE}" --provider groq
           else
             echo "Informe para ${DATE} ya existe"
           fi

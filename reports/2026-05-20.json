@@ -1,0 +1,26 @@
+{
+  "date": "2026-05-20",
+  "generated_at": "2026-03-22T16:04:34.774155",
+  "data": {
+    "date": "2026-05-20",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 22,
+    "events": [
+      {
+        "date": "1992-05-20",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Gerónimo Rulli",
+        "age": 34,
+        "description": "Cumpleaños de Gerónimo Rulli."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

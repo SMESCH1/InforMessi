@@ -1,0 +1,26 @@
+{
+  "date": "2026-05-18",
+  "generated_at": "2026-03-22T16:04:33.239852",
+  "data": {
+    "date": "2026-05-18",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 24,
+    "events": [
+      {
+        "date": "1962-05-18",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Nery Pumpido",
+        "age": 63,
+        "description": "Cumpleaños de Nery Pumpido."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

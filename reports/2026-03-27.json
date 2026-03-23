@@ -1,0 +1,25 @@
+{
+  "date": "2026-03-27",
+  "generated_at": "2026-03-22T22:30:07.327648",
+  "data": {
+    "date": "2026-03-27",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 76,
+    "events": [
+      {
+        "date": "2001-03-27",
+        "type": "match",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina 5-0 Venezuela en Eliminatorias 2002. Goleada contundente en Buenos Aires."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan 76 días para el Mundial 2026 ⚽\n\nUn día como hoy en 2002, Argentina le ganó 5-0 a Venezuela en Eliminatorias, con una goleada contundente en Buenos Aires 🏟️\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

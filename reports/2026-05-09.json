@@ -1,0 +1,25 @@
+{
+  "date": "2026-05-09",
+  "generated_at": "2026-03-22T16:04:28.440584",
+  "data": {
+    "date": "2026-05-09",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 33,
+    "events": [
+      {
+        "date": "1951-05-09",
+        "type": "match",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina derrota a Inglaterra en Wembley por primera vez (extraoficial)."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

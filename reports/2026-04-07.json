@@ -1,0 +1,34 @@
+{
+  "date": "2026-04-07",
+  "generated_at": "2026-03-22T22:32:43.864347",
+  "data": {
+    "date": "2026-04-07",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 65,
+    "events": [
+      {
+        "date": "1967-04-07",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Bodo Illgner",
+        "age": 59,
+        "description": "Cumpleaños de Bodo Illgner (59 años)"
+      },
+      {
+        "date": "1983-04-07",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Franck Ribéry",
+        "age": 43,
+        "description": "Cumpleaños de Franck Ribéry (43 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan 65 días para el Mundial 2026 ⚽\n\n🎉 Un día como hoy en 1967, Bodo Illgner nació. Aunque no es argentino, su cumpleaños nos hace recordar a los grandes arqueros que han pasado por la Selección 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-01",
+  "generated_at": "2026-03-22T16:04:25.291737",
+  "data": {
+    "date": "2026-05-01",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 41,
+    "events": [
+      {
+        "date": "2026-05-01",
+        "type": "historical",
+        "priority": "low",
+        "description": "2005:Lionel Messimarca su primer gol como jugador profesional en el primer equipo delF.C Barcelona",
+        "historical_year": "2005",
+        "source": "Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/1_de_mayo"
+      },
+      {
+        "date": "2026-05-01",
+        "type": "historical",
+        "priority": "low",
+        "description": "1998:Juliana Berardo, futbolista argentina.",
+        "historical_year": "1998",
+        "source": "Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/1_de_mayo"
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

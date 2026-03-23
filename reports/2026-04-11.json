@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-11",
+  "generated_at": "2026-03-22T17:57:49.070314",
+  "data": {
+    "date": "2026-04-11",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 61,
+    "events": [
+      {
+        "date": "1991-04-11",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Thiago Alcántara",
+        "age": 35,
+        "description": "Cumpleaños de Thiago Alcántara (35 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-30",
+  "generated_at": "2026-03-22T16:04:39.683099",
+  "data": {
+    "date": "2026-05-30",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 12,
+    "events": [
+      {
+        "date": "1962-05-30",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Sergio Batista",
+        "age": 63,
+        "description": "Cumpleaños del 'Checho' Batista."
+      },
+      {
+        "date": "1962-05-30",
+        "type": "world_cup",
+        "priority": "low",
+        "person": "Facundo",
+        "description": "Argentina 1-0 Bulgaria en el debut de Chile 62."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

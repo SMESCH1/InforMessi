@@ -1,0 +1,34 @@
+{
+  "date": "2026-04-25",
+  "generated_at": "2026-03-22T16:04:22.595777",
+  "data": {
+    "date": "2026-04-25",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 47,
+    "events": [
+      {
+        "date": "2026-04-25",
+        "type": "historical",
+        "priority": "low",
+        "description": "1895:Stanley Rous, árbitro y dirigente de fútbol británico,presidente de la FIFAentre 1961 y 1974 (f. 1986).",
+        "historical_year": "1961",
+        "source": "Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/25_de_abril"
+      },
+      {
+        "date": "2001-04-25",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Bolivia 3-3 Argentina en Eliminatorias 2002. Empate dramático en la altura de La Paz."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

@@ -8,7 +8,6 @@
       "structure": [
         "saludo",
         "cuenta_regresiva",
-        "clima",
         "bloque_principal",
         "bloque_argentina",
         "dato_dia",
@@ -21,7 +20,6 @@
       "structure": [
         "saludo",
         "cuenta_regresiva",
-        "clima",
         "bloque_principal_evento",
         "bloque_argentina",
         "dato_dia",
@@ -35,7 +33,6 @@
       "structure": [
         "saludo",
         "cuenta_regresiva",
-        "clima",
         "bloque_principal_partido",
         "bloque_argentina",
         "dato_dia",

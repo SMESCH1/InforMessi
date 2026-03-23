@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-10",
+  "generated_at": "2026-03-22T22:33:26.279227",
+  "data": {
+    "date": "2026-04-10",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 62,
+    "events": [
+      {
+        "date": "1973-04-10",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Roberto Carlos",
+        "age": 53,
+        "description": "Cumpleaños de Roberto Carlos (53 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan 62 días para el Mundial 2026 ⚽\n\n🎉 Un día como hoy, el legendario Roberto Carlos cumple 53 años. El emblemático lateral brasileño es recordado por su impresionante carrera y su habilidad en el campo ⚽\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

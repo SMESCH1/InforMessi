@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-03-22T16:04:46.558579",
+  "data": {
+    "date": "2026-06-10",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 1,
+    "events": [
+      {
+        "date": "1978-06-10",
+        "type": "world_cup",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina cae 0-1 ante Italia y debe ir a Rosario."
+      },
+      {
+        "date": "1986-06-10",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Valdano",
+        "description": "Argentina 2-0 Bulgaria para asegurar el primer puesto."
+      },
+      {
+        "date": "2006-06-10",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Saviola",
+        "description": "Debut en Alemania 2006: Argentina 2-1 Costa de Marfil."
+      },
+      {
+        "date": "1928-06-10",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Argentina pierde final olímpica en Ámsterdam ante Uruguay."
+      },
+      {
+        "date": "2026-06-10",
+        "type": "historical",
+        "priority": "low",
+        "description": "1998: enFranciase inaugura elMundial de Fútbol.",
+        "historical_year": "1998",
+        "source": "Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/10_de_junio"
+      },
+      {
+        "date": "2009-06-10",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Ecuador 2-0 Argentina en Quito por Eliminatorias 2010. Derrota en la altura bajo Maradona."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

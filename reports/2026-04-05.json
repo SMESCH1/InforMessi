@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-05",
+  "generated_at": "2026-03-22T22:32:15.209613",
+  "data": {
+    "date": "2026-04-05",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 67,
+    "events": [
+      {
+        "date": "1976-04-05",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Fernando Morientes",
+        "age": 50,
+        "description": "Cumpleaños de Fernando Morientes (50 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan 67 días para el Mundial 2026 ⚽\n\n🎉 Hoy cumple 50 años Fernando Morientes. Aunque no es un jugador de la Scaloneta, es un nombre conocido en el mundo del fútbol 🌍\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

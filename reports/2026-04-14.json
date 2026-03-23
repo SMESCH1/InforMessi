@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-14",
+  "generated_at": "2026-03-22T17:58:05.412066",
+  "data": {
+    "date": "2026-04-14",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 58,
+    "events": [
+      {
+        "date": "1999-04-14",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Matteo Guendouzi",
+        "age": 27,
+        "description": "Cumpleaños de Matteo Guendouzi (27 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

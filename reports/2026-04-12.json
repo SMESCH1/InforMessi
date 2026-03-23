@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-12",
+  "generated_at": "2026-03-22T17:57:54.870430",
+  "data": {
+    "date": "2026-04-12",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 60,
+    "events": [
+      {
+        "date": "1941-04-12",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Bobby Moore",
+        "age": 85,
+        "description": "Cumpleaños de Bobby Moore (85 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

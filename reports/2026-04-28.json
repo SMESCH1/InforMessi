@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-28",
+  "generated_at": "2026-03-22T16:04:24.092864",
+  "data": {
+    "date": "2026-04-28",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 44,
+    "events": [
+      {
+        "date": "1995-04-28",
+        "type": "title",
+        "priority": "medium",
+        "person": "José Pékerman",
+        "description": "Argentina Campeón Mundial Sub-20 en Qatar."
+      },
+      {
+        "date": "1970-04-28",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Diego Simeone",
+        "age": 56,
+        "description": "Cumpleaños de Diego Pablo Simeone, \"El Cholo\". Mediocampista icónico de la Selección (106 partidos), campeón de América 1991 y 1993."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

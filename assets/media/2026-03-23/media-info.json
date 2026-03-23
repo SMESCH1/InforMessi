@@ -1,0 +1,18 @@
+{
+  "type": "image",
+  "source": "Getty Images / Reuters",
+  "description": "Festejo masivo en Buenos Aires — millones en las calles celebrando con la Selección",
+  "credits": "Reuters / Getty Images",
+  "event_date": "2023-03-23",
+  "tags": [
+    "festejo",
+    "buenos_aires",
+    "hinchada"
+  ],
+  "search_suggestion": "festejo argentina campeon buenos aires obelisco site:reuters.com OR gettyimages.com",
+  "notes": "Vista aérea del Obelisco con marea albiceleste",
+  "reference_date": "2026-03-23",
+  "event_type": "celebration",
+  "event_priority": "high",
+  "event_description": "Primer partido de Argentina con las 3 estrellas (2-0 vs Panamá)."
+}

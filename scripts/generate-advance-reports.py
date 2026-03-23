@@ -23,8 +23,40 @@ REPORTS_DIR.mkdir(exist_ok=True)
 _SUBPROC_ENV = {**os.environ, "PYTHONUTF8": "1"}
 
 
-def generate_report_for_date(date: str, *, include_news: bool = False) -> dict:
-    """Genera un informe para una fecha específica"""
+def _parse_cli_date(value: str | None, flag: str):
+    """Parsea YYYY-MM-DD; evita el error típico: --end-date --overwrite (sin fecha)."""
+    if value is None:
+        return None
+    stripped = value.strip()
+    if stripped.startswith("-"):
+        logger.error(
+            "❌ %s recibió un valor inválido (%r). "
+            "¿Falta la fecha? Ejemplo: --end-date 2026-06-10 --overwrite",
+            flag,
+            stripped,
+        )
+        sys.exit(2)
+    try:
+        return datetime.strptime(stripped, "%Y-%m-%d").date()
+    except ValueError:
+        logger.error(
+            "❌ %s debe ser YYYY-MM-DD, recibido: %r",
+            flag,
+            stripped,
+        )
+        sys.exit(2)
+
+
+def generate_report_for_date(
+    date: str,
+    *,
+    include_news: bool = False,
+    provider: str = "ollama",
+) -> dict:
+    """Genera un informe para una fecha específica.
+
+    provider: ollama (LLM local) o groq (API; requiere GROQ_API_KEY en .env).
+    """
     logger.info(f"📅 Generando informe para {date}...")
 
     # Recolectar datos
@@ -49,6 +81,7 @@ def generate_report_for_date(date: str, *, include_news: bool = False) -> dict:
             text=True,
             timeout=120,
             env=_SUBPROC_ENV,
+            encoding="utf-8",
         )
 
         if result.returncode != 0:
@@ -62,37 +95,34 @@ def generate_report_for_date(date: str, *, include_news: bool = False) -> dict:
         logger.error(f"❌ Error: {e}")
         return None
 
-    has_events = bool(data.get("events"))
-    has_news = bool(data.get("news"))
-
-    if not has_events and not has_news:
-        logger.info(f"ℹ️  Sin eventos ni noticias para {date}, guardando borrador sin mensaje")
-        message = ""
-    else:
-        message_file = PROJECT_ROOT / "tmp" / f"message-{date}.txt"
-        try:
-            result = subprocess.run(
-                [
-                    sys.executable,
-                    str(PROJECT_ROOT / "scripts" / "generate-message.py"),
-                    "--data",
-                    str(data_file),
-                    "--output",
-                    str(message_file),
-                ],
-                capture_output=True,
-                text=True,
-                timeout=120,
-                env=_SUBPROC_ENV,
-            )
-            if result.returncode != 0:
-                logger.warning(f"⚠️  Error al generar mensaje: {result.stderr}")
-                message = ""
-            else:
-                message = message_file.read_text(encoding="utf-8")
-        except Exception as e:
-            logger.error(f"❌ Error: {e}")
+    message_file = PROJECT_ROOT / "tmp" / f"message-{date}.txt"
+    gen_env = {**_SUBPROC_ENV, "LLM_PROVIDER": provider}
+    try:
+        result = subprocess.run(
+            [
+                sys.executable,
+                str(PROJECT_ROOT / "scripts" / "generate-message.py"),
+                "--data",
+                str(data_file),
+                "--output",
+                str(message_file),
+                "--provider",
+                provider,
+            ],
+            capture_output=True,
+            text=True,
+            timeout=300,
+            env=gen_env,
+            encoding="utf-8",
+        )
+        if result.returncode != 0:
+            logger.warning(f"⚠️  Error al generar mensaje: {result.stderr}")
             message = ""
+        else:
+            message = message_file.read_text(encoding="utf-8")
+    except Exception as e:
+        logger.error(f"❌ Error: {e}")
+        message = ""
 
     # Guardar informe
     report = {
@@ -130,11 +160,13 @@ def main():
     )
     parser.add_argument(
         "--start-date",
-        help="Fecha de inicio (YYYY-MM-DD). Default: hoy",
+        metavar="YYYY-MM-DD",
+        help="Fecha de inicio. Default: hoy",
     )
     parser.add_argument(
         "--end-date",
-        help="Fecha fin inclusive (YYYY-MM-DD). Si se indica, se generan todas las fechas desde --start-date hasta este día.",
+        metavar="YYYY-MM-DD",
+        help="Fecha fin inclusive. Si se indica, se generan todas las fechas desde --start-date hasta este día (ignora --days).",
     )
     parser.add_argument(
         "--overwrite",
@@ -146,16 +178,22 @@ def main():
         action="store_true",
         help="Incluir noticias y Reddit (no pasar --no-news a collect-daily-data)",
     )
+    parser.add_argument(
+        "--provider",
+        choices=["ollama", "groq"],
+        default=os.environ.get("LLM_PROVIDER", "ollama"),
+        help="Proveedor LLM para generate-message: ollama (local, requiere Ollama) o groq (API, requiere GROQ_API_KEY). Default: env LLM_PROVIDER u ollama.",
+    )
 
     args = parser.parse_args()
 
     if args.start_date:
-        start_d = datetime.strptime(args.start_date, "%Y-%m-%d").date()
+        start_d = _parse_cli_date(args.start_date, "--start-date")
     else:
         start_d = datetime.now().date()
 
     if args.end_date:
-        end_d = datetime.strptime(args.end_date, "%Y-%m-%d").date()
+        end_d = _parse_cli_date(args.end_date, "--end-date")
         if end_d < start_d:
             logger.error("❌ --end-date no puede ser anterior a la fecha de inicio")
             sys.exit(1)
@@ -172,6 +210,7 @@ def main():
     logger.info(f"📅 Fecha inicio: {start_d.isoformat()}")
     logger.info(f"📅 Fechas a procesar: {len(dates)}")
     logger.info(f"📰 Con noticias: {args.with_news}")
+    logger.info(f"🤖 Proveedor LLM: {args.provider}")
     logger.info(f"♻️  Sobrescribir existentes: {args.overwrite}")
     logger.info("")
 
@@ -186,7 +225,11 @@ def main():
             skipped += 1
             continue
 
-        report = generate_report_for_date(date_str, include_news=args.with_news)
+        report = generate_report_for_date(
+            date_str,
+            include_news=args.with_news,
+            provider=args.provider,
+        )
         if report:
             generated += 1
         else:

@@ -6,6 +6,7 @@ MVP - Fase 2 - InforMessi
 
 import json
 import os
+import re
 import sys
 from pathlib import Path
 from datetime import datetime, date
@@ -290,30 +291,41 @@ def call_llm_ollama(prompt, model="qwen2.5:7b-instruct", base_url="http://localh
 
 
 def call_llm_groq(prompt, model="llama-3.1-8b-instant", temperature=0.7, max_tokens=300):
-    """Llama a Groq API (gratuita) para generar el mensaje"""
+    """Llama a Groq API (gratuita) para generar el mensaje, con retry en rate limit."""
     import requests
+    import time
 
     api_key = os.environ.get("GROQ_API_KEY", "")
     if not api_key:
         logger.error("ERROR: GROQ_API_KEY no configurada")
         sys.exit(1)
 
-    response = requests.post(
-        "https://api.groq.com/openai/v1/chat/completions",
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json"
-        },
-        json={
-            "model": model,
-            "messages": [{"role": "user", "content": prompt}],
-            "temperature": temperature,
-            "max_tokens": max_tokens
-        },
-        timeout=60
-    )
-    response.raise_for_status()
-    return response.json()["choices"][0]["message"]["content"]
+    max_retries = 5
+    for attempt in range(max_retries):
+        response = requests.post(
+            "https://api.groq.com/openai/v1/chat/completions",
+            headers={
+                "Authorization": f"Bearer {api_key}",
+                "Content-Type": "application/json"
+            },
+            json={
+                "model": model,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": temperature,
+                "max_tokens": max_tokens
+            },
+            timeout=60
+        )
+        if response.status_code == 429:
+            retry_after = int(response.headers.get("retry-after", 15))
+            wait = max(retry_after, 10 * (attempt + 1))
+            logger.warning(f"⏳ Rate limit Groq, esperando {wait}s (intento {attempt + 1}/{max_retries})...")
+            time.sleep(wait)
+            continue
+        response.raise_for_status()
+        return response.json()["choices"][0]["message"]["content"]
+
+    response.raise_for_status()  # último intento, dejar que falle
 
 
 def _get_llm_caller(provider, model, base_url):
@@ -326,6 +338,144 @@ def _get_llm_caller(provider, model, base_url):
     def _call(prompt, temperature=0.7, max_tokens=300):
         return call_llm_ollama(prompt, model=model, base_url=base_url, temperature=temperature, max_tokens=max_tokens)
     return _call
+
+CIERRE_RITUAL = "Coronados de gloria vivamos"
+CIERRE_COMPLETO = "Coronados de gloria vivamos 🩵🤍🩵"
+
+# Patrones de meta-texto que el LLM a veces agrega
+_META_PATTERNS = [
+    re.compile(r"^(Aquí\s+(está|te\s+dejo|va)\s+.*?:?\s*)$", re.IGNORECASE | re.MULTILINE),
+    re.compile(r"^(Here\s+is.*?:?\s*)$", re.IGNORECASE | re.MULTILINE),
+    re.compile(r"^\*\*Sección.*?\*\*\s*$", re.MULTILINE),
+    re.compile(r"^#+\s+.*$", re.MULTILINE),  # headers markdown
+]
+
+
+def _build_safe_message(days_remaining):
+    """Genera un mensaje mínimo seguro: saludo + cuenta regresiva + cierre."""
+    return (
+        f"Buenos días 🇦🇷\n\n"
+        f"Faltan {days_remaining} días para el Mundial 2026 ⚽\n\n"
+        f"{CIERRE_COMPLETO}"
+    )
+
+
+def _extract_allowed_entities(events, news):
+    """Extrae nombres, años y scores permitidos desde los datos de entrada."""
+    allowed_years = set()
+    allowed_persons = set()
+    allowed_scores = set()
+
+    for ev in events:
+        # Años desde la fecha del evento
+        ev_date = ev.get("date", "")
+        if isinstance(ev_date, str) and len(ev_date) >= 4:
+            try:
+                allowed_years.add(int(ev_date[:4]))
+            except ValueError:
+                pass
+
+        # Persona
+        person = ev.get("person", "")
+        if person:
+            allowed_persons.add(person.lower())
+            # Agregar apellido solo también
+            parts = person.strip().split()
+            if len(parts) > 1:
+                allowed_persons.add(parts[-1].lower())
+
+        # Scores del tipo "4-0", "6-1" en la descripción
+        desc = ev.get("description", "")
+        for m in re.findall(r"\b(\d+-\d+)\b", desc):
+            allowed_scores.add(m)
+
+    for nw in news:
+        title = nw.get("title", "")
+        desc = nw.get("description", "")
+        for text in (title, desc):
+            for m in re.findall(r"\b((?:19|20)\d{2})\b", text):
+                allowed_years.add(int(m))
+            for m in re.findall(r"\b(\d+-\d+)\b", text):
+                allowed_scores.add(m)
+
+    # Siempre permitir años de contexto general
+    allowed_years.update({2026, 2025, 1978, 1986, 2022})
+
+    return allowed_years, allowed_persons, allowed_scores
+
+
+def postprocess_message(message, data, days_remaining):
+    """Post-procesa el mensaje para validar y limpiar alucinaciones.
+
+    Reglas:
+    1. Si no había eventos ni noticias, forzar mensaje básico.
+    2. Limpiar markdown y meta-texto.
+    3. Verificar años mencionados contra datos de entrada.
+    4. Verificar scores mencionados contra datos de entrada.
+    5. Asegurar cierre ritual.
+    """
+    events = data.get("events", [])
+    news = data.get("news", [])
+
+    # --- Regla 1: sin datos → mensaje seguro ---
+    if not events and not news:
+        cleaned = message.strip()
+        # Si el LLM agregó contenido extra más allá de saludo+cuenta+cierre, descartar
+        lines = [ln.strip() for ln in cleaned.split("\n") if ln.strip()]
+        # Un mensaje básico tiene ~3 líneas: saludo, cuenta regresiva, cierre
+        has_extra_content = False
+        for line in lines:
+            lower = line.lower()
+            if any(kw in lower for kw in ["buenos días", "buen día", "faltan", "coronados de gloria"]):
+                continue
+            # Emojis solos o líneas vacías
+            if re.fullmatch(r"[\s\U0001f000-\U0001faff\u2600-\u27bf\u200d\ufe0f]*", line):
+                continue
+            has_extra_content = True
+            break
+
+        if has_extra_content:
+            logger.warning("⚠️  Post-proceso: mensaje sin datos contenía contenido extra, reemplazando con mensaje seguro")
+            return _build_safe_message(days_remaining)
+
+    # --- Regla 2: limpiar markdown y meta-texto ---
+    cleaned = message
+    # Remover ** (bold markdown)
+    cleaned = cleaned.replace("**", "")
+    # Remover headers markdown
+    for pat in _META_PATTERNS:
+        cleaned = pat.sub("", cleaned)
+    # Limpiar líneas vacías consecutivas
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    cleaned = cleaned.strip()
+
+    # --- Regla 3: verificar años ---
+    if events or news:
+        allowed_years, allowed_persons, allowed_scores = _extract_allowed_entities(events, news)
+
+        years_in_msg = {int(m) for m in re.findall(r"\b((?:19|20)\d{2})\b", cleaned)}
+        hallucinated_years = years_in_msg - allowed_years
+        if hallucinated_years:
+            logger.warning(f"⚠️  Post-proceso: años no encontrados en datos: {hallucinated_years}")
+            # No eliminamos el mensaje completo, pero logueamos para tracking
+
+        # --- Regla 4: verificar scores ---
+        scores_in_msg = set(re.findall(r"\b(\d+-\d+)\b", cleaned))
+        hallucinated_scores = scores_in_msg - allowed_scores
+        if hallucinated_scores:
+            logger.warning(f"⚠️  Post-proceso: scores no encontrados en datos: {hallucinated_scores}")
+
+    # --- Regla 5: asegurar cierre ritual ---
+    if CIERRE_RITUAL.lower() not in cleaned.lower():
+        logger.warning("⚠️  Post-proceso: cierre ritual faltante, agregándolo")
+        cleaned = cleaned.rstrip() + f"\n\n{CIERRE_COMPLETO}"
+
+    # Si el cierre no tiene los emojis, agregarlos
+    if CIERRE_RITUAL in cleaned and "🩵🤍🩵" not in cleaned:
+        cleaned = cleaned.replace(CIERRE_RITUAL, CIERRE_COMPLETO)
+
+    return cleaned
+
 
 def main():
     """Función principal"""
@@ -403,8 +553,15 @@ def main():
     logger.info(f"\n🤖 Generando mensaje con {args.provider}/{args.model}...")
     logger.info("   (Esto puede tardar unos momentos...)\n")
 
-    message = llm_call(prompt)
-    
+    raw_message = llm_call(prompt)
+
+    # Post-procesamiento: validar y limpiar
+    days_remaining = calculate_days_remaining(data["mundial_2026_start"], data["date"])
+    message = postprocess_message(raw_message, data, days_remaining)
+
+    if message != raw_message:
+        logger.info("🔧 Post-proceso aplicó correcciones al mensaje")
+
     # Mostrar resultado
     print("=" * 50)
     print("📨 MENSAJE GENERADO:")

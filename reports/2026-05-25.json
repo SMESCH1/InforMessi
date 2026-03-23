@@ -1,0 +1,60 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-03-22T16:04:36.972099",
+  "data": {
+    "date": "2026-05-25",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 17,
+    "events": [
+      {
+        "date": "1953-05-25",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Daniel Passarella",
+        "age": 72,
+        "description": "Cumpleaños de Daniel Alberto Passarella."
+      },
+      {
+        "date": "1910-05-25",
+        "type": "match",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina derrota a Chile 3-1 en la Copa Centenario Revolución de Mayo."
+      },
+      {
+        "date": "2026-05-25",
+        "type": "historical",
+        "priority": "low",
+        "description": "Día Mundial delFútbol.[1]​De acuerdo con la resolución de laOrganización de las Naciones UnidasA/RES/78/281, se declaró elDía Mundial del Fútbol[2]​el 25 de mayo para reconocer\"el alcance global del f",
+        "historical_year": null,
+        "source": "Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/25_de_mayo"
+      },
+      {
+        "date": "2026-05-25",
+        "type": "historical",
+        "priority": "low",
+        "description": "↑FIFA(23 de mayo de 2024).«La Organización de las Naciones Unidas (ONU) adoptó recientemente por unanimidad una resolución para proclamar el Día Mundial del Fútbol». Consultado el 23 de mayo de 2024.",
+        "historical_year": "2024",
+        "source": "Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/25_de_mayo"
+      },
+      {
+        "date": "2026-05-25",
+        "type": "historical",
+        "priority": "low",
+        "description": "↑Primera Edición (diario)(25 de mayo de 2025).«Por qué se celebra hoy el Día Mundial del Fútbol ● La efeméride, de muy reciente creación, se conmemora cada 25 de mayo por impulso de la ONU». Consultad",
+        "historical_year": "2025",
+        "source": "Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/25_de_mayo"
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

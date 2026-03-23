@@ -1,0 +1,34 @@
+{
+  "date": "2026-05-10",
+  "generated_at": "2026-03-22T16:04:29.189359",
+  "data": {
+    "date": "2026-05-10",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 32,
+    "events": [
+      {
+        "date": "1983-05-10",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Chino Garcé",
+        "age": 42,
+        "description": "Cumpleaños de Ariel Garcé."
+      },
+      {
+        "date": "1996-05-10",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Martínez Quarta",
+        "age": 30,
+        "description": "Cumpleaños de Martínez Quarta."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-04-02",
+  "generated_at": "2026-03-22T22:31:36.710340",
+  "data": {
+    "date": "2026-04-02",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 70,
+    "events": [
+      {
+        "date": "1990-04-02",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Miralem Pjanić",
+        "age": 36,
+        "description": "Cumpleaños de Miralem Pjanić (36 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan 70 días para el Mundial 2026 ⚽\n\n🎉 Un día como hoy, Miralem Pjanić cumple 36 años. El jugador bosnio es recordado por su habilidad en el campo 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

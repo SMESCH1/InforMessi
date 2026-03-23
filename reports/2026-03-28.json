@@ -1,0 +1,25 @@
+{
+  "date": "2026-03-28",
+  "generated_at": "2026-03-22T22:30:20.889371",
+  "data": {
+    "date": "2026-03-28",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 75,
+    "events": [
+      {
+        "date": "2009-03-28",
+        "type": "match",
+        "priority": "high",
+        "person": "Diego Maradona",
+        "description": "Argentina 4-0 Venezuela: debut oficial de Maradona como DT en Eliminatorias. Goles de Messi, Tevez, Maxi Rodríguez y Agüero."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días \n\nFaltan 75 días para el Mundial 2026 \n\n Un día como hoy en 2009, Argentina goleó 4-0 a Venezuela en el debut oficial de Maradona como DT en Eliminatorias. Goles de Messi, Tevez, Maxi Rodríguez y Agüero \n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

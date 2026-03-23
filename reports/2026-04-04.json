@@ -1,0 +1,25 @@
+{
+  "date": "2026-04-04",
+  "generated_at": "2026-03-22T22:32:02.313529",
+  "data": {
+    "date": "2026-04-04",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 68,
+    "events": [
+      {
+        "date": "1959-04-04",
+        "type": "title",
+        "priority": "medium",
+        "person": "Pelé",
+        "description": "Argentina campeón de América ante el Brasil campeón del mundo."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan 68 días para el Mundial 2026 ⚽\n\nUn día como hoy, Argentina se consagró campeón de América ante el Brasil campeón del mundo 🏆👏\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

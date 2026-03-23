@@ -1,0 +1,34 @@
+{
+  "date": "2026-04-13",
+  "generated_at": "2026-03-22T17:58:00.041432",
+  "data": {
+    "date": "2026-04-13",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 59,
+    "events": [
+      {
+        "date": "1960-04-13",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Rudi Völler",
+        "age": 66,
+        "description": "Cumpleaños de Rudi Völler (66 años)"
+      },
+      {
+        "date": "1978-04-13",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Carles Puyol",
+        "age": 48,
+        "description": "Cumpleaños de Carles Puyol (48 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

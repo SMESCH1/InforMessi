@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-05",
+  "generated_at": "2026-03-22T16:04:43.833186",
+  "data": {
+    "date": "2026-06-05",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 6,
+    "events": [
+      {
+        "date": "2022-06-05",
+        "type": "record",
+        "priority": "medium",
+        "person": "Lionel Messi",
+        "description": "Messi marca 5 goles en un solo partido ante Estonia."
+      },
+      {
+        "date": "1986-06-05",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Maradona",
+        "description": "Argentina 1-1 Italia con golazo de Diego."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

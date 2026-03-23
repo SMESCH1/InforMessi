@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-15",
+  "generated_at": "2026-03-22T17:58:11.171365",
+  "data": {
+    "date": "2026-04-15",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 57,
+    "events": [
+      {
+        "date": "1989-04-15",
+        "type": "historical",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Tragedia de Hillsborough: 97 hinchas de Liverpool mueren durante semifinal de FA Cup. Cambió la seguridad en estadios para siempre."
+      },
+      {
+        "date": "2003-04-15",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Matías Soulé",
+        "age": 23,
+        "description": "Cumpleaños de Matías Soulé (23 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan 57 días para el Mundial 2026 ⚽\n\nHoy recordamos la tragedia de Hillsborough, donde 97 hinchas de Liverpool murieron durante la semifinal de FA Cup en 1989. Un día que cambió la seguridad en estadios para siempre. La memoria de este suceso nos hace reflexionar sobre la importancia de la seguridad en los eventos deportivos.\n\nLa tragedia de Hillsborough nos enseña que la seguridad debe ser la prioridad principal en cualquier evento deportivo. Es un recordatorio de que la vida de los hinchas y los jugadores es lo más importante. 🙏\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

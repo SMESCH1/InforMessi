@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-24",
+  "generated_at": "2026-03-22T22:29:50.498053",
+  "data": {
+    "date": "2026-03-24",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 79,
+    "events": [
+      {
+        "date": "1947-03-24",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Archie Gemmill",
+        "age": 79,
+        "description": "Cumpleaños de Archie Gemmill (79 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan 79 días para el Mundial 2026 ⚽\n\n🎉 Un día como hoy, Archie Gemmill cumple 79 años. El destacado exfutbolista escocés es recordado por su destacada carrera en el Celtic y la selección de Escocia 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

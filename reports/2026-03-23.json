@@ -1,0 +1,25 @@
+{
+  "date": "2026-03-23",
+  "generated_at": "2026-03-22T22:29:47.909983",
+  "data": {
+    "date": "2026-03-23",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 80,
+    "events": [
+      {
+        "date": "2023-03-23",
+        "type": "celebration",
+        "priority": "high",
+        "person": "Lionel Messi",
+        "description": "Primer partido de Argentina con las 3 estrellas (2-0 vs Panamá)."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan 80 días para el Mundial 2026 ⚽\n\nUn día como hoy, Argentina jugó su primer partido con las 3 estrellas en su camiseta, derrotando a Panamá 2-0 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

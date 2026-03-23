@@ -1,0 +1,41 @@
+{
+  "date": "2026-06-03",
+  "generated_at": "2026-03-22T16:04:42.431582",
+  "data": {
+    "date": "2026-06-03",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 8,
+    "events": [
+      {
+        "date": "1964-06-03",
+        "type": "title",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Argentina gana la Copa de las Naciones en Brasil venciendo a Pelé."
+      },
+      {
+        "date": "2026-06-03",
+        "type": "historical",
+        "priority": "low",
+        "description": "1962: enArica (Chile)―en laCopa Mundial de la FIFA― se anota el primergol olímpicoen un mundial. Lo anota el colombianoMarcos Coll.",
+        "historical_year": "1962",
+        "source": "Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/3_de_junio"
+      },
+      {
+        "date": "2001-06-03",
+        "type": "match",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina 3-0 Colombia en Eliminatorias 2002. Victoria sólida de local."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}
