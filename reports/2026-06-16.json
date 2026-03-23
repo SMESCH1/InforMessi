@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-16",
+  "generated_at": "2026-03-22T23:20:36.018287",
+  "data": {
+    "date": "2026-06-16",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -5,
+    "events": [
+      {
+        "date": "2026-06-16",
+        "type": "match",
+        "priority": "critical",
+        "person": "Selección Argentina",
+        "description": "Mundial 2026 - Grupo J: Argentina vs Argelia, 21:00 ET, Arrowhead Stadium, Kansas City."
+      },
+      {
+        "date": "2006-06-16",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Lionel Messi",
+        "description": "Debut y primer gol de Messi en mundiales (6-0 vs Serbia y Montenegro)."
+      },
+      {
+        "date": "1986-06-16",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Pasculli",
+        "description": "Victoria 1-0 ante Uruguay en octavos de final con gol de Pasculli."
+      },
+      {
+        "date": "2018-06-16",
+        "type": "world_cup",
+        "priority": "low",
+        "person": "Lionel Messi",
+        "description": "Empate 1-1 con Islandia y penal errado de Messi."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan -5 días para el Mundial 2026 ⚽\nUn día como hoy, pero en el futuro, Argentina enfrentará a Argelia en el Mundial 2026 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

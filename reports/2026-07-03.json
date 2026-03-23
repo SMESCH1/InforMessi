@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-03-23T10:21:06.488237",
+  "data": {
+    "date": "2026-07-03",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -22,
+    "events": [
+      {
+        "date": "1990-07-03",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Goycochea",
+        "description": "Argentina elimina a Italia por penales y pasa a la final."
+      },
+      {
+        "date": "2010-07-03",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Maradona",
+        "description": "Dura eliminación de Sudáfrica 2010 tras caer 4-0 con Alemania."
+      },
+      {
+        "date": "1994-07-03",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Eliminación de USA 94 tras perder 3-2 con Rumania."
+      },
+      {
+        "date": "2021-07-03",
+        "type": "match",
+        "priority": "medium",
+        "person": "Lionel Messi",
+        "description": "Goleada 3-0 a Ecuador con un Messi estelar."
+      },
+      {
+        "date": "2026-07-03",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Día de descanso antes de octavos de final."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

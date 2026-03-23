@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "2026-03-22T23:21:00.823011",
+  "data": {
+    "date": "2026-06-18",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -7,
+    "events": [
+      {
+        "date": "1978-06-18",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Empate 0-0 entre Argentina y Brasil en la 'Batalla del Gigante'."
+      },
+      {
+        "date": "1990-06-18",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Monzón",
+        "description": "Argentina 1-1 Rumania y clasificación como mejor tercero."
+      },
+      {
+        "date": "2026-06-18",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Fase de grupos, jornada 2."
+      },
+      {
+        "date": "1982-06-18",
+        "type": "world_cup",
+        "priority": "low",
+        "person": "Maradona",
+        "description": "Argentina 4-1 Hungría con doblete de Diego."
+      },
+      {
+        "date": "1994-06-18",
+        "type": "birthday",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Cumpleaños del exarquero Agustín Marchesín."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan -7 días para el Mundial 2026 ⚽\nUn día como hoy en el pasado, Argentina empató 0-0 con Brasil en la 'Batalla del Gigante' 📅\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

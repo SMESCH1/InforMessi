@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-03-23T10:20:44.959073",
+  "data": {
+    "date": "2026-06-27",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -16,
+    "events": [
+      {
+        "date": "2026-06-27",
+        "type": "match",
+        "priority": "critical",
+        "person": "Selección Argentina",
+        "description": "Mundial 2026 - Grupo J: Argentina vs Jordania, 22:00 ET, AT&T Stadium, Dallas."
+      },
+      {
+        "date": "2010-06-27",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Tévez",
+        "description": "Victoria 3-1 ante México en octavos con golazo del Apache."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

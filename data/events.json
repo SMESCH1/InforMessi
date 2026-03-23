@@ -3,6 +3,14 @@
   "schema_version": "1.0",
   "events": [
     {
+      "date": "1901-05-15",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Luis Monti",
+      "age": 125,
+      "description": "Cumpleaños de Luis Monti. Único jugador en disputar finales de Mundial con dos selecciones: Argentina 1930 e Italia 1934 (campeón)."
+    },
+    {
       "date": "1901-05-16",
       "type": "match",
       "priority": "high",
@@ -17,6 +25,49 @@
       "description": "Primer partido oficial de Argentina (6-0 vs Uruguay en Montevideo)."
     },
     {
+      "date": "1904-05-21",
+      "type": "historical",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Fundación de la FIFA en París. Día histórico que sentó las bases del fútbol organizado a nivel mundial."
+    },
+    {
+      "date": "1905-08-15",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina gana su primer trofeo internacional (Copa Lipton vs Uruguay)."
+    },
+    {
+      "date": "1909-05-26",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Matt Busby",
+      "age": 117,
+      "description": "Cumpleaños de Matt Busby. Creador de los 'Busby Babes' del Manchester United, sobreviviente de Múnich 1958."
+    },
+    {
+      "date": "1910-05-25",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina derrota a Chile 3-1 en la Copa Centenario Revolución de Mayo."
+    },
+    {
+      "date": "1910-06-12",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina derrota a Uruguay 4-1 y gana la Copa Centenario."
+    },
+    {
+      "date": "1912-10-06",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Primera victoria sobre un equipo europeo (2-0 vs selección de la liga italiana)."
+    },
+    {
       "date": "1916-07-02",
       "type": "tournament_start",
       "priority": "high",
@@ -24,11 +75,61 @@
       "description": "Inauguración de la primera Copa América (Sudamericano) en Argentina."
     },
     {
+      "date": "1916-07-16",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Final del primer Sudamericano (Argentina 0-0 Uruguay)."
+    },
+    {
       "date": "1921-10-30",
       "type": "title",
       "priority": "high",
       "person": "N/A",
       "description": "Argentina gana su primera Copa América tras vencer 1-0 a Uruguay."
+    },
+    {
+      "date": "1923-12-02",
+      "type": "match",
+      "priority": "low",
+      "person": "Vicente de la Mata",
+      "description": "Debut del legendario Vicente de la Mata."
+    },
+    {
+      "date": "1925-12-25",
+      "type": "title",
+      "priority": "medium",
+      "person": "Manuel Seoane",
+      "description": "Argentina campeón de América en Navidad."
+    },
+    {
+      "date": "1926-07-04",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Alfredo Di Stéfano",
+      "age": 99,
+      "description": "Nacimiento de la 'Saeta Rubia' Alfredo Di Stéfano."
+    },
+    {
+      "date": "1927-11-20",
+      "type": "title",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina campeón de América en Perú."
+    },
+    {
+      "date": "1928-06-10",
+      "type": "match",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Argentina pierde final olímpica en Ámsterdam ante Uruguay."
+    },
+    {
+      "date": "1929-11-17",
+      "type": "title",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina retiene el título sudamericano en casa."
     },
     {
       "date": "1930-07-13",
@@ -52,6 +153,13 @@
       "description": "Primer hat-trick de Argentina en un Mundial realizado por Guillermo Stábile."
     },
     {
+      "date": "1930-07-26",
+      "type": "world_cup",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Argentina golea 6-1 a Estados Unidos en semis de 1930."
+    },
+    {
       "date": "1930-07-30",
       "type": "world_cup",
       "priority": "high",
@@ -66,11 +174,71 @@
       "description": "Debut y eliminación de Argentina en el Mundial de Italia 1934 (2-3 vs Suecia)."
     },
     {
+      "date": "1935-01-27",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina pierde la final de la Copa América ante Uruguay."
+    },
+    {
+      "date": "1936-12-30",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Inicio de la racha invicta de 31 partidos bajo Stábile."
+    },
+    {
+      "date": "1937-01-30",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 1-0 Brasil en el Sudamericano Extra."
+    },
+    {
       "date": "1937-02-01",
       "type": "title",
       "priority": "medium",
       "person": "Vicente de la Mata",
       "description": "Argentina campeón de la Copa América venciendo a Brasil 2-0."
+    },
+    {
+      "date": "1938-11-05",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "César Menotti",
+      "age": 87,
+      "description": "Cumpleaños de César Luis Menotti."
+    },
+    {
+      "date": "1939-11-26",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Carlos Bilardo",
+      "age": 86,
+      "description": "Cumpleaños de Carlos Salvador Bilardo."
+    },
+    {
+      "date": "1940-10-23",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Pelé",
+      "age": 85,
+      "description": "Cumpleaños del Rey Pelé (Hito Mundial)."
+    },
+    {
+      "date": "1941-03-04",
+      "type": "title",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Campeones de América en Chile."
+    },
+    {
+      "date": "1941-04-12",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Bobby Moore",
+      "age": 85,
+      "description": "Cumpleaños de Bobby Moore. Capitán de Inglaterra campeón del mundo 1966, uno de los mejores defensores de la historia."
     },
     {
       "date": "1942-01-22",
@@ -80,11 +248,47 @@
       "description": "Máxima goleada histórica de Argentina: 12-0 a Ecuador en Copa América."
     },
     {
+      "date": "1942-10-23",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Coco Basile",
+      "age": 82,
+      "description": "Cumpleaños del Alfio 'Coco' Basile."
+    },
+    {
+      "date": "1945-01-18",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 4-0 Bolivia en Santiago."
+    },
+    {
+      "date": "1945-02-11",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 1-1 Brasil en el Sudamericano."
+    },
+    {
       "date": "1945-02-25",
       "type": "title",
       "priority": "medium",
       "person": "N/A",
       "description": "Argentina se consagra campeón de la Copa América en Chile."
+    },
+    {
+      "date": "1946-01-19",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 2-0 Bolivia en Buenos Aires."
+    },
+    {
+      "date": "1946-02-02",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 3-1 Uruguay en el Monumental."
     },
     {
       "date": "1946-02-10",
@@ -94,6 +298,29 @@
       "description": "Argentina obtiene el bicampeonato de América venciendo a Brasil."
     },
     {
+      "date": "1946-05-22",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "George Best",
+      "age": 80,
+      "description": "Cumpleaños de George Best. Balón de Oro 1968 con Manchester United, uno de los más grandes de la historia."
+    },
+    {
+      "date": "1947-03-24",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Archie Gemmill",
+      "age": 79,
+      "description": "Cumpleaños de Archie Gemmill. Autor del golazo a Holanda en el Mundial 1978 disputado en Argentina."
+    },
+    {
+      "date": "1947-12-04",
+      "type": "match",
+      "priority": "low",
+      "person": "Di Stéfano",
+      "description": "Debut de Alfredo Di Stéfano en la Selección."
+    },
+    {
       "date": "1947-12-28",
       "type": "title",
       "priority": "high",
@@ -101,11 +328,50 @@
       "description": "Argentina logra el único tricampeonato consecutivo de Copa América (1945-47)."
     },
     {
+      "date": "1949-09-03",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "José Pékerman",
+      "age": 76,
+      "description": "Cumpleaños de José Pékerman."
+    },
+    {
+      "date": "1950-04-08",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Grzegorz Lato",
+      "age": 76,
+      "description": "Cumpleaños de Grzegorz Lato. Bota de Oro del Mundial 1974 con 7 goles, leyenda del fútbol polaco."
+    },
+    {
+      "date": "1951-05-09",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina derrota a Inglaterra en Wembley por primera vez (extraoficial)."
+    },
+    {
       "date": "1953-05-14",
       "type": "match",
       "priority": "medium",
       "person": "Ernesto Grillo",
       "description": "Histórica victoria 3-1 ante Inglaterra con el 'gol imposible' de Ernesto Grillo."
+    },
+    {
+      "date": "1953-05-25",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Daniel Passarella",
+      "age": 72,
+      "description": "Cumpleaños de Daniel Alberto Passarella."
+    },
+    {
+      "date": "1954-07-15",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Mario Kempes",
+      "age": 71,
+      "description": "Cumpleaños del 'Matador' Mario Alberto Kempes."
     },
     {
       "date": "1954-10-03",
@@ -116,11 +382,47 @@
       "description": "Cumpleaños de Hugo Orlando Gatti."
     },
     {
+      "date": "1955-03-02",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 5-3 Paraguay en Santiago."
+    },
+    {
       "date": "1955-03-30",
       "type": "title",
       "priority": "medium",
       "person": "N/A",
       "description": "Argentina campeón de América en Santiago de Chile."
+    },
+    {
+      "date": "1955-10-17",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Daniel Bertoni",
+      "age": 70,
+      "description": "Cumpleaños de Daniel Bertoni."
+    },
+    {
+      "date": "1956-02-05",
+      "type": "match",
+      "priority": "low",
+      "person": "Sívori",
+      "description": "Sívori marca en la victoria 4-1 ante Chile."
+    },
+    {
+      "date": "1957-03-13",
+      "type": "match",
+      "priority": "low",
+      "person": "Maschio",
+      "description": "Maschio hace 4 goles en el 8-2 ante Colombia."
+    },
+    {
+      "date": "1957-03-20",
+      "type": "match",
+      "priority": "low",
+      "person": "Angelillo",
+      "description": "Angelillo anota en el 4-0 ante Uruguay."
     },
     {
       "date": "1957-04-03",
@@ -130,11 +432,48 @@
       "description": "Los Caras Sucias ganan la Copa América goleando a Brasil 3-0."
     },
     {
+      "date": "1958-06-08",
+      "type": "world_cup",
+      "priority": "low",
+      "person": "Corbatta",
+      "description": "Argentina 1-3 Alemania Federal en Suecia."
+    },
+    {
+      "date": "1958-06-11",
+      "type": "world_cup",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 3-1 Irlanda del Norte."
+    },
+    {
       "date": "1958-06-15",
       "type": "world_cup",
       "priority": "medium",
       "person": "N/A",
       "description": "El 'Desastre de Suecia': Argentina eliminada tras perder 6-1 con Checoslovaquia."
+    },
+    {
+      "date": "1959-04-04",
+      "type": "title",
+      "priority": "medium",
+      "person": "Pelé",
+      "description": "Argentina campeón de América ante el Brasil campeón del mundo."
+    },
+    {
+      "date": "1960-04-13",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Rudi Völler",
+      "age": 66,
+      "description": "Cumpleaños de Rudi Völler. Delantero alemán que disputó dos finales mundialistas contra Argentina (1986 y 1990)."
+    },
+    {
+      "date": "1960-05-08",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Franco Baresi",
+      "age": 66,
+      "description": "Cumpleaños de Franco Baresi. Legendario defensor del AC Milan, considerado uno de los mejores de la historia."
     },
     {
       "date": "1960-10-30",
@@ -145,11 +484,112 @@
       "description": "Cumpleaños de Diego Armando Maradona."
     },
     {
+      "date": "1961-03-21",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Lothar Matthäus",
+      "age": 65,
+      "description": "Cumpleaños de Lothar Matthäus. Campeón del mundo 1990, primer FIFA World Player. Disputó 5 Mundiales."
+    },
+    {
+      "date": "1961-05-23",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Daniele Massaro",
+      "age": 65,
+      "description": "Cumpleaños de Daniele Massaro. Autor de 2 goles en la final de Champions 1994 (Milan 4-0 Barcelona)."
+    },
+    {
+      "date": "1962-01-26",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Oscar Ruggeri",
+      "age": 64,
+      "description": "Cumpleaños del 'Cabezón' Ruggeri."
+    },
+    {
+      "date": "1962-05-18",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Nery Pumpido",
+      "age": 63,
+      "description": "Cumpleaños de Nery Pumpido."
+    },
+    {
+      "date": "1962-05-30",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Sergio Batista",
+      "age": 63,
+      "description": "Cumpleaños del 'Checho' Batista."
+    },
+    {
+      "date": "1962-05-30",
+      "type": "world_cup",
+      "priority": "low",
+      "person": "Facundo",
+      "description": "Argentina 1-0 Bulgaria en el debut de Chile 62."
+    },
+    {
+      "date": "1962-06-24",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Jorge Burruchaga",
+      "age": 63,
+      "description": "Cumpleaños de Jorge Burruchaga."
+    },
+    {
+      "date": "1963-10-17",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Sergio Goycochea",
+      "age": 62,
+      "description": "Cumpleaños de Sergio Goycochea."
+    },
+    {
       "date": "1964-06-03",
       "type": "title",
       "priority": "medium",
       "person": "N/A",
       "description": "Argentina gana la Copa de las Naciones en Brasil venciendo a Pelé."
+    },
+    {
+      "date": "1965-05-07",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Norman Whiteside",
+      "age": 61,
+      "description": "Cumpleaños de Norman Whiteside. Jugador más joven en disputar un Mundial (17 años y 41 días, España 1982)."
+    },
+    {
+      "date": "1966-05-08",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Cláudio Taffarel",
+      "age": 60,
+      "description": "Cumpleaños de Taffarel. Arquero brasileño campeón del mundo 1994 y subcampeón 1998."
+    },
+    {
+      "date": "1966-06-01",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Abel Balbo",
+      "age": 60,
+      "description": "Cumpleaños de Abel Balbo. Goleador histórico argentino en la Serie A italiana, 11 goles en 32 partidos con la Selección."
+    },
+    {
+      "date": "1966-07-13",
+      "type": "world_cup",
+      "priority": "low",
+      "person": "Artime",
+      "description": "Argentina 2-1 España en Inglaterra."
+    },
+    {
+      "date": "1966-07-20",
+      "type": "world_cup",
+      "priority": "low",
+      "person": "Artime",
+      "description": "Argentina 2-0 Suiza para clasificar a cuartos."
     },
     {
       "date": "1966-07-23",
@@ -159,11 +599,111 @@
       "description": "Expulsión de Rattín en Wembley y origen de la rivalidad con Inglaterra."
     },
     {
+      "date": "1967-01-09",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Claudio Caniggia",
+      "age": 59,
+      "description": "Cumpleaños de Claudio Paul Caniggia."
+    },
+    {
+      "date": "1967-04-07",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Bodo Illgner",
+      "age": 59,
+      "description": "Cumpleaños de Bodo Illgner. Arquero alemán campeón del mundo 1990 en la final contra Argentina (1-0)."
+    },
+    {
+      "date": "1968-03-31",
+      "type": "birthday",
+      "priority": "low",
+      "person": "César Sampaio",
+      "age": 58,
+      "description": "Cumpleaños de César Sampaio. Autor del primer gol del Mundial 1998 (Brasil vs Escocia, partido inaugural)."
+    },
+    {
+      "date": "1969-02-01",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Gabriel Batistuta",
+      "age": 57,
+      "description": "Cumpleaños de Gabriel Omar Batistuta."
+    },
+    {
       "date": "1969-08-31",
       "type": "failure",
       "priority": "high",
       "person": "N/A",
       "description": "Argentina queda fuera del Mundial 1970 tras empatar con Perú en la Bombonera."
+    },
+    {
+      "date": "1970-04-28",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Diego Simeone",
+      "age": 56,
+      "description": "Cumpleaños de Diego Pablo Simeone, \"El Cholo\". Mediocampista icónico de la Selección (106 partidos), campeón de América 1991 y 1993."
+    },
+    {
+      "date": "1970-05-29",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Roberto Di Matteo",
+      "age": 56,
+      "description": "Cumpleaños de Roberto Di Matteo. Como DT del Chelsea ganó la Champions League 2012 en el milagro de Múnich."
+    },
+    {
+      "date": "1970-06-07",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Cafú",
+      "age": 56,
+      "description": "Cumpleaños de Cafú. Bicampeón del mundo con Brasil (1994 y 2002), récord de partidos con la selección brasileña."
+    },
+    {
+      "date": "1972-06-11",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina gana la Copa Independencia en Brasil."
+    },
+    {
+      "date": "1973-04-10",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Roberto Carlos",
+      "age": 53,
+      "description": "Cumpleaños de Roberto Carlos. Legendario lateral brasileño, campeón del mundo 2002, famoso por su tiro libre imposible."
+    },
+    {
+      "date": "1973-05-04",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Guillermo Barros Schelotto",
+      "age": 53,
+      "description": "Cumpleaños de Guillermo Barros Schelotto. Ídolo de Boca Juniors, múltiples títulos incluyendo Copa Libertadores."
+    },
+    {
+      "date": "1973-10-07",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina clasifica a Alemania 74 tras vencer a Paraguay."
+    },
+    {
+      "date": "1974-06-19",
+      "type": "world_cup",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 1-1 Italia en Alemania 74."
+    },
+    {
+      "date": "1974-06-23",
+      "type": "world_cup",
+      "priority": "low",
+      "person": "Houseman",
+      "description": "Argentina 4-1 Haití para pasar de ronda."
     },
     {
       "date": "1974-06-26",
@@ -173,11 +713,114 @@
       "description": "Argentina sufre la exhibición del Fútbol Total de Holanda (0-4)."
     },
     {
+      "date": "1974-11-09",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Alessandro Del Piero",
+      "age": 51,
+      "description": "Cumpleaños de un grande mundial (Referencia)."
+    },
+    {
+      "date": "1975-05-02",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "David Beckham",
+      "age": 51,
+      "description": "Cumpleaños de David Beckham. Leyenda inglesa (Manchester United, Real Madrid), ícono mundial del fútbol."
+    },
+    {
+      "date": "1975-08-16",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 0-1 Brasil en Copa América."
+    },
+    {
+      "date": "1976-04-05",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Fernando Morientes",
+      "age": 50,
+      "description": "Cumpleaños de Fernando Morientes. Delantero español, ganó tres Champions League con Real Madrid."
+    },
+    {
+      "date": "1976-05-05",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Juan Pablo Sorín",
+      "age": 50,
+      "description": "Cumpleaños de Juan Pablo Sorín. Lateral icónico de la Selección Argentina, mundialista en 2002 y 2006."
+    },
+    {
+      "date": "1976-09-22",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Ronaldo Nazário",
+      "age": 49,
+      "description": "Cumpleaños del 'Fenómeno' Ronaldo."
+    },
+    {
       "date": "1977-02-27",
       "type": "debut",
       "priority": "high",
       "person": "Diego Maradona",
       "description": "Debut de Diego Maradona en la Selección Mayor (vs Hungría)."
+    },
+    {
+      "date": "1977-04-16",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Freddie Ljungberg",
+      "age": 49,
+      "description": "Cumpleaños de Freddie Ljungberg. Extremo sueco del Arsenal de los Invencibles, disputó 2 Mundiales."
+    },
+    {
+      "date": "1977-05-17",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Luca Toni",
+      "age": 49,
+      "description": "Cumpleaños de Luca Toni. Delantero italiano campeón del mundo 2006, Bota de Oro de la Bundesliga."
+    },
+    {
+      "date": "1977-10-30",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Diego Maradona",
+      "age": 17,
+      "description": "Cumpleaños de Maradona previo al Mundial 78."
+    },
+    {
+      "date": "1977-12-15",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Roberto Ayala",
+      "age": 48,
+      "description": "Cumpleaños del 'Ratón' Ayala."
+    },
+    {
+      "date": "1978-04-13",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Carles Puyol",
+      "age": 48,
+      "description": "Cumpleaños de Carles Puyol. Capitán del Barcelona, campeón del mundo 2010, gol de cabeza histórico en semifinal vs Alemania."
+    },
+    {
+      "date": "1978-04-19",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Walter Samuel",
+      "age": 48,
+      "description": "Cumpleaños de Walter Samuel."
+    },
+    {
+      "date": "1978-05-16",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Lionel Scaloni",
+      "age": 47,
+      "description": "Cumpleaños de Lionel Scaloni."
     },
     {
       "date": "1978-05-19",
@@ -192,6 +835,41 @@
       "priority": "high",
       "person": "Leopoldo Luque",
       "description": "Debut en el Mundial 78 con victoria 2-1 ante Hungría."
+    },
+    {
+      "date": "1978-06-02",
+      "type": "world_cup",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Argentina debuta ganando 2-1 a Hungría."
+    },
+    {
+      "date": "1978-06-06",
+      "type": "world_cup",
+      "priority": "medium",
+      "person": "Passarella",
+      "description": "Argentina 2-1 Francia en fase de grupos."
+    },
+    {
+      "date": "1978-06-10",
+      "type": "world_cup",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina cae 0-1 ante Italia y debe ir a Rosario."
+    },
+    {
+      "date": "1978-06-14",
+      "type": "world_cup",
+      "priority": "medium",
+      "person": "Kempes",
+      "description": "Argentina 2-0 Polonia en el Gigante de Arroyito."
+    },
+    {
+      "date": "1978-06-18",
+      "type": "world_cup",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Empate 0-0 entre Argentina y Brasil en la 'Batalla del Gigante'."
     },
     {
       "date": "1978-06-21",
@@ -230,6 +908,54 @@
       "description": "Argentina Campeón Mundial Juvenil Sub-20 en Japón."
     },
     {
+      "date": "1979-11-03",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Pablo Aimar",
+      "age": 46,
+      "description": "Cumpleaños de Pablo Aimar."
+    },
+    {
+      "date": "1979-11-03",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Pekerman",
+      "age": 30,
+      "description": "Pekerman celebrando su cumpleaños en el año del título juvenil."
+    },
+    {
+      "date": "1980-03-21",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Ronaldinho",
+      "age": 46,
+      "description": "Cumpleaños de Ronaldinho Gaúcho. Leyenda brasileña, Balón de Oro 2005, campeón del mundo 2002."
+    },
+    {
+      "date": "1981-12-11",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Saviola",
+      "age": 44,
+      "description": "Nacimiento de Javier Saviola."
+    },
+    {
+      "date": "1982-04-22",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Kaká",
+      "age": 44,
+      "description": "Cumpleaños de Kaká. Genio brasileño, Balón de Oro 2007, campeón del mundo 2002, Champions League con Milan 2007."
+    },
+    {
+      "date": "1982-04-23",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Kyle Beckerman",
+      "age": 44,
+      "description": "Cumpleaños de Kyle Beckerman. Mediocampista estadounidense, 58 selecciones con EEUU, país sede del Mundial 2026."
+    },
+    {
       "date": "1982-06-13",
       "type": "world_cup",
       "priority": "medium",
@@ -237,11 +963,48 @@
       "description": "Debut en España 82: derrota 1-0 ante Bélgica."
     },
     {
+      "date": "1982-06-18",
+      "type": "world_cup",
+      "priority": "low",
+      "person": "Maradona",
+      "description": "Argentina 4-1 Hungría con doblete de Diego."
+    },
+    {
+      "date": "1982-06-23",
+      "type": "world_cup",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 2-0 El Salvador."
+    },
+    {
+      "date": "1982-06-29",
+      "type": "world_cup",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 1-2 Italia en segunda ronda."
+    },
+    {
       "date": "1982-07-02",
       "type": "world_cup",
       "priority": "medium",
       "person": "Diego Maradona",
       "description": "Maradona expulsado ante Brasil y eliminación del Mundial 82."
+    },
+    {
+      "date": "1983-04-07",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Franck Ribéry",
+      "age": 43,
+      "description": "Cumpleaños de Franck Ribéry. Leyenda del Bayern Múnich, finalista del Mundial 2006 con Francia."
+    },
+    {
+      "date": "1983-05-06",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Dani Alves",
+      "age": 43,
+      "description": "Cumpleaños de Dani Alves. El jugador con más títulos en la historia del fútbol profesional."
     },
     {
       "date": "1983-05-10",
@@ -252,6 +1015,22 @@
       "description": "Cumpleaños de Ariel Garcé."
     },
     {
+      "date": "1983-11-17",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Fazio",
+      "age": 42,
+      "description": "Nacimiento de Federico Fazio."
+    },
+    {
+      "date": "1984-05-11",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Andrés Iniesta",
+      "age": 42,
+      "description": "Cumpleaños de Andrés Iniesta. Leyenda del Barcelona, autor del gol que dio el Mundial 2010 a España vs Holanda."
+    },
+    {
       "date": "1984-06-08",
       "type": "birthday",
       "priority": "high",
@@ -260,11 +1039,56 @@
       "description": "Cumpleaños de 'El Jefecito' Javier Mascherano."
     },
     {
+      "date": "1984-12-22",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Ubaldo Fillol",
+      "age": 75,
+      "description": "Cumpleaños del 'Pato' Fillol."
+    },
+    {
+      "date": "1985-05-03",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Ezequiel Lavezzi",
+      "age": 41,
+      "description": "Cumpleaños del 'Pocho' Lavezzi. Delantero argentino de Napoli y PSG, figura de la Selección en el Mundial 2014."
+    },
+    {
+      "date": "1985-06-30",
+      "type": "match",
+      "priority": "high",
+      "person": "Gareca",
+      "description": "Clasificación dramática a México 86 con el gol de Gareca tras jugada de Passarella."
+    },
+    {
+      "date": "1986-05-21",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Mario Mandžukić",
+      "age": 40,
+      "description": "Cumpleaños de Mario Mandžukić. Delantero croata, gol en la final del Mundial 2018 contra Francia."
+    },
+    {
       "date": "1986-06-02",
       "type": "world_cup",
       "priority": "medium",
       "person": "N/A",
       "description": "Debut en México 86: Argentina 3-1 Corea del Sur."
+    },
+    {
+      "date": "1986-06-05",
+      "type": "world_cup",
+      "priority": "medium",
+      "person": "Maradona",
+      "description": "Argentina 1-1 Italia con golazo de Diego."
+    },
+    {
+      "date": "1986-06-10",
+      "type": "world_cup",
+      "priority": "medium",
+      "person": "Valdano",
+      "description": "Argentina 2-0 Bulgaria para asegurar el primer puesto."
     },
     {
       "date": "1986-06-16",
@@ -281,6 +1105,14 @@
       "description": "La 'Mano de Dios' y el 'Gol del Siglo' contra Inglaterra."
     },
     {
+      "date": "1986-06-22",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Lucho González",
+      "age": 45,
+      "description": "Nacimiento de Lucho González."
+    },
+    {
       "date": "1986-06-25",
       "type": "world_cup",
       "priority": "high",
@@ -295,12 +1127,36 @@
       "description": "Argentina Campeón del Mundo por segunda vez (3-2 vs Alemania)."
     },
     {
+      "date": "1987-04-24",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Jan Vertonghen",
+      "age": 39,
+      "description": "Cumpleaños de Jan Vertonghen. Defensor belga, más de 150 caps con Bélgica, finalista Champions 2019 con Tottenham."
+    },
+    {
+      "date": "1987-05-22",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Arturo Vidal",
+      "age": 39,
+      "description": "Cumpleaños de Arturo Vidal. Mediocampista chileno, bicampeón de Copa América 2015 y 2016 ante Argentina."
+    },
+    {
       "date": "1987-06-24",
       "type": "birthday",
       "priority": "high",
       "person": "Lionel Messi",
       "age": 38,
       "description": "Cumpleaños de Lionel Andrés Messi."
+    },
+    {
+      "date": "1988-02-12",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Nicolás Otamendi",
+      "age": 38,
+      "description": "Cumpleaños de Nicolás Otamendi."
     },
     {
       "date": "1988-02-14",
@@ -311,12 +1167,59 @@
       "description": "Cumpleaños de Ángel 'Fideo' Di María."
     },
     {
+      "date": "1988-05-12",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Marcelo Vieira",
+      "age": 38,
+      "description": "Cumpleaños de Marcelo. Lateral legendario del Real Madrid, ganó cuatro Champions League."
+    },
+    {
       "date": "1988-06-02",
       "type": "birthday",
       "priority": "high",
       "person": "Sergio Agüero",
       "age": 37,
       "description": "Cumpleaños de Sergio 'Kun' Agüero."
+    },
+    {
+      "date": "1989-04-15",
+      "type": "historical",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Tragedia de Hillsborough: 97 hinchas de Liverpool mueren durante semifinal de FA Cup. Cambió la seguridad en estadios para siempre."
+    },
+    {
+      "date": "1989-04-17",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Charles Aránguiz",
+      "age": 37,
+      "description": "Cumpleaños de Charles Aránguiz. Mediocampista chileno, bicampeón de Copa América 2015 y 2016 ante Argentina."
+    },
+    {
+      "date": "1989-05-31",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Marco Reus",
+      "age": 37,
+      "description": "Cumpleaños de Marco Reus. Leyenda del Borussia Dortmund, máximo referente del club durante una década."
+    },
+    {
+      "date": "1989-11-23",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Fede Fazio",
+      "age": 36,
+      "description": "Nacimiento de Federico Fazio."
+    },
+    {
+      "date": "1990-04-02",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Miralem Pjanić",
+      "age": 36,
+      "description": "Cumpleaños de Miralem Pjanić. Mediocampista bosnio, maestro del tiro libre en Juventus y Barcelona."
     },
     {
       "date": "1990-06-08",
@@ -331,6 +1234,13 @@
       "priority": "medium",
       "person": "Goycochea",
       "description": "Lesión de Pumpido y entrada de Sergio Goycochea al Mundial."
+    },
+    {
+      "date": "1990-06-18",
+      "type": "world_cup",
+      "priority": "medium",
+      "person": "Monzón",
+      "description": "Argentina 1-1 Rumania y clasificación como mejor tercero."
     },
     {
       "date": "1990-06-24",
@@ -361,11 +1271,59 @@
       "description": "Final Italia 90: Argentina pierde con Alemania por un penal polémico."
     },
     {
+      "date": "1991-03-21",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Antoine Griezmann",
+      "age": 35,
+      "description": "Cumpleaños de Antoine Griezmann. Campeón del mundo 2018 con Francia, estrella del Atlético Madrid."
+    },
+    {
+      "date": "1991-04-11",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Thiago Alcántara",
+      "age": 35,
+      "description": "Cumpleaños de Thiago Alcántara. Mediocampista español hijo de Mazinho, campeón de Champions con Barcelona y Bayern."
+    },
+    {
       "date": "1991-07-21",
       "type": "title",
       "priority": "high",
       "person": "Alfio Basile",
       "description": "Argentina gana la Copa América en Chile rompiendo 32 años de sequía."
+    },
+    {
+      "date": "1991-09-23",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Marcos Acuña",
+      "age": 34,
+      "description": "Cumpleaños del 'Huevo' Acuña."
+    },
+    {
+      "date": "1992-04-30",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Marc-André ter Stegen",
+      "age": 34,
+      "description": "Cumpleaños de ter Stegen. Arquero alemán del Barcelona, pilar del club durante más de una década."
+    },
+    {
+      "date": "1992-05-20",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Gerónimo Rulli",
+      "age": 34,
+      "description": "Cumpleaños de Gerónimo Rulli."
+    },
+    {
+      "date": "1992-08-31",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Nicolás Tagliafico",
+      "age": 33,
+      "description": "Cumpleaños de Nicolás Tagliafico."
     },
     {
       "date": "1992-09-02",
@@ -383,11 +1341,27 @@
       "description": "Argentina gana la Copa Rey Fahd (precursora de Confederaciones)."
     },
     {
+      "date": "1993-01-19",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Juan Musso",
+      "age": 33,
+      "description": "Cumpleaños de Juan Musso."
+    },
+    {
       "date": "1993-02-24",
       "type": "title",
       "priority": "medium",
       "person": "Diego Maradona",
       "description": "Argentina gana la Copa Artemio Franchi ante Dinamarca por penales."
+    },
+    {
+      "date": "1993-06-29",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Leandro Paredes",
+      "age": 33,
+      "description": "Cumpleaños de Leandro Paredes."
     },
     {
       "date": "1993-07-04",
@@ -409,6 +1383,29 @@
       "priority": "medium",
       "person": "Diego Maradona",
       "description": "Regreso de Maradona para el repechaje ante Australia."
+    },
+    {
+      "date": "1994-02-14",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Correa",
+      "age": 32,
+      "description": "Nacimiento de Ángel Correa."
+    },
+    {
+      "date": "1994-05-24",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Rodrigo De Paul",
+      "age": 32,
+      "description": "Cumpleaños del 'Motorcito' De Paul."
+    },
+    {
+      "date": "1994-06-18",
+      "type": "birthday",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Cumpleaños del exarquero Agustín Marchesín."
     },
     {
       "date": "1994-06-21",
@@ -439,6 +1436,14 @@
       "description": "Eliminación de USA 94 tras perder 3-2 con Rumania."
     },
     {
+      "date": "1994-08-13",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Joaquín Correa",
+      "age": 31,
+      "description": "Cumpleaños de Joaquín Correa."
+    },
+    {
       "date": "1994-11-15",
       "type": "birthday",
       "priority": "medium",
@@ -454,11 +1459,106 @@
       "description": "Argentina Campeón Mundial Sub-20 en Qatar."
     },
     {
+      "date": "1996-04-09",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Giovani Lo Celso",
+      "age": 30,
+      "description": "Cumpleaños de Giovani Lo Celso. Mediocampista campeón del mundo en Qatar 2022 con la Selección Argentina."
+    },
+    {
+      "date": "1996-04-18",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Denzel Dumfries",
+      "age": 30,
+      "description": "Cumpleaños de Denzel Dumfries. Lateral holandés del Inter de Milán, goleador en el Mundial 2022."
+    },
+    {
+      "date": "1996-05-10",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Martínez Quarta",
+      "age": 30,
+      "description": "Cumpleaños de Martínez Quarta."
+    },
+    {
+      "date": "1997-03-19",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Guido Rodríguez",
+      "age": 29,
+      "description": "Cumpleaños de Guido Rodríguez."
+    },
+    {
+      "date": "1997-05-10",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Marcos Senesi",
+      "age": 29,
+      "description": "Cumpleaños de Marcos Senesi. Defensor zurdo de Bournemouth, convocado a la Selección Argentina."
+    },
+    {
+      "date": "1997-06-11",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 0-0 Ecuador en el debut de la Copa América 1997 en Bolivia."
+    },
+    {
       "date": "1997-07-05",
       "type": "title",
       "priority": "medium",
       "person": "Pékerman",
       "description": "Argentina Campeón Mundial Sub-20 en Malasia."
+    },
+    {
+      "date": "1997-08-22",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Lautaro Martínez",
+      "age": 28,
+      "description": "Cumpleaños del 'Toro' Lautaro Martínez."
+    },
+    {
+      "date": "1998-01-01",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Gonzalo Montiel",
+      "age": 28,
+      "description": "Cumpleaños del autor del penal decisivo en Qatar."
+    },
+    {
+      "date": "1998-01-18",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Lisandro Martínez",
+      "age": 28,
+      "description": "Cumpleaños de 'Licha' Martínez."
+    },
+    {
+      "date": "1998-04-06",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Nahuel Molina",
+      "age": 28,
+      "description": "Cumpleaños de Nahuel Molina."
+    },
+    {
+      "date": "1998-04-06",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Nicolás González",
+      "age": 28,
+      "description": "Cumpleaños de Nicolás González. Extremo de la Selección, campeón del mundo en Qatar 2022, juega en Juventus/Atlético Madrid."
+    },
+    {
+      "date": "1998-04-27",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Cuti Romero",
+      "age": 28,
+      "description": "Cumpleaños de Cristian 'Cuti' Romero. Defensor campeón del mundo en Qatar 2022, titular indiscutible de la Scaloneta."
     },
     {
       "date": "1998-06-26",
@@ -482,11 +1582,124 @@
       "description": "Eliminación ante Holanda con el golazo de Bergkamp en el último minuto."
     },
     {
+      "date": "1998-12-24",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Alexis Mac Allister",
+      "age": 27,
+      "description": "Cumpleaños de Alexis Mac Allister."
+    },
+    {
+      "date": "1999-04-14",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Matteo Guendouzi",
+      "age": 27,
+      "description": "Cumpleaños de Matteo Guendouzi. Mediocampista francés, subcampeón del mundo en Qatar 2022 ante Argentina."
+    },
+    {
+      "date": "1999-04-29",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Mateo Retegui",
+      "age": 27,
+      "description": "Cumpleaños de Mateo Retegui. Nacido en Argentina, delantero de la selección de Italia. Hijo de Carlos Retegui, leyenda del hockey argentino."
+    },
+    {
+      "date": "1999-05-28",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Facundo Medina",
+      "age": 27,
+      "description": "Cumpleaños de Facundo Medina. Defensor argentino del Olympique de Marsella, internacional con la Selección."
+    },
+    {
+      "date": "2000-01-31",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Julián Álvarez",
+      "age": 26,
+      "description": "Cumpleaños de 'La Araña' Julián Álvarez."
+    },
+    {
+      "date": "2000-03-26",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Fausto Vera",
+      "age": 26,
+      "description": "Cumpleaños de Fausto Vera. Mediocampista argentino, selección juvenil."
+    },
+    {
+      "date": "2000-03-29",
+      "type": "match",
+      "priority": "medium",
+      "person": "Batistuta",
+      "description": "Argentina 4-1 Chile en Eliminatorias rumbo a Corea/Japón 2002. Goles de Batistuta, Verón (2) y C. López en el Monumental."
+    },
+    {
+      "date": "2000-04-26",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Venezuela 0-4 Argentina en Eliminatorias 2002. Goleada de visitante en Maracaibo."
+    },
+    {
+      "date": "2000-06-04",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 1-0 Bolivia en Eliminatorias 2002. Victoria ajustada en Buenos Aires."
+    },
+    {
+      "date": "2001-01-17",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Enzo Fernández",
+      "age": 25,
+      "description": "Cumpleaños de Enzo Fernández."
+    },
+    {
+      "date": "2001-03-27",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 5-0 Venezuela en Eliminatorias 2002. Goleada contundente en Buenos Aires."
+    },
+    {
+      "date": "2001-04-25",
+      "type": "match",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Bolivia 3-3 Argentina en Eliminatorias 2002. Empate dramático en la altura de La Paz."
+    },
+    {
+      "date": "2001-04-26",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Thiago Almada",
+      "age": 25,
+      "description": "Cumpleaños de Thiago Almada. Mediapunta campeón del mundo en Qatar 2022, juega en Atlético Madrid."
+    },
+    {
+      "date": "2001-06-03",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 3-0 Colombia en Eliminatorias 2002. Victoria sólida de local."
+    },
+    {
       "date": "2001-07-08",
       "type": "title",
       "priority": "medium",
       "person": "Saviola",
       "description": "Argentina Campeón Mundial Sub-20 en casa con Saviola como goleador."
+    },
+    {
+      "date": "2001-07-08",
+      "type": "title",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina 3-0 Ghana en final Sub-20."
     },
     {
       "date": "2002-06-02",
@@ -503,11 +1716,64 @@
       "description": "Eliminación en primera fase de Corea-Japón tras empatar con Suecia."
     },
     {
+      "date": "2003-04-15",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Matías Soulé",
+      "age": 23,
+      "description": "Cumpleaños de Matías Soulé. Mediapunta argentino de la Roma, joven promesa del fútbol argentino."
+    },
+    {
+      "date": "2003-04-21",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Xavi Simons",
+      "age": 23,
+      "description": "Cumpleaños de Xavi Simons. Joven estrella holandesa, figura en la Euro 2024, formado en Barcelona y PSG."
+    },
+    {
+      "date": "2003-04-28",
+      "type": "birthday",
+      "priority": "low",
+      "person": "Tomás Palacios",
+      "age": 23,
+      "description": "Cumpleaños de Tomás Palacios. Defensor de la Selección Argentina, 1.96m, a préstamo del Inter en Estudiantes."
+    },
+    {
+      "date": "2003-05-24",
+      "type": "match",
+      "priority": "low",
+      "person": "Bielsa",
+      "description": "Inauguración del Estadio Ciudad de La Plata con Selección."
+    },
+    {
+      "date": "2004-07-01",
+      "type": "birthday",
+      "priority": "medium",
+      "person": "Alejandro Garnacho",
+      "age": 21,
+      "description": "Cumpleaños de Alejandro Garnacho."
+    },
+    {
+      "date": "2004-07-25",
+      "type": "match",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Argentina pierde la final de Copa América 2004 ante Brasil por penales."
+    },
+    {
       "date": "2004-08-28",
       "type": "title",
       "priority": "high",
       "person": "Tévez",
       "description": "Argentina gana su primer Oro Olímpico en fútbol (Atenas 2004)."
+    },
+    {
+      "date": "2005-06-29",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina cae 4-1 ante Brasil en final de Confederaciones."
     },
     {
       "date": "2005-07-02",
@@ -522,6 +1788,13 @@
       "priority": "high",
       "person": "Lionel Messi",
       "description": "Debut de Messi en la Mayor (vs Hungría): expulsado a los 47 segundos."
+    },
+    {
+      "date": "2006-06-10",
+      "type": "world_cup",
+      "priority": "medium",
+      "person": "Saviola",
+      "description": "Debut en Alemania 2006: Argentina 2-1 Costa de Marfil."
     },
     {
       "date": "2006-06-16",
@@ -545,11 +1818,25 @@
       "description": "Eliminación ante Alemania por penales (Messi se quedó en el banco)."
     },
     {
+      "date": "2007-07-15",
+      "type": "match",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Argentina pierde final de Copa América 2007 ante Brasil."
+    },
+    {
       "date": "2007-07-22",
       "type": "title",
       "priority": "medium",
       "person": "Sergio Agüero",
       "description": "Argentina Campeón Mundial Sub-20 en Canadá."
+    },
+    {
+      "date": "2008-08-16",
+      "type": "match",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Argentina elimina a Brasil 3-0 en semis de JJ.OO. Pekín."
     },
     {
       "date": "2008-08-23",
@@ -559,6 +1846,34 @@
       "description": "Argentina gana su segundo Oro Olímpico en Pekín 2008."
     },
     {
+      "date": "2009-03-28",
+      "type": "match",
+      "priority": "high",
+      "person": "Diego Maradona",
+      "description": "Argentina 4-0 Venezuela: debut oficial de Maradona como DT en Eliminatorias. Goles de Messi, Tevez, Maxi Rodríguez y Agüero."
+    },
+    {
+      "date": "2009-04-01",
+      "type": "failure",
+      "priority": "high",
+      "person": "Diego Maradona",
+      "description": "Bolivia 6-1 Argentina en La Paz: la peor derrota de Argentina en Eliminatorias. Papelón histórico bajo la dirección de Maradona."
+    },
+    {
+      "date": "2009-06-06",
+      "type": "match",
+      "priority": "low",
+      "person": "Daniel Díaz",
+      "description": "Argentina 1-0 Colombia en Eliminatorias 2010. Gol de Daniel Díaz en el Monumental."
+    },
+    {
+      "date": "2009-06-10",
+      "type": "match",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Ecuador 2-0 Argentina en Quito por Eliminatorias 2010. Derrota en la altura bajo Maradona."
+    },
+    {
       "date": "2009-10-10",
       "type": "match",
       "priority": "high",
@@ -566,11 +1881,32 @@
       "description": "Gol agónico de Palermo a Perú bajo la lluvia y 'panzazo' de Maradona."
     },
     {
+      "date": "2010-06-12",
+      "type": "world_cup",
+      "priority": "medium",
+      "person": "Heinze",
+      "description": "Debut en Sudáfrica 2010: Argentina 1-0 Nigeria."
+    },
+    {
+      "date": "2010-06-17",
+      "type": "world_cup",
+      "priority": "medium",
+      "person": "Higuaín",
+      "description": "Hat-trick del Pipita ante Corea del Sur (4-1)."
+    },
+    {
       "date": "2010-06-22",
       "type": "world_cup",
       "priority": "medium",
       "person": "Martin Palermo",
       "description": "Gol de Palermo a Grecia: el debutante más veterano en marcar en un mundial."
+    },
+    {
+      "date": "2010-06-27",
+      "type": "world_cup",
+      "priority": "medium",
+      "person": "Tévez",
+      "description": "Victoria 3-1 ante México en octavos con golazo del Apache."
     },
     {
       "date": "2010-07-03",
@@ -587,6 +1923,14 @@
       "description": "Hat-trick de Messi a Brasil en el amistoso 4-3 en New Jersey."
     },
     {
+      "date": "2012-10-30",
+      "type": "birthday",
+      "priority": "high",
+      "person": "Diego Maradona",
+      "age": 65,
+      "description": "Homenaje anual a Maradona."
+    },
+    {
       "date": "2014-06-15",
       "type": "world_cup",
       "priority": "medium",
@@ -599,6 +1943,13 @@
       "priority": "medium",
       "person": "Lionel Messi",
       "description": "Gol agónico de Messi a Irán en el minuto 91."
+    },
+    {
+      "date": "2014-06-25",
+      "type": "world_cup",
+      "priority": "medium",
+      "person": "Rojo",
+      "description": "Argentina 3-2 Nigeria con gol de rodilla de Marcos Rojo."
     },
     {
       "date": "2014-07-01",
@@ -629,6 +1980,13 @@
       "description": "Final Brasil 2014: Argentina pierde 1-0 con Alemania en tiempo extra."
     },
     {
+      "date": "2015-07-04",
+      "type": "match",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Argentina pierde final de Copa América ante Chile por penales."
+    },
+    {
       "date": "2016-06-26",
       "type": "sadness",
       "priority": "high",
@@ -641,6 +1999,20 @@
       "priority": "high",
       "person": "Lionel Messi",
       "description": "Hat-trick de Messi en Ecuador para clasificar agónicamente a Rusia 2018."
+    },
+    {
+      "date": "2018-06-16",
+      "type": "world_cup",
+      "priority": "low",
+      "person": "Lionel Messi",
+      "description": "Empate 1-1 con Islandia y penal errado de Messi."
+    },
+    {
+      "date": "2018-06-21",
+      "type": "world_cup",
+      "priority": "high",
+      "person": "Sampaoli",
+      "description": "Dolorosa caída 0-3 ante Croacia en Rusia 2018."
     },
     {
       "date": "2018-06-26",
@@ -671,6 +2043,34 @@
       "description": "Fallecimiento de Diego Armando Maradona."
     },
     {
+      "date": "2021-06-14",
+      "type": "tournament_start",
+      "priority": "low",
+      "person": "N/A",
+      "description": "Inicio de la Copa América que terminaría con el 'Maracanazo'."
+    },
+    {
+      "date": "2021-06-21",
+      "type": "match",
+      "priority": "low",
+      "person": "Papu Gómez",
+      "description": "Argentina 1-0 Paraguay con gol del Papu."
+    },
+    {
+      "date": "2021-06-28",
+      "type": "match",
+      "priority": "low",
+      "person": "Lionel Messi",
+      "description": "Goleada 4-1 a Bolivia con doblete de Messi."
+    },
+    {
+      "date": "2021-07-03",
+      "type": "match",
+      "priority": "medium",
+      "person": "Lionel Messi",
+      "description": "Goleada 3-0 a Ecuador con un Messi estelar."
+    },
+    {
       "date": "2021-07-06",
       "type": "match",
       "priority": "high",
@@ -683,6 +2083,13 @@
       "priority": "high",
       "person": "Ángel Di María",
       "description": "Argentina Campeón de América en el Maracaná (1-0 vs Brasil)."
+    },
+    {
+      "date": "2021-07-10",
+      "type": "celebration",
+      "priority": "high",
+      "person": "Lionel Messi",
+      "description": "Primer título de Messi con la Selección Mayor."
     },
     {
       "date": "2022-06-01",
@@ -755,440 +2162,25 @@
       "description": "5 millones de personas celebran la Copa del Mundo en las calles de Buenos Aires."
     },
     {
-      "date": "2024-07-14",
-      "type": "title",
+      "date": "2023-03-23",
+      "type": "celebration",
       "priority": "high",
-      "person": "Lautaro Martínez",
-      "description": "Argentina Bicampeón de América venciendo 1-0 a Colombia."
-    },
-    {
-      "date": "1998-01-01",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Gonzalo Montiel",
-      "age": 28,
-      "description": "Cumpleaños del autor del penal decisivo en Qatar."
-    },
-    {
-      "date": "2000-01-31",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Julián Álvarez",
-      "age": 26,
-      "description": "Cumpleaños de 'La Araña' Julián Álvarez."
-    },
-    {
-      "date": "2001-01-17",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Enzo Fernández",
-      "age": 25,
-      "description": "Cumpleaños de Enzo Fernández."
-    },
-    {
-      "date": "1998-04-06",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Nahuel Molina",
-      "age": 28,
-      "description": "Cumpleaños de Nahuel Molina."
-    },
-    {
-      "date": "1993-01-19",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Juan Musso",
-      "age": 33,
-      "description": "Cumpleaños de Juan Musso."
-    },
-    {
-      "date": "1991-09-23",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Marcos Acuña",
-      "age": 34,
-      "description": "Cumpleaños del 'Huevo' Acuña."
-    },
-    {
-      "date": "1994-08-13",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Joaquín Correa",
-      "age": 31,
-      "description": "Cumpleaños de Joaquín Correa."
-    },
-    {
-      "date": "1997-03-19",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Guido Rodríguez",
-      "age": 29,
-      "description": "Cumpleaños de Guido Rodríguez."
-    },
-    {
-      "date": "1992-05-20",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Gerónimo Rulli",
-      "age": 34,
-      "description": "Cumpleaños de Gerónimo Rulli."
-    },
-    {
-      "date": "1994-05-24",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Rodrigo De Paul",
-      "age": 32,
-      "description": "Cumpleaños del 'Motorcito' De Paul."
-    },
-    {
-      "date": "1993-06-29",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Leandro Paredes",
-      "age": 33,
-      "description": "Cumpleaños de Leandro Paredes."
-    },
-    {
-      "date": "1992-08-31",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Nicolás Tagliafico",
-      "age": 33,
-      "description": "Cumpleaños de Nicolás Tagliafico."
-    },
-    {
-      "date": "1988-02-12",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Nicolás Otamendi",
-      "age": 38,
-      "description": "Cumpleaños de Nicolás Otamendi."
-    },
-    {
-      "date": "1998-12-24",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Alexis Mac Allister",
-      "age": 27,
-      "description": "Cumpleaños de Alexis Mac Allister."
-    },
-    {
-      "date": "1997-08-22",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Lautaro Martínez",
-      "age": 28,
-      "description": "Cumpleaños del 'Toro' Lautaro Martínez."
-    },
-    {
-      "date": "2004-07-01",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Alejandro Garnacho",
-      "age": 21,
-      "description": "Cumpleaños de Alejandro Garnacho."
-    },
-    {
-      "date": "1978-05-16",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Lionel Scaloni",
-      "age": 47,
-      "description": "Cumpleaños de Lionel Scaloni."
-    },
-    {
-      "date": "1979-11-03",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Pablo Aimar",
-      "age": 46,
-      "description": "Cumpleaños de Pablo Aimar."
-    },
-    {
-      "date": "1977-12-15",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Roberto Ayala",
-      "age": 48,
-      "description": "Cumpleaños del 'Ratón' Ayala."
-    },
-    {
-      "date": "1978-04-19",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Walter Samuel",
-      "age": 48,
-      "description": "Cumpleaños de Walter Samuel."
-    },
-    {
-      "date": "1939-11-26",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Carlos Bilardo",
-      "age": 86,
-      "description": "Cumpleaños de Carlos Salvador Bilardo."
-    },
-    {
-      "date": "1938-11-05",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "César Menotti",
-      "age": 87,
-      "description": "Cumpleaños de César Luis Menotti."
-    },
-    {
-      "date": "1954-07-15",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Mario Kempes",
-      "age": 71,
-      "description": "Cumpleaños del 'Matador' Mario Alberto Kempes."
-    },
-    {
-      "date": "1962-01-26",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Oscar Ruggeri",
-      "age": 64,
-      "description": "Cumpleaños del 'Cabezón' Ruggeri."
-    },
-    {
-      "date": "1962-05-18",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Nery Pumpido",
-      "age": 63,
-      "description": "Cumpleaños de Nery Pumpido."
-    },
-    {
-      "date": "1962-05-30",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Sergio Batista",
-      "age": 63,
-      "description": "Cumpleaños del 'Checho' Batista."
-    },
-    {
-      "date": "1962-06-24",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Jorge Burruchaga",
-      "age": 63,
-      "description": "Cumpleaños de Jorge Burruchaga."
-    },
-    {
-      "date": "1969-02-01",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Gabriel Batistuta",
-      "age": 57,
-      "description": "Cumpleaños de Gabriel Omar Batistuta."
-    },
-    {
-      "date": "1967-01-09",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Claudio Caniggia",
-      "age": 59,
-      "description": "Cumpleaños de Claudio Paul Caniggia."
-    },
-    {
-      "date": "1953-05-25",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Daniel Passarella",
-      "age": 72,
-      "description": "Cumpleaños de Daniel Alberto Passarella."
-    },
-    {
-      "date": "1949-09-03",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "José Pékerman",
-      "age": 76,
-      "description": "Cumpleaños de José Pékerman."
-    },
-    {
-      "date": "1955-10-17",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Daniel Bertoni",
-      "age": 70,
-      "description": "Cumpleaños de Daniel Bertoni."
-    },
-    {
-      "date": "1963-10-17",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Sergio Goycochea",
-      "age": 62,
-      "description": "Cumpleaños de Sergio Goycochea."
-    },
-    {
-      "date": "1974-11-09",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Alessandro Del Piero",
-      "age": 51,
-      "description": "Cumpleaños de un grande mundial (Referencia)."
-    },
-    {
-      "date": "1976-09-22",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Ronaldo Nazário",
-      "age": 49,
-      "description": "Cumpleaños del 'Fenómeno' Ronaldo."
-    },
-    {
-      "date": "1984-12-22",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Ubaldo Fillol",
-      "age": 75,
-      "description": "Cumpleaños del 'Pato' Fillol."
-    },
-    {
-      "date": "1926-07-04",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Alfredo Di Stéfano",
-      "age": 99,
-      "description": "Nacimiento de la 'Saeta Rubia' Alfredo Di Stéfano."
-    },
-    {
-      "date": "1930-07-26",
-      "type": "world_cup",
-      "priority": "high",
-      "person": "N/A",
-      "description": "Argentina golea 6-1 a Estados Unidos en semis de 1930."
-    },
-    {
-      "date": "1978-06-06",
-      "type": "world_cup",
-      "priority": "medium",
-      "person": "Passarella",
-      "description": "Argentina 2-1 Francia en fase de grupos."
-    },
-    {
-      "date": "1978-06-10",
-      "type": "world_cup",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina cae 0-1 ante Italia y debe ir a Rosario."
-    },
-    {
-      "date": "1978-06-14",
-      "type": "world_cup",
-      "priority": "medium",
-      "person": "Kempes",
-      "description": "Argentina 2-0 Polonia en el Gigante de Arroyito."
-    },
-    {
-      "date": "1978-06-18",
-      "type": "world_cup",
-      "priority": "medium",
-      "person": "N/A",
-      "description": "Empate 0-0 entre Argentina y Brasil en la 'Batalla del Gigante'."
-    },
-    {
-      "date": "1986-06-05",
-      "type": "world_cup",
-      "priority": "medium",
-      "person": "Maradona",
-      "description": "Argentina 1-1 Italia con golazo de Diego."
-    },
-    {
-      "date": "1986-06-10",
-      "type": "world_cup",
-      "priority": "medium",
-      "person": "Valdano",
-      "description": "Argentina 2-0 Bulgaria para asegurar el primer puesto."
-    },
-    {
-      "date": "1990-06-18",
-      "type": "world_cup",
-      "priority": "medium",
-      "person": "Monzón",
-      "description": "Argentina 1-1 Rumania y clasificación como mejor tercero."
-    },
-    {
-      "date": "2006-06-10",
-      "type": "world_cup",
-      "priority": "medium",
-      "person": "Saviola",
-      "description": "Debut en Alemania 2006: Argentina 2-1 Costa de Marfil."
-    },
-    {
-      "date": "2010-06-12",
-      "type": "world_cup",
-      "priority": "medium",
-      "person": "Heinze",
-      "description": "Debut en Sudáfrica 2010: Argentina 1-0 Nigeria."
-    },
-    {
-      "date": "2010-06-17",
-      "type": "world_cup",
-      "priority": "medium",
-      "person": "Higuaín",
-      "description": "Hat-trick del Pipita ante Corea del Sur (4-1)."
-    },
-    {
-      "date": "2010-06-27",
-      "type": "world_cup",
-      "priority": "medium",
-      "person": "Tévez",
-      "description": "Victoria 3-1 ante México en octavos con golazo del Apache."
-    },
-    {
-      "date": "2014-06-25",
-      "type": "world_cup",
-      "priority": "medium",
-      "person": "Rojo",
-      "description": "Argentina 3-2 Nigeria con gol de rodilla de Marcos Rojo."
-    },
-    {
-      "date": "2018-06-16",
-      "type": "world_cup",
-      "priority": "low",
       "person": "Lionel Messi",
-      "description": "Empate 1-1 con Islandia y penal errado de Messi."
+      "description": "Primer partido de Argentina con las 3 estrellas (2-0 vs Panamá)."
     },
     {
-      "date": "2018-06-21",
-      "type": "world_cup",
+      "date": "2023-11-21",
+      "type": "match",
       "priority": "high",
-      "person": "Sampaoli",
-      "description": "Dolorosa caída 0-3 ante Croacia en Rusia 2018."
+      "person": "Otamendi",
+      "description": "Argentina le quita el invicto histórico a Brasil en el Maracaná por Eliminatorias."
     },
     {
-      "date": "2021-06-14",
-      "type": "tournament_start",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Inicio de la Copa América que terminaría con el 'Maracanazo'."
-    },
-    {
-      "date": "2021-06-21",
-      "type": "match",
-      "priority": "low",
-      "person": "Papu Gómez",
-      "description": "Argentina 1-0 Paraguay con gol del Papu."
-    },
-    {
-      "date": "2021-06-28",
-      "type": "match",
-      "priority": "low",
-      "person": "Lionel Messi",
-      "description": "Goleada 4-1 a Bolivia con doblete de Messi."
-    },
-    {
-      "date": "2021-07-03",
-      "type": "match",
-      "priority": "medium",
-      "person": "Lionel Messi",
-      "description": "Goleada 3-0 a Ecuador con un Messi estelar."
+      "date": "2024-05-05",
+      "type": "death",
+      "priority": "high",
+      "person": "César Luis Menotti",
+      "description": "Aniversario del fallecimiento de César Luis Menotti, DT campeón del mundo con Argentina en 1978."
     },
     {
       "date": "2024-06-20",
@@ -1205,457 +2197,11 @@
       "description": "Dibu vuelve a ser héroe en penales ante Ecuador."
     },
     {
-      "date": "1940-10-23",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Pelé",
-      "age": 85,
-      "description": "Cumpleaños del Rey Pelé (Hito Mundial)."
-    },
-    {
-      "date": "1916-07-16",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Final del primer Sudamericano (Argentina 0-0 Uruguay)."
-    },
-    {
-      "date": "1925-12-25",
+      "date": "2024-07-14",
       "type": "title",
-      "priority": "medium",
-      "person": "Manuel Seoane",
-      "description": "Argentina campeón de América en Navidad."
-    },
-    {
-      "date": "1927-11-20",
-      "type": "title",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina campeón de América en Perú."
-    },
-    {
-      "date": "1929-11-17",
-      "type": "title",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina retiene el título sudamericano en casa."
-    },
-    {
-      "date": "1941-03-04",
-      "type": "title",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Campeones de América en Chile."
-    },
-    {
-      "date": "1959-04-04",
-      "type": "title",
-      "priority": "medium",
-      "person": "Pelé",
-      "description": "Argentina campeón de América ante el Brasil campeón del mundo."
-    },
-    {
-      "date": "1910-05-25",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina derrota a Chile 3-1 en la Copa Centenario Revolución de Mayo."
-    },
-    {
-      "date": "1910-06-12",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina derrota a Uruguay 4-1 y gana la Copa Centenario."
-    },
-    {
-      "date": "1923-12-02",
-      "type": "match",
-      "priority": "low",
-      "person": "Vicente de la Mata",
-      "description": "Debut del legendario Vicente de la Mata."
-    },
-    {
-      "date": "1935-01-27",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina pierde la final de la Copa América ante Uruguay."
-    },
-    {
-      "date": "1937-01-30",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 1-0 Brasil en el Sudamericano Extra."
-    },
-    {
-      "date": "1945-01-18",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 4-0 Bolivia en Santiago."
-    },
-    {
-      "date": "1945-02-11",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 1-1 Brasil en el Sudamericano."
-    },
-    {
-      "date": "1946-01-19",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 2-0 Bolivia en Buenos Aires."
-    },
-    {
-      "date": "1946-02-02",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 3-1 Uruguay en el Monumental."
-    },
-    {
-      "date": "1947-12-04",
-      "type": "match",
-      "priority": "low",
-      "person": "Di Stéfano",
-      "description": "Debut de Alfredo Di Stéfano en la Selección."
-    },
-    {
-      "date": "1955-03-02",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 5-3 Paraguay en Santiago."
-    },
-    {
-      "date": "1956-02-05",
-      "type": "match",
-      "priority": "low",
-      "person": "Sívori",
-      "description": "Sívori marca en la victoria 4-1 ante Chile."
-    },
-    {
-      "date": "1957-03-13",
-      "type": "match",
-      "priority": "low",
-      "person": "Maschio",
-      "description": "Maschio hace 4 goles en el 8-2 ante Colombia."
-    },
-    {
-      "date": "1957-03-20",
-      "type": "match",
-      "priority": "low",
-      "person": "Angelillo",
-      "description": "Angelillo anota en el 4-0 ante Uruguay."
-    },
-    {
-      "date": "1958-06-08",
-      "type": "world_cup",
-      "priority": "low",
-      "person": "Corbatta",
-      "description": "Argentina 1-3 Alemania Federal en Suecia."
-    },
-    {
-      "date": "1958-06-11",
-      "type": "world_cup",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 3-1 Irlanda del Norte."
-    },
-    {
-      "date": "1962-05-30",
-      "type": "world_cup",
-      "priority": "low",
-      "person": "Facundo",
-      "description": "Argentina 1-0 Bulgaria en el debut de Chile 62."
-    },
-    {
-      "date": "1966-07-13",
-      "type": "world_cup",
-      "priority": "low",
-      "person": "Artime",
-      "description": "Argentina 2-1 España en Inglaterra."
-    },
-    {
-      "date": "1966-07-20",
-      "type": "world_cup",
-      "priority": "low",
-      "person": "Artime",
-      "description": "Argentina 2-0 Suiza para clasificar a cuartos."
-    },
-    {
-      "date": "1974-06-19",
-      "type": "world_cup",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 1-1 Italia en Alemania 74."
-    },
-    {
-      "date": "1974-06-23",
-      "type": "world_cup",
-      "priority": "low",
-      "person": "Houseman",
-      "description": "Argentina 4-1 Haití para pasar de ronda."
-    },
-    {
-      "date": "1975-08-16",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 0-1 Brasil en Copa América."
-    },
-    {
-      "date": "1978-06-02",
-      "type": "world_cup",
-      "priority": "medium",
-      "person": "N/A",
-      "description": "Argentina debuta ganando 2-1 a Hungría."
-    },
-    {
-      "date": "1982-06-18",
-      "type": "world_cup",
-      "priority": "low",
-      "person": "Maradona",
-      "description": "Argentina 4-1 Hungría con doblete de Diego."
-    },
-    {
-      "date": "1982-06-23",
-      "type": "world_cup",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 2-0 El Salvador."
-    },
-    {
-      "date": "1982-06-29",
-      "type": "world_cup",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 1-2 Italia en segunda ronda."
-    },
-    {
-      "date": "1986-06-22",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Lucho González",
-      "age": 45,
-      "description": "Nacimiento de Lucho González."
-    },
-    {
-      "date": "1989-11-23",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Fede Fazio",
-      "age": 36,
-      "description": "Nacimiento de Federico Fazio."
-    },
-    {
-      "date": "1994-06-18",
-      "type": "birthday",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Cumpleaños del exarquero Agustín Marchesín."
-    },
-    {
-      "date": "1996-05-10",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Martínez Quarta",
-      "age": 30,
-      "description": "Cumpleaños de Martínez Quarta."
-    },
-    {
-      "date": "1998-01-18",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Lisandro Martínez",
-      "age": 28,
-      "description": "Cumpleaños de 'Licha' Martínez."
-    },
-    {
-      "date": "2003-05-24",
-      "type": "match",
-      "priority": "low",
-      "person": "Bielsa",
-      "description": "Inauguración del Estadio Ciudad de La Plata con Selección."
-    },
-    {
-      "date": "2004-07-25",
-      "type": "match",
-      "priority": "medium",
-      "person": "N/A",
-      "description": "Argentina pierde la final de Copa América 2004 ante Brasil por penales."
-    },
-    {
-      "date": "2005-06-29",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina cae 4-1 ante Brasil en final de Confederaciones."
-    },
-    {
-      "date": "2007-07-15",
-      "type": "match",
-      "priority": "medium",
-      "person": "N/A",
-      "description": "Argentina pierde final de Copa América 2007 ante Brasil."
-    },
-    {
-      "date": "2012-10-30",
-      "type": "birthday",
       "priority": "high",
-      "person": "Diego Maradona",
-      "age": 65,
-      "description": "Homenaje anual a Maradona."
-    },
-    {
-      "date": "2015-07-04",
-      "type": "match",
-      "priority": "medium",
-      "person": "N/A",
-      "description": "Argentina pierde final de Copa América ante Chile por penales."
-    },
-    {
-      "date": "2023-03-23",
-      "type": "celebration",
-      "priority": "high",
-      "person": "Lionel Messi",
-      "description": "Primer partido de Argentina con las 3 estrellas (2-0 vs Panamá)."
-    },
-    {
-      "date": "2023-11-21",
-      "type": "match",
-      "priority": "high",
-      "person": "Otamendi",
-      "description": "Argentina le quita el invicto histórico a Brasil en el Maracaná por Eliminatorias."
-    },
-    {
-      "date": "1905-08-15",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina gana su primer trofeo internacional (Copa Lipton vs Uruguay)."
-    },
-    {
-      "date": "1912-10-06",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Primera victoria sobre un equipo europeo (2-0 vs selección de la liga italiana)."
-    },
-    {
-      "date": "1928-06-10",
-      "type": "match",
-      "priority": "medium",
-      "person": "N/A",
-      "description": "Argentina pierde final olímpica en Ámsterdam ante Uruguay."
-    },
-    {
-      "date": "1936-12-30",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Inicio de la racha invicta de 31 partidos bajo Stábile."
-    },
-    {
-      "date": "1942-10-23",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Coco Basile",
-      "age": 82,
-      "description": "Cumpleaños del Alfio 'Coco' Basile."
-    },
-    {
-      "date": "1951-05-09",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina derrota a Inglaterra en Wembley por primera vez (extraoficial)."
-    },
-    {
-      "date": "1972-06-11",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina gana la Copa Independencia en Brasil."
-    },
-    {
-      "date": "1973-10-07",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina clasifica a Alemania 74 tras vencer a Paraguay."
-    },
-    {
-      "date": "1977-10-30",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Diego Maradona",
-      "age": 17,
-      "description": "Cumpleaños de Maradona previo al Mundial 78."
-    },
-    {
-      "date": "1979-11-03",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Pekerman",
-      "age": 30,
-      "description": "Pekerman celebrando su cumpleaños en el año del título juvenil."
-    },
-    {
-      "date": "1981-12-11",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Saviola",
-      "age": 44,
-      "description": "Nacimiento de Javier Saviola."
-    },
-    {
-      "date": "1983-11-17",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Fazio",
-      "age": 42,
-      "description": "Nacimiento de Federico Fazio."
-    },
-    {
-      "date": "1985-06-30",
-      "type": "match",
-      "priority": "high",
-      "person": "Gareca",
-      "description": "Clasificación dramática a México 86 con el gol de Gareca tras jugada de Passarella."
-    },
-    {
-      "date": "1994-02-14",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Correa",
-      "age": 32,
-      "description": "Nacimiento de Ángel Correa."
-    },
-    {
-      "date": "2001-07-08",
-      "type": "title",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 3-0 Ghana en final Sub-20."
-    },
-    {
-      "date": "2008-08-16",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina elimina a Brasil 3-0 en semis de JJ.OO. Pekín."
-    },
-    {
-      "date": "2021-07-10",
-      "type": "celebration",
-      "priority": "high",
-      "person": "Lionel Messi",
-      "description": "Primer título de Messi con la Selección Mayor."
+      "person": "Lautaro Martínez",
+      "description": "Argentina Bicampeón de América venciendo 1-0 a Colombia."
     },
     {
       "date": "2026-01-26",
@@ -1666,550 +2212,277 @@
       "description": "Cumpleaños de Lionel Messi (Dato actual)."
     },
     {
-      "date": "1970-04-28",
-      "type": "birthday",
+      "date": "2026-06-11",
+      "type": "match",
       "priority": "high",
-      "person": "Diego Simeone",
-      "age": 56,
-      "description": "Cumpleaños de Diego Pablo Simeone, \"El Cholo\". Mediocampista icónico de la Selección (106 partidos), campeón de América 1991 y 1993."
-    },
-    {
-      "date": "2001-04-26",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Thiago Almada",
-      "age": 25,
-      "description": "Cumpleaños de Thiago Almada. Mediapunta campeón del mundo en Qatar 2022, juega en Atlético Madrid."
-    },
-    {
-      "date": "1998-04-06",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Nicolás González",
-      "age": 28,
-      "description": "Cumpleaños de Nicolás González. Extremo de la Selección, campeón del mundo en Qatar 2022, juega en Juventus/Atlético Madrid."
-    },
-    {
-      "date": "1999-05-28",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Facundo Medina",
-      "age": 27,
-      "description": "Cumpleaños de Facundo Medina. Defensor argentino del Olympique de Marsella, internacional con la Selección."
-    },
-    {
-      "date": "1966-06-01",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Abel Balbo",
-      "age": 60,
-      "description": "Cumpleaños de Abel Balbo. Goleador histórico argentino en la Serie A italiana, 11 goles en 32 partidos con la Selección."
-    },
-    {
-      "date": "2000-03-29",
-      "type": "match",
-      "priority": "medium",
-      "person": "Batistuta",
-      "description": "Argentina 4-1 Chile en Eliminatorias rumbo a Corea/Japón 2002. Goles de Batistuta, Verón (2) y C. López en el Monumental."
-    },
-    {
-      "date": "2000-04-26",
-      "type": "match",
-      "priority": "low",
       "person": "N/A",
-      "description": "Venezuela 0-4 Argentina en Eliminatorias 2002. Goleada de visitante en Maracaibo."
+      "description": "Inauguración del Mundial 2026: México vs Sudáfrica en el Estadio Azteca, Ciudad de México."
     },
     {
-      "date": "2001-03-27",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 5-0 Venezuela en Eliminatorias 2002. Goleada contundente en Buenos Aires."
-    },
-    {
-      "date": "2001-04-25",
+      "date": "2026-06-12",
       "type": "match",
       "priority": "medium",
       "person": "N/A",
-      "description": "Bolivia 3-3 Argentina en Eliminatorias 2002. Empate dramático en la altura de La Paz."
+      "description": "Mundial 2026 - Jornada 1 de fase de grupos. Primeros partidos del torneo."
     },
     {
-      "date": "2001-06-03",
-      "type": "match",
-      "priority": "low",
-      "person": "N/A",
-      "description": "Argentina 3-0 Colombia en Eliminatorias 2002. Victoria sólida de local."
-    },
-    {
-      "date": "2009-03-28",
-      "type": "match",
-      "priority": "high",
-      "person": "Diego Maradona",
-      "description": "Argentina 4-0 Venezuela: debut oficial de Maradona como DT en Eliminatorias. Goles de Messi, Tevez, Maxi Rodríguez y Agüero."
-    },
-    {
-      "date": "2009-04-01",
-      "type": "failure",
-      "priority": "high",
-      "person": "Diego Maradona",
-      "description": "Bolivia 6-1 Argentina en La Paz: la peor derrota de Argentina en Eliminatorias. Papelón histórico bajo la dirección de Maradona."
-    },
-    {
-      "date": "2009-06-06",
-      "type": "match",
-      "priority": "low",
-      "person": "Daniel Díaz",
-      "description": "Argentina 1-0 Colombia en Eliminatorias 2010. Gol de Daniel Díaz en el Monumental."
-    },
-    {
-      "date": "2009-06-10",
+      "date": "2026-06-13",
       "type": "match",
       "priority": "medium",
       "person": "N/A",
-      "description": "Ecuador 2-0 Argentina en Quito por Eliminatorias 2010. Derrota en la altura bajo Maradona."
+      "description": "Mundial 2026 - Continúa la fase de grupos con más debuts."
     },
     {
-      "date": "1997-06-11",
+      "date": "2026-06-14",
       "type": "match",
-      "priority": "low",
+      "priority": "medium",
       "person": "N/A",
-      "description": "Argentina 0-0 Ecuador en el debut de la Copa América 1997 en Bolivia."
+      "description": "Mundial 2026 - Fase de grupos, jornada 1 en pleno desarrollo."
     },
     {
-      "date": "2000-06-04",
+      "date": "2026-06-15",
       "type": "match",
-      "priority": "low",
+      "priority": "medium",
       "person": "N/A",
-      "description": "Argentina 1-0 Bolivia en Eliminatorias 2002. Victoria ajustada en Buenos Aires."
+      "description": "Mundial 2026 - Fase de grupos, cierran los debuts de jornada 1."
     },
     {
-      "date": "1980-03-21",
-      "type": "birthday",
+      "date": "2026-06-16",
+      "type": "match",
+      "priority": "critical",
+      "person": "Selección Argentina",
+      "description": "Mundial 2026 - Grupo J: Argentina vs Argelia, 21:00 ET, Arrowhead Stadium, Kansas City."
+    },
+    {
+      "date": "2026-06-17",
+      "type": "match",
       "priority": "medium",
-      "person": "Ronaldinho",
-      "age": 46,
-      "description": "Cumpleaños de Ronaldinho Gaúcho. Leyenda brasileña, Balón de Oro 2005, campeón del mundo 2002."
+      "person": "N/A",
+      "description": "Mundial 2026 - Fase de grupos, jornada 2 en curso."
     },
     {
-      "date": "1961-03-21",
-      "type": "birthday",
+      "date": "2026-06-18",
+      "type": "match",
       "priority": "medium",
-      "person": "Lothar Matthäus",
-      "age": 65,
-      "description": "Cumpleaños de Lothar Matthäus. Campeón del mundo 1990, primer FIFA World Player. Disputó 5 Mundiales."
+      "person": "N/A",
+      "description": "Mundial 2026 - Fase de grupos, jornada 2."
     },
     {
-      "date": "1991-03-21",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Antoine Griezmann",
-      "age": 35,
-      "description": "Cumpleaños de Antoine Griezmann. Campeón del mundo 2018 con Francia, estrella del Atlético Madrid."
-    },
-    {
-      "date": "1947-03-24",
-      "type": "birthday",
+      "date": "2026-06-19",
+      "type": "match",
       "priority": "medium",
-      "person": "Archie Gemmill",
-      "age": 79,
-      "description": "Cumpleaños de Archie Gemmill. Autor del golazo a Holanda en el Mundial 1978 disputado en Argentina."
+      "person": "N/A",
+      "description": "Mundial 2026 - Fase de grupos, jornada 2."
     },
     {
-      "date": "2000-03-26",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Fausto Vera",
-      "age": 26,
-      "description": "Cumpleaños de Fausto Vera. Mediocampista argentino, selección juvenil."
-    },
-    {
-      "date": "1968-03-31",
-      "type": "birthday",
-      "priority": "low",
-      "person": "César Sampaio",
-      "age": 58,
-      "description": "Cumpleaños de César Sampaio. Autor del primer gol del Mundial 1998 (Brasil vs Escocia, partido inaugural)."
-    },
-    {
-      "date": "1990-04-02",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Miralem Pjanić",
-      "age": 36,
-      "description": "Cumpleaños de Miralem Pjanić. Mediocampista bosnio, maestro del tiro libre en Juventus y Barcelona."
-    },
-    {
-      "date": "1976-04-05",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Fernando Morientes",
-      "age": 50,
-      "description": "Cumpleaños de Fernando Morientes. Delantero español, ganó tres Champions League con Real Madrid."
-    },
-    {
-      "date": "1967-04-07",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Bodo Illgner",
-      "age": 59,
-      "description": "Cumpleaños de Bodo Illgner. Arquero alemán campeón del mundo 1990 en la final contra Argentina (1-0)."
-    },
-    {
-      "date": "1983-04-07",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Franck Ribéry",
-      "age": 43,
-      "description": "Cumpleaños de Franck Ribéry. Leyenda del Bayern Múnich, finalista del Mundial 2006 con Francia."
-    },
-    {
-      "date": "1950-04-08",
-      "type": "birthday",
+      "date": "2026-06-20",
+      "type": "match",
       "priority": "medium",
-      "person": "Grzegorz Lato",
-      "age": 76,
-      "description": "Cumpleaños de Grzegorz Lato. Bota de Oro del Mundial 1974 con 7 goles, leyenda del fútbol polaco."
+      "person": "N/A",
+      "description": "Mundial 2026 - Fase de grupos, jornada 2."
     },
     {
-      "date": "1996-04-09",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Giovani Lo Celso",
-      "age": 30,
-      "description": "Cumpleaños de Giovani Lo Celso. Mediocampista campeón del mundo en Qatar 2022 con la Selección Argentina."
-    },
-    {
-      "date": "1973-04-10",
-      "type": "birthday",
+      "date": "2026-06-21",
+      "type": "match",
       "priority": "medium",
-      "person": "Roberto Carlos",
-      "age": 53,
-      "description": "Cumpleaños de Roberto Carlos. Legendario lateral brasileño, campeón del mundo 2002, famoso por su tiro libre imposible."
+      "person": "N/A",
+      "description": "Mundial 2026 - Fase de grupos, jornada 2."
     },
     {
-      "date": "1991-04-11",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Thiago Alcántara",
-      "age": 35,
-      "description": "Cumpleaños de Thiago Alcántara. Mediocampista español hijo de Mazinho, campeón de Champions con Barcelona y Bayern."
+      "date": "2026-06-22",
+      "type": "match",
+      "priority": "critical",
+      "person": "Selección Argentina",
+      "description": "Mundial 2026 - Grupo J: Argentina vs Austria, 13:00 ET, AT&T Stadium, Dallas."
     },
     {
-      "date": "1941-04-12",
-      "type": "birthday",
+      "date": "2026-06-23",
+      "type": "match",
       "priority": "medium",
-      "person": "Bobby Moore",
-      "age": 85,
-      "description": "Cumpleaños de Bobby Moore. Capitán de Inglaterra campeón del mundo 1966, uno de los mejores defensores de la historia."
+      "person": "N/A",
+      "description": "Mundial 2026 - Fase de grupos, jornada 3."
     },
     {
-      "date": "1960-04-13",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Rudi Völler",
-      "age": 66,
-      "description": "Cumpleaños de Rudi Völler. Delantero alemán que disputó dos finales mundialistas contra Argentina (1986 y 1990)."
-    },
-    {
-      "date": "1978-04-13",
-      "type": "birthday",
+      "date": "2026-06-24",
+      "type": "match",
       "priority": "medium",
-      "person": "Carles Puyol",
-      "age": 48,
-      "description": "Cumpleaños de Carles Puyol. Capitán del Barcelona, campeón del mundo 2010, gol de cabeza histórico en semifinal vs Alemania."
+      "person": "N/A",
+      "description": "Mundial 2026 - Fase de grupos, jornada 3."
     },
     {
-      "date": "1999-04-14",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Matteo Guendouzi",
-      "age": 27,
-      "description": "Cumpleaños de Matteo Guendouzi. Mediocampista francés, subcampeón del mundo en Qatar 2022 ante Argentina."
+      "date": "2026-06-25",
+      "type": "match",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Mundial 2026 - Fase de grupos, cierre de jornada 3."
     },
     {
-      "date": "1989-04-15",
-      "type": "historical",
+      "date": "2026-06-26",
+      "type": "match",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Mundial 2026 - Últimos partidos de fase de grupos."
+    },
+    {
+      "date": "2026-06-27",
+      "type": "match",
+      "priority": "critical",
+      "person": "Selección Argentina",
+      "description": "Mundial 2026 - Grupo J: Argentina vs Jordania, 22:00 ET, AT&T Stadium, Dallas."
+    },
+    {
+      "date": "2026-06-28",
+      "type": "match",
       "priority": "high",
       "person": "N/A",
-      "description": "Tragedia de Hillsborough: 97 hinchas de Liverpool mueren durante semifinal de FA Cup. Cambió la seguridad en estadios para siempre."
+      "description": "Mundial 2026 - Comienzan los 32avos de final."
     },
     {
-      "date": "2003-04-15",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Matías Soulé",
-      "age": 23,
-      "description": "Cumpleaños de Matías Soulé. Mediapunta argentino de la Roma, joven promesa del fútbol argentino."
-    },
-    {
-      "date": "1977-04-16",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Freddie Ljungberg",
-      "age": 49,
-      "description": "Cumpleaños de Freddie Ljungberg. Extremo sueco del Arsenal de los Invencibles, disputó 2 Mundiales."
-    },
-    {
-      "date": "1989-04-17",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Charles Aránguiz",
-      "age": 37,
-      "description": "Cumpleaños de Charles Aránguiz. Mediocampista chileno, bicampeón de Copa América 2015 y 2016 ante Argentina."
-    },
-    {
-      "date": "1996-04-18",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Denzel Dumfries",
-      "age": 30,
-      "description": "Cumpleaños de Denzel Dumfries. Lateral holandés del Inter de Milán, goleador en el Mundial 2022."
-    },
-    {
-      "date": "2003-04-21",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Xavi Simons",
-      "age": 23,
-      "description": "Cumpleaños de Xavi Simons. Joven estrella holandesa, figura en la Euro 2024, formado en Barcelona y PSG."
-    },
-    {
-      "date": "1982-04-22",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Kaká",
-      "age": 44,
-      "description": "Cumpleaños de Kaká. Genio brasileño, Balón de Oro 2007, campeón del mundo 2002, Champions League con Milan 2007."
-    },
-    {
-      "date": "1982-04-23",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Kyle Beckerman",
-      "age": 44,
-      "description": "Cumpleaños de Kyle Beckerman. Mediocampista estadounidense, 58 selecciones con EEUU, país sede del Mundial 2026."
-    },
-    {
-      "date": "1987-04-24",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Jan Vertonghen",
-      "age": 39,
-      "description": "Cumpleaños de Jan Vertonghen. Defensor belga, más de 150 caps con Bélgica, finalista Champions 2019 con Tottenham."
-    },
-    {
-      "date": "1998-04-27",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Cuti Romero",
-      "age": 28,
-      "description": "Cumpleaños de Cristian 'Cuti' Romero. Defensor campeón del mundo en Qatar 2022, titular indiscutible de la Scaloneta."
-    },
-    {
-      "date": "1999-04-29",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Mateo Retegui",
-      "age": 27,
-      "description": "Cumpleaños de Mateo Retegui. Nacido en Argentina, delantero de la selección de Italia. Hijo de Carlos Retegui, leyenda del hockey argentino."
-    },
-    {
-      "date": "1992-04-30",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Marc-André ter Stegen",
-      "age": 34,
-      "description": "Cumpleaños de ter Stegen. Arquero alemán del Barcelona, pilar del club durante más de una década."
-    },
-    {
-      "date": "1975-05-02",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "David Beckham",
-      "age": 51,
-      "description": "Cumpleaños de David Beckham. Leyenda inglesa (Manchester United, Real Madrid), ícono mundial del fútbol."
-    },
-    {
-      "date": "1985-05-03",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Ezequiel Lavezzi",
-      "age": 41,
-      "description": "Cumpleaños del 'Pocho' Lavezzi. Delantero argentino de Napoli y PSG, figura de la Selección en el Mundial 2014."
-    },
-    {
-      "date": "1973-05-04",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Guillermo Barros Schelotto",
-      "age": 53,
-      "description": "Cumpleaños de Guillermo Barros Schelotto. Ídolo de Boca Juniors, múltiples títulos incluyendo Copa Libertadores."
-    },
-    {
-      "date": "2024-05-05",
-      "type": "death",
-      "priority": "high",
-      "person": "César Luis Menotti",
-      "description": "Aniversario del fallecimiento de César Luis Menotti, DT campeón del mundo con Argentina en 1978."
-    },
-    {
-      "date": "1976-05-05",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Juan Pablo Sorín",
-      "age": 50,
-      "description": "Cumpleaños de Juan Pablo Sorín. Lateral icónico de la Selección Argentina, mundialista en 2002 y 2006."
-    },
-    {
-      "date": "1983-05-06",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Dani Alves",
-      "age": 43,
-      "description": "Cumpleaños de Dani Alves. El jugador con más títulos en la historia del fútbol profesional."
-    },
-    {
-      "date": "1965-05-07",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Norman Whiteside",
-      "age": 61,
-      "description": "Cumpleaños de Norman Whiteside. Jugador más joven en disputar un Mundial (17 años y 41 días, España 1982)."
-    },
-    {
-      "date": "1960-05-08",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Franco Baresi",
-      "age": 66,
-      "description": "Cumpleaños de Franco Baresi. Legendario defensor del AC Milan, considerado uno de los mejores de la historia."
-    },
-    {
-      "date": "1966-05-08",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Cláudio Taffarel",
-      "age": 60,
-      "description": "Cumpleaños de Taffarel. Arquero brasileño campeón del mundo 1994 y subcampeón 1998."
-    },
-    {
-      "date": "1984-05-11",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Andrés Iniesta",
-      "age": 42,
-      "description": "Cumpleaños de Andrés Iniesta. Leyenda del Barcelona, autor del gol que dio el Mundial 2010 a España vs Holanda."
-    },
-    {
-      "date": "1988-05-12",
-      "type": "birthday",
-      "priority": "medium",
-      "person": "Marcelo Vieira",
-      "age": 38,
-      "description": "Cumpleaños de Marcelo. Lateral legendario del Real Madrid, ganó cuatro Champions League."
-    },
-    {
-      "date": "1901-05-15",
-      "type": "birthday",
-      "priority": "high",
-      "person": "Luis Monti",
-      "age": 125,
-      "description": "Cumpleaños de Luis Monti. Único jugador en disputar finales de Mundial con dos selecciones: Argentina 1930 e Italia 1934 (campeón)."
-    },
-    {
-      "date": "1977-05-17",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Luca Toni",
-      "age": 49,
-      "description": "Cumpleaños de Luca Toni. Delantero italiano campeón del mundo 2006, Bota de Oro de la Bundesliga."
-    },
-    {
-      "date": "1904-05-21",
-      "type": "historical",
+      "date": "2026-06-29",
+      "type": "match",
       "priority": "high",
       "person": "N/A",
-      "description": "Fundación de la FIFA en París. Día histórico que sentó las bases del fútbol organizado a nivel mundial."
+      "description": "Mundial 2026 - 32avos de final, día 2."
     },
     {
-      "date": "1986-05-21",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Mario Mandžukić",
-      "age": 40,
-      "description": "Cumpleaños de Mario Mandžukić. Delantero croata, gol en la final del Mundial 2018 contra Francia."
+      "date": "2026-06-30",
+      "type": "match",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Mundial 2026 - 32avos de final, día 3."
     },
     {
-      "date": "1946-05-22",
-      "type": "birthday",
+      "date": "2026-07-01",
+      "type": "match",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Mundial 2026 - 32avos de final, día 4."
+    },
+    {
+      "date": "2026-07-02",
+      "type": "match",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Mundial 2026 - Últimos 32avos de final."
+    },
+    {
+      "date": "2026-07-03",
+      "type": "match",
       "priority": "medium",
-      "person": "George Best",
-      "age": 80,
-      "description": "Cumpleaños de George Best. Balón de Oro 1968 con Manchester United, uno de los más grandes de la historia."
+      "person": "N/A",
+      "description": "Mundial 2026 - Día de descanso antes de octavos de final."
     },
     {
-      "date": "1987-05-22",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Arturo Vidal",
-      "age": 39,
-      "description": "Cumpleaños de Arturo Vidal. Mediocampista chileno, bicampeón de Copa América 2015 y 2016 ante Argentina."
+      "date": "2026-07-04",
+      "type": "match",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Mundial 2026 - Comienzan los octavos de final."
     },
     {
-      "date": "1961-05-23",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Daniele Massaro",
-      "age": 65,
-      "description": "Cumpleaños de Daniele Massaro. Autor de 2 goles en la final de Champions 1994 (Milan 4-0 Barcelona)."
+      "date": "2026-07-05",
+      "type": "match",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Mundial 2026 - Octavos de final, día 2."
     },
     {
-      "date": "1909-05-26",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Matt Busby",
-      "age": 117,
-      "description": "Cumpleaños de Matt Busby. Creador de los 'Busby Babes' del Manchester United, sobreviviente de Múnich 1958."
+      "date": "2026-07-06",
+      "type": "match",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Mundial 2026 - Octavos de final, día 3."
     },
     {
-      "date": "1970-05-29",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Roberto Di Matteo",
-      "age": 56,
-      "description": "Cumpleaños de Roberto Di Matteo. Como DT del Chelsea ganó la Champions League 2012 en el milagro de Múnich."
+      "date": "2026-07-07",
+      "type": "match",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Mundial 2026 - Últimos octavos de final."
     },
     {
-      "date": "1989-05-31",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Marco Reus",
-      "age": 37,
-      "description": "Cumpleaños de Marco Reus. Leyenda del Borussia Dortmund, máximo referente del club durante una década."
-    },
-    {
-      "date": "1970-06-07",
-      "type": "birthday",
+      "date": "2026-07-08",
+      "type": "match",
       "priority": "medium",
-      "person": "Cafú",
-      "age": 56,
-      "description": "Cumpleaños de Cafú. Bicampeón del mundo con Brasil (1994 y 2002), récord de partidos con la selección brasileña."
+      "person": "N/A",
+      "description": "Mundial 2026 - Día de descanso antes de cuartos de final."
     },
     {
-      "date": "2003-04-28",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Tomás Palacios",
-      "age": 23,
-      "description": "Cumpleaños de Tomás Palacios. Defensor de la Selección Argentina, 1.96m, a préstamo del Inter en Estudiantes."
+      "date": "2026-07-09",
+      "type": "match",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Mundial 2026 - Cuartos de final (2 partidos)."
     },
     {
-      "date": "1997-05-10",
-      "type": "birthday",
-      "priority": "low",
-      "person": "Marcos Senesi",
-      "age": 29,
-      "description": "Cumpleaños de Marcos Senesi. Defensor zurdo de Bournemouth, convocado a la Selección Argentina."
+      "date": "2026-07-10",
+      "type": "match",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Mundial 2026 - Cuartos de final (2 partidos)."
+    },
+    {
+      "date": "2026-07-11",
+      "type": "match",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Mundial 2026 - Día previo a semifinales."
+    },
+    {
+      "date": "2026-07-12",
+      "type": "match",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Mundial 2026 - Día previo a semifinales."
+    },
+    {
+      "date": "2026-07-13",
+      "type": "match",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Mundial 2026 - Día previo a semifinales."
+    },
+    {
+      "date": "2026-07-14",
+      "type": "match",
+      "priority": "critical",
+      "person": "N/A",
+      "description": "Mundial 2026 - Semifinal 1."
+    },
+    {
+      "date": "2026-07-15",
+      "type": "match",
+      "priority": "critical",
+      "person": "N/A",
+      "description": "Mundial 2026 - Semifinal 2."
+    },
+    {
+      "date": "2026-07-16",
+      "type": "match",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Mundial 2026 - Previa de la final. Expectativa mundial."
+    },
+    {
+      "date": "2026-07-17",
+      "type": "match",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Mundial 2026 - A dos días de la final."
+    },
+    {
+      "date": "2026-07-18",
+      "type": "match",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Mundial 2026 - Partido por el tercer puesto."
+    },
+    {
+      "date": "2026-07-19",
+      "type": "match",
+      "priority": "critical",
+      "person": "N/A",
+      "description": "FINAL del Mundial 2026, MetLife Stadium, Nueva Jersey."
     }
   ],
   "event_types": {

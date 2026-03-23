@@ -1,0 +1,39 @@
+{
+  "date": "2026-07-10",
+  "generated_at": "2026-03-23T10:21:32.172429",
+  "data": {
+    "date": "2026-07-10",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -29,
+    "events": [
+      {
+        "date": "2021-07-10",
+        "type": "title",
+        "priority": "high",
+        "person": "Ángel Di María",
+        "description": "Argentina Campeón de América en el Maracaná (1-0 vs Brasil)."
+      },
+      {
+        "date": "2021-07-10",
+        "type": "celebration",
+        "priority": "high",
+        "person": "Lionel Messi",
+        "description": "Primer título de Messi con la Selección Mayor."
+      },
+      {
+        "date": "2026-07-10",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Mundial 2026 - Cuartos de final (2 partidos)."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

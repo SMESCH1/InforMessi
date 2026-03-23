@@ -1,0 +1,67 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-03-23T10:20:55.313942",
+  "data": {
+    "date": "2026-06-30",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -19,
+    "events": [
+      {
+        "date": "1985-06-30",
+        "type": "match",
+        "priority": "high",
+        "person": "Gareca",
+        "description": "Clasificación dramática a México 86 con el gol de Gareca tras jugada de Passarella."
+      },
+      {
+        "date": "1994-06-30",
+        "type": "scandal",
+        "priority": "high",
+        "person": "Diego Maradona",
+        "description": "Doping positivo de Maradona: 'Me cortaron las piernas'."
+      },
+      {
+        "date": "1998-06-30",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Roa",
+        "description": "Argentina elimina a Inglaterra por penales con atajadas del 'Lechuga' Roa."
+      },
+      {
+        "date": "2006-06-30",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Pékerman",
+        "description": "Eliminación ante Alemania por penales (Messi se quedó en el banco)."
+      },
+      {
+        "date": "2018-06-30",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Mbappé",
+        "description": "Eliminación de Rusia 2018 ante Francia (4-3)."
+      },
+      {
+        "date": "2026-06-30",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Mundial 2026 - 32avos de final, día 3."
+      },
+      {
+        "date": "1990-06-30",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Goycochea",
+        "description": "Goycochea héroe en penales ante Yugoslavia."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

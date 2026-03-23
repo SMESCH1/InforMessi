@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-09",
+  "generated_at": "2026-03-23T10:21:28.361083",
+  "data": {
+    "date": "2026-07-09",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -28,
+    "events": [
+      {
+        "date": "2014-07-09",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Mascherano",
+        "description": "Mascherano a Romero: 'Hoy te convertís en héroe'. Argentina a la final."
+      },
+      {
+        "date": "2026-07-09",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Mundial 2026 - Cuartos de final (2 partidos)."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

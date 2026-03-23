@@ -1,0 +1,47 @@
+{
+  "date": "2026-07-15",
+  "generated_at": "2026-03-23T10:21:50.153674",
+  "data": {
+    "date": "2026-07-15",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -34,
+    "events": [
+      {
+        "date": "2026-07-15",
+        "type": "match",
+        "priority": "critical",
+        "person": "N/A",
+        "description": "Mundial 2026 - Semifinal 2."
+      },
+      {
+        "date": "1954-07-15",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Mario Kempes",
+        "age": 72,
+        "description": "Cumpleaños de Mario Kempes (72 años)"
+      },
+      {
+        "date": "1930-07-15",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Primer partido de Argentina en Mundiales (1-0 vs Francia, gol de Monti)."
+      },
+      {
+        "date": "2007-07-15",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Argentina pierde final de Copa América 2007 ante Brasil."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

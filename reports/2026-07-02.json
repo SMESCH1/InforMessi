@@ -1,0 +1,46 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-03-23T10:21:02.825406",
+  "data": {
+    "date": "2026-07-02",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -21,
+    "events": [
+      {
+        "date": "1916-07-02",
+        "type": "tournament_start",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Inauguración de la primera Copa América (Sudamericano) en Argentina."
+      },
+      {
+        "date": "2005-07-02",
+        "type": "title",
+        "priority": "high",
+        "person": "Lionel Messi",
+        "description": "Argentina Campeón Mundial Sub-20 en Holanda con Messi figura."
+      },
+      {
+        "date": "2026-07-02",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Mundial 2026 - Últimos 32avos de final."
+      },
+      {
+        "date": "1982-07-02",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Diego Maradona",
+        "description": "Maradona expulsado ante Brasil y eliminación del Mundial 82."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "2026-03-23T10:21:10.277371",
+  "data": {
+    "date": "2026-07-04",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -23,
+    "events": [
+      {
+        "date": "1926-07-04",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Alfredo Di Stéfano",
+        "age": 100,
+        "description": "Cumpleaños de Alfredo Di Stéfano (100 años)"
+      },
+      {
+        "date": "1993-07-04",
+        "type": "title",
+        "priority": "high",
+        "person": "Gabriel Batistuta",
+        "description": "Argentina bicampeón de América venciendo 2-1 a México con dos goles de Bati."
+      },
+      {
+        "date": "2026-07-04",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Mundial 2026 - Comienzan los octavos de final."
+      },
+      {
+        "date": "1998-07-04",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Bergkamp",
+        "description": "Eliminación ante Holanda con el golazo de Bergkamp en el último minuto."
+      },
+      {
+        "date": "2015-07-04",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Argentina pierde final de Copa América ante Chile por penales."
+      },
+      {
+        "date": "2024-07-04",
+        "type": "match",
+        "priority": "medium",
+        "person": "Dibu Martínez",
+        "description": "Dibu vuelve a ser héroe en penales ante Ecuador."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

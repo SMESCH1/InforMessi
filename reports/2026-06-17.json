@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-17",
+  "generated_at": "2026-03-22T23:20:48.328321",
+  "data": {
+    "date": "2026-06-17",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -6,
+    "events": [
+      {
+        "date": "2010-06-17",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Higuaín",
+        "description": "Hat-trick del Pipita ante Corea del Sur (4-1)."
+      },
+      {
+        "date": "2026-06-17",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Fase de grupos, jornada 2 en curso."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan -6 días para el Mundial 2026 ⚽\nUn día como hoy, hace algunos años, el Pipita Higuaín anotó un hat-trick impresionante ante Corea del Sur, ganando 4-1 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-12",
+  "generated_at": "2026-03-22T23:19:45.451918",
+  "data": {
+    "date": "2026-06-12",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -1,
+    "events": [
+      {
+        "date": "2002-06-12",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Bielsa",
+        "description": "Eliminación en primera fase de Corea-Japón tras empatar con Suecia."
+      },
+      {
+        "date": "2010-06-12",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Heinze",
+        "description": "Debut en Sudáfrica 2010: Argentina 1-0 Nigeria."
+      },
+      {
+        "date": "2026-06-12",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Jornada 1 de fase de grupos. Primeros partidos del torneo."
+      },
+      {
+        "date": "1910-06-12",
+        "type": "match",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina derrota a Uruguay 4-1 y gana la Copa Centenario."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan -1 días para el Mundial 2026 ⚽\nUn día como hoy en 2026, Argentina jugó su primer partido en el Mundial 2026 contra  en la jornada 1 de fase de grupos 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

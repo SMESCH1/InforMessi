@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-03-22T23:21:13.188942",
+  "data": {
+    "date": "2026-06-19",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -8,
+    "events": [
+      {
+        "date": "2026-06-19",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Fase de grupos, jornada 2."
+      },
+      {
+        "date": "1974-06-19",
+        "type": "world_cup",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina 1-1 Italia en Alemania 74."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan -8 días para el Mundial 2026 ⚽\nUn día como hoy en 2026, Argentina se prepara para su partido contra  en el Mundial 2026 - Fase de grupos, jornada 2.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

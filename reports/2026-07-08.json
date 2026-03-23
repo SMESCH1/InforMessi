@@ -1,0 +1,46 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-03-23T10:21:24.873242",
+  "data": {
+    "date": "2026-07-08",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -27,
+    "events": [
+      {
+        "date": "1990-07-08",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Final Italia 90: Argentina pierde con Alemania por un penal polémico."
+      },
+      {
+        "date": "2001-07-08",
+        "type": "title",
+        "priority": "medium",
+        "person": "Saviola",
+        "description": "Argentina Campeón Mundial Sub-20 en casa con Saviola como goleador."
+      },
+      {
+        "date": "2026-07-08",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Día de descanso antes de cuartos de final."
+      },
+      {
+        "date": "2001-07-08",
+        "type": "title",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina 3-0 Ghana en final Sub-20."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

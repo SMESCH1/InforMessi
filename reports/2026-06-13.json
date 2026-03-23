@@ -1,0 +1,39 @@
+{
+  "date": "2026-06-13",
+  "generated_at": "2026-03-22T23:19:47.689448",
+  "data": {
+    "date": "2026-06-13",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -2,
+    "events": [
+      {
+        "date": "1982-06-13",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Debut en España 82: derrota 1-0 ante Bélgica."
+      },
+      {
+        "date": "1990-06-13",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Goycochea",
+        "description": "Lesión de Pumpido y entrada de Sergio Goycochea al Mundial."
+      },
+      {
+        "date": "2026-06-13",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Continúa la fase de grupos con más debuts."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\nFaltan -2 días para el Mundial 2026 ⚽\nUn día como hoy en 1982, Argentina debutó en el Mundial de España con una derrota 1-0 ante Bélgica 📅\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

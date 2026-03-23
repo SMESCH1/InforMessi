@@ -1,0 +1,39 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-03-23T10:21:14.072820",
+  "data": {
+    "date": "2026-07-05",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -24,
+    "events": [
+      {
+        "date": "2026-07-05",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Mundial 2026 - Octavos de final, día 2."
+      },
+      {
+        "date": "1997-07-05",
+        "type": "title",
+        "priority": "medium",
+        "person": "Pékerman",
+        "description": "Argentina Campeón Mundial Sub-20 en Malasia."
+      },
+      {
+        "date": "2014-07-05",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Pipita Higuaín",
+        "description": "Victoria 1-0 ante Bélgica y regreso a semifinales tras 24 años."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

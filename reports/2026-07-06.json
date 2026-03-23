@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-03-23T10:21:17.659255",
+  "data": {
+    "date": "2026-07-06",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -25,
+    "events": [
+      {
+        "date": "2021-07-06",
+        "type": "match",
+        "priority": "high",
+        "person": "Dibu Martínez",
+        "description": "'Mirá que te como hermano': Dibu brilla en penales ante Colombia."
+      },
+      {
+        "date": "2026-07-06",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Mundial 2026 - Octavos de final, día 3."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

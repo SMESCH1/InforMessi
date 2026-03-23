@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-03-23T10:20:48.468847",
+  "data": {
+    "date": "2026-06-28",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -17,
+    "events": [
+      {
+        "date": "2026-06-28",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Mundial 2026 - Comienzan los 32avos de final."
+      },
+      {
+        "date": "2021-06-28",
+        "type": "match",
+        "priority": "low",
+        "person": "Lionel Messi",
+        "description": "Goleada 4-1 a Bolivia con doblete de Messi."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-03-22T23:22:02.923765",
+  "data": {
+    "date": "2026-06-22",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -11,
+    "events": [
+      {
+        "date": "2026-06-22",
+        "type": "match",
+        "priority": "critical",
+        "person": "Selección Argentina",
+        "description": "Mundial 2026 - Grupo J: Argentina vs Austria, 13:00 ET, AT&T Stadium, Dallas."
+      },
+      {
+        "date": "1986-06-22",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Diego Maradona",
+        "description": "La 'Mano de Dios' y el 'Gol del Siglo' contra Inglaterra."
+      },
+      {
+        "date": "2010-06-22",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Martin Palermo",
+        "description": "Gol de Palermo a Grecia: el debutante más veterano en marcar en un mundial."
+      },
+      {
+        "date": "1986-06-22",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Lucho González",
+        "age": 40,
+        "description": "Cumpleaños de Lucho González (40 años)"
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan -11 días para el Mundial 2026 ⚽\nUn día como hoy, pero en el futuro cercano, Argentina enfrentará a Austria en el Grupo J del Mundial 2026 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

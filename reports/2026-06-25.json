@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-03-22T23:27:38.120184",
+  "data": {
+    "date": "2026-06-25",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -14,
+    "events": [
+      {
+        "date": "1978-06-25",
+        "type": "title",
+        "priority": "high",
+        "person": "Daniel Passarella",
+        "description": "Argentina Campeón del Mundo por primera vez (3-1 vs Holanda)."
+      },
+      {
+        "date": "1986-06-25",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Diego Maradona",
+        "description": "Dos goles magistrales de Diego a Bélgica en semifinales."
+      },
+      {
+        "date": "1994-06-25",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Diego Maradona",
+        "description": "Último partido de Diego en la Selección (2-1 vs Nigeria)."
+      },
+      {
+        "date": "2014-06-25",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Rojo",
+        "description": "Argentina 3-2 Nigeria con gol de rodilla de Marcos Rojo."
+      },
+      {
+        "date": "2026-06-25",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Fase de grupos, cierre de jornada 3."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

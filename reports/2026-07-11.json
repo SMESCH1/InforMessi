@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-03-23T10:21:35.544523",
+  "data": {
+    "date": "2026-07-11",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -30,
+    "events": [
+      {
+        "date": "2026-07-11",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Día previo a semifinales."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-03-23T10:20:51.762530",
+  "data": {
+    "date": "2026-06-29",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -18,
+    "events": [
+      {
+        "date": "1986-06-29",
+        "type": "title",
+        "priority": "high",
+        "person": "Jorge Burruchaga",
+        "description": "Argentina Campeón del Mundo por segunda vez (3-2 vs Alemania)."
+      },
+      {
+        "date": "1993-06-29",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Leandro Paredes",
+        "age": 33,
+        "description": "Cumpleaños de Leandro Paredes (33 años)"
+      },
+      {
+        "date": "2026-06-29",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Mundial 2026 - 32avos de final, día 2."
+      },
+      {
+        "date": "1982-06-29",
+        "type": "world_cup",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina 1-2 Italia en segunda ronda."
+      },
+      {
+        "date": "2005-06-29",
+        "type": "match",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina cae 4-1 ante Brasil en final de Confederaciones."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

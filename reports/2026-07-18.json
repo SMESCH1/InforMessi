@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-03-23T10:22:01.081891",
+  "data": {
+    "date": "2026-07-18",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -37,
+    "events": [
+      {
+        "date": "2026-07-18",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Mundial 2026 - Partido por el tercer puesto."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

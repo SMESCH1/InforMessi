@@ -1,0 +1,39 @@
+{
+  "date": "2026-06-15",
+  "generated_at": "2026-03-22T23:20:33.986769",
+  "data": {
+    "date": "2026-06-15",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -4,
+    "events": [
+      {
+        "date": "1958-06-15",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "El 'Desastre de Suecia': Argentina eliminada tras perder 6-1 con Checoslovaquia."
+      },
+      {
+        "date": "2014-06-15",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Lionel Messi",
+        "description": "Messi vuelve al gol en mundiales ante Bosnia tras 8 años."
+      },
+      {
+        "date": "2026-06-15",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Fase de grupos, cierran los debuts de jornada 1."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan -4 días para el Mundial 2026 ⚽\n📅 Un día como hoy en el pasado, Argentina sufrió el 'Desastre de Suecia' al perder 6-1 con Checoslovaquia 🌎\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-07-07",
+  "generated_at": "2026-03-23T10:21:21.195937",
+  "data": {
+    "date": "2026-07-07",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -26,
+    "events": [
+      {
+        "date": "2026-07-07",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Mundial 2026 - Últimos octavos de final."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

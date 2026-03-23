@@ -1,0 +1,39 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-03-22T23:22:25.534963",
+  "data": {
+    "date": "2026-06-23",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -12,
+    "events": [
+      {
+        "date": "2026-06-23",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Fase de grupos, jornada 3."
+      },
+      {
+        "date": "1974-06-23",
+        "type": "world_cup",
+        "priority": "low",
+        "person": "Houseman",
+        "description": "Argentina 4-1 Haití para pasar de ronda."
+      },
+      {
+        "date": "1982-06-23",
+        "type": "world_cup",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina 2-0 El Salvador."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan -12 días para el Mundial 2026 ⚽\nUn día como hoy, se jugara el partido de Argentina en el Mundial 2026 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

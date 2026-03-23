@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-03-23T10:22:04.485618",
+  "data": {
+    "date": "2026-07-19",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -38,
+    "events": [
+      {
+        "date": "2026-07-19",
+        "type": "match",
+        "priority": "critical",
+        "person": "N/A",
+        "description": "FINAL del Mundial 2026, MetLife Stadium, Nueva Jersey."
+      },
+      {
+        "date": "1930-07-19",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Guillermo Stábile",
+        "description": "Primer hat-trick de Argentina en un Mundial realizado por Guillermo Stábile."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

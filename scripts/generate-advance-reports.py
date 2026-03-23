@@ -19,6 +19,13 @@ PROJECT_ROOT = Path(__file__).parent.parent
 REPORTS_DIR = PROJECT_ROOT / "reports"
 REPORTS_DIR.mkdir(exist_ok=True)
 
+# Cargar .env si existe (para GROQ_API_KEY, etc.)
+try:
+    from dotenv import load_dotenv
+    load_dotenv(PROJECT_ROOT / ".env")
+except ImportError:
+    pass
+
 # UTF-8 en subprocesos (Windows / emojis en prints de otros scripts)
 _SUBPROC_ENV = {**os.environ, "PYTHONUTF8": "1"}
 

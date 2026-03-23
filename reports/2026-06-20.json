@@ -1,0 +1,32 @@
+{
+  "date": "2026-06-20",
+  "generated_at": "2026-03-22T23:21:36.016158",
+  "data": {
+    "date": "2026-06-20",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -9,
+    "events": [
+      {
+        "date": "2026-06-20",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Fase de grupos, jornada 2."
+      },
+      {
+        "date": "2024-06-20",
+        "type": "tournament_start",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Inicio de la Copa América de Estados Unidos 2024."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan -9 días para el Mundial 2026 ⚽\n📅 Un día como hoy en el calendario, Argentina se prepara para su segundo partido en el Mundial 2026, listos para enfrentar el desafío en la fase de grupos 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

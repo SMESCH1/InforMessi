@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-03-23T10:21:53.863532",
+  "data": {
+    "date": "2026-07-16",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -35,
+    "events": [
+      {
+        "date": "2026-07-16",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Previa de la final. Expectativa mundial."
+      },
+      {
+        "date": "1916-07-16",
+        "type": "match",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Final del primer Sudamericano (Argentina 0-0 Uruguay)."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

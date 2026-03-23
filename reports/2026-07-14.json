@@ -1,0 +1,32 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-03-23T10:21:46.463778",
+  "data": {
+    "date": "2026-07-14",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -33,
+    "events": [
+      {
+        "date": "2026-07-14",
+        "type": "match",
+        "priority": "critical",
+        "person": "N/A",
+        "description": "Mundial 2026 - Semifinal 1."
+      },
+      {
+        "date": "2024-07-14",
+        "type": "title",
+        "priority": "high",
+        "person": "Lautaro Martínez",
+        "description": "Argentina Bicampeón de América venciendo 1-0 a Colombia."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

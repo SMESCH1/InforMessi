@@ -1,0 +1,55 @@
+{
+  "date": "2026-06-24",
+  "generated_at": "2026-03-22T23:22:37.796646",
+  "data": {
+    "date": "2026-06-24",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -13,
+    "events": [
+      {
+        "date": "1987-06-24",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Lionel Messi",
+        "age": 39,
+        "description": "Cumpleaños de Lionel Messi (39 años)"
+      },
+      {
+        "date": "1990-06-24",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Claudio Caniggia",
+        "description": "Argentina elimina a Brasil en octavos con el gol de Caniggia tras pase de Diego."
+      },
+      {
+        "date": "2006-06-24",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Maxi Rodríguez",
+        "description": "Golazo inolvidable de Maxi Rodríguez a México en tiempo extra."
+      },
+      {
+        "date": "1962-06-24",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Jorge Burruchaga",
+        "age": 64,
+        "description": "Cumpleaños de Jorge Burruchaga (64 años)"
+      },
+      {
+        "date": "2026-06-24",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Fase de grupos, jornada 3."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan -13 días para el Mundial 2026 ⚽\nHoy Lionel Messi cumple 39 años 🎉, el capitán de la Scaloneta sigue siendo la referencia mundial del fútbol y prepara su participación en el Mundial 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

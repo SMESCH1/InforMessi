@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-11",
+  "generated_at": "2026-03-22T23:19:43.444761",
+  "data": {
+    "date": "2026-06-11",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": 0,
+    "events": [
+      {
+        "date": "2026-06-11",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Inauguración del Mundial 2026: México vs Sudáfrica en el Estadio Azteca, Ciudad de México."
+      },
+      {
+        "date": "1958-06-11",
+        "type": "world_cup",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina 3-1 Irlanda del Norte."
+      },
+      {
+        "date": "1972-06-11",
+        "type": "match",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina gana la Copa Independencia en Brasil."
+      },
+      {
+        "date": "1997-06-11",
+        "type": "match",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina 0-0 Ecuador en el debut de la Copa América 1997 en Bolivia."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\nFaltan 0 días para el Mundial 2026 ⚽\nHoy es el día del debut en el Mundial 2026, pero no es Argentina quien inaugura, sino que México enfrenta a Sudáfrica en el Estadio Azteca 🏟️\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

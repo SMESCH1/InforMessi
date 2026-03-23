@@ -1,0 +1,60 @@
+{
+  "date": "2026-06-21",
+  "generated_at": "2026-03-22T23:21:48.678785",
+  "data": {
+    "date": "2026-06-21",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -10,
+    "events": [
+      {
+        "date": "1978-06-21",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Mario Kempes",
+        "description": "Goleada 6-0 a Perú para clasificar a la final del Mundial."
+      },
+      {
+        "date": "2018-06-21",
+        "type": "world_cup",
+        "priority": "high",
+        "person": "Sampaoli",
+        "description": "Dolorosa caída 0-3 ante Croacia en Rusia 2018."
+      },
+      {
+        "date": "1994-06-21",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Diego Maradona",
+        "description": "Grito de Maradona a la cámara tras golazo a Grecia en el debut."
+      },
+      {
+        "date": "2014-06-21",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Lionel Messi",
+        "description": "Gol agónico de Messi a Irán en el minuto 91."
+      },
+      {
+        "date": "2026-06-21",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Fase de grupos, jornada 2."
+      },
+      {
+        "date": "2021-06-21",
+        "type": "match",
+        "priority": "low",
+        "person": "Papu Gómez",
+        "description": "Argentina 1-0 Paraguay con gol del Papu."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\n\nFaltan -10 días para el Mundial 2026 ⚽\nUn día como hoy, hace algunos años, Argentina goleó 6-0 a Perú para clasificar a la final del Mundial 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

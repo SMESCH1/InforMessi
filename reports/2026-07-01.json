@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-01",
+  "generated_at": "2026-03-23T10:20:58.985612",
+  "data": {
+    "date": "2026-07-01",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -20,
+    "events": [
+      {
+        "date": "2026-07-01",
+        "type": "match",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Mundial 2026 - 32avos de final, día 4."
+      },
+      {
+        "date": "2004-07-01",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Alejandro Garnacho",
+        "age": 22,
+        "description": "Cumpleaños de Alejandro Garnacho (22 años)"
+      },
+      {
+        "date": "2014-07-01",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Di María",
+        "description": "Gol de Di María a Suiza en el último minuto del suplementario."
+      }
+    ],
+    "news": []
+  },
+  "message": "",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}

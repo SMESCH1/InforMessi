@@ -21,9 +21,32 @@ for _stream in (sys.stdout, sys.stderr):
         pass
 
 
+def _load_scraped_news(date: str) -> list:
+    """Lee noticias pre-scrapeadas desde data/daily-news/ si existen."""
+    from datetime import timedelta
+
+    daily_news_dir = PROJECT_ROOT / "data" / "daily-news"
+
+    # Intentar fecha de hoy, luego ayer
+    for offset in (0, 1):
+        d = datetime.strptime(date, "%Y-%m-%d").date() - timedelta(days=offset)
+        f = daily_news_dir / f"{d.isoformat()}.json"
+        if f.exists():
+            try:
+                with open(f, "r", encoding="utf-8") as fh:
+                    data = json.load(fh)
+                news = data.get("news", [])
+                if news:
+                    print(f"📰 Noticias scrapeadas encontradas: {f.name} ({len(news)} items)")
+                    return news
+            except Exception as e:
+                print(f"⚠️  Error al leer {f.name}: {e}")
+    return []
+
+
 def collect_all_data(date: str = None, include_news: bool = True) -> dict:
     """Recolecta todos los datos del día"""
-    
+
     if not date:
         date = datetime.now().strftime("%Y-%m-%d")
     
@@ -100,8 +123,11 @@ def collect_all_data(date: str = None, include_news: bool = True) -> dict:
     news = []
     reddit_posts = []
     if include_news:
-        # Noticias - usar script de noticias
-        print("📰 Obteniendo noticias...")
+        # Primero: intentar leer noticias scrapeadas (del workflow nocturno)
+        scraped_news = _load_scraped_news(date)
+
+        # Luego: fetch live como suplemento
+        print("📰 Obteniendo noticias frescas...")
         try:
             result = subprocess.run(
                 [
@@ -179,10 +205,10 @@ def collect_all_data(date: str = None, include_news: bool = True) -> dict:
             print(f"⚠️  Error al obtener posts de Reddit: {e}")
             reddit_posts = []
     else:
+        scraped_news = []
         print("📰 Noticias omitidas (modo --no-news).")
     
     # Combinar noticias y posts de Reddit
-    # Convertir posts de Reddit al formato de noticias para consistencia
     reddit_as_news = []
     for post in reddit_posts:
         reddit_as_news.append({
@@ -192,9 +218,9 @@ def collect_all_data(date: str = None, include_news: bool = True) -> dict:
             "source": f"Reddit r/{post.get('subreddit', 'unknown')}",
             "published_at": post.get("created_at", datetime.now().isoformat())
         })
-    
-    # Combinar todas las noticias
-    all_news = news + reddit_as_news
+
+    # Combinar: scrapeadas (prioridad) + live + reddit
+    all_news = scraped_news + news + reddit_as_news
 
     # Filtrar noticias usadas recientemente (últimos 7 días) para evitar repetición
     try:

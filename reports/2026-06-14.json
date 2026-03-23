@@ -1,0 +1,39 @@
+{
+  "date": "2026-06-14",
+  "generated_at": "2026-03-22T23:20:31.959815",
+  "data": {
+    "date": "2026-06-14",
+    "mundial_2026_start": "2026-06-11",
+    "days_remaining": -3,
+    "events": [
+      {
+        "date": "1978-06-14",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Kempes",
+        "description": "Argentina 2-0 Polonia en el Gigante de Arroyito."
+      },
+      {
+        "date": "2026-06-14",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Mundial 2026 - Fase de grupos, jornada 1 en pleno desarrollo."
+      },
+      {
+        "date": "2021-06-14",
+        "type": "tournament_start",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Inicio de la Copa América que terminaría con el 'Maracanazo'."
+      }
+    ],
+    "news": []
+  },
+  "message": "Buenos días 🇦🇷\nFaltan -3 días para el Mundial 2026 ⚽\nUn día como hoy, Argentina jugó un partido importante. \nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "draft",
+  "updated_at": null,
+  "published_at": null,
+  "pre_approved": false,
+  "pre_approved_at": null
+}
