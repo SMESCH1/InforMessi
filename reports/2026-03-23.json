@@ -14,12 +14,27 @@
         "description": "Primer partido de Argentina con las 3 estrellas (2-0 vs Panamá)."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Liga Profesional de Fútbol",
+        "description": "",
+        "url": "https://www.tycsports.com/liga-profesional-de-futbol.html",
+        "source": "TyC Sports",
+        "published_at": "2026-03-23T14:20:29.270428"
+      },
+      {
+        "title": "Golpazo para el Inter Miami de Messi: empate y temprana eliminación en la Concachampions",
+        "description": "",
+        "url": "https://www.tycsports.com/liga-de-campeones-de-la-concacaf/concacaf-copa-de-campeones-concacaf-2026-inter-miami-vs-nashville-sc-llave-5-id718970.html",
+        "source": "TyC Sports",
+        "published_at": "2026-03-23T14:20:29.270596"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 80 días para el Mundial 2026 ⚽\n\nUn día como hoy, Argentina jugó su primer partido con las 3 estrellas en su camiseta, derrotando a Panamá 2-0 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 80 días para el Mundial 2026 ⚽\n\n📅 Un día como hoy en 1998, Argentina goleó 4-2 a Nigeria en cuartos de final del Mundial de Francia. Goles de Riquelme, Simeone, Batistuta y Ortega, con un gol en propia puerta de Kanu 📺\n\nSelección Argentina en Mundiales: Argentina tiene el récord de participaciones en Mundiales con 18 apariciones. Es el equipo que más veces ha disputado la Copa del Mundo, superando a Brasil, Alemania, Italia y otros países con una larga trayectoria en la competición. La cantidad de participaciones es un indicador de la consistencia y la fortaleza de la selección argentina en los últimos años, tanto en la competición internacional como en la clasificación para el Mundial.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-03-23T14:20:36.600244",
+  "published_at": "2026-03-23T14:20:37.343282",
+  "pre_approved": true,
+  "pre_approved_at": "2026-03-23T14:20:36.600253"
 }
