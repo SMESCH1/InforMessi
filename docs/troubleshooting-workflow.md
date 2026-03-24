@@ -169,6 +169,7 @@ python3 scripts/send-daily-report-review.py
 - [ ] Informes generados en `reports/`
 - [ ] Workflow ejecutado manualmente para probar
 - [ ] Logs del workflow revisados
+- [ ] **Scraper diario**: el workflow `InforMessi - Scraper de Noticias Diario` existe en la rama default del remoto (no solo en local); `NEWSAPI_KEY` configurado si querés NewsAPI además de RSS
 
 ## 🔧 Comandos Útiles
 
