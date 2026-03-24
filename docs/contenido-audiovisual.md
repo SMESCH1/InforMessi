@@ -220,18 +220,3 @@ No requiere configuración adicional.
 - El sistema las detecta y las incluye automáticamente
 - Si no hay contenido, funciona normalmente sin imágenes
 
----
-
-## 🚀 Próximos Pasos
-
-1. **Implementar detección básica** (1 hora)
-2. **Integrar en generación de mensajes** (30 min)
-3. **Agregar envío a Telegram** (30 min)
-4. **Probar con contenido de ejemplo** (15 min)
-
-**Total estimado: ~2 horas**
-
----
-
-*¿Quieres que implemente esta solución?*
-

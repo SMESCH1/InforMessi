@@ -93,13 +93,6 @@ El LLM puede referenciar estos recursos cuando:
 - Complementan el mensaje sin distraer
 - Mantienen el tono editorial
 
-### En n8n
-
-Los assets pueden ser:
-- Seleccionados automáticamente según contexto
-- Sugeridos para revisión humana
-- Asociados a eventos específicos
-
 ## Mantenimiento
 
 ### Agregar Nuevos Assets
@@ -120,14 +113,7 @@ Los assets pueden ser:
 - Actualizar material según eventos actuales
 - Mantener calidad y relevancia
 
-## Próximos Pasos
-
-- [ ] Crear estructura de metadatos para assets (JSON opcional)
-- [ ] Definir criterios de selección automática
-- [ ] Integrar con workflow de n8n
-- [ ] Establecer proceso de curaduría
-
 ---
 
-*Los assets se implementarán en la Fase 5 (Visuales)*
+*Los assets se detectan automáticamente por el script `detect-media.py` al generar el informe diario.*
 

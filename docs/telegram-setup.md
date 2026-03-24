@@ -46,7 +46,7 @@ Edita tu archivo `.env`:
 ```env
 TELEGRAM_BOT_TOKEN=123456789:ABCdefGHIjklMNOpqrsTUVwxyz
 TELEGRAM_PREVIEW_CHAT_ID=-123456789
-TELEGRAM_PUBLISH_CHAT_ID=-987654321
+TELEGRAM_PUBLIC_CHAT_ID=-987654321
 ```
 
 ## Paso 4: Probar el Bot
@@ -54,12 +54,8 @@ TELEGRAM_PUBLISH_CHAT_ID=-987654321
 ### Prueba Básica
 
 ```bash
-# Enviar un mensaje de prueba
-python3 scripts/telegram-preview.py \
-  --message "Mensaje de prueba" \
-  --preview-chat-id TU_CHAT_ID \
-  --token TU_TOKEN \
-  --no-wait
+# Enviar informe del día a Telegram para revisión
+python3 scripts/send-daily-report-review.py
 ```
 
 ### Prueba Completa con Revisión
@@ -69,11 +65,7 @@ python3 scripts/telegram-preview.py \
 python3 scripts/generate-message.py --data mock-data.json --output /tmp/mensaje.txt
 
 # Enviar para revisión
-python3 scripts/telegram-preview.py \
-  --message "$(cat /tmp/mensaje.txt)" \
-  --preview-chat-id TU_CHAT_ID \
-  --publish-chat-id TU_CANAL_PUBLICO \
-  --token TU_TOKEN
+python3 scripts/send-daily-report-review.py
 ```
 
 ## Paso 5: Permisos del Bot
@@ -106,14 +98,6 @@ Asegúrate de que el bot tenga estos permisos:
 - El bot debe estar "iniciado" (envía `/start` al bot)
 - Verifica que el chat ID sea correcto
 - Asegúrate de que el bot esté en el grupo/canal
-
-## Integración con n8n
-
-Para usar en n8n:
-
-1. Configura las variables de entorno en n8n
-2. Usa el nodo "Telegram" de n8n
-3. O usa el nodo "HTTP Request" para llamar a la API de Telegram directamente
 
 ## Seguridad
 

@@ -1,186 +1,122 @@
 # Arquitectura del Sistema - InforMessi
 
-## Visión General
+## Vision General
 
-InforMessi es un pipeline editorial automatizado con humano en el loop. El sistema genera mensajes informativos diarios sobre el Mundial de Fútbol 2026, pero requiere aprobación humana antes de publicar.
+InforMessi es un pipeline editorial automatizado con humano en el loop. Genera mensajes diarios sobre la Seleccion Argentina y el Mundial 2026, con revision humana antes de publicar en Telegram.
+
+## Stack Tecnologico
+
+- **Python 3.12** — lenguaje principal, scripts modulares
+- **Ollama / Groq API** — generacion de texto con LLM (local o cloud)
+- **Telegram Bot API** — preview privado + publicacion al canal
+- **Flask + Render** — webhook para callbacks de aprobacion
+- **GitHub Actions** — cron diario, CI/CD automatizado
+- **NewsAPI + Reddit (PRAW) + RSS** — fuentes de datos
 
 ## Diagrama de Flujo
 
 ```mermaid
 flowchart TD
-    A[Cron Trigger] --> B[n8n Workflow]
-    B --> C[Recolección de Datos]
-    C --> D[Clima API]
-    C --> E[Eventos JSON]
-    C --> F[Noticias API]
-    D --> G[Construcción de Prompt]
-    E --> G
-    F --> G
-    G --> H[LLM Generación]
-    H --> I[Mensaje Generado]
-    I --> J[Preview Telegram]
-    J --> K{Revisión Humana}
-    K -->|Aprobado| L[Publicación Telegram]
-    K -->|Rechazado| M[Notificación]
-    K -->|Editado| N[Actualización y Publicación]
-    L --> O[Fin]
-    M --> O
-    N --> O
+    subgraph sources [Fuentes de datos]
+        NewsAPI[NewsAPI]
+        Reddit[Reddit API]
+        Events[events.json]
+        Media[assets/media/]
+    end
+
+    subgraph pipeline [Pipeline de generacion]
+        Collect[collect-daily-data.py]
+        Select["Paso 1: Seleccion RAG"]
+        Generate["Paso 2: Generacion LLM"]
+        Memory[memory-database.json]
+    end
+
+    subgraph delivery [Entrega]
+        Report[reports/YYYY-MM-DD.json]
+        PreApproved{Pre-aprobado?}
+        Preview[Chat de revision]
+        Webhook[Webhook Render]
+        Channel[Canal publico Telegram]
+        Fallback[Auto-publish 2h]
+    end
+
+    subgraph infra [Infraestructura]
+        Actions[GitHub Actions cron]
+        Ollama[Ollama local]
+        Groq[Groq API fallback]
+    end
+
+    NewsAPI --> Collect
+    Reddit --> Collect
+    Events --> Collect
+    Media --> Collect
+
+    Collect --> Select
+    Select --> Generate
+    Memory --> Generate
+    Generate --> Report
+
+    Actions --> Collect
+    Ollama --> Generate
+    Groq --> Generate
+
+    Report --> PreApproved
+    PreApproved -- Si --> Channel
+    PreApproved -- No --> Preview
+    Preview --> Webhook
+    Webhook --> Channel
+    Preview --> Fallback
+    Fallback --> Channel
+
+    Channel --> Memory
 ```
 
 ## Componentes Principales
 
-### 1. Orquestación (n8n)
+### 1. Recoleccion de Datos (collect-daily-data.py)
 
-- **Rol**: Coordinar todo el flujo
-- **Responsabilidades**:
-  - Trigger diario (cron)
-  - Recolección de datos
-  - Construcción de prompts
-  - Llamadas a LLM
-  - Gestión de preview y aprobación
-  - Publicación final
+Agrega eventos historicos desde JSON curado, noticias frescas via NewsAPI y RSS, y contenido de Reddit. Filtra noticias repetidas usando la base de datos de memoria.
 
-### 2. Generación de Contenido (LLM)
+### 2. Generacion en 2 Pasos (generate-message.py)
 
-- **Rol**: Redactor editorial
-- **Tecnología**: Modelo local (Ollama u otro)
-- **Inputs**:
-  - System prompt (identidad editorial)
-  - Main prompt (estructura del día)
-  - Datos del día (clima, eventos, noticias)
-- **Output**: Mensaje formateado (90-130 palabras)
+- **Paso 1 - Seleccion**: El LLM recibe todos los eventos/noticias y selecciona los mas relevantes (JSON estricto, temperatura baja).
+- **Paso 2 - Generacion**: Con los items seleccionados, contexto de memoria anti-repeticion, estilo aprendido de reportes anteriores y seccion semanal tematica, el LLM genera el mensaje editorial.
 
-### 3. Recolección de Datos
+### 3. Sistema de Memoria (rag_memory_database.py)
 
-#### Clima
-- **Fuente**: API de clima (OpenWeatherMap u otro)
-- **Datos**: Temperatura min/max para AMBA y La Plata
-- **Frecuencia**: Diaria
+Base de datos JSON persistente que rastrea jugadores mencionados, noticias usadas, secciones semanales y temas tratados. Se actualiza solo al publicar para evitar contaminacion con drafts.
 
-#### Eventos
-- **Fuente**: Archivo JSON estructurado (`data/events.json`)
-- **Tipos**: Cumpleaños, partidos, anuncios, fechas patrias
-- **Priorización**: Crítica, alta, media, baja
+### 4. Aprendizaje de Estilo (rag_style_learning.py)
 
-#### Noticias
-- **Fuente**: API de noticias deportivas (Fase 4)
-- **Filtros**: Solo noticias relevantes (selección argentina, Mundial)
-- **Frecuencia**: Diaria
+Extrae snippets de reportes editados/publicados para inyectar como few-shot examples en el prompt, logrando consistencia de tono editorial.
 
-### 4. Revisión Humana
+### 5. Entrega y Revision Humana
 
-- **Canal actual**: Telegram privado (✅ implementado)
-- **Canal futuro**: Notion (planificado, ver `docs/future-features.md`)
-- **Proceso**:
-  1. Preview del mensaje generado (Telegram)
-  2. Opción de aprobar, rechazar o editar (botones inline)
-  3. Si se edita: edición manual externa, luego publicación manual o reenvío
-- **Tiempo**: Sin límite (pero workflow espera respuesta)
-- **Nota sobre edición**: Actualmente la edición es manual (copiar, editar, publicar). Notion permitiría edición inline en el futuro.
+- Preview en Telegram con botones (Aprobar / Editar / Rechazar)
+- Webhook en Render procesa la decision
+- Auto-publicacion a las 2 horas si no hay respuesta
+- Memoria se actualiza solo tras publicacion efectiva
 
-### 5. Publicación
+### 6. Guardrails Anti-Alucinacion
 
-- **Canales actuales**:
-  - Telegram (✅ implementado)
-- **Canales futuros**:
-  - WhatsApp (whatsmeow) - ver `docs/future-features.md`
-  - X / Twitter (adaptado)
-  - Instagram (adaptado)
-- **Formato**: Texto plano, con imagen opcional
+- Post-procesamiento regex para detectar anos, scores y nombres no presentes en los datos de entrada
+- Skip de generacion LLM cuando no hay datos (evita invenciones)
+- Cierre ritual forzado ("Coronados de gloria vivamos")
+- Mensaje seguro de fallback si el LLM agrega contenido no solicitado
 
-## Flujo Detallado
+## Infraestructura
 
-### Paso 1: Trigger Diario
-- Cron configurado en n8n
-- Ejecuta diariamente a hora fija (ej: 8:00 AM ARG)
+### GitHub Actions
+- Cron diario a las 10:15 AM Argentina (13:15 UTC)
+- Usa Groq API como LLM (no requiere Ollama en CI)
+- Commitea reportes y datos actualizados al repositorio
 
-### Paso 2: Recolección
-- Paralelo:
-  - Consulta API de clima
-  - Lee eventos del día desde JSON
-  - Consulta noticias relevantes (si hay API)
+### Render
+- Servidor Flask que recibe webhooks de Telegram
+- Procesa aprobaciones, ediciones y rechazos
 
-### Paso 3: Construcción de Prompt
-- Combina:
-  - System prompt (identidad)
-  - Main prompt (estructura)
-  - Datos del día (clima, eventos, noticias)
-  - Ejemplos (opcional, para few-shot)
+## Seguridad
 
-### Paso 4: Generación
-- Llamada a LLM local
-- Parámetros:
-  - Modelo: Configurado en .env
-  - Temperature: Baja (para consistencia)
-  - Max tokens: ~200 (para controlar longitud)
-
-### Paso 5: Preview
-- Envío a Telegram (canal privado)
-- Formato: Mensaje + opciones (Aprobar/Rechazar/Editar)
-- Espera respuesta humana
-
-### Paso 6: Decisión
-- **Aprobar**: Publica directamente
-- **Rechazar**: Notifica y termina
-- **Editar**: Permite modificación manual, luego publica
-
-### Paso 7: Publicación
-- Envío a canal público de Telegram
-- Opcional: Adaptación para otras plataformas
-
-## Human in the Loop
-
-### ¿Por qué es crítico?
-
-1. **Control editorial**: Mantener calidad y coherencia
-2. **Prevención de errores**: Evitar datos inventados o contenido inapropiado
-3. **Flexibilidad**: Permitir ajustes según contexto
-4. **Responsabilidad**: El contenido publicado tiene supervisión humana
-
-### Implementación
-
-- **Canal de preview**: Telegram bot con botones interactivos (actual)
-- **Tiempo de espera**: Sin límite (pero puede configurarse timeout)
-- **Edición actual**: Manual externa (copiar, editar, publicar)
-- **Edición futura**: Notion permitiría edición inline (ver `docs/future-features.md`)
-
-## Escalabilidad
-
-### Fase Actual (MVP)
-- Datos mock
-- LLM local
-- Telegram único
-
-### Fase Futura
-- APIs reales
-- Múltiples canales
-- Análisis de engagement
-- A/B testing de mensajes
-
-## Seguridad y Privacidad
-
-- **Tokens**: En variables de entorno (.env)
-- **Datos sensibles**: No se almacenan en repo
-- **LLM local**: Datos no salen del servidor
-- **Preview privado**: Solo accesible para revisión
-
-## Monitoreo y Logs
-
-- **n8n**: Logs de ejecución de workflows
-- **LLM**: Logs de generación (opcional)
-- **Telegram**: Historial de mensajes
-- **Errores**: Notificaciones en canal de errores
-
-## Próximos Pasos Técnicos
-
-1. Implementar workflow básico en n8n
-2. Configurar LLM local
-3. Crear sistema de preview en Telegram
-4. Integrar APIs reales (Fase 4)
-5. Agregar visuales (Fase 5)
-
----
-
-*Documentación actualizada en Fase 0*
-
+- Secrets en variables de entorno (.env local, GitHub Secrets en CI)
+- Ningun archivo .env se commitea al repositorio
+- LLM local (Ollama) mantiene datos en el servidor del desarrollador

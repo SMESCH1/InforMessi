@@ -3,7 +3,7 @@
 ## Datos del Día
 
 - **Fecha**: [FECHA]
-- **Días restantes al Mundial 2026**: [X días]
+- **Cuenta regresiva**: [cuenta regresiva del Mundial 2026]
 
 ### Eventos del Día
 [Lista de eventos]
@@ -20,6 +20,8 @@
 - Si no hay eventos ni noticias: generá SOLO saludo, cuenta regresiva y cierre. NADA más.
 - NUNCA inventes datos, estadísticas, curiosidades ni información que no esté explícitamente en las listas de arriba.
 - Los eventos tienen una fecha original (ej: 2023-03-23). Calculá los años transcurridos y usá frases como "Hace X años..." o "Un día como hoy en [AÑO]...".
+- Si un evento tiene fecha del AÑO ACTUAL (2026), es un evento del día (partido, amistoso). Presentalo en PRESENTE: "Hoy Argentina enfrenta a...", "Esta noche la Selección debuta en el Mundial a las 22:00...". Incluí horario y estadio.
+- Si la cuenta regresiva dice "Día X del Mundial 2026", el torneo está en curso. Adaptá el tono: en vez de "Faltan X días", usá la frase provista.
 
 ## Secciones especiales por día
 
@@ -34,7 +36,7 @@ Si no hay datos provistos para la sección especial del día, no la incluyas. No
 ## Estructura
 
 1. Saludo breve (ej: "Buenos días 🇦🇷")
-2. Cuenta regresiva ("Faltan X días para el Mundial 2026")
+2. Cuenta regresiva (usar la frase exacta provista en "Cuenta regresiva" de los datos del día)
 3. Bloque principal — basado en evento o noticia del día, presentado como efeméride. Omitir si no hay datos.
 4. Sección especial del día — solo si hay datos provistos para ella.
 5. Cierre: "Coronados de gloria vivamos 🩵🤍🩵"
@@ -81,6 +83,19 @@ Ejemplo 4 (sin eventos ni noticias):
 Buenos días 🇦🇷
 
 Faltan 30 días para el Mundial 2026 ⚽
+
+Coronados de gloria vivamos 🩵🤍🩵
+```
+
+Ejemplo 5 (durante el Mundial, evento del día):
+```
+Buenos días 🇦🇷
+
+Día 6 del Mundial 2026 ⚽
+
+🏆 Hoy Argentina debuta en el Mundial enfrentando a Argelia a las 22:00 en el Arrowhead Stadium de Kansas City. La Scaloneta sale a defender el título con Messi al frente 🇦🇷
+
+📅 Un día como hoy en 2006, Messi debutó en mundiales con gol en la goleada 6-0 a Serbia y Montenegro ⚽
 
 Coronados de gloria vivamos 🩵🤍🩵
 ```

@@ -57,7 +57,7 @@ NEWSAPI_KEY = tu_newsapi_key
 
 **Opcionales:**
 ```
-OPENWEATHER_API_KEY = tu_openweather_key
+GROQ_API_KEY = tu_groq_key
 REDDIT_CLIENT_ID = tu_reddit_client_id
 REDDIT_CLIENT_SECRET = tu_reddit_secret
 REDDIT_USER_AGENT = tu_user_agent

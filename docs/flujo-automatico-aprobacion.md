@@ -133,18 +133,9 @@ TELEGRAM_PREVIEW_CHAT_ID
 TELEGRAM_PUBLIC_CHAT_ID  ← IMPORTANTE para aprobación automática
 ```
 
-### 2. Verificar en `telegram-preview.py`
+### 2. Verificar `send-daily-report-review.py`
 
-El script debe estar configurado para publicar automáticamente cuando se aprueba:
-
-```python
-# En telegram-preview.py, cuando response == "approve":
-public_chat_id = os.getenv("TELEGRAM_PUBLIC_CHAT_ID")
-if public_chat_id:
-    publish_message(bot, public_chat_id, args.message)
-```
-
-✅ Esto ya está implementado en el código actual.
+El script envía el informe a Telegram con botones de aprobación. El webhook en Render procesa la respuesta y publica automáticamente.
 
 ## ⏰ Ventajas del Flujo Asíncrono
 
@@ -182,14 +173,12 @@ python3 scripts/send-daily-report-review.py
 ## ⚠️ Limitaciones Actuales
 
 1. **Edición**: Si haces click en "✏️ Editar", necesitas tener la PC para editar el archivo JSON
-   - **Solución futura**: Integrar con Notion o webhook para edición desde móvil
 
 2. **Timeout de GitHub Actions**: Si el workflow tarda más de 6 horas, falla
    - **No es problema**: El workflow actual termina en segundos
 
-3. **Ollama no disponible en GitHub Actions**: No se puede generar mensajes nuevos
-   - **Solución actual**: Generas mensajes anticipadamente localmente
-   - **Solución futura**: Usar API de LLM (OpenAI, Anthropic, etc.)
+3. **Ollama no disponible en GitHub Actions**: No se puede usar LLM local
+   - **Solución actual**: Groq API como fallback cloud en CI
 
 ## 📚 Referencias
 

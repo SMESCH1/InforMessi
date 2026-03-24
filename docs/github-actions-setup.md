@@ -26,8 +26,8 @@ Configurar GitHub Actions para que:
 TELEGRAM_BOT_TOKEN
 TELEGRAM_PREVIEW_CHAT_ID
 TELEGRAM_PUBLIC_CHAT_ID
+GROQ_API_KEY
 NEWSAPI_KEY
-OPENWEATHER_API_KEY
 REDDIT_CLIENT_ID (opcional)
 REDDIT_CLIENT_SECRET (opcional)
 REDDIT_USER_AGENT (opcional)
@@ -38,8 +38,8 @@ REDDIT_USER_AGENT (opcional)
 - `TELEGRAM_BOT_TOKEN`: Token de tu bot (de @BotFather)
 - `TELEGRAM_PREVIEW_CHAT_ID`: Chat ID del chat privado de revisión
 - `TELEGRAM_PUBLIC_CHAT_ID`: Chat ID del grupo público
+- `GROQ_API_KEY`: API key de Groq (para LLM en CI)
 - `NEWSAPI_KEY`: Tu API key de NewsAPI
-- `OPENWEATHER_API_KEY`: Tu API key de OpenWeather (opcional)
 - `REDDIT_*`: Credenciales de Reddit (opcional)
 
 ---

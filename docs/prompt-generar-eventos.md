@@ -1,6 +1,6 @@
 # Prompt para generar eventos faltantes (21/3 → 11/6/2026)
 
-Copiá esto en ChatGPT, Claude.ai o cualquier LLM con acceso a internet y buena memoria histórica.
+Copiá esto en un LLM con acceso a internet y buena memoria histórica.
 El output debe ser un array JSON que luego se agrega al archivo `data/events.json`.
 
 ---

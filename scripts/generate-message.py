@@ -46,6 +46,19 @@ def calculate_days_remaining(mundial_date, current_date):
     current = datetime.strptime(current_date, "%Y-%m-%d").date()
     return (mundial - current).days
 
+def format_countdown(days_remaining, mundial_phase=None, mundial_day=None):
+    """Formatea la cuenta regresiva según la fase del Mundial."""
+    if mundial_phase == "durante_mundial" and mundial_day is not None:
+        return f"Día {mundial_day} del Mundial 2026"
+    elif days_remaining == 0:
+        return "Hoy comienza el Mundial 2026"
+    elif days_remaining == 1:
+        return "Falta 1 día para el Mundial 2026"
+    elif days_remaining > 1:
+        return f"Faltan {days_remaining} días para el Mundial 2026"
+    else:
+        return f"Día {abs(days_remaining) + 1} del Mundial 2026"
+
 def _format_event_for_selection(event):
     """Formatea un evento para el paso de seleccion."""
     if event.get("type") == "birthday":
@@ -246,6 +259,12 @@ def build_prompt(data, selected_events=None, selected_news=None):
         media_context = ""
     
     # Construir prompt con datos
+    countdown_text = format_countdown(
+        days_remaining,
+        data.get("mundial_phase"),
+        data.get("mundial_day")
+    )
+
     prompt = f"""{system_prompt}
 
 ---
@@ -254,7 +273,7 @@ def build_prompt(data, selected_events=None, selected_news=None):
 
 ### Datos del Día
 - **Fecha**: {data['date']}
-- **Días restantes al Mundial 2026**: {days_remaining} días
+- **Cuenta regresiva**: {countdown_text}
 
 ### Eventos del Día
 {events_text}
@@ -351,11 +370,12 @@ _META_PATTERNS = [
 ]
 
 
-def _build_safe_message(days_remaining):
+def _build_safe_message(days_remaining, mundial_phase=None, mundial_day=None):
     """Genera un mensaje mínimo seguro: saludo + cuenta regresiva + cierre."""
+    countdown = format_countdown(days_remaining, mundial_phase, mundial_day)
     return (
         f"Buenos días 🇦🇷\n\n"
-        f"Faltan {days_remaining} días para el Mundial 2026 ⚽\n\n"
+        f"{countdown} ⚽\n\n"
         f"{CIERRE_COMPLETO}"
     )
 
@@ -426,7 +446,7 @@ def postprocess_message(message, data, days_remaining):
         has_extra_content = False
         for line in lines:
             lower = line.lower()
-            if any(kw in lower for kw in ["buenos días", "buen día", "faltan", "coronados de gloria"]):
+            if any(kw in lower for kw in ["buenos días", "buen día", "faltan", "falta", "hoy comienza", "día", "coronados de gloria"]):
                 continue
             # Emojis solos o líneas vacías
             if re.fullmatch(r"[\s\U0001f000-\U0001faff\u2600-\u27bf\u200d\ufe0f]*", line):
@@ -436,7 +456,7 @@ def postprocess_message(message, data, days_remaining):
 
         if has_extra_content:
             logger.warning("⚠️  Post-proceso: mensaje sin datos contenía contenido extra, reemplazando con mensaje seguro")
-            return _build_safe_message(days_remaining)
+            return _build_safe_message(days_remaining, data.get("mundial_phase"), data.get("mundial_day"))
 
     # --- Regla 2: limpiar markdown y meta-texto ---
     cleaned = message

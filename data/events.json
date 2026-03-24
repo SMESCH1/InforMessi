@@ -2212,6 +2212,20 @@
       "description": "Cumpleaños de Lionel Messi (Dato actual)."
     },
     {
+      "date": "2026-03-27",
+      "type": "match",
+      "priority": "high",
+      "person": "Selección Argentina",
+      "description": "Amistoso internacional (Fecha FIFA): Argentina vs. Mauritania, 20:15 hs, La Bombonera, Buenos Aires."
+    },
+    {
+      "date": "2026-03-31",
+      "type": "match",
+      "priority": "high",
+      "person": "Selección Argentina",
+      "description": "Amistoso internacional (Fecha FIFA): Argentina vs. Zambia, 20:15 hs, La Bombonera, Buenos Aires."
+    },
+    {
       "date": "2026-06-11",
       "type": "match",
       "priority": "high",
@@ -2251,7 +2265,7 @@
       "type": "match",
       "priority": "critical",
       "person": "Selección Argentina",
-      "description": "Mundial 2026 - Grupo J: Argentina vs Argelia, 21:00 ET, Arrowhead Stadium, Kansas City."
+      "description": "Mundial 2026 - Grupo J: Argentina vs Argelia, 22:00 (hora argentina), Arrowhead Stadium, Kansas City."
     },
     {
       "date": "2026-06-17",
@@ -2293,7 +2307,7 @@
       "type": "match",
       "priority": "critical",
       "person": "Selección Argentina",
-      "description": "Mundial 2026 - Grupo J: Argentina vs Austria, 13:00 ET, AT&T Stadium, Dallas."
+      "description": "Mundial 2026 - Grupo J: Argentina vs Austria, 14:00 (hora argentina), AT&T Stadium, Dallas."
     },
     {
       "date": "2026-06-23",
@@ -2328,7 +2342,7 @@
       "type": "match",
       "priority": "critical",
       "person": "Selección Argentina",
-      "description": "Mundial 2026 - Grupo J: Argentina vs Jordania, 22:00 ET, AT&T Stadium, Dallas."
+      "description": "Mundial 2026 - Grupo J: Argentina vs Jordania, 23:00 (hora argentina), AT&T Stadium, Dallas."
     },
     {
       "date": "2026-06-28",

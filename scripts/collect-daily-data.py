@@ -256,16 +256,31 @@ def collect_all_data(date: str = None, include_news: bool = True) -> dict:
     except Exception as e:
         print(f"⚠️  No se pudo filtrar noticias repetidas: {e}")
 
-    # Calcular días restantes
+    # Calcular días restantes y fase del Mundial
     mundial_start = "2026-06-11"
+    mundial_end = "2026-07-19"
     mundial = datetime.strptime(mundial_start, "%Y-%m-%d").date()
+    mundial_fin = datetime.strptime(mundial_end, "%Y-%m-%d").date()
     current = datetime.strptime(date, "%Y-%m-%d").date()
     days_remaining = (mundial - current).days
-    
+
+    if current < mundial:
+        mundial_phase = "pre_mundial"
+        mundial_day = None
+    elif current <= mundial_fin:
+        mundial_phase = "durante_mundial"
+        mundial_day = (current - mundial).days + 1
+    else:
+        mundial_phase = "post_mundial"
+        mundial_day = None
+
     data = {
         "date": date,
         "mundial_2026_start": mundial_start,
+        "mundial_2026_end": mundial_end,
         "days_remaining": days_remaining,
+        "mundial_phase": mundial_phase,
+        "mundial_day": mundial_day,
         "events": events,
         "news": all_news
     }

@@ -16,7 +16,6 @@ TELEGRAM_PUBLIC_CHAT_ID=tu_grupo_publico_id
 
 # APIs
 NEWSAPI_KEY=tu_newsapi_key
-OPENWEATHER_API_KEY=tu_openweather_key  # Opcional
 
 # Reddit (Opcional)
 REDDIT_CLIENT_ID=tu_reddit_client_id
@@ -42,7 +41,7 @@ TELEGRAM_BOT_TOKEN
 TELEGRAM_PREVIEW_CHAT_ID
 TELEGRAM_PUBLIC_CHAT_ID
 NEWSAPI_KEY
-OPENWEATHER_API_KEY (opcional)
+GROQ_API_KEY
 REDDIT_CLIENT_ID (opcional)
 REDDIT_CLIENT_SECRET (opcional)
 REDDIT_USER_AGENT (opcional)
@@ -236,6 +235,5 @@ Una vez completado este checklist, el sistema debería:
 
 - [Configuración de GitHub Actions](github-actions-setup.md)
 - [Configuración de Telegram](configuracion-telegram-dos-chats.md)
-- [Webhook Hosting Gratis](webhook-hosting-gratis.md)
 - [Flujo Automático con Aprobación](flujo-automatico-aprobacion.md)
 

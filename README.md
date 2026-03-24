@@ -1,5 +1,10 @@
 # InforMessi
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![LLM](https://img.shields.io/badge/LLM-Ollama%20%7C%20Groq-green)
+![Telegram](https://img.shields.io/badge/Telegram-Bot%20API-blue)
+![CI](https://img.shields.io/badge/CI-GitHub%20Actions-black)
+
 Pipeline editorial automatizado que genera y publica mensajes diarios sobre la Selección Argentina y el Mundial 2026 en Telegram.
 
 ## Qué hace
@@ -209,6 +214,16 @@ flowchart TD
 2. **Generación**: el LLM genera el mensaje usando solo los items seleccionados, el contexto de memoria (para evitar repeticiones) y el estilo aprendido de informes anteriores
 
 Si no hay eventos ni noticias, el paso de selección se omite y el LLM genera solo saludo + cuenta regresiva + cierre.
+
+## Aspectos tecnicos destacados
+
+- **Pipeline LLM en 2 etapas**: Separacion de seleccion de evidencia (JSON estricto, temperatura baja) y generacion editorial (texto libre), reduciendo alucinaciones y focalizando el contexto
+- **Memoria persistente anti-repeticion**: Base de datos JSON que rastrea jugadores, noticias, secciones y temas usados con ventana temporal configurable
+- **Aprendizaje de estilo few-shot**: Extraccion automatica de snippets de reportes editados por humanos para inyectar como ejemplos en el prompt, logrando consistencia de voz editorial
+- **Pipeline de datos multi-fuente**: Integracion de NewsAPI, RSS feeds, Reddit (PRAW), scraping HTML y JSON curado, con deduplicacion por titulo normalizado
+- **Human-in-the-loop**: Flujo de revision en Telegram con aprobacion/edicion/rechazo via botones inline + auto-publicacion de respaldo
+- **Guardrails post-generacion**: Validacion regex de anos, scores y nombres contra datos de entrada; skip de LLM sin datos; cierre ritual forzado; mensaje seguro de fallback
+- **CI/CD automatizado**: GitHub Actions con cron diario, Groq API como fallback de Ollama local, commit automatico de reportes generados
 
 ## Scripts útiles
 
