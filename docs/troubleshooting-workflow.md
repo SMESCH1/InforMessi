@@ -98,6 +98,28 @@ Guía para diagnosticar problemas con el workflow de GitHub Actions.
 2. Si usas branch protection, permite que el workflow haga push a `main` o usa un token con permisos suficientes.
 3. Tras corregir, el siguiente run hará commit y push de los cambios pendientes.
 
+### 7. El scraper diario no aparece en GitHub Actions (404) o no corre
+
+**Síntomas:**
+
+- `gh run list --workflow daily-news-scraper.yml` responde que el workflow no está en la rama por defecto.
+- En el repo remoto solo existe `.github/workflows/daily-informessi.yml` (se puede comprobar con la API: `contents/.github/workflows`).
+
+**Causa:** el archivo [`.github/workflows/daily-news-scraper.yml`](../.github/workflows/daily-news-scraper.yml) y el script [`scripts/scrape-daily-news.py`](../scripts/scrape-daily-news.py) **no están mergeados/pusheados** en `main` (o la rama default). GitHub solo ejecuta workflows presentes en esa rama.
+
+**Qué hacer:**
+
+1. Asegurate de tener en `main` (y pusheados) al menos: `daily-news-scraper.yml`, `scripts/scrape-daily-news.py`, y que [`scripts/collect-daily-data.py`](../scripts/collect-daily-data.py) lea `data/daily-news/<fecha>.json` si existe.
+2. Creá el directorio rastreado `data/daily-news/` (p. ej. con `.gitkeep`) para que el primer commit del scraper sea claro.
+3. En **Settings → Actions → General → Workflow permissions**, dejá **Read and write** (o el workflow debe declarar `permissions: contents: write` para poder hacer `git push`).
+4. Secrets recomendados para el job (ya mapeados en el workflow):
+   - `NEWSAPI_KEY` (opcional pero recomendado; sin él el fetch sigue con RSS/scraping según [`scripts/fetch-news.py`](../scripts/fetch-news.py)).
+   - `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USER_AGENT` (opcionales).
+5. Tras el push, verificá: `gh workflow list` debe listar **InforMessi - Scraper de Noticias Diario**. Probar con **Actions → Run workflow** o `gh workflow run "InforMessi - Scraper de Noticias Diario.yml"`.
+6. Éxito: aparece un commit con archivos bajo `data/daily-news/` (p. ej. `YYYY-MM-DD.json`).
+
+**Prevención:** no asumir que un workflow local corre en CI hasta verlo en la rama default del remoto; usar `gh workflow list` o la pestaña Actions tras cada cambio de workflow.
+
 ## 🧪 Diagnóstico Paso a Paso
 
 ### Paso 1: Verificar Secrets en GitHub
