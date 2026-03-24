@@ -15,12 +15,27 @@
         "description": "Cumpleaños de Archie Gemmill (79 años)"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Liga Profesional de Fútbol",
+        "description": "",
+        "url": "https://www.tycsports.com/liga-profesional-de-futbol.html",
+        "source": "TyC Sports",
+        "published_at": "2026-03-24T14:36:55.868160"
+      },
+      {
+        "title": "Golpazo para el Inter Miami de Messi: empate y temprana eliminación en la Concachampions",
+        "description": "",
+        "url": "https://www.tycsports.com/liga-de-campeones-de-la-concacaf/concacaf-copa-de-campeones-concacaf-2026-inter-miami-vs-nashville-sc-llave-5-id718970.html",
+        "source": "TyC Sports",
+        "published_at": "2026-03-24T14:36:55.868348"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 79 días para el Mundial 2026 ⚽\n\n🎉 Un día como hoy, Archie Gemmill cumple 79 años. El destacado exfutbolista escocés es recordado por su destacada carrera en el Celtic y la selección de Escocia 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 79 días para el Mundial 2026 ⚽\n\nArchie Gemmill cumple 79 años hoy. Un destacado jugador de fútbol escocés que marcó un gol increíble en la Copa Mundial de 1978, es recordado por su habilidad y determinación en el campo.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-03-24T14:37:03.664140",
+  "published_at": "2026-03-24T14:37:04.467802",
+  "pre_approved": true,
+  "pre_approved_at": "2026-03-24T14:37:03.664151"
 }
