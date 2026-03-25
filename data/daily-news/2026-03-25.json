@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-03-25",
+  "scraped_at": "2026-03-25T07:44:09.684272",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "AFA busca renovar el contrato de Scaloni antes del Mundial 2026: los detalles de la negociación",
+      "description": "La dirigencia encabezada por Claudio Tapia quiere asegurar la continuidad del entrenador campeón del mundo y sostener el proyecto deportivo de la Selección Argentina. Leer más",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/afa-busca-renovar-el-contrato-de-scaloni-antes-del-mundial-2026-los-detalles-de-la-negociacion.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-03-24T01:24:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Llegaron los primeros convocados de la Selección Argentina: qué dijeron tras aterrizar en Ezeiza",
+      "description": "Alexis Mac Allister, Enzo Fernández, Rodrigo De Paul, Exequiel Palacios y Nicolás Otamendi aterrizaron en Ezeiza para sumarse al plantel. Los jugadores lamentaron la cancelación de la Finalissima y ha",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/llegaron-los-primeros-convocados-de-la-seleccion-argentina-que-dijeron-tras-aterrizar-en-ezeiza.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-03-23T19:31:53Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El recuerdo tangible de Cruyff a los 10 años de su muerte",
+      "description": "Martes, 24 de marzo de 2026 no es una fecha cualquiera. Se cumple el décimo aniversario del fallecimiento de Johan Cruyff, uno de los mayores mitos de la historia del fútbol y, probablemente, su figur",
+      "url": "https://www.mundodeportivo.com/futbol/fc-barcelona/20260324/1004158265/recuerdo-tangible-cruyff-10-anos-muerte.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-03-24T06:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Cerúndolo se unió a un histórico listado del tenis argentino en el Miami Open",
+      "description": "El número 19 del ranking mundial se metió por octava vez entre los ocho mejores de un torneo Masters 1000.",
+      "url": "https://www.espn.com.ar/tenis/nota/_/id/16484447/fran-cerundolo-se-unio-a-un-historico-listado-del-tenis-argentino-tras-su-clasificacion-a-cuartos-de-final-del-miami-open-atp-masters-1000-del-potro-nalbandian-coria",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-03-25T06:25:27",
+      "category": "mundial"
+    },
+    {
+      "title": "¿Cuál es la posición que más le preocupa a Scaloni de cara al Mundial 2026?",
+      "description": "Se acerca la fecha en la que el Cuerpo Técnico albiceleste debe entregar la lista preliminar y son varios los futbolistas que disputan algunos lugares puntuales en la lista.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16480796/seleccion-argentina-cual-es-la-posicion-que-mas-le-preocupa-a-scaloni-de-cara-al-mundial-2026",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-03-24T19:53:56",
+      "category": "seleccion"
+    },
+    {
+      "title": "Los jugadores que puede probar Scaloni en la última fecha FIFA previa al Mundial 2026",
+      "description": "Argentina enfrenta a Mauritania y Zambia en La Bombonera: última ventana de Scaloni para ajustar y probar nombres rumbo a la gran cita.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16478052/jugadores-puede-probar-scaloni-en-la-ultima-fecha-fifal-mundial-2026-seleccion-argentina",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-03-24T19:53:57",
+      "category": "seleccion"
+    },
+    {
+      "title": "Selección Argentina: ¿cómo llegan los convocados para la fecha FIFA?",
+      "description": "Un 1x1, con el presente, el último partido y algunos datos fundamentales de cada uno de los jugadores citados por Scaloni para enfrentar a Mauritania y Zambia, en los últimos amistosos antes del Mundi",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16477886/seleccion-argentina-como-llegan-los-convocados-para-la-fecha-fifa-marzo",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-03-24T19:53:57",
+      "category": "seleccion"
+    },
+    {
+      "title": "Bareiro y Merentiel destacaron su vínculo futbolístico: \"Estamos haciendo muy buena dupla\"",
+      "description": "El atacante paraguayo pudo volver al gol ante Instituto tras una asistencia del uruguayo.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16481644/miguel-merentiel-adam-bareiro-boca-dupla-ataque-llego-la-maquina",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-03-25T01:38:12",
+      "category": "general"
+    },
+    {
+      "title": "Giay, a la Selección en lugar de Montiel",
+      "description": "Luego de conocerse el desgarro del lateral de River, Lionel Scaloni llamó al jugador de Palmeiras para que tenga su primera experiencia en la Mayor.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16482248/agustin-giay-convocado-a-la-seleccion-argentina-tras-la-lesion-de-gonzalo-montiel",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-03-25T04:21:55",
+      "category": "seleccion"
+    },
+    {
+      "title": "El audio del VAR del gol de Estudiantes R.C. a River",
+      "description": "AFA reveló la charla que hubo con el árbitro Nazareno Arasa por la polémica jugada.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16482273/video-audio-var-gol-anulado-estudiantes-rc-vs-river",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-03-25T04:21:55",
+      "category": "seleccion"
+    }
+  ]
+}
