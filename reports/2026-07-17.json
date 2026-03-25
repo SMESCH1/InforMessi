@@ -1,10 +1,13 @@
 {
   "date": "2026-07-17",
-  "generated_at": "2026-03-23T10:21:57.165614",
+  "generated_at": "2026-03-25T12:20:20.324943",
   "data": {
     "date": "2026-07-17",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -36,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 37,
     "events": [
       {
         "date": "2026-07-17",
@@ -16,7 +19,7 @@
     ],
     "news": []
   },
-  "message": "",
+  "message": "Buenos días 🇦🇷\n\nFaltan 37 días para el Mundial 2026 ⚽\n\nUn día como hoy en 2009, Argentina goleó 4-0 a Venezuela en el debut oficial de Maradona como DT en Eliminatorias. Goles de Messi, Tevez, Maxi Rodríguez y Agüero ⚽\n\nPartido: Argentina vs en las 18:00 (Mundial 2026 - A dos días de la final.)\n\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,

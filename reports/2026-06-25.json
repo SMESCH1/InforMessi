@@ -1,10 +1,13 @@
 {
   "date": "2026-06-25",
-  "generated_at": "2026-03-22T23:27:38.120184",
+  "generated_at": "2026-03-25T12:16:12.760476",
   "data": {
     "date": "2026-06-25",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -14,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 15,
     "events": [
       {
         "date": "1978-06-25",
@@ -44,7 +47,7 @@
     ],
     "news": []
   },
-  "message": "",
+  "message": "Buenos días 🇦🇷\n\nFaltan 15 días para el Mundial 2026 ⚽\n\nUn día como hoy en 1978, Argentina se coronó campeón del mundo por primera vez después de vencer a Holanda con un marcador de 3-1. Ese título fue una fiesta para todo el país y seguirá siendo una de las mejores momentos de la historia del fútbol argentino 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,

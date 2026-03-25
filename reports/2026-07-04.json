@@ -1,10 +1,13 @@
 {
   "date": "2026-07-04",
-  "generated_at": "2026-03-23T10:21:10.277371",
+  "generated_at": "2026-03-25T12:18:03.835341",
   "data": {
     "date": "2026-07-04",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -23,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 24,
     "events": [
       {
         "date": "1926-07-04",
@@ -52,7 +55,7 @@
     ],
     "news": []
   },
-  "message": "",
+  "message": "Buenos días 🇦🇷\n\nFaltan 24 días para el Mundial 2026 ⚽\n\n🏆 Hoy Argentina enfrenta a en a las (Mundial 2026 - Comienzan los octavos de final.)\n\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,

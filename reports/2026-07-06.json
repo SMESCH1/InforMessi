@@ -1,10 +1,13 @@
 {
   "date": "2026-07-06",
-  "generated_at": "2026-03-23T10:21:17.659255",
+  "generated_at": "2026-03-25T12:18:24.984898",
   "data": {
     "date": "2026-07-06",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -25,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 26,
     "events": [
       {
         "date": "2021-07-06",
@@ -23,7 +26,7 @@
     ],
     "news": []
   },
-  "message": "",
+  "message": "Buenos días 🇦🇷\n\nFaltan 26 días para el Mundial 2026 ⚽\n\nHoy Argentina enfrenta a  en  a las . La Scaloneta busca seguir su racha de victorias y avanzar en la competición. El partido promete ser emocionante con Messi al frente 🇦🇷\n\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,

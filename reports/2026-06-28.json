@@ -1,10 +1,13 @@
 {
   "date": "2026-06-28",
-  "generated_at": "2026-03-23T10:20:48.468847",
+  "generated_at": "2026-03-25T12:17:00.430511",
   "data": {
     "date": "2026-06-28",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -17,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 18,
     "events": [
       {
         "date": "2026-06-28",
@@ -23,7 +26,7 @@
     ],
     "news": []
   },
-  "message": "",
+  "message": "Buenos días 🇦🇷\n\nFaltan 18 días para el Mundial 2026 ⚽\n\n🏆 Hoy Argentina enfrenta a en las 22:00 en el Arrowhead Stadium de Kansas City. La Scaloneta sale a defender el título con Messi al frente 🇦🇷\n\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,

@@ -1,10 +1,13 @@
 {
   "date": "2026-07-12",
-  "generated_at": "2026-03-23T10:21:39.277591",
+  "generated_at": "2026-03-25T12:19:26.504608",
   "data": {
     "date": "2026-07-12",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -31,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 32,
     "events": [
       {
         "date": "2026-07-12",
@@ -16,7 +19,7 @@
     ],
     "news": []
   },
-  "message": "",
+  "message": "Buenos días 🇦🇷\n\nFaltan 32 días para el Mundial 2026 ⚽\n\n🏆 Hoy Argentina enfrenta a en a las en el Mundial 2026 - Día previo a semifinales. La Scaloneta sale a defender el título con Messi al frente 🇦🇷\n\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,

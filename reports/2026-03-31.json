@@ -1,11 +1,21 @@
 {
   "date": "2026-03-31",
-  "generated_at": "2026-03-22T22:31:10.609783",
+  "generated_at": "2026-03-25T12:15:33.677933",
   "data": {
     "date": "2026-03-31",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 72,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
+      {
+        "date": "2026-03-31",
+        "type": "match",
+        "priority": "high",
+        "person": "Selección Argentina",
+        "description": "Amistoso internacional (Fecha FIFA): Argentina vs. Zambia, 20:15 hs, La Bombonera, Buenos Aires."
+      },
       {
         "date": "1968-03-31",
         "type": "birthday",
@@ -17,7 +27,7 @@
     ],
     "news": []
   },
-  "message": "Buenos días \n\nFaltan 72 días para el Mundial 2026 \n\nHoy César Sampaio cumple 58 años . El exfutbolista brasileño es recordado por su destacada carrera en clubes como el Palmeiras y la selección brasileña . \n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "message": "Buenos días 🇦🇷\n\nFaltan 72 días para el Mundial 2026 ⚽\n\nHoy Argentina enfrenta a Zambia en amistoso internacional a las 20:15 hs, La Bombonera, Buenos Aires. El partido servirá como preparación para la gran cita del año.\n\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,

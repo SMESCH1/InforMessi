@@ -1,10 +1,13 @@
 {
   "date": "2026-06-29",
-  "generated_at": "2026-03-23T10:20:51.762530",
+  "generated_at": "2026-03-25T12:17:11.632106",
   "data": {
     "date": "2026-06-29",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -18,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 19,
     "events": [
       {
         "date": "1986-06-29",
@@ -45,7 +48,7 @@
     ],
     "news": []
   },
-  "message": "",
+  "message": "Buenos días 🇦🇷\n\nFaltan 19 días para el Mundial 2026 ⚽\n\nUn día como hoy en 1986, Argentina se coronó campeón del mundo por segunda vez después de vencer a Alemania 3-2 en el partido final. Ese título es recordado con nostalgia y orgullo en el fútbol argentino 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,

@@ -1,10 +1,13 @@
 {
   "date": "2026-07-08",
-  "generated_at": "2026-03-23T10:21:24.873242",
+  "generated_at": "2026-03-25T12:18:46.696741",
   "data": {
     "date": "2026-07-08",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -27,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 28,
     "events": [
       {
         "date": "1990-07-08",
@@ -37,7 +40,7 @@
     ],
     "news": []
   },
-  "message": "",
+  "message": "Buenos días 🇦🇷\n\nFaltan 28 días para el Mundial 2026 ⚽\n\nUn día como hoy en 1990, Argentina pierde con Alemania por un penal polémico en la final del Mundial. El seleccionado albiceleste buscaba su tercer título mundial, pero el gol de Andreas Brehme decidió el partido 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,

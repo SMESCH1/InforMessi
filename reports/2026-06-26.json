@@ -1,10 +1,13 @@
 {
   "date": "2026-06-26",
-  "generated_at": "2026-03-22T23:32:38.452632",
+  "generated_at": "2026-03-25T12:16:23.497288",
   "data": {
     "date": "2026-06-26",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -15,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 16,
     "events": [
       {
         "date": "2016-06-26",
@@ -44,7 +47,7 @@
     ],
     "news": []
   },
-  "message": "",
+  "message": "Buenos días 🇦🇷\n\nFaltan 16 días para el Mundial 2026 ⚽\n\nHoy Messi anuncia su renuncia temporal tras perder la final de Copa América Centenario. Un día como hoy en 2015, Messi jugó un partido clave en el Mundial con Argentina y perdió la final contra Alemania. 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,

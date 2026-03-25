@@ -1,17 +1,20 @@
 {
   "date": "2026-06-27",
-  "generated_at": "2026-03-23T10:20:44.959073",
+  "generated_at": "2026-03-25T12:16:49.796973",
   "data": {
     "date": "2026-06-27",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -16,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 17,
     "events": [
       {
         "date": "2026-06-27",
         "type": "match",
         "priority": "critical",
         "person": "Selección Argentina",
-        "description": "Mundial 2026 - Grupo J: Argentina vs Jordania, 22:00 ET, AT&T Stadium, Dallas."
+        "description": "Mundial 2026 - Grupo J: Argentina vs Jordania, 23:00 (hora argentina), AT&T Stadium, Dallas."
       },
       {
         "date": "2010-06-27",
@@ -23,7 +26,7 @@
     ],
     "news": []
   },
-  "message": "",
+  "message": "Buenos días 🇦🇷\n\nFaltan 17 días para el Mundial 2026 ⚽\n\nHoy Argentina enfrenta a Jordania a las 23:00 en el AT&T Stadium, Dallas. En este partido crucial, la Scaloneta busca mantener su racha de victorias y avanzar en la competencia 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,

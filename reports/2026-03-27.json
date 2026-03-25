@@ -1,11 +1,21 @@
 {
   "date": "2026-03-27",
-  "generated_at": "2026-03-22T22:30:07.327648",
+  "generated_at": "2026-03-25T12:15:03.294605",
   "data": {
     "date": "2026-03-27",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 76,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
+      {
+        "date": "2026-03-27",
+        "type": "match",
+        "priority": "high",
+        "person": "Selección Argentina",
+        "description": "Amistoso internacional (Fecha FIFA): Argentina vs. Mauritania, 20:15 hs, La Bombonera, Buenos Aires."
+      },
       {
         "date": "2001-03-27",
         "type": "match",
@@ -16,7 +26,7 @@
     ],
     "news": []
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 76 días para el Mundial 2026 ⚽\n\nUn día como hoy en 2002, Argentina le ganó 5-0 a Venezuela en Eliminatorias, con una goleada contundente en Buenos Aires 🏟️\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "message": "Buenos días 🇦🇷\n\nFaltan 76 días para el Mundial 2026 ⚽\n\nHoy Argentina enfrenta a Mauritania en un amistoso internacional a las 20:15 hs, La Bombonera, Buenos Aires. 🏟️\n\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,
