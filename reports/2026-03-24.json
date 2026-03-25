@@ -33,11 +33,12 @@
     ]
   },
   "message": "Buenos días 🇦🇷\n\nFaltan 79 días para el Mundial 2026 ⚽\n\nDato del día: Hoy Archie Gemmill cumple 79 años. El destacado exfutbolista escocés es recordado por su destacada carrera en el Celtic y la selección de Escocia 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "updated",
+  "status": "published",
   "updated_at": "2026-03-23T21:17:13.264774",
-  "published_at": null,
+  "published_at": "2026-03-25T14:36:47.274184",
   "pre_approved": true,
   "pre_approved_at": "2026-03-23T21:17:15.392306",
   "edited_manually": true,
-  "edited_at": "2026-03-23T21:17:13.264978"
+  "edited_at": "2026-03-23T21:17:13.264978",
+  "auto_published": true
 }
