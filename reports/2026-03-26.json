@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-03-26",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 77,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "2000-03-26",
@@ -15,12 +18,114 @@
         "description": "Cumpleaños de Fausto Vera (26 años)"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Reinauguración del Estadio Azteca contará con casi 11 mil policías… y sin estacionamiento",
+        "description": "El mítico estadio ahora llamado Estadio Banorte albergará cinco partidos del Mundial 2026, entre ellos el inaugural entre México contra Sudáfrica.",
+        "url": "https://aristeguinoticias.com/2403/mexico/reinauguracion-del-estadio-azteca-contara-con-casi-11-mil-policias-y-sin-estacionamiento/",
+        "source": "Aristeguinoticias.com",
+        "published_at": "2026-03-25T03:36:20Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Lionel Messi tuvo su “último primer día” en la selección en el país: buen humor, foto con Tapia e “ilusión intacta”",
+        "description": "El astro llegó desde Miami para prepararse para sus últimos partidos en territorio nacional; llega entero y con ritmo de competencia",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/lionel-messi-tuvo-su-ultimo-primer-dia-en-la-seleccion-en-el-pais-buen-humor-foto-con-tapia-e-nid24032026/",
+        "source": "La Nacion",
+        "published_at": "2026-03-24T23:53:16Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Pau Cubarsí: \"Si ganamos el Mundial no digo qué haría, porque será algo espectacular\"",
+        "description": "El central del Barcelona y de la selección habla con MARCA&nbsp;  Leer",
+        "url": "https://www.marca.com/futbol/seleccion/2026/03/24/pau-cubarsi-ganamos-mundial-digo-haria-sera-espectacular.html",
+        "source": "Marca",
+        "published_at": "2026-03-24T22:18:53Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "De Lewandowski a Donnarumma, los cracks que no quieren perderse el Mundial",
+        "description": "Llegó el momento: 22 selecciones están, a partir de este jueves y a través de las dos repescas, ante el reto de conseguir una plaza en el Mundial 2026 para unirse así a las 42 ya clasificadas. Cuatro ",
+        "url": "https://www.mundodeportivo.com/futbol/mundial/20260325/1004159058/lewandowski-donnarumma-cracks-quieren-perderse-mundial.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-03-25T06:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Guinda a TVE por evitar la polémica de 'El Ganso' en los uniformes del Mundial",
+        "description": "TVE ya trabaja en la preparación de su despliegue para el Mundial de Fútbol 2026 y ha decidido dotar a su equipo de una uniformidad específica para presentadores y redactores, según confirman fuentes ",
+        "url": "https://www.elconfidencialdigital.com/articulo/la-guinda/guinda-tve-evitar-polemica-ganso-uniformes-mundial/202603250500001011609.html",
+        "source": "Elconfidencialdigital.com",
+        "published_at": "2026-03-25T04:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Nueva Caledonia vs. Jamaica: Hora y canal para ver en Centroamérica este partido del repechaje rumbo al Mundial 2026",
+        "description": "Nueva Caledonia y Jamaica se enfrentan para avanzar a la final contra Congo por el boleto al Mundial 2026.",
+        "url": "https://www.nacion.com/puro-deporte/nueva-caledonia-vs-jamaica-hora-y-canal-para-ver/YVA7VPZDXFETHJAMO74UTPKYPM/story/",
+        "source": "Nacion.com",
+        "published_at": "2026-03-25T03:38:13Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Copa Argentina 2026: próximos partidos y cómo está el cuadro",
+        "description": "El certamen tiene su primera etapa en pleno desarrollo con 17 encuentros disputados y otros 15 previstos para las próximas semanas",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/copa-argentina-2026-proximos-partidos-y-como-esta-el-cuadro-nid24032026/",
+        "source": "La Nacion",
+        "published_at": "2026-03-24T13:08:38Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Así viene el año \"mundialista\" de Messi rumbo a su sexta Copa del Mundo",
+        "description": "A meses del Mundial 2026, el capitán de la Selección Argentina atraviesa un año con continuidad en Inter Miami y la ilusión cada vez más cerca de defender la corona con la Scaloneta.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16487741/lionel-messi-seleccion-argentina-ano-mundialista-rumbo-a-su-sexta-copa-del-mundo-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-26T04:24:44",
+        "category": "seleccion"
+      },
+      {
+        "title": "Scaloni define la formación de la Selección Argentina para recibir a Mauritania",
+        "description": "La Albiceleste es local el viernes contra el conjunto africano, en el primer cruce de la doble fecha FIFA.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16487395/scaloni-posible-formacion-equipo-seleccion-argentina-amistoso-vs-mauritania-fifa",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-26T04:25:09",
+        "category": "seleccion"
+      },
+      {
+        "title": "Franco Colapinto y su sueño de estar en Buenos Aires con un F1",
+        "description": "El piloto argentino fue consultado sobre las chances de realizar una exhibición en la capital de la Argentina en plena conferencia de prensa del GP de Japón, tercera fecha del año. Mostró sus ganas, p",
+        "url": "https://www.espn.com.ar/deporte-motor/f1/nota/_/id/16489059/franco-colapinto-y-su-sueno-de-estar-en-buenos-aires-con-un-f1",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-26T05:40:59",
+        "category": "seleccion"
+      },
+      {
+        "title": "Brasil lanzó una polémica alianza con Jordan de cara al Mundial 2026 que generó rechazo en redes",
+        "description": "La CBF presentó una alianza histórica con la marca de Michael Jordan para su nueva indumentaria. El público explotó en las redes exigiendo un tributo a \"O Rei\" en lugar del \"Jumpman\". Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/cbf-y-jordan-lanzan-uniforme-el-reclamo-por-pele-en-brasil-a35.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-03-25T17:07:19Z"
+      },
+      {
+        "title": "Todos los amistosos internacionales de la fecha FIFA de marzo de 2026",
+        "description": "Entre este miércoles y el 1° de abril se disputan 110 encuentros en todo el mundo; la selección argentina recibe a Mauritania y Zambia en la Bombonera",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/todos-los-amistosos-internacionales-de-la-fecha-fifa-de-marzo-de-2026-nid25032026/",
+        "source": "La Nacion",
+        "published_at": "2026-03-25T16:45:48Z"
+      },
+      {
+        "title": "Manuel Ugarte: \"Si llegamos a la versión del comienzo de la Copa América, podemos ganarle a cualquiera”",
+        "description": "Con la mira en el Mundial 2026, Ugarte habló de su presente en Inglaterra, el aprendizaje sin minutos y una certeza: la selección es hoy su mayor motivación para volver a su mejor nivel.",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/manuel-ugarte-si-llegamos-a-la-version-del-comienzo-de-la-copa-america-podemos-ganarle-a-cualquiera",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-03-25T13:00:20Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 77 días para el Mundial 2026 ⚽\n\n🎉 Hoy Fausto Vera cumple 26 años. \n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 77 días para el Mundial 2026 ⚽\n\nHoy Fausto Vera cumple 26 años. El joven defensor es uno de los talentos que busca dejar su huella en la historia de la Selección Argentina 🎉\n\nLionel Messi tiene su \"último primer día\" en la selección en el país. En su último día en casa antes de partir a prepararse para los próximos partidos, el astro tuvo un buen humor y una foto con Tapia, mostrando su ilusión intacta 📸\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-03-26T17:53:32.660425",
+  "published_at": "2026-03-26T17:53:33.297943",
+  "pre_approved": true,
+  "pre_approved_at": "2026-03-26T17:53:32.660435"
 }
