@@ -24,12 +24,114 @@
         "description": "Argentina 5-0 Venezuela en Eliminatorias 2002. Goleada contundente en Buenos Aires."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Mundial 2026 en el cine: Partidos, preventa, precios de los boletos y todo lo que debes saber",
+        "description": "Una cadena de cines anunció proyecciones de diferentes partidos de la fase de grupos del Mundial 2026.",
+        "url": "https://www.elfinanciero.com.mx/deportes/2026/03/25/mundial-2026-en-el-cine-partidos-preventa-boletos-y-todo-lo-que-debes-saber/",
+        "source": "El Financiero",
+        "published_at": "2026-03-26T02:38:33Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Cisma mundial a la vista: la nueva liga de LeBron James que amenaza a NBA y Euroliga",
+        "description": "Corren tiempos de cambios inminentes de época en el baloncesto mundial que pueden y de hecho van a revolucionar el actual panorama del basket global. Es la fusión que se viene entre la NBA y la Euroli",
+        "url": "https://www.mundodeportivo.com/baloncesto/nba/20260326/1004159652/cisma-mundial-nueva-liga-lebron-james-amenaza-nba-nba-europa.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-03-26T06:34:16Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Desde abril: el plan de “adiestramiento” para el Mundial por el que el Ejército de EE.UU. entraría a México",
+        "description": "Claudia Sheinbaum valúa un plan de adiestramiento vinculado al Mundial que implicaría el despliegue de tropas estadounidenses en México del 3 de abril al 1° de mayo; así se organizaría la operación",
+        "url": "https://www.lanacion.com.ar/estados-unidos/desde-abril-el-plan-de-adiestramiento-para-el-mundial-por-el-que-el-ejercito-de-eeuu-entraria-a-nid26032026/",
+        "source": "La Nacion",
+        "published_at": "2026-03-26T05:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Un electroshock para revivir el fútbol sala español",
+        "description": "La electricidad del fútbol sala nunca se ha limitado a lo que pasa dentro de los límites del 40x20 de sus pistas. El vértigo y la tensión de un deporte que nació combinando reglas de otras disciplinas",
+        "url": "https://www.abc.es/deportes/electroshock-revivir-futbol-sala-espanol-20260325090032-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-03-25T09:02:57Z",
+        "category": "general"
+      },
+      {
+        "title": "Preocupación en la Selección Argentina: Joaquín Panichelli sufrió una lesión y se realizará estudios",
+        "description": "El delantero sufrió una molestia durante la última práctica en Ezeiza y está en duda para los próximos compromisos.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16493120/lesion-joaquin-panichelli-seleccion-argentina-parte-medico",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-27T04:12:49",
+        "category": "seleccion"
+      },
+      {
+        "title": "Scaloni confirmó a Messi en los amistosos y habló de la lista para el Mundial",
+        "description": "El técnico de la Albiceleste habló en la previa al duelo frente a Mauritania, por la doble fecha FIFA.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16490193/scaloni-equipo-conferencia-seleccion-argentina-previa-amistoso-mauritania-lista-messi-mundial",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-27T04:12:49",
+        "category": "seleccion"
+      },
+      {
+        "title": "Bolivia venció a Surinam: está a 90' del Mundial",
+        "description": "El Verde enfrentará a Irak el próximo martes 31 de marzo en busca de un lugar en la Copa del Mundo.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16417871/bolivia-vs-surinam-repechaje-mundial-2026-equipo-fecha-hora-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-27T09:33:06",
+        "category": "mundial"
+      },
+      {
+        "title": "Italia triunfó y quedó a un paso del Mundial",
+        "description": "La Azzurra se llevó el encuentro con goles en el complemento de Sandro Tonali y Moise Kean.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16418862/italia-vs-irlanda-del-norte-repechaje-uefa-mundial-2026-equipo-fecha-hora-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-27T09:33:06",
+        "category": "mundial"
+      },
+      {
+        "title": "River-Boca: cuándo se juega el Superclásico",
+        "description": "La Liga Profesional confirmó el día y la hora del duelo que se llevará a cabo en el Monumental.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16073644/primer-superclasico-2026-river-vs-boca-fecha-cuando-se-juega-torneo-apertura",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-27T09:33:06",
+        "category": "liga"
+      },
+      {
+        "title": "Oscar Piastri: el piloto sin carreras en 2026 que dominó en Japón",
+        "description": "El australiano se quedó con lo mejor del primer día de Suzuka, tercera fecha de F1, y buscará largar su primer GP del año. Los dos Mercedes cedieron ante el McLaren.",
+        "url": "https://www.espn.com.ar/deporte-motor/f1/nota/_/id/16494261/oscar-piastri-el-piloto-sin-carreras-en-2026-que-domino-en-japon",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-27T09:27:14",
+        "category": "mundial"
+      },
+      {
+        "title": "Italia, con Retegui, juega bajo la enorme presión de volver a un Mundial tras 12 años",
+        "description": "La Azzurra recibe a Irlanda del Norte; si gana, enfrentará a Gales o Bosnia-Herzegovina en busca de la clasificación",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/italia-con-retegui-juega-bajo-la-enorme-presion-de-volver-a-un-mundial-tras-12-anos-nid26032026/",
+        "source": "La Nacion",
+        "published_at": "2026-03-26T13:26:33Z"
+      },
+      {
+        "title": "A qué hora juega hoy Italia vs. Irlanda del Norte y por dónde se puede ver en vivo el Repechaje al Mundial 2026",
+        "description": "El encuentro correspondiente a una de las semifinales del Torneo A de Europa se disputa este jueves en el estadio New Balance de Bérgamo",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-juega-hoy-italia-vs-irlanda-del-norte-y-por-donde-se-puede-ver-en-vivo-el-repechaje-al-nid26032026/",
+        "source": "La Nacion",
+        "published_at": "2026-03-26T13:26:28Z"
+      },
+      {
+        "title": "Brasil vs. Francia: la esperanza mundialista de Endrick se cruza con la selección del país donde resurgió su fútbol",
+        "description": "Se enfrentan en Massachusetts, en uno de los amistosos más importantes como preparación para la Copa del Mundo",
+        "url": "https://www.lanacion.com.ar/deportes/brasil-vs-francia-la-esperanza-mundialista-de-endrick-se-cruza-con-la-seleccion-del-pais-donde-nid26032026/",
+        "source": "La Nacion",
+        "published_at": "2026-03-26T12:49:50Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 76 días para el Mundial 2026 ⚽\n\nHoy Argentina enfrenta a Mauritania en un amistoso internacional a las 20:15 hs, La Bombonera, Buenos Aires. 🏟️\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 76 días para el Mundial 2026 ⚽\n\n📅 Hoy Argentina enfrenta a Mauritania a las 20:15 en La Bombonera, Buenos Aires. La Scaloneta busca el triunfo en su último amistoso antes de partir a la cita mundialista.\n\nJugador del día: Joaquín Panichelli es el delantero que sufrió una lesión en la última práctica y se realizarán estudios para evaluar la gravedad de la molestia. 🤕\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-03-27T14:17:08.618629",
+  "published_at": "2026-03-27T14:17:09.676812",
+  "pre_approved": true,
+  "pre_approved_at": "2026-03-27T14:17:08.618639"
 }
