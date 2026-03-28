@@ -1,10 +1,11 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-03-27T14:17:09.683185",
+  "last_updated": "2026-03-28T13:57:19.345064",
   "players_used": {
     "Messi": [
-      "2026-03-26"
+      "2026-03-26",
+      "2026-03-28"
     ]
   },
   "weekly_sections": {
@@ -14,17 +15,21 @@
     "jugador_scaloneta": [
       "2026-03-26"
     ],
-    "dato_mundialista": [],
+    "dato_mundialista": [
+      "2026-03-28"
+    ],
     "dato_pais_sede": []
   },
   "topics_mentioned": {
     "mundial": [
       "2026-03-26",
-      "2026-03-27"
+      "2026-03-27",
+      "2026-03-28"
     ],
     "seleccion": [
       "2026-03-26",
-      "2026-03-27"
+      "2026-03-27",
+      "2026-03-28"
     ]
   },
   "events_mentioned": {
@@ -36,6 +41,9 @@
     ],
     "Argentina 5-0 Venezuela en Eliminatorias 2002. Goleada contundente en Buenos Aires.": [
       "2026-03-27"
+    ],
+    "Argentina 4-0 Venezuela: debut oficial de Maradona como DT en Eliminatorias. Goles de Messi, Tevez, ": [
+      "2026-03-28"
     ]
   },
   "news_topics": {},

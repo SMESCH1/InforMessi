@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-03-28",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 75,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "2009-03-28",
@@ -14,12 +17,107 @@
         "description": "Argentina 4-0 Venezuela: debut oficial de Maradona como DT en Eliminatorias. Goles de Messi, Tevez, Maxi Rodríguez y Agüero."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Iván Helguera, exfutbolista, dice lo que muchos piensan de la derrota de España contra Corea en el Mundial 2002: «Fue una vergüenza»",
+        "description": "La selección española afronta el último parón internacional previo a la Copa del Mundo de 2026 —que se celebrará en Estados Unidos, México y Canadá— con la tranquilidad que da haber hecho los deberes ",
+        "url": "https://www.abc.es/recreo/ivan-helguera-exfutbolista-dice-piensan-derrota-espana-20260327133730-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-03-27T05:00:06Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "España vs Serbia: horario y dónde ver el partido por TV en directo",
+        "description": "La Roja se mide a Serbia en La Cerámica en un amistoso clave de preparación para el Mundial 2026 que podrá seguirse en directo por televisión y online",
+        "url": "https://www.elconfidencial.com/deportes/futbol/2026-03-27/espana-serbia-horario-donde-ver_4327525/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-03-27T04:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "¿Va a llover en La Bombonera? El pronóstico del tiempo para el amistoso de la Selección Argentina ante Mauritania",
+        "description": "El equipo de Lionel Scaloni se presenta en La Boca desde las 20:15 en un duelo clave para ajustar detalles de cara a la cita mundialista. Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/va-a-llover-en-la-bombonera-el-pronostico-del-tiempo-para-el-amistoso-de-la-seleccion-argentina-ante-mauritania-a35.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-03-26T22:53:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Estreno del Estadio Banorte",
+        "description": "Es un hecho que el Mundial tendrá efectos en la economía, según datos del área del Análisis Económico de Banorte, que lleva Alejandro Padilla Santana, porque esperan que la justa mundialista añada ent",
+        "url": "https://www.elfinanciero.com.mx/opinion/jeanette-leyva/2026/03/27/estreno-del-estadio-banorte/",
+        "source": "El Financiero",
+        "published_at": "2026-03-27T07:30:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Jamaica gana y sigue con vida en el repechaje hacia el Mundial 2026",
+        "description": "Nueva Caledonia puso algo de resistencia, pero Jamaica salió avante en el duelo por la repesca intercontinental de la Copa del Mundo 2026.",
+        "url": "https://www.nacion.com/puro-deporte/jamaica-gana-y-sigue-con-vida-en-el-repechaje/PWVU62K5QJGK7DM6JXTJAC6DGY/story/",
+        "source": "Nacion.com",
+        "published_at": "2026-03-27T05:38:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "La Roja de Córdova reacciona a tiempo: supera a la mundialista Cabo Verde y estira su racha de triunfos",
+        "description": "En su primera presentación de 2026, la selección chilena se sobrepuso a un primer tiempo que dejó demasiadas dudas, sobre todo en defensa. Derrotó 4-2 a los africanos, que estarán en el Mundial. Anota",
+        "url": "https://www.latercera.com/el-deportivo/noticia/la-roja-de-cordova-reacciona-a-tiempo-supera-a-la-mundialista-cabo-verde-y-estira-su-racha-de-triunfos/",
+        "source": "Latercera.com",
+        "published_at": "2026-03-27T05:01:34Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "La fuerte autocrítica de Dibu Martínez por el rendimiento de Argentina: \"Si jugábamos así la Finalissima, perdíamos\"",
+        "description": "El arquero de la Selección fue duro con lo mostrado ante Mauritania: \"Hay que tener un poco más de corazón\".",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16498168/autocritica-dibu-martinez-rendimiento-de-argentina-si-jugabamos-asi-la-finalissima-perdiamos",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-28T05:19:20",
+        "category": "seleccion"
+      },
+      {
+        "title": "Scaloni: \"No hicimos un buen partido, pero sacamos muchísimas conclusiones\"",
+        "description": "El entrenador de la Selección Argentina hizo autocrítica luego de la ajustada victoria contra Mauritania en La Bombonera y lamentó la lesión de Joaquín Panichelli.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16497855/lionel-scaloni-argentina-mauritania-no-hicimos-un-buen-partido",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-28T05:19:20",
+        "category": "seleccion"
+      },
+      {
+        "title": "Enzo Fernández apuntó al campo por nivel de Argentina: \"La cancha no estaba en buenas condiciones\"",
+        "description": "El mediocampista, autor del primer gol, habló luego de la victoria de Argentina ante Mauritania en La Bombonera.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16497761/enzo-fernandez-lesion-panichelli-argentina-vs-mauritania-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-28T05:19:20",
+        "category": "seleccion"
+      },
+      {
+        "title": "Argentina derrotó a Mauritania en un discreto partido en su preparación para el Mundial",
+        "description": "La Albiceleste sacó ventajas rápido ante el conjunto africano y no la pasó bien en el cierre.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16482649/argentina-vs-mauritania-amistoso-internacional-equipo-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-28T06:30:22",
+        "category": "seleccion"
+      },
+      {
+        "title": "Lionel Scaloni quiere sostener el hambre competitivo de Argentina frente a Mauritania camino al Mundial 2026",
+        "description": "Mantener el espíritu ganador intacto antes de la Copa es clave para el DT, que evita críticas a la AFA por la calidad de los amistosos y no habla sobre la situación judicial en la entidad",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/lionel-scaloni-quiere-sostener-el-hambre-competitivo-de-argentina-frente-a-mauritania-camino-al-nid27032026/",
+        "source": "La Nacion",
+        "published_at": "2026-03-27T11:53:30Z"
+      },
+      {
+        "title": "5 momentos del Azteca, el estadio de fútbol más emblemático de América Latina que se reinaugura para el Mundial",
+        "description": "El Estadio Azteca cumple 60 años con un momento histórico: será sede de su tercera Copa del Mundo. Varios son los momentos inigualables que ha tenido el \"coloso\" de Ciudad de México.",
+        "url": "https://www.bbc.com/mundo/articles/c1w4qe8pp9do",
+        "source": "BBC News",
+        "published_at": "2026-03-27T11:33:34Z"
+      }
+    ]
   },
-  "message": "Buenos días \n\nFaltan 75 días para el Mundial 2026 \n\n Un día como hoy en 2009, Argentina goleó 4-0 a Venezuela en el debut oficial de Maradona como DT en Eliminatorias. Goles de Messi, Tevez, Maxi Rodríguez y Agüero \n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 75 días para el Mundial 2026 ⚽\n\n📅 Un día como hoy en 2009, Argentina goleó 4-0 a Venezuela en el debut oficial de Maradona como DT en Eliminatorias. Goles de Messi, Tevez, Maxi Rodríguez y Agüero ⚽\n\nDato Mundialista: El Mundial 2026 será el primero en tener 48 equipos 🌍, expandiendo la competencia a nuevas regiones del mundo.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-03-28T13:57:18.435226",
+  "published_at": "2026-03-28T13:57:19.340478",
+  "pre_approved": true,
+  "pre_approved_at": "2026-03-28T13:57:18.435235"
 }
