@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-03-30",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 73,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1955-03-30",
@@ -14,12 +17,114 @@
         "description": "Argentina campeón de América en Santiago de Chile."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Saviola: \"Ojalá enfrentarnos a España en el Mundial\"",
+        "description": "La leyenda de Benfica y ex de Madrid, Barça y Sevilla analiza en MARCA lo sucedido con la Finalissima, la Selección y la cita de verano&nbsp;",
+        "url": "https://www.marca.com/futbol/mundial/2026/03/29/saviola-ojala-enfrentarnos-espana-mundial.html",
+        "source": "Marca",
+        "published_at": "2026-03-29T04:07:59Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Cuauhtémoc Blanco confía en que la México le gane a Portugal: ‘Estamos aquí, en territorio’",
+        "description": "Cuauhtémoc Blanco confía en que México vencerá a Portugal en el Azteca reabierto; el Tri enfrenta bajas y prueba su nivel rumbo a 2026.",
+        "url": "https://www.elfinanciero.com.mx/deportes/2026/03/28/cuauhtemoc-blanco-confia-en-la-localia-para-la-seleccion-mexicana/",
+        "source": "El Financiero",
+        "published_at": "2026-03-28T23:57:46Z",
+        "category": "mundial"
+      },
+      {
+        "title": "De goleada española a golpazo árabe: así le fue a los rivales de Uruguay en el Mundial en esta fecha FIFA",
+        "description": "El único que no tuvo actividad en esta ventana internacional del ente rector del fútbol internacional fue Cabo Verde, que será el segundo adversario que tendrá la Celeste en la cita mundialista.",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/de-goleada-espanola-a-golpazo-arabe-asi-le-fue-a-los-rivales-de-uruguay-en-el-mundial-en-esta-fecha-fifa",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-03-28T18:43:27Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Muere un aficionado al caer de las gradas en el regreso del fútbol al Estadio Azteca",
+        "description": "El Estadio Azteca de la Ciudad de México, el escenario de apertura del próximo Mundial , fue reinaugurado este sábado con un empate sin goles entre Portugal y México y con tintes trágicos al morir un ",
+        "url": "https://www.abc.es/deportes/futbol/muere-aficionado-caer-gradas-regreso-futbol-estadio-20260329082329-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-03-29T06:23:32Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Carlos Pellicer: el futbolista que iba para ingeniero y acabó siendo médico",
+        "description": "Artículo 84 de Historias de Fútbol, de la mano de la Academia del Fútbol Español, recordando al exjugador de Deportivo, Barça, Valencia y Levante.",
+        "url": "https://www.libertaddigital.com/deportes/futbol/2026-03-29/carlos-pellicer-el-futbolista-que-iba-para-ingeniero-y-acabo-siendo-medico-7381636/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-03-29T05:00:14Z",
+        "category": "general"
+      },
+      {
+        "title": "\"La despedida en casa\": los shows y las entradas para Argentina vs. Zambia en La Bombonera",
+        "description": "La AFA difundió los detalles para el partido que se jugará este martes y que será la última presentación de los campeones del mundo antes del Mundial.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16505781/argentina-vs-zambia-en-la-bombonera-shows-y-venta-de-entradas",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-30T05:52:55",
+        "category": "seleccion"
+      },
+      {
+        "title": "¿Es para preocuparse el partido de Argentina ante Mauritania?",
+        "description": "La Selección campeona del mundo le ganó 2-1 al rival africano pero no jugó nada bien.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16498879/es-para-preocuparse-el-partido-de-argentina-ante-mauritania",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-30T05:52:56",
+        "category": "seleccion"
+      },
+      {
+        "title": "Acassuso le dio un cachetazo a Newell's y lo eliminó rápido de Copa Argentina",
+        "description": "Martín Schlotthauer en la primera mitad y Nahuel Petillo en el complemento le dieron la clasificación a Suso a la siguiente instancia.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16483274/newells-vs-acassuso-32avos-copa-argentina-2026-equipo-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-30T04:35:04",
+        "category": "seleccion"
+      },
+      {
+        "title": "Con goles de Romero y Blondel, Huracán eliminó a Olimpo y está en 16avos. de la Copa Argentina",
+        "description": "El Globo se impuso 2-1 en el Estadio Ciudad de Caseros y se medirá con Barracas Central en la próxima fase.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16482357/huracan-vs-olimpo-32avos-copa-aargentina-2026-equipo-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-30T01:47:17",
+        "category": "seleccion"
+      },
+      {
+        "title": "Así quedó el ranking mundial ATP luego del título de Jannik Sinner en el Miami Open",
+        "description": "El italiano derrotó a Lehecka por doble 6-4 en la final del Masters 1000 estadounidense y se acerca al español Alcaraz (1°).",
+        "url": "https://www.espn.com.ar/tenis/nota/_/id/16503506/asi-quedo-el-ranking-mundial-atp-luego-del-titulo-de-jannik-sinner-en-el-miami-open-jiri-lehecka-atp-masters-1000-alcaraz",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-03-30T04:00:17",
+        "category": "mundial"
+      },
+      {
+        "title": "España - Egipto: cuándo es y cómo ver el partido de La Roja",
+        "description": "España se medirá a Egipto en un amistoso crucial dentro de su preparación para el Mundial 2026 en Estados Unidos.",
+        "url": "https://www.elindependiente.com/deportes/2026/03/29/espana-egipto-cuando-es-como-ver-partido-espana/",
+        "source": "Elindependiente.com",
+        "published_at": "2026-03-29T10:43:52Z"
+      },
+      {
+        "title": "Saviola: \"Ojalá enfrentarnos a España en el Mundial\"",
+        "description": "La leyenda de Benfica y ex de Madrid, Barça y Sevilla analiza en MARCA lo sucedido con la Finalissima, la Selección y la cita de verano&nbsp;",
+        "url": "https://www.marca.com/futbol/mundial/2026/03/29/saviola-ojala-enfrentarnos-espana-mundial.html",
+        "source": "Marca",
+        "published_at": "2026-03-29T04:07:59Z"
+      },
+      {
+        "title": "Cuauhtémoc Blanco confía en que la México le gane a Portugal: ‘Estamos aquí, en territorio’",
+        "description": "Cuauhtémoc Blanco confía en que México vencerá a Portugal en el Azteca reabierto; el Tri enfrenta bajas y prueba su nivel rumbo a 2026.",
+        "url": "https://www.elfinanciero.com.mx/deportes/2026/03/28/cuauhtemoc-blanco-confia-en-la-localia-para-la-seleccion-mexicana/",
+        "source": "El Financiero",
+        "published_at": "2026-03-28T23:57:46Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 73 días para el Mundial 2026 ⚽\n\nUn día como hoy, Argentina se coronó campeón de América en Santiago de Chile 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 73 días para el Mundial 2026 ⚽\n\nSe cumplen 3 años de que Argentina ganó el título de Campeón de América en Santiago de Chile 🏆. En aquella final, Argentina goleó 1-0 a Brasil con un gol de Messi, coronándose campeón del continente. 🤩\n\nLa despedida en casa: los shows y las entradas para Argentina vs. Zambia en La Bombonera serán la última presentación de los campeones del mundo antes del Mundial. (www.espn.com.ar - TOP)\n\n¿Es para preocuparse el partido de Argentina ante Mauritania?: La Selección campeona del mundo le ganó 2-1 al rival africano pero no jugó nada bien. (www.espn.com.ar - TOP)\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-03-30T14:44:40.279693",
+  "published_at": "2026-03-30T14:44:40.941336",
+  "pre_approved": true,
+  "pre_approved_at": "2026-03-30T14:44:40.279702"
 }

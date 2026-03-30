@@ -1,17 +1,19 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-03-29T13:58:38.273527",
+  "last_updated": "2026-03-30T14:44:40.946421",
   "players_used": {
     "Messi": [
       "2026-03-26",
       "2026-03-28",
-      "2026-03-29"
+      "2026-03-29",
+      "2026-03-30"
     ]
   },
   "weekly_sections": {
     "seleccion_mundiales": [
-      "2026-03-27"
+      "2026-03-27",
+      "2026-03-30"
     ],
     "jugador_scaloneta": [
       "2026-03-26"
@@ -28,13 +30,15 @@
       "2026-03-26",
       "2026-03-27",
       "2026-03-28",
-      "2026-03-29"
+      "2026-03-29",
+      "2026-03-30"
     ],
     "seleccion": [
       "2026-03-26",
       "2026-03-27",
       "2026-03-28",
-      "2026-03-29"
+      "2026-03-29",
+      "2026-03-30"
     ]
   },
   "events_mentioned": {
@@ -52,9 +56,16 @@
     ],
     "Argentina 4-1 Chile en Eliminatorias rumbo a Corea/Japón 2002. Goles de Batistuta, Verón (2) y C. Ló": [
       "2026-03-29"
+    ],
+    "Argentina campeón de América en Santiago de Chile.": [
+      "2026-03-30"
     ]
   },
-  "news_topics": {},
+  "news_topics": {
+    "¿es para preocuparse el partido de argentina ante ": [
+      "2026-03-30"
+    ]
+  },
   "phrases_used": [],
   "facts_used": {}
 }
