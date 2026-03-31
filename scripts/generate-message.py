@@ -72,8 +72,19 @@ def _format_event_for_selection(event):
     return event.get("description", "")
 
 
-def _format_event_for_prompt(event):
-    """Formatea un evento para el prompt final."""
+def _format_event_for_prompt(event, report_date=None):
+    """Formatea un evento para el prompt final, incluyendo año y antigüedad."""
+    ev_date = event.get("date", "")
+    ev_year = None
+    years_ago = None
+    if isinstance(ev_date, str) and len(ev_date) >= 4:
+        try:
+            ev_year = int(ev_date[:4])
+            if report_date and ev_year < int(report_date[:4]):
+                years_ago = int(report_date[:4]) - ev_year
+        except ValueError:
+            pass
+
     if event.get("type") == "birthday":
         return f"- {event.get('person', '')} cumple {event.get('age', '')} años ({event.get('description', '')})"
     if event.get("type") == "match":
@@ -81,7 +92,13 @@ def _format_event_for_prompt(event):
             f"- Partido: Argentina vs {event.get('opponent', '')} en {event.get('venue', '')} "
             f"a las {event.get('time', '')} ({event.get('description', '')})"
         )
-    return f"- {event.get('description', '')}"
+    # Para efemérides históricas: incluir año original y años transcurridos
+    desc = event.get("description", "")
+    if years_ago is not None and ev_year is not None:
+        return f"- [Año: {ev_year}, hace {years_ago} años] {desc}"
+    elif ev_year is not None:
+        return f"- [Año: {ev_year}] {desc}"
+    return f"- {desc}"
 
 
 def _format_news_for_prompt(news):
@@ -232,7 +249,7 @@ def build_prompt(data, selected_events=None, selected_news=None):
     events_to_use = selected_events if selected_events is not None else data.get("events", [])
     events_text = "No hay eventos importantes del día."
     if events_to_use:
-        events_list = [_format_event_for_prompt(event) for event in events_to_use]
+        events_list = [_format_event_for_prompt(event, report_date=data["date"]) for event in events_to_use]
         events_text = "\n".join(events_list)
 
     # Formatear noticias (seleccionadas)
@@ -469,7 +486,35 @@ def postprocess_message(message, data, days_remaining):
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
     cleaned = cleaned.strip()
 
-    # --- Regla 3: verificar años ---
+    # --- Regla 3: detectar cumpleaños inventados ---
+    birthday_persons = set()
+    for ev in events:
+        if ev.get("type") == "birthday":
+            person = ev.get("person", "").lower()
+            if person:
+                birthday_persons.add(person)
+                parts = person.strip().split()
+                if len(parts) > 1:
+                    birthday_persons.add(parts[-1].lower())
+
+    cumple_patterns = re.findall(
+        r"(?:cumple(?:años)?|cumple\s+\d+\s+años|naci[oó])\s+.*?(?:de\s+)?([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)*)",
+        cleaned, re.IGNORECASE
+    )
+    # También detectar "hoy es el cumpleaños de X"
+    cumple_patterns += re.findall(
+        r"cumpleaños\s+de\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)*)",
+        cleaned, re.IGNORECASE
+    )
+    for person_match in cumple_patterns:
+        person_lower = person_match.strip().lower()
+        person_parts = person_lower.split()
+        is_valid = any(p in birthday_persons for p in [person_lower] + person_parts)
+        if not is_valid:
+            logger.warning(f"⚠️  Post-proceso: cumpleaños inventado detectado ({person_match}), reemplazando con mensaje seguro")
+            return _build_safe_message(days_remaining, data.get("mundial_phase"), data.get("mundial_day"))
+
+    # --- Regla 4: verificar años ---
     if events or news:
         allowed_years, allowed_persons, allowed_scores = _extract_allowed_entities(events, news)
 
@@ -477,15 +522,23 @@ def postprocess_message(message, data, days_remaining):
         hallucinated_years = years_in_msg - allowed_years
         if hallucinated_years:
             logger.warning(f"⚠️  Post-proceso: años no encontrados en datos: {hallucinated_years}")
-            # No eliminamos el mensaje completo, pero logueamos para tracking
+            # Remover las oraciones con años alucinados
+            for bad_year in hallucinated_years:
+                # Eliminar la línea/oración que contiene el año inventado
+                cleaned = re.sub(rf"[^\n]*\b{bad_year}\b[^\n]*\n?", "", cleaned)
+            cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
+            # Si quedó vacío tras la limpieza, usar mensaje seguro
+            lines = [ln.strip() for ln in cleaned.split("\n") if ln.strip()]
+            if len(lines) < 2:
+                return _build_safe_message(days_remaining, data.get("mundial_phase"), data.get("mundial_day"))
 
-        # --- Regla 4: verificar scores ---
+        # --- Regla 5: verificar scores ---
         scores_in_msg = set(re.findall(r"\b(\d+-\d+)\b", cleaned))
         hallucinated_scores = scores_in_msg - allowed_scores
         if hallucinated_scores:
             logger.warning(f"⚠️  Post-proceso: scores no encontrados en datos: {hallucinated_scores}")
 
-    # --- Regla 5: asegurar cierre ritual ---
+    # --- Regla 6: asegurar cierre ritual ---
     if CIERRE_RITUAL.lower() not in cleaned.lower():
         logger.warning("⚠️  Post-proceso: cierre ritual faltante, agregándolo")
         cleaned = cleaned.rstrip() + f"\n\n{CIERRE_COMPLETO}"
