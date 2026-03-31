@@ -1,13 +1,14 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-03-30T14:44:40.946421",
+  "last_updated": "2026-03-31T14:43:07.924363",
   "players_used": {
     "Messi": [
       "2026-03-26",
       "2026-03-28",
       "2026-03-29",
-      "2026-03-30"
+      "2026-03-30",
+      "2026-03-31"
     ]
   },
   "weekly_sections": {
@@ -16,7 +17,8 @@
       "2026-03-30"
     ],
     "jugador_scaloneta": [
-      "2026-03-26"
+      "2026-03-26",
+      "2026-03-31"
     ],
     "dato_mundialista": [
       "2026-03-28"
@@ -31,14 +33,16 @@
       "2026-03-27",
       "2026-03-28",
       "2026-03-29",
-      "2026-03-30"
+      "2026-03-30",
+      "2026-03-31"
     ],
     "seleccion": [
       "2026-03-26",
       "2026-03-27",
       "2026-03-28",
       "2026-03-29",
-      "2026-03-30"
+      "2026-03-30",
+      "2026-03-31"
     ]
   },
   "events_mentioned": {
@@ -59,11 +63,20 @@
     ],
     "Argentina campeón de América en Santiago de Chile.": [
       "2026-03-30"
+    ],
+    "Amistoso internacional (Fecha FIFA): Argentina vs. Zambia, 20:15 hs, La Bombonera, Buenos Aires.": [
+      "2026-03-31"
+    ],
+    "Cumpleaños de César Sampaio (58 años)": [
+      "2026-03-31"
     ]
   },
   "news_topics": {
     "¿es para preocuparse el partido de argentina ante ": [
       "2026-03-30"
+    ],
+    "la seleccion argentina se despide de la bombonera ": [
+      "2026-03-31"
     ]
   },
   "phrases_used": [],
