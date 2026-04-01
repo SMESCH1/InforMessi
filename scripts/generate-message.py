@@ -475,8 +475,12 @@ def postprocess_message(message, data, days_remaining):
             logger.warning("⚠️  Post-proceso: mensaje sin datos contenía contenido extra, reemplazando con mensaje seguro")
             return _build_safe_message(days_remaining, data.get("mundial_phase"), data.get("mundial_day"))
 
-    # --- Regla 2: limpiar markdown y meta-texto ---
+    # --- Regla 2: limpiar metadata de corchetes [Año: ...] que el LLM copió literalmente ---
     cleaned = message
+    cleaned = re.sub(r"\[Año:\s*\d{4},?\s*hace\s*\d+\s*años\]\s*", "", cleaned)
+    cleaned = re.sub(r"\[Año:\s*\d{4}\]\s*", "", cleaned)
+
+    # --- Regla 3: limpiar markdown y meta-texto ---
     # Remover ** (bold markdown)
     cleaned = cleaned.replace("**", "")
     # Remover headers markdown

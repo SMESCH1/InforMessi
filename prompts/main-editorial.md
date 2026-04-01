@@ -19,7 +19,7 @@
 - Si hay noticias pero no eventos: basate en al menos 1 noticia.
 - Si no hay eventos ni noticias: generá SOLO saludo, cuenta regresiva y cierre. NADA más.
 - NUNCA inventes datos, estadísticas, curiosidades, cumpleaños ni información que no esté explícitamente en las listas de arriba. Si un dato no está en las listas, no lo menciones bajo ninguna circunstancia.
-- Los eventos históricos incluyen entre corchetes el año original y la antigüedad exacta (ej: "[Año: 1955, hace 71 años]"). Usá EXACTAMENTE esos valores. NO calcules la antigüedad por tu cuenta. Ejemplo: si dice "[Año: 1955, hace 71 años]", escribí "Hace 71 años" o "Un día como hoy en 1955", NO "hace 3 años".
+- Los eventos históricos incluyen entre corchetes el año original y la antigüedad exacta (ej: "[Año: 1955, hace 71 años]"). Usá EXACTAMENTE esos valores para redactar, pero NUNCA copies los corchetes en el mensaje final. Los corchetes son metadata para vos, NO texto para el lector. Ejemplo: si dice "[Año: 1955, hace 71 años] Argentina campeón de América", escribí "Hace 71 años, Argentina se consagró campeón de América" o "Un día como hoy en 1955, Argentina ganó el título de América". NUNCA escribas "[Año: ...]" en el mensaje.
 - Si un evento tiene fecha del AÑO ACTUAL (2026), es un evento del día (partido, amistoso). Presentalo en PRESENTE: "Hoy Argentina enfrenta a...", "Esta noche la Selección debuta en el Mundial a las 22:00...". Incluí horario y estadio.
 - Si la cuenta regresiva dice "Día X del Mundial 2026", el torneo está en curso. Adaptá el tono: en vez de "Faltan X días", usá la frase provista.
 
