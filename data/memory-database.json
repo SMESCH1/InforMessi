@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-03-31T14:43:07.924363",
+  "last_updated": "2026-04-01T14:44:39.154867",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -9,6 +9,9 @@
       "2026-03-29",
       "2026-03-30",
       "2026-03-31"
+    ],
+    "Scaloni": [
+      "2026-04-01"
     ]
   },
   "weekly_sections": {
@@ -34,7 +37,8 @@
       "2026-03-28",
       "2026-03-29",
       "2026-03-30",
-      "2026-03-31"
+      "2026-03-31",
+      "2026-04-01"
     ],
     "seleccion": [
       "2026-03-26",
@@ -42,7 +46,8 @@
       "2026-03-28",
       "2026-03-29",
       "2026-03-30",
-      "2026-03-31"
+      "2026-03-31",
+      "2026-04-01"
     ]
   },
   "events_mentioned": {
@@ -69,6 +74,9 @@
     ],
     "Cumpleaños de César Sampaio (58 años)": [
       "2026-03-31"
+    ],
+    "Bolivia 6-1 Argentina en La Paz: la peor derrota de Argentina en Eliminatorias. Papelón histórico ba": [
+      "2026-04-01"
     ]
   },
   "news_topics": {
@@ -77,6 +85,9 @@
     ],
     "la seleccion argentina se despide de la bombonera ": [
       "2026-03-31"
+    ],
+    "argentina vs. zambia, por la fecha fifa en la bomb": [
+      "2026-04-01"
     ]
   },
   "phrases_used": [],

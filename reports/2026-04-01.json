@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-04-01",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 71,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "2009-04-01",
@@ -14,12 +17,114 @@
         "description": "Bolivia 6-1 Argentina en La Paz: la peor derrota de Argentina en Eliminatorias. Papelón histórico bajo la dirección de Maradona."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Partidos de fútbol de hoy: horario, canal y dónde ver por TV",
+        "description": "Este martes 31 de marzo la selección española sub-21 se enfrentará a Kosovo. Además la Roja jugará contra Egipto el partido amistoso de preparación para el Mundial 2026, en el encuentro que tendrá lug",
+        "url": "https://www.mundodeportivo.com/horarios/futbol/20260331/1004161807/partidos-futbol-hoy-horario-canal-ver-tv.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-03-31T05:48:05Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Argentina vs. Zambia, por la fecha FIFA en La Bombonera",
+        "description": "El equipo de Lionel Scaloni disputará este martes su último partido en suelo argentino antes del Mundial 2026, en lo que será una despedida ante su gente. Leer más",
+        "url": "https://442.perfil.com/noticias/seleccion-argentina/argentina-vs-zambia-por-la-fecha-fifa-en-la-bombonera.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-03-31T01:33:13Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Marcelo Bielsa hizo un análisis de Argelia, rival de la Argentina en el debut en el Mundial",
+        "description": "Uruguay enfrentará este martes en un amistoso al equipo africano, que viene de golear 7-0 a Guatemala",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/marcelo-bielsa-hizo-un-analisis-de-argelia-rival-de-la-argentina-en-el-debut-en-el-mundial-nid30032026/",
+        "source": "La Nacion",
+        "published_at": "2026-03-30T23:03:32Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Luis de la Fuente se harta de las quejas de los clubes: \"Nosotros ya estamos jugando el Mundial\"",
+        "description": "Se espera que España rote masivamente, dando entrada a jugadores que no fueron titulares el pasado viernes.",
+        "url": "https://www.libertaddigital.com/deportes/futbol/2026-03-31/luis-de-la-fuente-se-harta-de-las-quejas-de-los-clubes-nosotros-ya-estamos-jugando-el-mundial-7382351/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-03-31T06:24:45Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Chiqui Tapia: de reírse de España por la Finalíssima a ser procesado por fraude fiscal",
+        "description": "El juez dispuso el procesamiento de la persona jurídica de la AFA por \"apropiación indebida de tributos y recursos de la Seguridad Social\".",
+        "url": "https://www.libertaddigital.com/deportes/futbol/2026-03-31/chiqui-tapia-de-reirse-de-espana-por-la-finalissima-a-ser-procesado-por-fraude-fiscal-7382338/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-03-31T06:05:48Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Chema Andrés: «Los futbolistas necesitamos tener cultura financiera»",
+        "description": "Mide casi dos metros y sus piernas son más largas que un día sin pan. A eso también ayuda su estilo vintage de jugar con la camiseta por dentro. Chema Andrés (Bétera, 2005) es un producto de La Fábric",
+        "url": "https://www.abc.es/deportes/futbol/chema-andres-futbolistas-necesitamos-tener-cultura-financiera-20260331042446-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-03-30T02:24:46Z",
+        "category": "general"
+      },
+      {
+        "title": "Scaloni: \"Acá no tenés tiempo para relajarte y pensar que tenés tu lugar asegurado\"",
+        "description": "En La Bombonera, el DT del seleccionado argentino campeón del mundo habló tras la victoria sobre Zambia.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16513516/scaloni-seleccion-argentina-conferencia-zambia-amistoso-la-bombonera-mundial",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-01T07:09:30",
+        "category": "seleccion"
+      },
+      {
+        "title": "¡Irak es el último clasificado! Venció a Bolivia y sacó pasaje al Mundial 2026",
+        "description": "En Monterrey, el equipo de Medio Oriente se impuso al sudamericano y jugará en la gran cita.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16494815/bolivia-vs-irak-repechaje-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-01T06:14:16",
+        "category": "mundial"
+      },
+      {
+        "title": "Argentina aplastó a Zambia en La Bombonera, en su último partido antes del Mundial",
+        "description": "En una noche inolvidable para Messi y para Otamendi, la Albiceleste se floreó en Buenos Aires con la mira puesta en la Copa del Mundo.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16487285/argentina-vs-zambia-amistoso-internacional-equipo-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-01T03:49:50",
+        "category": "seleccion"
+      },
+      {
+        "title": "Barco metió su primer gol en la Selección Argentina después de un gran taco de González",
+        "description": "El volante ingresó en el complemento y anotó el quinto tanto de la goleada de la Albiceleste ante Zambia.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16513666/gol-colo-barco-nicolas-gonzalez-argentina-vs-zambia-amistoso-internacional",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-01T03:49:50",
+        "category": "seleccion"
+      },
+      {
+        "title": "En qué canal pasan Uruguay vs. Argelia por un amistoso hoy",
+        "description": "El encuentro se desarrolla este martes a las 15.30 (hora argentina) en el Allianz Arena de Turín, Italia",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/en-que-canal-pasan-uruguay-vs-argelia-por-un-amistoso-hoy-nid31032026/",
+        "source": "La Nacion",
+        "published_at": "2026-03-31T14:30:00Z"
+      },
+      {
+        "title": "Bosnia acusa a Italia de enviar a un soldado a filmar el entrenamiento previo al repechaje mundialista",
+        "description": "El hombre que grababa con su teléfono celular el entrenamiento bosnio es parte de una misión de la Unión Europea en la región",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/bosnia-acusa-a-italia-de-enviar-a-un-soldado-a-filmar-el-entrenamiento-previo-al-repechaje-nid31032026/",
+        "source": "La Nacion",
+        "published_at": "2026-03-31T14:03:32Z"
+      },
+      {
+        "title": "Video: la reacción de los jugadores de Zambia al visitar la Bombonera antes de enfrentar a Argentina",
+        "description": "El combinado africano enfrentará este martes a la Albiceleste; la curiosa reacción del delantero Fashion Sakala, quien tiene un look similar al de Diego Maradona",
+        "url": "https://www.lanacion.com.ar/deportes/video-la-reaccion-de-los-jugadores-de-zambia-al-visitar-la-bombonera-antes-de-enfrentar-a-argentina-nid31032026/",
+        "source": "La Nacion",
+        "published_at": "2026-03-31T13:39:43Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 71 días para el Mundial 2026 ⚽\n\n📅 Un día como hoy en la historia, Argentina sufrió su peor derrota en Eliminatorias bajo la dirección de Maradona, cayendo 6-1 ante Bolivia en La Paz 🌄\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 71 días para el Mundial 2026 ⚽\n\n📊 [Año: 2009, hace 17 años] Bolivia 6-1 Argentina en La Paz: la peor derrota de Argentina en Eliminatorias. Papelón histórico bajo la dirección de Maradona. Esta derrota se recuerda como una de las peores actuaciones de la Scaloneta en competiciones oficiales.\n\n📰 Argentina vs. Zambia, por la fecha FIFA en La Bombonera: El equipo de Lionel Scaloni disputará este martes su último partido en suelo argentino antes del Mundial 2026, en lo que será una despedida ante su gente.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-01T14:44:38.305880",
+  "published_at": "2026-04-01T14:44:39.149604",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-01T14:44:38.305891"
 }
