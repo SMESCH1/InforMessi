@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-04-02",
+  "scraped_at": "2026-04-02T07:56:25.963631",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Así queda el ránking FIFA antes del Mundial: Francia adelanta a España",
+      "description": "El empate ante Egipto hace que el combinado galo se coloque en primera posición del escalafón. Nunca en la historia la que llegó primera ganó el Mundial",
+      "url": "https://www.marca.com/futbol/2026/04/01/asi-queda-ranking-fifa-mundial-francia-adelanta-espana.html",
+      "source": "Marca",
+      "published_at": "2026-04-01T07:49:58Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Listos los 48 clasificados al Mundial 2026: Jamaica y Bolivia quedan fuera",
+      "description": "República Democrática del Congo e Irak consiguieron los últimos dos boletos para la Copa del Mundo 2026 al vencer 1-0 a Jamaica y 2-1 a Bolivia, respectivamente, en las finales de los repechajes inter",
+      "url": "https://www.dw.com/es/listos-los-48-clasificados-al-mundial-2026-jamaica-y-bolivia-quedan-fuera/a-76616596",
+      "source": "DW (English)",
+      "published_at": "2026-04-01T06:52:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Otro Mundial sin Italia: las 48 selecciones clasificadas y los grupos definitivos",
+      "description": "La edición 23 tendrá 104 partidos y arrancará el 11 de junio en el estadio Azteca con el choque entre México y Sudáfrica\r\n¿Qué le pasa a Marc Márquez? Ducati habla sobre el inicio del piloto en la tem",
+      "url": "https://www.eldiario.es/spin/deportes/mundial-italia-48-selecciones-clasificadas-grupos-definitivos-pm_1_13113745.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-04-01T06:48:31Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Las fechas clave previas al arranque del Mundial",
+      "description": "El 11 de mayo llega la prelista y el 30 la definitiva, con la final de Champions cruzándose en un calendario al límite",
+      "url": "https://www.marca.com/futbol/mundial/2026/04/01/fechas-clave-previas-arranque-mundial.html",
+      "source": "Marca",
+      "published_at": "2026-04-01T07:43:01Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La prensa mundial se ceba con Italia: \"Apocalipsis\", \"desastres\" y \"fracaso\"",
+      "description": "Ha vuelto a pasar. Por tercera vez consecutiva. Por extraño que parezca, Italia se perderá el Mundial de fútbol que se celebra este verano en Estados Unidos y México. La Azzurri quedó fuera del Mundia",
+      "url": "https://www.mundodeportivo.com/futbol/20260401/1004163105/prensa-mundial-ceba-italia-apocalipsis-desastres-fracaso.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-04-01T07:36:59Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El “Maradona” de Zambia que prefiere a Cristiano Ronaldo y promete ser la pesadilla de Messi: quién es Fashion Sakala",
+      "description": "Tiene 29 años y es el capitán de la selección de Zambia que enfrentará este martes a Argentina; su historia de vida marcada por la pobreza y el rotundo cambio de vida al ser futbolista profesional",
+      "url": "https://www.lanacion.com.ar/deportes/el-maradona-de-zambia-que-prefiere-a-cristiano-ronaldo-y-promete-ser-la-pesadilla-de-messi-quien-es-nid31032026/",
+      "source": "La Nacion",
+      "published_at": "2026-03-31T19:01:09Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Selección Argentina: las conclusiones que saca Scaloni de la fecha FIFA",
+      "description": "La doble jornada de amistosos dejó más que resultados para el cuerpo técnico en la antesala del Mundial 2026.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16516974/lionel-scaloni-seleccion-argentina-las-conclusiones-de-la-fecha-fifa",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-02T03:25:46",
+      "category": "seleccion"
+    },
+    {
+      "title": "Increíble: Enzo Fernández pensó que \"había soñado\" que iba a jugar el Mundial de Qatar",
+      "description": "El volante de Chelsea y de la Selección Argentina contó una imperdible anécdota de la noticia de su convocatoria en la lista final.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16517494/enzo-fernandez-sueno-lista-mundial-argentina-qatar-campeon",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-02T04:06:14",
+      "category": "seleccion"
+    },
+    {
+      "title": "Aranda y su momento con Messi: \"En el vestuario me temblaba todo\"",
+      "description": "El juvenil de 18 años reveló cómo vivió su primer entrenamiento con la Selección mayor y el impacto de jugar junto al mejor del mundo.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16517659/aranda-messi-en-el-vestuario-me-temblaba-todo",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-02T04:06:14",
+      "category": "seleccion"
+    },
+    {
+      "title": "Instituto venció a Atlanta en Copa Argentina",
+      "description": "La Gloria superó al Bohemio en Rafaela, dejó atrás su irregular presente en el Apertura y avanzó a 16avos de la Copa Argentina, donde se medirá ante Lanús.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16517757/instituto-vs-atlanta-copa-argentina",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-02T04:54:45",
+      "category": "seleccion"
+    }
+  ]
+}
