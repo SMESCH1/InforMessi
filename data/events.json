@@ -2497,6 +2497,55 @@
       "priority": "critical",
       "person": "N/A",
       "description": "FINAL del Mundial 2026, MetLife Stadium, Nueva Jersey."
+    },
+    {
+      "date": "1982-04-02",
+      "type": "fecha_patria",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Dia del Veterano y de los Caidos en la Guerra de Malvinas. El 2 de abril de 1982 Argentina reivindico su soberania sobre las Islas Malvinas. Las Malvinas son argentinas."
+    },
+    {
+      "date": "1976-03-24",
+      "type": "fecha_patria",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Dia Nacional de la Memoria por la Verdad y la Justicia. Se conmemora el golpe de Estado de 1976 y se recuerda a las victimas de la dictadura militar."
+    },
+    {
+      "date": "1810-05-25",
+      "type": "fecha_patria",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Dia de la Revolucion de Mayo. El 25 de mayo de 1810 la Primera Junta de Gobierno marco el inicio del camino a la independencia argentina."
+    },
+    {
+      "date": "1820-06-20",
+      "type": "fecha_patria",
+      "priority": "high",
+      "person": "Manuel Belgrano",
+      "description": "Dia de la Bandera Nacional. Se conmemora el fallecimiento de Manuel Belgrano, creador de la bandera argentina, los mismos colores celeste y blanco que viste la Seleccion."
+    },
+    {
+      "date": "1816-07-09",
+      "type": "fecha_patria",
+      "priority": "high",
+      "person": "N/A",
+      "description": "Dia de la Independencia Argentina. El 9 de julio de 1816 el Congreso de Tucuman declaro la independencia de las Provincias Unidas del Rio de la Plata."
+    },
+    {
+      "date": "1850-08-17",
+      "type": "fecha_patria",
+      "priority": "high",
+      "person": "Jose de San Martin",
+      "description": "Paso a la Inmortalidad del General Jose de San Martin, el Libertador de America, fallecido el 17 de agosto de 1850 en Boulogne-sur-Mer, Francia."
+    },
+    {
+      "date": "1845-11-20",
+      "type": "fecha_patria",
+      "priority": "medium",
+      "person": "N/A",
+      "description": "Dia de la Soberania Nacional. Se conmemora la Batalla de Vuelta de Obligado (1845), donde fuerzas argentinas resistieron heroicamente la intervencion naval anglofrancesa."
     }
   ],
   "event_types": {
