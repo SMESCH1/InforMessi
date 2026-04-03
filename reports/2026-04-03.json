@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-04-03",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 69,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1957-04-03",
@@ -14,12 +17,114 @@
         "description": "Los Caras Sucias ganan la Copa América goleando a Brasil 3-0."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "En el puesto 45 de 48: Uruguay entre las selecciones mundialistas con peores resultados en los últimos 20 partidos",
+        "description": "La Celeste es la segunda selección que menos puntos sumó en victorias y la segunda que más acumuló unidades con empates; solo Bosnia Herzegovina, Ghana y Qatar aparecen por debajo.",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/en-el-puesto-45-de-48-uruguay-entre-las-selecciones-mundialistas-con-peores-resultados-en-los-ultimos-20-partidos",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-04-02T06:20:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Italia dimite en un Mundial inédito",
+        "description": "El combinado «azzurro» es la única selección campeona que no estará en la competición más larga y con más países de toda la historia",
+        "url": "https://www.lavozdegalicia.es/noticia/deportes/2026/04/01/italia-dimite-mundial-inedito/00031775063454690782333.htm",
+        "source": "Lavozdegalicia.es",
+        "published_at": "2026-04-02T03:00:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El encuentro de Messi con un fan que dejó un imperdible momento: “¿Cómo hacemos?”",
+        "description": "El capitán de la selección argentina se acercó hasta la reja del predio de AFA para firmar autógrafos y sonrió al escuchar una inesperado pedido de un hincha",
+        "url": "https://www.lanacion.com.ar/deportes/el-encuentro-de-messi-con-un-fan-que-dejo-un-imperdible-momento-como-hacemos-nid01042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-01T21:58:11Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mundial 2026: opciones y precios de paquetes para ver a la selección de Bielsa, con modalidades a medida y \"flexibles\"",
+        "description": "Las propuestas van desde paquetes completos con entradas oficiales hasta viajes personalizados. Miami lidera las preferencias y el partido ante España concentra la mayor expectativa.",
+        "url": "https://www.elpais.com.uy/negocios/noticias/mundial-2026-opciones-y-precios-de-paquetes-para-ver-a-la-seleccion-de-bielsa-con-modalidades-a-medida-y-flexibles",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-04-02T06:30:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El Real Madrid mira al verano con un ojo en el regreso de Nico Paz, Víctor Muñoz y Endrick y otro en el fichaje de un '8'",
+        "description": "El mercado de fichajes se agita a tres meses de su apertura y en el club blanco se repiten varios nombres entre los rumores.\nMás información: Entrevista a Víctor Muñoz, el correcaminos de la Selección",
+        "url": "https://www.elespanol.com/deportes/futbol/20260402/real-madrid-mira-verano-ojo-regreso-nico-paz-victor-munoz-endrick-fichaje/1003744192446_0.html",
+        "source": "Elespanol.com",
+        "published_at": "2026-04-02T06:00:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Video: salió a la luz un registro inédito de Luck Ra de cuando jugaba al fútbol en una liga amateur cordobesa",
+        "description": "El cantante tiene un pasado como futbolista amateur; las imágenes que muestran su destreza",
+        "url": "https://www.lanacion.com.ar/espectaculos/video-salio-a-la-luz-un-registro-inedito-de-luck-ra-de-cuando-jugaba-al-futbol-en-una-liga-amateur-nid01042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-01T20:02:03Z",
+        "category": "general"
+      },
+      {
+        "title": "Boca se hizo fuerte en Córdoba y venció a Talleres con gol de Bareiro",
+        "description": "En la previa del debut en la Libertadores, el equipo de Ubeda se impuso por la mínima y estiró su invicto a 9 partidos.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16506965/talleres-vs-boca-fecha-13-torneo-apertura-equipo-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-03T05:32:10",
+        "category": "liga"
+      },
+      {
+        "title": "Bareiro, tras el triunfo de Boca: \"Ahora a pensar en la tan anhelada Libertadores\"",
+        "description": "El delantero paraguayo, autor del gol ante Talleres en Córdoba, palpitó el debut en el certamen internacional y elogió a Tomás Aranda.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16521132/adam-bareiro-a-pensar-en-la-libertadores-talleres-vs-boca-apertura-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-03T04:31:02",
+        "category": "liga"
+      },
+      {
+        "title": "Las jugadas insólitas de Talleres vs. Boca: del lateral mal sacado de Braida al cabezazo de Brey",
+        "description": "El primer tiempo entre la T y el Xeneize dejó más momentos curiosos que buen fútbol.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16520938/video-jugadas-insolitas-talleres-vs-boca-braida-brey",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-03T03:54:12",
+        "category": "liga"
+      },
+      {
+        "title": "El mensaje de Panichelli luego de la operación",
+        "description": "El delantero argentino sufrió la rotura del ligamento cruzado anterior de su rodilla derecha y se perderá la Copa del Mundo.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16520701/mensaje-joaquin-panichelli-operacion-para-atras-ni-para-tomar-impulso",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-03T04:25:20",
+        "category": "mundial"
+      },
+      {
+        "title": "En el puesto 45 de 48: Uruguay entre las selecciones mundialistas con peores resultados en los últimos 20 partidos",
+        "description": "La Celeste es la segunda selección que menos puntos sumó en victorias y la segunda que más acumuló unidades con empates; solo Bosnia Herzegovina, Ghana y Qatar aparecen por debajo.",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/en-el-puesto-45-de-48-uruguay-entre-las-selecciones-mundialistas-con-peores-resultados-en-los-ultimos-20-partidos",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-04-02T06:20:00Z"
+      },
+      {
+        "title": "Italia dimite en un Mundial inédito",
+        "description": "El combinado «azzurro» es la única selección campeona que no estará en la competición más larga y con más países de toda la historia",
+        "url": "https://www.lavozdegalicia.es/noticia/deportes/2026/04/01/italia-dimite-mundial-inedito/00031775063454690782333.htm",
+        "source": "Lavozdegalicia.es",
+        "published_at": "2026-04-02T03:00:00Z"
+      },
+      {
+        "title": "Ni Argentina ni Brasil: México domina la lista de los 8 cracks que han jugado 5 veces un mundial de fútbol",
+        "description": "Hacer historia en el fútbol no es para cualquiera, pero entrar al Club de los Cinco Mundiales es, básicamente, desbloquear el nivel de leyenda suprema. Imagínate lo que tiene que pasar para que un jug",
+        "url": "https://culturacolectiva.com/la-cascarita/jugadores-que-han-estado-cinco-veces-mundial-futbol/",
+        "source": "Culturacolectiva.com",
+        "published_at": "2026-04-01T20:12:30Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 69 días para el Mundial 2026 ⚽\n\nUn día como hoy, Los Caras Sucias ganaron la Copa América goleando a Brasil 3-0 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 69 días para el Mundial 2026 ⚽\n\n📰 El encuentro de Messi con un fan que dejó un imperdible momento: “¿Cómo hacemos?”: El capitán de la selección argentina se acercó hasta la reja del predio de AFA para firmar autógrafos y sonrió al escuchar una inesperado pedido de un fan.\n\n📰 Además, Boca se hizo fuerte en Córdoba y venció a Talleres con gol de Bareiro en la previa del debut en la Libertadores, estirando su invicto a 9 partidos.\n\n📅 Los Caras Sucias ganan la Copa América goleando a Brasil 3-0, un día como hoy en 1957, hace 69 años.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-03T14:07:04.220652",
+  "published_at": "2026-04-03T14:07:04.890571",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-03T14:07:04.220662"
 }

@@ -1,14 +1,15 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-04-02T14:35:44.222951",
+  "last_updated": "2026-04-03T14:07:04.898730",
   "players_used": {
     "Messi": [
       "2026-03-26",
       "2026-03-28",
       "2026-03-29",
       "2026-03-30",
-      "2026-03-31"
+      "2026-03-31",
+      "2026-04-03"
     ],
     "Scaloni": [
       "2026-04-01"
@@ -17,7 +18,8 @@
   "weekly_sections": {
     "seleccion_mundiales": [
       "2026-03-27",
-      "2026-03-30"
+      "2026-03-30",
+      "2026-04-03"
     ],
     "jugador_scaloneta": [
       "2026-03-26",
@@ -40,7 +42,8 @@
       "2026-03-30",
       "2026-03-31",
       "2026-04-01",
-      "2026-04-02"
+      "2026-04-02",
+      "2026-04-03"
     ],
     "seleccion": [
       "2026-03-26",
@@ -49,7 +52,8 @@
       "2026-03-29",
       "2026-03-30",
       "2026-03-31",
-      "2026-04-01"
+      "2026-04-01",
+      "2026-04-03"
     ]
   },
   "events_mentioned": {
@@ -82,6 +86,9 @@
     ],
     "Cumpleaños de Miralem Pjanić (36 años)": [
       "2026-04-02"
+    ],
+    "Los Caras Sucias ganan la Copa América goleando a Brasil 3-0.": [
+      "2026-04-03"
     ]
   },
   "news_topics": {
@@ -93,6 +100,12 @@
     ],
     "argentina vs. zambia, por la fecha fifa en la bomb": [
       "2026-04-01"
+    ],
+    "el encuentro de messi con un fan que dejo un imper": [
+      "2026-04-03"
+    ],
+    "boca se hizo fuerte en cordoba y vencio a talleres": [
+      "2026-04-03"
     ]
   },
   "phrases_used": [],
