@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-04-04",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 68,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1959-04-04",
@@ -14,12 +17,107 @@
         "description": "Argentina campeón de América ante el Brasil campeón del mundo."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Sudamericano sub-17: Uruguay debuta este viernes ante Chile soñando con el Mundial",
+        "description": "Los celestes que dirige Nacho González comienzan su camino en la justa continental que dará siete cupos al Mundial de la categoría en Catar.",
+        "url": "https://www.montevideo.com.uy/Deportes/Sudamericano-sub-17-Uruguay-debuta-este-viernes-ante-Chile-sonando-con-el-Mundial-uc957901",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-04-02T23:12:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Fixture y horarios de los Pumas 7s en el Seven de Hong Kong",
+        "description": "La primera etapa del SVNS World Championship se realizará entre el 17 y 19 de abril con 12 seleccionados",
+        "url": "https://www.lanacion.com.ar/deportes/rugby/fixture-y-horarios-de-los-pumas-7s-en-el-seven-de-hong-kong-nid02042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-02T20:38:43Z",
+        "category": "general"
+      },
+      {
+        "title": "El consuelo de Italia: del ridículo del fútbol al subidón de la F1 y MotoGP",
+        "description": "Tras la eliminación de 'La Azzurra', a los italianos les quedan Antonelli y Bezzecchi  Leer",
+        "url": "https://www.marca.com/motor/motogp/gp-jerez/2026/04/03/consuelo-italia-ridiculo-futbol-subidon-f1-motogp.html",
+        "source": "Marca",
+        "published_at": "2026-04-03T07:05:43Z",
+        "category": "general"
+      },
+      {
+        "title": "James Rodríguez, hospitalizado con \"deshidratación severa\"",
+        "description": "El colombiano James Rodríguez fue hospitalizado durante tres días en Estados Unidos tras el partido amistoso del domingo contra Francia debido a una \"deshidratación severa\", según anunció hace unas ho",
+        "url": "https://www.mundodeportivo.com/futbol/internacional/major-league-soccer/20260403/1004164090/james-rodriguez-hospitalizado-deshidratacion-severa.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-04-03T06:28:57Z",
+        "category": "general"
+      },
+      {
+        "title": "Mundial 2026: 20 figuras que no estarán en la próxima Copa del Mundo tras la eliminación de sus selecciones",
+        "description": "Más allá de que habrá 48 planteles en la cita máxima del fútbol, hay países que no concretaron su presencia y eso deja afuera del torneo a futbolistas de mucho calibre.",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/mundial-2026-20-figuras-que-no-estaran-en-la-proxima-copa-del-mundo-tras-la-eliminacion-de-sus-selecciones",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-04-03T06:20:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Italia dimite en un Mundial inédito",
+        "description": "El combinado «azzurro» es la única selección campeona que no estará en la competición más larga y con más países de toda la historia",
+        "url": "https://www.lavozdegalicia.es/noticia/deportes/2026/04/01/italia-dimite-mundial-inedito/00031775063454690782333.htm",
+        "source": "Lavozdegalicia.es",
+        "published_at": "2026-04-02T03:00:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "¿Valentín Barco a Chelsea? Lo que se sabe",
+        "description": "El futbolista argentino de Racing de Estrasburgo regresaría a la Premier League para la próxima temporada.",
+        "url": "https://www.espn.com.ar/futbol/inglaterra/nota/_/id/16522925/valentin-barco-a-chelsea-racing-estrasburgo-negociaciones",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-04T02:43:27",
+        "category": "liga"
+      },
+      {
+        "title": "Gennaro Gattuso renunció como DT de Italia",
+        "description": "La derrota frente a Bosnia y Herzegovina que dejó a Italia sin Mundial sigue generando consecuencias.",
+        "url": "https://www.espn.com.ar/futbol/selecciones/nota/_/id/16522026/gattuso-dimite-como-seleccionador-nacional-de-italia-tras-no-clasificar-al-mundial",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-04T02:43:27",
+        "category": "mundial"
+      },
+      {
+        "title": "Cuántos goles le faltan a Cristiano Ronaldo para llegar a 1000",
+        "description": "CR7 está cerca de alcanzar una cifra impactante en la historia del fútbol.",
+        "url": "https://www.espn.com.ar/futbol/nota/_/id/16178202/cristiano-ronaldo-cuantos-goles-le-faltan-para-llegar-a-1000-mil",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-03T22:11:01",
+        "category": "general"
+      },
+      {
+        "title": "Tomás Etcheverry quedó eliminado contra Tommy Paul y no se pudo subir a la ola argentina en Houston",
+        "description": "El tenista argentino cayó por 6-4 y 6-3 ante el jugador local y no logró avanzar a semifinales.",
+        "url": "https://www.espn.com.ar/tenis/nota/_/id/16525023/tomas-etcheverry-quedo-eliminado-contra-tommy-paul-y-no-se-pudo-subir-a-la-ola-argentina-en-atp-250-houston",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-04T02:42:11",
+        "category": "seleccion"
+      },
+      {
+        "title": "Sudamericano sub-17: Uruguay debuta este viernes ante Chile soñando con el Mundial",
+        "description": "Los celestes que dirige Nacho González comienzan su camino en la justa continental que dará siete cupos al Mundial de la categoría en Catar.",
+        "url": "https://www.montevideo.com.uy/Deportes/Sudamericano-sub-17-Uruguay-debuta-este-viernes-ante-Chile-sonando-con-el-Mundial-uc957901",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-04-02T23:12:00Z"
+      },
+      {
+        "title": "Simeone, tajante: «Es un problema social y mundial; el respeto se perdió hace tiempo»",
+        "description": "El entrenador del Atlético de Madrid, Diego Pablo Simeone , no señala a nadie, pero señala a todos cuando se habla de racismo y xenofobia. Preguntado en la previa contra el Barcelona por el incidente ",
+        "url": "https://www.abc.es/deportes/futbol/simeone-tajante-problema-social-mundial-respeto-perdio-20260403151618-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-04-03T13:16:24Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 68 días para el Mundial 2026 ⚽\n\nUn día como hoy, Argentina se consagró campeón de América ante el Brasil campeón del mundo 🏆👏\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 68 días para el Mundial 2026 ⚽\n\n📅 Un día como hoy en 1959, hace 67 años, Argentina campeón de América ante el Brasil campeón del mundo. El equipo de Osvaldo Zubeldía logró su primer título continental en la historia de la Selección 🇦🇷\n\n📰 Fixture y horarios de los Pumas 7s en el Seven de Hong Kong: La primera etapa del SVNS World Championship se realizará entre el 17 y 19 de abril con 12 seleccionados (La Nacion)\n ¿Valentín Barco a Chelsea? Lo que se sabe: El futbolista argentino de Racing de Estrasburgo regresaría a la Premier League para la próxima temporada. (www.espn.com.ar - TOP)\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-04T13:58:57.773972",
+  "published_at": "2026-04-04T13:58:58.607422",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-04T13:58:57.773983"
 }
