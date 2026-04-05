@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-04-04T13:58:58.612373",
+  "last_updated": "2026-04-05T14:00:11.506057",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -31,7 +31,8 @@
       "2026-04-04"
     ],
     "dato_pais_sede": [
-      "2026-03-29"
+      "2026-03-29",
+      "2026-04-05"
     ]
   },
   "topics_mentioned": {
@@ -45,7 +46,8 @@
       "2026-04-01",
       "2026-04-02",
       "2026-04-03",
-      "2026-04-04"
+      "2026-04-04",
+      "2026-04-05"
     ],
     "seleccion": [
       "2026-03-26",
@@ -95,6 +97,9 @@
     ],
     "Argentina campeón de América ante el Brasil campeón del mundo.": [
       "2026-04-04"
+    ],
+    "Cumpleaños de Fernando Morientes (50 años)": [
+      "2026-04-05"
     ]
   },
   "news_topics": {

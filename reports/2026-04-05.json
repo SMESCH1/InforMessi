@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-04-05",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 67,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1976-04-05",
@@ -15,12 +18,107 @@
         "description": "Cumpleaños de Fernando Morientes (50 años)"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Julián Álvarez recibió un regalo muy esperado por parte de Marvel",
+        "description": "El delantero titular de la selección argentina obtuvo una gran sorpresa por parte de la productora de superhéroes; mirá el video del momento",
+        "url": "https://www.lanacion.com.ar/deportes/julian-alvarez-recibio-un-regalo-muy-esperado-por-parte-de-marvel-nid03042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-03T23:04:54Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Enzo Fernández fue letal con los looks de sus compañeros de la Selección argentina: \"Bananas en pijamas\"",
+        "description": "El futbolista campeón del mundo fue contundente y no dudó en expresarse ante los conjuntos que eligieron los jugadores. Leer más",
+        "url": "https://caras.perfil.com/noticias/celebridades/enzo-fernandez-letal-looks-companeros-seleccion-argentina-bananas-pijamas.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-04-03T20:57:10Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Raphinha, ¿quién os paga?, por Marc Menchén",
+        "description": "El fútbol de selecciones conserva un aura de misticismo cuasi sagrado que parece inmunizarlo ante cualquier lógica empresarial. Sin embargo, la lesión de Raphinha con Brasil es un recordatorio de que ",
+        "url": "https://www.elperiodico.com/es/deportes/20260404/raphinha-paga-marc-menchen-128722572",
+        "source": "Elperiodico.com",
+        "published_at": "2026-04-04T06:00:26Z",
+        "category": "general"
+      },
+      {
+        "title": "Betis - Espanyol: el maratón final para quedarse la quinta plaza arranca en la Cartuja",
+        "description": "Acabada la última fecha FIFA de la temporada 25-26, regresa el fútbol oficial para el Real Betis en el sprint final de un curso que, con el equipo de Manuel Pellegrini quinto en LaLiga y en los cuarto",
+        "url": "https://www.abc.es/deportes/alfinaldelapalmera/noticias-betis/betis-espanyol-maraton-final-liderar-pelea-quinta-20260404131624-nts.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-04-04T05:13:21Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Con goles de Messi y Suárez, Inter Miami igualó en un partidazo ante Austin en la inauguración de su nuevo estadio",
+        "description": "El equipo de Mascherano se recuperó dos veces y con tantos de sus figuras, rescató un empate.",
+        "url": "https://www.espn.com.ar/futbol/mls/nota/_/id/16507580/inter-miami-vs-austin-mls-equipo-messi-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-05T04:08:24",
+        "category": "seleccion"
+      },
+      {
+        "title": "No podía ser otro: Lionel Messi anotó el primer gol de Inter Miami en su nuevo estadio ante Austin",
+        "description": "El 10 apareció como centrodelantero y anotó de cabeza para el empate parcial.",
+        "url": "https://www.espn.com.ar/futbol/mls/nota/_/id/16529824/lionel-messi-anoto-primer-gol-de-inter-miami-en-su-nuevo-estadio-ante-austin",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-05T04:08:24",
+        "category": "seleccion"
+      },
+      {
+        "title": "Así es el Nu Stadium, la nueva casa de Leo Messi e Inter Miami",
+        "description": "Las Garzas inauguran su estadio ante Austin, tras tres años de construcción.",
+        "url": "https://www.espn.com.ar/futbol/mls/nota/_/id/16529163/asi-es-el-nu-stadium-la-nueva-casa-de-leo-messi-e-inter-miami",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-05T04:08:25",
+        "category": "seleccion"
+      },
+      {
+        "title": "Con un doblete de Véliz, Rosario Central venció a Atlético Tucumán y llega entonado a la Libertadores",
+        "description": "El Canalla se impuso en Arroyito con una gran noche de su goleador, quedó como escolta en la Zona B y sumó confianza antes de su estreno copero.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16508660/rosario-central-vs-atletico-tucuman-torneo-apertura-2026-equipo-fecha-hora-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-05T02:47:08",
+        "category": "general"
+      },
+      {
+        "title": "Sudamericano Sub 17: Argentina goleó a Perú",
+        "description": "Alan Alcaraz y Tobías Goytía anotaron los cuatro goles del equipo de Diego Placente, que se estrenó en Paraguay con un contundente triunfo por 4 a 1.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16529747/argentina-goleo-a-peru-sudamericano-sub-17-alcaraz-goytia",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-05T04:20:10",
+        "category": "seleccion"
+      },
+      {
+        "title": "Argentina goleó a Perú en su debut en el Sudamericano Sub 17",
+        "description": "Alan Alcaraz y Tobías Goytía anotaron los cuatro goles del equipo de Diego Placente, que se estrenó en Paraguay con un contundente triunfo por 4 a 1.",
+        "url": "https://www.espn.com.arnull",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-05T01:58:42",
+        "category": "seleccion"
+      },
+      {
+        "title": "¿Sigue Javier Aguirre? Así fue la vez que abuchearon a Miguel de la Madrid en la inauguración del Mundial",
+        "description": "El abucheo al entonces presidente Miguel de la Madrid en el Estadio Azteca en 1986 es considerado como uno de los puntos de quiebre que terminaron por consolidar los cambios políticos que surgieron en",
+        "url": "https://www.elfinanciero.com.mx/deportes/2026/04/04/sigue-javier-aguirre-asi-fue-la-vez-que-abuchearon-a-miguel-de-la-madrid-en-la-inauguracion-del-mundial/",
+        "source": "El Financiero",
+        "published_at": "2026-04-04T13:45:00Z"
+      },
+      {
+        "title": "Enrique “Topo” Rodríguez, mucho más que un rugbier: jugó en los Pumas y los Wallabies y hoy ayuda a gente con depresión",
+        "description": "Con 73 años, vive en Australia y repasa su carrera: el secuestro que sufrió en el 76, aquel “enano venenoso” y por qué no volvió a la Argentina",
+        "url": "https://www.lanacion.com.ar/deportes/rugby/enrique-topo-rodriguez-mucho-mas-que-un-rugbier-jugo-en-los-pumas-y-los-wallabies-y-hoy-ayuda-a-nid04042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-04T11:01:36Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 67 días para el Mundial 2026 ⚽\n\n🎉 Hoy cumple 50 años Fernando Morientes. Aunque no es un jugador de la Scaloneta, es un nombre conocido en el mundo del fútbol 🌍\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 67 días para el Mundial 2026 ⚽\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-05T14:00:10.686457",
+  "published_at": "2026-04-05T14:00:11.501927",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-05T14:00:10.686466"
 }
