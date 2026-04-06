@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-04-05T14:00:11.506057",
+  "last_updated": "2026-04-06T14:14:40.813260",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -9,17 +9,20 @@
       "2026-03-29",
       "2026-03-30",
       "2026-03-31",
-      "2026-04-03"
+      "2026-04-03",
+      "2026-04-06"
     ],
     "Scaloni": [
-      "2026-04-01"
+      "2026-04-01",
+      "2026-04-06"
     ]
   },
   "weekly_sections": {
     "seleccion_mundiales": [
       "2026-03-27",
       "2026-03-30",
-      "2026-04-03"
+      "2026-04-03",
+      "2026-04-06"
     ],
     "jugador_scaloneta": [
       "2026-03-26",
@@ -47,7 +50,8 @@
       "2026-04-02",
       "2026-04-03",
       "2026-04-04",
-      "2026-04-05"
+      "2026-04-05",
+      "2026-04-06"
     ],
     "seleccion": [
       "2026-03-26",
@@ -100,6 +104,12 @@
     ],
     "Cumpleaños de Fernando Morientes (50 años)": [
       "2026-04-05"
+    ],
+    "Cumpleaños de Nicolás González (28 años)": [
+      "2026-04-06"
+    ],
+    "Cumpleaños de Nahuel Molina (28 años)": [
+      "2026-04-06"
     ]
   },
   "news_topics": {
@@ -123,6 +133,12 @@
     ],
     "¿valentin barco a chelsea? lo que se sabe": [
       "2026-04-04"
+    ],
+    "una escalera a primera: los favores al poder de la": [
+      "2026-04-06"
+    ],
+    "lionel messi estreno el nu stadium con un golazo y": [
+      "2026-04-06"
     ]
   },
   "phrases_used": [],

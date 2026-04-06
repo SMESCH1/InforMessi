@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-04-06",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 66,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1998-04-06",
@@ -23,12 +26,107 @@
         "description": "Cumpleaños de Nahuel Molina (28 años)"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "¿Sigue Javier Aguirre? Así fue la vez que abuchearon a Miguel de la Madrid en la inauguración del Mundial",
+        "description": "El abucheo al entonces presidente Miguel de la Madrid en el Estadio Azteca en 1986 es considerado como uno de los puntos de quiebre que terminaron por consolidar los cambios políticos que surgieron en",
+        "url": "https://www.elfinanciero.com.mx/deportes/2026/04/04/sigue-javier-aguirre-asi-fue-la-vez-que-abuchearon-a-miguel-de-la-madrid-en-la-inauguracion-del-mundial/",
+        "source": "El Financiero",
+        "published_at": "2026-04-04T13:45:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Una escalera a Primera: los favores al poder de la AFA, la vía rápida de ascenso de los árbitros de los chats",
+        "description": "Desde el torneo Federal, un grupo de jueces siguió los deseos de los dirigentes hasta llegar a la Liga Profesional",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/una-escalera-a-primera-los-favores-al-poder-de-la-afa-la-via-rapida-de-ascenso-de-los-arbitros-de-nid04042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-04T11:55:52Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Con muchos regresos, el probable equipo de Boca para visitar a Universidad Católica",
+        "description": "Claudio Ubeda termina de definir el XI inicial para el debut del Xeneize en la CONMEBOL Libertadores.",
+        "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16533540/la-formacion-de-boca-vs-universidad-catolica-por-copa-libertadores",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-06T03:41:47",
+        "category": "liga"
+      },
+      {
+        "title": "Newell's le ganó bien a Central Córdoba",
+        "description": "El equipo de Kudelka se recuperó de la eliminación de la Copa Argentina y se impuso 2-1 en Santiago del Estero.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16517687/central-cordoba-vs-newells-por-el-torneo-apertura-equipo-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-06T03:41:10",
+        "category": "seleccion"
+      },
+      {
+        "title": "Con gol de Messi, Inter Miami igualó ante Austin",
+        "description": "El equipo de Mascherano se recuperó dos veces y con tantos de sus figuras, rescató un empate.",
+        "url": "https://www.espn.com.ar/futbol/mls/nota/_/id/16507580/inter-miami-vs-austin-mls-equipo-messi-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-06T03:41:10",
+        "category": "seleccion"
+      },
+      {
+        "title": "El gran elogio de Max Verstappen a Messi que sorprendió a todos",
+        "description": "El tetracampeón de la Fórmula 1 habló sobre el 10 argentino y dejó una reflexión que no tardó en hacerse viral.",
+        "url": "https://www.espn.com.ar/deporte-motor/f1/nota/_/id/16534321/max-verstappen-elogio-lionel-messi-mundial-2022",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-06T03:07:37",
+        "category": "seleccion"
+      },
+      {
+        "title": "Oscar, el futbolista que abandona con más de 200 millones tras volver de la muerte: \"Salí de mi cuerpo\"",
+        "description": "\"Mi corazón se detuvo durante dos minutos y medio, fue un shock\"",
+        "url": "https://www.marca.com/futbol/premier-league/2026/04/06/oscar-futbolista-deja-200-millones-volver-muerte-deje-mi-cuerpo.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-06T07:10:17",
+        "category": "general"
+      },
+      {
+        "title": "Madrugada de tensión en Sevilla: encapuchados, reproches, insultos y deseos de muerte",
+        "description": "Un grupo de encapuchados acosó a los futbolistas del Sevilla en la Ciudad Deportiva tras la derrota en Oviedo que los deja a dos puntos del descenso",
+        "url": "https://www.marca.com/futbol/sevilla/2026/04/06/madrugada-tension-sevilla-encapuchados-reproches-insultos-deseos-muerte.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-06T05:14:52",
+        "category": "general"
+      },
+      {
+        "title": "Las portadas del día: gigantes, hacen méritos...",
+        "description": "Así vienen las primeras páginas de este lunes 6 de abril de 2026.",
+        "url": "https://www.marca.com/futbol/album/2026/04/06/portadas-dia-gigantes-meritos.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-05T23:32:22",
+        "category": "mundial"
+      },
+      {
+        "title": "Lisci: “El penalti es claramente un contacto residual, no sé por qué ha entrado el VAR\"",
+        "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+        "url": "https://www.marca.com/futbol/osasuna/2026/04/06/lisci-penalti-claramente-contacto-residual-entrado-var.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-05T22:34:30",
+        "category": "general"
+      },
+      {
+        "title": "Lionel Messi estrenó el Nu Stadium con un golazo y desató la locura en Miami",
+        "description": "En el estreno de su nueva casa por la MLS, el astro argentino apareció de cabeza para estampar el empate ante Austin FC y desatar la locura de los hinchas bajo la lluvia. Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/lionel-messi-estreno-el-nu-stadium-con-un-golazo-y-desato-la-locura-en-miami.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-04-05T13:46:19Z"
+      },
+      {
+        "title": "“Tengo casi setenta años y cuando veo un juego futbol me convierto en un niño de cinco”: Juan Villoro",
+        "description": "En entrevista, el cronista habla de su nuevo libro 'Los héroes numerados', al mismo tiempo que analiza el momento que atraviesa, a unas semanas del Mundial, la relación entre la selección mexicana y l",
+        "url": "https://aristeguinoticias.com/0504/cultura/tengo-casi-setenta-anos-y-cuando-veo-un-juego-futbol-me-convierto-en-un-nino-de-cinco-juan-villoro/",
+        "source": "Aristeguinoticias.com",
+        "published_at": "2026-04-05T13:03:01Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 66 días para el Mundial 2026 ⚽\n\n🎉 Hoy cumple 28 años Nicolás González. El delantero de la Scaloneta sigue creciendo en su carrera y prepara su participación en el próximo Mundial 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 66 días para el Mundial 2026 ⚽\n\n🎉 Hoy cumple 28 años Nicolás González. El atacante argentino sigue siendo una de las opciones de Scaloni para el Mundial 2026 🏆\n\n📰 Una escalera a Primera: los favores al poder de la AFA, la vía rápida de ascenso de los árbitros de los chats: Desde el torneo Federal, un grupo de jueces siguió los deseos de los dirigentes hasta llegar a la Liga Profesional (La Nacion)\n\n🔥 Lionel Messi estrenó el Nu Stadium con un golazo y desató la locura en Miami: En el estreno de su nueva casa por la MLS, el astro argentino apareció de cabeza para estampar el empate ante Austin FC y desatar la locura de los hinchas (Perfil.com)\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-06T14:14:39.933482",
+  "published_at": "2026-04-06T14:14:40.807207",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-06T14:14:39.933492"
 }
