@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-04-08",
+  "scraped_at": "2026-04-08T08:04:38.108117",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Rayan Cherki: el fantasista francés que gambetea, pisa la pelota, provoca y hacer reír (y enojar) a Guardiola",
+      "description": "El número 10, de 22 años, apunta a ser la revelación del Mundial",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/rayan-cherki-el-fantasista-frances-que-gambetea-pisa-la-pelota-provoca-y-hacer-reir-y-enojar-a-nid06042026/",
+      "source": "La Nacion",
+      "published_at": "2026-04-06T22:21:05Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El gran gesto de Valentín Barco con Panichelli en el Racing de Estrasburgo",
+      "description": "El lateral del Racing de Estrasburgo le dedicó el triunfo ante Niza a su compatriota, quien se perderá el resto de la temporada y el Mundial 2026 por una rotura de ligamentos. Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/el-gran-gesto-de-valentin-barco-con-panichelli-en-el-racing-de-estrasburgo.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-04-06T20:05:06Z",
+      "category": "mundial"
+    },
+    {
+      "title": "De Villa Fiorito a Hogwarts: La imagen de Maradona que aparece en la serie de Harry Potter y fue viral en redes",
+      "description": "Una imagen de Diego Maradona con la camiseta de la Selección Argentina apareció en el cuarto de Harry Potter y las redes sociales estallaron con el inesperado \"huevo de pascua\". Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/maradona-en-harry-potter-el-detalle-viral-en-la-nueva-serie-a35.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-04-06T17:10:50Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "De año récord al éxodo de figuras: cómo llega Coquimbo Unido al cruce con Nacional por Copa Libertadores",
+      "description": "Los Piratas recibirán este miércoles al tricolor desde las 19:00 horas de Uruguay en el Estadio Francisco Sánchez Rumoroso por la primera fecha del grupo B.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/de-ano-record-al-exodo-de-figuras-como-llega-coquimbo-unido-al-cruce-con-nacional-por-copa-libertadores",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-04-07T06:30:00Z",
+      "category": "general"
+    },
+    {
+      "title": "Pablo Bonilla ganó la Vuelta Ciclista y ya va rumbo a España: los cuatro que dan la cara por Uruguay en Europa",
+      "description": "Eric Fagúndez, Thomas Silva Coussán, Ciro Pérez y Bonilla, los cuatro que hacen que el ciclismo mundial mire hacia esta penillanuera levemente ondulada, cuna de grandes futbolistas y al parecer buenos",
+      "url": "https://www.elpais.com.uy/ovacion/multideportivo/pablo-bonilla-gano-la-vuelta-ciclista-y-ya-va-rumbo-a-espana-los-cuatro-que-dan-la-cara-por-uruguay-en-europa",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-04-07T06:30:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Mundial 2026: la advertencia sobre el ICE que podría vaciar los hoteles y estadios de California",
+      "description": "Unite Here Local 11 (sindicato que representa a los trabajadores del sector) envió una carta a decenas de hoteles locales, estadios y proveedores de aeropuertos",
+      "url": "https://www.lanacion.com.ar/estados-unidos/california/mundial-2026-la-advertencia-sobre-el-ice-que-podria-vaciar-los-hoteles-y-estadios-de-california-nid07042026/",
+      "source": "La Nacion",
+      "published_at": "2026-04-07T06:02:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La millonaria cifra que recibirán los clubes argentinos por ceder a sus jugadores al Mundial",
+      "description": "FIFA aumentó un 70% el presupuesto del Club Benefits Programme. Con River a la cabeza, los equipos de la Liga Profesional se preparan para un ingreso histórico en dólares. Leer más",
+      "url": "https://442.perfil.com/noticias/mundial-2026/la-millonaria-cifra-que-recibiran-los-clubes-argentinos-por-ceder-a-sus-jugadores-al-mundial-a35.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-04-06T19:36:13Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Ubeda, contento con el debut de Boca: \"La victoria fue justa y estamos bien, pero esto recién empieza\"",
+      "description": "El técnico del Xeneize habló en Santiago, tras el triunfo sobre Universidad Católica por la Copa Libertadores.",
+      "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16543826/ubeda-dt-boca-contento-universidad-catolica-copa-libertadores-debut-chile-conferencia",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-08T05:19:00",
+      "category": "liga"
+    },
+    {
+      "title": "Paredes: \"Era uno de mis sueños jugar la Libertadores con Boca\"",
+      "description": "El capitán xeneize reveló que logró un hito al debutar con la azul y oro en el máximo certamen continental.",
+      "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16544116/paredes-era-uno-de-mis-suenos-jugar-la-libertadores-con-boca",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-08T05:19:00",
+      "category": "liga"
+    },
+    {
+      "title": "¡Bombazo y a festejar! Paredes, en su debut en la Libertadores, marcó para Boca vs. Universidad Católica",
+      "description": "El mediocampista del Xeneize sacó un tremendo derechazo para el 1-0 ante UC en Chile.",
+      "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16543480/video-golazo-de-paredes-universidad-catolica-vs-boca",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-08T04:13:23",
+      "category": "liga"
+    }
+  ]
+}
