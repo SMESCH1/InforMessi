@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-04-09",
+  "scraped_at": "2026-04-09T08:08:29.670834",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Rating: cuánto midió el partido de Boca y Mario Pergolini en su segunda semana al aire",
+      "description": "El partido de la Copa Libertadores fue seguido por más de un millón cien mil individuos, según las nuevas métricas que difunde Ibope",
+      "url": "https://www.lanacion.com.ar/espectaculos/television/rating-cuanto-midio-el-partido-de-boca-y-mario-pergolini-en-su-segunda-semana-al-aire-nid08042026/",
+      "source": "La Nacion",
+      "published_at": "2026-04-08T05:43:26Z",
+      "category": "liga"
+    },
+    {
+      "title": "BTS anunció su tercera fecha en Argentina: cuándo comienza la venta de entradas",
+      "description": "La banda de k-pop agotó la preventa exclusiva para fans y suma un nuevo show en el Estadio Único de La Plata. Leer más",
+      "url": "https://exitoina.perfil.com/noticias/musica/bts-anuncio-su-tercera-fecha-en-argentina-cuando-comienza-la-venta-de-entradas.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-04-07T21:29:10Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Netflix Argentina presentó las producciones nacionales que llegarán en 2026 y 2027: las primeras imágenes",
+      "description": "La plataforma presenta todo lo que está preparando \"Hecho en Argentina\", e inaugura nuevas oficinas en Buenos Aires. Leer más",
+      "url": "https://exitoina.perfil.com/noticias/streaming/netflix-argentina-presento-producciones-nacionales-llegaran-2026-2027-primeras-imagenes.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-04-07T21:11:57Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La Sub 18 de Albion la volvió a romper en España: jugó un torneo internacional al que llegó a las semifinales",
+      "description": "El conjunto juvenil del Pionero participó otra vez en Cataluña del MIC Football, que es reconocido como un certamen en el que surgen varias estrellas jóvenes.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/la-sub-18-de-albion-la-volvio-a-romper-en-espana-jugo-un-torneo-internacional-al-que-llego-a-las-semifinales",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-04-08T06:40:00Z",
+      "category": "general"
+    },
+    {
+      "title": "Así es hoyo a hoyo el Augusta National, el campo por excelencia con el rincón más temido del golf mundial",
+      "description": "No hay campo más significativo en\nel planeta golf que el Augusta National, el templo que desde este jueves y\nhasta el próximo domingo acoge una nueva edición del Masters. Club privado y\nexclusivo, fue",
+      "url": "https://www.mundodeportivo.com/golf/20260408/1004166283/asi-augusta-national-campo-excelencia-rincon-temido-golf-mundial.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-04-08T05:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Murió Mircea Lucescu, el DT de Rumania que sufrió un infarto tras quedar afuera del Mundial 2026",
+      "description": "El legendario Mircea Lucescu falleció a los 80 años en Bucarest. El ex seleccionador de Rumania había sufrido un paro cardíaco tras la eliminación de su equipo en el repechaje europeo a la Copa del Mu",
+      "url": "https://442.perfil.com/noticias/fuera-de-juego/murio-mircea-lucescu-dias-despues-de-quedarse-en-las-puertas-del-mundial-2026-a35.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-04-08T02:06:27Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Estudiantes dejó escapar el triunfo en Medellín en su debut en la Libertadores",
+      "description": "El Pincha se adelantó a los 4 minutos con un gol de Tiago Palacios y dominó el primer tiempo, pero Independiente Medellín reaccionó en el complemento y lo igualó en el Atanasio Girardot.",
+      "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16549258/medellin-vs-estudiantes-fecha-1-conmebol-libertadores-equipo-fecha-hora-y-tv-en-vivo",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-09T04:14:13",
+      "category": "liga"
+    },
+    {
+      "title": "Debut con sabor a poco para San Lorenzo: empató ante Recoleta en la CONMEBOL Sudamericana",
+      "description": "El equipo de Gustavo Álvarez no pudo en su presentación ante el Canario en el Grupo D.",
+      "url": "https://www.espn.com.ar/futbol/copa-sudamericana/nota/_/id/16536298/recoleta-vs-san-lorenzo-sudamericana-equipo-fecha-hora-y-tv-en-vivo",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-09T04:32:04",
+      "category": "liga"
+    },
+    {
+      "title": "Atlético Madrid venció a Barcelona en la ida",
+      "description": "El conjunto Blaugrana y el Colchonero disputan en el Camp Nou lel duelo de ida de los cuartos de final de la UEFA Champions League.",
+      "url": "https://www.espn.com.ar/futbol/champions-league/nota/_/id/16533885/barcelona-vs-atletico-de-madrid-uefa-champions-league-equipo-fecha-hora-y-tv-en-vivo",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-09T04:32:31",
+      "category": "general"
+    },
+    {
+      "title": "Lanús cayó ante Mirassol en la Libertadores",
+      "description": "El Granate quiere comenzar con un buen resultado en Brasil.",
+      "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16537937/mirassol-vs-lanus-fase-de-grupos-libertadores-equipo-fecha-hora-y-tv-en-vivo",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-09T04:32:31",
+      "category": "general"
+    }
+  ]
+}
