@@ -490,34 +490,6 @@ def postprocess_message(message, data, days_remaining):
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
     cleaned = cleaned.strip()
 
-    # --- Regla 3: detectar cumpleaños inventados ---
-    birthday_persons = set()
-    for ev in events:
-        if ev.get("type") == "birthday":
-            person = ev.get("person", "").lower()
-            if person:
-                birthday_persons.add(person)
-                parts = person.strip().split()
-                if len(parts) > 1:
-                    birthday_persons.add(parts[-1].lower())
-
-    cumple_patterns = re.findall(
-        r"(?:cumple(?:años)?|cumple\s+\d+\s+años|naci[oó])\s+.*?(?:de\s+)?([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)*)",
-        cleaned, re.IGNORECASE
-    )
-    # También detectar "hoy es el cumpleaños de X"
-    cumple_patterns += re.findall(
-        r"cumpleaños\s+de\s+([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)*)",
-        cleaned, re.IGNORECASE
-    )
-    for person_match in cumple_patterns:
-        person_lower = person_match.strip().lower()
-        person_parts = person_lower.split()
-        is_valid = any(p in birthday_persons for p in [person_lower] + person_parts)
-        if not is_valid:
-            logger.warning(f"⚠️  Post-proceso: cumpleaños inventado detectado ({person_match}), reemplazando con mensaje seguro")
-            return _build_safe_message(days_remaining, data.get("mundial_phase"), data.get("mundial_day"))
-
     # --- Regla 4: verificar años ---
     if events or news:
         allowed_years, allowed_persons, allowed_scores = _extract_allowed_entities(events, news)
@@ -542,7 +514,7 @@ def postprocess_message(message, data, days_remaining):
         if hallucinated_scores:
             logger.warning(f"⚠️  Post-proceso: scores no encontrados en datos: {hallucinated_scores}")
 
-    # --- Regla 6: asegurar cierre ritual ---
+    # --- Regla 5: asegurar cierre ritual ---
     if CIERRE_RITUAL.lower() not in cleaned.lower():
         logger.warning("⚠️  Post-proceso: cierre ritual faltante, agregándolo")
         cleaned = cleaned.rstrip() + f"\n\n{CIERRE_COMPLETO}"
