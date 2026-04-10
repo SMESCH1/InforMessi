@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-04-10",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 62,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1973-04-10",
@@ -15,12 +18,107 @@
         "description": "Cumpleaños de Roberto Carlos (53 años)"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Las camisetas del Mundial 2026 que más interesan a los fans",
+        "description": "Las camisetas del Mundial 2026 se convierten en tendencia con búsquedas un 638% al alza y Brasil liderando el interés global.\nLa entrada Las camisetas del Mundial 2026 que más interesan a los fans se ",
+        "url": "https://www.marketingdirecto.com/anunciantes-general/publicaciones/camisetas-mundial-2026-que-mas-interesan-fans",
+        "source": "Marketingdirecto.com",
+        "published_at": "2026-04-08T15:04:17Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Italia, otra vez sin Mundial: el dolor de ya no ser",
+        "description": "Del “catenaccio” a los “fantasista” (sin plural), la Azzurra sufre un extravío de identidad y una pérdida de “sincronicidad emocional”",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/italia-otra-vez-sin-mundial-el-dolor-de-ya-no-ser-nid08042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-08T12:08:23Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Fondos afectados por los impagos de España a las renovables amenazan con embargos en el Mundial de fútbol",
+        "description": "La FIFA, Adidas, la marca que viste desde hace años a la selección española de fútbol, y un puñado de proveedores de servicios en Estados Unidos con los que ha contratado la Federación Española de Fút",
+        "url": "https://www.abc.es/economia/fondos-afectados-impagos-espana-renovables-amenazan-embargos-20260409035951-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-04-09T01:59:51Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Rastrean operaciones de la Selección Española y ponen en jaque al Mundial por los impagos de Sánchez a las renovables",
+        "description": "La nueva ofensiva judicial contra España por el impago de los laudos de las renovables podría afectar a la selección de cara al Mundial de 2026.",
+        "url": "https://www.libertaddigital.com/libremercado/2026-04-09/rastrean-operaciones-de-la-seleccion-espanola-y-ponen-en-jaque-al-mundial-por-los-impagos-de-sanchez-a-las-renovables-7385515/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-04-09T00:44:07Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Simeone, emotivo y exigente con Griezmann: “Te quiero mucho, pero si no corrés vas para afuera”",
+        "description": "El Cholo abrió su corazón para empezar a despedir al francés, que seguirá su carrera en la MLS; este miércoles será titular por los cuartos de final de la Champions League",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/simeone-emotivo-y-exigente-con-griezmann-te-quiero-mucho-pero-si-no-corres-vas-para-afuera-nid08042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-08T12:07:59Z",
+        "category": "general"
+      },
+      {
+        "title": "Los equipos argentinos arrancan a contramano ante los brasileños en la CONMEBOL Libertadores",
+        "description": "Platense y Lanús cayeron en sus respectivos debuts en el máximo certamen continental.",
+        "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16553759/efrentamiento-equipos-argentinos-vs-brasilenos-libertadores-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-10T04:48:51",
+        "category": "general"
+      },
+      {
+        "title": "Platense no fue eficaz y Corinthians golpeó en los momentos justos en su debut en la Libertadores",
+        "description": "El Calamar tuvo sus chances, pero el Timao fue letal en el complemento, aprovechó cada oportunidad y se llevó un triunfo en Vicente López.",
+        "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16536678/platense-vs-corinthians-fase-grupos-libertadores-2026-equipo-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-10T04:48:51",
+        "category": "general"
+      },
+      {
+        "title": "La dupla Orsi-Gómez, presente en el debut de Platense en la CONMEBOL Libertadores",
+        "description": "Los históricos del Calamar presenciaron el partido ante Corinthians en Vicente López.",
+        "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16553538/dupla-orsi-gomez-presente-debut-platense-corinthians",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-10T04:48:51",
+        "category": "general"
+      },
+      {
+        "title": "Central generó, pero no concretó y empató sin goles ante Independiente del Valle en la Libertadores",
+        "description": "El Canalla fue superior y jugó con uno más, pero la falta de eficacia lo privó del triunfo.",
+        "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16536130/rosario-central-vs-independiente-del-valle-fase-de-grupos-copa-libertadores-2026-equipo-fecha-hora-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-10T04:23:00",
+        "category": "liga"
+      },
+      {
+        "title": "Di María tuvo un gran partido, pero Central no pudo con Independiente del Valle en su vuelta a la Libertadores",
+        "description": "Fideo volvió a disputar el torneo continental luego de 20 años, y aunque logró resaltar, el 0 a 0 fue inamovible.",
+        "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16553061/di-maria-partido-figura-rosario-central-vs-independiente-del-valle-fase-de-grupos-copa-libertadores-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-10T04:23:00",
+        "category": "liga"
+      },
+      {
+        "title": "Con Pedro Almodóvar y sin películas argentinas anunciaron la programación de Cannes 2026",
+        "description": "Amarga Navidad fue seleccionada para la competencia oficial y se espera a su protagonista, Leonardo Sbaraglia, en la alfombra roja",
+        "url": "https://www.lanacion.com.ar/espectaculos/cine/con-pedro-almodovar-y-sin-peliculas-argentinas-anunciaron-la-programacion-de-cannes-2026-nid09042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-09T13:34:11Z"
+      },
+      {
+        "title": "Las camisetas del Mundial 2026 que más interesan a los fans",
+        "description": "Las camisetas del Mundial 2026 se convierten en tendencia con búsquedas un 638% al alza y Brasil liderando el interés global.\nLa entrada Las camisetas del Mundial 2026 que más interesan a los fans se ",
+        "url": "https://www.marketingdirecto.com/anunciantes-general/publicaciones/camisetas-mundial-2026-que-mas-interesan-fans",
+        "source": "Marketingdirecto.com",
+        "published_at": "2026-04-08T15:04:17Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 62 días para el Mundial 2026 ⚽\n\n🎉 Un día como hoy, el legendario Roberto Carlos cumple 53 años. El emblemático lateral brasileño es recordado por su impresionante carrera y su habilidad en el campo ⚽\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 62 días para el Mundial 2026 ⚽\n\nHoy, Roberto Carlos cumple 53 años. El ex defensor de la Selección Argentina sigue siendo una figura icónica en el fútbol mundial. \n\nLos equipos argentinos arrancan a contramano ante los brasileños en la CONMEBOL Libertadores: Platense y Lanús cayeron en sus respectivos debuts en el máximo certamen continental. También, Di María tuvo un gran partido, pero Central no pudo con Independiente del Valle en su vuelta a la Libertadores.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-10T14:20:37.036241",
+  "published_at": "2026-04-10T14:20:37.732007",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-10T14:20:37.036252"
 }

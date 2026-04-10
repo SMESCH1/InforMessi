@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-04-09T14:59:26.120772",
+  "last_updated": "2026-04-10T14:20:37.745192",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -15,6 +15,9 @@
     "Scaloni": [
       "2026-04-01",
       "2026-04-06"
+    ],
+    "Di María": [
+      "2026-04-10"
     ]
   },
   "weekly_sections": {
@@ -22,7 +25,8 @@
       "2026-03-27",
       "2026-03-30",
       "2026-04-03",
-      "2026-04-06"
+      "2026-04-06",
+      "2026-04-10"
     ],
     "jugador_scaloneta": [
       "2026-03-26",
@@ -56,7 +60,8 @@
       "2026-04-06",
       "2026-04-07",
       "2026-04-08",
-      "2026-04-09"
+      "2026-04-09",
+      "2026-04-10"
     ],
     "seleccion": [
       "2026-03-26",
@@ -67,7 +72,8 @@
       "2026-03-31",
       "2026-04-01",
       "2026-04-03",
-      "2026-04-04"
+      "2026-04-04",
+      "2026-04-10"
     ]
   },
   "events_mentioned": {
@@ -127,6 +133,9 @@
     ],
     "Cumpleaños de Giovani Lo Celso (30 años)": [
       "2026-04-09"
+    ],
+    "Cumpleaños de Roberto Carlos (53 años)": [
+      "2026-04-10"
     ]
   },
   "news_topics": {
@@ -156,6 +165,12 @@
     ],
     "lionel messi estreno el nu stadium con un golazo y": [
       "2026-04-06"
+    ],
+    "los equipos argentinos arrancan a contramano ante ": [
+      "2026-04-10"
+    ],
+    "di maria tuvo un gran partido, pero central no pud": [
+      "2026-04-10"
     ]
   },
   "phrases_used": [],
