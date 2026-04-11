@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-04-11",
+  "scraped_at": "2026-04-11T07:41:04.522640",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Leandro Paredes: el nivel que ilusiona en Boca y lo acerca a la titularidad en el Mundial",
+      "description": "El volante, figura del equipo de Úbeda, gana terreno en la consideración de Scaloni y asoma con ventaja en el once ideal",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/leandro-paredes-el-nivel-que-ilusiona-en-boca-y-lo-acerca-a-la-titularidad-en-el-mundial-nid09042026/",
+      "source": "La Nacion",
+      "published_at": "2026-04-09T20:24:57Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Buenas noticias para Scaloni: un campeón del mundo volvió a las prácticas y podría estar en la próxima fecha FIFA",
+      "description": "Lisandro Martínez superó una lesión en el sóleo y se sumó a los entrenamientos a la par del grupo. Es una pieza clave para la Selección Argentina pensando en los próximos amistosos. Leer más",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/buenas-noticias-para-scaloni-un-campeon-del-mundo-volvio-a-las-practicas-y-podria-estar-en-la-proxima-fecha-fifa.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-04-09T19:18:18Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La Selección Argentina confirmó amistosos ante Honduras e Islandia antes del Mundial 2026",
+      "description": "AFA anunció que la Selección Argentina enfrentará a Honduras e Islandia en Estados Unidos antes de instalarse de forma definitiva en Kansas City. Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/argentina-confirmo-amistosos-ante-honduras-e-islandia-previo-al-mundial-2026.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-04-09T18:20:54Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El centro de operaciones de la selección española en EEUU, bajo la lupa por los impagos de Sánchez a las renovables",
+      "description": "La escuela donde iba a instalarse la selección, ya ha sido notificada sobre la obligación de informar sobre las transacciones mantenidas con España.",
+      "url": "https://www.libertaddigital.com/libremercado/2026-04-10/el-centro-de-operaciones-de-la-seleccion-espanola-en-eeuu-bajo-la-lupa-por-los-impagos-de-sanchez-a-las-renovables-7386310/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-04-10T00:35:07Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Lindsay Camila hace un pedido especial con el corazón en la mano",
+      "description": "La Selección Femenina de Costa Rica juega este viernes 10 de abril contra Islas Caimán en el Estadio Alejandro Morera Soto.",
+      "url": "https://www.nacion.com/puro-deporte/lindsay-camila-hace-un-pedido-especial-con-el/O45LGWAODFDLLMJCCHEWSIJN6U/story/",
+      "source": "Nacion.com",
+      "published_at": "2026-04-09T22:17:47Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Gimnasia respiró, dejó atrás su mala racha y goleó 4-1 a Camioneros la Copa Argentina",
+      "description": "En medio de una crisis institucional y sin entrenador confirmado, el \"Lobo\" debutó con un triunfo 4-1 en los 32avos de final. Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/gimnasia-goleo-a-camioneros-y-respira-en-la-copa-argentina.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-04-10T01:34:21Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Sudamericano Sub 17: Argentina cayó ante Brasil, que aseguró su clasificación al Mundial",
+      "description": "El combinado de Placente fue superado de principio a fin ante el Scratch. Ahora, la clasificación al Mundial y a la fase final se definirá en la última fecha ante Bolivia.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16557840/sudamericano-sub-17-argentina-brasil-mundial-2026",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-11T04:40:28",
+      "category": "seleccion"
+    },
+    {
+      "title": "Ramón Díaz opinó del presente de Coudet",
+      "description": "El ex entrenador Millonario fue a ver el duelo de Platense por CONMebol libertadores y allí respondió sobre su hoy colega en el banco Millonario y su posible retorno al fútbol argentino.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16555215/que-dijo-ramon-diaz-sobre-la-actualidad-de-chacho-coudet-en-river",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-11T03:34:53",
+      "category": "general"
+    },
+    {
+      "title": "Inter: Lautaro Martínez se resintió de lesión",
+      "description": "Días después de su regreso con doblete, el Toro volvió a sufrir una lesión muscular y preocupa a dos meses del Mundial.",
+      "url": "https://www.espn.com.ar/futbol/italia/nota/_/id/16555461/inter-lautaro-martinez-lesion-muscular-se-resintio-argentina",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-11T03:34:53",
+      "category": "mundial"
+    },
+    {
+      "title": "La FIA anticipa cambios en carreras de F1",
+      "description": "Tras la primera reunión técnica, la entidad que regula el Mundial señaló que hubo diálogos constructivos y que se realizarán modificaciones a las reglas.",
+      "url": "https://www.espn.com.ar/deporte-motor/f1/nota/_/id/16554979/la-fia-anticipa-cambios-en-las-carreras-de-f1",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-11T03:34:53",
+      "category": "mundial"
+    }
+  ]
+}
