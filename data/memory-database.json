@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-04-10T14:20:37.745192",
+  "last_updated": "2026-04-11T14:01:25.485874",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -14,10 +14,14 @@
     ],
     "Scaloni": [
       "2026-04-01",
-      "2026-04-06"
+      "2026-04-06",
+      "2026-04-11"
     ],
     "Di María": [
       "2026-04-10"
+    ],
+    "Martínez": [
+      "2026-04-11"
     ]
   },
   "weekly_sections": {
@@ -37,7 +41,8 @@
     ],
     "dato_mundialista": [
       "2026-03-28",
-      "2026-04-04"
+      "2026-04-04",
+      "2026-04-11"
     ],
     "dato_pais_sede": [
       "2026-03-29",
@@ -61,7 +66,8 @@
       "2026-04-07",
       "2026-04-08",
       "2026-04-09",
-      "2026-04-10"
+      "2026-04-10",
+      "2026-04-11"
     ],
     "seleccion": [
       "2026-03-26",
@@ -73,7 +79,8 @@
       "2026-04-01",
       "2026-04-03",
       "2026-04-04",
-      "2026-04-10"
+      "2026-04-10",
+      "2026-04-11"
     ]
   },
   "events_mentioned": {
@@ -136,6 +143,9 @@
     ],
     "Cumpleaños de Roberto Carlos (53 años)": [
       "2026-04-10"
+    ],
+    "Cumpleaños de Thiago Alcántara (35 años)": [
+      "2026-04-11"
     ]
   },
   "news_topics": {
@@ -171,6 +181,12 @@
     ],
     "di maria tuvo un gran partido, pero central no pud": [
       "2026-04-10"
+    ],
+    "buenas noticias para scaloni: un campeon del mundo": [
+      "2026-04-11"
+    ],
+    "la seleccion argentina confirmo amistosos ante hon": [
+      "2026-04-11"
     ]
   },
   "phrases_used": [],
