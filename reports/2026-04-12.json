@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-04-12",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 60,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1941-04-12",
@@ -15,12 +18,107 @@
         "description": "Cumpleaños de Bobby Moore (85 años)"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Argentina fue goleada por Brasil en un partido caliente por el Sudamericano Sub 17 de Paraguay",
+        "description": "El conjunto albiceleste apostó al recambio de jugadores y no pudo con la Canarinha, en un duelo áspero hasta después del pitazo final",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/argentina-fue-goleada-por-brasil-en-un-partido-caliente-por-el-sudamericano-sub-17-de-paraguay-nid10042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-11T02:03:53Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Arlindo Dos Santos: \"El Estadio Azteca es una catedral del futbol mundial\"",
+        "description": "El legendario futbolista elogió el Estadio Azteca, mencionando que no habrá ningún otro inmueble como este",
+        "url": "https://www.record.com.mx/historia/arlindo-dos-santos-el-estadio-azteca-es-una-catedral-del-futbol-mundial-2026041021313086167",
+        "source": "Record.com.mx",
+        "published_at": "2026-04-10T21:30:44Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Violencia en el fútbol ecuatoriano, el desafío urgente antes del Mundial 2026",
+        "description": "La violencia en el fútbol ecuatoriano empaña el buen momento de la Tri rumbo al Mundial 2026 y aleja a muchos de los estadios.",
+        "url": "https://www.elcomercio.com/opinion/editorial/violencia-futbol-ecuatoriano-desafio-urgente-antes-mundial-2026/",
+        "source": "Elcomercio.com",
+        "published_at": "2026-04-11T05:12:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El deportista a seguir | La niña Modric que \"va a ser mejor que papá\" y que ya gana títulos con el Milan",
+        "description": "Ema Modric ha conseguido su primer título como futbolista y lo ha logrado con el AC Milan tras llevarse la Copa Garino. Quiere seguir los pasos de su padre y empieza a mostrar maneras de gran jugadora",
+        "url": "https://www.elconfidencial.com/deportes/futbol/2026-04-11/deportista-seguir-ema-modric-milan-hija-luka-titulos_4335793/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-04-11T03:00:00Z",
+        "category": "general"
+      },
+      {
+        "title": "Paysandú 0-1 Rentistas: el Bicho ganó y llegó a la cima de la Serie B; así sigue la fecha en la Segunda División",
+        "description": "La visita obtuvo su segunda victoria en el Torneo Competencia, mientras que el conjunto sanducero acumuló su tercera caída en la temporada 2026 de forma oficial.",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/paysandu-0-1-rentistas-el-bicho-gano-y-llego-a-la-cima-de-la-serie-b-asi-sigue-la-fecha-en-la-segunda-division",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-04-10T23:59:03Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Gimnasia respiró, dejó atrás su mala racha y goleó 4-1 a Camioneros la Copa Argentina",
+        "description": "En medio de una crisis institucional y sin entrenador confirmado, el \"Lobo\" debutó con un triunfo 4-1 en los 32avos de final. Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/gimnasia-goleo-a-camioneros-y-respira-en-la-copa-argentina.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-04-10T01:34:21Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Boca vs. Independiente y un resultado que se volvió costumbre en los últimos años",
+        "description": "El Xeneize y el Rojo empataron 6 de los últimos 10 partidos oficiales, entre 2020 y 2026.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16562362/boca-vs-independiente-clasico-racha-empates",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-12T03:16:58",
+        "category": "mundial"
+      },
+      {
+        "title": "Wilmar Roldán será el árbitro en Boca vs. Barcelona por la CONMEBOL Libertadores",
+        "description": "El árbitro colombiano dirigirá en semanas consecutivas un duelo entre un cuadro argentino y un ecuatoriano.",
+        "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16562306/boca-vs-barcelona-arbitro-wilmar-roldan-copa-libertadores",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-12T05:29:59",
+        "category": "liga"
+      },
+      {
+        "title": "Con una asistencia de Messi, Inter Miami empató ante New York RB",
+        "description": "Con otra gran actuación el 10, el equipo de Javier Mascherano igualó 2-2 en el Nu Stadium por la fecha 7 de la MLS",
+        "url": "https://www.espn.com.ar/futbol/mls/nota/_/id/16551938/inter-miami-vs-new-york-rb-mls-equipo-messi-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-12T03:17:45",
+        "category": "seleccion"
+      },
+      {
+        "title": "¿A la MLS? Neymar espera una reunión con la dirigencia de Cincinnati",
+        "description": "El papá de Neymar aguarda una reunión con ejecutivos del FC Cincinnati, que busca fichar a la estrella brasileña tras el Mundial.",
+        "url": "https://www.espn.com.ar/futbol/mls/nota/_/id/16562307/neymar-mls-cincinnari-esperan-reunion-fichaje",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-12T04:35:36",
+        "category": "mundial"
+      },
+      {
+        "title": "Golpes, tumultos y corridas: mirá el final de la goleada de Brasil sobre Argentina en el Sudamericano Sub 17",
+        "description": "La Canarinha se quedó con el clásico del fútbol sudamericano tras superar 3-0 al combinado albiceleste y selló su pasaje a la Copa del Mundo de esa categoría.",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/golpes-tumultos-y-corridas-mira-el-final-de-la-goleada-de-brasil-sobre-argentina-en-el-sudamericano-sub-17",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-04-11T14:00:58Z"
+      },
+      {
+        "title": "El caso Lautaro Martínez y los otros número 9 de selección: quiénes son, cómo están y el factor “jerarquía”",
+        "description": "A 66 días para el debut en el Mundial, el capitán de Inter sigue con problemas físicos",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/el-caso-lautaro-martinez-y-los-otros-numero-9-de-seleccion-quienes-son-como-estan-y-el-factor-nid11042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-11T12:26:28Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 60 días para el Mundial 2026 ⚽\n\n🎉 Hoy cumple 85 años Bobby Moore. El legendario futbolista británico sigue siendo una figura icónica del fútbol mundial 🏆\n\n📰 Arlindo Dos Santos, en Record.com.mx, destacó que el Estadio Azteca es una catedral del fútbol mundial, un lugar único que no tiene igual en el mundo del deporte 🏟️\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-12T14:04:10.874038",
+  "published_at": "2026-04-12T14:04:11.764694",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-12T14:04:10.874049"
 }
