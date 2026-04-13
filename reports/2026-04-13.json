@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-04-13",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 59,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1960-04-13",
@@ -23,12 +26,114 @@
         "description": "Cumpleaños de Carles Puyol (48 años)"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Partida por el gran partido: Madrid aspira a la final del Mundial 2030, pero Marruecos ultima el mayor estadio del mundo",
+        "description": "El Estadio Hassan II de Casablanca será el de más capacidad del planeta con 115.000 espectadores, aunque el Santiago Bernabéu es el gran candidato a acoger el encuentro más importante de la primera ci",
+        "url": "https://www.eldiario.es/madrid/somos/partida-gran-partido-madrid-aspira-final-mundial-2030-marruecos-ultima-mayor-estadio-mundo_1_13121243.html",
+        "source": "Eldiario.es",
+        "published_at": "2026-04-11T20:18:54Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Golpes, tumultos y corridas: mirá el final de la goleada de Brasil sobre Argentina en el Sudamericano Sub 17",
+        "description": "La Canarinha se quedó con el clásico del fútbol sudamericano tras superar 3-0 al combinado albiceleste y selló su pasaje a la Copa del Mundo de esa categoría.",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/golpes-tumultos-y-corridas-mira-el-final-de-la-goleada-de-brasil-sobre-argentina-en-el-sudamericano-sub-17",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-04-11T14:00:58Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El caso Lautaro Martínez y los otros número 9 de selección: quiénes son, cómo están y el factor “jerarquía”",
+        "description": "A 66 días para el debut en el Mundial, el capitán de Inter sigue con problemas físicos",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/el-caso-lautaro-martinez-y-los-otros-numero-9-de-seleccion-quienes-son-como-estan-y-el-factor-nid11042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-11T12:26:28Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "FIFA, Adidas, Hilton... Así pueden ser los embargos a la Selección Española durante el Mundial de Fútbol de EEUU",
+        "description": "Empresas vinculadas a la visita de la selección a EE.UU. por el Mundial 2026 ya han sido notificadas para informar de sus transacciones con España.",
+        "url": "https://www.libertaddigital.com/libremercado/2026-04-12/fifa-adidas-hilton-asi-pueden-ser-los-embargos-a-la-seleccion-espanola-durante-el-mundial-de-futbol-de-eeuu-7386337/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-04-12T04:05:07Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "La receta de Iván Zamorano para el fútbol chileno: “Marcelo Salas como presidente de la ANFP sería espectacular; y yo ahí, con él”",
+        "description": "Bam Bam habla de todo: desde el liderato de Colo Colo y la compleja situación del Real Madrid en la Champions hasta la reforma a la ley SADP. También, de la designación de Natalia Duco.",
+        "url": "https://www.latercera.com/el-deportivo/noticia/la-receta-de-ivan-zamorano-para-el-futbol-chileno-marcelo-salas-como-presidente-de-la-anfp-seria-espectacular-y-yo-ahi-con-el/",
+        "source": "Latercera.com",
+        "published_at": "2026-04-12T01:00:48Z",
+        "category": "general"
+      },
+      {
+        "title": "Ubeda define el once de Boca para recibir a Barcelona SC por la CONMEBOL Libertadores",
+        "description": "El entrenador tiene en mente un equipo para plantar en La Bombonera, en busca del segundo triunfo en la Copa.",
+        "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16567365/formacion-de-boca-vs-barcelona-sc-en-la-bombonera-fecha-2",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-13T05:12:08",
+        "category": "liga"
+      },
+      {
+        "title": "Aplausómetro en Racing vs. River: así recibió el Cilindro a Salas, Acuña, Juanfer, Moreno y Coudet",
+        "description": "Los hinchas de la Academia tomaron posturas muy diferentes para recibir a sus exfutbolistas.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16566350/video-racing-vs-river-asi-recibio-a-maxi-salas-maros-acuna-juanfer-quintero-chacho-coudet",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-13T04:41:01",
+        "category": "liga"
+      },
+      {
+        "title": "Sudamericano Sub 17: Argentina empató con Bolivia, clasificó al Mundial y se metió en semis",
+        "description": "El equipo de Placente se aseguró su cupo de cara a la Copa del Mundo que se disputará en Noviembre en Qatar.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16567548/sudamericano-sub-17-argentina-bolivia-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-13T05:51:41",
+        "category": "seleccion"
+      },
+      {
+        "title": "Así quedó el ranking mundial ATP tras el título de Sinner ante Alcaraz en Montecarlo",
+        "description": "El italiano se consagró en el Masters 1000 del Principado.",
+        "url": "https://www.espn.com.ar/tenis/nota/_/id/16564331/asi-quedo-el-ranking-mundial-atp-tras-el-titulo-de-sinner-ante-alcaraz-en-masters-1000-montecarlo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-12T23:06:23",
+        "category": "mundial"
+      },
+      {
+        "title": "Preocupación en Argentina: Dibu Martínez fue reemplazado en Aston Villa antes de su partido por la Premier",
+        "description": "A solo dos meses para el inicio del Mundial, el arquero de Argentina sufrió una molestia en la entrada en calor antes de visitar a Forest y fue reemplazado.",
+        "url": "https://www.espn.com.ar/futbol/inglaterra/nota/_/id/16563826/preocupacion-en-argentina-dibu-martinez-fue-reemplazado-en-aston-villa-por-lesion-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-13T05:43:52",
+        "category": "seleccion"
+      },
+      {
+        "title": "Partida por el gran partido: Madrid aspira a la final del Mundial 2030, pero Marruecos ultima el mayor estadio del mundo",
+        "description": "El Estadio Hassan II de Casablanca será el de más capacidad del planeta con 115.000 espectadores, aunque el Santiago Bernabéu es el gran candidato a acoger el encuentro más importante de la primera ci",
+        "url": "https://www.eldiario.es/madrid/somos/partida-gran-partido-madrid-aspira-final-mundial-2030-marruecos-ultima-mayor-estadio-mundo_1_13121243.html",
+        "source": "Eldiario.es",
+        "published_at": "2026-04-11T20:18:54Z"
+      },
+      {
+        "title": "Golpes, tumultos y corridas: mirá el final de la goleada de Brasil sobre Argentina en el Sudamericano Sub 17",
+        "description": "La Canarinha se quedó con el clásico del fútbol sudamericano tras superar 3-0 al combinado albiceleste y selló su pasaje a la Copa del Mundo de esa categoría.",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/golpes-tumultos-y-corridas-mira-el-final-de-la-goleada-de-brasil-sobre-argentina-en-el-sudamericano-sub-17",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-04-11T14:00:58Z"
+      },
+      {
+        "title": "El caso Lautaro Martínez y los otros número 9 de selección: quiénes son, cómo están y el factor “jerarquía”",
+        "description": "A 66 días para el debut en el Mundial, el capitán de Inter sigue con problemas físicos",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/el-caso-lautaro-martinez-y-los-otros-numero-9-de-seleccion-quienes-son-como-estan-y-el-factor-nid11042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-11T12:26:28Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 59 días para el Mundial 2026 ⚽\n\nRudi Völler cumple 66 años hoy. El ex seleccionador alemán ha sido una figura importante en el fútbol europeo. \n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-13T14:56:00.006690",
+  "published_at": "2026-04-13T14:56:00.811084",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-13T14:56:00.006700"
 }
