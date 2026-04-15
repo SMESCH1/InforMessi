@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-04-14T14:56:18.684840",
+  "last_updated": "2026-04-15T14:50:00.565295",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -80,7 +80,8 @@
       "2026-04-11",
       "2026-04-12",
       "2026-04-13",
-      "2026-04-14"
+      "2026-04-14",
+      "2026-04-15"
     ],
     "seleccion": [
       "2026-03-26",
@@ -171,6 +172,12 @@
     ],
     "Cumpleaños de Matteo Guendouzi (27 años)": [
       "2026-04-14"
+    ],
+    "Tragedia de Hillsborough: 97 hinchas de Liverpool mueren durante semifinal de FA Cup. Cambió la segu": [
+      "2026-04-15"
+    ],
+    "Cumpleaños de Matías Soulé (23 años)": [
+      "2026-04-15"
     ]
   },
   "news_topics": {
