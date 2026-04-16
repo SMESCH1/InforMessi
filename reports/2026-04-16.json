@@ -4,14 +4,128 @@
   "data": {
     "date": "2026-04-16",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 56,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1977-04-16",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Freddie Ljungberg",
+        "age": 49,
+        "description": "Cumpleaños de Freddie Ljungberg (49 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "Carolina Calvagni, la mujer de Nicolás Tagliafico, posa en su casa y repasa su historia de amor con el futbolista",
+        "description": "La influencer y emprendedora nos\ncomparte además los desafíos de su vida\nentre Lyon (Francia) y Buenos\nAires y revela cómo nació la idea de desarrollar su propia marca de moda deportiva",
+        "url": "https://www.lanacion.com.ar/revista-hola/carolina-calvagni-la-mujer-de-nicolas-tagliafico-posa-en-su-casa-y-repasa-su-historia-de-amor-con-el-nid15042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-15T03:42:34Z",
+        "category": "general"
+      },
+      {
+        "title": "Muere José Emilio Santamaría, exjugador del Real Madrid y exseleccionador de España",
+        "description": "El que fuera jugador del Real Madrid y también seleccionador nacional de España en el Mundial 1982 que acogió nuestro país, el uruguayo José Emilio Santamaría, ha fallecido este miércoles 14 de abril ",
+        "url": "https://www.mundodeportivo.com/futbol/real-madrid/20260415/1004170764/muere-jose-emilio-santamaria-exjugador-real-madrid-exseleccionador-espana.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-04-15T07:34:47Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Muere José Emilio Santamaría, leyenda del Real Madrid",
+        "description": "El miércoles en el que el Real Madrid aspira a firmar otra de sus gestas históricas en la Champions League ha comenzado de forma triste para el club español. José Emilio Santamaria, mito del club forj",
+        "url": "https://www.abc.es/deportes/real-madrid/muere-jose-emilio-santamaria-leyenda-real-madrid-20260415091949-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-04-15T07:19:54Z",
+        "category": "general"
+      },
+      {
+        "title": "Radio MARCA se sale del mapa: 642.000 oyentes y 122.000 más que hace un año",
+        "description": "La Radio del Deporte firma un dato histórico en la primera ola del EGM de 2026 al alcanzar los 642.000 oyentes diarios, 122.000 más que hace un año.",
+        "url": "https://www.marca.com/radio/2026/04/15/radio-marca-sale-mapa-642-000-oyentes-122-000-ano.html",
+        "source": "Marca",
+        "published_at": "2026-04-15T06:05:23Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Darío Herrera fue elegido para el superclásico entre River y Boca en el Monumental",
+        "description": "El neuquino, de 41 años, dirigirá por séptima vez el duelo entre los dos clubes más importantes de la Argentina",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/river-plate/dario-herrera-fue-elegido-para-el-superclasico-entre-river-y-boca-en-el-monumental-nid14042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-14T20:33:52Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Vuelta al ruedo con asistencia: así fue el partido de Kendry Páez en River vs. Carabobo",
+        "description": "El futbolista de 18 años regresó a la acción y tuvo una aceptable presentación en el Estadio Monumental.",
+        "url": "https://www.espn.com.arnull",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-16T05:08:04",
+        "category": "liga"
+      },
+      {
+        "title": "Los clasificados a semifinales en Champions",
+        "description": "Se conocen los mejores cuatro equipos del torneo que van rumbo a la final en Budapest.",
+        "url": "https://www.espn.com.ar/futbol/champions-league/nota/_/id/16569340/champions-2025-2026-los-clasificados-a-semifinal-semi",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-16T04:42:31",
+        "category": "general"
+      },
+      {
+        "title": "Justo Giani anotó para Universidad Católica, que venció la resistencia de Cruzeiro",
+        "description": "Zampedri avisó con un cabezazo que dio dos veces en los palos y su compañero, un minuto más tarde, desató el festejo de los Cruzados en la Libertadores.",
+        "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16579713/justo-giani-gol-universidad-catolica-vs-cruzeiro-conmebol-libertadores",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-16T03:12:20",
+        "category": "general"
+      },
+      {
+        "title": "Luis Díaz vuelve a cruzarse con PSG: Bayern se mide al gigante francés en semifinales de Champions",
+        "description": "El colombiano llega encendido tras ser decisivo ante el Real Madrid y ahora lidera al Bayern en una semifinal de alto voltaje frente al PSG.",
+        "url": "https://www.espn.com.ar/futbol/champions-league/nota/_/id/16580456/luis-diaz-vuelve-a-cruzarse-con-psg-bayern-semifinales-champions",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-16T03:25:14",
+        "category": "general"
+      },
+      {
+        "title": "Luis Díaz pone su gol ante el Real Madrid en lo más alto: \"Está en el top tres, si no es el número uno\"",
+        "description": "El colombiano fue clave en el triunfo del Bayern en la vuelta ante el Real Madrid, resultado que selló la clasificación a semifinales de la Champions League.",
+        "url": "https://www.espn.com.ar/futbol/champions-league/nota/_/id/16579693/luis-diaz-gol-mas-importante-carrera-real-madrid-champions-league",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-16T03:25:14",
+        "category": "general"
+      },
+      {
+        "title": "Gorzy: “Antes estaba mal visto ser antisemita; ahora está mal visto defender a los judíos”",
+        "description": "El conductor radial y televisivo palpitó el Mundial, habló de Bielsa, de los derechos de TV del fútbol y de la comunidad judía en Uruguay.",
+        "url": "https://www.montevideo.com.uy/Noticias/Gorzy--Antes-estaba-mal-visto-ser-antisemita-ahora-esta-mal-visto-defender-a-los-judios--uc959020",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-04-15T11:20:00Z"
+      },
+      {
+        "title": "La naturaleza del rugby femenino y su función como modo creativo: menos rucks, más pelota viva",
+        "description": "La selección argentina está logrando una mayor visibilidad a partir de los resultados recientes, que incluye la clasificación al Circuito Mundial",
+        "url": "https://www.lanacion.com.ar/deportes/rugby/la-naturaleza-del-rugby-femenino-y-su-funcion-como-modo-creativo-menos-rucks-mas-pelota-viva-nid15042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-15T11:00:34Z"
+      },
+      {
+        "title": "Olimpia vs. Barracas Central, el duelo de la Copa Sudamericana que pone frente a frente a Alejandro Domínguez y Chiqui Tapia",
+        "description": "Los clubes, que jugarán desde las 21 por el Grupo G, fueron plataformas para el presidente de la Conmebol y el de la AFA",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/olimpia-vs-barracas-central-el-duelo-de-la-copa-sudamericana-que-pone-frente-a-frente-a-alejandro-nid15042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-15T14:13:45Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 56 días para el Mundial 2026 ⚽\n\n📰 Darío Herrera fue elegido para dirigir el superclásico entre River y Boca en el Monumental. El seleccionador neuquino, de 41 años, tiene experiencia en dirigir partidos importantes en el fútbol argentino. Herrera se suma a la lista de técnicos que han dirigido partidos emblemáticos en el país. \n\n📚 Freddie Ljungberg cumple 49 años hoy. El ex jugador sueco jugó en varios clubes importantes, incluyendo Arsenal y West Ham. Su experiencia en el fútbol europeo ha sido notable. \n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-16T15:05:46.533788",
+  "published_at": "2026-04-16T15:05:47.437122",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-16T15:05:46.533798"
 }
