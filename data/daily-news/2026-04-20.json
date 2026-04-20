@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-04-20",
+  "scraped_at": "2026-04-20T09:03:16.114255",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Uruguay 2-3 Chile: la Celeste cayó en el partido por el quinto puesto del Sudamericano Sub 17",
+      "description": "La selección de Ignacio González ya tenía asegurado su boleto al Mundial de Qatar 2026, y fue superado en un partido que solo valía para mejorar su posición en el certamen.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/uruguay-2-3-chile-la-celeste-cayo-en-el-partido-por-el-quinto-puesto-del-sudamericano-sub-17",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-04-19T02:05:15Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Enzo Fernández encendió las alarmas por una lesión en el Chelsea",
+      "description": "Enzo Fernández encendió las alarmas en la Selección Argentina a 54 días del Mundial. El mediocampista pidió el cambio por una sobrecarga física tras volver a jugar en el Chelsea. Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/enzo-fernandez-lesionado-preocupacion-a-dias-del-mundial-a35.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-04-18T21:44:03Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "¡Uruguay al Mundial! La selección femenina obtuvo el boleto tras imponerse en el repechaje jugado en Lima",
+      "description": "La Celeste terminó el torneo clasificatorio invicta, y sin ceder ni un solo set, para meterse en el torneo a disputarse en Zagreb, Croacia, del 23 al 28 de junio.",
+      "url": "https://www.elpais.com.uy/ovacion/multideportivo/uruguay-al-mundial-la-seleccion-femenina-obtuvo-el-boleto-tras-imponerse-en-el-repechaje-jugado-en-lima",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-04-18T21:21:27Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Lo que deja el Superclásico: Boca afianza su crecimiento y River da un paso atrás",
+      "description": "El Xeneize triunfó ante el Millonario en el Monumental por la fecha 15 del Torneo Apertura 2026.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16598641/lo-que-deja-el-superclasico-boca-afianza-su-crecimiento-river-un-paso-hacia-atras",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-20T04:24:01",
+      "category": "mundial"
+    },
+    {
+      "title": "Boca ganó el Superclásico con gol de Paredes y demostró que hoy es mejor equipo que River",
+      "description": "El Millonario recibe al Xeneize en el Monumental, por la fecha 15 del Torneo Apertura 2026.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16582885/river-vs-boca-torneo-apertura-2026-equipo-fecha-hora-tv-en-vivo",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-20T00:45:48",
+      "category": "mundial"
+    },
+    {
+      "title": "El Mundial 2026, por Disney+ Plan Premium",
+      "description": "Se retransmitirán 30 partidos incluyendo la final y los partidos de las selecciones nacionales de Argentina, Colombia, Ecuador, Uruguay en esos países.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16586606/el-mundial-2026-llega-a-disney+-plan-premium-en-sudamerica-a-traves-de-espn",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-20T04:10:48",
+      "category": "seleccion"
+    },
+    {
+      "title": "Sudamericano Sub 17: Colombia goleó a Argentina",
+      "description": "El equipo de Placente, ya clasificado al Mundial, cayó 4-0 en la definición del torneo que se disputó en Paraguay.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16599239/argentina-sudamericano-sub-17-colombia-campeon",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-20T04:10:48",
+      "category": "seleccion"
+    },
+    {
+      "title": "Las mejores fotos del Superclásico River vs. Boca por el Torneo Apertura 2026",
+      "description": "Las imágenes más atractivas del partido que paraliza al fútbol argentino.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16597559/superclasico-boca-vs-river-mejores-fotos-torneo-apertura-2026",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-20T00:38:02",
+      "category": "mundial"
+    },
+    {
+      "title": "Los mejores videos del Superclásico River vs. Boca por el Torneo Apertura 2026",
+      "description": "Los momentos más destacados del duelo disputado en el Monumental.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16597608/video-superclasico-river-vs-boca-compacto-resumen",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-20T00:38:02",
+      "category": "mundial"
+    },
+    {
+      "title": "Cruce de campeones del mundo: Acuña y Paredes le pusieron picante al Superclásico",
+      "description": "Tras una infracción del volante de Boca, el Huevo se acercó a recriminarle algo a su compañero de Selección y terminaron los dos amonestados.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16598106/acuna-vs-paredes-cruce-river-vs-boca-campeones-del-mundo-superclasico",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-20T01:29:24",
+      "category": "seleccion"
+    }
+  ]
+}
