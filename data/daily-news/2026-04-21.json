@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-04-21",
+  "scraped_at": "2026-04-21T08:24:31.944712",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Así quedó la tabla histórica de campeones del Sudamericano Sub 17, tras el título de Colombia",
+      "description": "El combinado cafetero goleó a la selección argentina 4 a 0 en la definición y logró su segundo título en la historia; la albiceleste quedó con cuatro vueltas olímpicas",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/asi-quedo-la-tabla-historica-de-campeones-del-sudamericano-sub-17-tras-el-titulo-de-colombia-nid19042026/",
+      "source": "La Nacion",
+      "published_at": "2026-04-20T02:04:19Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Resumen de River vs. Boca: resultado y gol del Superclásico del Torneo Apertura 2026",
+      "description": "El xeneize se impuso 1 a 0 en el estadio Monumental, por la fecha 15, con un gol de penal de Leandro Paredes en el primer tiempo",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/resumen-de-river-vs-boca-resultado-y-goles-del-superclasico-del-torneo-apertura-2026-nid19042026/",
+      "source": "La Nacion",
+      "published_at": "2026-04-19T22:03:23Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Por dónde pasan Argentina Sub 17 vs. Colombia Sub 17 y qué canal lo transmite en vivo",
+      "description": "La selección albiceleste, conducida por Diego Placente, busca cerrar su incursión en el Sudamericano de la mejor manera, aunque ya se aseguró su principal objetivo",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/por-donde-pasan-argentina-sub-17-vs-colombia-sub-17-y-que-canal-lo-transmite-en-vivo-nid19042026/",
+      "source": "La Nacion",
+      "published_at": "2026-04-19T19:41:13Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Billetes de investigación países Mundial 2026",
+      "description": "El balón está a punto de rodar y la emoción por el próximo Mundial de Fútbol 2026 ya se empieza a sentir en el ambiente. Como sabemos que no hay […]\nLa entrada Billetes de investigación países Mundial",
+      "url": "https://www.orientacionandujar.es/2026/04/20/billetes-de-investigacion-paises-mundial-2026/",
+      "source": "Orientacionandujar.es",
+      "published_at": "2026-04-20T08:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "FIFA confirma show musical en descanso de la final 2026",
+      "description": "La final del Mundial 2026 romperá con una tradición histórica del fútbol. La FIFA confirmó que el partido más visto del planeta incluirá un espectáculo musical en el entretiempo, al estilo del Super B",
+      "url": "https://republica.com/actualidad/fifa-confirma-show-musical-en-descanso-de-la-final-2026-202641916300",
+      "source": "Republica.com",
+      "published_at": "2026-04-19T22:30:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "San Lorenzo empató con Vélez y continúa fuera de los ocho clasificados de la Zona A del Torneo Apertura",
+      "description": "El Ciclón y el Fortín igualaron 0-0 en un cotejo que alternó buenos con malos momentos de fútbol en el Nuevo Gasómetro. El local persiste sin ingresar a los puestos de playoffs.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16588610/san-lorenzo-vs-velez-jornada-15-torneo-apertura-equipo-fecha-hora-y-tv-en-vivo",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-21T04:59:00",
+      "category": "liga"
+    },
+    {
+      "title": "El Mundial 2026, por Disney+ Plan Premium",
+      "description": "Se retransmitirán 30 partidos incluyendo la final y los partidos de las selecciones nacionales de Argentina, Colombia, Ecuador, Uruguay en esos países.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16586606/el-mundial-2026-llega-a-disney+-plan-premium-en-sudamerica-a-traves-de-espn",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-21T04:59:06",
+      "category": "seleccion"
+    },
+    {
+      "title": "Blondel y la posibilidad de visitar La Bombonera: \"Lo que se vive es increíble\"",
+      "description": "Luego del empate ante Tigre en Victoria, el futbolista de Huracán habló sobre un eventual cruce con el equipo dueño de su pase.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16603722/huracan-lucas-blondel-boca-la-bombonera-apertura",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-21T06:20:16",
+      "category": "liga"
+    },
+    {
+      "title": "¡Ley del ex! Gol del Pity Martínez para Tigre contra Huracán",
+      "description": "El futbolista del Matador no festejó su tanto por su pasado en el Globo, al que le había convertido un par de veces en su etapa en River.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16603335/video-ley-del-ex-gol-del-pity-martinez-tigre-vs-huracan",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-21T06:20:16",
+      "category": "liga"
+    },
+    {
+      "title": "Lionel Messi, mejor jugador de la jornada de la MLS",
+      "description": "El astro argentino le dio la victoria a Inter Miami ante Colorado Rapids con un doblete y, con este nuevo reconocimiento, se acerca a un récord en el fútbol estadounidense.",
+      "url": "https://www.espn.com.ar/futbol/mls/nota/_/id/16602449/lionel-messi-inter-miami-mejor-jugador-jornada-mls",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-04-21T00:40:32",
+      "category": "seleccion"
+    }
+  ]
+}
