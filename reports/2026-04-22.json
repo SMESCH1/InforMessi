@@ -4,14 +4,128 @@
   "data": {
     "date": "2026-04-22",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 50,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1982-04-22",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Kaká",
+        "age": 44,
+        "description": "Cumpleaños de Kaká (44 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "Francia llegará a la Copa con una ofensiva que vale mil mdd",
+        "description": "París. Francia tendrá una ofensiva en el Mundial 2026 tasada en unos mil millones de dólares. Ese es el valor total estimado de los atacantes que la selección gala llevará al torneo, desde Kylian Mbap",
+        "url": "https://www.jornada.com.mx/2026/04/21/deportes/a10n1dep",
+        "source": "Jornada.com.mx",
+        "published_at": "2026-04-21T08:14:19Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Cómo son los mejores televisores para ver el Mundial 2026, qué ofrecen y cuál es su precio",
+        "description": "La previa del Mundial es el momento en el que históricamente los argentinos eligen cambiar el televisor de casa por uno nuevo. En esta nota te mostramos varias opciones, con sus características y tama",
+        "url": "https://www.lanacion.com.ar/tecnologia/como-son-los-mejores-televisores-para-ver-el-mundial-2026-que-ofrecen-y-cual-es-su-precio-nid20042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-20T18:37:10Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Mundial 2026: cuánto sale ir a ver a la Selección Nacional, según cada aerolínea",
+        "description": "En la etapa de grupos, la selección argentina debutará con Argelia en Kansas y luego jugará contra Austria y Jordania en Dallas",
+        "url": "https://www.lanacion.com.ar/economia/mundial-2026-cuanto-sale-ir-a-ver-a-la-seleccion-nacional-segun-cada-aerolinea-nid20042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-20T15:13:16Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Hisense presenta sus televisores más top de 2026 con un aviso: la tecnología RGB MiniLED ha llegado para quedarse",
+        "description": "Hisense ya tiene sobre el escenario su nueva gama de televisores para este año 2026 y, aprovechando que es año de Mundial de Fútbol, ha hecho una puesta de largo en la sede de la FIFA en Zúrich, lugar",
+        "url": "https://www.xatakahome.com/televisores/hisense-presenta-sus-televisores-top-2026-aviso-tecnologia-rgb-miniled-ha-llegado-para-quedarse",
+        "source": "Xatakahome.com",
+        "published_at": "2026-04-21T06:30:38Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El Thun FC, un modesto equipo que está a punto de emular la gesta del Leicester",
+        "description": "De vez en cuando el fútbol sorprende con hazañas que parecen imposibles. Proezas de equipos modestos que se coronan campeones pese a luchar contra rivales con un potencial económico muy superior.",
+        "url": "https://www.mundodeportivo.com/futbol/internacional/20260421/1004147433/thun-fc-modesto-equipo-esta-punto-emular-gesta-leicester.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-04-21T05:15:00Z",
+        "category": "general"
+      },
+      {
+        "title": "Así está la tabla de goleadores del fútbol argentino",
+        "description": "Gabriel Ávalos domina el escalafón con nueve tantos para Independiente, uno de ellos en el clásico ante Racing; lo persigue Jordy Caicedo de Huracán con siete conquistas",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/asi-esta-la-tabla-de-goleadores-del-futbol-argentino-nid20042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-21T02:13:49Z",
+        "category": "liga"
+      },
+      {
+        "title": "Paredes descansa ante Defensa y Ubeda planea una rotación casi total",
+        "description": "Con la Copa Libertadores en mente, el DT delinea un once alternativo para jugar en Florencio Varela este jueves.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16604288/la-formacion-de-boca-vs-defensa-y-justicia-sin-paredes",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-22T01:46:24",
+        "category": "general"
+      },
+      {
+        "title": "El Mundial 2026, por Disney+ Plan Premium",
+        "description": "Se retransmitirán 30 partidos incluyendo la final y los partidos de las selecciones nacionales de Argentina, Colombia, Ecuador, Uruguay en esos países.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16586606/el-mundial-2026-llega-a-disney+-plan-premium-en-sudamerica-a-traves-de-espn",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-22T02:57:13",
+        "category": "seleccion"
+      },
+      {
+        "title": "Los árbitros para la 16ª fecha del Apertura",
+        "description": "El campeonato de la Liga Profesional sigue su actividad con partidos atractivos en ambos grupos.",
+        "url": "https://www.espn.com.arnull",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-22T02:57:13",
+        "category": "liga"
+      },
+      {
+        "title": "Cronograma para la exhibición de Colapinto",
+        "description": "El pitolo argentino se subirá a dos monoplazas en el Road Show en Argentina.",
+        "url": "https://www.espn.com.ar/deporte-motor/f1/nota/_/id/16605797/franco-colapinto-cronograma-exhibicion-en-buenos-aires-f1",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-04-22T02:57:13",
+        "category": "seleccion"
+      },
+      {
+        "title": "Giuliano Simeone e Irene Ariza: el amor que nació en pandemia, se fortaleció en el momento más duro y hoy disfruta de un gran presente",
+        "description": "El futbolista del Atlético de Madrid y la selección lleva seis años en pareja; ella es graduada en Administración y se perfila como nueva integrante de “La Scalot”",
+        "url": "https://www.lanacion.com.ar/deportes/giuliano-simeone-e-irene-ariza-el-amor-que-nacio-en-pandemia-se-fortalecio-en-el-momento-mas-duro-y-nid21042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-21T14:46:30Z"
+      },
+      {
+        "title": "Diego Maradona, sobre su padre: \"El primer ser humano es Messi, porque él no era humano\"",
+        "description": "La comparación entre los astros argentinos es recurrente. Durante su paso por el programa 'La Revuelta', Maradona Jr. zanjó el debate",
+        "url": "https://www.elconfidencial.com/deportes/futbol/2026-04-21/diego-maradona-junior-primer-humano-messi-su-padre-no-era-humano-1qrt_4342037/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-04-21T10:12:00Z"
+      },
+      {
+        "title": "Cómo son los mejores televisores para ver el Mundial 2026, qué ofrecen y cuál es su precio",
+        "description": "La previa del Mundial es el momento en el que históricamente los argentinos eligen cambiar el televisor de casa por uno nuevo. En esta nota te mostramos varias opciones, con sus características y tama",
+        "url": "https://www.lanacion.com.ar/tecnologia/como-son-los-mejores-televisores-para-ver-el-mundial-2026-que-ofrecen-y-cual-es-su-precio-nid20042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-20T18:37:10Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 50 días para el Mundial 2026 ⚽\n\nHoy cumple 44 años el ex futbolista Kaká, un verdadero ídolo en el mundo del fútbol 🏆\n\n📰 Mundial 2026: cuánto sale ir a ver a la Selección Nacional, según cada aerolínea: En la etapa de grupos, la selección argentina debutará con Argelia en Kansas y luego jugará contra Austria y Jordania en Dallas 🗺️\n\n📰 Así está la tabla de goleadores del fútbol argentino: Gabriel Ávalos domina el escalafón con nueve tantos para Independiente, uno de ellos en el clásico ante Racing; lo persigue Jordy Caicedo de Huracán con ocho goles 🔥\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-22T14:53:15.988984",
+  "published_at": "2026-04-22T14:53:16.887276",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-22T14:53:15.988994"
 }
