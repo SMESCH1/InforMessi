@@ -4,14 +4,120 @@
   "data": {
     "date": "2026-04-23",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 49,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1982-04-23",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Kyle Beckerman",
+        "age": 44,
+        "description": "Cumpleaños de Kyle Beckerman (44 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "Uruguay volverá a tener dos equipos en Copa Libertadores de futsal: Nacional y Peñarol confirmaron sus rivales",
+        "description": "Gracias a que los aurinegros se quedaron con la última edición, abrieron un cupo para otro equipo uruguayo y los tricolores se clasificaron luego de ser vicecampeones a nivel local. ¿Cuándo se juega?",
+        "url": "https://www.elpais.com.uy/ovacion/multideportivo/uruguay-volvera-a-tener-dos-equipos-en-copa-libertadores-de-futsal-nacional-y-penarol-confirmaron-sus-rivales",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-04-21T20:20:17Z",
+        "category": "general"
+      },
+      {
+        "title": "Fixture de Argentina en el Mundial 2026",
+        "description": "El seleccionado dirigido por Lionel Scaloni es cabeza de serie del Grupo J; en los pronósticos, es el gran favorito a quedarse con el primer lugar",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/fixture-de-argentina-en-el-mundial-2026-nid21042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-21T19:32:24Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Horarios de los partidos de la selección argentina en el Mundial 2026",
+        "description": "El combinado nacional jugará sus encuentros en el Grupo J en la tarde y en la noche de nuestro país; los posibles cruces si se clasifica a los playoffs",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/horarios-de-los-partidos-de-la-seleccion-argentina-en-el-mundial-2026-nid21042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-21T17:52:42Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Arbeloa-Carvajal: ¿historia de un resquemor?",
+        "description": "El técnico, tras la victoria ante el Alavés, se mostró muy frío cuando le preguntaron por el capitán madridista y su objetivo de ir al Mundial.",
+        "url": "https://www.libertaddigital.com/deportes/futbol/2026-04-22/arbeloa-carvajal-historia-de-un-resquemor-1b-7392547/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-04-22T07:29:07Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Los mejores libros de deportes para Sant Jordi 2026",
+        "description": "Tras una brillante carrera como deportista olímpica, ya desde fuera de la piscina, Andrea Fuentes consiguió romper uno de los techos que hasta ahora parecían inalcanzables para la natación artística e",
+        "url": "https://www.elperiodico.com/es/ocio-y-cultura/sant-jordi/20260422/mejores-libros-deportes-sant-jordi-129218896",
+        "source": "Elperiodico.com",
+        "published_at": "2026-04-22T05:30:47Z",
+        "category": "mundial"
+      },
+      {
+        "title": "\"El fútbol ya es mucho más que 90 minutos y cada vez es más una industria de entretenimiento\"",
+        "description": "Enrique Cerezo y Miguel Ángel Gil abren The Forum, una serie de conferencias en El Metropolitano sobre los nuevos retos de la industria del fútbol",
+        "url": "https://www.marca.com/futbol/atletico/2026/04/23/futbol-90-minutos-vez-industria-entretenimiento.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-23T08:24:40",
+        "category": "general"
+      },
+      {
+        "title": "Presentación de la Asociación Internacional de Futbolistas (AIF), en directo",
+        "description": "",
+        "url": "https://www.marca.com/futbol/2026/04/23/presentacion-asociacion-internacional-futbolistas-aif-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-23T07:46:50",
+        "category": "general"
+      },
+      {
+        "title": "Amplían a 70 el número de futbolistas implicados en una red de prostitución y drogas a la carta",
+        "description": "Sexo, drogas y delincuencia: los detalles del escándalo de prostitución en el fútbol italiano",
+        "url": "https://www.marca.com/futbol/liga-italiana/2026/04/23/amplian-70-numero-futbolistas-implicados-red-prostitucion-drogas-carta.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-23T06:35:26",
+        "category": "general"
+      },
+      {
+        "title": "Cómo el Barcelona ha redefinido el negocio del fútbol femenino",
+        "description": "Alba López, brand manager de Unisport Management School",
+        "url": "https://www.marca.com/futbol/futbol-femenino/opinion/2026/04/23/barcelona-redefinido-negocio-futbol-femenino.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-23T04:50:21",
+        "category": "general"
+      },
+      {
+        "title": "Cuenta regresiva: 5 datos claves a 50 días del Mundial 2026",
+        "description": "La cita mundialista en Norteamérica está a la vuelta de la esquina. Aquí te contamos lo que tenés que saber sobre el torneo más grande de la historia antes del silbatazo inicial.\n Leer más",
+        "url": "https://442.perfil.com/noticias/mundial-2026/cuenta-regresiva-5-datos-claves-a-50-dias-del-mundial-2026.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-04-22T13:24:56Z"
+      },
+      {
+        "title": "Horarios de los partidos de la selección argentina en el Mundial 2026",
+        "description": "El combinado nacional jugará sus encuentros en el Grupo J en la tarde y en la noche de nuestro país; los posibles cruces si se clasifica a los playoffs",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/horarios-de-los-partidos-de-la-seleccion-argentina-en-el-mundial-2026-nid21042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-21T17:52:42Z"
+      },
+      {
+        "title": "Giuliano Simeone e Irene Ariza: el amor que nació en pandemia, se fortaleció en el momento más duro y hoy disfruta de un gran presente",
+        "description": "El futbolista del Atlético de Madrid y la selección lleva seis años en pareja; ella es graduada en Administración y se perfila como nueva integrante de “La Scalot”",
+        "url": "https://www.lanacion.com.ar/deportes/giuliano-simeone-e-irene-ariza-el-amor-que-nacio-en-pandemia-se-fortalecio-en-el-momento-mas-duro-y-nid21042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-21T14:46:30Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 49 días para el Mundial 2026 ⚽\n\nHoy Kyle Beckerman cumple 44 años. El mediocampista argentino ha tenido una carrera destacada en el fútbol estadounidense y es un ejemplo para la nueva generación de jugadores 🎉\n\nLa Selección Argentina enfrentará a Polonia en el Grupo C del Mundial 2026, en un partido que promete ser emocionante. La Scaloneta buscará su quinta copa del mundo 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-23T15:21:43.521097",
+  "published_at": "2026-04-23T15:21:44.171484",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-23T15:21:43.521107"
 }
