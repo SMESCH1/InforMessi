@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-04-23",
+  "scraped_at": "2026-04-23T08:26:36.591082",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Uruguay volverá a tener dos equipos en Copa Libertadores de futsal: Nacional y Peñarol confirmaron sus rivales",
+      "description": "Gracias a que los aurinegros se quedaron con la última edición, abrieron un cupo para otro equipo uruguayo y los tricolores se clasificaron luego de ser vicecampeones a nivel local. ¿Cuándo se juega?",
+      "url": "https://www.elpais.com.uy/ovacion/multideportivo/uruguay-volvera-a-tener-dos-equipos-en-copa-libertadores-de-futsal-nacional-y-penarol-confirmaron-sus-rivales",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-04-21T20:20:17Z",
+      "category": "general"
+    },
+    {
+      "title": "Fixture de Argentina en el Mundial 2026",
+      "description": "El seleccionado dirigido por Lionel Scaloni es cabeza de serie del Grupo J; en los pronósticos, es el gran favorito a quedarse con el primer lugar",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/fixture-de-argentina-en-el-mundial-2026-nid21042026/",
+      "source": "La Nacion",
+      "published_at": "2026-04-21T19:32:24Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Horarios de los partidos de la selección argentina en el Mundial 2026",
+      "description": "El combinado nacional jugará sus encuentros en el Grupo J en la tarde y en la noche de nuestro país; los posibles cruces si se clasifica a los playoffs",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/horarios-de-los-partidos-de-la-seleccion-argentina-en-el-mundial-2026-nid21042026/",
+      "source": "La Nacion",
+      "published_at": "2026-04-21T17:52:42Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Arbeloa-Carvajal: ¿historia de un resquemor?",
+      "description": "El técnico, tras la victoria ante el Alavés, se mostró muy frío cuando le preguntaron por el capitán madridista y su objetivo de ir al Mundial.",
+      "url": "https://www.libertaddigital.com/deportes/futbol/2026-04-22/arbeloa-carvajal-historia-de-un-resquemor-1b-7392547/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-04-22T07:29:07Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Los mejores libros de deportes para Sant Jordi 2026",
+      "description": "Tras una brillante carrera como deportista olímpica, ya desde fuera de la piscina, Andrea Fuentes consiguió romper uno de los techos que hasta ahora parecían inalcanzables para la natación artística e",
+      "url": "https://www.elperiodico.com/es/ocio-y-cultura/sant-jordi/20260422/mejores-libros-deportes-sant-jordi-129218896",
+      "source": "Elperiodico.com",
+      "published_at": "2026-04-22T05:30:47Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Así está la tabla de goleadores del fútbol argentino",
+      "description": "Gabriel Ávalos domina el escalafón con nueve tantos para Independiente, uno de ellos en el clásico ante Racing; lo persigue Jordy Caicedo de Huracán con siete conquistas",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/asi-esta-la-tabla-de-goleadores-del-futbol-argentino-nid20042026/",
+      "source": "La Nacion",
+      "published_at": "2026-04-21T02:13:49Z",
+      "category": "liga"
+    },
+    {
+      "title": "\"El fútbol ya es mucho más que 90 minutos y cada vez es más una industria de entretenimiento\"",
+      "description": "Enrique Cerezo y Miguel Ángel Gil abren The Forum, una serie de conferencias en El Metropolitano sobre los nuevos retos de la industria del fútbol",
+      "url": "https://www.marca.com/futbol/atletico/2026/04/23/futbol-90-minutos-vez-industria-entretenimiento.html",
+      "source": "Fútbol",
+      "published_at": "2026-04-23T08:24:40",
+      "category": "general"
+    },
+    {
+      "title": "Presentación de la Asociación Internacional de Futbolistas (AIF), en directo",
+      "description": "",
+      "url": "https://www.marca.com/futbol/2026/04/23/presentacion-asociacion-internacional-futbolistas-aif-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-04-23T07:46:50",
+      "category": "general"
+    },
+    {
+      "title": "Amplían a 70 el número de futbolistas implicados en una red de prostitución y drogas a la carta",
+      "description": "Sexo, drogas y delincuencia: los detalles del escándalo de prostitución en el fútbol italiano",
+      "url": "https://www.marca.com/futbol/liga-italiana/2026/04/23/amplian-70-numero-futbolistas-implicados-red-prostitucion-drogas-carta.html",
+      "source": "Fútbol",
+      "published_at": "2026-04-23T06:35:26",
+      "category": "general"
+    },
+    {
+      "title": "Cómo el Barcelona ha redefinido el negocio del fútbol femenino",
+      "description": "Alba López, brand manager de Unisport Management School",
+      "url": "https://www.marca.com/futbol/futbol-femenino/opinion/2026/04/23/barcelona-redefinido-negocio-futbol-femenino.html",
+      "source": "Fútbol",
+      "published_at": "2026-04-23T04:50:21",
+      "category": "general"
+    }
+  ]
+}
