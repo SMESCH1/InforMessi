@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-04-24",
+  "scraped_at": "2026-04-24T08:54:36.129932",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Messi en las puertas del Mundial, entre el silencio y la certeza: las señales que anticipan su presencia",
+      "description": "El rosarino encara la recta final con goles, continuidad y sin sobresaltos físicos; una frase que no admite dobles lecturas y un calendario favorable",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/messi-en-las-puertas-del-mundial-entre-el-silencio-y-la-certeza-las-senales-que-anticipan-su-nid23042026/",
+      "source": "La Nacion",
+      "published_at": "2026-04-23T03:49:09Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Otro argentino detenido en Brasil por violento insulto racista en un supermercado de Río de Janeiro",
+      "description": "El hecho ocurre a poco mas de tres meses del mediático caso de la abogada argentina Agostina Páez, quien fue procesada por un episodio similar en Río de Janeiro.",
+      "url": "https://www.elpais.com.uy/mundo/otro-argentino-detenido-en-brasil-por-violento-insulto-racista-en-un-supermercado-de-rio-de-janeiro",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-04-22T22:04:14Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Sufre Brasil: Estêvão se desgarró y está a un paso de perderse el Mundial 2026",
+      "description": "El delantero sufrió una importante lesión, pero Ancelotti lo esperará hasta último momento",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/sufre-brasil-estevao-se-desgarro-y-esta-a-un-paso-de-perderse-el-mundial-2026-nid22042026/",
+      "source": "La Nacion",
+      "published_at": "2026-04-22T20:35:26Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Un hombre de confianza de Trump pide a la FIFA que Italia reemplace a Irán en el Mundial 2026",
+      "description": "Un hombre de confianza del presidente de Estados Unidos, Donald Trump, ha pedido a la FIFA que Italia reemplace a Irán en el próximo Mundial, según revela el Financial Times (FT).Seguir leyendo....",
+      "url": "https://www.elperiodico.com/es/deportes/20260423/trump-pide-italia-sustituya-iran-hombre-confianza-mundial-2026-129427515",
+      "source": "Elperiodico.com",
+      "published_at": "2026-04-23T08:41:30Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Trump busca que Italia sustituya a Irán en el Mundial de Fútbol",
+      "description": "Un alto enviado del presidente Donald Trump ha solicitado a la FIFA que sustituya a Irán por Italia en el próximo Mundial, poniendo en marcha una delicada diplomacia deportiva...",
+      "url": "https://www.expansion.com/economia/financial-times/2026/04/23/69e9cedde5fdea252b8b457d.html",
+      "source": "Expansion.com",
+      "published_at": "2026-04-23T07:55:48Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La Administración Trump propone a la FIFA que reemplace a Irán por Italia en el Mundial de fútbol",
+      "description": "Paolo Zampolli, empresario italoestadounidense y \"enviado especial\" de Trump, ha remitido una carta a Gianni Infantino, presidente de la FIFA, planteando la sustitución.Más información: Dos meses para",
+      "url": "https://www.elespanol.com/deportes/futbol/20260423/administracion-trump-propone-fifa-reemplace-iran-italia-mundial-futbol/1003744218315_0.html",
+      "source": "Elespanol.com",
+      "published_at": "2026-04-23T06:45:45Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Un futbolista muere tras lanzarse desde una famosa cascada",
+      "description": "Las autoridades encontraron el cadáver de&nbsp;Reyam Lucas (27 años)&nbsp;en la zona conocida como Pancada Grande<span class=\"\"></span>",
+      "url": "https://www.marca.com/futbol/2026/04/24/futbolista-muere-lanzarse-famosa-cascada.html",
+      "source": "Fútbol",
+      "published_at": "2026-04-24T08:33:25",
+      "category": "general"
+    },
+    {
+      "title": "Los médicos rehabilitadores avisan tras la lesión de Lamine Yamal: “Forzar puede parecer que acerca el Mundial, pero lo pone en riesgo”",
+      "description": "Los especialistas de SERMEF alertan de que adelantar el regreso tras una lesión en el bíceps femoral aumenta el riesgo de recaída y puede comprometer el rendimiento del jugador de cara al Mundial<span",
+      "url": "https://www.marca.com/futbol/barcelona/2026/04/24/medicos-rehabilitadores-avisan-lesion-lamine-yamal-forzar-acerca-mundial-pone-riesgo.html",
+      "source": "Fútbol",
+      "published_at": "2026-04-24T08:31:59",
+      "category": "mundial"
+    },
+    {
+      "title": "El 2026 se le atraganta al Espanyol",
+      "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+      "url": "https://www.marca.com/futbol/espanyol/2026/04/24/2026-le-atraganta-espanyol.html",
+      "source": "Fútbol",
+      "published_at": "2026-04-24T08:20:29",
+      "category": "mundial"
+    },
+    {
+      "title": "Ansu Fati no tira la toalla",
+      "description": "El futbolista quiere estar en el Mundial con España",
+      "url": "https://www.marca.com/futbol/barcelona/2026/04/24/ansu-fati-tira-toalla.html",
+      "source": "Fútbol",
+      "published_at": "2026-04-24T08:08:18",
+      "category": "mundial"
+    }
+  ]
+}
