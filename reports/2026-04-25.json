@@ -4,17 +4,11 @@
   "data": {
     "date": "2026-04-25",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 47,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
-      {
-        "date": "2026-04-25",
-        "type": "historical",
-        "priority": "low",
-        "description": "1895:Stanley Rous, árbitro y dirigente de fútbol británico,presidente de la FIFAentre 1961 y 1974 (f. 1986).",
-        "historical_year": "1961",
-        "source": "Wikipedia",
-        "url": "https://es.wikipedia.org/wiki/25_de_abril"
-      },
       {
         "date": "2001-04-25",
         "type": "match",
@@ -23,12 +17,114 @@
         "description": "Bolivia 3-3 Argentina en Eliminatorias 2002. Empate dramático en la altura de La Paz."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Qué pasará con varios de los jugadores de la selección después de la Copa del Mundo",
+        "description": "Al menos 6 campeones del mundo podrían cambiar de club tras la cita en los Estados Unidos, México y Canadá",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/que-pasara-con-varios-de-los-jugadores-de-la-seleccion-despues-de-la-copa-del-mundo-nid23042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-23T21:08:23Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Aeroméxico advierte aumento en boletos en pleno Mundial 2026: se espera que más de 5.5 millones de turistas visiten el país",
+        "description": "Aeroméxico se suma a otras aerolíneas que han aumentado los precios de sus boletos para mitigar pérdidas por conflictos y aprovechar el Mundial 2026",
+        "url": "https://www.merca20.com/aeromexico-advierte-aumento-en-boletos-en-pleno-mundial-2026-se-espera-que-mas-de-5-5-millones-de-turistas-visiten-el-pais/",
+        "source": "Merca20.com",
+        "published_at": "2026-04-23T17:52:16Z",
+        "category": "mundial"
+      },
+      {
+        "title": "La apuesta de Coca-Cola a producir latas en Uruguay: los detalles de los nuevos formatos que llegan a las góndolas",
+        "description": "La embotelladora invirtió US$ 8,5: en una línea de producción nacional que garantiza autonomía operativa y permite lanzar presentaciones de 310 ml y 473 ml, dejando atrás las importaciones desde Argen",
+        "url": "https://www.elpais.com.uy/el-empresario/la-apuesta-de-coca-cola-a-producir-latas-en-uruguay-los-detalles-de-los-nuevos-formatos-que-llegan-a-las-gondolas",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-04-24T06:55:00Z",
+        "category": "general"
+      },
+      {
+        "title": "¿Italia al Mundial 2026? la respuesta de la Casa Blanca al plan de incluir a la Azzurra en lugar de Irán",
+        "description": "La FIFA ya se había manifestado en contra de la iniciativa de emisario especial de Estados Unidos. Ahora, el ministro de Deportes de Italia y el Secretario de Estado de EE.UU., también dieron su opini",
+        "url": "https://www.elpais.com.uy/mundo/italia-al-mundial-2026-la-respuesta-de-la-casa-blanca-al-plan-de-incluir-a-la-azzurra-en-lugar-de-iran",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-04-24T06:20:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Tobías Ostchega, de Estudiantes de Río Cuarto, se refirió al hecho de ser apartado junto con otros jugadores",
+        "description": "El futbolista apuntó contra la dirigencia del club y reveló cómo es la situación actual junto a sus compañeros",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/tobias-ostchega-de-estudiantes-de-rio-cuarto-se-refirio-al-hecho-de-ser-apartado-junto-con-otros-nid23042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-23T22:31:41Z",
+        "category": "general"
+      },
+      {
+        "title": "Miguel Ángel Román, la voz del Mundial: “Me da igual cómo sea el gol que nos dé la segunda estrella: con el culo, de rebote o de penalti”",
+        "description": "El narrador de DAZN habla con MARCA antes del Mundial: España, Messi, Cristiano, la americanización del fútbol y la libreta frente a la IA<span class=\"\" contenteditable=\"false\" tabindex=\"-1\"></span><s",
+        "url": "https://www.marca.com/futbol/mundial/2026/04/25/miguel-angel-roman-voz-mundial-me-da-igual-sea-gol-segunda-estrella-culo-rebote-penalti.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-25T06:44:37",
+        "category": "seleccion"
+      },
+      {
+        "title": "Málaga - Castellón: horario y dónde ver hoy en TV y online el partido de la jornada 37 de LaLiga Hypermotion",
+        "description": "El Málaga recibe al Castellón en La Rosaleda en un partido clave por el ascenso a Primera División",
+        "url": "https://www.marca.com/futbol/segunda-division/2026/04/25/malaga-castellon-horario-donde-ver-hoy-tv-online-partido-jornada-37-laliga-hypermotion.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-25T06:39:56",
+        "category": "liga"
+      },
+      {
+        "title": "Apelación quita la quinta amarilla a Caleta-Car y el central croata estará en Vallecas",
+        "description": "El comité estimó las alegaciones que la Real presentó a la tarjeta que su futbolista vio ante el Getafe y Matarazzo podrá contar con él mañana en la visita al Rayo",
+        "url": "https://www.marca.com/futbol/real-sociedad/2026/04/25/apelacion-quita-quinta-amarilla-caleta-car-croata-estara-vallecas.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-25T06:39:55",
+        "category": "general"
+      },
+      {
+        "title": "Bayern Múnich - Barcelona: horario y dónde ver hoy en TV el partido de la Champions League femenina",
+        "description": "Los detalles de la jornada de Champions",
+        "url": "https://www.marca.com/futbol/futbol-femenino/champions-league/2026/04/25/bayern-munich-barcelona-horario-ver-hoy-tv-partido-champions-league-femenina.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-25T06:30:01",
+        "category": "general"
+      },
+      {
+        "title": "El fútbol le debe una a su Principito",
+        "description": "Tras caer en la Copa, Griezmann sólo tiene la Champions para marcharse con un título",
+        "url": "https://www.marca.com/futbol/atletico/opinion/2026/04/25/futbol-le-debe-principito.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-25T05:24:23",
+        "category": "general"
+      },
+      {
+        "title": "Mundial 2026: Argentina, todo lo que debes de saber para la Copa del Mundo",
+        "description": "De la mano de Messi en su último Mundial, la Albiceleste buscará refrendar la corona obtenida en Qatar 2022",
+        "url": "https://www.record.com.mx/historia/mundial-2026-argentina-todo-lo-que-debes-de-saber-para-la-copa-del-mundo-2026041822361225254",
+        "source": "Record.com.mx",
+        "published_at": "2026-04-24T13:00:00Z"
+      },
+      {
+        "title": "Plaga de lesiones antes del Mundial 2026: las dudas y bajas para la gran cita",
+        "description": "Lamine Yamal, Estevao, Arda Guler o Militao son algunos de los futbolistas que han caído lesionados estos últimos días, que se perderán lo que queda de temporada con sus clubes y que ven comprometida ",
+        "url": "https://www.mundodeportivo.com/futbol/mundial/20260424/1004174655/plaga-lesiones-mundial-2026-dudas-bajas-gran-cita.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-04-24T12:13:47Z"
+      },
+      {
+        "title": "Qué pasará con varios de los jugadores de la selección después de la Copa del Mundo",
+        "description": "Al menos 6 campeones del mundo podrían cambiar de club tras la cita en los Estados Unidos, México y Canadá",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/que-pasara-con-varios-de-los-jugadores-de-la-seleccion-despues-de-la-copa-del-mundo-nid23042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-23T21:08:23Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 47 días para el Mundial 2026 ⚽\n\n📰 Tobías Ostchega habló sobre su situación en Estudiantes de Río Cuarto y la dirigencia del club. Su testimonio puede verse en La Nacion 📰\n\n📰 Mundial 2026: Argentina, todo lo que debes saber para la Copa del Mundo: De la mano de Messi en su último Mundial, la Albiceleste buscará refrendar la corona obtenida en Qatar 2022 (Record.com.mx) 📰\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-25T14:07:41.794558",
+  "published_at": "2026-04-25T14:07:42.630070",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-25T14:07:41.794568"
 }
