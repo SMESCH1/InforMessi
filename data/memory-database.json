@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-04-25T14:07:42.635364",
+  "last_updated": "2026-04-26T14:09:34.668442",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -34,7 +34,8 @@
       "2026-04-14"
     ],
     "Enzo": [
-      "2026-04-20"
+      "2026-04-20",
+      "2026-04-26"
     ],
     "Fernández": [
       "2026-04-20"
@@ -77,7 +78,8 @@
       "2026-03-29",
       "2026-04-05",
       "2026-04-12",
-      "2026-04-19"
+      "2026-04-19",
+      "2026-04-26"
     ]
   },
   "topics_mentioned": {
@@ -112,7 +114,8 @@
       "2026-04-22",
       "2026-04-23",
       "2026-04-24",
-      "2026-04-25"
+      "2026-04-25",
+      "2026-04-26"
     ],
     "seleccion": [
       "2026-03-26",
@@ -132,7 +135,8 @@
       "2026-04-22",
       "2026-04-23",
       "2026-04-24",
-      "2026-04-25"
+      "2026-04-25",
+      "2026-04-26"
     ]
   },
   "events_mentioned": {
@@ -243,6 +247,12 @@
     ],
     "Bolivia 3-3 Argentina en Eliminatorias 2002. Empate dramático en la altura de La Paz.": [
       "2026-04-25"
+    ],
+    "Cumpleaños de Thiago Almada (25 años)": [
+      "2026-04-26"
+    ],
+    "Venezuela 0-4 Argentina en Eliminatorias 2002. Goleada de visitante en Maracaibo.": [
+      "2026-04-26"
     ]
   },
   "news_topics": {
@@ -311,6 +321,12 @@
     ],
     "mundial 2026: argentina, todo lo que debes de sabe": [
       "2026-04-25"
+    ],
+    "bruno fernandes: \"ojala ganemos este mundial por c": [
+      "2026-04-26"
+    ],
+    "partidos de hoy de la liga profesional argentina: ": [
+      "2026-04-26"
     ]
   },
   "phrases_used": [],
