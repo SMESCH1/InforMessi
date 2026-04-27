@@ -4,14 +4,105 @@
   "data": {
     "date": "2026-04-27",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 45,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1998-04-27",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Cuti Romero",
+        "age": 28,
+        "description": "Cumpleaños de Cuti Romero (28 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "Bajas y lesiones de futbolistas quitan brillo a la Copa 2026",
+        "description": "París. El esprint final del futbol europeo ha dejado un gran número de lesionados que se perderán el Mundial de 2026, como el francés Hugo Ekitiké, el brasileño Rodrygo o el alemán Serge Gnabry, y otr",
+        "url": "https://www.jornada.com.mx/2026/04/25/deportes/a11n1dep",
+        "source": "Jornada.com.mx",
+        "published_at": "2026-04-25T07:47:38Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Carpintero: \"La literatura ha sido injusta con el Real Madrid respecto al Barcelona\"",
+        "description": "El escritor Julián Carpintero, cuyos derechos de autor irán para la&nbsp;Fundación Aladina, repasa en su libro 'Rey: Gloria del Real Madrid en la Champions League' algunos de los momentos más brillant",
+        "url": "https://www.marca.com/futbol/real-madrid/2026/04/26/carpintero-literatura-sido-injusta-real-madrid-respecto-barcelona.html",
+        "source": "Marca",
+        "published_at": "2026-04-26T05:17:43Z",
+        "category": "general"
+      },
+      {
+        "title": "'Loco' Abreu aconseja a Gilberto Mora disfrutar de la Copa del Mundo",
+        "description": "El entrenador de Tijuana ha lanzado un mensaje para uno de sus mejores jugadores",
+        "url": "https://www.record.com.mx/historia/loco-abreu-aconseja-a-gilberto-mora-disfrutar-de-la-copa-del-mundo-2026042605144305597",
+        "source": "Record.com.mx",
+        "published_at": "2026-04-26T05:12:58Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Un heroico Sabadell recupera el liderato",
+        "description": "El Marbella se va ya irremisiblemente a 2ª RFEF tras caer ante un rival que jugó casi todo el partido con diez futbolistas",
+        "url": "https://www.marca.com/futbol/primera-rfef/2026/04/27/heroico-sabadell-recupera-liderato.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-27T08:35:57",
+        "category": "general"
+      },
+      {
+        "title": "Danny Makkelie arbitrará el Atlético - Arsenal de la ida de semifinales",
+        "description": "El colegiado neerlandés de 43 años ha sido el designado por la UEFA para el partido<a href=\"https://www.marca.com/rss/futbol.xml\"> </a>",
+        "url": "https://www.marca.com/futbol/champions-league/2026/04/27/danny-makkelie-arbitrara-atletico-arsenal-ida-semifinales.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-27T08:24:21",
+        "category": "general"
+      },
+      {
+        "title": "La lesión de Lamine abre la lucha por el Zarra... y por el Mundial",
+        "description": "La estrella del Barça (16 gles), que no jugará más esta temporada puede ser superado por Ferran y Oyarzabal (14 goles), Borja Iglesias (12 goles) o Toni Martínez (11 goles)",
+        "url": "https://www.marca.com/futbol/primera-division/2026/04/27/lesion-lamine-abre-lucha-zarra-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-27T07:05:28",
+        "category": "mundial"
+      },
+      {
+        "title": "Polémica con lo tirones de pelo en el fútbol a costa de Cucurella y Salma Paralluelo: \"Tiene el pelo muy largo...\"",
+        "description": "Un tirón de pelo sobre Marc Cucurella no fue sancionado tras ser revisado en el VAR y un tiró de pelo sobre&nbsp;Salma Paralluelo fue castigado con tarjeta roja",
+        "url": "https://www.marca.com/futbol/2026/04/27/polemica-tirones-pelo-futbol-costa-cucurella-salma-paralluelo-pelo.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-27T06:52:02",
+        "category": "general"
+      },
+      {
+        "title": "El Arsenal que llega a Madrid: un equipo histórico, pese a un último mes convulso",
+        "description": "Es líder de una Premier que no gana hace 22 años y aspira a la segunda final de su historia en Champions",
+        "url": "https://www.marca.com/futbol/champions-league/2026/04/27/arsenal-llega-madrid-equipo-historico-pese-ultimo-mes-convulso.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-27T06:36:42",
+        "category": "general"
+      },
+      {
+        "title": "El 41% de los españoles apoya un boicot al Mundial de EEUU como respuesta a las guerras y ataques de Trump",
+        "description": "Según una encuesta de YouGov encargada por la ONG Ekō y publicada por elDiario.es, el 41% de españoles apoya el boicot, frente al 36% que se opone. El Gobierno no se plantea \"en ningún caso\" no partic",
+        "url": "https://www.eldiario.es/internacional/41-espanoles-apoya-boicot-mundial-eeuu-respuesta-guerras-ataques-trump_1_13161596.html",
+        "source": "Eldiario.es",
+        "published_at": "2026-04-24T19:45:49Z"
+      },
+      {
+        "title": "¿Quién ganará el Mundial 2026 y cómo le irá a México? Esto dice el modelo que ya le atinó a 3 campeones",
+        "description": "¿Cómo le ira a la Selección Mexicana en el Mundial 2026? El modelo de Joachim Klement predice sorpresas en la Copa del Mundo de la FIFA, con campeón inesperado.",
+        "url": "https://www.elfinanciero.com.mx/deportes/mundial-2026/2026/04/26/mundial-2026-campeon-paises-bajos-modelo-matematico/",
+        "source": "El Financiero",
+        "published_at": "2026-04-26T13:45:00Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 45 días para el Mundial 2026 ⚽\n\n🎉 Hoy cumple 28 años Cuti Romero, un joven prometedor que forma parte de la Scaloneta 🎂\n\n📰 'Loco' Abreu aconseja a Gilberto Mora disfrutar de la Copa del Mundo: El entrenador de Tijuana ha lanzado un mensaje para uno de sus mejores jugadores (Record.com.mx)\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-27T15:19:03.614292",
+  "published_at": "2026-04-27T15:19:04.557838",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-27T15:19:03.614304"
 }

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-04-26T14:09:34.668442",
+  "last_updated": "2026-04-27T15:19:04.563667",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -42,6 +42,9 @@
     ],
     "Paredes": [
       "2026-04-21"
+    ],
+    "Romero": [
+      "2026-04-27"
     ]
   },
   "weekly_sections": {
@@ -54,7 +57,8 @@
       "2026-04-13",
       "2026-04-17",
       "2026-04-20",
-      "2026-04-24"
+      "2026-04-24",
+      "2026-04-27"
     ],
     "jugador_scaloneta": [
       "2026-03-26",
@@ -115,7 +119,8 @@
       "2026-04-23",
       "2026-04-24",
       "2026-04-25",
-      "2026-04-26"
+      "2026-04-26",
+      "2026-04-27"
     ],
     "seleccion": [
       "2026-03-26",
@@ -253,6 +258,9 @@
     ],
     "Venezuela 0-4 Argentina en Eliminatorias 2002. Goleada de visitante en Maracaibo.": [
       "2026-04-26"
+    ],
+    "Cumpleaños de Cuti Romero (28 años)": [
+      "2026-04-27"
     ]
   },
   "news_topics": {
@@ -327,6 +335,9 @@
     ],
     "partidos de hoy de la liga profesional argentina: ": [
       "2026-04-26"
+    ],
+    "'loco' abreu aconseja a gilberto mora disfrutar de": [
+      "2026-04-27"
     ]
   },
   "phrases_used": [],
