@@ -4,8 +4,19 @@
   "data": {
     "date": "2026-04-28",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 44,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
+      {
+        "date": "1970-04-28",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Diego Simeone",
+        "age": 56,
+        "description": "Cumpleaños de Diego Simeone (56 años)"
+      },
       {
         "date": "1995-04-28",
         "type": "title",
@@ -14,20 +25,122 @@
         "description": "Argentina Campeón Mundial Sub-20 en Qatar."
       },
       {
-        "date": "1970-04-28",
+        "date": "2003-04-28",
         "type": "birthday",
-        "priority": "high",
-        "person": "Diego Simeone",
-        "age": 56,
-        "description": "Cumpleaños de Diego Pablo Simeone, \"El Cholo\". Mediocampista icónico de la Selección (106 partidos), campeón de América 1991 y 1993."
+        "priority": "low",
+        "person": "Tomás Palacios",
+        "age": 23,
+        "description": "Cumpleaños de Tomás Palacios (23 años)"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Mundial 2026: Estados Unidos, todo lo que debes de saber para la Copa del Mundo, 01:00 Mundial 2026: Estados Unidos, todo lo que debes de saber para la Copa del Mundo, Mundial 2026: Estados Unidos, todo lo que debes de saber para la Copa del Mundo, Mundial 2026: Estados Unidos, todo lo que debes de saber para la Copa del Mundo",
+        "description": "Te presentamos todos los detalles a seguir de uno de los anfitriones del Mundial",
+        "url": "https://www.record.com.mx/historia/mundial-2026-estados-unidos-todo-lo-que-debes-de-saber-para-la-copa-del-mundo-2026042302400730371",
+        "source": "Record.com.mx",
+        "published_at": "2026-04-27T07:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Cómo ver el Mundial 2026: los 104 partidos y contenido exclusivo, solo por DAZN",
+        "description": "El 11 de junio de 2026 arranca la competición de selecciones de fútbol más importante: la Copa del Mundo. Este año será diferente a todos los anteriores, ya que pasará a haber 48 selecciones que lucha",
+        "url": "https://www.mundodeportivo.com/elrecomendador/deportes/20260427/1004174667/ver-mundial-2026-104-partidos-contenido-exclusivo-dazn-mkt-dasp.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-04-27T04:50:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Uno de los mejores animes de deportes de la década acaba de llegar a Netflix. Un thriller futbolero que trajo la esperanza de vuelta a Japón",
+        "description": "Netflix sigue ampliando la cartera de animes y esta semana nos ha dejado una sorpresa tremenda si nos gustan los animes de deportes. En la plataforma ya tenemos clasicazos tremendos como 'Haikyuu!!' y",
+        "url": "https://www.espinof.com/anime/uno-mejores-animes-deportes-decada-acaba-llegar-a-netflix-thriller-futbolero-que-trajo-esperanza-vuelta-a-japon",
+        "source": "Espinof.com",
+        "published_at": "2026-04-27T08:50:07Z",
+        "category": "general"
+      },
+      {
+        "title": "Luis de la Fuente apadrinará la IX edición de la ruta solidaria 'En busca de la sonrisa perdida 2026'",
+        "description": "El seleccionador nacional de fútbol, Luis de la Fuente, Socio de Honor de KM Solidarity, apadrinará la IX edición de la ruta solidaria 'En busca de la sonrisa perdida 2026', una iniciativa que ha sido",
+        "url": "https://www.europapress.es/la-rioja/noticia-luis-fuente-apadrinara-ix-edicion-ruta-solidaria-busca-sonrisa-perdida-2026-20260427090957.html",
+        "source": "Europapress.es",
+        "published_at": "2026-04-27T07:09:57Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El City se lanza a por el Haaland de Brasil: el adolescente de 100 millones que podría acabar en España",
+        "description": "City Football Group valora el fichaje del joven delantero Bell para luego cederlo a uno de sus equipos vinculados",
+        "url": "https://www.marca.com/futbol/premier-league/2026/04/28/city-lanza-haaland-brasil-adolescente-tasado-100-millones-podria-acabar-espana.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-28T08:40:08",
+        "category": "general"
+      },
+      {
+        "title": "Marciniak defiende su actuación en el Inter - Barcelona de 2025: \"No hay nada que perdonar\"",
+        "description": "El polaco dirigió la vuelta de semifinales de Champions de la temporada y reafirmó su labor ante la pregunta de un aficionado azulgrana",
+        "url": "https://www.marca.com/futbol/barcelona/2026/04/28/marciniak-defiende-actuacion-inter-barcelona-2025-hay-perdonar.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-28T08:27:13",
+        "category": "general"
+      },
+      {
+        "title": "El primer bache liguero de Matarazzo casi no tiene trascendencia",
+        "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+        "url": "https://www.marca.com/futbol/real-sociedad/2026/04/28/primer-bache-liguero-matarazzo-trascendencia.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-28T08:02:47",
+        "category": "general"
+      },
+      {
+        "title": "PSG - Bayern: horario y dónde ver hoy en TV el partido de Champions League",
+        "description": "Los detalles de la primera semifinal europea",
+        "url": "https://www.marca.com/futbol/champions-league/2026/04/28/psg-bayern-horario-ver-hoy-tv-partido-champions-league.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-28T07:48:50",
+        "category": "general"
+      },
+      {
+        "title": "María, famosa hija influencer de Pep Guardiola, habla del lado más personal del entrenador del City",
+        "description": "María Guardiola, hija del entrenador Pep Guardiola (Manchester City) y la empresaria Cristina Serra, explicó en una entrevista concedida en Vanity Fair que \"me criaron para comprender el privilegio de",
+        "url": "https://www.marca.com/futbol/premier-league/album/2026/04/28/maria-famosa-hija-influencer-pep-guardiola-habla-lado-personal-entrenador-city.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-28T06:52:03",
+        "category": "general"
+      },
+      {
+        "title": "Valdano descarta a tres de cinco posibles candidatos al banquillo del Madrid: \"Es una página pasada\"",
+        "description": "Valdano hace el 'casting' de posibles candidatos a entrenador del Real Madrid: Deschamps, Pochettino, Mou, Klopp... y Scaloni",
+        "url": "https://www.marca.com/futbol/real-madrid/2026/04/28/valdano-descarta-tres-cinco-posibles-candidatos-banquillo-madrid-pagina-pasada.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-28T05:55:24",
+        "category": "seleccion"
+      },
+      {
+        "title": "Cómo y dónde ver el Mundial 2026 por la tele: calendario de partidos en DAZN, RTVE, Movistar, Orange y más",
+        "description": "El Mundial 2026 ya tiene reparto televisivo definitivo en España. Podremos ver los 104 partidos del torneo en DAZN, ya sea a través de su plataforma online o bien a través de operadores como Movistar ",
+        "url": "https://www.adslzone.net/noticias/streaming-tv/ver-mundial-2026/",
+        "source": "Adslzone.net",
+        "published_at": "2026-04-27T11:11:00Z"
+      },
+      {
+        "title": "Cómo ver el Mundial 2026: los 104 partidos y contenido exclusivo, solo por DAZN",
+        "description": "El 11 de junio de 2026 arranca la competición de selecciones de fútbol más importante: la Copa del Mundo. Este año será diferente a todos los anteriores, ya que pasará a haber 48 selecciones que lucha",
+        "url": "https://www.mundodeportivo.com/elrecomendador/deportes/20260427/1004174667/ver-mundial-2026-104-partidos-contenido-exclusivo-dazn-mkt-dasp.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-04-27T04:50:00Z"
+      },
+      {
+        "title": "El ciclo de Lionel Scaloni tendría final tras el interés de un gigante europeo post Mundial 2026: ¿Quién llamó?",
+        "description": "El Real Madrid activa gestiones en las sombras para contratar a Lionel Scaloni apenas finalice la Copa del Mundo 2026. El DT campeón del mundo es la prioridad absoluta para el club. Leer más",
+        "url": "https://442.perfil.com/noticias/seleccion-argentina/el-ciclo-de-lionel-scaloni-tendria-final-tras-el-interes-de-un-gigante-europeo-post-mundial-2026-quien-llamo.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-04-27T14:03:12Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 44 días para el Mundial 2026 ⚽\n\n[Hace 31 años] Argentina se coronó campeón mundial sub-20 en Qatar. Ese equipo, liderado por Marcelo Delgado, fue el primero en llevar la copa a la Argentina 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-28T15:37:16.567387",
+  "published_at": "2026-04-28T15:37:17.332403",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-28T15:37:16.567396"
 }
