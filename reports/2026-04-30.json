@@ -4,14 +4,128 @@
   "data": {
     "date": "2026-04-30",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 42,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1992-04-30",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Marc-André ter Stegen",
+        "age": 34,
+        "description": "Cumpleaños de Marc-André ter Stegen (34 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "Todos los partidos del Mundial 2026 que se podrán ver gratis en RTVE",
+        "description": "La cuenta atrás ya ha empezado y el Mundial de fútbol 2026, que se va a celebrar en Estados Unidos, Canadá y México, cada vez está más cerca. Entre el 11 de junio y el 19 de...",
+        "url": "https://www.elmundo.es/television/2026/04/29/69f1bf2ce85ece193a8b456d.html",
+        "source": "El Mundo",
+        "published_at": "2026-04-29T08:49:31Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Alarma en la Selección Argentina: Nico González se lesionó y llegaría entre algodones al Mundial",
+        "description": "El atacante del Atlético de Madrid sufrió una lesión muscular en el entrenamiento y será baja por un mes. Su participación en el Mundial 2026 genera incertidumbre en la Scaloneta. Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/alarma-en-la-seleccion-argentina-nico-gonzalez-se-lesiono-y-llegaria-entre-algodones-al-mundial.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-04-28T18:53:30Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Todos los partidos del Mundial de fútbol que podrás ver gratis en la TDT",
+        "description": "Los aficionados al fútbol estamos de suerte. No sólo es año de Mundial, sino que además será la edición con más partidos de la historia. Nada menos que 104 encuentros en algo más de un mes de competic",
+        "url": "https://www.xatakamovil.com/tv-movil/todos-partidos-mundial-futbol-que-podras-ver-gratis-tdt",
+        "source": "Xatakamovil.com",
+        "published_at": "2026-04-28T14:31:51Z",
+        "category": "mundial"
+      },
+      {
+        "title": "'Ley Prestianni': tarjeta roja a los jugadores que se tapen la boca para insultar",
+        "description": "Se acabó el juego de sombras. El IFAB, reunido Vancouver, ha dado luz verde definitiva a la propuesta de la FIFA para higienizar el fútbol de conductas que rozan lo antideportivo. Apenas a unas semana",
+        "url": "https://www.abc.es/deportes/futbol/mano-dura-silencio-complice-plante-fifa-sacude-20260429100848-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-04-29T08:08:48Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Estos son todos los partidos del Mundial de Fútbol 2026 que podrás ver gratis y en abierto",
+        "description": "El Mundial de Fútbol 2026 está cada vez más cerca y este año nos preparamos para una avalancha de partidos. Se trata del torneo con más países participantes de la historia. En total, habrá 48 seleccio",
+        "url": "https://www.xatakahome.com/servicios-de-smart-tv/estos-todos-partidos-mundial-futbol-2026-que-podras-ver-gratis-abierto",
+        "source": "Xatakahome.com",
+        "published_at": "2026-04-29T06:51:52Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Rosario Central ganó en Venezuela con el primer gol de Ángel Di María en la Copa Libertadores",
+        "description": "El equipo rosarino se impuso por 3 a 0 sobre Universidad Central",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/rosario-central-gano-en-venezuela-con-el-primer-gol-de-angel-di-maria-en-la-copa-libertadores-nid28042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-29T02:09:10Z",
+        "category": "general"
+      },
+      {
+        "title": "Programación de la última fecha del Torneo Apertura 2026: días y horarios confirmados",
+        "description": "Los 15 partidos de la novena jornada se disputará entre el sábado 2 y lunes 4 de mayo; restan siete plazas en los octavos de final",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/programacion-de-la-ultima-fecha-del-torneo-apertura-2026-dias-y-horarios-confirmados-nid28042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-28T15:16:38Z",
+        "category": "mundial"
+      },
+      {
+        "title": "'De béticos a abuelos', la emotiva iniciativa del Betis para combatir la soledad no deseada",
+        "description": "La Fundación del club entrega las primeras cartas de la mano de la leyenda bética Rafael Gordillo en la residencia Domus Vi de Sevilla",
+        "url": "https://www.marca.com/futbol/betis/2026/04/30/beticos-abuelos-emotiva-iniciativa-betis-combatir-soledad-deseada.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-30T08:57:18",
+        "category": "seleccion"
+      },
+      {
+        "title": "Sadiq y Duro, la pareja imposible de Corberán",
+        "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+        "url": "https://www.marca.com/futbol/valencia/2026/04/30/sadiq-duro-pareja-imposible-corberan.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-30T08:04:44",
+        "category": "general"
+      },
+      {
+        "title": "El Atlético resucita el recibimiento a la argentina del papel higiénico que ahora han prohibido",
+        "description": "La costumbre de arrojar papel se popularizó durante el Mundial de 1978 que organizó Argentina y luego fue imitada por hinchadas de todo el mundo",
+        "url": "https://www.marca.com/futbol/atletico/2026/04/30/atletico-resucita-recibimiento-argentina-papel-higienico-han-prohibido.html",
+        "source": "Fútbol",
+        "published_at": "2026-04-30T07:04:50",
+        "category": "seleccion"
+      },
+      {
+        "title": "La FIFA anuncia los 17 partidos de la fase de grupos del Mundial de fútbol 2026 que RTVE emitirá en abierto y gratis",
+        "description": "Estos son los 17 partidos que RTVE emitirá en abierto y gratis durante la fase de grupos del Mundial de fútbol 2026. La Selección Española debutará el lunes 15 de junio en La 1, enfrentándose al conju",
+        "url": "https://www.eldiario.es/vertele/noticias/fifa-anuncia-17-partidos-fase-grupos-mundial-futbol-2026-rtve-emitira-abierto-gratis-la-1_1_13182864.html",
+        "source": "Eldiario.es",
+        "published_at": "2026-04-29T14:59:42Z"
+      },
+      {
+        "title": "Todos los partidos del Mundial 2026 que RTVE emitirá en abierto: apunta las fechas",
+        "description": "Tras meses de negociaciones y ajustes en la parrilla, la televisión pública ha confirmado el paquete de partidos que emitirá a través de La 1 y Teledeporte, asegurando que podremos seguir a la Selecci",
+        "url": "https://www.adslzone.net/noticias/streaming-tv/partidos-gratis-rtve-mundial-2026/",
+        "source": "Adslzone.net",
+        "published_at": "2026-04-29T13:58:09Z"
+      },
+      {
+        "title": "Mundial 2026: horarios y partidos en España, cuándo juega España y dónde verlos en TV",
+        "description": "El Mundial 2026 ya tiene horarios y partidos confirmados: España debutará en un calendario cargado de grandes duelos. Consulta cuándo y dónde ver todos los encuentros.",
+        "url": "https://www.elconfidencialdigital.com/articulo/medios/mundial-2026-horarios-partidos-espana-cuando-juega-espana-donde-verlos-tv/202604291242001018024.html",
+        "source": "Elconfidencialdigital.com",
+        "published_at": "2026-04-29T10:42:00Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 42 días para el Mundial 2026 ⚽\n\n🎉 Hoy cumple 34 años Marc-André ter Stegen. El arquero del Barcelona sigue siendo uno de los mejores de la liga española y prepara su tercer Mundial 🏆\n\n📰 La FIFA anuncia los 17 partidos de la fase de grupos del Mundial de fútbol 2026 que RTVE emitirá en abierto y gratis. Estos son los 17 partidos que RTVE emitirá en abierto y gratis durante la fase de grupos del Mundial de fútbol 2026. La Selección Española debutará el 21 de noviembre en el Red Bull Arena de Harrison 📺\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-04-30T15:21:45.369089",
+  "published_at": "2026-04-30T15:21:49.523980",
+  "pre_approved": true,
+  "pre_approved_at": "2026-04-30T15:21:45.369099"
 }
