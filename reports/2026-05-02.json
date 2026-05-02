@@ -4,14 +4,120 @@
   "data": {
     "date": "2026-05-02",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 40,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1975-05-02",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "David Beckham",
+        "age": 51,
+        "description": "Cumpleaños de David Beckham (51 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "Mundial 2026: Túnez, todo lo que debes saber de la selección africana para la Copa del Mundo",
+        "description": "Las Águilas de Cartago son uno de los equipos africanos que buscarán competir de la mejor manera en la Copa Mundial de la FIFA 2026",
+        "url": "https://www.record.com.mx/historia/mundial-2026-tunez-todo-lo-que-debes-saber-de-la-seleccion-africana-para-la-copa-del-mundo-2026042804073512108",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-01T06:10:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "DAZN lo da todo en mayo: motor, baloncesto y fútbol con su plan más completo",
+        "description": "DAZN es la plataforma en streaming dedicada por completo al deporte en la que puedes disfrutar de deportes como el fútbol, el baloncesto o el motor. Quienes buscan estar el fin de semana enganchados a",
+        "url": "https://www.mundodeportivo.com/elrecomendador/deportes/20260501/1004175973/dazn-da-mayo-motor-baloncesto-futbol-plan-completo-mkt-dasp.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-01T06:00:00Z",
+        "category": "general"
+      },
+      {
+        "title": "Henry: \"El PSG-Bayern fue puro fútbol total, está fuera de todo análisis\"",
+        "description": "La leyenda del Arsenal analizó la actualidad futbolística... con algunos nombres propios  Leer",
+        "url": "https://www.marca.com/futbol/premier-league/2026/05/01/henry-psg-bayern-puro-futbol-total-fuera-analisis.html",
+        "source": "Marca",
+        "published_at": "2026-05-01T05:40:59Z",
+        "category": "general"
+      },
+      {
+        "title": "Algo está cambiando en el fútbol: ¿por qué ahora se marcan más goles?",
+        "description": "En la Champions League 2025-26 se han marcado hasta ahora 3,49 goles por partido a falta de tres partidos para terminar la competición\r\nLa FIFA anuncia los 17 partidos de la fase de grupos del Mundial",
+        "url": "https://www.eldiario.es/spin/deportes/cambiando-futbol-ahora-marcan-goles-pm_1_13182861.html",
+        "source": "Eldiario.es",
+        "published_at": "2026-05-01T05:00:45Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El día que todos fuimos del 'Reycester': 10 años del mayor milagro en la historia del 'football'",
+        "description": "El aniversario de la Premier más \"improbable\" de todos los tiempos coincide con el descenso de los 'foxes' a Segunda",
+        "url": "https://www.marca.com/futbol/premier-league/2026/05/02/dia-todos-reycester-10-anos-mayor-milagro-historia-football.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-02T06:13:55",
+        "category": "general"
+      },
+      {
+        "title": "Si al fútbol le quedara aún algo de corazón",
+        "description": "'Comprimidos', por Juan Ignacio Gallardo",
+        "url": "https://www.marca.com/futbol/opinion/2026/05/02/futbol-le-quedara-aun-corazon.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-02T05:43:25",
+        "category": "general"
+      },
+      {
+        "title": "Última llamada a Griezmann para ser el visitante que más veces ha marcado en Mestalla: ¡igualado con Messi y Benzema a siete partidos!",
+        "description": "El máximo goleador foráneo de la historia de Mestalla es el argentino, con 11, si bien el galo, junto a Messi y Benzema, ha marcado en más partidos... pero puede hacer historia si juega y hace gol",
+        "url": "https://www.marca.com/futbol/atletico/2026/05/02/ultima-llamada-griezmann-visitante-veces-marcado-mestalla-igualado-messi-benzema-siete-partidos.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-02T05:39:29",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mil veces Cholo",
+        "description": "El partido a partido que inició como técnico de Racing en 2006, a las 24 horas de colgar las botas,&nbsp;alcanza una cifra mágica de leyenda mundial disparada con sus éxitos en el Atlético<span class=",
+        "url": "https://www.marca.com/futbol/atletico/2026/05/02/mil-veces-cholo.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-02T05:38:39",
+        "category": "mundial"
+      },
+      {
+        "title": "La Premier League 26-27 busca a sus dos nuevos equipos: la última jornada de Championship, al rojo vivo",
+        "description": "Tres equipos se disputan la segunda plaza que da acceso directo a la máxima categoría del fútbol inglés&nbsp;",
+        "url": "https://www.marca.com/futbol/premier-league/2026/05/02/premier-league-26-27-busca-dos-nuevos-equipos-ultima-jornada-championship-rojo-vivo.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-02T05:25:49",
+        "category": "general"
+      },
+      {
+        "title": "Nació en España, pero “siente como un argentino”: quién es el tapado que Scaloni ya anotó en la lista",
+        "description": "El jugador de 22 años que sigue de cerca el cuerpo técnico de la selección es hijo de santafesinos y llama la atención en Europa, aunque su equipo está comprometido con el descenso",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/nacio-en-espana-pero-siente-como-un-argentino-quien-es-el-tapado-que-scaloni-ya-anoto-en-la-lista-nid30042026/",
+        "source": "La Nacion",
+        "published_at": "2026-04-30T23:00:00Z"
+      },
+      {
+        "title": "Ignacio Alonso y Diego Lugano jugaron un torneo de fútbol junto al presidente de Conmebol, Alejandro Domínguez",
+        "description": "\"Siempre es un gusto compartir una cancha con leyendas mundiales\", dijo el mandamás de la Confederación Sudamericana de Fútbol, que contó en su equipo con algunos exfutbolistas.",
+        "url": "https://www.elpais.com.uy/ovacion/marca-personal/ignacio-alonso-y-diego-lugano-jugaron-un-torneo-de-futbol-junto-al-presidente-de-conmebol-alejandro-dominguez",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-04-30T20:20:25Z"
+      },
+      {
+        "title": "Mundial 2026: Túnez, todo lo que debes saber de la selección africana para la Copa del Mundo",
+        "description": "Las Águilas de Cartago son uno de los equipos africanos que buscarán competir de la mejor manera en la Copa Mundial de la FIFA 2026",
+        "url": "https://www.record.com.mx/historia/mundial-2026-tunez-todo-lo-que-debes-saber-de-la-seleccion-africana-para-la-copa-del-mundo-2026042804073512108",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-01T06:10:00Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 40 días para el Mundial 2026 ⚽\n\n📰 Nació en España, pero “siente como un argentino”: quién es el tapado que Scaloni ya anotó en la lista: El jugador de 22 años que sigue de cerca el cuerpo técnico de la selección es hijo de santafesinos y llama la atención en Europa, aunque su equipo esté en crisis en la Liga de Campeones (La Nacion)\n\n📰 Última llamada a Griezmann para ser el visitante que más veces ha marcado en Mestalla: ¡igualado con Messi y Benzema a siete partidos!: El máximo goleador foráneo de la historia de Mestalla es el argentino, con 11, si bien el galo, junto a Messi y Benzema, ha marcado en más partidos... (Fútbol)\n\n🎉 David Beckham cumple 51 años. El ex futbolista inglés sigue siendo una figura clave en el mundo del fútbol.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-02T14:14:24.118535",
+  "published_at": "2026-05-02T14:14:24.958674",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-02T14:14:24.118545"
 }
