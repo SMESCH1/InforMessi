@@ -4,14 +4,128 @@
   "data": {
     "date": "2026-05-04",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 38,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1973-05-04",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Guillermo Barros Schelotto",
+        "age": 53,
+        "description": "Cumpleaños de Guillermo Barros Schelotto (53 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "Mundial 2026: Brasil, todo lo que debes saber de la selección sudamericana para la Copa del Mundo",
+        "description": "La Verdeamarela busca romper una sequía de 14 años sin ser protagonista con una generación llena de promesas",
+        "url": "https://www.record.com.mx/historia/mundial-2026-brasil-todo-lo-que-debes-saber-de-la-seleccion-sudamericana-para-la-copa-del-mundo-2026043001275835130",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-03T06:30:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El Mundial de fútbol ya ha empezado: Panini pone a la venta la mayor colección de cromos de la historia",
+        "description": "El Mundial de 2026 ya ha empezado. Mucho antes de que el 11 de junio se enfrenten México y Sudáfrica en la jornada inaugural en el estadio Azteca. Y no lo disputan 48 selecciones, sino 130 países. Ni ",
+        "url": "https://www.elperiodico.com/es/deportes/20260503/mundial-futbol-empezado-panini-pone-129587139",
+        "source": "Elperiodico.com",
+        "published_at": "2026-05-03T04:01:33Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Furor por las figuritas del Mundial: todos los argentinos que aparecieron en el álbum y no fueron a la Copa del Mundo",
+        "description": "La conocida marca internacional de álbumes de figuritas apostó por varios jugadores que se quedaron sin la posibilidad de representar a Argentina a lo largo de las ediciones; a continuación, la lista ",
+        "url": "https://www.lanacion.com.ar/deportes/furor-por-las-figuritas-del-mundial-todos-los-argentinos-que-aparecieron-en-el-album-y-no-fueron-a-nid02052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-02T22:49:31Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El impactante aspecto físico de Higuaín a sus 38 años se vuelve viral: retirado del fútbol desde 2022",
+        "description": "El exfutbolista argentino ha generado conversación entre los aficionados con su última aparición en una imagen junto a un fan",
+        "url": "https://www.elconfidencial.com/deportes/futbol/2026-05-02/impactante-aspecto-fisico-higuain-vuelve-viral-futbol_4348712/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-05-02T11:38:00Z",
+        "category": "general"
+      },
+      {
+        "title": "De Uruguay a Europa: Enzo Olivera y su camino en el periodismo deportivo mundial y cómo lo decepcionó Ugarte",
+        "description": "El periodista se formó entre Chile y Uruguay. Repasa su camino desde una familia futbolera hasta Europa, donde se consolidó como corresponsal de cadenas deportivas y del Polideportivo.",
+        "url": "https://www.elpais.com.uy/sabado-show/de-uruguay-a-europa-enzo-olivera-y-su-camino-en-el-periodismo-deportivo-mundial-y-como-lo-decepciono-ugarte",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-05-02T06:11:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El amor llega al Arsenal en el peor momento para el Atlético: la reconciliación que se traduce en goles",
+        "description": "Tras su reconciliación sentimental Gyokeres ha marcado al Atlético de Madrid en Champions League y al Fulham en la Premier League",
+        "url": "https://www.marca.com/futbol/champions-league/2026/05/04/actriz-ines-aguiar-confirma-reconciliacion-gyokeres-delantero-arsenal.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-04T08:17:54",
+        "category": "general"
+      },
+      {
+        "title": "Se cuela un perro en un partido de la Liga Argentina... ¡y se pone a 'regatear' a todo el mundo!",
+        "description": "",
+        "url": "https://www.marca.com/futbol/argentina/2026/05/04/cuela-perro-partido-liga-argentina-pone-regatear-mun-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-04T08:12:24",
+        "category": "seleccion"
+      },
+      {
+        "title": "El \"renacimiento\" por \"amor\" del portero maldito al que casi enterró el Madrid: \"El fútbol es despiadado\"",
+        "description": "Diletta Leotta ensalza a su marido Loris Karius tras su ascenso con el Schalke 04 tras estar casi retirado y jugar sólo 5 partidos en 4 años",
+        "url": "https://www.marca.com/futbol/bundesliga/2026/05/04/renacimiento-amor-portero-maldito-enterro-madrid-futbol-despiadado.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-04T07:47:54",
+        "category": "general"
+      },
+      {
+        "title": "Julián es un 10",
+        "description": "La Araña es la gran esperanza rojiblanca en una Champions en la que suma una decena de goles. Hará todo por jugar pese a su maltrecho tobillo",
+        "url": "https://www.marca.com/futbol/atletico/2026/05/04/julian-10.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-04T07:42:42",
+        "category": "general"
+      },
+      {
+        "title": "Piti, ex del Rayo, multado tras ser 'cazado' rayando el coche del presidente del Atlético Pinto",
+        "description": "El exfutbolista era copropietario del club junto al abogado cuyo coche rayó en 2022: ya se conoce la multa",
+        "url": "https://www.marca.com/futbol/2026/05/04/piti-ex-rayo-multado-cazado-rayando-coche-presidente-atletico-pinto.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-04T07:42:31",
+        "category": "general"
+      },
+      {
+        "title": "El Mundial de fútbol ya ha empezado: Panini pone a la venta la mayor colección de cromos de la historia",
+        "description": "El Mundial de 2026 ya ha empezado. Mucho antes de que el 11 de junio se enfrenten México y Sudáfrica en la jornada inaugural en el estadio Azteca. Y no lo disputan 48 selecciones, sino 130 países. Ni ",
+        "url": "https://www.elperiodico.com/es/deportes/20260503/mundial-futbol-empezado-panini-pone-129587139",
+        "source": "Elperiodico.com",
+        "published_at": "2026-05-03T04:01:33Z"
+      },
+      {
+        "title": "Furor por las figuritas del Mundial: todos los argentinos que aparecieron en el álbum y no fueron a la Copa del Mundo",
+        "description": "La conocida marca internacional de álbumes de figuritas apostó por varios jugadores que se quedaron sin la posibilidad de representar a Argentina a lo largo de las ediciones; a continuación, la lista ",
+        "url": "https://www.lanacion.com.ar/deportes/furor-por-las-figuritas-del-mundial-todos-los-argentinos-que-aparecieron-en-el-album-y-no-fueron-a-nid02052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-02T22:49:31Z"
+      },
+      {
+        "title": "Del efecto Jabulani a la Trionda: la ciencia detrás de la pelota del Mundial (y cómo Uruguay puede dominarla)",
+        "description": "La física de los remates, la nueva pelota y los datos que prometen explicarlo todo, en un deporte que aún se resiste a ser predecible.",
+        "url": "https://www.elpais.com.uy/domingo/del-efecto-jabulani-a-la-trionda-la-ciencia-detras-de-la-pelota-del-mundial-y-como-uruguay-puede-dominarla",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-05-03T07:00:00Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 38 días para el Mundial 2026 ⚽\n\n📰 Furor por las figuritas del Mundial: todos los argentinos que aparecieron en el álbum y no fueron a la Copa del Mundo: La conocida marca internacional de álbumes de figuritas apostó por varios jugadores que se quedaron sin la posibilidad de representar a Argentina a lo largo de la historia del fútbol. 📺\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-04T15:20:16.170140",
+  "published_at": "2026-05-04T15:20:17.037025",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-04T15:20:16.170150"
 }

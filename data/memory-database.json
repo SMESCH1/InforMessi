@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-05-03T14:14:44.561553",
+  "last_updated": "2026-05-04T15:20:17.043143",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -62,7 +62,8 @@
       "2026-04-20",
       "2026-04-24",
       "2026-04-27",
-      "2026-05-01"
+      "2026-05-01",
+      "2026-05-04"
     ],
     "jugador_scaloneta": [
       "2026-03-26",
@@ -134,7 +135,8 @@
       "2026-04-30",
       "2026-05-01",
       "2026-05-02",
-      "2026-05-03"
+      "2026-05-03",
+      "2026-05-04"
     ],
     "seleccion": [
       "2026-03-26",
@@ -159,7 +161,8 @@
       "2026-04-28",
       "2026-04-30",
       "2026-05-02",
-      "2026-05-03"
+      "2026-05-03",
+      "2026-05-04"
     ]
   },
   "events_mentioned": {
@@ -300,6 +303,9 @@
     ],
     "Cumpleaños de Ezequiel Lavezzi (41 años)": [
       "2026-05-03"
+    ],
+    "Cumpleaños de Guillermo Barros Schelotto (53 años)": [
+      "2026-05-04"
     ]
   },
   "news_topics": {
@@ -395,6 +401,9 @@
     ],
     "el impactante cambio de apariencia de un exjugador": [
       "2026-05-03"
+    ],
+    "furor por las figuritas del mundial: todos los arg": [
+      "2026-05-04"
     ]
   },
   "phrases_used": [],
