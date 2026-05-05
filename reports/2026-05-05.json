@@ -4,14 +4,135 @@
   "data": {
     "date": "2026-05-05",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 37,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "2024-05-05",
+        "type": "death",
+        "priority": "high",
+        "person": "César Luis Menotti",
+        "description": "Aniversario del fallecimiento de César Luis Menotti, DT campeón del mundo con Argentina en 1978."
+      },
+      {
+        "date": "1976-05-05",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Juan Pablo Sorín",
+        "age": 50,
+        "description": "Cumpleaños de Juan Pablo Sorín (50 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "Mundial 2026: Brasil, todo lo que debes saber de la selección sudamericana para la Copa del Mundo",
+        "description": "La Verdeamarela busca romper una sequía de 14 años sin ser protagonista con una generación llena de promesas",
+        "url": "https://www.record.com.mx/historia/mundial-2026-brasil-todo-lo-que-debes-saber-de-la-seleccion-sudamericana-para-la-copa-del-mundo-2026043001275835130",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-03T06:30:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El Mundial de fútbol ya ha empezado: Panini pone a la venta la mayor colección de cromos de la historia",
+        "description": "El Mundial de 2026 ya ha empezado. Mucho antes de que el 11 de junio se enfrenten México y Sudáfrica en la jornada inaugural en el estadio Azteca. Y no lo disputan 48 selecciones, sino 130 países. Ni ",
+        "url": "https://www.elperiodico.com/es/deportes/20260503/mundial-futbol-empezado-panini-pone-129587139",
+        "source": "Elperiodico.com",
+        "published_at": "2026-05-03T04:01:33Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El discurso viral de Scariolo que el madridismo exige al equipo de fútbol: \"Liderar también es servir\"",
+        "description": "El técnico elogia a Hezonja por su exhibición ante el UCAM Murcia, pero sobre todo destaca su \"crecimiento\" a nivel mental.",
+        "url": "https://www.libertaddigital.com/deportes/futbol/2026-05-04/el-discurso-viral-de-scariolo-que-el-madridismo-exige-al-equipo-de-futbol-liderar-tambien-es-servir-1b-7398503/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-05-04T08:10:20Z",
+        "category": "general"
+      },
+      {
+        "title": "Un ejército de voluntarios desbordará el Grand Départ del Tour de Francia 2026: \"Va a ser épico. Nos pondrá en el mapa\"",
+        "description": "Barcelona será el próximo 4 de julio el kilómetro cero del Tour de Francia 2026. La ciudad acogerá por primera vez el Grand Départ de la carrera más prestigiosa del ciclismo mundial, una salida histór",
+        "url": "https://www.elperiodico.com/es/deportes/20260504/ejercito-voluntarios-desbordara-grand-depart-129696527",
+        "source": "Elperiodico.com",
+        "published_at": "2026-05-04T08:00:38Z",
+        "category": "mundial"
+      },
+      {
+        "title": "A 38 días ¡Entre los seis mejores del mundo! Los dos sextos lugares de la Selección, en México 1970 y México 1986, la mejor posición del Tri en la historia",
+        "description": "México alcanzó su mejor actuación en casa, llegando a Cuartos de Final y firmando el sexto lugar mundial en dos ocasiones",
+        "url": "https://www.record.com.mx/historia/a-38-dias-entre-los-seis-mejores-del-mundo-los-dos-sextos-lugares-de-la-seleccion-en-mexico-1970-y-mexico-1986-la-mejor-posicion-del-tri-en-la-historia-2026050102332504191",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-04T06:00:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "José María Vidal, coleccionista de camisetas",
+        "description": "Artículo 86 de Historias de Fútbol, de la mano de la Academia del Fútbol Español, sobre el exjugador de Real Madrid, Granada y Levante, entre otros.",
+        "url": "https://www.libertaddigital.com/deportes/futbol/2026-05-03/jose-maria-vidal-coleccionista-de-camisetas-1b-7398182/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-05-03T09:49:59Z",
+        "category": "general"
+      },
+      {
+        "title": "Qué esperar de cada partido de octavos de final del Torneo Apertura 2026",
+        "description": "Finalizó la fase regular del primer torneo del año y, camino a la definición del Kempes, ya se vive la primera instancia de playoffs.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16667324/uno-a-uno-partidos-octavos-de-final-torneo-apertura-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-05T04:26:00",
+        "category": "mundial"
+      },
+      {
+        "title": "Días y horarios confirmados para los octavos de final del Apertura",
+        "description": "El detalle de cómo se juega la primera instancia de eliminación directa en el primer torneo del año del fútbol argentino.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16665371/torneo-apertura-2026-fixture-octavos-de-final-8vos-cruces-fecha-horario-y-resultados-partidos",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-05T04:31:41",
+        "category": "general"
+      },
+      {
+        "title": "Ubeda tendría el equipo de Boca definido para jugar con Barcelona en Ecuador",
+        "description": "El técnico del Xeneize afronta un encuentro clave en la Libertadores, con la mira puesta en la siguiente ronda.",
+        "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16665754/boca-posible-formacion-vs-barcelona-ecuador-ubeda-equipo-copa-libertadores",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-05T04:27:00",
+        "category": "liga"
+      },
+      {
+        "title": "Boca se entrenó en Guayaquil antes de visitar a Barcelona por la Libertadores",
+        "description": "El Xeneize arribó a Ecuador y tuvo su última práctica previo al partido clave de este martes.",
+        "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16666873/boca-viaje-guayaquil-ecuador-visita-barcelona-sc-libertadores",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-05T04:27:00",
+        "category": "liga"
+      },
+      {
+        "title": "Los televisores de Hisense para 2026, explicados: el año del Mundial la marca se lo juega todo al RGB MiniLED",
+        "description": "Hisense llega a 2026 jugándose buena parte de su gama a una sola carta: el RGB MiniLED. La marca china ha renovado todo su catálogo de televisores y lo ha presentado en sociedad exactamente donde corr",
+        "url": "https://www.xataka.com/televisores/televisores-hisense-para-2026-explicados-ano-mundial-marca-se-juega-todo-al-rgb-miniled",
+        "source": "Xataka.com",
+        "published_at": "2026-05-04T11:30:26Z"
+      },
+      {
+        "title": "El Mundial de fútbol ya ha empezado: Panini pone a la venta la mayor colección de cromos de la historia",
+        "description": "El Mundial de 2026 ya ha empezado. Mucho antes de que el 11 de junio se enfrenten México y Sudáfrica en la jornada inaugural en el estadio Azteca. Y no lo disputan 48 selecciones, sino 130 países. Ni ",
+        "url": "https://www.elperiodico.com/es/deportes/20260503/mundial-futbol-empezado-panini-pone-129587139",
+        "source": "Elperiodico.com",
+        "published_at": "2026-05-03T04:01:33Z"
+      },
+      {
+        "title": "El durísimo día en que la mejor selección de la historia se rompió en 1.000 pedazos: \"El entrenador es arrogante, asqueroso y ridículo\"",
+        "description": "El 1-7 de Alemania a Brasil en 2014 fue una humillación única: siete minutos que dejaron en el aire la mayor herida nunca conocida en un Campeonato del Mundo. El recuerdo sigue hoy vivo. Leer",
+        "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/05/04/69f3765be9cf4a4c1d8b4593.html",
+        "source": "El Mundo",
+        "published_at": "2026-05-04T19:35:10Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 37 días para el Mundial 2026 ⚽\n\n📰 Un día como hoy en 2024, falleció César Luis Menotti, DT campeón del mundo con Argentina en 1978. Menotti dejó una huella inolvidable en la historia del fútbol argentino y mundial. Su legado vive en la Scaloneta, que busca seguir siendo una selección de altura en el Mundial 2026. 🇦🇷\n\n📰 El Mundial de fútbol ya ha empezado: Panini pone a la venta la mayor colección de cromos de la historia: El Mundial de 2026 ya ha empezado. Mucho antes de que el 11 de junio se enfrenten México y Sudáfrica en la jornada inaugural en el estadio Azteca. Y ahora, los aficionados ya pueden empezar a coleccionar los cromos de sus equipos favoritos.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-05T20:11:11.780633",
+  "published_at": "2026-05-05T20:11:12.719366",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-05T20:11:11.780644"
 }

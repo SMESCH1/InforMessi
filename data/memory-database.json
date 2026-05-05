@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-05-04T15:20:17.043143",
+  "last_updated": "2026-05-05T20:11:12.725933",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -76,7 +76,8 @@
       "2026-04-21",
       "2026-04-23",
       "2026-04-28",
-      "2026-04-30"
+      "2026-04-30",
+      "2026-05-05"
     ],
     "dato_mundialista": [
       "2026-03-28",
@@ -136,7 +137,8 @@
       "2026-05-01",
       "2026-05-02",
       "2026-05-03",
-      "2026-05-04"
+      "2026-05-04",
+      "2026-05-05"
     ],
     "seleccion": [
       "2026-03-26",
@@ -162,7 +164,8 @@
       "2026-04-30",
       "2026-05-02",
       "2026-05-03",
-      "2026-05-04"
+      "2026-05-04",
+      "2026-05-05"
     ]
   },
   "events_mentioned": {
@@ -306,6 +309,12 @@
     ],
     "Cumpleaños de Guillermo Barros Schelotto (53 años)": [
       "2026-05-04"
+    ],
+    "Aniversario del fallecimiento de César Luis Menotti, DT campeón del mundo con Argentina en 1978.": [
+      "2026-05-05"
+    ],
+    "Cumpleaños de Juan Pablo Sorín (50 años)": [
+      "2026-05-05"
     ]
   },
   "news_topics": {
@@ -404,6 +413,9 @@
     ],
     "furor por las figuritas del mundial: todos los arg": [
       "2026-05-04"
+    ],
+    "el mundial de futbol ya ha empezado: panini pone a": [
+      "2026-05-05"
     ]
   },
   "phrases_used": [],
