@@ -4,14 +4,128 @@
   "data": {
     "date": "2026-05-06",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 36,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1983-05-06",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Dani Alves",
+        "age": 43,
+        "description": "Cumpleaños de Dani Alves (43 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "¿Neymar a Boca?: el rumor que no para de crecer en Argentina",
+        "description": "El 20 de mayo pasado, el club Santos FC visitó Argentina para enfrentarse contra San Lorenzo de Almagro en un partido empatado por la Copa Sudamericana de la CONMEBOL. El 20 de mayo pasado, el club Sa",
+        "url": "https://www.mundodeportivo.com/futbol/internacional/20260505/1004179081/neymar-boca-rumor-no-crecer-brasil.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-05T07:06:11Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Es un pueblo brasilero, pero sus habitantes hinchan por Argentina en el Mundial",
+        "description": "A 4.722 kilómetros de la capital argentina, en el nordeste de Brasil, existe un municipio de 13.000 habitantes que cultiva caña de azúcar, baila maracatu y se llama, desde hace casi un siglo, Buenos A",
+        "url": "https://www.lanacion.com.ar/revista-lugares/es-un-pueblo-brasilero-pero-sus-habitantes-hinchan-por-argentina-en-el-mundial-nid05052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-05T03:30:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Timothée Chalamet sorprendió al lucir una prenda de la Selección Argentina en Nueva York",
+        "description": "El joven se encontraba junto a Kylie Jenner en preparación para la Met Gala. Leer más",
+        "url": "https://exitoina.perfil.com/noticias/mundo/timothee-chalamet-lució-una-prenda-de-la-seleccion-argentina-en-nueva-york-a31.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-04T20:36:54Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "La Selección española, edificios, aeropuertos, cuentas bancarias: estos son los embargos que acechan a España",
+        "description": "Los acreedores afectados por los impagos de las renovables, a quienes se deben 2.300 millones, siguen litigando para recuperar su dinero.",
+        "url": "https://www.libertaddigital.com/libremercado/2026-05-05/la-seleccion-espanola-edificios-aeropuertos-cuentas-bancarias-estos-son-los-embargos-que-acechan-a-espana-1b-7398681/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-05-05T00:15:29Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Un fiscal denunció al juez que benefició a Tapia y dijo que filtraba el expediente a la defensa de manera clandestina",
+        "description": "Se trata de Pedro Simón, quien pidió investigar al juez Argibay de Santiago del Estero; dijo que solo buscó que la AFA zafara de la causa y que tiene “ceguera voluntaria”",
+        "url": "https://www.lanacion.com.ar/politica/un-fiscal-denuncio-al-juez-que-beneficio-a-tapia-y-dijo-que-filtraba-el-expediente-a-la-defensa-de-nid04052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-04T22:11:33Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Ni Buenos Aires ni Santiago: el fútbol argentino ya sabe dónde se coronará el nuevo campeón del Apertura",
+        "description": "El Estadio Mario Alberto Kempes albergará el duelo decisivo del certamen el próximo domingo 24 de mayo. Tras un cambio de último momento, Córdoba se prepara para una fiesta del fútbol. Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/final-del-torneo-apertura-2026-el-estadio-mario-kempes-de-cordoba-sera-la-sede.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-04T15:36:23Z",
+        "category": "general"
+      },
+      {
+        "title": "Mosquera: otro canterano a la final de la Champions",
+        "description": "El técnico da mucho valor al triunfo de su equipo sin tres de sus titulares Gayá, Folquier y Rioja que no jugaron por acumulación de amarillas",
+        "url": "https://www.marca.com/futbol/valencia/2026/05/06/mosquera-canterano-final-champions.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-06T08:59:20",
+        "category": "general"
+      },
+      {
+        "title": "Surrealista: los dos países más poblados del mundo podrían no emitir el Mundial",
+        "description": "China e India, que suman casi 3.000 millones de personas, aún no tienen garantizada la transmisión del torneo de la FIFA",
+        "url": "https://www.marca.com/futbol/mundial/2026/05/06/surrealista-dos-paises-poblados-mundo-podrian-emitir-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-06T08:38:05",
+        "category": "mundial"
+      },
+      {
+        "title": "Un 'respeto' por ganar",
+        "description": "Las dos últimas eliminaciones del Atlético en la Champions desatan las suspicacias con los arbitrajes en Europa: del doble toque de Julián al inexplicable penalti al limbo de Griezmann",
+        "url": "https://www.marca.com/futbol/atletico/2026/05/06/respeto-ganar.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-06T08:22:30",
+        "category": "general"
+      },
+      {
+        "title": "Sneijder: \"Fue un partido aburrido a morir, a los 35 minutos quería que lo cancelaran\"",
+        "description": "El exmadridista calificó la semifinal del Emirates lejos del nivel esperado: \"A este nivel, uno espera un espectáculo y fútbol de primer nivel, pero estuvimos muy lejos de eso\"",
+        "url": "https://www.marca.com/futbol/champions-league/2026/05/06/sneijder-partido-aburrido-morir-35-minutos-queria-cancelaran.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-06T08:04:21",
+        "category": "general"
+      },
+      {
+        "title": "Partidos de la selección argentina en el Mundial 2026: este es el fixture de la etapa de grupos",
+        "description": "El equipo dirigido por Lionel Scaloni enfrentará a Argelia, Austria y Jordania en Kansas y Dallas; España y Uruguay, posibles rivales en 16avos de final",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/partidos-de-la-seleccion-argentina-en-el-mundial-2026-este-es-el-fixture-de-la-etapa-de-grupos-nid05052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-05T15:29:16Z"
+      },
+      {
+        "title": "Es un pueblo brasilero, pero sus habitantes hinchan por Argentina en el Mundial",
+        "description": "A 4.722 kilómetros de la capital argentina, en el nordeste de Brasil, existe un municipio de 13.000 habitantes que cultiva caña de azúcar, baila maracatu y se llama, desde hace casi un siglo, Buenos A",
+        "url": "https://www.lanacion.com.ar/revista-lugares/es-un-pueblo-brasilero-pero-sus-habitantes-hinchan-por-argentina-en-el-mundial-nid05052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-05T03:30:00Z"
+      },
+      {
+        "title": "Los televisores de Hisense para 2026, explicados: el año del Mundial la marca se lo juega todo al RGB MiniLED",
+        "description": "Hisense llega a 2026 jugándose buena parte de su gama a una sola carta: el RGB MiniLED. La marca china ha renovado todo su catálogo de televisores y lo ha presentado en sociedad exactamente donde corr",
+        "url": "https://www.xataka.com/televisores/televisores-hisense-para-2026-explicados-ano-mundial-marca-se-juega-todo-al-rgb-miniled",
+        "source": "Xataka.com",
+        "published_at": "2026-05-04T11:30:26Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 36 días para el Mundial 2026 ⚽\n\n📰 Es un pueblo brasilero, pero sus habitantes hinchan por Argentina en el Mundial: A 4.722 kilómetros de la capital argentina, en el nordeste de Brasil, existe un municipio de 13.000 habitantes que cultiva caña de azúcar, baila maracuyá y, sobre todo, apoya con pasión a la selección argentina 🎉\n\n📅 A Dani Alves cumple 43 años. El exjugador de la selección argentina sigue siendo una figura relevante en el mundo del fútbol 📺\n\n📰 Partidos de la selección argentina en el Mundial 2026: este es el fixture de la etapa de grupos. El equipo dirigido por Lionel Scaloni enfrentará a Argelia, Austria y Jordania en Kansas y Dallas; España y Uruguay, posibles rivales en octavos de final (La Nacion) 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-06T15:34:26.587967",
+  "published_at": "2026-05-06T15:34:27.478012",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-06T15:34:26.587976"
 }
