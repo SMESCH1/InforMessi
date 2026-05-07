@@ -4,14 +4,128 @@
   "data": {
     "date": "2026-05-07",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 35,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1965-05-07",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Norman Whiteside",
+        "age": 61,
+        "description": "Cumpleaños de Norman Whiteside (61 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "La Red lanzó Guardianes de la gloria, su apuesta mundialista",
+        "description": "La AM 910 presentó al equipo de periodistas que cubrirán la Copa del Mundo; Rodrigo Lussich se suma al “pase” entre Sylvestre y Duggan",
+        "url": "https://www.lanacion.com.ar/espectaculos/la-red-lanzo-guardianes-de-la-gloria-su-apuesta-mundialista-nid06052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-06T09:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Boca sufre por los arqueros: se lesionó Leandro Brey y debió ser reemplazado por Javier García",
+        "description": "Sucedió en el primer tiempo del partido ante Barcelona en Ecuador por la Copa Libertadores",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/boca-sufre-por-los-arqueros-se-lesiono-leandro-brey-y-debio-ser-reemplazado-por-javier-garcia-nid05052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-06T01:22:52Z",
+        "category": "liga"
+      },
+      {
+        "title": "Final del Mundial 2026: sede, día y horario",
+        "description": "El estadio elegido para dirimir la próxima Copa del Mundo es un escenario donde la selección argentina se lució en la Copa América 2024",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/final-del-mundial-2026-sede-dia-y-horario-nid05052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-05T23:38:16Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "España, Brasil, Italia: todas las camisetas que necesitas para el Mundial 2026, ahora por menos de 10 euros",
+        "description": "Este 2026 vuelve sin duda el torneo más importante en el mundo del fútbol donde casi todos los países del mundo se enfrentan para proclamarse campeones. En Deporte-Outlet este año apuestan por lo retr",
+        "url": "https://www.compradiccion.com/moda-hombre/espana-brasil-italia-todas-camisetas-que-necesitas-para-mundial-2026-ahora-10-euros",
+        "source": "Compradiccion.com",
+        "published_at": "2026-05-06T07:00:26Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Rexona te lleva a vivir la Copa Mundial de la FIFA 2026™ junto a la Celeste: cómo participar",
+        "description": "El antitranspirante oficial de la Selección Uruguaya y sponsor de la Copa Mundial de la FIFA 2026™ Rexona lanzó una promoción que sortea un viaje a la experiencia mundialista completa: partidos, previ",
+        "url": "https://www.elpais.com.uy/ovacion/mundial/rexona-te-lleva-a-vivir-la-copa-mundial-de-la-fifa-2026-junto-a-la-celeste-como-participar",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-05-06T07:00:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Independiente Rivadavia, el equipo sensación de Ar...",
+        "description": "La Lepra de Mendoza está en el mejor momento de su historia en el fútbol argentino y también logró extender su buena racha a América: es el primer equipo que aseguró su lugar entre los 16 mejores de L",
+        "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16677288/independiente-rivadavia-mejor-equipo-del-futbol-argentino-sensacion",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-07T05:26:50",
+        "category": "liga"
+      },
+      {
+        "title": "El Mundial 2026, por Disney+ Plan Premium",
+        "description": "Se retransmitirán 30 partidos incluyendo la final y los partidos de las selecciones nacionales de Argentina, Colombia, Ecuador, Uruguay en esos países.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16586606/el-mundial-2026-llega-a-disney+-plan-premium-en-sudamerica-a-traves-de-espn",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-07T05:49:59",
+        "category": "seleccion"
+      },
+      {
+        "title": "FIFA amplía la dura sanción para Prestianni",
+        "description": "El argentino cumpliría los dos partidos de castigo ante Argelia y Austria en caso de ser citado por Scaloni.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16673477/fifa-amplia-sancion-prestianni-se-perderia-inicio-mundial",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-07T05:49:58",
+        "category": "seleccion"
+      },
+      {
+        "title": "PSG jugará su tercera final de Champions y va por ...",
+        "description": "El equipo que conduce Luis Enrique se plantó en la gran final que jugará ante Arsenal, en la que buscará el bicampeonato.",
+        "url": "https://www.espn.com.ar/futbol/champions-league/nota/_/id/16675257/psg-jugara-tercera-final-y-suena-con-su-segundo-titulo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-07T00:13:16",
+        "category": "general"
+      },
+      {
+        "title": "Cómo el gol tempranero de PSG esta vez condicionó ...",
+        "description": "Ousmane Dembélé abrió el marcador en el comienzo y ese gol definió la serie para el equipo francés, finalista de la Champions.",
+        "url": "https://www.espn.com.ar/futbol/champions-league/nota/_/id/16675554/como-el-gol-tempranero-psg-esta-vez-condiciono-plan-bayern-semis-champions",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-07T00:13:16",
+        "category": "general"
+      },
+      {
+        "title": "Sanción de FIFA a Gianluca Prestianni: ¿se pierde el Mundial 2026?",
+        "description": "El ente máximo del fútbol extendió a nivel global la sanción impuesta por la UEFA al delantero del Benfica por conducta discriminatoria. De ser convocado, no podrá jugar el inicio de la Copa del Mundo",
+        "url": "https://442.perfil.com/noticias/mundial-2026/sancion-de-fifa-a-gianluca-prestianni-se-pierde-el-mundial-2026-a35.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-06T13:20:28Z"
+      },
+      {
+        "title": "La Red lanzó Guardianes de la gloria, su apuesta mundialista",
+        "description": "La AM 910 presentó al equipo de periodistas que cubrirán la Copa del Mundo; Rodrigo Lussich se suma al “pase” entre Sylvestre y Duggan",
+        "url": "https://www.lanacion.com.ar/espectaculos/la-red-lanzo-guardianes-de-la-gloria-su-apuesta-mundialista-nid06052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-06T09:00:00Z"
+      },
+      {
+        "title": "FIFA amplió la sanción a Gianluca Prestianni tras el incidente con Vinicius y podría perderse el Mundial",
+        "description": "El futbolista argentino de Benfica recibió una suspensión internacional de seis partidos por conducta discriminatoria y, si es convocado por Lionel Scaloni, no podrá jugar los dos primeros encuentros ",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/fifa-amplio-la-sancion-a-gianluca-prestianni-tras-el-incidente-con-vinicius-y-podria-perderse-el-mundial",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-05-06T15:32:02Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 35 días para el Mundial 2026 ⚽\n\n📰 Boca sufre por los arqueros: se lesionó Leandro Brey y debió ser reemplazado por Javier García: Sucedió en el primer tiempo del partido ante Barcelona en Ecuador por la Copa Libertadores (La Nacion) ⚽\n\nNorman Whiteside cumple 61 años, pero su cumpleaños no tiene relevancia en la actualidad del Mundial 2026, por lo que no se incluye en el mensaje principal.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-07T15:36:15.047983",
+  "published_at": "2026-05-07T15:36:15.826282",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-07T15:36:15.047993"
 }

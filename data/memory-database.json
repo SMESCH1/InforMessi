@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-05-06T15:34:27.484636",
+  "last_updated": "2026-05-07T15:36:15.830556",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -78,7 +78,8 @@
       "2026-04-23",
       "2026-04-28",
       "2026-04-30",
-      "2026-05-05"
+      "2026-05-05",
+      "2026-05-07"
     ],
     "dato_mundialista": [
       "2026-03-28",
@@ -140,7 +141,8 @@
       "2026-05-03",
       "2026-05-04",
       "2026-05-05",
-      "2026-05-06"
+      "2026-05-06",
+      "2026-05-07"
     ],
     "seleccion": [
       "2026-03-26",
@@ -321,6 +323,9 @@
     ],
     "Cumpleaños de Dani Alves (43 años)": [
       "2026-05-06"
+    ],
+    "Cumpleaños de Norman Whiteside (61 años)": [
+      "2026-05-07"
     ]
   },
   "news_topics": {
@@ -428,6 +433,9 @@
     ],
     "partidos de la seleccion argentina en el mundial 2": [
       "2026-05-06"
+    ],
+    "boca sufre por los arqueros: se lesiono leandro br": [
+      "2026-05-07"
     ]
   },
   "phrases_used": [],
