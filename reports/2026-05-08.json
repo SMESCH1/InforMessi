@@ -4,14 +4,136 @@
   "data": {
     "date": "2026-05-08",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 34,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1960-05-08",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Franco Baresi",
+        "age": 66,
+        "description": "Cumpleaños de Franco Baresi (66 años)"
+      },
+      {
+        "date": "1966-05-08",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Cláudio Taffarel",
+        "age": 60,
+        "description": "Cumpleaños de Cláudio Taffarel (60 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "Lionel Messi, Timothée Chalamet y Bad Bunny se unieron para una publicidad mundialista",
+        "description": "El anunció que junto al cantante, al actor de Hollywood y otras estrellas del fútbol se viralizó en redes. Leer más",
+        "url": "https://exitoina.perfil.com/noticias/destacada/lionel-messi-timothee-chalamet-y-bad-bunny-se-unieron-para-una-publicidad-mundialista.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-06T22:44:04Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mundial 2026: preocupación en Estados Unidos por la baja demanda de reservas hoteleras",
+        "description": "A un mes de la Copa del Mundo, la asociación hotelera AHLA advierte que las reservas están por debajo de lo esperado. Costos altos y trabas en las visas frenan la llegada de los hinchas.\n Leer más",
+        "url": "https://442.perfil.com/noticias/mundial-2026/mundial-2026-alarma-en-hoteles-de-eeuu-por-reservas-a35.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-06T21:42:30Z",
+        "category": "mundial"
+      },
+      {
+        "title": "La Selección Mexicana amenaza con dejar sin Mundial a las figuras de la Liga MX: \"El que no venga a la cena, no ca al Mundial\"",
+        "description": "Ultimátum feroz de la Selección de México: advierten que los jugadores que no se unan hoy a la concentración de Javier Aguirre quedarán fuera de la lista definitiva para el Mundial 2026. Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/la-seleccion-mexicana-amenaza-con-dejar-sin-mundial-a-las-figuras-de-la-liga-mx-el-que-no-venga-a-la-cena-no-ca-al-mundial.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-06T20:16:39Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Philips Hue pretende animarte el mundial con Sports Live",
+        "description": "Philips Hue y Philips Smart Lighting “Connected by WiZ” sincronizan la iluminación inteligente del hogar con los partidos en directo.",
+        "url": "https://www.actualidadgadget.com/philips-hue-pretende-animarte-el-mundial-con-sports-live/",
+        "source": "Actualidadgadget.com",
+        "published_at": "2026-05-07T08:00:31Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Chema Martínez, premio Espiga del Deporte 2026: \"Tengo casi 55 años y corro cada día, es mi mejor alimento\"",
+        "description": "El excampeón de Europa de 10.000 será reconocido el 14 de mayo en Villanueva del Pardillo por su carrera y por impulsar el running popular.",
+        "url": "https://www.libertaddigital.com/deportes/mas-deporte/2026-05-07/chema-martinez-premio-espiga-del-deporte-2026-tengo-casi-55-anos-y-corro-cada-dia-es-mi-mejor-alimento-1b-7400805/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-05-07T07:25:58Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Javier Aguirre saca el látigo y no acepta preguntas: ⁠\"El que no venga estará fuera del Mundial\"",
+        "description": "Los futbolistas de la liga mexicana que fueron convocados a la selección iniciaron el miércoles por la noche la concentración, horas después de que el director técnico Javier Aguirre advirtió que los ",
+        "url": "https://www.mundodeportivo.com/futbol/mundial/20260507/1004179973/javier-aguirre-saca-latigo-no-acepta-preguntas-no-venga-estara-fuera-mundial.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-07T06:30:18Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Barça-Julián Álvarez: caminos opuestos en cuanto a títulos",
+        "description": "Julián Álvarez (26 años) aterrizó en el Atlético de Madrid en 2024 después de firmar una de las trayectorias más exitosas del fútbol reciente a nivel de títulos. A sus 24 años, el delantero argentino ",
+        "url": "https://www.mundodeportivo.com/futbol/fc-barcelona/20260507/1004179832/barca-julian-alvarez-caminos-opuestos-titulos.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-07T04:16:00Z",
+        "category": "general"
+      },
+      {
+        "title": "Casemiro se venga de Carragher restregándole sus Champions blancas: \"Queda resentimiento\"",
+        "description": "",
+        "url": "https://www.marca.com/futbol/real-madrid/2026/05/08/casemiro-venga-carragher-restregandole-champions-blancas-queda-resentimiento.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-08T08:15:05",
+        "category": "general"
+      },
+      {
+        "title": "Así está el MetLife Stadium a 72 días de la final del Mundial",
+        "description": "",
+        "url": "https://www.marca.com/futbol/mundial/2026/05/08/asi-metlife-stadium-72-dias-final-mundial-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-08T07:29:12",
+        "category": "mundial"
+      },
+      {
+        "title": "Todas las combinaciones de LaLiga para Europa: pueden ir hasta nueve",
+        "description": "LaLiga ya tiene cinco plazas de Champions aseguradas y aún puede ampliar su presencia en Europa League y Conference&nbsp;",
+        "url": "https://www.marca.com/futbol/primera-division/2026/05/08/todas-combinaciones-laliga-europa-nueve.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-08T07:08:27",
+        "category": "general"
+      },
+      {
+        "title": "Francia ganará la final del Mundial a España, según Bank of America",
+        "description": "La Copa del Mundo de fútbol, que se celebrará entre el 11 de junio y el 19 de julio en Canadá, EEUU y México, ha monopolizado el torrente informativo. Tanto es así que una de las mayores entidades fin",
+        "url": "https://www.elperiodico.com/es/economia/20260507/francia-ganara-final-mundial-espana-129957933",
+        "source": "Elperiodico.com",
+        "published_at": "2026-05-07T12:33:59Z"
+      },
+      {
+        "title": "Lionel Messi, Timothée Chalamet y Bad Bunny se unieron para una publicidad mundialista",
+        "description": "El anunció que junto al cantante, al actor de Hollywood y otras estrellas del fútbol se viralizó en redes. Leer más",
+        "url": "https://exitoina.perfil.com/noticias/destacada/lionel-messi-timothee-chalamet-y-bad-bunny-se-unieron-para-una-publicidad-mundialista.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-06T22:44:04Z"
+      },
+      {
+        "title": "Mundial 2026: preocupación en Estados Unidos por la baja demanda de reservas hoteleras",
+        "description": "A un mes de la Copa del Mundo, la asociación hotelera AHLA advierte que las reservas están por debajo de lo esperado. Costos altos y trabas en las visas frenan la llegada de los hinchas.\n Leer más",
+        "url": "https://442.perfil.com/noticias/mundial-2026/mundial-2026-alarma-en-hoteles-de-eeuu-por-reservas-a35.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-06T21:42:30Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 34 días para el Mundial 2026 ⚽\n\n🎉 Franco Baresi cumple 66 años, un gran legado de la selección italiana y una figura emblemática en el fútbol mundial.\n\n📰 Mundial 2026: preocupación en Estados Unidos por la baja demanda de reservas hoteleras. A un mes de la Copa del Mundo, la asociación hotelera AHLA advierte que las reservas están por debajo de lo esperado.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-08T15:02:30.436109",
+  "published_at": "2026-05-08T15:02:31.099094",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-08T15:02:30.436122"
 }
