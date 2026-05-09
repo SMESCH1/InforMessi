@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-05-08T15:02:31.105594",
+  "last_updated": "2026-05-09T14:20:13.764426",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -88,7 +88,8 @@
       "2026-04-11",
       "2026-04-18",
       "2026-04-25",
-      "2026-05-02"
+      "2026-05-02",
+      "2026-05-09"
     ],
     "dato_pais_sede": [
       "2026-03-29",
@@ -144,7 +145,8 @@
       "2026-05-05",
       "2026-05-06",
       "2026-05-07",
-      "2026-05-08"
+      "2026-05-08",
+      "2026-05-09"
     ],
     "seleccion": [
       "2026-03-26",
@@ -173,7 +175,8 @@
       "2026-05-04",
       "2026-05-05",
       "2026-05-06",
-      "2026-05-08"
+      "2026-05-08",
+      "2026-05-09"
     ]
   },
   "events_mentioned": {
@@ -335,6 +338,9 @@
     ],
     "Cumpleaños de Cláudio Taffarel (60 años)": [
       "2026-05-08"
+    ],
+    "Argentina derrota a Inglaterra en Wembley por primera vez (extraoficial).": [
+      "2026-05-09"
     ]
   },
   "news_topics": {
@@ -448,6 +454,9 @@
     ],
     "mundial 2026: preocupacion en estados unidos por l": [
       "2026-05-08"
+    ],
+    "\"dai dai\": shakira presenta la cancion oficial del": [
+      "2026-05-09"
     ]
   },
   "phrases_used": [],

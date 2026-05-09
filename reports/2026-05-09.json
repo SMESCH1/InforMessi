@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-05-09",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 33,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1951-05-09",
@@ -14,12 +17,114 @@
         "description": "Argentina derrota a Inglaterra en Wembley por primera vez (extraoficial)."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "La AFA pidió una amnistía para que Nicolás Otamendi juegue el debut en el Mundial: el antecedente favorable",
+        "description": "El defensor fue expulsado en la última fecha de las eliminatorias, frente a Ecuador; se espera una respuesta para la próxima semana",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/la-afa-pidio-una-amnistia-para-que-nicolas-otamendi-juegue-el-debut-en-el-mundial-el-antecedente-nid07052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-07T23:47:29Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "\"Dai Dai\": Shakira presenta la canción oficial del Mundial de Fútbol 2026",
+        "description": "Es la cuarta vez que la colombiana hace parte de la música oficial de la Copa Mundial de la FIFA.",
+        "url": "https://www.bbc.com/mundo/articles/cp9pygr7xgjo",
+        "source": "BBC News",
+        "published_at": "2026-05-07T22:25:57Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Argentina pide a la FIFA que retire la sanción a Otamendi",
+        "description": "La Asociación del Fútbol Argentino (AFA) solicitó este jueves a la FIFA que autorice que el defensa Nicolás Otamendi pueda jugar el primer partido de la selección albiceleste en el Mundial 2026, pese ",
+        "url": "https://www.mundodeportivo.com/futbol/internacional/20260508/1004180367/argentina-pide-fifa-retire-sancion-otamendi.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-07T22:17:28Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El fútbol argentino es una \"trituradora\" de DTs: ¿cuánto dura un técnico en el cargo?",
+        "description": "Un informe del CIES reveló la alarmante inestabilidad en los bancos locales: el 66,7% no llega al año de trabajo y el promedio de permanencia es de apenas 8 meses. Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/el-futbol-argentino-es-una-trituradora-de-dts-cuanto-dura-un-tecnico-en-el-cargo.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-07T15:39:17Z",
+        "category": "general"
+      },
+      {
+        "title": "Así ve el Atlético la situación de Julián Álvarez y su futuro",
+        "description": "El Atlético de Madrid ya trabaja en la próxima temporada. Tras la eliminación de la Champions League, en los despachos del Metropolitano tienen claro cuál es el panorama del presente curso. Se estuvo ",
+        "url": "https://www.mundodeportivo.com/futbol/atletico-madrid/20260507/1004180015/asi-ve-atletico-situacion-julian-alvarez-futuro.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-07T08:30:04Z",
+        "category": "general"
+      },
+      {
+        "title": "Barça-Julián Álvarez: caminos opuestos en cuanto a títulos",
+        "description": "Julián Álvarez (26 años) aterrizó en el Atlético de Madrid en 2024 después de firmar una de las trayectorias más exitosas del fútbol reciente a nivel de títulos. A sus 24 años, el delantero argentino ",
+        "url": "https://www.mundodeportivo.com/futbol/fc-barcelona/20260507/1004179832/barca-julian-alvarez-caminos-opuestos-titulos.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-07T04:16:00Z",
+        "category": "general"
+      },
+      {
+        "title": "Real Sociedad - Betis: horario y dónde ver hoy por TV y online el partido de LaLiga EA Sports",
+        "description": "Los verdiblancos buscan acariciar la Champions ante un rival al que aventajan en 10 puntos",
+        "url": "https://www.marca.com/futbol/primera-division/2026/05/09/real-sociedad-betis-horario-ver-hoy-tv-online-partido-laliga-ea-sports.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-09T07:56:26",
+        "category": "general"
+      },
+      {
+        "title": "El gol del Valencia, bajo mínimos históricos que da muestras de la alarma que hay",
+        "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+        "url": "https://www.marca.com/futbol/valencia/2026/05/09/gol-valencia-minimos-historicos-da-muestras-alarma-hay.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-09T07:47:02",
+        "category": "general"
+      },
+      {
+        "title": "Luis Enrique, un hambre voraz y el p... amo",
+        "description": "Ha conseguido la máquina perfecta tras superar su fracaso en el Mundial con España",
+        "url": "https://www.marca.com/futbol/psg/opinion/2026/05/09/luis-enrique-hambre-voraz-p-amo.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-09T06:35:56",
+        "category": "mundial"
+      },
+      {
+        "title": "Matthias Jaissle: \"Este doblete es algo único\"",
+        "description": "El entrenador de Al Ahli atiende a MARCA tras coronarse campeón de las dos últimas ediciones de la AFC Champions League con apenas 38 años",
+        "url": "https://www.marca.com/futbol/liga-arabia-saudi/2026/05/09/matthias-jaissle-doblete-unico.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-09T06:08:26",
+        "category": "general"
+      },
+      {
+        "title": "Otamendi podrá jugar para Argentina el primer partido del Mundial gracias a una amnistía de la FIFA",
+        "description": "El defensor debía cumplir una fecha de suspensión por haber sido expulsado en la última feche de las eliminatorias; la medida alcanza también a otros dos futbolistas",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/otamendi-podra-jugar-para-argentina-el-primer-partido-del-mundial-gracias-a-una-amnistia-de-la-fifa-nid08052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-08T14:18:46Z"
+      },
+      {
+        "title": "Lista de 55 de la selección argentina para el Mundial 2026: el comunicado de la AFA",
+        "description": "Scaloni tendría confirmados a 22 de los 26 convocados para la Copa del Mundo; de los cuatro cupos vacantes, tres estarían cerrados y varios futbolistas pelean por el último lugar",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/lista-de-55-de-la-seleccion-argentina-para-el-mundial-2026-el-comunicado-de-la-afa-nid08052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-08T13:43:57Z"
+      },
+      {
+        "title": "FIFA da lugar a la amnistía y Nicolás Otamendi podrá estar con Argentina en el debut del Mundial 2026",
+        "description": "FIFA levantará sanciones previa y futbolistas como Nicolás Otamendi y Moisés Caicedo se \"limpiarán\" para el estreno Mundialista. AFA había anunciado gestiones de Chiqui Tapia en las últimas horas.\n Le",
+        "url": "https://442.perfil.com/noticias/mundial-2026/amnistia-fifa-mundial-2026-otamendi-podra-jugar-el-debut-a35.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-08T12:56:22Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 33 días para el Mundial 2026 ⚽\n\n📰 \"Dai Dai\": Shakira presenta la canción oficial del Mundial de Fútbol 2026. Es la cuarta vez que la colombiana hace parte de la música oficial de la Copa Mundial de la FIFA. \n\n🏆 Argentina derrota a Inglaterra en Wembley por primera vez (extraoficial) en el partido del día. \n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-09T14:20:13.135821",
+  "published_at": "2026-05-09T14:20:13.758753",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-09T14:20:13.135831"
 }
