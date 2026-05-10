@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-05-09T14:20:13.764426",
+  "last_updated": "2026-05-10T14:32:44.469608",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -13,7 +13,8 @@
       "2026-04-06",
       "2026-04-24",
       "2026-04-25",
-      "2026-05-02"
+      "2026-05-02",
+      "2026-05-10"
     ],
     "Scaloni": [
       "2026-04-01",
@@ -97,7 +98,8 @@
       "2026-04-12",
       "2026-04-19",
       "2026-04-26",
-      "2026-05-03"
+      "2026-05-03",
+      "2026-05-10"
     ]
   },
   "topics_mentioned": {
@@ -146,7 +148,8 @@
       "2026-05-06",
       "2026-05-07",
       "2026-05-08",
-      "2026-05-09"
+      "2026-05-09",
+      "2026-05-10"
     ],
     "seleccion": [
       "2026-03-26",
@@ -176,7 +179,8 @@
       "2026-05-05",
       "2026-05-06",
       "2026-05-08",
-      "2026-05-09"
+      "2026-05-09",
+      "2026-05-10"
     ]
   },
   "events_mentioned": {
@@ -341,6 +345,15 @@
     ],
     "Argentina derrota a Inglaterra en Wembley por primera vez (extraoficial).": [
       "2026-05-09"
+    ],
+    "Cumpleaños de Chino Garcé (43 años)": [
+      "2026-05-10"
+    ],
+    "Cumpleaños de Martínez Quarta (30 años)": [
+      "2026-05-10"
+    ],
+    "Cumpleaños de Marcos Senesi (29 años)": [
+      "2026-05-10"
     ]
   },
   "news_topics": {
@@ -457,6 +470,9 @@
     ],
     "\"dai dai\": shakira presenta la cancion oficial del": [
       "2026-05-09"
+    ],
+    "lionel messi dijo cuales son sus selecciones favor": [
+      "2026-05-10"
     ]
   },
   "phrases_used": [],

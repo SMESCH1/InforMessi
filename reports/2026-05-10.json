@@ -4,15 +4,18 @@
   "data": {
     "date": "2026-05-10",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 32,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1983-05-10",
         "type": "birthday",
         "priority": "low",
         "person": "Chino Garcé",
-        "age": 42,
-        "description": "Cumpleaños de Ariel Garcé."
+        "age": 43,
+        "description": "Cumpleaños de Chino Garcé (43 años)"
       },
       {
         "date": "1996-05-10",
@@ -20,15 +23,125 @@
         "priority": "low",
         "person": "Martínez Quarta",
         "age": 30,
-        "description": "Cumpleaños de Martínez Quarta."
+        "description": "Cumpleaños de Martínez Quarta (30 años)"
+      },
+      {
+        "date": "1997-05-10",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Marcos Senesi",
+        "age": 29,
+        "description": "Cumpleaños de Marcos Senesi (29 años)"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Lionel Messi dijo cuáles son sus selecciones favoritas para el Mundial 2026 y cómo ve a Argentina",
+        "description": "El rosarino participó en una charla en un canal de YouTube, entre opiniones, revelaciones y risas",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/lionel-messi-dijo-cuales-son-sus-selecciones-favoritas-para-el-mundial-2026-y-como-ve-a-argentina-nid08052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-08T22:51:54Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Perdonado: Moisés Caicedo recibirá amnistía por FIFA para la Copa del Mundo",
+        "description": "El jugador ecuatoriano podrá ser parte de su Selección luego de perder su sanción",
+        "url": "https://www.record.com.mx/historia/perdonado-moises-caicedo-recibira-amnistia-por-fifa-para-la-copa-del-mundo-2026050821531493051",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-08T21:53:14Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El Mundial 2026 tendrá tres ceremonias de apertura en tres países con Katy Perry, J Balvin y Michael Bublé",
+        "description": "La FIFA anunció este viernes que México, Estados Unidos y Canadá tendrán tres ceremonias históricas para la inauguración del Mundial 2026, con una amplia gama de artistas internacionales entre los que",
+        "url": "https://www.elperiodico.com/es/deportes/20260509/mundial-2026-tres-ceremonias-apertura-katy-perry-j-balvin-buble-130026286",
+        "source": "Elperiodico.com",
+        "published_at": "2026-05-09T08:22:37Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Un Mundial con tres ceremonias de apertura y tres voces estelares",
+        "description": "La FIFA anunció ayer que México, Estados Unidos y Canadá tendrán tres ceremonias históricas para la inauguración del Mundial 2026 con una amplia gama de artistas internacionales entre los que destacan",
+        "url": "https://www.mundodeportivo.com/futbol/mundial/20260509/1004180800/mundial-tres-ceremonias-apertura-tres-voces-estelares.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-09T07:34:39Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Olivia Rodrigo practica yoga, patinaje sobre hielo y ¡Barça!",
+        "description": "El fútbol y la música siempre han ido de la mano, ya sea en los grandes escenarios como un Mundial o en los vestuarios donde una victoria se celebra con canciones a todo volumen. Y en ese cruce consta",
+        "url": "https://www.mundodeportivo.com/ocio/20260509/1004179336/pop-mundial-camiseta-clasico-olivia-rodrigo-entra-universo-barca.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-09T05:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Incógnita James Rodríguez: al Mundial sin equipo y con la retirada en el horizonte",
+        "description": "Dejará Minnesota el jueves para unirse a la concentración de Colombia de cara a la preparación mundialista y se especula con que podría colgar las botas tras el verano",
+        "url": "https://www.marca.com/futbol/2026/05/10/incognita-james-rodriguez-mundial-equipo-retirada-horizonte.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-10T07:42:45",
+        "category": "mundial"
+      },
+      {
+        "title": "Gavi saca pecho: \"No hay que obsesionarse con la Champions, hemos hecho un temporadón\"",
+        "description": "El andaluz habla con Movistar Plus + y valora positivamente la campaña azulgrana antes del Clásico",
+        "url": "https://www.marca.com/futbol/barcelona/2026/05/10/gavi-saca-pecho-hay-obsesionarse-champions-hemos-hecho-temporadon.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-10T07:10:23",
+        "category": "general"
+      },
+      {
+        "title": "'El juego por dentro': Ibai Gómez y la mente en el fútbol: \"Si el jugador piensa bien, es más rápido y más preciso\"",
+        "description": "Escúchalo gratis en Spotify, Ivoox, Apple Podcast, Omny, MARCA.com y Radio MARCA",
+        "url": "https://www.marca.com/futbol/2026/05/10/juego-ibai-gomez-mente-futbol-jugador-piensa-bien-rapido-preciso.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-10T03:00:57",
+        "category": "general"
+      },
+      {
+        "title": "A qué hora es el Palma - Sporting: horario, canal y dónde ver hoy en TV la final de la Champions de futsal",
+        "description": "Los de Vadillo se juegan la gran cita ante los portugueses. El objetivo: la cuarta Copa de Europa consecutiva",
+        "url": "https://www.marca.com/futbol/futbol-sala/2026/05/10/hora-palma-sporting-horario-canal-ver-hoy-tv-final-champions-futsal.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-10T00:14:27",
+        "category": "general"
+      },
+      {
+        "title": "Las portadas del día",
+        "description": "Así vienen los periódicos deportivos de este domingo 10 de mayo de 2026.",
+        "url": "https://www.marca.com/futbol/album/2026/05/10/portadas-dia.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-09T23:43:54",
+        "category": "mundial"
+      },
+      {
+        "title": "Lionel Messi dijo cuáles son sus selecciones favoritas para el Mundial 2026 y cómo ve a Argentina",
+        "description": "El rosarino participó en una charla en un canal de YouTube, entre opiniones, revelaciones y risas",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/lionel-messi-dijo-cuales-son-sus-selecciones-favoritas-para-el-mundial-2026-y-como-ve-a-argentina-nid08052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-08T22:51:54Z"
+      },
+      {
+        "title": "Messi da sus favoritos para el próximo Mundial",
+        "description": "El astro argentino pidió a sus compatriotas \"ilusionarse\" de cara al próximo certamen.",
+        "url": "https://actualidad.rt.com/actualidad/603895-messi-da-favoritos-proximo-mundial",
+        "source": "RT",
+        "published_at": "2026-05-08T21:35:56Z"
+      },
+      {
+        "title": "Oficial: Otamendi podrá jugar el debut de Argentina en el Mundial 2026 tras el perdón a su sanción de FIFA",
+        "description": "El Bureau de la casa madre del fútbol internacional confirmó la amnistía para el defensor y también para el ecuatoriano Moisés Caicedo; ambos habían sido expulsados en el último duelo de Eliminatoria.",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/oficial-otamendi-podra-jugar-el-debut-de-argentina-en-el-mundial-2026-tras-el-perdon-a-su-sancion-de-fifa",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-05-08T15:36:58Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 32 días para el Mundial 2026 ⚽\n\n📅 Chino Garcé cumple 43 años, un referente en la historia del fútbol argentino que sigue marcando la diferencia en la Scaloneta 🤝. \n\n📰 Lionel Messi dijo cuáles son sus selecciones favoritas para el Mundial 2026 y cómo ve a Argentina en la competencia. El capitán albiceleste participó en una charla en un canal de YouTube, compartiendo opiniones y revelaciones que no pueden perderse ⚽\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-10T14:32:43.713182",
+  "published_at": "2026-05-10T14:32:44.462130",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-10T14:32:43.713194"
 }
