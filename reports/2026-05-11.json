@@ -4,14 +4,128 @@
   "data": {
     "date": "2026-05-11",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 31,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1984-05-11",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Andrés Iniesta",
+        "age": 42,
+        "description": "Cumpleaños de Andrés Iniesta (42 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "Mundial 2026: Argelia, todo lo que debes saber para su regreso a la Copa del Mundo",
+        "description": "Los “Zorros del Desierto” vuelven a un Mundial tras 12 años de ausencia y buscarán superar su histórica actuación de 2014",
+        "url": "https://www.record.com.mx/historia/mundial-2026-argelia-todo-lo-que-debes-saber-para-su-regreso-a-la-copa-del-mundo-2026050119095218137",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-10T06:30:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "‘Chicharito’ Hernández lanza ‘dardo’ a la Selección rumbo al Mundial 2026: ‘No llega en un nivel óptimo’",
+        "description": "Javier 'El Chicharito' Hernández analizó el momento que atraviesa la Selección Mexicana rumbo al Mundial de 2026 y explicó por qué considera que el Tri todavía puede sorprender.",
+        "url": "https://www.elfinanciero.com.mx/deportes/mundial-2026/2026/05/09/chicharito-hernandez-lanza-dardo-a-la-seleccion-rumbo-al-mundial-2026-no-llega-en-un-nivel-optimo/",
+        "source": "El Financiero",
+        "published_at": "2026-05-10T04:13:51Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Copa del Mundo 2026: el torneo que promete imponer nuevas marcas en el último baile de Messi y Cristiano",
+        "description": "Por primera vez en la historia, el Mundial tendrá 48 países y el campeón jugará ocho partidos. Formato que promete pulverizar varios registros y que tiene a ambos ídolos como grandes protagonistas.",
+        "url": "https://www.latercera.com/el-deportivo/noticia/copa-del-mundo-2026-el-torneo-que-promete-imponer-nuevas-marcas-en-el-ultimo-baile-de-messi-y-cristiano/",
+        "source": "Latercera.com",
+        "published_at": "2026-05-10T01:05:49Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Irán confirma que acudirá al Mundial si se respetan sus condiciones",
+        "description": "La selección iraní pide medidas de seguridad reforzadas en aeropuertos, hoteles y en las rutas hacia los estadios, así como prioridad en su movilidad.",
+        "url": "https://aristeguinoticias.com/1005/deportes/iran-confirma-que-acudira-al-mundial-si-se-respetan-sus-condiciones/",
+        "source": "Aristeguinoticias.com",
+        "published_at": "2026-05-10T08:00:27Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mundial 2026 de fútbol en Estados Unidos, Canadá y México: formato del torneo y calendario completo con todos los partidos",
+        "description": "Durante los dos próximos meses, los aficionados al fútbol podrán disfrutar del juego de sus selecciones favoritas en sus jornadas determinadas.",
+        "url": "https://www.elconfidencial.com/deportes/futbol/2026-05-10/mundial-futbol-formato-torneo-calendario-completo-todos-partidos_4352759/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-05-10T07:57:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Independiente Rivadavia, de ser un club “en ruinas” a impactar como sensación del fútbol sudamericano",
+        "description": "Ascendió, aumentó de 156 a 15.000 socios, ganó la Copa Argentina y avanza en la Libertadores: la transformación de la Lepra mendocina, que esta noche busca el pase a los cuartos de final ante Unión",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/independiente-rivadavia-de-ser-un-club-en-ruinas-a-impactar-como-sensacion-del-futbol-sudamericano-nid09052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-09T11:36:18Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Del descenso a Europa: Valencia no tiene término medio",
+        "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+        "url": "https://www.marca.com/futbol/valencia/2026/05/11/descenso-europa-valencia-termino-medio.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-11T10:17:25",
+        "category": "general"
+      },
+      {
+        "title": "Irán confisca propiedades del exfutbolista Ali Karimi por colaborar con países \"hostiles\"",
+        "description": "El excapitán de la selección iraní vive en Canadá desde 2022",
+        "url": "https://www.marca.com/futbol/2026/05/11/iran-confisca-propiedades-exfutbolista-ali-karimi-colaborar-paises-hostiles.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-11T10:11:11",
+        "category": "seleccion"
+      },
+      {
+        "title": "El Milan sigue en caída libre... ¡Se complica su clasificación a Champions!",
+        "description": "Los 'rossoneri' llevan solo dos victorias en los últimos ocho encuentros de Serie A<span class=\"\"></span>",
+        "url": "https://www.marca.com/futbol/liga-italiana/2026/05/11/milan-sigue-caida-libre-complica-clasificacion-champions.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-11T09:54:53",
+        "category": "general"
+      },
+      {
+        "title": "Ganar lejos de Orriols, la última pieza del puzzle para seguir pensando en Primera",
+        "description": "El Levante, con tan solo un triunfo&nbsp;como visitante en este 2026, buscará sumar de tres en Balaidos donde ha sumado en seis de las últimas diez visitas",
+        "url": "https://www.marca.com/futbol/levante/2026/05/11/ganar-lejos-orriols-ultima-pieza-puzzle-seguir-pensando-primera.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-11T09:22:54",
+        "category": "mundial"
+      },
+      {
+        "title": "Timothée Chalamet lidera el espectacular anuncio de Adidas para el Mundial 2026",
+        "description": "Timothée Chalamet lidera el anuncio de Adidas para el Mundial 2026, un corto de fútbol callejero con Messi, Yamal, Bellingham y Bad Bunny.",
+        "url": "https://www.creativosonline.org/timothee-chalamet-lidera-el-espectacular-anuncio-de-adidas-para-el-mundial-2026.html",
+        "source": "Creativosonline.org",
+        "published_at": "2026-05-10T15:39:48Z"
+      },
+      {
+        "title": "La lista de Scaloni para el Mundial 2026: la AFA comunicó los detalles de la convocatoria",
+        "description": "El DT tendría confirmados a 22 de los 26 convocados para la Copa del Mundo; de los cuatro cupos vacantes, tres estarían cerrados y varios futbolistas pelean por el último lugar",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/la-lista-de-scaloni-para-el-mundial-2026-la-afa-comunico-los-detalles-de-la-convocatoria-nid09052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-09T21:29:58Z"
+      },
+      {
+        "title": "Romario apuesta por Neymar y es muy exigente con Ancelotti: \"No le renovaría\"",
+        "description": "Romario, campeón mundial con Brasil en 1994, considera que Neymar es un futbolista excepcional que debe ser convocado para el Mundial 2026 y condiciona la renovación del contrato del actual técnico de",
+        "url": "https://www.mundodeportivo.com/futbol/internacional/20260509/1004181039/romario-apuesta-neymar-exigente-ancelotti-no-le-renovaria.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-09T17:09:07Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 31 días para el Mundial 2026 ⚽\n\n📰 ‘Chicharito’ Hernández lanzó ‘dardo’ a la Selección rumbo al Mundial 2026: ‘No llega en un nivel óptimo’. Javier ‘El Chicharito’ Hernández analizó el momento que atraviesa la Selección Mexicana rumbo al Mundial de 2026 y explicó por qué considera que el Tricolor no llega a la competencia en un nivel óptimo.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-11T16:10:35.794823",
+  "published_at": "2026-05-11T16:10:36.572971",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-11T16:10:35.794834"
 }
