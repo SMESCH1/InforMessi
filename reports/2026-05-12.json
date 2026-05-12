@@ -4,14 +4,128 @@
   "data": {
     "date": "2026-05-12",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 30,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1988-05-12",
+        "type": "birthday",
+        "priority": "medium",
+        "person": "Marcelo Vieira",
+        "age": 38,
+        "description": "Cumpleaños de Marcelo Vieira (38 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "Tensión geopolítica y críticas a la FIFA a un mes del Mundial",
+        "description": "Los Ángeles., La cuenta regresiva de un mes para el Mundial 2026, con el que la FIFA pretende obtener ganancias de entre 11 y 14 mil millones de dólares, comenzará este lunes marcada por las tensiones",
+        "url": "https://www.jornada.com.mx/2026/05/11/deportes/a12n1dep",
+        "source": "Jornada.com.mx",
+        "published_at": "2026-05-11T08:27:27Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Nahuel Molina se desgarró en Atletico de Madrid con miras al debut de la selección argentina en el Mundial 2026",
+        "description": "El defensor se suma a la lista de los que llegan justo al partido frente a Argelia",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/nahuel-molina-se-desgarro-en-atletico-de-madrid-con-miras-al-debut-de-la-seleccion-argentina-en-el-nid10052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-10T18:09:47Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mundial 2026: calendario de España, fechas de los partidos y quiénes son los rivales de la selección española en la fase de grupos",
+        "description": "La selección española ya conoce sus fechas, horarios y rivales en el Grupo H del Mundial 2026, donde se enfrentará a Cabo Verde, Arabia Saudita y Uruguay",
+        "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-05-11/mundial-20206-calendario-espana-fechas-partidos_4352962/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-05-11T07:22:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Condenan a un futbolista a prisión condicional por el codazo en la mandíbula que dio la vuelta al mundo",
+        "description": "",
+        "url": "https://www.marca.com/futbol/premier-league/2026/05/12/condenan-futbolista-prision-condicional-codazo-mandibula-dio-vuelta-mun-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-12T09:16:50",
+        "category": "general"
+      },
+      {
+        "title": "El nuevo negocio de Messi en Barcelona valorado en 11,5 millones",
+        "description": "El argentino compra las míticas galerías Wagner, un complejo que permanecía cerrado desde 1993 y que se someterá a una rehabilitación integral",
+        "url": "https://www.marca.com/futbol/2026/05/12/nuevo-negocio-messi-barcelona-valorado-11-5-millones.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-12T08:53:20",
+        "category": "seleccion"
+      },
+      {
+        "title": "Madrid instalará una pantalla gigante en Colón para ver a España en el Mundial",
+        "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+        "url": "https://www.marca.com/futbol/mundial/2026/05/12/madrid-instalara-pantalla-gigante-colon-ver-espana-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-12T08:27:14",
+        "category": "mundial"
+      },
+      {
+        "title": "Davide Ancelotti: \"Mi padre no es sólo un gestor de campeones\"",
+        "description": "El ahora asistente de Carletto en la selección brasileña habla de cómo afronta este nuevo proyecto mundialista, de su etapa en el Real Madrid",
+        "url": "https://www.marca.com/futbol/mundial/2026/05/12/davide-ancelotti-mi-padre-gestos-campeones.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-12T08:08:48",
+        "category": "seleccion"
+      },
+      {
+        "title": "\"Bastoni no es insustituible... Hasta Messi dejó el Barça\"",
+        "description": "Desde Italia aseguran que esta semana habrá una reunión entre el club azulgrana y el entorno del jugador, al que Vieri no ve imposible de sustituir en el Inter",
+        "url": "https://www.marca.com/futbol/2026/05/12/bastoni-insustituible-messi-dejo-barca.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-12T08:06:12",
+        "category": "seleccion"
+      },
+      {
+        "title": "A qué hora es el Betis - Elche: horario y dónde ver hoy en TV y online el partido de LaLiga EA Sports",
+        "description": "Verdiblancos y franjiverdes se citan en La Cartuja con la Champions y el descenso en juego",
+        "url": "https://www.marca.com/futbol/primera-division/2026/05/12/betis-elche-horario-ver-hoy-tv-online-partido-laliga-ea-sports.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-12T07:17:42",
+        "category": "general"
+      },
+      {
+        "title": "Pablo Longoria, 'rescatado' para el fútbol gracias a River Plate: qué se pretende del ejecutivo español",
+        "description": "Ya ejerce con plenas funciones deportivas, está llamado a ser un captador de jugadores, gestor de fichajes y aportará contactos esenciales para el crecimiento del club",
+        "url": "https://www.marca.com/futbol/argentina/2026/05/12/pablo-longoria-rescatado-futbol-gracias-river-plate-pretende-ejecutivo-espanol.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-12T06:55:47",
+        "category": "liga"
+      },
+      {
+        "title": "Argentina revela prelista para el Mundia 2026; campeón del mundo en 2022 es borrado",
+        "description": "La Albiceleste entregó a FIFA la prelista de 55 jugadores para el Mundial; Paulo Dybala el gran ausente en la convocatoria",
+        "url": "https://www.record.com.mx/historia/argentina-revela-prelista-para-el-mundia-2026-campeon-del-mundo-en-2022-es-borrado-2026051114321641769",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-11T14:32:16Z"
+      },
+      {
+        "title": "Argentina revela prelista para el Mundial 2026; campeón del mundo en 2022 es borrado",
+        "description": "La Albiceleste entregó a FIFA la prelista de 55 jugadores para el Mundial; Paulo Dybala el gran ausente en la convocatoria",
+        "url": "https://www.record.com.mx/historia/argentina-revela-prelista-para-el-mundial-2026-campeon-del-mundo-en-2022-es-borrado-2026051114321641769",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-11T14:32:16Z"
+      },
+      {
+        "title": "Primera convocatoria final: Bosnia y Herzegovina confirmó su lista para el Mundial 2026",
+        "description": "En un movimiento sin precedentes, Sergej Barbarez anunció hoy los 26 convocados de Bosnia y Herzegovina. Es la primera selección del planeta en confirmar su plantel para la cita en EE. UU., México y C",
+        "url": "https://442.perfil.com/noticias/futbol/primera-convocatoria-final-bosnia-y-herzegovina-confirmo-su-lista-para-el-mundial-2026.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-11T14:27:18Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 30 días para el Mundial 2026 ⚽\n\n📰 La Nación informa que Nahuel Molina se desgarró en Atletico de Madrid con miras al debut de la selección argentina en el Mundial 2026. Este golpe es un problema para la Scaloneta, que ya está en la recta final de la preparación ⚠️\n\n📰 En otro tema, Argentina reveló la prelista para el Mundial 2026, con 55 jugadores en la lista. Paulo Dybala no pudo ser convocado debido a su lesión 🤕\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-12T15:45:38.717892",
+  "published_at": "2026-05-12T15:45:39.584664",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-12T15:45:38.717904"
 }
