@@ -4,24 +4,119 @@
   "data": {
     "date": "2026-05-13",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 29,
-    "events": [
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [],
+    "news": [
       {
-        "date": "2026-05-13",
-        "type": "historical",
-        "priority": "low",
-        "description": "Día Mundial delentrenador de fútbol.En homenaje a los profesionales cuya labor es clave en la formación de equipos y sus estrategias. La fecha fue elegida en honor al escocésAlexander Ferguson, DT del",
-        "historical_year": "2013",
-        "source": "Wikipedia",
-        "url": "https://es.wikipedia.org/wiki/13_de_mayo"
+        "title": "¿Jugará Irán el Mundial de fútbol? El delicado equilibrio de la FIFA y EE.UU. para garantizar su participación",
+        "description": "La federación iraní de fútbol sostiene que asistirá al evento, pero ha puesto condiciones para garantizar la seguridad y la integridad de su comitiva.",
+        "url": "https://www.bbc.com/mundo/articles/c3w246p4wpgo",
+        "source": "BBC News",
+        "published_at": "2026-05-11T22:00:24Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El Mundial de Marcelo Tinelli",
+        "description": "El conductor cubrirá la competencia en modo vintage, con su primo El Tirri, Martín Palermo y Juan Martín del Potro. Su sueño, es recuperar al Oso Arturo y la vieja guardia de humoristas. Leer más",
+        "url": "https://noticias.perfil.com/noticias/informacion-general/el-mundial-de-marcelo-tinelli.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-11T21:37:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Mundial: ¿Hasta cuándo tiene tiempo Bielsa de enviar la lista de convocados de Uruguay?",
+        "description": "De los 26 futbolistas que serán citados, la mayoría ya aseguró su presencia y hay escaso lugar a especulaciones de última hora.",
+        "url": "https://www.montevideo.com.uy/Deportes/Mundial--Hasta-cuando-tiene-tiempo-Bielsa-de-enviar-la-lista-de-convocados-de-Uruguay--uc961686",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-05-11T21:23:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Cannes 2026: por qué Hollywood casi desaparece del festival y qué lugar inesperado ocupa la Argentina",
+        "description": "Nuestro país estará presente con un documental sobre “la mano de Dios”, el regreso de Lisandro Alonso, el rescate de un film histórico y la presencia de Leonardo Sbaraglia en la alfombra roja",
+        "url": "https://www.lanacion.com.ar/espectaculos/cine/cannes-2026-por-que-hollywood-casi-desaparece-del-festival-y-que-lugar-inesperado-ocupa-la-argentina-nid12052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-12T09:00:01Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "La llave para ver el Mundial 2026 está ahora a mitad de precio: disfruta en DAZN del mejor fútbol",
+        "description": "La cuenta atrás para el Mundial 2026 ya ha empezado. En un mes ya estaremos disfrutando de la competición de selecciones más importante del planeta, viendo cada partido delante del sofá y aprendiéndon",
+        "url": "https://www.mundodeportivo.com/elrecomendador/deportes/20260512/1004181779/llave-ver-mundial-2026-mitad-precio-disfruta-dazn-mejor-futbol-mkt-dasp.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-12T04:50:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "De Santiago Beltrán a Tomás Aranda, quiénes son los jugadores del Fútbol Argentino en la prelista de Scaloni",
+        "description": "Diez futbolistas de la Liga Profesional aparecen en la reserva de Lionel Scaloni para Selección Argentina. ¿Quiénes tienen chances de jugar el Mundial 2026?\n Leer más",
+        "url": "https://442.perfil.com/noticias/mundial-2026/mundial-2026-jugadores-del-futbol-argentino-en-la-prelista-de-scaloni-a35.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-11T13:31:03Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Cuál fue el último título oficial que ganó Boca",
+        "description": "En marzo de 2023, el Xeneize venció a Patronato y alzó la Supercopa Argentina; este sábado, la eliminación ante Huracán estiró la sequía a tres años sin conquistas deportivas",
+        "url": "https://www.lanacion.com.ar/deportes/cual-fue-el-ultimo-titulo-oficial-que-gano-boca-nid11052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-11T11:33:13Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "La revolución de Matarazzo se hace notar en la selección",
+        "description": "Hasta 7 jugadores realistas están en la prelista de España. Es el segundo club con mayor representación tras el Barça.",
+        "url": "https://www.marca.com/futbol/real-sociedad/2026/05/13/revolucion-matarazzo-notar-seleccion.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-13T09:02:43",
+        "category": "seleccion"
+      },
+      {
+        "title": "Curazao recupera a Advocaat: será el seleccionador más veterano en la historia de los Mundiales",
+        "description": "Regresa después de haber dimitido en febrero por los problemas de salud de su hija",
+        "url": "https://www.marca.com/futbol/mundial/2026/05/13/curazao-recupera-advocaat-sera-seleccionador-veterano-historia-mundiales.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-13T09:00:53",
+        "category": "mundial"
+      },
+      {
+        "title": "Haro, Catalán y la Champions: \"Llegamos con la idea de transformar el club y esto es transformación\"",
+        "description": "Presidente y vicepresidente del Betis valoran el logro alcanzado por su equipo en LaLiga",
+        "url": "https://www.marca.com/futbol/betis/2026/05/13/haro-catalan-champions-llegamos-idea-transformar-club-esto-transformacion.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-13T09:00:13",
+        "category": "general"
+      },
+      {
+        "title": "La historia de Santiago Beltrán: el arquero de River que priorizó el colegio antes que el fútbol",
+        "description": "Su descubridor reveló que el juvenil se negaba a probarse en el Millonario para no descuidar sus estudios. Hoy, tras ser figura ante San Lorenzo, integra la prelista para el Mundial 2026. Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/la-historia-de-santiago-beltran-el-arquero-de-river-que-priorizo-el-colegio-antes-que-el-futbol.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-12T15:46:08Z"
+      },
+      {
+        "title": "Mundial 2026: horario y dónde seguir por TV en España todos los partidos del torneo",
+        "description": "DAZN emitirá los 104 partidos del Mundial 2026 en España, mientras RTVE ofrecerá en abierto los encuentros de La Roja y los duelos más destacados del torneo",
+        "url": "https://www.elconfidencial.com/deportes/futbol/2026-05-12/mundial-2026-horario-donde-seguir-tv-espana_4353573/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-05-12T13:47:00Z"
+      },
+      {
+        "title": "Borrados por Lionel Scaloni: los seis campeones con Argentina en Qatar que no están considerados para el Mundial 2026",
+        "description": "El técnico de la Albiceleste entregó una primera reserva de jugadores en la que no aparecen seis jugadores que levantaron el trofeo en 2022.",
+        "url": "https://www.latercera.com/el-deportivo/noticia/borrados-por-lionel-scaloni-los-seis-campeones-con-argentina-en-qatar-que-no-estan-considerados-para-el-mundial-2026/",
+        "source": "Latercera.com",
+        "published_at": "2026-05-12T11:15:31Z"
       }
-    ],
-    "news": []
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 29 días para el Mundial 2026 ⚽\n\n📰 El Mundial de Marcelo Tinelli: El conductor cubrirá la competencia en modo vintage, con su primo El Tirri, Martín Palermo y Juan Martín del Potro. Su sueño, es recuperar al Oso Artu 🐻\n\n📰 Mundial: ¿Hasta cuándo tiene tiempo Bielsa de enviar la lista de convocados de Uruguay?: De los 26 futbolistas que serán citados, la mayoría ya aseguró su presencia y hay escaso lugar a especulaciones de última hora 🤔\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-13T15:48:57.633808",
+  "published_at": "2026-05-13T15:48:58.476737",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-13T15:48:57.633820"
 }
