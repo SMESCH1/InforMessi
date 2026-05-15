@@ -4,14 +4,114 @@
   "data": {
     "date": "2026-05-15",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 27,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1901-05-15",
+        "type": "birthday",
+        "priority": "high",
+        "person": "Luis Monti",
+        "age": 125,
+        "description": "Cumpleaños de Luis Monti (125 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "Hot Sale 2026: qué fue lo más buscado en la web y los mejores descuentos",
+        "description": "Ya inició el evento de rebajas en compras online organizado por la Cámara Argentina de Comercio; descubrí lo más solicitado por los argentinos y todas las promociones",
+        "url": "https://www.lanacion.com.ar/tecnologia/hot-sale-2026-que-fue-lo-mas-buscado-en-la-web-y-los-mejores-descuentos-nid14052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-14T09:27:46Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "David Pisonero busca un milagro mundialista ante los 'Hispanos' lejos de la 'tierra prometida'",
+        "description": "El técnico español, seleccionador de Israel, encara una eliminatoria desigual ante los 'Hispanos' en Argentina para buscar un billete para el Mundial 2027&nbsp;",
+        "url": "https://www.marca.com/balonmano/seleccion/2026/05/14/david-pisonero-busca-milagro-mundialista-hispanos-lejos-tierra-prometida.html",
+        "source": "Marca",
+        "published_at": "2026-05-14T07:50:52Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Con Messi y De Paul, Inter Miami visita a Cincinnati en una jornada de la MLS que contendrá 14 partidos",
+        "description": "Con la presencia de los futbolistas de la selección, las Garzas juegan desde las 20.30 en el TQL Stadium",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/con-messi-y-de-paul-inter-miami-visita-a-cincinnati-en-una-jornada-de-la-mls-que-contendra-14-nid13052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-14T00:32:41Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Madonna, BTS y Shakira protagonizarán el primer \"half time show\" de un Mundial",
+        "description": "COMO LA SUPER BOWL Chris Martin, vocalista de Coldplay, ha sido el encargado de organizar el primer 'half time show' de un Mundial. El espectáculo, con Madonna, BTS y Shakira, se celebrará el 19 de ju",
+        "url": "https://www.formulatv.com/noticias/madonna-bts-shakira-half-time-show-mundial-202-137219/",
+        "source": "Formulatv.com",
+        "published_at": "2026-05-14T09:22:47Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Madonna, Shakira y BTS actuarán en el descanso de la final del Mundial de fútbol al estilo Super Bowl",
+        "description": "FIFA ha anunciado que Madonna, Shakira y la banda de K-pop BTS actuarán durante el descanso del final de un Mundial, que se celebrará el 19 de julio de 2026 en el New York New Jersey Stadium. Será la ",
+        "url": "https://www.culturaocio.com/musica/noticia-madonna-shakira-bts-actuaran-descanso-final-mundial-estilo-super-bowl-20260514103549.html",
+        "source": "Culturaocio.com",
+        "published_at": "2026-05-14T08:35:49Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Carlos Tévez dejó de ser el DT de Talleres tras la eliminación en el clásico con Belgrano",
+        "description": "El Apache y la dirigencia de Talleres acordaron la finalización de su contrato luego de la derrota ante Belgrano en los octavos del Apertura 2026. Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/carlos-tevez-dejo-de-ser-el-dt-de-talleres-tras-la-eliminacion-en-el-clasico-con-belgrano.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-13T18:53:20Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Diego “Chino” Simonet y el último baile: el “Messi del handball” se retira al final de la temporada",
+        "description": "A los 36 años, el referente de la selección argentina anunció que serán sus últimos partidos en el club Montpellier; se dedicará a otras actividades profesionales",
+        "url": "https://www.lanacion.com.ar/deportes/handball/diego-chino-simonet-y-el-ultimo-baile-el-messi-del-handball-se-retira-al-final-de-la-temporada-nid13052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-13T12:31:51Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Iraola instaura el estado de 'cherrycidad' con su futuro en el aire: \"No tengo prisa por tomar decisiones\"",
+        "description": "Puede salir del Bournemouth a lo grande: metiéndolo en Europa e, incluso, en Champions",
+        "url": "https://www.marca.com/futbol/premier-league/2026/05/15/iraola-instaura-cherrycidad-futuro-aire-prisa-tomar-decisiones.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-15T09:24:48",
+        "category": "general"
+      },
+      {
+        "title": "El Cornellà de Messi suma apoyos: así será su 'nueva' camiseta que estrena el domingo ante el Vilanova",
+        "description": "El neobanco se incorpora al club tras el anuncio de Leo Messi como propietario, con presencia en la equipación, acciones de comunicación y educación financiera para la comunidad<span class=\"\" contente",
+        "url": "https://www.marca.com/futbol/mas-futbol/2026/05/15/cornella-messi-suma-apoyos-asi-sera-nueva-camiseta-estrena-semana.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-15T09:18:19",
+        "category": "seleccion"
+      },
+      {
+        "title": "Los árbitros, vía la AESAF, piden medidas disciplinarias contra Florentino Pérez",
+        "description": "La Asociación Española de Árbitros de Fútbol solicita al Comité de Competición abrir un expediente disciplinario contra el presidente del Real Madrid por sus declaraciones sobre corrupción sistémica y",
+        "url": "https://www.marca.com/futbol/real-madrid/2026/05/15/aesaf-presenta-comite-competicion-solicitud-expediente-disciplinario-florentino-perez-calumnia.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-15T08:42:44",
+        "category": "general"
+      },
+      {
+        "title": "La lista preliminar de Argentina para el Mundial 2026",
+        "description": "Lionel Scaloni reservó a 55 futbolistas de cara a la Copa del Mundo; hay 12 del fútbol local, de los cuales tres estarían casi confirmados para la nómina de 26",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/la-lista-preliminar-de-argentina-para-el-mundial-2026-nid14052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-14T15:04:28Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 27 días para el Mundial 2026 ⚽\n\n📰 La lista preliminar de Argentina para el Mundial 2026: Lionel Scaloni reservó a 55 futbolistas de cara a la Copa del Mundo; hay 12 del fútbol local, de los cuales tres estarían casi confirmados para la nóm (La Nacion)\n\n📰 David Pisonero busca un milagro mundialista ante los 'Hispanos' lejos de la 'tierra prometida': El técnico español, seleccionador de Israel, encara una eliminatoria desigual ante los 'Hispanos' en Argentina para buscar un billete para el Mundial  (Marca)\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-15T15:28:34.570315",
+  "published_at": "2026-05-15T15:28:35.316485",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-15T15:28:34.570325"
 }

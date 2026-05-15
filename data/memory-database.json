@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-05-14T15:32:16.826026",
+  "last_updated": "2026-05-15T15:28:35.323332",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -22,7 +22,8 @@
       "2026-04-11",
       "2026-04-17",
       "2026-05-02",
-      "2026-05-06"
+      "2026-05-06",
+      "2026-05-15"
     ],
     "Di María": [
       "2026-04-10",
@@ -70,7 +71,8 @@
       "2026-05-01",
       "2026-05-04",
       "2026-05-08",
-      "2026-05-11"
+      "2026-05-11",
+      "2026-05-15"
     ],
     "jugador_scaloneta": [
       "2026-03-26",
@@ -159,7 +161,8 @@
       "2026-05-11",
       "2026-05-12",
       "2026-05-13",
-      "2026-05-14"
+      "2026-05-14",
+      "2026-05-15"
     ],
     "seleccion": [
       "2026-03-26",
@@ -192,7 +195,8 @@
       "2026-05-09",
       "2026-05-10",
       "2026-05-11",
-      "2026-05-12"
+      "2026-05-12",
+      "2026-05-15"
     ]
   },
   "events_mentioned": {
@@ -375,6 +379,9 @@
     ],
     "Histórica victoria 3-1 ante Inglaterra con el 'gol imposible' de Ernesto Grillo.": [
       "2026-05-14"
+    ],
+    "Cumpleaños de Luis Monti (125 años)": [
+      "2026-05-15"
     ]
   },
   "news_topics": {
@@ -506,6 +513,12 @@
     ],
     "mundial 2026: las fechas clave para conocer a los ": [
       "2026-05-14"
+    ],
+    "david pisonero busca un milagro mundialista ante l": [
+      "2026-05-15"
+    ],
+    "la lista preliminar de argentina para el mundial 2": [
+      "2026-05-15"
     ]
   },
   "phrases_used": [],
