@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-05-16",
+  "scraped_at": "2026-05-16T08:29:25.482804",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "El Gobierno puso a disposición de EE.UU. la lista de argentinos con derecho de admisión para el Mundial 2026",
+      "description": "La medida fue publicada en el Boletín Oficial a través de la Resolución 444/2026; Estados Unidos contará con la información hasta los cinco días posteriores a que finalice la competencia",
+      "url": "https://www.lanacion.com.ar/sociedad/el-gobierno-puso-a-disposicion-de-eeuu-la-lista-de-los-argentinos-con-derecho-de-admision-para-el-nid15052026/",
+      "source": "La Nacion",
+      "published_at": "2026-05-15T05:21:37Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Roger Martínez apuntó contra Néstor Lorenzo tras quedar afuera de la prelista de Colombia para el Mundial",
+      "description": "El delantero, actualmente en Al-Taawon, cuestionó los criterios del entrenador argentino",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/roger-martinez-apunto-contra-nestor-lorenzo-tras-quedar-afuera-de-la-prelista-de-colombia-para-el-nid14052026/",
+      "source": "La Nacion",
+      "published_at": "2026-05-14T22:16:22Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Nicolás Otamendi no renovará con Benfica y en River crece la expectativa por su llegada tras el Mundial 2026",
+      "description": "La prensa portuguesa dio detalles sobre el futuro del defensor del seleccionado argentino",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/nicolas-otamendi-no-renovara-con-benfica-y-en-river-crece-la-expectativa-por-su-llegada-tras-el-nid14052026/",
+      "source": "La Nacion",
+      "published_at": "2026-05-14T20:28:46Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Cuánto dinero puede ganar España si gana el Mundial 2026: esta es la cantidad que ganaría la selección española por pasar cada ronda del torneo",
+      "description": "La selección española puede ingresar hasta 50 millones de dólares si conquista el Mundial 2026, aunque la cantidad final dependerá de la ronda en la que termine su participación",
+      "url": "https://www.elconfidencial.com/deportes/futbol/2026-05-15/cuanto-dinero-ganar-espana-mundial-2026_4355823/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-05-15T08:17:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Shakira estrena la canción Dai Dai’, nuevo himno oficial del Mundial de Fútbol 2026",
+      "description": "La canción Dai Dai’, de Shakira, será la oficial del Mundial de Fútbol que se disputará entre junio y julio próximos en Estados Unidos, México y Canadá. La cantante colombiana y Burna Boy han lanzado ",
+      "url": "https://www.elperiodico.com/es/deportes/20260515/shakira-himno-mundial-dai-dai-130252817",
+      "source": "Elperiodico.com",
+      "published_at": "2026-05-15T06:00:40Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Colombia presentó su prelista para el Mundial 2026 con ocho jugadores del fútbol argentino",
+      "description": "Néstor Lorenzo dio a conocer los 55 futbolistas reservados para la Copa del Mundo y sorprendió con una fuerte presencia de futbolistas que militan en la Liga Profesional. Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/colombia-presento-su-prelista-para-el-mundial-2026-con-ocho-jugadores-del-futbol-argentino-a35.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-05-14T19:37:48Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Carlo Ancelotti renovó su contrato como DT de Brasil hasta el 2030",
+      "description": "Mientras se espera el anuncio de la lista de 26 para el próximo Mundial, el técnico italiano afirmó: “Veo un plantel con un gran potencial de futuro”",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/carlo-ancelotti-renovo-su-contrato-como-dt-de-brasil-hasta-el-2030-nid14052026/",
+      "source": "La Nacion",
+      "published_at": "2026-05-14T19:24:42Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Barcelona - Atlético de Madrid: a qué hora, dónde ver en TV y canal del partido de la final de la Copa de la Reina",
+      "description": "Gran Canaria ya está preparada para acoger una de las grandes citas del fútbol español",
+      "url": "https://www.marca.com/futbol/futbol-femenino/copa-de-la-reina/2026/05/16/barcelona-atletico-madrid-hora-ver-tv-canal-partido-final-copa-reina.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-16T07:33:48",
+      "category": "general"
+    },
+    {
+      "title": "El Villa ya es de Champions.... y ahora quiere la guinda de la Europa League",
+      "description": "Los de Emery se aseguran la Liga de Campeones tras vapulear al Liverpool",
+      "url": "https://www.marca.com/futbol/premier-league/2026/05/16/villa-champions-quiere-guinda-europa-league.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-16T06:21:09",
+      "category": "general"
+    },
+    {
+      "title": "La última oportunidad de una generación brillante de 'Diablos': Hazard, De Bruyne, Courtois, Lukaku...",
+      "description": "Rudi García ha anunciado la lista de convocados para el Mundial 2026 con los últimos supervivientes de la generación 'dorada'",
+      "url": "https://www.marca.com/futbol/mundial/2026/05/16/ultima-oportunidad-generacion-brillante-diablos-hazard-bruyne-courtois-lukaku.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-16T05:49:02",
+      "category": "mundial"
+    }
+  ]
+}
