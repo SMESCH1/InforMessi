@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-05-15T15:28:35.323332",
+  "last_updated": "2026-05-16T14:36:21.949564",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -31,7 +31,8 @@
     ],
     "Martínez": [
       "2026-04-11",
-      "2026-04-14"
+      "2026-04-14",
+      "2026-05-16"
     ],
     "Lautaro": [
       "2026-04-14"
@@ -41,7 +42,8 @@
     ],
     "Enzo": [
       "2026-04-20",
-      "2026-04-26"
+      "2026-04-26",
+      "2026-05-16"
     ],
     "Fernández": [
       "2026-04-20"
@@ -98,7 +100,8 @@
       "2026-04-18",
       "2026-04-25",
       "2026-05-02",
-      "2026-05-09"
+      "2026-05-09",
+      "2026-05-16"
     ],
     "dato_pais_sede": [
       "2026-03-29",
@@ -162,7 +165,8 @@
       "2026-05-12",
       "2026-05-13",
       "2026-05-14",
-      "2026-05-15"
+      "2026-05-15",
+      "2026-05-16"
     ],
     "seleccion": [
       "2026-03-26",
@@ -382,6 +386,12 @@
     ],
     "Cumpleaños de Luis Monti (125 años)": [
       "2026-05-15"
+    ],
+    "Primer partido de la historia de la Selección Argentina (3-2 vs Uruguay).": [
+      "2026-05-16"
+    ],
+    "Cumpleaños de Lionel Scaloni (48 años)": [
+      "2026-05-16"
     ]
   },
   "news_topics": {
@@ -519,6 +529,12 @@
     ],
     "la lista preliminar de argentina para el mundial 2": [
       "2026-05-15"
+    ],
+    "el gobierno puso a disposicion de ee.uu. la lista ": [
+      "2026-05-16"
+    ],
+    "roger martinez apunto contra nestor lorenzo tras q": [
+      "2026-05-16"
     ]
   },
   "phrases_used": [],
