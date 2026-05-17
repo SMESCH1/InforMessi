@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-05-16T14:36:21.949564",
+  "last_updated": "2026-05-17T14:39:39.331458",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -110,7 +110,8 @@
       "2026-04-19",
       "2026-04-26",
       "2026-05-03",
-      "2026-05-10"
+      "2026-05-10",
+      "2026-05-17"
     ]
   },
   "topics_mentioned": {
@@ -166,7 +167,8 @@
       "2026-05-13",
       "2026-05-14",
       "2026-05-15",
-      "2026-05-16"
+      "2026-05-16",
+      "2026-05-17"
     ],
     "seleccion": [
       "2026-03-26",
@@ -200,7 +202,8 @@
       "2026-05-10",
       "2026-05-11",
       "2026-05-12",
-      "2026-05-15"
+      "2026-05-15",
+      "2026-05-17"
     ]
   },
   "events_mentioned": {
@@ -392,6 +395,9 @@
     ],
     "Cumpleaños de Lionel Scaloni (48 años)": [
       "2026-05-16"
+    ],
+    "Cumpleaños de Luca Toni (49 años)": [
+      "2026-05-17"
     ]
   },
   "news_topics": {
@@ -535,6 +541,12 @@
     ],
     "roger martinez apunto contra nestor lorenzo tras q": [
       "2026-05-16"
+    ],
+    "uno de los mas grandes de argentina quiere recuper": [
+      "2026-05-17"
+    ],
+    "como ver el mundial: la tv argentina se prepara pa": [
+      "2026-05-17"
     ]
   },
   "phrases_used": [],
