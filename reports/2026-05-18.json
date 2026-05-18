@@ -4,23 +4,121 @@
   "data": {
     "date": "2026-05-18",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 24,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1962-05-18",
         "type": "birthday",
         "priority": "medium",
         "person": "Nery Pumpido",
-        "age": 63,
-        "description": "Cumpleaños de Nery Pumpido."
+        "age": 64,
+        "description": "Cumpleaños de Nery Pumpido (64 años)"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "El Mundial 2026 dispara la moda 'blokecore': estas son las camisetas de fútbol más populares que tomarán las calles esta primavera-verano",
+        "description": "El 'look' más buscado de la primavera-verano no viene de una pasarela, sino de un vestuario. Las camisetas de fútbol han saltado de la grada al asfalto empujadas por el auge del 'blokecore', la estéti",
+        "url": "https://www.elperiodico.com/es/gente/20260517/mundial-2026-camisetas-futbol-mas-buscadas-moda-blokecore-primavera-verano-130188390",
+        "source": "Elperiodico.com",
+        "published_at": "2026-05-17T05:00:33Z",
+        "category": "mundial"
+      },
+      {
+        "title": "99 % fe: Supercomputadora predice al campeón del Mundial 2026 y da 1 % de chance a México",
+        "description": "El Mundial 2026 está a la vuelta de la esquina, por eso las predicciones, apuestas y pronósticos están con todo. Bueno, una supercomputadora ya tiene a...\nThe post 99 % fe: Supercomputadora predice al",
+        "url": "https://www.sopitas.com/deportes/supercomputadora-predice-campeon-mundial-2026-probabilidades-mexico/",
+        "source": "Sopitas.com",
+        "published_at": "2026-05-17T03:51:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Xabi Alonso, nuevo entrenador del Chelsea",
+        "description": "El Chelsea ha anunciado este domingo el nombramiento de Xabi Alonso como nuevo entrenador del club. El técnico español firma un contrato por cuatro temporadas con la tarea de reconducir el rumbo y la ",
+        "url": "https://www.abc.es/deportes/futbol/xabi-alonso-nuevo-entrenador-chelsea-20260517101514-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-05-17T08:15:17Z",
+        "category": "general"
+      },
+      {
+        "title": "A Gonzalo Montiel le desviaron un penal: cómo son sus números desde los 12 pasos",
+        "description": "Dos atajadas históricas cortaron la racha perfecta del lateral de River Plate y la Selección Argentina, que ahora acumula dos fallos sobre veinte intentos en su carrera profesional. Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/a-gonzalo-montiel-le-desviaron-un-penal-como-son-sus-numeros-desde-los-12-pasos.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-16T23:51:38Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Messi celebra el primer paso de la UE Cornellà en el play-off",
+        "description": "El conjunto verde se impuso por 0-1 en la ida al Vilanova",
+        "url": "https://www.marca.com/futbol/barcelona/2026/05/18/messi-celebra-primer-paso-ue-cornella-play-off.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-18T10:43:45",
+        "category": "seleccion"
+      },
+      {
+        "title": "La bonita petición de Iñigo Pérez a sus futbolistas: \"Jugad como Trejo\"",
+        "description": "El técnico rayista desveló el mensaje que dio a los suyos antes de medirse al Villarreal en la despedida del argentino",
+        "url": "https://www.marca.com/futbol/rayo/2026/05/18/bonita-peticion-inigo-perez-futbolistas-jugad-trejo.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-18T09:46:25",
+        "category": "general"
+      },
+      {
+        "title": "Coudet se jugará ante Belgrano su primer título en River... y el 'morbo' está servido: \"Los mandamos a la B y ahora vamos a hacer historia\"",
+        "description": "Se enfrentarán en la final del Torneo Apertura en Argentina · El Pirata mandó a Segunda división al Millonario en 2011",
+        "url": "https://www.marca.com/futbol/argentina/2026/05/18/coudet-jugara-belgrano-primer-titulo-river-morbo-servido-mandamos-b-historia.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-18T08:50:06",
+        "category": "seleccion"
+      },
+      {
+        "title": "Cuándo da Luis De la Fuente la lista definitiva del Mundial: los convocados de España ya tienen fecha",
+        "description": "El seleccionador riojano afrontará su primera máxima competición internacional",
+        "url": "https://www.marca.com/futbol/seleccion/2026/05/18/da-luis-fuente-lista-definitiva-mundial-convocados-espana-fecha.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-18T08:23:13",
+        "category": "mundial"
+      },
+      {
+        "title": "La fe de Hugo Duro en Europa: “No nos podemos permitir hablar de salvación en la jornada 37”",
+        "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+        "url": "https://www.marca.com/futbol/valencia/2026/05/18/fe-hugo-duro-europa-permitir-hablar-salvacion-jornada-37.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-18T08:16:08",
+        "category": "general"
+      },
+      {
+        "title": "El Atlético presenta su segunda equipación para la temporada 2026/27",
+        "description": "El club rojiblanco se vestirá de negro y la estrenará en la última jornada liguera de la presente temporada",
+        "url": "https://www.marca.com/futbol/atletico/2026/05/18/atletico-presenta-segunda-equipacion-temporada-2026-27.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-18T08:06:15",
+        "category": "mundial"
+      },
+      {
+        "title": "Colombia: Defensoría del Pueblo indignada por aparición de Sebastián Villa de la selección",
+        "description": "“La camiseta de Colombia no puede ser un escudo contra la justicia”, aseguró Iris Marín sobre el futbolista y sus antecedentes.",
+        "url": "https://www.montevideo.com.uy/Deportes/Colombia-Defensoria-del-Pueblo-indignada-por-aparicion-de-Sebastian-Villa-de-la-seleccion-uc962347",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-05-17T15:58:00Z"
+      },
+      {
+        "title": "El Mundial 2026 dispara la moda 'blokecore': estas son las camisetas de fútbol más populares que tomarán las calles esta primavera-verano",
+        "description": "El 'look' más buscado de la primavera-verano no viene de una pasarela, sino de un vestuario. Las camisetas de fútbol han saltado de la grada al asfalto empujadas por el auge del 'blokecore', la estéti",
+        "url": "https://www.elperiodico.com/es/gente/20260517/mundial-2026-camisetas-futbol-mas-buscadas-moda-blokecore-primavera-verano-130188390",
+        "source": "Elperiodico.com",
+        "published_at": "2026-05-17T05:00:33Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 24 días para el Mundial 2026 ⚽\n\n🎉 Hoy cumple 64 años Nery Pumpido, figura emblemática de la Selección Argentina 🚫\n\n📰 99% fe: Supercomputadora predice al campeón del Mundial 2026 y da 1 % de chance a México: El Mundial 2026 está a la vuelta de la esquina, por eso las predicciones, apuestas y pronósticos están con todo. Bueno, una supercomputadora ya tiene un claro ganador\n\n📰 Messi celebra el primer paso de la UE Cornellà en el play-off: El conjunto verde se impuso por 0-1 en la ida al Vilanova\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-18T17:38:02.968738",
+  "published_at": "2026-05-18T17:38:03.676028",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-18T17:38:02.968748"
 }
