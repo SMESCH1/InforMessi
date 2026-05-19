@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-05-19",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 23,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1978-05-19",
@@ -18,16 +21,118 @@
         "type": "birthday",
         "priority": "high",
         "person": "Diego Forlán",
-        "age": 46,
-        "description": "Cumpleaños del histórico uruguayo (Referencia Mundial)."
+        "age": 47,
+        "description": "Cumpleaños de Diego Forlán (47 años)"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "A 24 días: México fue la primera selección que jugó todo un partido mundialista con uniforme prestado en 1950",
+        "description": "México hizo historia en Brasil 50 al jugar ante Suiza con un uniforme cedido por Gremio, tras coincidir en color con el rival",
+        "url": "https://www.record.com.mx/historia/a-24-dias-mexico-fue-la-primera-seleccion-que-jugo-todo-un-partido-mundialista-con-uniforme-prestado-en-1950-2026051503240318268",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-18T06:05:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Joaquín Panichelli fue elegido el mejor jugador del año en Estrasburgo en medio del dolor por perderse el Mundial",
+        "description": "El delantero argentino fue galardonado como el futbolista de la temporada en el Estrasburgo, pero conmovió a todos al ingresar a la cancha rengueando tras romperse los ligamentos. Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/joaquin-panichelli-fue-elegido-el-mejor-jugador-del-ano-en-estrasburgo-en-medio-del-dolor-por-perderse-el-mundial.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-17T21:17:18Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Colombia: Defensoría del Pueblo indignada por aparición de Sebastián Villa de la selección",
+        "description": "“La camiseta de Colombia no puede ser un escudo contra la justicia”, aseguró Iris Marín sobre el futbolista y sus antecedentes.",
+        "url": "https://www.montevideo.com.uy/Deportes/Colombia-Defensoria-del-Pueblo-indignada-por-aparicion-de-Sebastian-Villa-de-la-seleccion-uc962347",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-05-17T15:58:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "CHERY anuncia oficialmente a Robert Lewandowski como embajador global de la marca CHERY",
+        "description": "- CHERY anuncia oficialmente a Robert Lewandowski como embajador global de la marca CHERY, reforzando así la expresión global de la filosofía de marca \"Para la familia\" BARCELONA, España, 18 de mayo d",
+        "url": "https://www.prnewswire.com/news-releases/chery-anuncia-oficialmente-a-robert-lewandowski-como-embajador-global-de-la-marca-chery-302774554.html",
+        "source": "PRNewswire",
+        "published_at": "2026-05-18T10:02:00Z",
+        "category": "general"
+      },
+      {
+        "title": "El capítulo de Los Simpson emitido en 1997 que predice cuál será la final del Mundial 2026 (y que nadie esperaba)",
+        "description": "Un capítulo emitido hace casi tres décadas vuelve a hacerse viral por una escena que muchos aficionados relacionan ahora con la final del Mundial 2026",
+        "url": "https://www.elconfidencial.com/deportes/2026-05-18/capitulo-simpson-emitido-1997-predice-final-mundial_4356689/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-05-18T09:07:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El balón del Mundial 2026 esconde un cambio desconcertante: 4 paneles, menos resistencia y una física que podría alterar los goles",
+        "description": "Científicos han probado en túneles de viento el nuevo balón Trionda y descubrieron un detalle inesperado: podría cambiar la trayectoria de los disparos largos y los tiros libres durante el Mundial 202",
+        "url": "https://muyinteresante.okdiario.com/ciencia/balon-mundial-2026-trionda-fisica-disparos-paneles-aerodinamica-goles.html",
+        "source": "Okdiario.com",
+        "published_at": "2026-05-18T05:30:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Thiago Cardozo le atajó un penal a Enzo Pérez y fue figura del triunfo de Belgrano sobre Argentinos por semifinales",
+        "description": "El arquero uruguayo contuvo un penal decisivo en la tanda y varias pelotas difíciles durante los 120 minutos de fútbol que jugaron en el Estadio Diego Armando Maradona; el equipo cordobés jugará la fi",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/thiago-cardozo-le-atajo-un-penal-a-enzo-perez-y-fue-figura-del-triunfo-de-belgrano-sobre-argentinos-por-semifinales",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-05-18T00:21:09Z",
+        "category": "general"
+      },
+      {
+        "title": "La curiosa similitud de la final del Apertura con ...",
+        "description": "El Millonario y el Pirata definirán al campeón del fútbol argentino este domingo en el Kempes.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16728827/curiosidad-similitud-final-apertura-river-vs-belgrano-mano-a-mano",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-19T05:31:01",
+        "category": "general"
+      },
+      {
+        "title": "Entradas para la final de River vs. Belgrano: cuán...",
+        "description": "El Torneo Apertura 2026 se definirá en el Estadio Mario Alberto Kempes y contará con hinchas de ambos equipos.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16725010/entradas-para-la-final-de-river-vs-belgrano-cuando-y-donde-salen-a-la-venta-estadio-kempes-cordoba",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-19T05:31:01",
+        "category": "mundial"
+      },
+      {
+        "title": "¡Con Neymar! Brasil anunció su lista de 26 convoca...",
+        "description": "Carlo Ancelotti comunicó en conferencia de prensa a los futbolistas que representarán a la Verdeamarela en Estados Unidos, México y Canadá, incluyendo al delantero de Santos.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16727976/lista-de-seleccion-brasil-26-convocados-mundial-2026-neymar-ancelotti",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-19T04:21:09",
+        "category": "general"
+      },
+      {
+        "title": "La gran decepción de los propietarios de hoteles en EE.UU. ante la poca cantidad de reservas antes del inicio del Mundial 2026",
+        "description": "Una encuesta realizada por una asociación del sector reveló que los hoteles de las ciudades anfitrionas del Mundial consideran el torneo como un \"acontecimiento irrelevante\".",
+        "url": "https://www.bbc.com/mundo/articles/c9wed142e8po",
+        "source": "BBC News",
+        "published_at": "2026-05-18T16:17:22Z"
+      },
+      {
+        "title": "Cuándo sale la lista de la selección argentina para el Mundial 2026",
+        "description": "El entrenador Lionel Scaloni debe elegir a 26 futbolista de la lista preliminar de 55 que diagramó; Aníbal Moreno se lesionó y está descartado",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/cuando-sale-la-lista-de-la-seleccion-argentina-para-el-mundial-2026-nid18052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-18T15:37:46Z"
+      },
+      {
+        "title": "Messi ya tiene una calle con su nombre en EE.UU.",
+        "description": "El impacto que tiene Leo Messi en la sociedad norteamericana no para de crecer. Estos días se ha trascendido que, durante la Copa del Mundo, le van a poner su nombre a una avenida de Berkeley Heights,",
+        "url": "https://www.mundodeportivo.com/futbol/mundial/20260518/1004184779/messi-calle-nombre.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-18T15:27:27Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 23 días para el Mundial 2026 ⚽\n\nUn día como hoy en 1978, Menotti dejó fuera de la lista final a Diego Maradona para el Mundial 78, decisión que ha sido objeto de polémica y debate en la historia del fútbol argentino 🤔\n\nLa lista de convocados para el Mundial 2026 se reducirá a 26 jugadores en las próximas semanas, con Lionel Scaloni enfrentando la tarea de elegir a los mejores para representar a la Scaloneta en la competencia más grande del mundo 🌎\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-19T16:31:01.727507",
+  "published_at": "2026-05-19T16:31:02.359637",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-19T16:31:01.727516"
 }
