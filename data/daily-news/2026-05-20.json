@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-05-20",
+  "scraped_at": "2026-05-20T10:15:04.684434",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Mundial 2026: Haití, todo lo que debes saber para la Copa del Mundo",
+      "description": "El seleccionado caribeño jugará su segunda Copa del Mundo",
+      "url": "https://www.record.com.mx/historia/mundial-2026-haiti-todo-lo-que-debes-saber-para-la-copa-del-mundo-2026051603201736091",
+      "source": "Record.com.mx",
+      "published_at": "2026-05-19T06:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El Colo Barco a la Premier League: se despidió del Racing de Estrasburgo y jugará en Chelsea",
+      "description": "El lateral argentino cerró una gran etapa en la Ligue 1 y mudará su fútbol a Inglaterra. Formará parte de los Blues a partir de la próxima temporada junto a otros campeones del mundo. Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/el-colo-barco-a-la-premier-league-se-despidio-de-estrasburgo-y-jugara-en-chelsea.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-05-18T22:47:36Z",
+      "category": "liga"
+    },
+    {
+      "title": "Sylvinho, a la calle",
+      "description": "La Federación Albanesa de Fútbol (FSHF) anunció este martes el nombramiento del italiano Rolando Maran (62) como nuevo seleccionador durante los próximos dos años, poniendo fin a la etapa del ex barce",
+      "url": "https://www.mundodeportivo.com/futbol/internacional/20260519/1004185200/sylvinho-calle.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-05-19T10:01:23Z",
+      "category": "general"
+    },
+    {
+      "title": "Vitinha lanza un deseo para Cristiano Ronaldo antes del Mundial",
+      "description": "Portugal es una de las selecciones que parte como favorita en el Mundial 2026. Tras ganar la Nations League 2025 a una selección española muy fuerte, los portugueses creen que este año pueden hacer hi",
+      "url": "https://www.mundodeportivo.com/futbol/internacional/20260519/1004185182/vitinha-lanza-deseo-cristiano-ronaldo-mundial.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-05-19T09:19:21Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Thiago Cardozo le atajó un penal a Enzo Pérez y fue figura del triunfo de Belgrano sobre Argentinos por semifinales",
+      "description": "El arquero uruguayo contuvo un penal decisivo en la tanda y varias pelotas difíciles durante los 120 minutos de fútbol que jugaron en el Estadio Diego Armando Maradona; el equipo cordobés jugará la fi",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/thiago-cardozo-le-atajo-un-penal-a-enzo-perez-y-fue-figura-del-triunfo-de-belgrano-sobre-argentinos-por-semifinales",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-05-18T00:21:09Z",
+      "category": "general"
+    },
+    {
+      "title": "Boca empató con Cruzeiro y deberá buscar la clasificación en la última fecha del Grupo D de Libertadores",
+      "description": "El Xeneize fue más que su rival, pero no le alcanzó para sumar de a tres en la Bombonera.",
+      "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16726642/boca-vs-cruzeiro-copa-conmebol-libertadores-equipo-quinta-fecha-hora-tv-en-vivo",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-05-20T05:04:05",
+      "category": "liga"
+    },
+    {
+      "title": "El Mundial 2026, por Disney+ Plan Premium",
+      "description": "Se retransmitirán 30 partidos incluyendo la final y los partidos de las selecciones nacionales de Argentina, Colombia, Ecuador, Uruguay en esos países.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16586606/el-mundial-2026-llega-a-disney+-plan-premium-en-sudamerica-a-traves-de-espn",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-05-20T04:46:40",
+      "category": "seleccion"
+    },
+    {
+      "title": "Crespo en F90: \"Bielsa me faltó el respeto\"",
+      "description": "El exdelantero de la Selección Argentina, hoy entrenador, habló de todo con Sebastián Vignolo y equipo.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16730500/crespo-estudios-f90-charla-espn",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-05-20T04:46:40",
+      "category": "seleccion"
+    },
+    {
+      "title": "AFA designó árbitros de la final del Apertura",
+      "description": "Uno de los jueces que irá al Mundia será el encargado de dirigir el encuentro de este domingo desde las 15.30 en el estadio Mario Alberto Kempes de la ciudad de Córdoba.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16730411/la-afa-designo-los-arbitros-de-la-final-del-torneo-apertura-2026-entre-belgrano-y-river",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-05-20T04:46:40",
+      "category": "seleccion"
+    },
+    {
+      "title": "¡Emoción Gigante! Marco Ruben volvió al gol en Ros...",
+      "description": "El experimentado delantero cerró la goleada sobre Universidad Central de Venezuela, por la CONMEBOL Libertadores.",
+      "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16732612/video-gol-marco-ruben-rosario-central-vs-ucv-libertadores",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-05-20T02:19:14",
+      "category": "general"
+    }
+  ]
+}
