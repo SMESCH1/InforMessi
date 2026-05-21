@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-05-21",
+  "scraped_at": "2026-05-21T10:26:57.026379",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "La Selección Argentina incorpora IA a su juego",
+      "description": "La Selección Argentina suma a su cuerpo técnico la inteligencia artificial mediante una alianza estratégica con Google Gemini. A través de un acuerdo de patrocinio",
+      "url": "https://www.mundodeportivo.com/futbol/mundial/20260520/1004185628/seleccion-argentina-incorpora-ia-juego.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-05-20T08:04:04Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Darwin Núñez y un trimestre crítico premundial: el esfuerzo de AUF para tenerlo antes y los números de los otros 9",
+      "description": "A 22 días del inicio de la Copa del Mundo el titular de la selección uruguaya apenas sumó 26 minutos en los últimos 90 días, rehén de la decisión del Al Hilal.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/darwin-nunez-y-un-trimestre-critico-premundial-el-esfuerzo-de-auf-para-tenerlo-antes-y-los-numeros-de-los-otros-9",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-05-20T07:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Champions League, Copa Oro y Libertadores: el palmarés de la Final Pumas vs Cruz Azul",
+      "description": "Los jugadores ambos equipos ya cuentan con experiencia levantando títulos",
+      "url": "https://www.record.com.mx/historia/champions-league-copa-oro-y-libertadores-el-palmares-de-la-final-pumas-vs-cruz-azul-2026052002182780181",
+      "source": "Record.com.mx",
+      "published_at": "2026-05-20T02:18:27Z",
+      "category": "general"
+    },
+    {
+      "title": "Preocupación Mundial por el Congo",
+      "description": "Se han registrado más de 130 muertos... pero la participación de la selección, en principio, no corre peligro",
+      "url": "https://www.marca.com/futbol/mundial/2026/05/20/problema-inesperado-22-dias-inicio-mundial-terrible-brote-ebola-congo.html",
+      "source": "Marca",
+      "published_at": "2026-05-20T09:22:03Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Fermín López pasa por el quirófano y dice adiós al Mundial",
+      "description": "El canterano culé se despide del Mundial tras romperse el pie ante el Betis, un mazazo para los planes de Luis de la Fuente en la selección.",
+      "url": "https://www.libertaddigital.com/deportes/futbol/2026-05-20/fermin-lopez-pasa-por-el-quirofano-y-dice-adios-al-mundial-7407160/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-05-20T09:15:28Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Club Argentino, el equipo de los hermanos de Julián Álvarez que revoluciona el fútbol regional madrileño: \"Acá venimos a ganar, no a jugar entre amigos\"",
+      "description": "El 'Granadero' lleva hasta 600 hinchas a cada partido, algo inédito en la categoría, y tiene hasta una pequeña 'barrabrava'. El presidente dice que el objetivo es llegar a Primera. Leer",
+      "url": "https://www.elmundo.es/deportes/futbol/2026/05/19/6a060459e4d4d8d6578b45bc.html",
+      "source": "El Mundo",
+      "published_at": "2026-05-19T20:44:21Z",
+      "category": "general"
+    },
+    {
+      "title": "Luis de la Fuente se sincera con Saúl Craviotto: \"Estuve 18 meses en paro\"",
+      "description": "El Comité Olímpico Español estrena este jueves 21 de mayo un nuevo episodio de El Valor Olímpico días antes de que el seleccionador anuncie la lista para el Mundial.",
+      "url": "https://www.marca.com/futbol/seleccion/2026/05/21/luis-fuente-sincera-saul-craviotto-estuve-18-meses-paro.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-21T10:23:44",
+      "category": "mundial"
+    },
+    {
+      "title": "La Conference vende cara su piel",
+      "description": "\"Antes los futbolistas éramos más duros. Hoy en día todo les afecta\", asegura el técnico del Málaga",
+      "url": "https://www.marca.com/apuestas-deportivas/predicciones/2026/05/21/conference-vende-cara-piel.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-21T08:48:46",
+      "category": "general"
+    },
+    {
+      "title": "El Inter Miami de Messi estrecha el cerco sobre un aliado inesperado: Casemiro",
+      "description": "Confía en cerrar el traspaso del ex del Real Madrid antes del Mundial",
+      "url": "https://www.marca.com/futbol/america/2026/05/21/inter-miami-messi-estrecha-cerco-sobre-aliado-inesperado-casemiro.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-21T08:48:02",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Dibu, a MARCA: \"Dile al seleccionador de España que lleve a Pau al Mundial, es el mejor\"",
+      "description": "El argentino reclama al central para La Roja",
+      "url": "https://www.marca.com/futbol/premier-league/2026/05/21/dibu-marca-dile-seleccionador-espana-lleve-pau-mundial-mejor.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-21T08:42:03",
+      "category": "mundial"
+    }
+  ]
+}
