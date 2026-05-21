@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-05-20T16:31:07.108033",
+  "last_updated": "2026-05-21T16:22:51.232600",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -27,7 +27,8 @@
       "2026-05-06",
       "2026-05-15",
       "2026-05-19",
-      "2026-05-20"
+      "2026-05-20",
+      "2026-05-21"
     ],
     "Di María": [
       "2026-04-10",
@@ -97,7 +98,8 @@
       "2026-05-07",
       "2026-05-12",
       "2026-05-14",
-      "2026-05-19"
+      "2026-05-19",
+      "2026-05-21"
     ],
     "dato_mundialista": [
       "2026-03-28",
@@ -177,7 +179,8 @@
       "2026-05-17",
       "2026-05-18",
       "2026-05-19",
-      "2026-05-20"
+      "2026-05-20",
+      "2026-05-21"
     ],
     "seleccion": [
       "2026-03-26",
@@ -213,7 +216,8 @@
       "2026-05-12",
       "2026-05-15",
       "2026-05-17",
-      "2026-05-18"
+      "2026-05-18",
+      "2026-05-21"
     ]
   },
   "events_mentioned": {
@@ -420,6 +424,12 @@
     ],
     "Cumpleaños de Gerónimo Rulli (34 años)": [
       "2026-05-20"
+    ],
+    "Fundación de la FIFA en París. Día histórico que sentó las bases del fútbol organizado a nivel mundi": [
+      "2026-05-21"
+    ],
+    "Cumpleaños de Mario Mandžukić (40 años)": [
+      "2026-05-21"
     ]
   },
   "news_topics": {
@@ -572,6 +582,9 @@
     ],
     "messi celebra el primer paso de la ue cornella en ": [
       "2026-05-18"
+    ],
+    "la seleccion argentina incorpora ia a su juego": [
+      "2026-05-21"
     ]
   },
   "phrases_used": [],
