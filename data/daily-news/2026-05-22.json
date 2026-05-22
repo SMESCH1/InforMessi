@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-05-22",
+  "scraped_at": "2026-05-22T10:12:11.371242",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "El camino de la Selección Argentina en el Mundial 2026: fixture y rivales del Grupo J",
+      "description": "La Selección Argentina de Lionel Scaloni iniciará la defensa de la corona compitiendo en el Grupo J con Argelia, Austria y la debutante Jordania.\n Leer más",
+      "url": "https://442.perfil.com/noticias/mundial-2026/mundial-2026-el-camino-de-la-seleccion-argentina-del-grupo-j-a35.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-05-21T01:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Alarma la Selección Argentina: Dibu Martínez confesó que se rompió el dedo y generó suma preocupación a días del Mundial",
+      "description": "El arquero reveló que disputó toda la final de la Europa League con una fractura que sufrió durante el calentamiento y deberá someterse a estudios médicos. Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/alarma-la-seleccion-argentina-dibu-martinez-confeso-que-se-rompio-el-dedo-y-genero-suma-preocupacion-a-dias-del-mundial.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-05-20T23:36:42Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Alemania anuncia sus ocho primeros convocados al Mundial 2026",
+      "description": "La Federación Alemana de Fútbol (DFB) adelantó en redes sociales la convocatoria de ocho jugadores a la Mannschaft para el Mundial 2026, horas antes de que el seleccionador Julian Nagelsmann anuncie l",
+      "url": "https://www.dw.com/es/alemania-anuncia-sus-ocho-primeros-convocados-al-mundial-2026/a-77238910",
+      "source": "DW (English)",
+      "published_at": "2026-05-21T09:19:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Alemania anuncia sus diez primeros convocados al Mundial 2026",
+      "description": "La Federación Alemana de Fútbol (DFB) adelantó en redes sociales la convocatoria de diez jugadores a la Mannschaft para el Mundial 2026, horas antes de que el seleccionador Julian Nagelsmann anuncie l",
+      "url": "https://www.dw.com/es/alemania-anuncia-sus-diez-primeros-convocados-al-mundial-2026/a-77238910",
+      "source": "DW (English)",
+      "published_at": "2026-05-21T09:19:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Después de probar Movistar Plus, Orange TV libre y DAZN, tengo claro cuál es la mejor plataforma para ver fútbol",
+      "description": "Esta temporada estamos teniendo el mismo problema de los últimos años: si quieres ver todo el fútbol, te toca atarte a Movistar u Orange y pagar alrededor de 100 euros por la fibra, el móvil y la tele",
+      "url": "https://www.xatakamovil.com/tv-movil/despues-probar-movistar-plus-orange-tv-libre-dazn-tengo-claro-cual-mejor-plataforma-para-ver-futbol-1",
+      "source": "Xatakamovil.com",
+      "published_at": "2026-05-21T08:01:34Z",
+      "category": "general"
+    },
+    {
+      "title": "Lorianne, el club fantasma en el que nunca patearon una pelota pero tiene voto en la AFA y responde a Toviggino",
+      "description": "Su sede está en un departamento en Martínez, comenzó como una asociación civil protectora de animales y en su comisión directiva hubo dirigentes cercanos al tesorero de la AFA",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/lorianne-el-club-fantasma-en-el-que-nunca-patearon-una-pelota-pero-tiene-voto-en-la-afa-y-responde-a-nid20052026/",
+      "source": "La Nacion",
+      "published_at": "2026-05-20T11:06:43Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Darwin Núñez y un trimestre crítico premundial: el esfuerzo de AUF para tenerlo antes y los números de los otros 9",
+      "description": "A 22 días del inicio de la Copa del Mundo el titular de la selección uruguaya apenas sumó 26 minutos en los últimos 90 días, rehén de la decisión del Al Hilal.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/darwin-nunez-y-un-trimestre-critico-premundial-el-esfuerzo-de-auf-para-tenerlo-antes-y-los-numeros-de-los-otros-9",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-05-20T07:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "¡No se puede creer! Maravilla Martínez erró un gol...",
+      "description": "El goleador de la Academia erró un gol que parecía imposible de errar en un momento clave del partido de la CONMEBOL Sudamericana.",
+      "url": "https://www.espn.com.ar/futbol/copa-sudamericana/nota/_/id/16742450/video-gol-errado-de-maravilla-martinez-blooper-racing-vs-caracas",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-05-22T04:04:09",
+      "category": "general"
+    },
+    {
+      "title": "El Mundial 2026, por Disney+ Plan Premium",
+      "description": "Se retransmitirán 30 partidos incluyendo la final y los partidos de las selecciones nacionales de Argentina, Colombia, Ecuador, Uruguay en esos países.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16586606/el-mundial-2026-llega-a-disney+-plan-premium-en-sudamerica-a-traves-de-espn",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-05-22T05:01:53",
+      "category": "seleccion"
+    },
+    {
+      "title": "Bielsa confirmó su salida de Uruguay post Mundial",
+      "description": "El Loco confirmó que no seguirá al frente de la Celeste luego del Mundial 2026.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16741793/video-marcelo-bielsa-anuncio-seleccion-uruguaya-futuro-trabajo-culmina-copa-del-mundo",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-05-22T05:04:40",
+      "category": "mundial"
+    }
+  ]
+}
