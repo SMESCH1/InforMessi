@@ -4,14 +4,128 @@
   "data": {
     "date": "2026-05-23",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 19,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1961-05-23",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Daniele Massaro",
+        "age": 65,
+        "description": "Cumpleaños de Daniele Massaro (65 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "La maldición de Neymar: \"Sentía que no podía mover los pies, me puse a llorar desesperadamente\"",
+        "description": "Lesionado, golpeado, desafortunado, machacado por los penaltis, así fueron los anteriores tres Mundiales del brasileño, que tendrá la oportunidad de tomarse la revancha  Leer",
+        "url": "https://www.marca.com/futbol/mundial/2026/05/22/maldicion-neymar-sentia-podia-mover-pies-me-puse-llorar-desesperadamente.html",
+        "source": "Marca",
+        "published_at": "2026-05-22T04:06:17Z",
+        "category": "mundial"
+      },
+      {
+        "title": "La última moda: aficionados crean con IA himnos para sus selecciones antes del Mundial 2026",
+        "description": "La Inteligencia Artificial también llegará a las graderías del Mundial 2026, con canciones creadas por la tecnología.",
+        "url": "https://www.nacion.com/puro-deporte/la-ultima-moda-aficionados-crean-con-ia-himnos/4GOFGJX6LREQ7EAHZZ6YCP7WEY/story/",
+        "source": "Nacion.com",
+        "published_at": "2026-05-22T02:56:01Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Marcelo Bielsa le puso fecha de vencimiento a su ciclo en Uruguay: se va tras el Mundial 2026",
+        "description": "Marcelo Bielsa confirmó que dejará la selección de Uruguay tras el Mundial 2026, asegurando que su proyecto culmina en la gran cita. Se espera la lista oficial del loco.\n Leer más",
+        "url": "https://442.perfil.com/noticias/mundial-2026/marcelo-bielsa-anticipo-que-dejara-la-seleccion-de-uruguay-a35.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-21T23:41:08Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Anitta, LISA y Rema lanzan 'Goals', otro de los himnos del Mundial 2026",
+        "description": "El Copa Mundial de la FIFA 2026 no solo promete ser histórico en lo deportivo. También apunta a convertirse en uno de los más ambiciosos a nivel musical. Después de que Shakira y Burna Boy estrenaran ",
+        "url": "https://www.mundodeportivo.com/vaya-mundo/20260522/1004186413/anitta-lisa-rema-lanzan-goals-himnos-mundial-2026-dct.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-22T08:24:39Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Hansen, presidente de la Federación: \"Si España es buena en todos los deportes, ¿por qué no va a serlo en rugby?\"",
+        "description": "Juan Carlos Martín repasa en Libertad Digital la candidatura de España para organizar el Mundial masculino de 2035.",
+        "url": "https://www.libertaddigital.com/deportes/mas-deporte/2026-05-22/hansen-presidente-de-la-federacion-si-espana-es-buena-en-todos-los-deportes-por-que-no-va-a-serlo-en-rugby-7408272/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-05-22T07:42:58Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El Villarreal prepara el fin de fiesta más emotivo",
+        "description": "El club celebrará la clasificación para la Champions en una noche en la que se rendirá homenaje a Marcelino, Pedraza y Parejo<span class=\"xai-icon\" contenteditable=\"false\" tabindex=\"-1\"></span>",
+        "url": "https://www.marca.com/futbol/villarreal/2026/05/23/villarreal-prepara-fiesta-emotivo.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-23T08:29:35",
+        "category": "general"
+      },
+      {
+        "title": "Betis - Levante: horario y dónde ver hoy por TV y online el partido de LaLiga EA Sports",
+        "description": "Los verdiblancos, ya en Champions, reciben a los granotas que busca sellar la permanencia",
+        "url": "https://www.marca.com/futbol/primera-division/2026/05/23/betis-levante-horario-ver-hoy-tv-online-partido-laliga-ea-sports.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-23T08:07:29",
+        "category": "general"
+      },
+      {
+        "title": "EN DIRECTO | XXIX Torneo Arousa Fútbol 7, sábado 23 mayo (turno de mañana)",
+        "description": "",
+        "url": "https://www.marca.com/futbol/cantera/2026/05/23/directo-xxix-torneo-arousa-futbol-7-sabado-23-mayo-turno-manana-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-23T06:49:29",
+        "category": "general"
+      },
+      {
+        "title": "Walker da la cara por el madridista Trent tras quedarse fuera del Mundial: “Es una locura”",
+        "description": "El lateral del Burnley defiende al jugador del Real Madrid tras quedarse fuera de la lista de Tuchel para el Mundial 2026<span class=\"\" contenteditable=\"false\" tabindex=\"-1\"></span>",
+        "url": "https://www.marca.com/futbol/mundial/2026/05/23/walker-da-cara-madridista-trent-quedarse-fuera-mundial-locura.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-23T06:25:15",
+        "category": "mundial"
+      },
+      {
+        "title": "Borja Mayoral: \"Para el Getafe sería brutal jugar en Europa\"",
+        "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+        "url": "https://www.marca.com/futbol/getafe/2026/05/23/borja-mayoral-getafe-seria-brutal-jugar-europa.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-23T06:12:53",
+        "category": "general"
+      },
+      {
+        "title": "La maldición de Neymar: \"Sentía que no podía mover los pies, me puse a llorar desesperadamente\"",
+        "description": "Lesionado, golpeado, desafortunado, machacado por los penaltis, así fueron los anteriores tres Mundiales del brasileño, que tendrá la oportunidad de tomarse la revancha  Leer",
+        "url": "https://www.marca.com/futbol/mundial/2026/05/22/maldicion-neymar-sentia-podia-mover-pies-me-puse-llorar-desesperadamente.html",
+        "source": "Marca",
+        "published_at": "2026-05-22T04:06:17Z"
+      },
+      {
+        "title": "Marcelo Bielsa le puso fecha de vencimiento a su ciclo en Uruguay: se va tras el Mundial 2026",
+        "description": "Marcelo Bielsa confirmó que dejará la selección de Uruguay tras el Mundial 2026, asegurando que su proyecto culmina en la gran cita. Se espera la lista oficial del loco.\n Leer más",
+        "url": "https://442.perfil.com/noticias/mundial-2026/marcelo-bielsa-anticipo-que-dejara-la-seleccion-de-uruguay-a35.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-21T23:41:08Z"
+      },
+      {
+        "title": "Marcelo Bielsa confirmó que dejará la selección uruguaya después del Mundial",
+        "description": "El entrenador argentino habló durante un evento de la AUF en Montevideo y agradeció la oportunidad de dirigir a la Celeste",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/marcelo-bielsa-confirmo-que-dejara-la-seleccion-uruguaya-despues-del-mundial-nid21052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-21T22:52:20Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 19 días para el Mundial 2026 ⚽\n\n📰 Marcelo Bielsa le puso fecha de vencimiento a su ciclo en Uruguay: se va tras el Mundial 2026. El DT confirmó que dejará la selección de Uruguay tras el Mundial 2026, asegurando que su proyecto culmina en la gran cita 🌎\n\nMarcelo Bielsa es un entrenador con una gran experiencia en la Selección de Uruguay. Su partida marcara el final de un ciclo exitoso para el combinado uruguayo.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-23T14:43:04.178779",
+  "published_at": "2026-05-23T14:43:04.899225",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-23T14:43:04.178789"
 }
