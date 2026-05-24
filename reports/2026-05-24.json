@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-05-24",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 18,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1994-05-24",
@@ -12,7 +15,7 @@
         "priority": "high",
         "person": "Rodrigo De Paul",
         "age": 32,
-        "description": "Cumpleaños del 'Motorcito' De Paul."
+        "description": "Cumpleaños de Rodrigo De Paul (32 años)"
       },
       {
         "date": "2003-05-24",
@@ -22,12 +25,114 @@
         "description": "Inauguración del Estadio Ciudad de La Plata con Selección."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "¿Peligra el debut mundialista? Dibu Martínez sufre fractura y enciende las alarmas en la Albiceleste",
+        "description": "El arquero del Aston Villa tendrá un recuperación de aproximadamente 20 días",
+        "url": "https://www.record.com.mx/historia/peligra-el-debut-mundialista-dibu-martinez-sufre-fractura-y-enciende-las-alarmas-en-la-albiceleste-2026052302203151211",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-23T02:20:31Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Repretel revela su nueva jugada para vivir el Mundial 2026 desde adentro",
+        "description": "Repretel hizo una serie de cambios en su programación para abrir espacio a un nuevo espacio dedicado al Campeanato Mundial que se robará tres franjas horarias.",
+        "url": "https://www.nacion.com/viva/repretel-revela-su-nueva-jugada-para-vivir-el/NRUREUERHBGQPO74ILFCNCDH2A/story/",
+        "source": "Nacion.com",
+        "published_at": "2026-05-23T02:13:22Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Francia, Inglaterra y España lideran las selecciones más valiosas rumbo al Mundial 2026",
+        "description": "El valor de mercado de las principales potencias refleja la enorme cantidad de talento que estará presente en la Copa del Mundo de 2026, con varias plantillas superando los mil millones de euros",
+        "url": "https://www.record.com.mx/historia/francia-inglaterra-y-espana-lideran-las-selecciones-mas-valiosas-rumbo-al-mundial-2026-2026052222445575606",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-22T22:44:55Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Barcelona tendrá pantalla gigante para seguir la final de la Champions femenina del Barça en Oslo",
+        "description": "El Ayuntamiento de Barcelona instalará una pantalla gigante para que los aficionados puedan seguir en directo la final de la UEFA Women's Champions League 2026 entre el FC Barcelona y el OL Lyonnes en",
+        "url": "https://www.abc.es/espana/cataluna/pantalla-gigante-barcelona-seguir-final-champions-femenina-20260521112822-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-05-23T08:13:20Z",
+        "category": "mundial"
+      },
+      {
+        "title": "2-0: México empieza a coger sensaciones para su Mundial",
+        "description": "Puebla (México), 22 may (EFE).- La selección mexicana derrotó por 2-0 a su similar de Ghana, que jugó sin sus principales figuras, en un partido amistoso disputado este viernes en el estadio Cuauhtémo",
+        "url": "https://www.mundodeportivo.com/futbol/internacional/20260523/1004186777/2-0-mexico-empieza-coger-sensaciones-mundial.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-23T06:26:58Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Real Valladolid - Deportivo de La Coruña: horario y dónde ver hoy en TV el partido de Segunda división",
+        "description": "El conjunto gallego busca certificar el ascenso directo a Primera División",
+        "url": "https://www.marca.com/futbol/segunda-division/2026/05/22/real-valladolid-deportivo-de-la-coruna-horario-y-donde-ver-hoy-en-tv-el-partido-de-segunda-division.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-24T08:44:31",
+        "category": "liga"
+      },
+      {
+        "title": "EN DIRECTO | XXIX Torneo Arousa Fútbol 7, domingo24 mayo",
+        "description": "",
+        "url": "https://www.marca.com/futbol/2026/05/24/directo-xxix-torneo-arousa-futbol-7-sabado-23-mayo-turno-tar-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-24T08:41:37",
+        "category": "general"
+      },
+      {
+        "title": "Cuando España fue con un jugador menos y un portero de más",
+        "description": "En su primer Mundial, en de 1934, la lista se enredó, Hilario se quedó en casa y el meta sevillista Eizaguirre se sumó con el brazo izquierdo roto",
+        "url": "https://www.marca.com/futbol/seleccion/2026/05/24/espana-jugador-portero.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-24T06:31:51",
+        "category": "mundial"
+      },
+      {
+        "title": "Macroencuesta MARCA: MVP, jugador revelación y decepción y notas de los 20 equipos de LaLiga",
+        "description": "Haz tus valoraciones acerca de lo que nos ha dejado este curso en la máxima categoría del fútbol español",
+        "url": "https://www.marca.com/futbol/primera-division/2026/05/24/macroencuesta-marca-mvp-jugador-revelacion-decepcion-notas-20-equipos-laliga.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-24T05:33:12",
+        "category": "general"
+      },
+      {
+        "title": "Jimbee Cartagena - Jaén Paraíso Interior: horario, canal y dónde ver la final de Copa del Rey de fútbol sala",
+        "description": "Cartageneros y jienenses se pelearán la última final de este trofeo",
+        "url": "https://www.marca.com/futbol/futbol-sala/2026/05/24/jimbee-cartagena-jaen-paraiso-interior-horario-canal-ver-final-copa-rey-futbol-sala.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-24T01:42:00",
+        "category": "general"
+      },
+      {
+        "title": "Empezó el Mundial 2026: sudor, creatividad e IA",
+        "description": "En la era de los algoritmos, el valor vuelve a estar en algo irrepetible: la tensión humana en tiempo real",
+        "url": "https://www.lanacion.com.ar/economia/negocios/empezo-el-mundial-2026-sudor-creatividad-e-ia-nid23052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-23T09:51:00Z"
+      },
+      {
+        "title": "Repretel revela su nueva jugada para vivir el Mundial 2026 desde adentro",
+        "description": "Repretel hizo una serie de cambios en su programación para abrir espacio a un nuevo espacio dedicado al Campeanato Mundial que se robará tres franjas horarias.",
+        "url": "https://www.nacion.com/viva/repretel-revela-su-nueva-jugada-para-vivir-el/NRUREUERHBGQPO74ILFCNCDH2A/story/",
+        "source": "Nacion.com",
+        "published_at": "2026-05-23T02:13:22Z"
+      },
+      {
+        "title": "Mundial 2026: Suecia, todo lo que debes saber para la Copa del Mundo",
+        "description": "Será la décimotercera participación del equipo sueco, que en tres ocasiones subió al podio",
+        "url": "https://www.record.com.mx/historia/mundial-2026-suecia-todo-lo-que-debes-saber-para-la-copa-del-mundo-2026051501591451712",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-23T12:00:00Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 18 días para el Mundial 2026 ⚽\n\n🤝 Hoy cumple 32 años Rodrigo De Paul. Un jugador fundamental en la Scaloneta, prepara su tercer Mundial con Argentina 🏆\n\n📰 En otros lados, México empezó a coger sensaciones para su Mundial con un 2-0 a Ghana en un partido amistoso. Puebla fue el escenario de esta victoria 🏟️\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-24T14:42:47.369372",
+  "published_at": "2026-05-24T14:42:48.145655",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-24T14:42:47.369383"
 }
