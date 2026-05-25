@@ -4,15 +4,25 @@
   "data": {
     "date": "2026-05-25",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 17,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
+      {
+        "date": "1810-05-25",
+        "type": "fecha_patria",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Dia de la Revolucion de Mayo. El 25 de mayo de 1810 la Primera Junta de Gobierno marco el inicio del camino a la independencia argentina."
+      },
       {
         "date": "1953-05-25",
         "type": "birthday",
         "priority": "medium",
         "person": "Daniel Passarella",
-        "age": 72,
-        "description": "Cumpleaños de Daniel Alberto Passarella."
+        "age": 73,
+        "description": "Cumpleaños de Daniel Passarella (73 años)"
       },
       {
         "date": "1910-05-25",
@@ -20,41 +30,116 @@
         "priority": "low",
         "person": "N/A",
         "description": "Argentina derrota a Chile 3-1 en la Copa Centenario Revolución de Mayo."
-      },
-      {
-        "date": "2026-05-25",
-        "type": "historical",
-        "priority": "low",
-        "description": "Día Mundial delFútbol.[1]​De acuerdo con la resolución de laOrganización de las Naciones UnidasA/RES/78/281, se declaró elDía Mundial del Fútbol[2]​el 25 de mayo para reconocer\"el alcance global del f",
-        "historical_year": null,
-        "source": "Wikipedia",
-        "url": "https://es.wikipedia.org/wiki/25_de_mayo"
-      },
-      {
-        "date": "2026-05-25",
-        "type": "historical",
-        "priority": "low",
-        "description": "↑FIFA(23 de mayo de 2024).«La Organización de las Naciones Unidas (ONU) adoptó recientemente por unanimidad una resolución para proclamar el Día Mundial del Fútbol». Consultado el 23 de mayo de 2024.",
-        "historical_year": "2024",
-        "source": "Wikipedia",
-        "url": "https://es.wikipedia.org/wiki/25_de_mayo"
-      },
-      {
-        "date": "2026-05-25",
-        "type": "historical",
-        "priority": "low",
-        "description": "↑Primera Edición (diario)(25 de mayo de 2025).«Por qué se celebra hoy el Día Mundial del Fútbol ● La efeméride, de muy reciente creación, se conmemora cada 25 de mayo por impulso de la ONU». Consultad",
-        "historical_year": "2025",
-        "source": "Wikipedia",
-        "url": "https://es.wikipedia.org/wiki/25_de_mayo"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Mundial 2026: Luz, cámara, fútbol",
+        "description": "Cómo se prepara la TV para la transmisión de la Copa del Mundo. Las estrellas de los distintos canales. El streaming, presente. Leer más",
+        "url": "https://noticias.perfil.com/noticias/informacion-general/mundial-2026-luz-camara-futbol.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-24T10:46:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El millonario negocio de Panini, la firma tras los álbumes del Mundial hasta 2030",
+        "description": "Panini proyecta ingresos por 1.400 millones de euros para este año gracias al álbum del Mundial 2026, el más grande y ambicioso en la historia de la Copa del Mundo. En mayo, la FIFA le comunicó que el",
+        "url": "https://www.latercera.com/pulso/noticia/el-millonario-negocio-de-panini-la-firma-tras-los-albumes-del-mundial-hasta-2030/",
+        "source": "Latercera.com",
+        "published_at": "2026-05-24T11:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Confirmado por la CBP: los cinco países del Mundial 2026 que deben pagar hasta US$15.000 para entrar a EE.UU.",
+        "description": "Cinco países clasificados al Mundial 2026 deben pagar fianzas de hasta US$15.000 para obtener visa de EE.UU.; qué exenciones existen y cómo recuperar el dinero.",
+        "url": "https://www.lanacion.com.ar/estados-unidos/confirmado-por-la-cbp-los-cinco-paises-del-mundial-2026-que-deben-pagar-hasta-us15000-para-entrar-a-nid24052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-24T06:02:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Horarios de todos los partidos del Mundial 2026: cuadro completo de las selecciones, sedes y grupos",
+        "description": "Todos los equipos y horarios de los 104 encuentros que conformarán la Copa del Mundo de Estados Unidos, México y Canadá",
+        "url": "https://www.marca.com/futbol/mundial/2026/05/25/horarios-todos-partidos-mundial-2026-cuadro-completo-selecciones-sedes-grupos.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-25T10:54:15",
+        "category": "mundial"
+      },
+      {
+        "title": "Remiro se queda sin Mundial y dice adiós a su temporada más difícil",
+        "description": "El portero txuriurdin no está en la lista definitiva, tras haber formado parte de todas las anteriores, y con la Real ha encajado 60 goles Liga y fue suplente en la final de Copa",
+        "url": "https://www.marca.com/futbol/real-sociedad/2026/05/25/remiro-queda-mundial-dice-adios-temporada-dificil.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-25T10:53:14",
+        "category": "mundial"
+      },
+      {
+        "title": "Cuándo debuta España en el Mundial 2026: horario, fecha y en qué estadio juega el primer partido",
+        "description": "Los de Luis de la Fuente afrontan el reto de ganar la segunda estrella",
+        "url": "https://www.marca.com/futbol/mundial/2026/05/25/debuta-espana-mundial-2026-horario-fecha-estadio-juega-primer-partido.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-25T10:52:36",
+        "category": "mundial"
+      },
+      {
+        "title": "Una 'maldición' que dura ya 20 años",
+        "description": "España seguirá un Mundial más sin contar en su lista con futbolistas procedentes del Betis",
+        "url": "https://www.marca.com/futbol/betis/2026/05/25/maldicion-dura-20-anos.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-25T10:51:47",
+        "category": "mundial"
+      },
+      {
+        "title": "¡Eric García es la bomba para el Mundial!",
+        "description": "Su Majestad el Rey dio paso al anuncio de los 26 elegidos para el Mundial",
+        "url": "https://www.marca.com/futbol/seleccion/2026/05/25/eric-garcia-bomba-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-25T10:44:11",
+        "category": "mundial"
+      },
+      {
+        "title": "Una lista para la historia: ningún jugador del Real Madrid en la convocatoria de España del Mundial",
+        "description": "Con Carvajal fuera de la prelista, Dean Huijsen paga su gris temporada y se queda fuera",
+        "url": "https://www.marca.com/futbol/seleccion/2026/05/25/lista-historia-jugador-real-madrid-convocatoria-espana.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-25T10:39:23",
+        "category": "mundial"
+      },
+      {
+        "title": "Cuándo juega España los partidos amistosos antes del Mundial 2026: fechas, horarios y dónde ver en TV",
+        "description": "Los detalles de los dos enfrentamientos preparatorios",
+        "url": "https://www.marca.com/futbol/mundial/2026/05/25/juega-espana-partidos-amistosos-mundial-2026-fechas-horarios-ver-tv.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-25T10:23:35",
+        "category": "mundial"
+      },
+      {
+        "title": "Mundial 2026: Luz, cámara, fútbol",
+        "description": "Cómo se prepara la TV para la transmisión de la Copa del Mundo. Las estrellas de los distintos canales. El streaming, presente. Leer más",
+        "url": "https://noticias.perfil.com/noticias/informacion-general/mundial-2026-luz-camara-futbol.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-24T10:46:00Z"
+      },
+      {
+        "title": "Empezó el Mundial 2026: sudor, creatividad e IA",
+        "description": "En la era de los algoritmos, el valor vuelve a estar en algo irrepetible: la tensión humana en tiempo real",
+        "url": "https://www.lanacion.com.ar/economia/negocios/empezo-el-mundial-2026-sudor-creatividad-e-ia-nid23052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-23T09:51:00Z"
+      },
+      {
+        "title": "Pablo Giralt: “Soy un hincha más de mi Selección”",
+        "description": "El relator que narró las mayores alegrías de la Selección habla del sueño mundialista, Messi y la presión emocional.\n Leer más",
+        "url": "https://noticias.perfil.com/noticias/personajes/pablo-giralt-soy-un-hincha-mas-de-mi-seleccion.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-24T10:39:00Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 17 días para el Mundial 2026 ⚽\n\nLa victoria de Argentina en la Copa Centenario Revolución de Mayo fue un recordatorio de la gran historia del fútbol argentino. La Scaloneta ha demostrado ser una de las mejores selecciones del mundo, y su participación en el Mundial 2026 promete ser emocionante 🌎\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-25T16:02:39.445003",
+  "published_at": "2026-05-25T16:02:40.347565",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-25T16:02:39.445011"
 }
