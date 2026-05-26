@@ -4,14 +4,128 @@
   "data": {
     "date": "2026-05-26",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 16,
-    "events": [],
-    "news": []
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1909-05-26",
+        "type": "birthday",
+        "priority": "low",
+        "person": "Matt Busby",
+        "age": 117,
+        "description": "Cumpleaños de Matt Busby (117 años)"
+      }
+    ],
+    "news": [
+      {
+        "title": "La realidad del país no puede ocultarse con el futbol: Marcos",
+        "description": "San Cristóbal De Las Casas, Chis., A propósito del Mundial que será inaugurado en México el 11 de junio próximo, el capitán Marcos, del Ejército Zapatista de Liberación Nacional (EZLN), afirmó que “el",
+        "url": "https://www.jornada.com.mx/2026/05/25/estados/031n1est",
+        "source": "Jornada.com.mx",
+        "published_at": "2026-05-25T07:57:29Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Los imprescindibles de mayo del 2026 de Zona Negativa",
+        "description": "Nuestros imprescindibles de mayo del 2026 son ideales para quedarse al fresquito en casa y huir del calor abrasador.",
+        "url": "https://www.zonanegativa.com/los-imprescindibles-de-mayo-del-2026/",
+        "source": "Zonanegativa.com",
+        "published_at": "2026-05-25T06:00:45Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Messi sale lesionado a tres semanas del Mundial 2026",
+        "description": "Las alarmas se encendieron en la selección de Argentina, debido a que su capitán, Lionel Messi, salió lesionado en su último juego con el Inter Miami de la MLS de Estados Unidos. A menos de tres seman",
+        "url": "https://www.dw.com/es/messi-sale-lesionado-a-tres-semanas-del-mundial-2026/a-77282757",
+        "source": "DW (English)",
+        "published_at": "2026-05-25T02:48:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "COPE avanza una próxima temporada 26-27 con Carlos Herrera y el resto de sus comunicadores al frente de sus programas",
+        "description": "COPE trabaja ya en la próxima temporada 2026-27, con Carlos Herrera y el resto de sus comunicadores al frente de sus programas, según ha informado este lunes Ábside Media.",
+        "url": "https://www.europapress.es/sociedad/noticia-cope-avanza-proxima-temporada-26-27-carlos-herrera-resto-comunicadores-frente-programas-20260525122523.html",
+        "source": "Europapress.es",
+        "published_at": "2026-05-25T10:25:23Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Convocatoria de España para el Mundial de fútbol 2026, hoy en directo | Pendientes de las sorpresas y de la última hora de la lista de Luis de la Fuente",
+        "description": " Diseña la lista de España para el Mundial 2026  Carvajal y Morata se quedan fuera del Mundial: no están entre los 55 de la prelista de Luis de la Fuente",
+        "url": "https://www.elespanol.com/deportes/futbol/20260525/convocatoria-espana-mundial-futbol-hoy-directo-ultima-hora-lista-luis-fuente/1003744258057_10.html",
+        "source": "Elespanol.com",
+        "published_at": "2026-05-25T10:17:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "La convocatoria de Luis de la Fuente, en streaming",
+        "description": "Sigue aquí el streaming de la convocatoria del seleccionador español, Luis de la Fuente, para el Mundial 2026. La selección española de fútbol iniciará el 30 de",
+        "url": "https://www.mundodeportivo.com/seleccion-espanola/20260525/1004187493/convocatoria-luis-fuente-streaming.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-25T10:15:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Argentina: Belgrano, con dos uruguayos presentes, ganó el Apertura y fue su primer título en Primera División",
+        "description": "El equipo cordobés hizo historia tras remontarle la final del certamen a River Plate por 3 a 2. Thiago Cardozo fue titular y Federico Ricca entró desde el banco para el elenco que se terminó consagran",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/argentina-belgrano-con-dos-uruguayos-presentes-gano-el-apertura-y-fue-su-primer-titulo-en-primera-division",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-05-24T22:52:05Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Ramiro Bueno celebró a Belgrano campeón, y le dedicó un mensaje a su papá \"El Potro\" Rodrigo",
+        "description": "En el día en que el \"Potro\" Rodrigo hubiera cumplido 53 años, el club de sus amores, Belgrano, se consagró campeón del fútbol de Argentina por primera vez en la historia al derrotar a River Plate. Lee",
+        "url": "https://exitoina.perfil.com/noticias/destacada/ramiro-bueno-celebro-belgrano-campeon-dedico-mensaje-papa-potro-rodrigo-bueno.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-24T22:20:14Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "La enfermería de River: cómo están Acuña, Montiel,...",
+        "description": "Los laterales apuntan a llegar en óptimas condiciones a la Copa del Mundo, donde en caso de ser convocados buscarán revalidar el título de Qatar 2022.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16759300/river-lesion-que-le-paso-como-esta-acuna-montiel-quintero-moreno",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-26T04:46:22",
+        "category": "mundial"
+      },
+      {
+        "title": "Inter Miami publicó el parte médico de la lesión d...",
+        "description": "Leo abandonó el campo de juego en el encuentro ante Philadelphia y generó preocupación a pocos días del Mundial 2026, pero el conjunto de la MLS trajo tranquilidad con su publicación.",
+        "url": "https://www.espn.com.ar/futbol/mls/nota/_/id/16756175/messi-al-vestuario-en-inter-miami-lesion-que-le-paso-argentina-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-26T03:18:38",
+        "category": "mundial"
+      },
+      {
+        "title": "En qué horarios de Argentina juega la selección en el Mundial 2026",
+        "description": "El combinado nacional enfrentará en la primera etapa, en el Grupo J, a Argelia, Austria y Jordania",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/en-que-horarios-de-argentina-juega-la-seleccion-en-el-mundial-2026-nid25052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-25T16:03:18Z"
+      },
+      {
+        "title": "Lionel Messi se tocó el posterior, pidió el cambio y se fue al vestuario: ¿Cual es el parte médico del 10?",
+        "description": "Lionel Messi encendió las alarmas de la Selección a días del Mundial 2026 tras dejar la cancha por una molestia muscular, aunque los estudios confirmaron que no sufre un desgarro. Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/lionel-messi-se-toco-el-posterior-pidio-el-cambio-y-se-fue-al-vestuario-cual-es-el-parte-medico-del-10.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-25T14:41:42Z"
+      },
+      {
+        "title": "Agrega todos los partidos del Mundial 2026 a tu Google Calendar",
+        "description": "El fin de semana pasado tuve poco trabajo, así que le metí mano al diseño de la página que hice hace […]\nEl artículo Agrega todos los partidos del Mundial 2026 a tu Google Calendar aparece primero en ",
+        "url": "https://www.roc21.com/2026/05/25/partidos-mundial-google-calendar/",
+        "source": "Roc21.com",
+        "published_at": "2026-05-25T14:18:45Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 16 días para el Mundial 2026 ⚽\n\nMatt Busby cumple 117 años hoy, siendo un pilar importante en la historia del fútbol inglés. Su legado continúa siendo recordado con cariño.\n\nConvocatoria de España para el Mundial de fútbol 2026, en directo hoy en España. La lista de Luis de la Fuente promete sorpresas y cambios importantes para el combinado español.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-26T16:52:09.028196",
+  "published_at": "2026-05-26T16:52:09.707320",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-26T16:52:09.028206"
 }
