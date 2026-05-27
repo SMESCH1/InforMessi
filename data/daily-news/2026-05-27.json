@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-05-27",
+  "scraped_at": "2026-05-27T10:43:40.125127",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "¿Igualará el Atlético su récord histórico de presencia en un Mundial?",
+      "description": "Con la temporada ya finalizada en España, el Mundial centra ya la ateneción de todos los aficionados al fútbol, al menos en el plano deportivo, porque el mercado se presenta apasionante. Especialmente",
+      "url": "https://www.mundodeportivo.com/futbol/atletico-madrid/20260526/1004187875/igualara-atletico-record-historico-presencia-mundial.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-05-26T10:07:12Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El Inter Miami precisa el tipo de lesión que sufrió Messi",
+      "description": "A pocas semanas del inicio de la Copa Mundial 2026, el club no ha fijado plazos de recuperación.",
+      "url": "https://actualidad.rt.com/actualidad/607104-inter-miami-precisar-tipo-lesion-messi",
+      "source": "RT",
+      "published_at": "2026-05-26T09:18:36Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Susto con Messi a semanas del Mundial: sufre una sobrecarga pero esquiva la rotura",
+      "description": "El susto del '10' en el Inter Miami queda en un percance muscular leve, asegurando su presencia con la Albiceleste para el debut mundialista.",
+      "url": "https://www.libertaddigital.com/deportes/futbol/2026-05-26/susto-con-messi-a-semanas-del-mundial-sufre-una-sobrecarga-pero-esquiva-la-rotura-7409902/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-05-26T07:14:14Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Movistar Plus lo confirma: el 1 de junio estrenará los 4 canales para ver el Mundial 2026",
+      "description": "Desde la semana pasada, los amantes del fútbol abonados a Movistar Plus pueden ver más fútbol sin pagar de más. Y todo por la emisión de diferentes enfrentamientos amistosos de selecciones. Sin duda, ",
+      "url": "https://www.adslzone.net/noticias/operadores/movistar-plus-fecha-estreno-canales-mundial/",
+      "source": "Adslzone.net",
+      "published_at": "2026-05-26T09:34:47Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Thiago Cardozo recordó a su hermano tras ser campeón: \"En nuestras últimas charlas me recomendó venir a Argentina\"",
+      "description": "El exgolero de Peñarol fue una pieza clave en el Belgrano de Córdoba que se coronó de local en el Estadio Mario Alberto Kempes como campeón del Apertura argentino tras vencer en la final a River.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/la-emocion-de-cardozo-tras-ser-campeon-en-nuestras-ultimas-charlas-mi-hermano-me-recomendo-venir-a-argentina",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-05-25T13:04:24Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Ni Barcelona, ni Real Madrid: este el único equipo tiene la triple corona europea en la historia",
+      "description": "El Chelsea logró ganar la Champions, Europa League y Conference",
+      "url": "https://www.marca.com/futbol/champions-league/2026/05/27/barcelona-real-madrid-unico-equipo-triple-corona-europea-historia.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-27T10:30:14",
+      "category": "general"
+    },
+    {
+      "title": "Alexia: \"Sentí que todo lo que fuera continuar en el Barça podría desdibujar este camino\"",
+      "description": "La futbolista culé se despide en un emotivo acto de homenaje en el Spotify Camp Nou",
+      "url": "https://www.marca.com/futbol/barcelona/2026/05/27/alexia-senti-fuera-continuar-barca-podria-desdibujar-camino.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-27T10:20:39",
+      "category": "general"
+    },
+    {
+      "title": "Primeras palabras de Huijsen tras quedarse sin Mundial: \"Estaré apoyando\"",
+      "description": "El central del Real Madrid publicó un mensaje en sus redes sociales.",
+      "url": "https://www.marca.com/futbol/seleccion/2026/05/27/primeras-palabras-huijsen-quedarse-mundial-estare-apoyando.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-27T10:10:10",
+      "category": "mundial"
+    },
+    {
+      "title": "Las sedes que convertirán Madrid en el gran epicentro internacional del fútbol base",
+      "description": "",
+      "url": "https://www.marca.com/futbol/mas-futbol/2026/05/27/sedes-convertiran-madrid-gran-epicentro-internacional-futbol-base.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-27T10:06:54",
+      "category": "general"
+    },
+    {
+      "title": "Así convierte MADCUP FOOTBALL la innovación en una seña de identidad del torneo",
+      "description": "",
+      "url": "https://www.marca.com/futbol/mas-futbol/2026/05/27/asi-convierte-madcup-football-innovacion-sena-identidad-torneo.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-27T10:06:46",
+      "category": "general"
+    }
+  ]
+}
