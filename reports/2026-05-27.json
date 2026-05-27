@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-05-27",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 15,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1934-05-27",
@@ -14,12 +17,114 @@
         "description": "Debut y eliminación de Argentina en el Mundial de Italia 1934 (2-3 vs Suecia)."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "¿Igualará el Atlético su récord histórico de presencia en un Mundial?",
+        "description": "Con la temporada ya finalizada en España, el Mundial centra ya la ateneción de todos los aficionados al fútbol, al menos en el plano deportivo, porque el mercado se presenta apasionante. Especialmente",
+        "url": "https://www.mundodeportivo.com/futbol/atletico-madrid/20260526/1004187875/igualara-atletico-record-historico-presencia-mundial.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-05-26T10:07:12Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El Inter Miami precisa el tipo de lesión que sufrió Messi",
+        "description": "A pocas semanas del inicio de la Copa Mundial 2026, el club no ha fijado plazos de recuperación.",
+        "url": "https://actualidad.rt.com/actualidad/607104-inter-miami-precisar-tipo-lesion-messi",
+        "source": "RT",
+        "published_at": "2026-05-26T09:18:36Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Susto con Messi a semanas del Mundial: sufre una sobrecarga pero esquiva la rotura",
+        "description": "El susto del '10' en el Inter Miami queda en un percance muscular leve, asegurando su presencia con la Albiceleste para el debut mundialista.",
+        "url": "https://www.libertaddigital.com/deportes/futbol/2026-05-26/susto-con-messi-a-semanas-del-mundial-sufre-una-sobrecarga-pero-esquiva-la-rotura-7409902/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-05-26T07:14:14Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Movistar Plus lo confirma: el 1 de junio estrenará los 4 canales para ver el Mundial 2026",
+        "description": "Desde la semana pasada, los amantes del fútbol abonados a Movistar Plus pueden ver más fútbol sin pagar de más. Y todo por la emisión de diferentes enfrentamientos amistosos de selecciones. Sin duda, ",
+        "url": "https://www.adslzone.net/noticias/operadores/movistar-plus-fecha-estreno-canales-mundial/",
+        "source": "Adslzone.net",
+        "published_at": "2026-05-26T09:34:47Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Thiago Cardozo recordó a su hermano tras ser campeón: \"En nuestras últimas charlas me recomendó venir a Argentina\"",
+        "description": "El exgolero de Peñarol fue una pieza clave en el Belgrano de Córdoba que se coronó de local en el Estadio Mario Alberto Kempes como campeón del Apertura argentino tras vencer en la final a River.",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/la-emocion-de-cardozo-tras-ser-campeon-en-nuestras-ultimas-charlas-mi-hermano-me-recomendo-venir-a-argentina",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-05-25T13:04:24Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Ni Barcelona, ni Real Madrid: este el único equipo tiene la triple corona europea en la historia",
+        "description": "El Chelsea logró ganar la Champions, Europa League y Conference",
+        "url": "https://www.marca.com/futbol/champions-league/2026/05/27/barcelona-real-madrid-unico-equipo-triple-corona-europea-historia.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-27T10:30:14",
+        "category": "general"
+      },
+      {
+        "title": "Alexia: \"Sentí que todo lo que fuera continuar en el Barça podría desdibujar este camino\"",
+        "description": "La futbolista culé se despide en un emotivo acto de homenaje en el Spotify Camp Nou",
+        "url": "https://www.marca.com/futbol/barcelona/2026/05/27/alexia-senti-fuera-continuar-barca-podria-desdibujar-camino.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-27T10:20:39",
+        "category": "general"
+      },
+      {
+        "title": "Primeras palabras de Huijsen tras quedarse sin Mundial: \"Estaré apoyando\"",
+        "description": "El central del Real Madrid publicó un mensaje en sus redes sociales.",
+        "url": "https://www.marca.com/futbol/seleccion/2026/05/27/primeras-palabras-huijsen-quedarse-mundial-estare-apoyando.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-27T10:10:10",
+        "category": "mundial"
+      },
+      {
+        "title": "Las sedes que convertirán Madrid en el gran epicentro internacional del fútbol base",
+        "description": "",
+        "url": "https://www.marca.com/futbol/mas-futbol/2026/05/27/sedes-convertiran-madrid-gran-epicentro-internacional-futbol-base.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-27T10:06:54",
+        "category": "general"
+      },
+      {
+        "title": "Así convierte MADCUP FOOTBALL la innovación en una seña de identidad del torneo",
+        "description": "",
+        "url": "https://www.marca.com/futbol/mas-futbol/2026/05/27/asi-convierte-madcup-football-innovacion-sena-identidad-torneo.html",
+        "source": "Fútbol",
+        "published_at": "2026-05-27T10:06:46",
+        "category": "general"
+      },
+      {
+        "title": "Lionel Scaloni sumó nombres nuevos para la Selección Argentina para la gira previa del Mundial 2026",
+        "description": "Lionel Scaloni cierra detalles de cara a los duelos ante Honduras e Islandia: armará una delegación XL de más de 30 futbolistas para evaluar el recambio y blindar el futuro. Leer más",
+        "url": "https://442.perfil.com/noticias/mundial-2026/lionel-scaloni-sumo-nombres-nuevos-para-la-seleccion-argentina-para-la-gira-previa-del-mundial-2026.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-26T15:49:50Z"
+      },
+      {
+        "title": "Cómo es el búnker que eligió la selección argentina para el Mundial 2026",
+        "description": "El predio del Sporting Kansas City fue el preferido por el cuerpo técnico de Scaloni por su ubicación estratégica y tecnología de primer nivel",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/como-es-el-bunker-que-eligio-la-seleccion-argentina-para-el-mundial-2026-nid26052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-26T14:57:32Z"
+      },
+      {
+        "title": "El Mundial 2026 dispara los precios: esto costará seguir a España hasta la final",
+        "description": "Seguir a una selección hasta la final del Mundial 2026 será un lujo al alcance de muy pocos.\n\nUn nuevo análisis revela cifras desorbitadas que ya están impactando a miles de aficionados antes incluso ",
+        "url": "https://www.elconfidencialdigital.com/articulo/deportes/mundial-2026-dispara-precios-costara-seguir-espana-final/202605261641001022883.html",
+        "source": "Elconfidencialdigital.com",
+        "published_at": "2026-05-26T14:41:00Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 15 días para el Mundial 2026 ⚽\n\n🏆 Debut y eliminación de Argentina en el Mundial de Italia 1934 (2-3 vs Suecia). Fue un comienzo frustrante para la Selección en la era de Carlos Peucelle y Carlos Pedraza. La derrota ante Suecia marcó el fin de la campaña argentina en el torneo.\n\nEl Inter Miami precisó el tipo de lesión que sufrió Messi: A pocas semanas del inicio de la Copa Mundial 2026, el club no ha fijado plazos de recuperación.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-27T16:46:10.042747",
+  "published_at": "2026-05-27T16:46:10.728144",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-27T16:46:10.042758"
 }
