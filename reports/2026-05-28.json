@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-05-28",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 14,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1999-05-28",
@@ -12,15 +15,117 @@
         "priority": "low",
         "person": "Facundo Medina",
         "age": 27,
-        "description": "Cumpleaños de Facundo Medina. Defensor argentino del Olympique de Marsella, internacional con la Selección."
+        "description": "Cumpleaños de Facundo Medina (27 años)"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Mundial 2026: Austria, todo lo que debes de saber para la Copa del Mundo",
+        "description": "Austria vuelve al Mundial tras 28 años con Alaba como líder y Rangnick como estratega, buscando revivir el legado del histórico Wunderteam",
+        "url": "https://www.record.com.mx/historia/mundial-2026-austria-todo-lo-que-debes-de-saber-para-la-copa-del-mundo-2026052622392025720",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-27T06:44:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "A 16 días del Mundial: El 'Entrenamiento Acuático', el extenuante viaje de la Selección Mexicana para el Mundial Uruguay 1930",
+        "description": "A lo largo de su historia en los Mundiales, el Tri ha protagonizado momentos peculiares en cada una de sus participaciones",
+        "url": "https://www.record.com.mx/historia/a-16-dias-del-mundial-el-entrenamiento-acuatico-el-extenuante-viaje-de-la-seleccion-mexicana-para-el-mundial-uruguay-1930-2026052613440960910",
+        "source": "Record.com.mx",
+        "published_at": "2026-05-27T04:22:24Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mundial 2026, en vivo: la lesión de Messi y la lista de Scaloni para los últimos amistosos",
+        "description": "El minuto a minuto de las últimas noticias de la selección argentina, declaraciones de los jugadores y entrenadores, y repercusiones sobre los partidos",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-2026-en-vivo-la-lesion-de-messi-y-la-lista-de-scaloni-para-los-ultimos-amistosos-nid27052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-27T03:30:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Las ofertas de MediaMarkt para disfrutar del Mundial 2026 dejan televisiones, barras de sonido y electrodomésticos a precios brutales",
+        "description": "Todavía estás a tiempo de aprovechar grandes descuentos en varios dispositivos, los cuales subirán de precio mañana",
+        "url": "https://www.larazon.es/tecnologia-consumo/compras/ofertas-mediamarkt-disfrutar-mundial-2026-dejan-televisiones-barras-sonido-electrodomesticos-precios-brutales_202605276a15789f3ce3f96345d862cd.html",
+        "source": "Larazon.es",
+        "published_at": "2026-05-27T10:32:12Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Borja Iglesias desvela en 'La revuelta' el dinero que tiene en patrimonio: \"Ahora estoy por encima\"",
+        "description": "El futbolista desvela a David Broncano los millones de euros que tiene un patrimonio total",
+        "url": "https://www.elconfidencial.com/television/programas-tv/2026-05-27/borja-iglesias-dinero-revuelta_4362367/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-05-27T10:23:00Z",
+        "category": "general"
+      },
+      {
+        "title": "Así puedes añadir todos los partidos del Mundial de Fútbol 2026 al calendario de tu móvil",
+        "description": "Tener a golpe de calendario la información detallada de los duelos mundialistas, hora de comienzo e información adicional es ahora posible gracias a estas opciones disponibles tanto para Google Calend",
+        "url": "https://www.larazon.es/tecnologia-consumo/aplicaciones/asi-puedes-anadir-todos-partidos-mundial-futbol-2026-calendario-tu-movil_202605276a16c348cb17881aa25972d7.html",
+        "source": "Larazon.es",
+        "published_at": "2026-05-27T10:15:24Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Alan Varela: “Tengo como objetivo poder estar en la lista del Mundial, tuve un muy buen año”",
+        "description": "El mediocampista campeón con Porto habló de su crecimiento en Europa, la ilusión de meterse en la lista definitiva de Scaloni. Además, recordó su pasado en Boca, elogió a Paredes y contó cómo la pater",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/alan-varela-tengo-como-objetivo-poder-estar-en-la-lista-del-mundial-tuve-un-muy-buen-ano-nid26052026/",
+        "source": "La Nacion",
+        "published_at": "2026-05-26T22:00:19Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Los aprobados y desaprobados del tormentoso primer semestre de River en este 2026",
+        "description": "El Millonario cerró la primera etapa de la temporada con Coudet ante la salida de Gallardo y, una vez más, sin ningún título. El análisis de lo sucedido y lo que viene para la segunda parte del año en",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16766681/aprobados-y-desaprobados-primer-semestre-river-2026-gallardo-coudet-final-vs-belgrano",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-28T10:07:52",
+        "category": "mundial"
+      },
+      {
+        "title": "El Mundial 2026, por Disney+ Plan Premium",
+        "description": "Se retransmitirán 30 partidos incluyendo la final y los partidos de las selecciones nacionales de Argentina, Colombia, Ecuador, Uruguay en esos países.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16586606/el-mundial-2026-llega-a-disney+-plan-premium-en-sudamerica-a-traves-de-espn",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-28T05:38:23",
+        "category": "seleccion"
+      },
+      {
+        "title": "Platense venció a Corinthians y se clasificó",
+        "description": "El Calamar sorprendió al Timao en San Pablo con un doblete de Franco Zapiola y consiguió una de las victorias más importantes de su historia en la Libertadores.",
+        "url": "https://www.espn.com.ar/futbol/copa-libertadores/nota/_/id/16760044/corinthians-vs-platense-por-la-conmebol-libertadores-equipo-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-05-28T05:38:23",
+        "category": "general"
+      },
+      {
+        "title": "Antonela Roccuzzo dio cátedra de cómo transmitir sensualidad elegante con un vestido negro con detalles imponentes",
+        "description": "La influencer deslumbró con un look ideal para acompañar a Lionel Messi en un nuevo proyecto empresarial. Leer más",
+        "url": "https://caras.perfil.com/noticias/moda/antonela-roccuzzo-dio-catedra-como-transmitir-sensualidad-elegante-vestido-negro-detalles-imponentes.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-27T16:13:08Z"
+      },
+      {
+        "title": "Países Bajos definió sus convocados para el Mundial 2026",
+        "description": "Ronald Koeman entregó la nómina oficial de 26 futbolistas para la gran cita de Norteamérica con ausencias pesadas que armaron polémica y el regreso clave de Frenkie de Jong al grupo. Leer más",
+        "url": "https://442.perfil.com/noticias/futbol/paises-bajos-definio-sus-convocados-para-el-mundial-2026.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-27T15:23:24Z"
+      },
+      {
+        "title": "Lo Celso y su posible presencia en el Mundial: «La ilusión es máxima»",
+        "description": "Con una clasificación para la Champions League con el Real Betis bajo el brazo ha llegado en las últimas horas Giovani Lo Celso a Argentina a la espera de conocer si su nombre estará presente en la li",
+        "url": "https://www.abc.es/deportes/alfinaldelapalmera/noticias-betis/celso-posible-presencia-mundial-ilusion-maxima-20260527130936-nts.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-05-27T15:21:21Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 14 días para el Mundial 2026 ⚽\n\n📰 Mundial 2026, en vivo: la lesión de Messi y la lista de Scaloni para los últimos amistosos: El minuto a minuto de las últimas noticias de la selección argentina, declaraciones de los jugadores y entrenadores, y repercusiones sobre los partido\n\nNo te pierdas las últimas actualizaciones sobre la selección en la víspera del Mundial 📺\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-05-28T17:02:04.191220",
+  "published_at": "2026-05-28T17:02:04.880311",
+  "pre_approved": true,
+  "pre_approved_at": "2026-05-28T17:02:04.191233"
 }
