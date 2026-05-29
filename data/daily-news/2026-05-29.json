@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-05-29",
+  "scraped_at": "2026-05-29T10:35:47.336591",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Así es la colección de camisetas retro de fútbol de Metro, inspirada en cinco selecciones campeonas del mundo",
+      "description": "Las prendas de época inspiradas en selecciones campeonas ya están disponibles en Sol, Ópera, Plaza de Castilla y de forma online por 54,95 euros.",
+      "url": "https://www.libertaddigital.com/madrid/2026-05-28/la-comunidad-de-madrid-lanza-camisetas-retro-de-metro-fc-por-el-mundial-2026-7411510/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-05-28T10:27:35Z",
+      "category": "general"
+    },
+    {
+      "title": "El Metro de Madrid se suma a la fiebre «futbolera» con una colección de camisetas retro",
+      "description": "La tienda del Metro de Madrid ha lanzado la colección \"Metro FC\", con camisetas de fútbol inspiradas en cinco selecciones campeonas del mundo.\nLa entrada El Metro de Madrid se suma a la fiebre «futbol",
+      "url": "https://www.marketingdirecto.com/anunciantes-general/metro-de-madrid-suma-fiebre-futbolera-camisetas-retro",
+      "source": "Marketingdirecto.com",
+      "published_at": "2026-05-28T09:51:05Z",
+      "category": "general"
+    },
+    {
+      "title": "Cuenta regresiva: 10 películas y series para no perderse antes del comienzo del Mundial de Fútbol",
+      "description": "Se trata de producciones que abordan al campeonato y sus personajes desde la ficción y el documental",
+      "url": "https://www.lanacion.com.ar/espectaculos/series-de-tv/cuenta-regresiva-10-peliculas-y-series-para-no-perderse-antes-del-comienzo-del-mundial-de-futbol-nid28052026/",
+      "source": "La Nacion",
+      "published_at": "2026-05-28T09:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "FIFA será investigada por posibles precios abusivos en el Mundial 2026",
+      "description": "Fiscales de Nueva York y Nueva Jersey han citado a la FIFA por sospecha de inflar precios en la venta de entradas para la Copa Mundial 2026 de fútbol.",
+      "url": "https://www.dw.com/es/fifa-ser%C3%A1-investigada-por-posibles-precios-abusivos-en-el-mundial-2026/a-77328322",
+      "source": "DW (English)",
+      "published_at": "2026-05-28T10:20:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Oyarzabal, la gran renovación pendiente",
+      "description": "El capitán y gran estrella de la Real se ha quedado como uno de los futbolistas con un contrato más antiguo y corto, sólo hasta 2028, pero su continuidad se da por hecha",
+      "url": "https://www.marca.com/futbol/real-sociedad/2026/05/29/oyarzabal-gran-renovacion-pendiente.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-29T09:19:42",
+      "category": "general"
+    },
+    {
+      "title": "El día por el que Odegaard lo apostó todo: “El Real Madrid era un sueño… pero necesitaba asentarme”",
+      "description": "Tomó la decisión de abandonar el Santiago Bernabéu en 2021 y ahora aspira a ser el hombre que levante la primera Champions del Arsenal",
+      "url": "https://www.marca.com/futbol/champions-league/2026/05/29/dia-odegaard-aposto-real-madrid-sueno-necesitaba-asentarme.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-29T09:15:18",
+      "category": "general"
+    },
+    {
+      "title": "\"Apostamos por el deporte femenino mucho antes de que existiera el crecimiento actual\"",
+      "description": "Jane Wakely explica en MARCA la importancia del fútbol femenino en la estrategia de marketing de PepsiCo",
+      "url": "https://www.marca.com/futbol/futbol-femenino/2026/05/29/apostamos-deporte-femenino-existiera-crecimiento-actual.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-29T08:58:46",
+      "category": "general"
+    },
+    {
+      "title": "El pronóstico de Valverde sobre su futuro con la selección de Uruguay",
+      "description": "",
+      "url": "https://www.marca.com/futbol/mundial/2026/05/29/pronostico-valverde-sobre-futuro-seleccion-uruguay-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-29T08:49:48",
+      "category": "seleccion"
+    },
+    {
+      "title": "La última gran boda entre un famoso futbolista y una célebre influencer",
+      "description": "La influencer Ludovica Pagani y el delantero Stephan El Shaarawy (Roma) han protagonizado la boda del año en el fútbol italiano.",
+      "url": "https://www.marca.com/futbol/album/2026/05/29/ultima-gran-boda-famoso-futbolista-celebre-influencer.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-29T08:45:23",
+      "category": "general"
+    },
+    {
+      "title": "Lo Celso estará en el escaparate del Mundial y amplía a siete el número de jugadores del Betis en el torneo",
+      "description": "El argentino entró finalmente en la lista de Argentina facilitada anoche por Lionel Scaloni",
+      "url": "https://www.marca.com/futbol/betis/2026/05/29/celso-estara-escaparate-mundial-amplia-siete-numero-jugadores-betis-torneo.html",
+      "source": "Fútbol",
+      "published_at": "2026-05-29T08:06:20",
+      "category": "seleccion"
+    }
+  ]
+}
