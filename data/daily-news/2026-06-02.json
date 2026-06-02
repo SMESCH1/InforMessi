@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-06-02",
+  "scraped_at": "2026-06-02T11:09:41.599140",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Gavi: \"Es un orgullo y un sueño poder jugar mi segundo Mundial con 21 años\"",
+      "description": "El azulgrana ha sido elegido como referente del fútbol y el estilo en España para la revista GQ  Leer",
+      "url": "https://www.marca.com/futbol/barcelona/2026/06/01/gavi-orgullo-sueno-jugar-mi-segundo-mundial-21-anos.html",
+      "source": "Marca",
+      "published_at": "2026-06-01T11:09:27Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Ancelotti pone a bailar a Brasil y sube enteros en el Mundial",
+      "description": "Bet365 valora positivamente el trabajo de Carletto al frente de la Canarinha",
+      "url": "https://www.marca.com/apuestas-deportivas/predicciones/2026/06/01/ancelotti-pone-bailar-brasil-sube-enteros-mundial.html",
+      "source": "Marca",
+      "published_at": "2026-06-01T10:45:48Z",
+      "category": "mundial"
+    },
+    {
+      "title": "'Sorpasso' de Adidas a Nike",
+      "description": "La firma de las tres bandas ha adelantado a Nike, que en el Mundial de Qatar ostentaba el 41% de los acuerdos con las 32 selecciones participantes",
+      "url": "https://www.marca.com/sport-business/2playbook/2026/06/01/mundial-patrocinio-tecnico-adidas-supera-nike-batalla-camisetas.html",
+      "source": "Marca",
+      "published_at": "2026-06-01T09:28:53Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La FIFA pondrá en marcha la ley 'anti-Arsenal' en el Mundial 2026",
+      "description": "Las jugadas a balón parado son una parte fundamental del fútbol, especialmente en la Premier League. Por eso, la FIFA y la IFAB han estado trabajando a toda velocidad para establecer la ley 'anti-bloq",
+      "url": "https://www.mundodeportivo.com/futbol/internacional/20260601/1004190108/fifa-pondra-marcha-ley-anti-arsenal-mundial-2026.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-06-01T11:08:08Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El \"Loco\" Bielsa confirmó los 26 convocados de Uruguay para el Mundial 2026",
+      "description": "Con Federico Valverde como capitán y una sorpresiva actuación del \"Loco\" en el video oficial, la Celeste confirmó sus citados. Presencia del fútbol argentino y una baja de peso. Leer más",
+      "url": "https://442.perfil.com/noticias/mundial-2026/el-loco-bielsa-confirmo-los-26-convocados-de-uruguay-para-el-mundial-2026.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-05-31T14:49:38Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El CDE AUPA-Mentema Boadilla se dispara sin perder su identidad",
+      "description": "El club madrileño ha duplicado su tamaño en tres temporadas y refuerza su apuesta por la formación, el fútbol femenino y los servicios para las familias",
+      "url": "https://www.marca.com/futbol/mas-futbol/2026/06/02/cde-aupa-mentema-boadilla-dispara-perder-identidad.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-02T10:56:13",
+      "category": "general"
+    },
+    {
+      "title": "UEFA presenta los nuevos balones para la Europa y Conference League",
+      "description": "La máxima organización del fútbol europeo ha dado a conocer el nuevo esférico para las próxima temporada",
+      "url": "https://www.marca.com/futbol/europa-league/2026/06/02/uefa-presenta-nuevos-balones-europa-conference-league.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-02T10:55:20",
+      "category": "general"
+    },
+    {
+      "title": "UB Conquense: el equipo que parece de Primera división y que pelea en el fútbol modesto",
+      "description": "El club, ahora comandado por los nuevos inversores Íñigo Asensio y Luis Alonso, ha sufrido una metamorfosis total en el último año que apunta a llevar al club al fútbol profesional · Cayó ante el UD O",
+      "url": "https://www.marca.com/futbol/segunda-rfef/2026/06/02/ub-conquense-equipo-primera-division-pelea-futbol-modesto.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-02T10:50:57",
+      "category": "liga"
+    },
+    {
+      "title": "Mundial 2026 en directo | Última hora de España, convocatorias, noticias y partidos amistosos en vivo hoy",
+      "description": "Sigue la última hora de toda la información del Mundial 2026",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/02/6a1eaa971c831c17f441ead2.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-02T10:12:34",
+      "category": "mundial"
+    },
+    {
+      "title": "Palo para Austria: ¡Baumgartner se rompe y se pierde el Mundial!",
+      "description": "La estrella de Austria se lesionó en el calentamiento del amistoso ante Túnez",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/02/palo-austria-baumgartner-rompe-pierde-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-02T09:56:00",
+      "category": "mundial"
+    }
+  ]
+}
