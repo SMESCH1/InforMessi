@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-06-01T18:50:16.245326",
+  "last_updated": "2026-06-02T17:49:47.443972",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -59,7 +59,8 @@
       "2026-04-20",
       "2026-04-26",
       "2026-05-16",
-      "2026-05-27"
+      "2026-05-27",
+      "2026-06-02"
     ],
     "Fernández": [
       "2026-04-20"
@@ -123,7 +124,8 @@
       "2026-05-19",
       "2026-05-21",
       "2026-05-26",
-      "2026-05-28"
+      "2026-05-28",
+      "2026-06-02"
     ],
     "dato_mundialista": [
       "2026-03-28",
@@ -219,7 +221,8 @@
       "2026-05-29",
       "2026-05-30",
       "2026-05-31",
-      "2026-06-01"
+      "2026-06-01",
+      "2026-06-02"
     ],
     "seleccion": [
       "2026-03-26",
@@ -266,7 +269,8 @@
       "2026-05-29",
       "2026-05-30",
       "2026-05-31",
-      "2026-06-01"
+      "2026-06-01",
+      "2026-06-02"
     ]
   },
   "events_mentioned": {
@@ -530,6 +534,24 @@
     ],
     "Cumpleaños de Abel Balbo (60 años)": [
       "2026-06-01"
+    ],
+    "Debut en el Mundial 78 con victoria 2-1 ante Hungría.": [
+      "2026-06-02"
+    ],
+    "Primer gol de Maradona en la Selección Mayor (vs Escocia).": [
+      "2026-06-02"
+    ],
+    "Cumpleaños de Sergio Agüero (38 años)": [
+      "2026-06-02"
+    ],
+    "Argentina debuta ganando 2-1 a Hungría.": [
+      "2026-06-02"
+    ],
+    "Debut en México 86: Argentina 3-1 Corea del Sur.": [
+      "2026-06-02"
+    ],
+    "Último gol de Batistuta en mundiales (1-0 vs Nigeria).": [
+      "2026-06-02"
     ]
   },
   "news_topics": {

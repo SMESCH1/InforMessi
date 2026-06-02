@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-06-02",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 9,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1978-06-02",
@@ -21,26 +24,12 @@
         "description": "Primer gol de Maradona en la Selección Mayor (vs Escocia)."
       },
       {
-        "date": "1986-06-02",
-        "type": "world_cup",
-        "priority": "medium",
-        "person": "N/A",
-        "description": "Debut en México 86: Argentina 3-1 Corea del Sur."
-      },
-      {
         "date": "1988-06-02",
         "type": "birthday",
         "priority": "high",
         "person": "Sergio Agüero",
-        "age": 37,
-        "description": "Cumpleaños de Sergio 'Kun' Agüero."
-      },
-      {
-        "date": "2002-06-02",
-        "type": "world_cup",
-        "priority": "medium",
-        "person": "Batistuta",
-        "description": "Último gol de Batistuta en mundiales (1-0 vs Nigeria)."
+        "age": 38,
+        "description": "Cumpleaños de Sergio Agüero (38 años)"
       },
       {
         "date": "1978-06-02",
@@ -48,14 +37,130 @@
         "priority": "medium",
         "person": "N/A",
         "description": "Argentina debuta ganando 2-1 a Hungría."
+      },
+      {
+        "date": "1986-06-02",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Debut en México 86: Argentina 3-1 Corea del Sur."
+      },
+      {
+        "date": "2002-06-02",
+        "type": "world_cup",
+        "priority": "medium",
+        "person": "Batistuta",
+        "description": "Último gol de Batistuta en mundiales (1-0 vs Nigeria)."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Gavi: \"Es un orgullo y un sueño poder jugar mi segundo Mundial con 21 años\"",
+        "description": "El azulgrana ha sido elegido como referente del fútbol y el estilo en España para la revista GQ  Leer",
+        "url": "https://www.marca.com/futbol/barcelona/2026/06/01/gavi-orgullo-sueno-jugar-mi-segundo-mundial-21-anos.html",
+        "source": "Marca",
+        "published_at": "2026-06-01T11:09:27Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Ancelotti pone a bailar a Brasil y sube enteros en el Mundial",
+        "description": "Bet365 valora positivamente el trabajo de Carletto al frente de la Canarinha",
+        "url": "https://www.marca.com/apuestas-deportivas/predicciones/2026/06/01/ancelotti-pone-bailar-brasil-sube-enteros-mundial.html",
+        "source": "Marca",
+        "published_at": "2026-06-01T10:45:48Z",
+        "category": "mundial"
+      },
+      {
+        "title": "'Sorpasso' de Adidas a Nike",
+        "description": "La firma de las tres bandas ha adelantado a Nike, que en el Mundial de Qatar ostentaba el 41% de los acuerdos con las 32 selecciones participantes",
+        "url": "https://www.marca.com/sport-business/2playbook/2026/06/01/mundial-patrocinio-tecnico-adidas-supera-nike-batalla-camisetas.html",
+        "source": "Marca",
+        "published_at": "2026-06-01T09:28:53Z",
+        "category": "mundial"
+      },
+      {
+        "title": "La FIFA pondrá en marcha la ley 'anti-Arsenal' en el Mundial 2026",
+        "description": "Las jugadas a balón parado son una parte fundamental del fútbol, especialmente en la Premier League. Por eso, la FIFA y la IFAB han estado trabajando a toda velocidad para establecer la ley 'anti-bloq",
+        "url": "https://www.mundodeportivo.com/futbol/internacional/20260601/1004190108/fifa-pondra-marcha-ley-anti-arsenal-mundial-2026.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-06-01T11:08:08Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El \"Loco\" Bielsa confirmó los 26 convocados de Uruguay para el Mundial 2026",
+        "description": "Con Federico Valverde como capitán y una sorpresiva actuación del \"Loco\" en el video oficial, la Celeste confirmó sus citados. Presencia del fútbol argentino y una baja de peso. Leer más",
+        "url": "https://442.perfil.com/noticias/mundial-2026/el-loco-bielsa-confirmo-los-26-convocados-de-uruguay-para-el-mundial-2026.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-05-31T14:49:38Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El CDE AUPA-Mentema Boadilla se dispara sin perder su identidad",
+        "description": "El club madrileño ha duplicado su tamaño en tres temporadas y refuerza su apuesta por la formación, el fútbol femenino y los servicios para las familias",
+        "url": "https://www.marca.com/futbol/mas-futbol/2026/06/02/cde-aupa-mentema-boadilla-dispara-perder-identidad.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-02T10:56:13",
+        "category": "general"
+      },
+      {
+        "title": "UEFA presenta los nuevos balones para la Europa y Conference League",
+        "description": "La máxima organización del fútbol europeo ha dado a conocer el nuevo esférico para las próxima temporada",
+        "url": "https://www.marca.com/futbol/europa-league/2026/06/02/uefa-presenta-nuevos-balones-europa-conference-league.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-02T10:55:20",
+        "category": "general"
+      },
+      {
+        "title": "UB Conquense: el equipo que parece de Primera división y que pelea en el fútbol modesto",
+        "description": "El club, ahora comandado por los nuevos inversores Íñigo Asensio y Luis Alonso, ha sufrido una metamorfosis total en el último año que apunta a llevar al club al fútbol profesional · Cayó ante el UD O",
+        "url": "https://www.marca.com/futbol/segunda-rfef/2026/06/02/ub-conquense-equipo-primera-division-pelea-futbol-modesto.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-02T10:50:57",
+        "category": "liga"
+      },
+      {
+        "title": "Mundial 2026 en directo | Última hora de España, convocatorias, noticias y partidos amistosos en vivo hoy",
+        "description": "Sigue la última hora de toda la información del Mundial 2026",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/02/6a1eaa971c831c17f441ead2.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-02T10:12:34",
+        "category": "mundial"
+      },
+      {
+        "title": "Palo para Austria: ¡Baumgartner se rompe y se pierde el Mundial!",
+        "description": "La estrella de Austria se lesionó en el calentamiento del amistoso ante Túnez",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/02/palo-austria-baumgartner-rompe-pierde-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-02T09:56:00",
+        "category": "mundial"
+      },
+      {
+        "title": "España lidera pronóstico de supercomputadora para ganar el Mundial 2026",
+        "description": "Miles de simulaciones revelan un cambio inesperado entre las selecciones favoritas para la Copa del Mundo de 2026. Descubra qué países lideran el ranking y por qué Brasil perdió protagonismo en la pro",
+        "url": "https://www.nacion.com/puro-deporte/espana-lidera-pronostico-de-supercomputadora-para/VH4V7AGIKFDP3CIC7CWX6H36NI/story/",
+        "source": "Nacion.com",
+        "published_at": "2026-06-01T17:46:00Z"
+      },
+      {
+        "title": "El otro partido de Argentina en el Mundial: \"Chiqui\" Tapia se enfrenta a Milei mientras crece la presión sobre la AFA",
+        "description": "El Presidente del país y el exfuncionario sindical Claudio Tapia están enfrentados mientras la selección nacional se prepara para defender el título.",
+        "url": "https://www.df.cl/internacional/ft/el-otro-partido-de-argentina-en-el-mundial-chiqui-tapia-se-enfrenta-a",
+        "source": "Www.df.cl",
+        "published_at": "2026-06-01T16:59:39Z"
+      },
+      {
+        "title": "Otamendi mostró el cuarto que compartirá con De Paul en la concentración de la selección argentina en Kansas",
+        "description": "Están en el hotel Origin, en la habitación 203; su vecino es Lionel Messi; el video con el que mostraron la intimidad del día a día",
+        "url": "https://www.lanacion.com.ar/deportes/otamendi-mostro-el-cuarto-que-compartira-con-de-paul-en-la-concentracion-de-la-seleccion-argentina-nid01062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-01T16:55:52Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 9 días para el Mundial 2026 ⚽\n\n🏆 Un día como hoy en 1978, Argentina debutaba ganando 2-1 a Hungría en el Mundial. Un comienzo esperanzador para la Scaloneta que buscaba conquistar su primer título del mundo 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-02T17:49:46.551924",
+  "published_at": "2026-06-02T17:49:47.429657",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-02T17:49:46.551934"
 }
