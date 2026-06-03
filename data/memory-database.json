@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-06-02T17:49:47.443972",
+  "last_updated": "2026-06-03T18:03:49.555555",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -222,7 +222,8 @@
       "2026-05-30",
       "2026-05-31",
       "2026-06-01",
-      "2026-06-02"
+      "2026-06-02",
+      "2026-06-03"
     ],
     "seleccion": [
       "2026-03-26",
@@ -552,6 +553,12 @@
     ],
     "Último gol de Batistuta en mundiales (1-0 vs Nigeria).": [
       "2026-06-02"
+    ],
+    "Argentina gana la Copa de las Naciones en Brasil venciendo a Pelé.": [
+      "2026-06-03"
+    ],
+    "Argentina 3-0 Colombia en Eliminatorias 2002. Victoria sólida de local.": [
+      "2026-06-03"
     ]
   },
   "news_topics": {

@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-06-03",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 8,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1964-06-03",
@@ -14,15 +17,6 @@
         "description": "Argentina gana la Copa de las Naciones en Brasil venciendo a Pelé."
       },
       {
-        "date": "2026-06-03",
-        "type": "historical",
-        "priority": "low",
-        "description": "1962: enArica (Chile)―en laCopa Mundial de la FIFA― se anota el primergol olímpicoen un mundial. Lo anota el colombianoMarcos Coll.",
-        "historical_year": "1962",
-        "source": "Wikipedia",
-        "url": "https://es.wikipedia.org/wiki/3_de_junio"
-      },
-      {
         "date": "2001-06-03",
         "type": "match",
         "priority": "low",
@@ -30,12 +24,114 @@
         "description": "Argentina 3-0 Colombia en Eliminatorias 2002. Victoria sólida de local."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Claudia Villafañe rememoró el Mundial de 1990 y contó cómo vivió los penales entre la Argentina e Italia",
+        "description": "La empresaria dio detalles de la histórica semifinal y reveló cuál fue la decisión que tomó Diego Armando Maradona antes del partido",
+        "url": "https://www.lanacion.com.ar/espectaculos/claudia-villafane-rememoro-el-mundial-de-1990-y-conto-como-vivio-los-penales-entre-la-argentina-e-nid02062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-02T11:42:39Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Volkswagen presentó el nuevo Taos en un ambiente típico de previa al Mundial",
+        "description": "La marca, vehículo oficial de la Celeste, lanzó su renovado SUV en el Bar Tasende, entre banderas, pizza al tacho y pasión futbolera.",
+        "url": "https://www.montevideo.com.uy/Negocios-y-Tendencias/Volkswagen-presento-el-nuevo-Taos-en-un-ambiente-tipico-de-previa-al-Mundial-uc963226",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-06-02T11:25:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Ya es oficial: el programa de Manu Sánchez, 'El perro andaluz', tendrá un lugar privilegiado en su estreno en la parrilla de La 1 de TVE",
+        "description": "La cadena pública busca darle la mayor visibilidad posible de la mano de uno de los partidos estrella del arranque del Mundial",
+        "url": "https://www.elconfidencial.com/television/programas-tv/2026-06-02/perro-andaluz-fecha-estreno-programa-manu-sanchez-tve_4365874/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-06-02T11:02:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "No solo triunfa en cancha: Cruzados registra la mayores ganancias entre los clubes de fútbol en el primer trimestre",
+        "description": "Los tres principales clubes de fútbol del país reportaron sus estados financieros del primer cuarto del año. Dos registraron un alza en sus ingresos, pero dos reportaron una baja en sus ganancias. Sol",
+        "url": "https://www.latercera.com/pulso/noticia/no-solo-triunfa-en-cancha-cruzados-registra-la-mayores-ganancias-entre-los-clubes-de-futbol-en-el-primer-trimestre/",
+        "source": "Latercera.com",
+        "published_at": "2026-06-01T15:47:15Z",
+        "category": "general"
+      },
+      {
+        "title": "Miguel Almirón: “Yo crecí con el fenómeno Messi”",
+        "description": "Paraguay vuelve a la Copa tras 16 años y su figura se impone un reto: “No queremos solo pasar y decir que estuvimos en un Mundial”; su “padre” Martino y la “identidad” de Alfaro y las camisetas del 10",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/miguel-almiron-yo-creci-con-el-fenomeno-messi-nid01062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-01T11:09:42Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Scaloni prepara con sorpresas la formación de Arge...",
+        "description": "La Albiceleste juega el sábado en el estadio Kyle Field de Texas y después los campeones del mundo se medirán ante Islandia.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16785391/la-formacion-de-argentina-vs-honduras-para-amistoso",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-03T01:22:19",
+        "category": "seleccion"
+      },
+      {
+        "title": "Capaldo se mete en el equipo de Argentina con Hond...",
+        "description": "El capitán del Hamburgo tiene su chance de demostrar porque ni Montiel ni Molina están al 100%.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16791137/argentina-honduras-capaldo-lista-scaloni-hamburgo-temporada",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-03T01:22:19",
+        "category": "seleccion"
+      },
+      {
+        "title": "¡EN VIVO! Con Tim Payne, Nueva Zelanda juega con H...",
+        "description": "El equipo del protagonista inesperado de la Copa del Mundo fue aplastado por los centroamericanos, que lo llenaron de dudas.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16785525/tim-payne-nueva-zelanda-vs-haiti-como-ver-el-partido-amistoso-rumbo-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-03T13:34:54",
+        "category": "mundial"
+      },
+      {
+        "title": "El Mundial 2026, por Disney+ Plan Premium",
+        "description": "Se retransmitirán 30 partidos incluyendo la final y los partidos de las selecciones nacionales de Argentina, Colombia, Ecuador, Uruguay en esos países.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16586606/el-mundial-2026-llega-a-disney+-plan-premium-en-sudamerica-a-traves-de-espn",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-03T04:11:29",
+        "category": "seleccion"
+      },
+      {
+        "title": "Copa Argentina: Barracas eliminó a Huracán",
+        "description": "El Guapo, dirigido por Insúa, dejó afuera al Globo y se medirá con Estudiantes de La Plata en la próxima ronda.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16790710/huracan-vs-barracas-central-copa-argentina-equipo-fecha-hora-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-03T04:11:29",
+        "category": "seleccion"
+      },
+      {
+        "title": "Los grandes ausentes del Mundial 2026: qué figuras se pierden la Copa del Mundo",
+        "description": "Las lesiones y los fracasos de algunas selecciones en sus respectivas eliminatorias dejaron afuera del certamen ecuménico a varios de los mejores jugadores del planeta",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/los-grandes-ausentes-del-mundial-2026-que-figuras-se-pierden-la-copa-del-mundo-nid02062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-02T16:45:49Z"
+      },
+      {
+        "title": "Mundial 2026: una por una, todas las listas de jugadores de las selecciones",
+        "description": "Conocé los 1.248 los futbolistas que integran los planteles: 357 repiten y 891 participarán por primera vez de la competición.",
+        "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-una-por-una-todas-las-listas-de-jugadores-de-las-selecciones-uc963947",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-06-02T16:34:00Z"
+      },
+      {
+        "title": "El récord histórico de Klose en peligro: la marca que Messi y Mbappé quieren romper en el Mundial 2026",
+        "description": "Lionel Messi y Kylian Mbappé amenazan la marca del alemán en el Mundial 2026, favorecidos por un nuevo formato de torneo. Leer más",
+        "url": "https://442.perfil.com/noticias/mundial-2026/el-record-historico-de-klose-en-peligro-la-marca-que-messi-y-mbappe-quieren-romper-en-el-mundial-2026.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-02T16:31:21Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 8 días para el Mundial 2026 ⚽\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-03T18:03:48.870743",
+  "published_at": "2026-06-03T18:03:49.550125",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-03T18:03:48.870755"
 }
