@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-06-04",
+  "scraped_at": "2026-06-04T10:31:07.517536",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Leo Messi, premio Princesa de Asturias de los Deportes",
+      "description": "El jurado reconoce la trayectoria, el impacto global y la labor solidaria del astro argentino, ganador de ocho Balones de Oro.",
+      "url": "https://www.libertaddigital.com/deportes/futbol/2026-06-03/leo-messi-premio-princesa-de-asturias-de-los-deportes-7414489/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-06-03T10:10:49Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Leo Messi, premio Princesa de Asturias de los Deportes 2026",
+      "description": "Leo Messi ha sido galardonado con el premio Princesa de Asturias de los Deportes este 2026, a las puertas del que será el sexto Munidal de su carrera. El jurado, presidido por la nadadora Teresa Peral",
+      "url": "https://www.huffingtonpost.es/deporte/leo-messi-premio-princesa-asturias-deportes-2026-f202606.html",
+      "source": "Huffingtonpost.es",
+      "published_at": "2026-06-03T10:09:07Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Leo Messi gana el Premio Princesa de los Deportes",
+      "description": "El argentino está considerado uno de los mejores futbolistas de la historia, con una trayectoria que incluye más de 1.000 partidos como profesional, más de 800 goles y cerca de 400 asistencias en club",
+      "url": "https://www.lavozdeasturias.es/noticia/asturias/2026/06/03/leo-messi-gana-premio-princesa-deportes/00031780480724611809215.htm",
+      "source": "Lavozdeasturias.es",
+      "published_at": "2026-06-03T10:05:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Tim Payne, el futbolista de Nueva Zelanda que ha pasado de 5.000 a 3,8 millones de seguidores",
+      "description": "El lateral derecho ha adquirido una gran popularidad en los últimos días gracias a una campaña viral de un influencer argentino.",
+      "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-06-03/tim-payne-futbolista-nueva-zelanda-mundial-pasado-seguidores-instagram_4366389/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-06-03T10:20:00Z",
+      "category": "general"
+    },
+    {
+      "title": "OPS urge reforzar vigilancia ante el rebrote de sarampión en las Américas y la proximidad del Mundial de fútbol",
+      "description": "La Organización Panamericana de la Salud (OPS) insta a las autoridades sanitarias a reforzar la vigilancia, la vacunación y la respuesta rápida ante un rebrote de sarampión que ya ha dejado 20.521 cas",
+      "url": "https://www.infosalus.com/salud-investigacion/noticia-ops-urge-reforzar-vigilancia-rebrote-sarampion-americas-proximidad-mundial-futbol-20260603121733.html",
+      "source": "Infosalus.com",
+      "published_at": "2026-06-03T10:17:33Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Messi, premio Princesa de Asturias de los Deportes 2026",
+      "description": "El argentino, el fubolista con más títulos, es reconocido por su trayectoria deportiva, su&nbsp;continuada labor solidaria y su ejemplar compartamiento dentro del campo",
+      "url": "https://www.marca.com/futbol/2026/06/03/messi-premio-princesa-asturias-deportes-2026.html",
+      "source": "Marca",
+      "published_at": "2026-06-03T10:01:12Z",
+      "category": "seleccion"
+    }
+  ]
+}
