@@ -4,29 +4,134 @@
   "data": {
     "date": "2026-06-05",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 6,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
-      {
-        "date": "2022-06-05",
-        "type": "record",
-        "priority": "medium",
-        "person": "Lionel Messi",
-        "description": "Messi marca 5 goles en un solo partido ante Estonia."
-      },
       {
         "date": "1986-06-05",
         "type": "world_cup",
         "priority": "medium",
         "person": "Maradona",
         "description": "Argentina 1-1 Italia con golazo de Diego."
+      },
+      {
+        "date": "2022-06-05",
+        "type": "record",
+        "priority": "medium",
+        "person": "Lionel Messi",
+        "description": "Messi marca 5 goles en un solo partido ante Estonia."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Leo Messi, Premio Princesa de Asturias de los Deportes 2026",
+        "description": "Madrid. Leo Messi, a quien muchos consideran el mejor futbolista de la historia, fue reconocido con el Premio Princesa de Asturias de los Deportes 2026, en el que además de tomar en cuenta su virtuosi",
+        "url": "https://www.jornada.com.mx/2026/06/04/deportes/a12n1dep",
+        "source": "Jornada.com.mx",
+        "published_at": "2026-06-04T10:28:56Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Virginia Gallardo repartió pelotas con la cara de Messi entre los chicos",
+        "description": "La diputada correntina llegó disfrazada de Messi a un espacio de fútbol infantil y compartió una tarde con chicos de distintos barrios. Leer más",
+        "url": "https://noticias.perfil.com/noticias/politica/virginia-gallardo-repartio-pelotas-con-la-cara-de-messi-entre-los-chicos.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-04T09:40:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Cabo Verde, el país más pequeño en un Mundial: la historia detrás del debut de los Tiburones Azules",
+        "description": "El seleccionador Pedro Brito, conocido futbolísticamente como Bubista, ha sido clave para lograr la clasificación\r\nDominio de Francia y Argentina en los banquillos: más del 25% de seleccionadores del ",
+        "url": "https://www.eldiario.es/spin/deportes/cabo-verde-pais-pequeno-mundial-historia-detras-debut-tiburones-azules-pm_1_13269146.html",
+        "source": "Eldiario.es",
+        "published_at": "2026-06-04T08:30:47Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Nico, Lamine, Rodri y Merino: las lesiones que preocupan a España antes del Mundial 2026",
+        "description": "España llega al Mundial 2026 con varias de sus estrellas recuperadas recientemente de lesiones y problemas físicos acumulados durante la temporada.",
+        "url": "https://www.libertaddigital.com/deportes/futbol/2026-06-04/nico-lamine-rodri-y-merino-las-lesiones-que-preocupan-a-espana-antes-del-mundial-2026-7413890/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-06-04T10:00:09Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Orange ya prueba La 1 UHD: ¿se estrenará antes del Mundial 2026?",
+        "description": "Al igual que otras televisiones de los operadores, antes de lanzar de manera oficial un canal, se prueba. Pues bien, uno de los últimos diales en unirse a las señales de test es La 1 UHD. Aunque no po",
+        "url": "https://www.adslzone.net/noticias/operadores/orange-pruebas-la-1-uhd/",
+        "source": "Adslzone.net",
+        "published_at": "2026-06-04T09:47:53Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Barcelona y River evalúan jugar un amistoso en el ...",
+        "description": "Ambos clubes podrían enfrentarse por primera vez desde la final del Mundial de Clubes de 2015, cuando el equipo Culé triunfó por 3-0.",
+        "url": "https://www.espn.com.ar/futbol/nota/_/id/16799719/barcelona-river-evaluan-jugar-amistoso-buenos-aires",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-05T11:34:08",
+        "category": "mundial"
+      },
+      {
+        "title": "Argentina tuvo su último entrenamiento en Kansas a...",
+        "description": "Con una buena noticia en torno al estado físico de Julián Álvarez, la Albiceleste cerró su primera etapa de prácticas en su búnker mundialista.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16799033/argentina-entrenamiento-kansas-city-viaje-texas-julian-alvarez",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-05T04:18:00",
+        "category": "seleccion"
+      },
+      {
+        "title": "El tratamiento especial que realiza Julián Álvarez...",
+        "description": "El delantero de la Selección Argentina, clave en Qatar 2022, apunta a llegar en óptimas condiciones al debut ante Argelia.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16798395/julian-alvarez-lesion-tobillo-que-le-paso-llega-al-mundial-argentina",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-05T04:18:00",
+        "category": "seleccion"
+      },
+      {
+        "title": "Ubeda respaldó a Paredes: \"Se la bancó hasta el fi...",
+        "description": "El ex entrenador de Boca habló en F10 sobre su último partido en el banco Xeneize y el rol del jugador de la Selección Argentina.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16799166/claudio-ubeda-boca-paredes-lesion-grupo-salida",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-05T04:39:31",
+        "category": "seleccion"
+      },
+      {
+        "title": "¿Nostalgia o ilusión? Mastantuono y Echeverri juga...",
+        "description": "Los futbolistas surgidos del Millonario, actualmente en Real Madrid y Manchester City, respectivamente, posaron para una foto que fue furor entre los hinchas.",
+        "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/16799210/river-franco-mastantuono-claudio-echeverri-partido-river",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-05T05:04:32",
+        "category": "general"
+      },
+      {
+        "title": "El video con IA de la Selección con los looks del Mundial del 78",
+        "description": "En redes sociales se viralizó un editado en la que los dirigidos por Scaloni usan las indumentarias deportivas del plantel de Menotti. Leer más",
+        "url": "https://noticias.perfil.com/noticias/deportes/el-video-con-ia-de-la-seleccion-con-los-looks-del-mundial-del-78.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-04T15:32:08Z"
+      },
+      {
+        "title": "Julian Nagelsmann: el DT más joven del Mundial y el desafío de regresar a Alemania a lo mejor de su historia",
+        "description": "Hijo de un espía durante la Guerra Fría, dejó el fútbol a los 20 años por una seria lesión; dirige a la selección que es tetracampeona, pero que no pasó la etapa de grupos en los últimos dos mundiales",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/julian-nagelsmann-el-dt-mas-joven-del-mundial-y-el-desafio-de-regresar-a-alemania-a-lo-mejor-de-su-nid04062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-04T15:02:26Z"
+      },
+      {
+        "title": "Futbol es Radio (04/06/2026);Así se fraguó la conexión Haaland - Riquelme: un topo, Marbella y ¿renovación de Vini?",
+        "description": "Dani Blanco modera la tertulia con Isidoro San José, Alfredo Somoza y Juanma Rodríguez\n\nEl debate sobre las futuras elecciones a la presidencia del club blanco centra la atención de la tertulia de Fút",
+        "url": "https://esradio.libertaddigital.com/futbol-es-radio/2026-06-04/04-06-2026-asi-se-fraguo-la-conexion-haaland-riquelme-un-topo-marbella-y-renovacion-de-vini-7415333/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-06-04T14:28:39Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 6 días para el Mundial 2026 ⚽\n🏆 Un día como hoy en 1986, Argentina empató 1-1 con Italia en el Mundial. El gol de Diego Armando Maradona en el minuto 51 fue clave para la igualdad 🏆\n\nArgentina tuvo su último entrenamiento en Kansas a...: Con una buena noticia en torno al estado físico de Julián Álvarez, la Albiceleste cerró su primera etapa de prácticas en su búnker mundialista. (www.espn.com.ar - TOP)\nEl tratamiento especial que realiza Julián Álvarez...: El delantero de la Selección Argentina, clave en Qatar 2022, apunta a llegar en óptimas condiciones al debut ante Argelia. (www.espn.com.ar - TOP)\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-05T16:08:30.385377",
+  "published_at": "2026-06-05T16:08:31.026950",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-05T16:08:30.385388"
 }
