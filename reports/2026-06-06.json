@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-06-06",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 5,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "1978-06-06",
@@ -21,12 +24,114 @@
         "description": "Argentina 1-0 Colombia en Eliminatorias 2010. Gol de Daniel Díaz en el Monumental."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Jordania cumple el sueño de jugar un Mundial 12 años después de su mayor decepcion",
+        "description": "En 2014 cayeron ante la Uruguay de Suárez y Cavani en la repesca para disputar el Mundial de Brasil\r\nGuía del Mundial 2026: cuándo empieza, horarios, rivales de la selección española y dónde ver los p",
+        "url": "https://www.eldiario.es/spin/deportes/jordania-cumple-sueno-jugar-mundial-12-anos-despues-mayor-decepcion-pm_1_13269403.html",
+        "source": "Eldiario.es",
+        "published_at": "2026-06-05T08:30:49Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "SER Podcast estrena 'Gol de Estado': \"Queremos mostrar cómo quieren apoderarse del fútbol\"",
+        "description": "SER Podcast estrena 'Gol de Estado', un proyecto para comprender la geopolítica del fútbol mundial. El nuevo formato de Antonio Martín y SER Podcast analiza la cara política del fútbol mundial y arran",
+        "url": "https://www.mundodeportivo.com/vaya-mundo/20260605/1004191212/podcast-estrena-gol-queremos-mostrar-quieren-apoderarse-futbol-obtener-beneficio-economico-costa-pasion-no-les-pertenece-dct.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-06-05T08:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "eFootball regala a Messi y Lamine Yamal para celebrar la llegada del Mundial de fútbol 2026",
+        "description": "<!--cache-->Konami celebra el Mundial de fútbol 2026 con una campaña de eFootball que regala a Messi y Lamine Yamal, añade la Copa Internacional 2026 y nuevos POTD.<!--aa--->Konami ha anunciado una nu",
+        "url": "https://vandal.elespanol.com/noticia/1350790470/efootball-regala-a-messi-y-lamine-yamal-para-celebrar-la-llegada-del-mundial-de-futbol-2026/",
+        "source": "Elespanol.com",
+        "published_at": "2026-06-05T07:03:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "La FIFA premia el fenómeno viral de IShowSpeed",
+        "description": "La FIFA presentó este jueves el álbum oficial del Mundial 2026, una recopilación musical que acompañará a la competición y que reúne a algunos de los artistas más reconocidos del panorama internaciona",
+        "url": "https://www.mundodeportivo.com/ocio/20260605/1004191552/fifa-premia-fenomeno-viral-ishowspeed.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-06-05T09:11:40Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Argelia pagó el precio de la 'Desgracia of Gijón' en 1982 y la FIFA cambió para siempre los horarios del Mundial",
+        "description": "Mundial 2026 - El organismo adoptó horarios coincidentes para los cierres de grupo y esa decisión terminó llegando también a numerosas competiciones nacionales\r\n\n El calendario del Mundial 2026 tiene ",
+        "url": "https://www.eldiario.es/spin/deportes/argelia-pago-precio-desgracia-of-gijon-1982-fifa-cambio-horarios-mundial-pm_1_13267249.html",
+        "source": "Eldiario.es",
+        "published_at": "2026-06-05T09:00:12Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El atasco de España ante Irak, la confirmación de los presagios: se echa en falta a Nico y Lamine",
+        "description": "Ambos futbolistas ni siquiera estuvieron en la convocatoria y se notó su ausencia. De la Fuente hizo debutar a todos los sparrings. Aún resta un amistoso por disputar",
+        "url": "https://www.elconfidencial.com/deportes/futbol/2026-06-05/espana-luis-de-la-fuente-nico-lamine-irak_4367818/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-06-05T08:36:00Z",
+        "category": "general"
+      },
+      {
+        "title": "Priscila Robles, esposa de Kendall Waston, recibe de FIFA un certificado que pocos logran conseguir",
+        "description": "Priscila Robles consiguió un logro importante, ella misma cuenta de qué se trata y agradece a Kendall Waston por apoyarla.",
+        "url": "https://www.nacion.com/puro-deporte/priscila-robles-esposa-de-kendall-waston-recibe-de/FPCX4TI4SRDMJIGA47JSJXSTUI/story/",
+        "source": "Nacion.com",
+        "published_at": "2026-06-05T02:06:20Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Leo Messi, Premio Princesa de Asturias de los Deportes 2026",
+        "description": "Madrid. Leo Messi, a quien muchos consideran el mejor futbolista de la historia, fue reconocido con el Premio Princesa de Asturias de los Deportes 2026, en el que además de tomar en cuenta su virtuosi",
+        "url": "https://www.jornada.com.mx/2026/06/04/deportes/a12n1dep",
+        "source": "Jornada.com.mx",
+        "published_at": "2026-06-04T10:28:56Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Perú logra su primer triunfo con Menezes y Haití apunta a sorprender en el Mundial",
+        "description": "Los peruanos salvaron los muebles con dos tantos en los minutos finales",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/06/peru-logra-primer-triunfo-menezes-haiti-apunta-sorprender-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-06T07:26:59",
+        "category": "mundial"
+      },
+      {
+        "title": "Canadá cierra su preparación para el Mundial con un empate ante Irlanda en Montreal",
+        "description": "",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/06/canada-cierra-preparacion-mundial-empate-irlanda-montreal.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-06T06:50:08",
+        "category": "mundial"
+      },
+      {
+        "title": "Todo lo que debes saber del Mundial 2026",
+        "description": "En menos de una semana arranca la primera Copa del Mundo de 48 selecciones, que estará repartida entre Estados Unidos, México y Canadá. Serán 104 partidos en 16 ciudades y 39 días de torneo, por lejos",
+        "url": "https://www.df.cl/df-mas/por-dentro/todo-lo-que-debes-saber-del-mundial-2026",
+        "source": "Www.df.cl",
+        "published_at": "2026-06-05T14:11:48Z"
+      },
+      {
+        "title": "Cuándo juega la selección argentina vs. Honduras, por un amistoso antes del Mundial 2026",
+        "description": "El encuentro se disputa este sábado a las 21 (horario argentino) en el Kyle Field de Texas, Estados Unidos, con transmisión de Telefé, TyC Sports y LPF Play",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/cuando-juega-la-seleccion-argentina-vs-honduras-por-un-amistoso-antes-del-mundial-2026-nid05062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-05T14:04:24Z"
+      },
+      {
+        "title": "Yamandú Orsi: a qué partido irá de Uruguay en el Mundial, la broma al plantel y qué piensa sobre Aguirre en Peñarol",
+        "description": "El presidente de la República confirmó que asistirá a la Copa del Mundo para ver al equipo de Marcelo Bielsa y además, habló de un gran proyecto para el baby fútbol en todo el país.",
+        "url": "https://www.elpais.com.uy/ovacion/mundial/yamandu-orsi-a-que-partido-ira-de-uruguay-en-el-mundial-la-broma-al-plantel-y-que-piensa-sobre-aguirre-en-penarol",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-06-05T13:31:44Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 5 días para el Mundial 2026 ⚽\n\n📅 Un día como hoy en 1978, Argentina debutaba ganando 2-1 a Hungría en el Mundial. Un comienzo esperanzador para la Scaloneta que buscaba conquistar su primer título del mundo 🏆\n\nLa Selección Argentina sigue en marcha, con la lista de convocados finalmente definida. Lionel Scaloni ha seleccionado a los mejores jugadores para defender el título del Mundial 2026\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-06T14:52:48.602072",
+  "published_at": "2026-06-06T14:52:49.477045",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-06T14:52:48.602082"
 }
