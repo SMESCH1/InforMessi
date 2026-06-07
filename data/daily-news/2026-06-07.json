@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-06-07",
+  "scraped_at": "2026-06-07T09:53:18.498992",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Argentina vs. Honduras, por un amistoso previo al Mundial 2026",
+      "description": "Con el debut ante Argelia a la vuelta de la esquina, la \"Albiceleste\" afronta un examen clave en Estados Unidos para aceitar las piezas. Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/argentina-vs-honduras-por-un-amistoso-previo-al-mundial-2026.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-06-06T09:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Ilustrador recupera la hazaña mundialista de las Pioneras, excluidas del relato oficial",
+      "description": "<em>La historia que cambió el futbol mexicano </em>aborda la final femenil que se disputó en 1971 // Es triste que nadie en toda mi vida haya mencionado que eso sucedió: Francisco de la Mora",
+      "url": "https://www.jornada.com.mx/2026/06/06/cultura/a02n1cul",
+      "source": "Jornada.com.mx",
+      "published_at": "2026-06-06T08:06:48Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Tim Payne y la nueva fábrica de fama",
+      "description": "Durante décadas, los estudios de cine, la televisión y las discográficas decidieron quién era famoso; hoy, una comunidad online puede convertir a un desconocido en protagonista de un Mundial y llevar ",
+      "url": "https://www.lanacion.com.ar/economia/negocios/tim-payne-y-la-nueva-fabrica-de-fama-nid06062026/",
+      "source": "La Nacion",
+      "published_at": "2026-06-06T09:02:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Selección de Irán: así está la situación de sus visados para el Mundial de Estados Unidos",
+      "description": "Estados Unidos confirmó la emisión de visas para la selección nacional de fútbol de Irán, despejando las dudas sobre la participación del combinado asiático en el Mundial de 2026, que se disputará en ",
+      "url": "https://www.mundodeportivo.com/futbol/mundial/20260606/1004191958/seleccion-iran-asi-situacion-visados-mundial-estados-unidos.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-06-06T08:48:40Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Joel Ordóñez, una llave de seguridad en la defensa mundialista de Ecuador",
+      "description": "Tiene solamente 22 años y se convirtió en una de las figuras del equipo que dirige Beccacece",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/joel-ordonez-una-llave-de-seguridad-en-la-defensa-mundialista-de-ecuador-nid06062026/",
+      "source": "La Nacion",
+      "published_at": "2026-06-06T06:31:45Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Las Palmas - Málaga: a qué hora, dónde ver hoy en TV y canal del partido de ascenso a Primera División",
+      "description": "El conjunto canario recibe al Málaga en el Estadio Gran Canaria",
+      "url": "https://www.marca.com/futbol/segunda-division/2026/06/07/palmas-malaga-horario-donde-ver-tv-canal-partido-laliga-hypermotion.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-07T09:46:13",
+      "category": "liga"
+    },
+    {
+      "title": "Marruecos - Noruega: a qué hora y dónde ver hoy en TV el amistoso internacional antes del Mundial",
+      "description": "Dos de las selecciones revelaciones se enfrentan antes del Mundial",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/07/marruecos-noruega-que-hora-donde-ver-hoy-tv-amistoso-internacional-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-07T08:31:42",
+      "category": "mundial"
+    },
+    {
+      "title": "Aramburu no detiene la cuenta de minutos",
+      "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+      "url": "https://www.marca.com/futbol/real-sociedad/2026/06/07/aramburu-detiene-cuenta-minutos.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-07T08:11:32",
+      "category": "general"
+    },
+    {
+      "title": "Un nuevo conflicto a la vista entre Mbappé y la Federación por una marca de apuestas",
+      "description": "El anuncio con cinco futbolistas, entre ellos el capitán, no ha gustado en la plantilla ya que podría incumplir el acuerdo pactado en 2023",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/07/nuevo-conflicto-vista-mbappe-federacion-marca-apuestas.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-07T07:57:49",
+      "category": "general"
+    },
+    {
+      "title": "El doble reto de ganar a Islandia en Reikiavik: \"Tenemos el Mundial entre ceja y ceja\"",
+      "description": "Los albinegros no pasaron del empate frente al Albacete tras un final polémico",
+      "url": "https://www.marca.com/futbol/futbol-femenino/seleccion/2026/06/07/doble-reto-ganar-islandia-reikiavik-mundial-ceja-ceja.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-07T07:53:04",
+      "category": "mundial"
+    }
+  ]
+}
