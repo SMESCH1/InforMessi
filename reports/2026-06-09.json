@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-06-09",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 2,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
         "date": "2012-06-09",
@@ -12,23 +15,116 @@
         "priority": "medium",
         "person": "Lionel Messi",
         "description": "Hat-trick de Messi a Brasil en el amistoso 4-3 en New Jersey."
-      },
-      {
-        "date": "2026-06-09",
-        "type": "historical",
-        "priority": "low",
-        "description": "2006: enAlemaniase inicia laXVIII Copa Mundial de Fútbol.",
-        "historical_year": "2006",
-        "source": "Wikipedia",
-        "url": "https://es.wikipedia.org/wiki/9_de_junio"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Encuesta EF: Predomina en México desinterés en la Copa del Mundo",
+        "description": "El 25 por ciento de las personas interesadas en el Mundial ve a Brasil como campeón.",
+        "url": "https://www.elfinanciero.com.mx/nacional/2026/06/08/encuesta-ef-predomina-en-mexico-desinteres-en-la-copa-del-mundo/",
+        "source": "El Financiero",
+        "published_at": "2026-06-08T09:15:04Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Riqueza doméstica, rezago mundial; el Tri, lejos de los equipos más caros",
+        "description": "En el mercado interno de la Liga Mx, los clubes intercambian jugadores de un torneo a otro por valores que alcanzan los 10 millones de dólares. Una inflación lucrativa que alimenta la economía del fut",
+        "url": "https://www.jornada.com.mx/2026/06/08/deportes/a10n1dep",
+        "source": "Jornada.com.mx",
+        "published_at": "2026-06-08T08:42:59Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Tiroteo cerca de la base de Inglaterra, en Kansas City, deja 9 heridos",
+        "description": "Varias personas resultaron heridas luego de un tiroteo cerca de la base de la selección inglesa que participará en el Mundial 2026 en Kansas City, Missouri.",
+        "url": "https://www.jornada.com.mx/2026/06/08/deportes/a09n2dep",
+        "source": "Jornada.com.mx",
+        "published_at": "2026-06-08T08:42:59Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "MARCA se viste de gala en la entrega de los Premios ADN del Deporte",
+        "description": "Nadia Comaneci, Ricky Rubio, Emery, Craviotto, Oriol Cardona o Rafa Jódar, entre los galardonados. El esquiador Johannes Klaebo recibe el MARCA Leyenda",
+        "url": "https://www.marca.com/premios/adn/2026/06/08/marca-viste-gala-entrega-premios-adn-deporte.html",
+        "source": "Marca",
+        "published_at": "2026-06-08T10:19:35Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Quiero ver el Mundial de Fútbol 2026 gratis en mi proyector de cine en casa o portátil. Esto es lo que necesito",
+        "description": "El Mundial de Fútbol 2026 ya casi está aquí, y si eres seguidor del deporte rey probablemente quieras verlo con la mejor calidad de imagen posible, pero también con el mayor tamaño de pantalla que per",
+        "url": "https://www.xatakahome.com/televisores/quiero-ver-mundial-futbol-2026-gratis-mi-proyector-cine-casa-portatil-esto-que-necesito",
+        "source": "Xatakahome.com",
+        "published_at": "2026-06-08T10:00:17Z",
+        "category": "mundial"
+      },
+      {
+        "title": "José Carlos Lazo pone fin a su contrato y no seguirá en el Albacete Balompié",
+        "description": "El futbolista gaditano no seguirá en el club tras llegar hace dos veranos al Belmonte",
+        "url": "https://www.marca.com/futbol/albacete/2026/06/09/jose-carlos-lazo-pone-contrato-seguira-albacete-balompie.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-09T10:22:29",
+        "category": "general"
+      },
+      {
+        "title": "El pronosticador del Mundial de MARCA: favoritos y opciones de pasar cada ronda",
+        "description": "Conoce el porcentaje de probabilidades de cada selección a lo largo de todo el torneo",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/09/pronosticador-mundial-marca-favoritos-opciones-pasar-ronda.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-09T10:22:13",
+        "category": "seleccion"
+      },
+      {
+        "title": "El recibimiento más animado del Mundial: “¡Sin Haití no hay fiesta!”",
+        "description": "",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/09/recibimiento-animado-mundial-haiti-hay-fiesta-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-09T10:05:46",
+        "category": "mundial"
+      },
+      {
+        "title": "Lamine Yamal ya tiene su primera figura de cera",
+        "description": "El jugador del Barça tiene su réplica en el museo Madame Tussauds de Berlín en recuerdo de su triunfo en la Eurocopa y justo antes del Mundial",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/09/lamine-yamal-primera-figura-cera.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-09T10:03:01",
+        "category": "mundial"
+      },
+      {
+        "title": "España se prepara para su debut en el Mundial: compra tu entrada para disfrutar de La Roja en la Copa del Mundo",
+        "description": "Arranca la andadura de la selección española en busca de reinar a nivel global",
+        "url": "https://www.marca.com/futbol/2026/06/09/espana-prepara-debut-mundial-compra-entrada-disfrutar-roja-copa-mundo.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-09T10:01:11",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mundial 2026: el video que publicó la Conmebol, con escasa aparición de Uruguay",
+        "description": "Alejandro Domínguez compartió una pieza audiovisual con fuerte presencia de Argentina, Brasil y Paraguay, además de Colombia y Ecuador.",
+        "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-el-video-que-publico-la-Conmebol-con-escasa-aparicion-de-Uruguay-uc964568",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-06-08T14:50:00Z"
+      },
+      {
+        "title": "Mundial 2026: Claudia Sheinbaum abanderará a la Selección Mexicana rumbo a la Copa del Mundo",
+        "description": "La presidenta de México, Claudia Sheinbaum Pardo, informó que este 8 de junio, a las 13:00 horas, encabezará el abanderamiento de la Selección Mexicana",
+        "url": "https://www.merca20.com/mundial-2026-claudia-sheinbaum-abanderara-a-la-seleccion-mexicana-rumbo-a-la-copa-del-mundo/",
+        "source": "Merca20.com",
+        "published_at": "2026-06-08T14:41:05Z"
+      },
+      {
+        "title": "El Mundial más caro aleja a los aficionados mexicanos del futbol",
+        "description": "Mientras se prepara para recibir a millones de visitantes, Guadalajara enfrenta el desafío de contener la violencia, fortalecer la seguridad y proteger su imagen internacional.",
+        "url": "https://www.elfinanciero.com.mx/bloomberg-businessweek/2026/06/08/el-mundial-mas-caro-aleja-a-los-aficionados-mexicanos-del-futbol/",
+        "source": "El Financiero",
+        "published_at": "2026-06-08T14:19:00Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFaltan 2 días para el Mundial 2026 ⚽\n\nJugador de la Scaloneta\n\nLionel Messi sigue siendo la referencia mundial del fútbol y prepara su sexta participación en un Mundial. Su dedicación y habilidad en el terreno de juego lo convierten en un líder natural para la Selección Argentina.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-09T16:12:20.036775",
+  "published_at": "2026-06-09T16:12:20.743925",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-09T16:12:20.036786"
 }
