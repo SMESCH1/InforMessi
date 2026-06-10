@@ -4,14 +4,17 @@
   "data": {
     "date": "2026-06-10",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": 1,
+    "mundial_phase": "pre_mundial",
+    "mundial_day": null,
     "events": [
       {
-        "date": "1978-06-10",
-        "type": "world_cup",
-        "priority": "low",
+        "date": "1928-06-10",
+        "type": "match",
+        "priority": "medium",
         "person": "N/A",
-        "description": "Argentina cae 0-1 ante Italia y debe ir a Rosario."
+        "description": "Argentina pierde final olímpica en Ámsterdam ante Uruguay."
       },
       {
         "date": "1986-06-10",
@@ -28,35 +31,128 @@
         "description": "Debut en Alemania 2006: Argentina 2-1 Costa de Marfil."
       },
       {
-        "date": "1928-06-10",
-        "type": "match",
-        "priority": "medium",
-        "person": "N/A",
-        "description": "Argentina pierde final olímpica en Ámsterdam ante Uruguay."
-      },
-      {
-        "date": "2026-06-10",
-        "type": "historical",
-        "priority": "low",
-        "description": "1998: enFranciase inaugura elMundial de Fútbol.",
-        "historical_year": "1998",
-        "source": "Wikipedia",
-        "url": "https://es.wikipedia.org/wiki/10_de_junio"
-      },
-      {
         "date": "2009-06-10",
         "type": "match",
         "priority": "medium",
         "person": "N/A",
         "description": "Ecuador 2-0 Argentina en Quito por Eliminatorias 2010. Derrota en la altura bajo Maradona."
+      },
+      {
+        "date": "1978-06-10",
+        "type": "world_cup",
+        "priority": "low",
+        "person": "N/A",
+        "description": "Argentina cae 0-1 ante Italia y debe ir a Rosario."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "El pronosticador del Mundial: así queda el ránking",
+        "description": "Conoce el porcentaje de probabilidades de cada selección a lo largo de todo el torneo",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/09/pronosticador-mundial-marca-favoritos-opciones-pasar-ronda.html",
+        "source": "Marca",
+        "published_at": "2026-06-09T10:22:13Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "España ganará la Copa Mundial de la FIFA 2026 según EA Sports FC 26, y ha EA ha acertado los últimos 4 ganadores",
+        "description": "<!--cache-->Electronic Arts ha hecho su clásica simulación de la Copa Mundial de la FIFA 2026 con EA Sports FC 26 y da a España como ganadora.<!--aa--->La Copa Mundial de la FIFA 2026 arranca el 11 de",
+        "url": "https://vandal.elespanol.com/noticia/1350790635/espana-ganara-la-copa-mundial-de-la-fifa-2026-segun-ea-sports-fc-26-y-ha-ea-ha-acertado-los-ultimos-4-ganadores/",
+        "source": "Elespanol.com",
+        "published_at": "2026-06-09T09:34:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Argentina vs. Islandia, por un Amistoso Internacional previo al Mundial",
+        "description": "La Selección Argentina calienta motores para el debut mundialista. Conocé el contexto de la Scaloneta, el historial frente a los Vikingos, el horario, la TV y las formaciones. Leer más",
+        "url": "https://442.perfil.com/noticias/mundial-2026/argentina-vs-islandia-por-un-amistoso-internacional-previo-al-mundial.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-09T09:30:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Cómo ver el Mundial 2026 de la manera más barata posible: el truco para encontrar el mejor pack y qué hacer si no te aparece",
+        "description": "Vamos a decirte un truco para poder ver todo el Mundial de Fútbol 2026 de la forma más barata posible. Y te lo vamos a explicar claramente y sin engañarte, porque aunque se trata de pagar un pack de 7",
+        "url": "https://www.xataka.com/basics/como-ver-mundial-2026-manera-barata-posible-truco-para-encontrar-mejor-pack-que-hacer-no-te-aparece",
+        "source": "Xataka.com",
+        "published_at": "2026-06-09T10:36:35Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El autobús autónomo e-JEST de Karsan comienza a transportar pasajeros en Atlanta",
+        "description": "¡Estados Unidos reduce la congestión del tráfico en el mayor evento de fútbol con el Karsan Autonomous e-JEST! ESTAMBUL, 9 de junio de 2026 /PRNewswire/ -- Karsan, marca líder mundial en movilidad tec",
+        "url": "https://www.prnewswire.com/news-releases/el-autobus-autonomo-e-jest-de-karsan-comienza-a-transportar-pasajeros-en-atlanta-302795156.html",
+        "source": "PRNewswire",
+        "published_at": "2026-06-09T10:35:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El Indio Solari y las \"muchachitas fatales\" del mundo del fútbol",
+        "description": "La partida de Carlos \"El Indio\" Solari enluta a generaciones. Crónica de un dolor colectivo que en las mujeres futboleras se transforma en agradecimiento a un hombre que no le temió a la vulnerabilida",
+        "url": "https://442.perfil.com/noticias/futbol/el-indio-solari-y-las-muchachitas-fatales-del-mundo-del-futbol.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-08T22:20:01Z",
+        "category": "general"
+      },
+      {
+        "title": "México - Sudáfrica: horario y dónde ver en TV el partido de inauguración del del Mundial 2026",
+        "description": "Los detalles del primer partido del torneo",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/10/mexico-sudafrica-horario-ver-tv-partido-inauguracion-mundial-2026.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-10T10:40:59",
+        "category": "mundial"
+      },
+      {
+        "title": "El Betis lanza su campaña de abonos para la temporada 2026-27, en la que regresa a la Champions",
+        "description": "Bajo el lema 'Para toda la vida', el club presenta sus nuevos carnets con una subida del 10%",
+        "url": "https://www.marca.com/futbol/betis/2026/06/10/betis-lanza-campana-abonos-temporada-2026-27-regresa-champions.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-10T10:36:50",
+        "category": "mundial"
+      },
+      {
+        "title": "El milagro de Craig Gordon, el jugador más viejo del Mundial: \"Podrías quedar paralizado, incluso morir\"",
+        "description": "El portero de Escocia se sometió a un tratamiento en marzo por una grave lesión de cuello",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/10/milagro-craig-gordon-jugador-viejo-mundial-podrias-quedar-paralizado-morir.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-10T10:29:54",
+        "category": "mundial"
+      },
+      {
+        "title": "La temprana llegada de la Selección Española a Chattanooga: \"Tenemos todas las piezas para ganar un Mundial\"",
+        "description": "",
+        "url": "https://www.marca.com/futbol/seleccion/2026/06/10/temprana-llegada-seleccion-espanola-chattanooga-todas-piezas-ganar-mundial-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-10T09:57:25",
+        "category": "seleccion"
+      },
+      {
+        "title": "“No pegaste una”: Antonela Roccuzzo cruzó a una médica que habló de las cirugías de Messi",
+        "description": "La empresaria salió al cruce de una especialista que analizaba los supuestos retoques estéticos del jugador argentino.",
+        "url": "https://www.montevideo.com.uy/Pantallazo/-No-pegaste-una--Antonela-Roccuzzo-cruzo-a-una-medica-que-hablo-de-las-cirugias-de-Messi-uc964700",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-06-09T16:39:00Z"
+      },
+      {
+        "title": "Amenazan con reventar el Mundial... y el mercado",
+        "description": "Una guía para identificar al jugador que, en cada selección, puede convertirse en la sensación del Mundial 2026",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/09/libro-scouting-mundial-2026-48-jugadores-podrian-animar-mercado.html",
+        "source": "Marca",
+        "published_at": "2026-06-09T16:22:59Z"
+      },
+      {
+        "title": "Inauguración del Mundial 2026: día, horario, TV y cómo ver online",
+        "description": "La primera de las tres ceremonias de apertura se realizará este jueves en el estadio Azteca, en la previa del partido entre México y Sudáfrica",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/inauguracion-del-mundial-2026-dia-horario-tv-y-como-ver-online-nid09062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-09T15:31:32Z"
+      }
+    ]
   },
-  "message": "",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nFalta 1 día para el Mundial 2026 ⚽\n\n📰 La Selección Argentina sigue en marcha, con la lista de convocados finalmente definida. Lionel Scaloni ha seleccionado a los mejores jugadores para defender el título del Mundial 2026. España ganará la Copa Mundial de la FIFA 2026 según EA Sports FC 26, y ha acertado los últimos 4 ganadores: Electronic Arts ha hecho su clásica simulación de la Copa Mundial de la FIFA 2026 con EA Sports FC 26 y da a España como ganadora. Argentina vs. Islandia, por un Amistoso Internacional previo al Mundial: La Selección Argentina calienta motores para el debut mundialista. Conocé el contexto de la Scaloneta, el historial frente a los Vikingos, el horario, y más.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-10T16:44:45.198699",
+  "published_at": "2026-06-10T16:44:45.973281",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-10T16:44:45.198710"
 }
