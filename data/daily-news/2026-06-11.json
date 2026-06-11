@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-06-11",
+  "scraped_at": "2026-06-11T11:15:32.464676",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Los dos 'transatlánticos' que acechan a España en su camino a la segunda estrella",
+      "description": "Tonybet destaca a Francia e Inglaterra como los dos grandes rivales a batir para la Selección",
+      "url": "https://www.marca.com/apuestas-deportivas/predicciones/2026/06/10/dos-transatlanticos-acechan-espana-camino-segunda-estrella.html",
+      "source": "Marca",
+      "published_at": "2026-06-10T11:15:01Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El hito imposible que está infravalorando a Argentina",
+      "description": "Casumo no sitúa a la Albiceleste entre las cinco favoritas para ganar el Mundial 2026",
+      "url": "https://www.marca.com/apuestas-deportivas/predicciones/2026/06/10/hito-imposible-infravalorando-argentina.html",
+      "source": "Marca",
+      "published_at": "2026-06-10T11:01:50Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Mundial 2026: los partidazos imperdibles de la primera fecha de la fase de grupos",
+      "description": "La cuenta regresiva está llegando a su fin y la gran cita en Norteamérica pone primera con cruces de alto impacto táctico y el debut de las grandes potencias. Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/mundial-2026-los-partidazos-imperdibles-de-la-primera-fecha-de-la-fase-de-grupos.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-06-10T11:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La dura acusación del árbitro africano deportado por Estados Unidos de cara al Mundial: “Tienen un problema con mi país”",
+      "description": "El juez somalí Omar Artan no fue autorizado para ingresar, pese a que era uno de los africanos designados para dirigir en la Copa del Mundo.",
+      "url": "https://www.latercera.com/el-deportivo/noticia/la-dura-acusacion-del-arbitro-africano-deportado-por-estados-unidos-de-cara-al-mundial-tienen-un-problema-con-mi-pais/",
+      "source": "Latercera.com",
+      "published_at": "2026-06-10T11:14:47Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El Mundial obliga a Cifras y Letras a echar el cierre antes de tiempo",
+      "description": "Toda competición deportiva, ya sea una Eurocopa, unos JJOO o un Mundial, que se emita en una televisión en abierto es un auténtico dolor de cabeza para los programadores de la...",
+      "url": "https://www.elmundo.es/television/2026/06/10/6a2945cc21efa01b788b457b.html",
+      "source": "El Mundo",
+      "published_at": "2026-06-10T11:09:52Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Los Sub 18 del Mundial 2026: de cambios de nacionalidad a último momento al prodigio que entrena el Loco Abreu",
+      "description": "En la que será la última Copa del Mundo de Cristiano Ronaldo y Lionel Messi, algunos jugadores comenzarán a escribir su propia historia. En 1958 Pelé fue figura y campeón con 17 años y marcó el camino",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/los-sub-18-del-mundial-2026-de-cambios-de-nacionalidad-a-ultimo-momento-al-prodigio-que-entrena-el-loco-abreu",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-06-10T06:16:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La emotiva despedida de Estefanía Banini: \"Llegué a España con una mochila llena de sueños\"",
+      "description": "La futbolista argentina Estefanía Banini ha puesto fin a su etapa en el fútbol español después de nueve temporadas en la Liga F. La centrocampista, una de las referentes del fútbol femenino argentino,",
+      "url": "https://www.mundodeportivo.com/futbol/femenino/20260609/1004193197/emotiva-despedida-estefania-banini-llegue-espana-mochila-llena-suenos.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-06-09T17:34:44Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Amenazan con reventar el Mundial... y el mercado",
+      "description": "Una guía para identificar al jugador que, en cada selección, puede convertirse en la sensación del Mundial 2026",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/09/libro-scouting-mundial-2026-48-jugadores-podrian-animar-mercado.html",
+      "source": "Marca",
+      "published_at": "2026-06-09T16:22:59Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Grupo D del Mundial 2026: selecciones, calendario, partidos, horarios y favoritos",
+      "description": "Los rivales y enfrentamientos de una de la selecciones anfitrionas<span class=\"\"></span>",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/11/grupo-d-mundial-2026-selecciones-calendario-partidos-horarios-favoritos.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-11T10:59:28",
+      "category": "mundial"
+    },
+    {
+      "title": "Grupo B del Mundial 2026: selecciones, calendario, partidos, horarios y favoritos",
+      "description": "La anfitriona conoce a sus primeros rivales en la Copa del Mundo 2026: Canadá, Suiza, Qatar y Bosnia",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/11/grupo-b-mundial-2026-selecciones-calendario-partidos-horarios-favoritos.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-11T10:57:42",
+      "category": "mundial"
+    }
+  ]
+}
