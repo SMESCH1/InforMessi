@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-06-10T16:44:46.817811",
+  "last_updated": "2026-06-11T17:01:18.870542",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -40,7 +40,8 @@
       "2026-05-31",
       "2026-06-01",
       "2026-06-06",
-      "2026-06-10"
+      "2026-06-10",
+      "2026-06-11"
     ],
     "Di María": [
       "2026-04-10",
@@ -137,7 +138,8 @@
       "2026-05-28",
       "2026-06-02",
       "2026-06-04",
-      "2026-06-09"
+      "2026-06-09",
+      "2026-06-11"
     ],
     "dato_mundialista": [
       "2026-03-28",
@@ -244,7 +246,8 @@
       "2026-06-07",
       "2026-06-08",
       "2026-06-09",
-      "2026-06-10"
+      "2026-06-10",
+      "2026-06-11"
     ],
     "seleccion": [
       "2026-03-26",
@@ -299,7 +302,8 @@
       "2026-06-07",
       "2026-06-08",
       "2026-06-09",
-      "2026-06-10"
+      "2026-06-10",
+      "2026-06-11"
     ]
   },
   "events_mentioned": {
@@ -632,6 +636,18 @@
     ],
     "Argentina cae 0-1 ante Italia y debe ir a Rosario.": [
       "2026-06-10"
+    ],
+    "Inauguración del Mundial 2026: México vs Sudáfrica en el Estadio Azteca, Ciudad de México.": [
+      "2026-06-11"
+    ],
+    "Argentina 3-1 Irlanda del Norte.": [
+      "2026-06-11"
+    ],
+    "Argentina gana la Copa Independencia en Brasil.": [
+      "2026-06-11"
+    ],
+    "Argentina 0-0 Ecuador en el debut de la Copa América 1997 en Bolivia.": [
+      "2026-06-11"
     ]
   },
   "news_topics": {
