@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-06-12",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -1,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 2,
     "events": [
       {
         "date": "2002-06-12",
@@ -35,12 +38,114 @@
         "description": "Argentina derrota a Uruguay 4-1 y gana la Copa Centenario."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Inauguración Mundial 2026: a qué hora es la ceremonia de apertura, artistas invitados, actuaciones y dónde ver gratis en televisión y online hoy",
+        "description": "La espera ha terminado. Este jueves 11 de junio comienza la Copa Mundial de la FIFA. Una edición que se presenta histórica por varios motivos. Uno de ellos es que se celebrará por primera vez en tres ",
+        "url": "https://www.abc.es/deportes/futbol/mundial/inauguracion-mundial-2026-hora-ceremonia-apertura-artistas-20260611125407-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-06-11T10:54:07Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Arranca el Mundial: un Azteca de leyenda, presión y riesgo de boicot",
+        "description": "El coliseo de Ciudad de México acoge el debut entre el Tri y Sudáfrica en un torneo récord con 48 selecciones y tres países organizadores.",
+        "url": "https://www.libertaddigital.com/deportes/futbol/2026-06-11/arranca-el-mundial-un-azteca-de-leyenda-presion-y-riesgo-de-boicot-7419348/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-06-11T10:38:47Z",
+        "category": "mundial"
+      },
+      {
+        "title": "México en el Mundial 2026: alineación probable, convocatoria y lista de dorsales",
+        "description": "El Mundial 2026 está a la vuelta de la esquina y esta supondrá una cita muy especial para el país de México, el cual será uno de los organizadores de la competición. Será la tercera vez que el conjunt",
+        "url": "https://www.abc.es/deportes/futbol/mundial/mexico-mundial-estados-unidos-mexico-canada-alineacion-20260610152252-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-06-11T10:34:18Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Los futbolistas lucen en el mundial los bolsos que todas querríamos en el armario",
+        "description": "<![CDATA[<p>El Mundial de Fútbol 2026 arranca este jueves y gran parte está pendiente de los primeros partidos, las primeras alineaciones y esos primeros pasos de sus selecciones favoritas para hacers",
+        "url": "https://www.huffingtonpost.es/life/moda/los-futbolistas-lucen-en-el-mundial-los-bolsos-que-todas-querriamos-en-el-armario-f202606.html",
+        "source": "Huffingtonpost.es",
+        "published_at": "2026-06-11T10:43:27Z",
+        "category": "mundial"
+      },
+      {
+        "title": "La Masia celebra graduaciones y se examina en la selectividad",
+        "description": "No todo es fútbol. Y menos en La Masia. Con la temporada finiquitada y el balón detenido hasta dentro de unas semanas, algunos canteranos viven estos días momentos importantes en sus vidas. Como miles",
+        "url": "https://www.mundodeportivo.com/futbol/fc-barcelona/20260611/1004193649/masia-celebra-graduaciones-examina-selectividad.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-06-11T10:35:39Z",
+        "category": "general"
+      },
+      {
+        "title": "El Mundial de Calígula",
+        "description": "Puede parecer una contradicción disfrutar del Mundial con el que Trump intenta emular a Calígula y la FIFA hacer negocio. O podemos considerar esas críticas el desahogo de millones de personas al ver ",
+        "url": "https://www.eldiario.es/mundial-2026/mundial-caligula_129_13285765.html",
+        "source": "Eldiario.es",
+        "published_at": "2026-06-10T19:35:29Z",
+        "category": "mundial"
+      },
+      {
+        "title": "España se podría estrenar en el Mundial con dos colchoneros en su once",
+        "description": "A cinco días de debutar en el Mundial, España vive en calma. Segundo día consecutivo sin entrenamiento de todo el grupo. Tiempo para el golf para varios internacionales, que lo utilizan como vía de es",
+        "url": "https://www.mundodeportivo.com/futbol/atletico-madrid/20260610/1004193621/espana-estrenar-mundial-dos-colchoneros-once.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-06-10T18:49:45Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Los Sub 18 del Mundial 2026: de cambios de nacionalidad a último momento al prodigio que entrena el Loco Abreu",
+        "description": "En la que será la última Copa del Mundo de Cristiano Ronaldo y Lionel Messi, algunos jugadores comenzarán a escribir su propia historia. En 1958 Pelé fue figura y campeón con 17 años y marcó el camino",
+        "url": "https://www.elpais.com.uy/ovacion/futbol/los-sub-18-del-mundial-2026-de-cambios-de-nacionalidad-a-ultimo-momento-al-prodigio-que-entrena-el-loco-abreu",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-06-10T06:16:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Conmoción en el Reino Unido por el fallecimiento de Kenny Jackett",
+        "description": "Leyenda del Watford y de la selección galesa, entrenó a varios equipos de la Premier, y ha fallecido a los 64 años<span class=\"\" contenteditable=\"false\" tabindex=\"-1\"></span>",
+        "url": "https://www.marca.com/futbol/premier-league/2026/06/12/conmocion-reino-unido-fallecimiento-kenny-jackett.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-12T10:40:39",
+        "category": "seleccion"
+      },
+      {
+        "title": "Marcelo, evacuado por la Policía tras un altercado en el estreno del Mundial",
+        "description": "El brasileño quedó atrapado entre manifestantes y autoridades locales después del México-Sudáfrica y salió del estadio sin sufrir daños<span class=\"\" contenteditable=\"false\" tabindex=\"-1\"></span>",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/12/marcelo-evacuado-policia-altercado-estreno-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-12T10:20:16",
+        "category": "mundial"
+      },
+      {
+        "title": "Copa Mundial de la FIFA 2026: manual para principiantes",
+        "description": "El Mundial 2026 mueve al mundo, incluso a quienes normalmente no siguen el fútbol. Aquí referencias y claves rápidas.",
+        "url": "https://www.dw.com/es/copa-mundial-de-la-fifa-2026-manual-para-principiantes/a-77509514",
+        "source": "DW (English)",
+        "published_at": "2026-06-11T15:57:00Z"
+      },
+      {
+        "title": "Copa Mundial de la FIFA 2026: 10 datos clave que tenés que saber sobre la cita mundialista que arranca hoy",
+        "description": "El torneo más grande de la historia del fútbol se pone en marcha este jueves 11 de junior en México. En esta nota te presentamos un resumen con los datos que tenes que saber para disfrutar al máximo d",
+        "url": "https://442.perfil.com/noticias/mundial-2026/copa-mundial-de-la-fifa-2026-10-datos-clave-que-tenes-que-saber-sobre-la-cita-mundialista-que-arranca-hoy.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-11T15:55:42Z"
+      },
+      {
+        "title": "La anfitriona Estados Unidos se estrena ante la rocosa Paraguay",
+        "description": "La selección de los Estados Unidos será la última de las tres coanfitrionas del Mundial de Fútbol que se ponga en marcha en el torneo y lo hará este viernes en Los Ángeles (03.00 hora peninsular del s",
+        "url": "https://www.europapress.es/deportes/futbol/mundial-00639/noticia-anfitriona-estados-unidos-estrena-rocosa-paraguay-20260611173559.html",
+        "source": "Europapress.es",
+        "published_at": "2026-06-11T15:35:59Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan -1 días para el Mundial 2026 ⚽\nUn día como hoy en 2026, Argentina jugó su primer partido en el Mundial 2026 contra  en la jornada 1 de fase de grupos 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 2 del Mundial 2026 ⚽\n📰 Arranca el Mundial: un Azteca de leyenda, presión y riesgo de boicot: El coliseo de Ciudad de México acoge el debut entre el Tri y Sudáfrica en un torneo récord con 48 selecciones y tres países organizadores.\n\n📰 México en el Mundial 2026: alineación probable, convocatoria y lista de dorsales: El Mundial 2026 está a la vuelta de la esquina y esta supondrá una cita muy especial para el país de México, el cual será uno de los organizadores del certamen.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-12T16:27:20.005254",
+  "published_at": "2026-06-12T16:27:20.706093",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-12T16:27:20.005265"
 }
