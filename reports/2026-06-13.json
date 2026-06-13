@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-06-13",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -2,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 3,
     "events": [
       {
         "date": "1982-06-13",
@@ -28,12 +31,114 @@
         "description": "Mundial 2026 - Continúa la fase de grupos con más debuts."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Canadá y Bosnia se enfrentan en la Copa Mundial 2026 con arbitraje argentino",
+        "description": "Canadá debuta en la Copa Mundial 2026 ante su gente en Toronto buscando un triunfo histórico. Bosnia llega en racha y con Džeko encendido. Facundo Tello hará su presentación en representación del arbi",
+        "url": "https://442.perfil.com/noticias/mundial-2026/canada-vs-bosnia-herzegovina-por-el-mundial-2026.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-12T09:45:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Faustino, el hijo de Eva Bargiela y Gianluca Simeone, deslumbró con su look mundialista",
+        "description": "El mini influencer se preparó con un tierno outfit para recibir el Mundial 2026 y alentar a Argentina. Leer más",
+        "url": "https://caras.perfil.com/noticias/moda/faustino-hijo-eva-bargiela-gianluca-simeone-deslumbro-look-mundialista.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-12T08:38:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Dos ediciones históricas de NOTICIAS: la Scaloneta en el Mundial 2026 y el legado del Indio Solari,",
+        "description": "NOTICIAS presenta dos ediciones históricas que llegan casi simultáneamente y retratan a la Argentina en sus dos estados emocionales más extremos: la euforia y el duelo, la cancha y el velatorio, el gr",
+        "url": "https://noticias.perfil.com/noticias/informacion-general/dos-ediciones-historicas-de-noticias-la-scaloneta-en-el-mundial-2026-y-el-legado-del-indio-solari.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-12T08:13:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Por qué en EE.UU. le dicen al fútbol soccer y cuál es el origen de esa palabra (no, no la crearon los estadounidenses)",
+        "description": "Te llevamos a un viaje en el tiempo en busca de la palabra soccer, el término con el que muchas personas en EE.UU. se refieren al fútbol, cuyo máximo torneo alberga junto a México y Canadá.",
+        "url": "https://www.bbc.com/mundo/articles/c14yl5mrmexo",
+        "source": "BBC News",
+        "published_at": "2026-06-12T09:27:25Z",
+        "category": "general"
+      },
+      {
+        "title": "Pyshchur, la primera pieza del nuevo Girona",
+        "description": "El Girona ya ha activado oficialmente la construcción de su nuevo proyecto. La entidad gerundense anunció la incorporación de Oleksandr Pyshchur, delantero ucraniano de 21 años que se convierte en el ",
+        "url": "https://www.mundodeportivo.com/futbol/girona-fc/20260612/1004194166/pyshchur-primera-pieza-nuevo-girona.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-06-12T09:17:09Z",
+        "category": "general"
+      },
+      {
+        "title": "Dembélé: \"Ganar el Mundial es la cima absoluta\"",
+        "description": "El Balón de Oro se sienta con MARCA antes del debut de Les Bleus ante Senegal: Mbappé, Messi, Luis Enrique, Deschamps o Zidane, sobre la mesa, y por supuesto, España  Leer",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/12/dembele-ganar-mundial-cima-absoluta.html",
+        "source": "Marca",
+        "published_at": "2026-06-12T07:23:42Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Rodrigo se centra en el Mundial y aplaza los rumores sobre el Real Madrid",
+        "description": "El jugador de la selección española de fútbol evita hablar de Enrique Riquelme tras su grave lesión y señala a Argentina como gran rival",
+        "url": "https://www.libertaddigital.com/deportes/futbol/2026-06-12/rodrigo-se-centra-en-el-mundial-y-aplaza-los-rumores-sobre-el-real-madrid-7419822/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-06-12T07:09:24Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Pochettino sueña con una sorpresa de Estados Unidos en el Mundial y pide acabar con la ‘arrogancia’ en el fútbol",
+        "description": "Mauricio Pochettino analiza las fortalezas y debilidades de Estados Unidos antes de su debut en la Copa del Mundo 2026. El técnico explica por qué el talento y la inversión no bastan para competir con",
+        "url": "https://www.nacion.com/puro-deporte/pochettino-suena-con-una-sorpresa-de-estados/LMA7YUWDFZALJBICXLFFIJHRI4/story/",
+        "source": "Nacion.com",
+        "published_at": "2026-06-11T16:47:55Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Paliza táctica de Mauricio Pochettino en el duelo ...",
+        "description": "Estados Unidos aplastó a Paraguay en el debut de ambos en el Mundial 2026.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16833381/estados-unidos-vs-paraguay-mundial-2026-paliza-tactica-mauricio-pochettino-gustavo-alfaro",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-13T06:54:24",
+        "category": "mundial"
+      },
+      {
+        "title": "Mauricio Pochettino tras la goleada a Paraguay: \"N...",
+        "description": "El entrenador de Estados Unidos elogió el rendimiento de sus futbolistas y pidió mantener la calma pese al gran debut en el Mundial 2026.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16833641/mauricio-pochettino-nos-salio-todo-bien-estados-unidos-goleada-paraguay-grupo-d-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-13T06:54:24",
+        "category": "mundial"
+      },
+      {
+        "title": "Brasil, 24 años de vacío en el Mundial",
+        "description": "El Mundial 2026 da sus primeros pasos y trae a escena el debut de una de las grandes favoritas al título y a la revelación del último torneo. Brasil y Marruecos abren el grupo C con un partido en el q",
+        "url": "https://www.elcorreo.com/deportes/futbol/mundial/brasil-anos-vacio-mundial-20260612170758-ntrc.html",
+        "source": "Elcorreo.com",
+        "published_at": "2026-06-12T15:07:58Z"
+      },
+      {
+        "title": "En qué canal pasan Canadá vs. Bosnia por el Mundial 2026 hoy",
+        "description": "El encuentro entre uno de los países anfitriones y los Dragones se disputa este viernes a las 16 (horario argentino), en el BMO Field de Toronto",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/en-que-canal-pasan-canada-vs-bosnia-por-el-mundial-2026-hoy-nid12062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-12T13:00:00Z"
+      },
+      {
+        "title": "Cuatro apps para ver los partidos del Mundial en tu móvil",
+        "description": "Los amantes del fútbol estamos de enhorabuena: la Copa del Mundo ya ha comenzado y esta edición será la más grande de la historia. Pero hay un problema: como los anfitriones son México, Estados Unidos",
+        "url": "https://www.xatakamovil.com/tv-movil/cuatro-apps-para-ver-partidos-mundial-tu-movil",
+        "source": "Xatakamovil.com",
+        "published_at": "2026-06-12T12:00:16Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\nFaltan -2 días para el Mundial 2026 ⚽\nUn día como hoy en 1982, Argentina debutó en el Mundial de España con una derrota 1-0 ante Bélgica 📅\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 3 del Mundial 2026 ⚽\n\n📰 Argentina vs.  en  a las  (Mundial 2026 - Continúa la fase de grupos con más debuts.)\n\n📰 El hijo de Eva Bargiela y Gianluca Simeone, Faustino, deslumbró con su look mundialista: El mini influencer se preparó con un tierno outfit para recibir el Mundial 2026 y alentar a Argentina. Leer más (Perfil.com)\n📰 En qué canal pasan Canadá vs. Bosnia por el Mundial 2026 hoy: El encuentro entre uno de los países anfitriones y los Dragones se disputa este viernes a las 16 (horario argentino), en el BMO Field de Toronto (La Nacion)\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-13T15:09:50.339577",
+  "published_at": "2026-06-13T15:09:51.052822",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-13T15:09:50.339587"
 }
