@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-06-14",
+  "scraped_at": "2026-06-14T10:17:07.169804",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Partidos de hoy del Mundial 2026, sábado 13 de junio: horario y por dónde ver en vivo online",
+      "description": "En la tercera jornada de la Copa del Mundo se disputan dos partidos correspondientes a la primera fecha de los grupos B y C",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/partidos-de-hoy-del-mundial-2026-sabado-13-de-junio-horario-y-por-donde-ver-en-vivo-online-nid13062026/",
+      "source": "La Nacion",
+      "published_at": "2026-06-13T10:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El más bajo juega en Chile y Cristiano es uno de los más veteranos: zoom a los 1.248 jugadores del Mundial",
+      "description": "La Tercera analizó en detalle las nóminas de las 48 selecciones que irán por el título en Canadá, México y Estados Unidos 2026. Hay siete parejas de hermanos en el certamen, pero solo tres vestirán la",
+      "url": "https://www.latercera.com/el-deportivo/noticia/el-mas-bajo-juega-en-chile-y-cristiano-es-uno-de-los-mas-veteranos-zoom-a-los-1248-jugadores-que-disputaran-el-mundial/",
+      "source": "Latercera.com",
+      "published_at": "2026-06-13T10:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Entre parrilladas, paellas y mariachis: las comunidades extranjeras que viven el Mundial en Chile",
+      "description": "Mexicanos, españoles, argentinos y uruguayos preparan la fiesta en grande. El objetivo es acompañar a sus respectivas selecciones como si estuvieran en la cancha.",
+      "url": "https://www.latercera.com/nacional/noticia/entre-parrilladas-paellas-y-mariachis-las-comunidades-extranjeras-que-viven-el-mundial-en-chile/",
+      "source": "Latercera.com",
+      "published_at": "2026-06-13T10:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Martín Anselmi, nuevo entrenador del Elche",
+      "description": "El Elche CF ha anunciado la incorporación de Martín Anselmi como nuevo entrenador del primer equipo para la temporada 2026/27. El técnico argentino firma por una campaña, con una segunda opcional vinc",
+      "url": "https://www.marca.com/futbol/elche/2026/06/13/martin-anselmi-nuevo-entrenador-elche.html",
+      "source": "Marca",
+      "published_at": "2026-06-13T10:12:47Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Julián Quiñones, del kilómetro cero del narcotráfico a la cima del Mundial",
+      "description": "La Copa del Mundo, más que ninguna otra competición es, entre otras cosas, además de un negocio y un gran espectáculo, LA competición que crea mitos, descubre estrellas y convierte a muchachos y no ta",
+      "url": "https://www.elperiodico.com/es/deportes/20260613/julian-quinones-kilometro-cero-narcotrafico-131364800",
+      "source": "Elperiodico.com",
+      "published_at": "2026-06-13T10:12:28Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Si tienes un televisor 4K y vas a ver los partidos del Mundial, hay una configuración obligatoria que deberías cambiar ya",
+      "description": "El Mundial de fútbol ya ha dado comienzo, y tras un par de días de competición, lo más probable es que estés deseando que juegue España el próximo día 16 para sacar la camiseta roja del armario. Ahora",
+      "url": "https://www.adslzone.net/noticias/productos/televisor-4k-partidos-mundial-configuracion/",
+      "source": "Adslzone.net",
+      "published_at": "2026-06-13T10:02:41Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Scotti: “Sobre esta selección no hay grandes expectativas, es lo que Uruguay necesita”",
+      "description": "El exdefensor repasa su vida, desde el niño que nunca soñó ser futbolista al hombre de 50 que surfea con sus hijos.",
+      "url": "https://www.montevideo.com.uy/Noticias/Scotti--Sobre-esta-seleccion-no-hay-grandes-expectativas-es-lo-que-Uruguay-necesita--uc965051",
+      "source": "Montevideo.com.uy",
+      "published_at": "2026-06-13T10:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Estos son los comentaristas de DAZN para el Mundial 2026",
+      "description": "El Mundial 2026 ya está aquí. Después de casi 4 años de espera, el balón ya rueda en los países organizadores, Estados Unidos, México y Canadá, con el objetivo de llegar al próximo 19 de julio con las",
+      "url": "https://www.abc.es/deportes/futbol/mundial/comentaristas-dazn-mundial-2026-20260612175955-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-06-12T16:08:32Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Dembélé: \"Ganar el Mundial es la cima absoluta\"",
+      "description": "El Balón de Oro se sienta con MARCA antes del debut de Les Bleus ante Senegal: Mbappé, Messi, Luis Enrique, Deschamps o Zidane, sobre la mesa, y por supuesto, España  Leer",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/12/dembele-ganar-mundial-cima-absoluta.html",
+      "source": "Marca",
+      "published_at": "2026-06-12T07:23:42Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Pronóstico del Costa de Marfil - Ecuador en el Mundial: probabilidades, favorito y quién ganará el partido según el modelo MARCA",
+      "description": "Porcentaje de victoria de cada equipo y de empate",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/14/pronostico-costa-marfil-ecuador-mundial-probabilidades-favorito-ganara-partido-modelo-marca.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-14T09:57:34",
+      "category": "mundial"
+    }
+  ]
+}
