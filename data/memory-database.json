@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-06-15T18:01:43.340818",
+  "last_updated": "2026-06-16T18:09:15.463014",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -22,7 +22,8 @@
       "2026-05-28",
       "2026-05-30",
       "2026-06-09",
-      "2026-06-15"
+      "2026-06-15",
+      "2026-06-16"
     ],
     "Scaloni": [
       "2026-04-01",
@@ -143,7 +144,8 @@
       "2026-06-02",
       "2026-06-04",
       "2026-06-09",
-      "2026-06-11"
+      "2026-06-11",
+      "2026-06-16"
     ],
     "dato_mundialista": [
       "2026-03-28",
@@ -257,7 +259,8 @@
       "2026-06-12",
       "2026-06-13",
       "2026-06-14",
-      "2026-06-15"
+      "2026-06-15",
+      "2026-06-16"
     ],
     "seleccion": [
       "2026-03-26",
@@ -315,7 +318,8 @@
       "2026-06-10",
       "2026-06-11",
       "2026-06-13",
-      "2026-06-14"
+      "2026-06-14",
+      "2026-06-16"
     ]
   },
   "events_mentioned": {
@@ -699,6 +703,18 @@
     ],
     "Mundial 2026 - Fase de grupos, cierran los debuts de jornada 1.": [
       "2026-06-15"
+    ],
+    "Mundial 2026 - Grupo J: Argentina vs Argelia, 22:00 (hora argentina), Arrowhead Stadium, Kansas City": [
+      "2026-06-16"
+    ],
+    "Debut y primer gol de Messi en mundiales (6-0 vs Serbia y Montenegro).": [
+      "2026-06-16"
+    ],
+    "Victoria 1-0 ante Uruguay en octavos de final con gol de Pasculli.": [
+      "2026-06-16"
+    ],
+    "Empate 1-1 con Islandia y penal errado de Messi.": [
+      "2026-06-16"
     ]
   },
   "news_topics": {

@@ -4,14 +4,17 @@
   "data": {
     "date": "2026-06-16",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -5,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 6,
     "events": [
       {
         "date": "2026-06-16",
         "type": "match",
         "priority": "critical",
         "person": "Selección Argentina",
-        "description": "Mundial 2026 - Grupo J: Argentina vs Argelia, 21:00 ET, Arrowhead Stadium, Kansas City."
+        "description": "Mundial 2026 - Grupo J: Argentina vs Argelia, 22:00 (hora argentina), Arrowhead Stadium, Kansas City."
       },
       {
         "date": "2006-06-16",
@@ -35,12 +38,114 @@
         "description": "Empate 1-1 con Islandia y penal errado de Messi."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Así fue el tierno reencuentro de Ailén Cova y su hija, Alaia, con Alexis Mac Allister en pleno Mundial: \"Al fin\"",
+        "description": "La diseñadora y su beba ya se encuentran en Estados Unidos para vivir la cita mundialista junto al jugador. Leer más",
+        "url": "https://caras.perfil.com/noticias/celebridades/asi-fue-tierno-reencuentro-ailen-cova-hija-alaia-alexis-mac-allister-pleno-mundial-fin.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-15T11:54:40Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Sobre Historia y estadística del fútbol en Lanzarote, de Pepe Márquez",
+        "description": "Abordar la historia del fútbol en Lanzarote equivale, en la práctica, a describir la evolución de la propia isla y su población a lo largo del siglo XX y el primer cuarto del XXI\r\n\n Está fuera de disc",
+        "url": "https://www.eldiario.es/canariasahora/opinion/historia-estadistica-futbol-lanzarote-pepe-marquez_132_13302306.html",
+        "source": "Eldiario.es",
+        "published_at": "2026-06-15T10:55:25Z",
+        "category": "general"
+      },
+      {
+        "title": "La selección de Irak vuelve a disputar un Mundial 40 años después: un único gol y a Jean-Marie Pfaff en México 86",
+        "description": "La selección de Irak vuelve a disputar un Mundial tras 40 años de ausencia (miércoles a las 00:00 h). Lo hará contra la Noruega de Haaland, que también formaliza su retorno a la Copa del Mundo después",
+        "url": "https://www.elperiodico.com/es/deportes/20260615/irak-mundial-regreso-seleccion-40-anos-131406456",
+        "source": "Elperiodico.com",
+        "published_at": "2026-06-15T10:28:30Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Tendencias, consumo y marcas en el Mundial 2026",
+        "description": "Cómo los argentinos empiezan a vivir el Mundial antes del primer partido: crecen las compras asociadas al torneo, se transforman los rituales de consumo y la posible despedida de Lionel Messi activa u",
+        "url": "https://noticias.perfil.com/noticias/empresas/tendencias-consumo-y-marcas-en-el-mundial-2026.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-15T11:48:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "'La Promesa' avanza una petición de matrimonio y apunta a un adiós en una semana atípica por el Mundial en RTVE",
+        "description": "Avance semanal de 'La Promesa': todo lo que ocurrirá entre el martes 16 y el viernes 19 de junio. RTVE adelanta una petición de matrimonio y apunta a un posible adiós durante los próximos cuatro capít",
+        "url": "https://www.eldiario.es/vertele/series/la-promesa-avanza-peticion-matrimonio-apunta-adios-semana-atipica-mundial-rtve_1_13302381.html",
+        "source": "Eldiario.es",
+        "published_at": "2026-06-15T11:39:55Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Un pupilo de Arteta, 'culpable' de que Arabia Saudí 'aguara la fiesta' a Uruguay",
+        "description": "Nicolas Jover, encargado del balón parado en el Arsenal, colaboró con la selección saudí en 2025 para entrenar este tipo de jugadas · El 1-0 llegó a través de un córner · España, posible próxima vícti",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/16/pupilo-arteta-culpable-arabia-saudi-aguara-fiesta-uruguay.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-16T11:53:23",
+        "category": "seleccion"
+      },
+      {
+        "title": "'Sorpasso' de Vozinha a Tim Payne en 20 horas: ya es el futbolista más viral del Mundial",
+        "description": "El meta de Cabo Verde cuajó una impecable actuación hasta España, que le ha valido entrar en el club de los 'millonarios' para superar al neozelandés",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/16/sorpasso-vozinha-tim-payne-20-horas-futbolista-viral-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-16T11:25:09",
+        "category": "mundial"
+      },
+      {
+        "title": "Sangante, nuevo jugador del Sevilla hasta 2031",
+        "description": "Tercer fichaje confirmado por el club nervionense para la temporada 2026-2027",
+        "url": "https://www.marca.com/futbol/sevilla/2026/06/16/sangante-nuevo-jugador-sevilla-2031.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-16T11:08:42",
+        "category": "mundial"
+      },
+      {
+        "title": "Maguire desvela la \"incómoda\" charla con Tuchel tras enterarse que no iba al Mundial por una filtración: \"Me destrozó\"",
+        "description": "El central inglés se lo ha confesado a Gary Lineker en un podcast",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/16/maguire-desvela-incomoda-charla-tuchel-hora-despues-enterarse-iba-mundial-me-destrozo.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-16T10:50:08",
+        "category": "mundial"
+      },
+      {
+        "title": "La selección de Euskadi campeona UEFA se reunirá para volver a jugar 21 años después en un partido solidario",
+        "description": "El combinado de Josean Goiko se enfrentará a la selección vasca de refugiados (CEAR)",
+        "url": "https://www.marca.com/futbol/athletic/2026/06/16/seleccion-euskadi-campeona-uefa-reunira-volver-jugar-21-anos-despues-partido-solidario.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-16T10:45:04",
+        "category": "seleccion"
+      },
+      {
+        "title": "Hace 20 años todas querían ser Victoria Beckham con un look imposible que hizo historia en el Mundial: \"Cuanto más corto era el pantalón, mejor\"",
+        "description": "Una icónica combinación que encarnaba la estética dosmilera de la época y que generó el fenómeno de las WAG's",
+        "url": "https://www.hola.com/moda/20260615907392/victoria-beckham-look-mundial-2006/",
+        "source": "Hola",
+        "published_at": "2026-06-15T18:00:00Z"
+      },
+      {
+        "title": "La Copa de los 288 “extranjeros”: el fenómeno de la migración marca el Mundial de Canadá, México y Estados Unidos 2026",
+        "description": "Solo ocho selecciones de las 48 participantes están conformadas únicamente por futbolistas nacidos en el país que representan, mientras que un 23% del universo de jugadores defiende a una nación disti",
+        "url": "https://www.latercera.com/el-deportivo/noticia/el-torneo-de-los-288-extranjeros-el-fenomeno-de-la-migracion-que-marca-el-mundial-2026/",
+        "source": "Latercera.com",
+        "published_at": "2026-06-15T17:30:00Z"
+      },
+      {
+        "title": "Pampita viajó al Mundial y dio cátedra de cómo fusionar la tendencia sastrera con la camiseta argentina",
+        "description": "La modelo fue a alentar a la selección argentina, y demostró el look perfecto para ir a la cancha y mantener la elegancia. Leer más",
+        "url": "https://caras.perfil.com/noticias/moda/pampita-viajo-mundial-dio-catedra-fusionar-tendencia-sastrera-camiseta-argentina.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-15T17:26:32Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan -5 días para el Mundial 2026 ⚽\nUn día como hoy, pero en el futuro, Argentina enfrentará a Argelia en el Mundial 2026 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 6 del Mundial 2026 ⚽\n\n🏆 Hoy Argentina debuta en el Mundial enfrentando a Argelia a las 22:00 en el Arrowhead Stadium de Kansas City. La Scaloneta sale a defender el título con Messi al frente 🇦🇷\n\n📰 Argentina tiene un recuerdo especial para hoy, cuando en 2006, Messi debutó en mundiales con gol en la goleada 6-0 a Serbia y Montenegro ⚽\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-16T18:09:14.729510",
+  "published_at": "2026-06-16T18:09:15.452672",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-16T18:09:14.729520"
 }
