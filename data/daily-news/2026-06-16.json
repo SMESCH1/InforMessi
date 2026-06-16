@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-06-16",
+  "scraped_at": "2026-06-16T11:58:10.217276",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Así fue el tierno reencuentro de Ailén Cova y su hija, Alaia, con Alexis Mac Allister en pleno Mundial: \"Al fin\"",
+      "description": "La diseñadora y su beba ya se encuentran en Estados Unidos para vivir la cita mundialista junto al jugador. Leer más",
+      "url": "https://caras.perfil.com/noticias/celebridades/asi-fue-tierno-reencuentro-ailen-cova-hija-alaia-alexis-mac-allister-pleno-mundial-fin.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-06-15T11:54:40Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Sobre Historia y estadística del fútbol en Lanzarote, de Pepe Márquez",
+      "description": "Abordar la historia del fútbol en Lanzarote equivale, en la práctica, a describir la evolución de la propia isla y su población a lo largo del siglo XX y el primer cuarto del XXI\r\n\n Está fuera de disc",
+      "url": "https://www.eldiario.es/canariasahora/opinion/historia-estadistica-futbol-lanzarote-pepe-marquez_132_13302306.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-06-15T10:55:25Z",
+      "category": "general"
+    },
+    {
+      "title": "La selección de Irak vuelve a disputar un Mundial 40 años después: un único gol y a Jean-Marie Pfaff en México 86",
+      "description": "La selección de Irak vuelve a disputar un Mundial tras 40 años de ausencia (miércoles a las 00:00 h). Lo hará contra la Noruega de Haaland, que también formaliza su retorno a la Copa del Mundo después",
+      "url": "https://www.elperiodico.com/es/deportes/20260615/irak-mundial-regreso-seleccion-40-anos-131406456",
+      "source": "Elperiodico.com",
+      "published_at": "2026-06-15T10:28:30Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Tendencias, consumo y marcas en el Mundial 2026",
+      "description": "Cómo los argentinos empiezan a vivir el Mundial antes del primer partido: crecen las compras asociadas al torneo, se transforman los rituales de consumo y la posible despedida de Lionel Messi activa u",
+      "url": "https://noticias.perfil.com/noticias/empresas/tendencias-consumo-y-marcas-en-el-mundial-2026.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-06-15T11:48:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "'La Promesa' avanza una petición de matrimonio y apunta a un adiós en una semana atípica por el Mundial en RTVE",
+      "description": "Avance semanal de 'La Promesa': todo lo que ocurrirá entre el martes 16 y el viernes 19 de junio. RTVE adelanta una petición de matrimonio y apunta a un posible adiós durante los próximos cuatro capít",
+      "url": "https://www.eldiario.es/vertele/series/la-promesa-avanza-peticion-matrimonio-apunta-adios-semana-atipica-mundial-rtve_1_13302381.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-06-15T11:39:55Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Un pupilo de Arteta, 'culpable' de que Arabia Saudí 'aguara la fiesta' a Uruguay",
+      "description": "Nicolas Jover, encargado del balón parado en el Arsenal, colaboró con la selección saudí en 2025 para entrenar este tipo de jugadas · El 1-0 llegó a través de un córner · España, posible próxima vícti",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/16/pupilo-arteta-culpable-arabia-saudi-aguara-fiesta-uruguay.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-16T11:53:23",
+      "category": "seleccion"
+    },
+    {
+      "title": "'Sorpasso' de Vozinha a Tim Payne en 20 horas: ya es el futbolista más viral del Mundial",
+      "description": "El meta de Cabo Verde cuajó una impecable actuación hasta España, que le ha valido entrar en el club de los 'millonarios' para superar al neozelandés",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/16/sorpasso-vozinha-tim-payne-20-horas-futbolista-viral-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-16T11:25:09",
+      "category": "mundial"
+    },
+    {
+      "title": "Sangante, nuevo jugador del Sevilla hasta 2031",
+      "description": "Tercer fichaje confirmado por el club nervionense para la temporada 2026-2027",
+      "url": "https://www.marca.com/futbol/sevilla/2026/06/16/sangante-nuevo-jugador-sevilla-2031.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-16T11:08:42",
+      "category": "mundial"
+    },
+    {
+      "title": "Maguire desvela la \"incómoda\" charla con Tuchel tras enterarse que no iba al Mundial por una filtración: \"Me destrozó\"",
+      "description": "El central inglés se lo ha confesado a Gary Lineker en un podcast",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/16/maguire-desvela-incomoda-charla-tuchel-hora-despues-enterarse-iba-mundial-me-destrozo.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-16T10:50:08",
+      "category": "mundial"
+    },
+    {
+      "title": "La selección de Euskadi campeona UEFA se reunirá para volver a jugar 21 años después en un partido solidario",
+      "description": "El combinado de Josean Goiko se enfrentará a la selección vasca de refugiados (CEAR)",
+      "url": "https://www.marca.com/futbol/athletic/2026/06/16/seleccion-euskadi-campeona-uefa-reunira-volver-jugar-21-anos-despues-partido-solidario.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-16T10:45:04",
+      "category": "seleccion"
+    }
+  ]
+}
