@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-06-17",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -6,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 7,
     "events": [
       {
         "date": "2010-06-17",
@@ -21,12 +24,114 @@
         "description": "Mundial 2026 - Fase de grupos, jornada 2 en curso."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Mundial 2026: debuta Argentina y hay otros tres partidos. ¿A qué hora y por dónde verlos?",
+        "description": "El vigente campeón del mundo saldrá a escena en la noche, mientras que el Francia-Senegal se lleva todos los focos.",
+        "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-debuta-Argentina-y-hay-otros-tres-partidos--A-que-hora-y-por-donde-verlos--uc965309",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-06-16T11:10:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Lionel Messi se hace bicentenario con Argentina comenzando su último baile mundialista",
+        "description": "En el estreno de la Albiceleste contra Argelia, en Kansas City, el futbolista del Inter Miami llegará a los 200 partidos con su selección. La Pulga, que afronta su sexta Copa del Mundo, es el jugador ",
+        "url": "https://www.latercera.com/el-deportivo/noticia/lionel-messi-se-hace-bicentenario-con-argentina-comenzando-su-ultimo-baile-mundialista/",
+        "source": "Latercera.com",
+        "published_at": "2026-06-16T11:09:28Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Con una inesperada autocrítica del polémico Kylian Mbappé: Francia debuta ante Senegal en el Mundial 2026",
+        "description": "La selección gala inicia este martes su participación en la cita planetaria. En la antesala del estreno, el atacante reconoce que debe mejorar su aporte defensivo y reitera que su prioridad es conquis",
+        "url": "https://www.latercera.com/el-deportivo/noticia/con-una-inesperada-autocritica-del-polemico-kylian-mbappe-francia-debuta-ante-senegal-en-el-mundial-2026/",
+        "source": "Latercera.com",
+        "published_at": "2026-06-16T11:08:47Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El milagro de Jordania: cómo el método europeo llevó a los Bravos a su primer Mundial",
+        "description": "Con Musa Al-Taamari como referente y una férrea disciplina europea, el combinado asiático busca sorprender en su estreno norteamericano.",
+        "url": "https://www.libertaddigital.com/deportes/futbol/2026-06-16/el-milagro-de-jordania-como-el-metodo-europeo-llevo-a-los-bravos-a-su-primer-mundial-7421658/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-06-16T11:19:13Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Cuándo juega España su siguiente partido en el Mundial 2026: fecha y hora",
+        "description": "El debut de España en el Mundial de fútbol 2026 no ha sido el esperado. Un empate a cero contra Cabo Verde, una selección inicialmente inferior hace que los de Luis de la Fuente...",
+        "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/16/6a31302ee9cf4acd038b4577.html",
+        "source": "El Mundo",
+        "published_at": "2026-06-16T11:15:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "La otra pizarra del técnico de Japón: el llamativo método de Hajime Moriyasu que revoluciona al Mundial",
+        "description": "El estratega emplea una singular forma para comunicarse con sus dirigidos.",
+        "url": "https://www.latercera.com/el-deportivo/noticia/la-otra-pizarra-del-tecnico-de-japon-el-llamativo-metodo-de-hajime-moriyasu-que-revoluciona-al-mundial/",
+        "source": "Latercera.com",
+        "published_at": "2026-06-16T11:09:42Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Partidos de hoy, 17 de junio, del Mundial 2026: horario y dónde ver hoy en TV y online",
+        "description": "Los partidos del Mundial para ver hoy en España",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/17/partidos-hoy-17-junio-mundial-2026-horario-donde-ver-hoy-tv-online.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-17T11:06:04",
+        "category": "mundial"
+      },
+      {
+        "title": "Los padres de Diogo Jota acompañan a Portugal en su debut en el Mundial",
+        "description": "Han sido invitados por la Federación para asistir al estreno ante la RD Congo",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/17/padres-diogo-jota-acompanan-portugal-debut-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-17T10:20:40",
+        "category": "mundial"
+      },
+      {
+        "title": "Veto a los besos apasionados en el Mundial: las prohibiciones de la UEFA a los aficionados en los estadios",
+        "description": "Las prohibiciones extremas que impone la FIFA a los aficionados en los 16 estadios del Mundial",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/17/veto-besos-apasionados-mundial-prohibiciones-uefa-aficionados-estadios.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-17T10:13:57",
+        "category": "mundial"
+      },
+      {
+        "title": "España se la juega ante Arabia Saudí y Uruguay en este Mundial 2026: compra tus entradas para la fase de grupos",
+        "description": "Los jugadores de Luis de la Fuente necesitan sellar la clasificación con un par de victorias",
+        "url": "https://www.marca.com/futbol/2026/06/17/espana-juega-arabia-saudi-uruguay-mundial-2026-compra-tus-entradas-fase-grupos.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-17T10:02:14",
+        "category": "mundial"
+      },
+      {
+        "title": "La lista definitiva. Ellas integran la “hinchada del amor” que va a alentar el primer partido de la selección argentina",
+        "description": "En el día del debut en el Mundial 2026, en Kansas, ellas son los pilares fundamentales de un team que sueña con volver a consagrarse campeón",
+        "url": "https://www.lanacion.com.ar/revista-hola/la-lista-definitiva-ellas-integran-la-hinchada-del-amor-que-va-a-alentar-el-primer-partido-de-la-nid16062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-16T16:19:49Z"
+      },
+      {
+        "title": "La nueva canción para alentar a la Selección Argentina que fue furor en el banderazo: \"Por Diego y el Indio\"",
+        "description": "El exitoso programa de streaming, Paren La Mano, presentó un explosivo tema de cancha que busca suceder a Muchachos y ya se instaló con fuerza entre los hinchas horas previas al debut mundialista. Lee",
+        "url": "https://442.perfil.com/noticias/mundial-2026/la-nueva-cancion-para-alentar-a-la-seleccion-argentina-que-fue-furor-en-el-banderazo-por-diego-y-el-indio.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-16T15:36:11Z"
+      },
+      {
+        "title": "A qué hora y dónde ver a Argentina vs. Argelia en TV y streaming",
+        "description": "Esta noche llega uno de los esperados cruces por la primera fecha del Mundial 2026.",
+        "url": "https://www.latercera.com/servicios/noticia/a-que-hora-y-donde-ver-a-argentina-vs-argelia-en-tv-y-streaming/",
+        "source": "Latercera.com",
+        "published_at": "2026-06-16T14:41:00Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan -6 días para el Mundial 2026 ⚽\nUn día como hoy, hace algunos años, el Pipita Higuaín anotó un hat-trick impresionante ante Corea del Sur, ganando 4-1 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 7 del Mundial 2026 ⚽\n\n📰 Hat-trick del Pipita ante Corea del Sur (4-1). Un día como hoy, en 2010, Sergio Agüero hizo historia con su primer hat-trick con la selección argentina en un partido amistoso contra Corea del Sur.\n\n📰 La lista definitiva. Ellas integran la “hinchada del amor” que va a alentar el primer partido de la selección argentina. En el día del debut en el Mundial 2026, en Kansas, ellas son los pilares fundamentales de un team que sueña con volver a consagrarse campeón.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-17T16:43:16.037719",
+  "published_at": "2026-06-17T16:43:16.780958",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-17T16:43:16.037730"
 }
