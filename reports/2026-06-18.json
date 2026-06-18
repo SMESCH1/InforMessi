@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-06-18",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -7,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 8,
     "events": [
       {
         "date": "1978-06-18",
@@ -42,12 +45,106 @@
         "description": "Cumpleaños del exarquero Agustín Marchesín."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "La falta por la que pidieron roja a Messi y la explicación de su llanto en el primer gol: \"Pasé días complicados\"",
+        "description": "En la noche en la que se convirtió en el máximo artillero de los Mundiales, la Pulga fue señalado por una entrada al capitán de Argelia, cuando iban 31 minutos del debut de la campeona del mundo.",
+        "url": "https://www.elpais.com.uy/ovacion/mundial/la-falta-por-la-que-pidieron-roja-a-messi-y-la-explicacion-de-su-llanto-en-el-primer-gol-pase-dias-complicados",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-06-17T11:01:10Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Rafa Nadal, la inspiración del «extraterrestre» Messi",
+        "description": "Messi cumple 39 años la próxima semana y pocos pensaban que llegaría a Estados Unidos 2026. Incluso él mismo insinuó que quizás no lo haría, justo después de ganar en Catar y quitarse para siempre el ",
+        "url": "https://www.abc.es/deportes/futbol/mundial/rafa-nadal-inspiracion-extraterrestre-messi-20260617124450-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-06-17T10:44:50Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mundial 2026: los medios internacionales se hacen eco de la actuación de Messi ante Argelia",
+        "description": "Los titulares hicieron énfasis en el capitán albiceleste como el principal artífice de la victoria",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-2026-los-medios-internacionales-se-hacen-eco-de-la-actuacion-de-messi-ante-argelia-nid17062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-17T10:38:36Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Un inversor pierde un millón de dólares por el empate entre España y Cabo Verde",
+        "description": "Este Mundial es el primero en el que losmercados de predicciones futbolísticas como Kalshi y Polymarket se han disparado en popularidad como una forma de apostar en eventos deportivos. Leer",
+        "url": "https://www.expansion.com/ahorro/2026/06/17/6a3276e6e5fdea6a1b8b45c0.html",
+        "source": "Expansion.com",
+        "published_at": "2026-06-17T10:46:50Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Golpe a la red de camisetas falsas del Mundial: 16 toneladas incautadas y 95 detenidos",
+        "description": "Una operación policial en 15 puntos de España con apoyo europeo interviene toneladas de equipaciones falsas vinculadas al Mundial 2026.",
+        "url": "https://www.libertaddigital.com/sucesos/2026-06-17/golpe-a-la-red-de-camisetas-falsas-del-mundial-16-toneladas-incautadas-y-95-detenidos-7422349/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-06-17T10:37:11Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Mundial 2026: Chiqui Tapia volvió a la foto cábala con Messi y De Paul antes del debut de la selección argentina",
+        "description": "El presidente de la AFA se reunió con Messi y De Paul",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-2026-chiqui-tapia-volvio-a-la-foto-cabala-con-messi-y-de-paul-antes-del-debut-de-la-nid16062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-16T23:19:50Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "La historia de Facundo Medina: nació en el mismo lugar que Maradona, fue cartonero y hoy es una pieza clave de la selección argentina",
+        "description": "A horas del debut de mundialista, el defensor que, creció ayudando a su familia, se perfila entre los titulares. Leer más",
+        "url": "https://caras.perfil.com/noticias/celebridades/historia-facundo-medina-nacio-mismo-lugar-maradona-cartonero-pieza-clave-seleccion-argentina.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-16T21:49:20Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Alineación probable del México - Corea del Sur del Grupo A del Mundial 2026",
+        "description": "Aguirre presenta la duda de Brian Gutiérrez o 'Morita' en la sala de máquinas... mientras que Edson Álvarez entrará por el sancionado César Montes",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/18/alineacion-probable-mexico-corea-sur-grupo-mundial-2026.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-18T10:58:55",
+        "category": "mundial"
+      },
+      {
+        "title": "El Mundial, un arma de doble filo para Rashford",
+        "description": "Quiere seguir en el Barça, pero su rendimiento con Inglaterra puede complicar la operación",
+        "url": "https://www.marca.com/futbol/barcelona/2026/06/18/mundial-arma-doble-filo-rashford.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-18T10:56:34",
+        "category": "mundial"
+      },
+      {
+        "title": "Encuesta: el 44,2 por ciento prefiere ganar el Mundial a que la economía mejore",
+        "description": "Una encuesta de Giacobbe relevó el estado de ánimo mundialista: optimismo desbordante, desconfianza en la dirigencia y política que no contagia. Leer más",
+        "url": "https://noticias.perfil.com/noticias/informacion-general/encuesta-el-442-por-ciento-prefiere-ganar-el-mundial-a-que-la-economia-mejore.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-17T16:21:39Z"
+      },
+      {
+        "title": "Leo Messi, el D10S de los Mundiales",
+        "description": "Hay noches que pertenecen al fútbol y otras que dejan de pertenecer al deporte para entrar directamente en la memoria y en la historia. La de Messi ante Argelia fue una de estas últimas. A una semana ",
+        "url": "https://www.elcorreo.com/deportes/futbol/mundial/leo-messi-d10s-mundiales-20260617180244-ntrc.html",
+        "source": "Elcorreo.com",
+        "published_at": "2026-06-17T16:02:44Z"
+      },
+      {
+        "title": "Lionel Messi pone el mundo a sus pies y le mete presión a Cristiano Ronaldo",
+        "description": "Hace 20 años,Lionel Messi debutó en un Mundial y dos décadas después, sigue demostrando su enorme calidad.",
+        "url": "https://www.nacion.com/puro-deporte/lionel-messi-pone-el-mundo-a-sus-pies-y-le-mete/5GMEQQ7XNZG5XCRCVVULJK42O4/story/",
+        "source": "Nacion.com",
+        "published_at": "2026-06-17T16:02:03Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan -7 días para el Mundial 2026 ⚽\nUn día como hoy en el pasado, Argentina empató 0-0 con Brasil en la 'Batalla del Gigante' 📅\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 8 del Mundial 2026 ⚽\n\n📰 Mundial 2026: los medios internacionales se hacen eco de la actuación de Messi ante Argelia: Los titulares hicieron énfasis en el capitán albiceleste como el principal artífice de la victoria. En medio de la celebración, la atención se centra en el equipo argentino.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-18T16:42:51.367250",
+  "published_at": "2026-06-18T16:42:52.058919",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-18T16:42:51.367259"
 }
