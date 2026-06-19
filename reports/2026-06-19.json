@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-06-19",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -8,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 9,
     "events": [
       {
         "date": "2026-06-19",
@@ -21,12 +24,114 @@
         "description": "Argentina 1-1 Italia en Alemania 74."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "El padre de Leo Messi, hospitalizado en Argentina en estado grave: «Es algo delicado»",
+        "description": "Muchos atribuyeron a la emoción aquellas lágrimas de Leo Messi en su debut del Mundial, cuando marcó los tres goles del triunfo de la selección argentina el combinado de Argelia. Toda una proeza para ",
+        "url": "https://www.abc.es/elecciones/padre-leo-messi-hospitalizado-argentina-estado-grave-20260618123637-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-06-18T10:36:38Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Balance del Mundial (1 jornada): África y Asia acechan a Europa y Sudámerica",
+        "description": "Se cierra la primera jornada del Mundial con resultados, sorpresas y confirmaciones que adivinan tendencias que pueden llegar a serlo en esta edición de la copa del mundo. Seguir leyendo....",
+        "url": "https://www.elperiodico.com/es/deportes/20260618/balance-1a-jornada-mundial-2026-futbol-131546148",
+        "source": "Elperiodico.com",
+        "published_at": "2026-06-18T10:26:54Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Los gráficos que muestran cómo el cuerpo de los futbolistas ha cambiado en los últimos 50 años",
+        "description": "Según los expertos, la mayor intensidad de los partidos y los avances en medicina y ciencia del deporte han transformado la fisiología de los jugadores de élite.",
+        "url": "https://www.bbc.com/mundo/articles/c9d2jnj01l8o",
+        "source": "BBC News",
+        "published_at": "2026-06-18T10:18:43Z",
+        "category": "general"
+      },
+      {
+        "title": "Faltan letras V para camisetas de la selección alemana",
+        "description": "Pavlovic, Havertz y Undav ponen \"en problemas\" a hinchas de la selección alemana por llevar la letra V en sus apellidos. Hay solución en puerta, dice Adidas.",
+        "url": "https://www.dw.com/es/faltan-letras-v-para-camisetas-de-la-selecci%C3%B3n-alemana/a-77603813",
+        "source": "DW (English)",
+        "published_at": "2026-06-18T10:41:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mundial 2026: Canadá negó ingreso al país de otro jugador, esta vez por amaño de partidos",
+        "description": "Elye Wahi, de Costa de Marfil, está siendo investigado por arreglo de partidos, por lo que no le aprobaron la visa, como a Thomas Partey.",
+        "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Canada-nego-ingreso-al-pais-de-otro-jugador-esta-vez-por-amano-de-partidos-uc965560",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-06-18T10:36:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Cafú: \"Con Ancelotti, por primera vez en la historia de Brasil, se habla más del entrenador que de los jugadores\"",
+        "description": "El ex capitán de la 'canarinha' es el único jugador que ha participado en tres finales consecutivas de la Copa del Mundo: Estados Unidos 1994, Francia 1998 y Corea y Japón 2002 Leer",
+        "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/06/17/6a31955b21efa0fc2f8b459e.html",
+        "source": "El Mundo",
+        "published_at": "2026-06-17T20:21:04Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Ramón Planes: «Esta Arabia es más peligrosa que la que ganó a Argentina«",
+        "description": "Ramón Planes (Lleida, 58 años), director deportivo del Al-Ittihad y uno de los grandes conocedores del fútbol saudí, avisa a España antes de su segundo compromiso mundialista. El exsecretario técnico ",
+        "url": "https://www.elcorreo.com/deportes/futbol/mundial/ramon-planes-arabia-peligrosa-gano-argentina-20260617200750-ntrc.html",
+        "source": "Elcorreo.com",
+        "published_at": "2026-06-17T18:07:50Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Así está el grupo C del Mundial 2026: clasificación, selecciones, calendario, partidos, horarios y favoritos",
+        "description": "Escocia lidera de forma sorprendente el sector tras su sufrida victoria ante Haití, mientras que Brasil y Marruecos firmaron unas tablas de altísimo nivel en Nueva Jersey",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/19/asi-grupo-c-mundial-2026-clasificacion-selecciones-calendario-partidos-horarios-favoritos.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-19T10:50:48",
+        "category": "mundial"
+      },
+      {
+        "title": "Qué necesita España para pasar de fase de grupos en el Mundial 2026: todas las opciones de la selección española",
+        "description": "Todos los escenarios para que el conjunto de Luis de la Fuente se clasifique a dieciseisavos",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/19/necesita-espana-pasar-fase-grupos-mundial-2026-todas-opciones-seleccion-espanola.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-19T10:44:17",
+        "category": "seleccion"
+      },
+      {
+        "title": "Cuándo juega España contra Arabia Saudí en el Mundial: fecha y horario de la selección española en grupos",
+        "description": "Todos los detalles sobre el siguiente partido de la selección española",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/19/juega-espana-arabia-saudi-mundial-fecha-horario-seleccion-espanola-grupos.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-19T10:41:15",
+        "category": "seleccion"
+      },
+      {
+        "title": "¿Hay que declarar a Hacienda la venta de cromos del Mundial en Wallapop?",
+        "description": "La venta de artículos de segunda mano relacionados con el Mundial de fútbol, como los cromos de jugadores de Panini, debe incluirse en la Declaración de la Renta cuando genera una ganancia patrimonial",
+        "url": "https://www.europapress.es/economia/fiscal-00347/noticia-hay-declarar-hacienda-venta-cromos-mundial-wallapop-20260618180802.html",
+        "source": "Europapress.es",
+        "published_at": "2026-06-18T16:08:02Z"
+      },
+      {
+        "title": "Encuesta: el 46,9% dice que el Mundial lo distrae de sus problemas y el 14,5%, que los olvida",
+        "description": "Un trabajo de Giacobbe revela cómo la Copa 2026 actúa como válvula de escape para los argentinos ante una realidad económica que sigue sin dar tregua. Leer más",
+        "url": "https://noticias.perfil.com/noticias/informacion-general/encuesta-el-469-dice-que-el-mundial-lo-distrae-de-sus-problemas-y-el-145-que-los-olvida.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-18T16:07:43Z"
+      },
+      {
+        "title": "Gana caminando: el video de Messi parado en la jugada previa a su tercer gol",
+        "description": "En redes sociales se viralizó la construcción de la jugada del capitán de la Selección que puso su hat trick consagratorio del Mundial 2026. Leer más",
+        "url": "https://noticias.perfil.com/noticias/deportes/gana-caminando-el-video-de-messi-parado-en-la-jugada-previa-a-su-tercer-gol.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-18T15:44:10Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan -8 días para el Mundial 2026 ⚽\nUn día como hoy en 2026, Argentina se prepara para su partido contra  en el Mundial 2026 - Fase de grupos, jornada 2.\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 9 del Mundial 2026 ⚽\n📰 Balance del Mundial (1 jornada): África y Asia acechan a Europa y Sudámerica: Se cierra la primera jornada del Mundial con resultados, sorpresas y confirmaciones que adivinan tendencias que pueden llegar a serlo en esta edición.\n\nPartido de hoy:\n🏆 Argentina vs en  a las 22:00 en el Arrowhead Stadium de Kansas City. La Scaloneta sale a defender el título con Messi al frente 🇦🇷\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-19T16:13:30.335957",
+  "published_at": "2026-06-19T16:13:31.200948",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-19T16:13:30.335967"
 }
