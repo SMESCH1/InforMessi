@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-06-19T16:13:31.210149",
+  "last_updated": "2026-06-20T15:13:43.670037",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -25,7 +25,8 @@
       "2026-06-15",
       "2026-06-16",
       "2026-06-18",
-      "2026-06-19"
+      "2026-06-19",
+      "2026-06-20"
     ],
     "Scaloni": [
       "2026-04-01",
@@ -163,7 +164,8 @@
       "2026-05-23",
       "2026-05-30",
       "2026-06-06",
-      "2026-06-13"
+      "2026-06-13",
+      "2026-06-20"
     ],
     "dato_pais_sede": [
       "2026-03-29",
@@ -267,7 +269,8 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-18",
-      "2026-06-19"
+      "2026-06-19",
+      "2026-06-20"
     ],
     "seleccion": [
       "2026-03-26",
@@ -328,7 +331,8 @@
       "2026-06-14",
       "2026-06-16",
       "2026-06-17",
-      "2026-06-19"
+      "2026-06-19",
+      "2026-06-20"
     ]
   },
   "events_mentioned": {
@@ -739,7 +743,8 @@
     ],
     "Mundial 2026 - Fase de grupos, jornada 2.": [
       "2026-06-18",
-      "2026-06-19"
+      "2026-06-19",
+      "2026-06-20"
     ],
     "Argentina 4-1 Hungría con doblete de Diego.": [
       "2026-06-18"
@@ -749,6 +754,12 @@
     ],
     "Argentina 1-1 Italia en Alemania 74.": [
       "2026-06-19"
+    ],
+    "Dia de la Bandera Nacional. Se conmemora el fallecimiento de Manuel Belgrano, creador de la bandera ": [
+      "2026-06-20"
+    ],
+    "Inicio de la Copa América de Estados Unidos 2024.": [
+      "2026-06-20"
     ]
   },
   "news_topics": {
@@ -967,6 +978,9 @@
     ],
     "balance del mundial (1 jornada): africa y asia ace": [
       "2026-06-19"
+    ],
+    "un deportologo explico en detalle que son y cuales": [
+      "2026-06-20"
     ]
   },
   "phrases_used": [],
