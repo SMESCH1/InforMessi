@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-06-20",
+  "scraped_at": "2026-06-20T09:54:48.074409",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Partidos de hoy del Mundial 2026, viernes 19 de junio: horario y por dónde ver en vivo online",
+      "description": "En la novena jornada del campeonato ecuménico se disputan cuatro partidos correspondientes a la segunda fecha de los grupos C y D",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/partidos-de-hoy-del-mundial-2026-viernes-19-de-junio-horario-y-por-donde-ver-en-vivo-online-nid19062026/",
+      "source": "La Nacion",
+      "published_at": "2026-06-19T09:00:01Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Un deportólogo explicó en detalle qué son y cuáles son los riesgos de las “pausas de hidratación” que se incorporaron en el Mundial 2026",
+      "description": "En diálogo con LN+, Jorge Franchella analizó el impacto fisiológico de los protocolos climáticos en el fútbol y advirtió sobre el peligro de los cambios térmicos bruscos",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/un-deportologo-explico-en-detalle-que-son-y-cuales-son-los-riesgos-de-las-pausas-de-hidratacion-que-nid19062026/",
+      "source": "La Nacion",
+      "published_at": "2026-06-19T09:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La entrevista más desgarradora del Mundial: \"Luchamos tan duro porque sabemos lo que el país está sufriendo\"",
+      "description": "El delantero haitiano se abre en canal en MARCA en una entrevista que retrata como pocas lo que este Mundial significa para un país que se resiste a despertar del sueño más grande y bonito de su histo",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/19/frantzdy-pierrot-mi-madre-tenia-elegir-comer-alimentarnos-nosotros.html",
+      "source": "Marca",
+      "published_at": "2026-06-19T08:58:58Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Katy Perry y Dani Martín abren a lo grande la primera noche de O Son do Camiño",
+      "description": "Katy Perry ha cruzado medio mundo para ser la estrella en Santiago en la primera de las tres jornadas seguidas del O Son do Camiño. Tras su actuación en la ceremonia de apertura del Mundial de Fútbol,",
+      "url": "https://www.elperiodico.com/es/ocio-y-cultura/20260619/leire-martinez-luce-vestido-hecho-131589119",
+      "source": "Elperiodico.com",
+      "published_at": "2026-06-19T09:10:38Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El día que Brasil llegó en tanques de la ONU para jugar un partido de fútbol contra Haití",
+      "description": "La selección brasileña protagonizó en 2004 uno de los encuentros más singulares de la historia del fútbol al viajar a Haití en plena crisis política.",
+      "url": "https://www.libertaddigital.com/deportes/futbol/2026-06-19/el-dia-que-brasil-llego-en-tanques-de-la-onu-para-jugar-un-partido-de-futbol-contra-haiti-7422573/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-06-19T09:00:26Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Escocia y Marruecos preparan una batalla en las gradas que va mucho más allá del resultado",
+      "description": "Escocia y Marruecos se enfrentan en un partido marcado por dos de las aficiones más ruidosas y reconocibles del fútbol mundial.",
+      "url": "https://www.libertaddigital.com/deportes/futbol/2026-06-19/escocia-y-marruecos-preparan-una-batalla-en-las-gradas-que-va-mucho-mas-alla-del-resultado-7422562/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-06-19T09:00:09Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Los gráficos que muestran cómo el cuerpo de los futbolistas ha cambiado en los últimos 50 años",
+      "description": "Según los expertos, la mayor intensidad de los partidos y los avances en medicina y ciencia del deporte han transformado la fisiología de los jugadores de élite.",
+      "url": "https://www.bbc.com/mundo/articles/c9d2jnj01l8o",
+      "source": "BBC News",
+      "published_at": "2026-06-18T10:18:43Z",
+      "category": "general"
+    },
+    {
+      "title": "Scaloni perfila los 11 de Argentina bajo el intenso sol de Kansas City",
+      "description": "Con los 26 futbolistas a disposición por primera vez, el DT prepara cambios para el segundo partido en el Mundial 2026 ante Austria.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16870626/argentina-entrenamiento-messi-scaloni-intenso-sol-kansas-city",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-06-20T08:37:45",
+      "category": "seleccion"
+    },
+    {
+      "title": "Matías Galarza, elegido MVP en el triunfo de Parag...",
+      "description": "El mediocampista marcó el gol ante Turquía en el Mundial 2026 y fue elegido como el mejor jugador del partido.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16874115/matias-galarza-fonda-mvp-mejor-jugador-paraguay-vs-turquia-mundial-2026",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-06-20T09:25:53",
+      "category": "mundial"
+    },
+    {
+      "title": "Matías Galarza marcó el gol más rápido del Mundial...",
+      "description": "El mediocampista paraguayo necesitó apenas unos segundos para abrir el marcador con un golazo desde afuera del área y establecer un nuevo récord en la Copa del Mundo.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16873189/video-gol-matias-galarza-fonda-mas-rapido-turquia-vs-paraguay-mundial-2026",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-06-20T09:25:53",
+      "category": "mundial"
+    }
+  ]
+}
