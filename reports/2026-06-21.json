@@ -4,7 +4,10 @@
   "data": {
     "date": "2026-06-21",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -10,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 11,
     "events": [
       {
         "date": "1978-06-21",
@@ -49,12 +52,114 @@
         "description": "Argentina 1-0 Paraguay con gol del Papu."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Messi, Pelé o Maradona: ¿Quién es el mejor de la historia?",
+        "description": "La actuación consular de la Pulga ante Argelia trajo consigo las palabras directas de Ronaldo Nazário: \"Es el mejor jugador de todos los tiempos\". Como generalmente sucede, en las Copas del Mundo se r",
+        "url": "https://www.latercera.com/el-deportivo/noticia/messi-pele-o-maradona-quien-es-el-mejor-de-la-historia/",
+        "source": "Latercera.com",
+        "published_at": "2026-06-20T10:00:01Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Todo lo que dejó la primera fecha de la fase de grupos del Mundial 2026",
+        "description": "La victoria de Colombia sobre Uzbekistán cerró la jornada inicial de la renovada Copa del Mundo de 48 participantes. Una serie de 24 partidos en siete días entregó, entre otros aspectos, un promedio d",
+        "url": "https://www.latercera.com/el-deportivo/noticia/todo-lo-que-dejo-la-primera-fecha-de-la-fase-de-grupos-del-mundial-2026/",
+        "source": "Latercera.com",
+        "published_at": "2026-06-20T10:00:01Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Estas son las camisetas mundialistas más buscadas por los argentinos",
+        "description": "A una semana del inicio del Mundial, los uniformes de las distintas selecciones llamaron la atención de los argentinos; conocé cuáles fueron las más buscadas y las historias detrás",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/estas-son-las-camisetas-mundialistas-mas-buscadas-por-los-argentinos-nid20062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-20T09:58:53Z",
+        "category": "mundial"
+      },
+      {
+        "title": "No hay más margen de error para España en el Mundial: consigue tus entradas para los partidos ante Arabia Saudí y Uruguay",
+        "description": "La Roja volverá a escena el próximo domingo, 21 de junio, para medirse al combinado asiático&nbsp;  Leer",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/20/hay-margen-error-espana-mundial-consigue-tus-entradas-partidos-arabia-saudi-uruguay.html",
+        "source": "Marca",
+        "published_at": "2026-06-20T10:15:49Z",
+        "category": "mundial"
+      },
+      {
+        "title": "La humilde casa donde creció Ángel Di María en Rosario: la historia detrás de la calle que lleva tatuada",
+        "description": "El ícono popular remarca en todo momento el lugar donde se crió y que lo vio dar sus primeros pasos en el fútbol. Leer más",
+        "url": "https://caras.perfil.com/noticias/celebridades/humilde-casa-donde-crecio-angel-di-maria-rosario-historia-detras-calle-lleva-tatuada.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-19T18:04:04Z",
+        "category": "general"
+      },
+      {
+        "title": "EN VIVO: Las Leonas vs. China por la FIH Pro League 2025/26",
+        "description": "La Selección Argentina femenina, luego del triunfo por 3 a 2 ante Bélgica, volverá a jugar por el certamen internacional, esta vez ante las asiáticas.",
+        "url": "https://www.espn.com.ar/hockey-sobre-cesped/nota/_/id/16874890/las-leonas-argentina-china-fih-pro-league-2025-2026-en-vivo-resultado",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-21T12:16:00",
+        "category": "seleccion"
+      },
+      {
+        "title": "Los partidos de hoy domingo 21 de junio: horarios y dónde ver",
+        "description": "El detalle de todos los cruces del día en el mundo del fútbol.",
+        "url": "https://www.espn.com.ar/futbol/nota/_/id/15511528/partidos-de-hoy-fixture-calendario-fecha-horarios-donde-ver-futbol-disney-plus",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-21T11:57:04",
+        "category": "general"
+      },
+      {
+        "title": "El Mundial 2026, por Disney+ Plan Premium",
+        "description": "Se retransmitirán 30 partidos incluyendo la final y los partidos de las selecciones nacionales de Argentina, Colombia, Ecuador, Uruguay en esos países.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16586606/el-mundial-2026-llega-a-disney+-plan-premium-en-sudamerica-a-traves-de-espn",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-21T12:14:54",
+        "category": "seleccion"
+      },
+      {
+        "title": "Japón goleó a Túnez y lo eliminó del Mundial 2026",
+        "description": "Los nipones fueron ampliamente superiores en el debut de Hervé Renard en los africanos, en el grupo F de la Copa del Mundo.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16865375/tunez-vs-japon-fase-de-grupos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-21T12:14:53",
+        "category": "mundial"
+      },
+      {
+        "title": "Ecuador empató con Curazao y está complicado",
+        "description": "Tras la derrota en el debut, la Tri disputa su segundo partido en la Copa del Mundo frente al seleccionado caribeño.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16791100/ecuador-vs-curazao-fase-de-grupos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-21T12:14:53",
+        "category": "mundial"
+      },
+      {
+        "title": "Lionel Messi mostró su entrenamiento con la selección argentina tras el escándalo con Luzu TV",
+        "description": "El capitán de la Scaloneta se prepara para enfrentar a Austria en el Mundial 2026. Leer más",
+        "url": "https://caras.perfil.com/noticias/actualidad/lionel-messi-mostro-entrenamiento-seleccion-argentina-escandalo-luzu-tv.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-20T14:38:20Z"
+      },
+      {
+        "title": "Quedó atrapado en las banderas gigantes de los himnos: el viral que se toma el Mundial de Norteamérica 2026",
+        "description": "Uno de los encargados de mover la bandera de República Checa cayó y quedó debajo de esta.",
+        "url": "https://www.latercera.com/el-deportivo/noticia/quedo-atrapado-en-las-banderas-gigantes-de-los-himnos-el-viral-que-se-toma-el-mundial-de-norteamerica-2026/",
+        "source": "Latercera.com",
+        "published_at": "2026-06-20T13:13:33Z"
+      },
+      {
+        "title": "Partidos de hoy del Mundial 2026, sábado 20 de junio: horario y por dónde ver en vivo online",
+        "description": "En la décima jornada del campeonato ecuménico se disputan cuatro partidos correspondientes a la segunda fecha de los grupos E y F",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/partidos-de-hoy-del-mundial-2026-sabado-20-de-junio-horario-y-por-donde-ver-en-vivo-online-nid20062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-20T12:16:34Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan -10 días para el Mundial 2026 ⚽\nUn día como hoy, hace algunos años, Argentina goleó 6-0 a Perú para clasificar a la final del Mundial 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 11 del Mundial 2026 ⚽\n\n📰 Argentina vs  en  a las 22:00 en el Arrowhead Stadium de Kansas City. La Scaloneta sale a defender el título con Messi al frente 🇦🇷\n\n📰 Todo lo que dejó la primera fecha de la fase de grupos del Mundial 2026: La victoria de Colombia sobre Uzbekistán cerró la jornada inicial de la renovada Copa del Mundo de 48 participantes. Una serie de 24 partidos en siete días puso el sello de la competencia.\n\n🌎 Esta noche, Argentina seguirá en acción en el Mundial 2026 en el Arrowhead Stadium de Kansas City, con un clásico de la Copa del Mundo que enfrenta a la actual campeona con un rival que ya probó ser peligroso en el debut.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-21T15:16:29.580917",
+  "published_at": "2026-06-21T15:16:30.416964",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-21T15:16:29.580928"
 }

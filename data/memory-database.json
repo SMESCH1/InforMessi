@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-06-20T15:13:43.670037",
+  "last_updated": "2026-06-21T15:16:30.430251",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -26,7 +26,8 @@
       "2026-06-16",
       "2026-06-18",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Scaloni": [
       "2026-04-01",
@@ -179,7 +180,8 @@
       "2026-05-24",
       "2026-05-31",
       "2026-06-07",
-      "2026-06-14"
+      "2026-06-14",
+      "2026-06-21"
     ]
   },
   "topics_mentioned": {
@@ -270,7 +272,8 @@
       "2026-06-17",
       "2026-06-18",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "seleccion": [
       "2026-03-26",
@@ -332,7 +335,8 @@
       "2026-06-16",
       "2026-06-17",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ]
   },
   "events_mentioned": {
@@ -744,7 +748,8 @@
     "Mundial 2026 - Fase de grupos, jornada 2.": [
       "2026-06-18",
       "2026-06-19",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-21"
     ],
     "Argentina 4-1 Hungría con doblete de Diego.": [
       "2026-06-18"
@@ -760,6 +765,21 @@
     ],
     "Inicio de la Copa América de Estados Unidos 2024.": [
       "2026-06-20"
+    ],
+    "Goleada 6-0 a Perú para clasificar a la final del Mundial.": [
+      "2026-06-21"
+    ],
+    "Dolorosa caída 0-3 ante Croacia en Rusia 2018.": [
+      "2026-06-21"
+    ],
+    "Grito de Maradona a la cámara tras golazo a Grecia en el debut.": [
+      "2026-06-21"
+    ],
+    "Gol agónico de Messi a Irán en el minuto 91.": [
+      "2026-06-21"
+    ],
+    "Argentina 1-0 Paraguay con gol del Papu.": [
+      "2026-06-21"
     ]
   },
   "news_topics": {
@@ -981,6 +1001,9 @@
     ],
     "un deportologo explico en detalle que son y cuales": [
       "2026-06-20"
+    ],
+    "todo lo que dejo la primera fecha de la fase de gr": [
+      "2026-06-21"
     ]
   },
   "phrases_used": [],
