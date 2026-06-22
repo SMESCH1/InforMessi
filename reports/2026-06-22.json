@@ -4,14 +4,17 @@
   "data": {
     "date": "2026-06-22",
     "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
     "days_remaining": -11,
+    "mundial_phase": "durante_mundial",
+    "mundial_day": 12,
     "events": [
       {
         "date": "2026-06-22",
         "type": "match",
         "priority": "critical",
         "person": "Selección Argentina",
-        "description": "Mundial 2026 - Grupo J: Argentina vs Austria, 13:00 ET, AT&T Stadium, Dallas."
+        "description": "Mundial 2026 - Grupo J: Argentina vs Austria, 14:00 (hora argentina), AT&T Stadium, Dallas."
       },
       {
         "date": "1986-06-22",
@@ -36,12 +39,114 @@
         "description": "Cumpleaños de Lucho González (40 años)"
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "España vs Arabia Saudita: la Roja busca su primera victoria en el Mundial 2026",
+        "description": "El equipo de Luis de la Fuente está obligado a sumar de a tres frente a los saudíes para enderezar su camino en el Mundial 2026. Tras un debut inesperado, el combinado español necesita imponer su jera",
+        "url": "https://442.perfil.com/noticias/mundial-2026/espana-vs-arabia-saudita-la-roja-busca-su-primera-victoria-en-el-mundial-2026.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-21T12:35:28Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Argentina vs Austria: horario y dónde ver por TV en España el partido del Mundial 2026",
+        "description": "Ambas selecciones se encuentran tras un estreno competitivo muy favorable, por lo que lo darán todo para pasar de ronda.",
+        "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-06-21/argentina-austria-horario-donde-ver-espana-mundial_4376432/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-06-21T12:33:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Diario del Madrid latino en las madrugadas mundialistas: muchas mujeres con Paraguay, ron a morro con Colombia y lágrimas argentinas por Messi",
+        "description": "Una semana trasnochando en bares para ver selecciones latinoamericanas. Himnos y goles a todo pulmón, cumbias y reguetones, ir a trabajar de empalme y llantos de alegría y nostalgia entre colombianos,",
+        "url": "https://www.elmundo.es/cronica/2026/06/21/6a357bf7e4d4d8a0388b456d.html",
+        "source": "El Mundo",
+        "published_at": "2026-06-21T12:10:27Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Fermín, el segundo futbolista más valioso del mundo de los que no están en el Mundial",
+        "description": "Fermín López, a causa de una lesión, fue una de las bajas más sensibles en las listas de las 48 selecciones que están disputando el Mundial 2026. El centrocampista de 23 años del FC Barcelona sufrió u",
+        "url": "https://www.mundodeportivo.com/futbol/fc-barcelona/20260621/1004197748/fermin-segundo-futbolista-valioso-mundo-no-mundial.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-06-21T12:25:38Z",
+        "category": "mundial"
+      },
+      {
+        "title": "El presidente saudí, en MARCA: \"Sí, podemos dar otra sorpresa como ante Argentina 2022\"",
+        "description": "Entrevista exclusiva con el jefe del fútbol de Arabia Saudí antes de medirse a España",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/21/presidente-saudi-marca-dar-sorpresa-argentina-2022.html",
+        "source": "Marca",
+        "published_at": "2026-06-21T04:50:04Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Falleció exjugador de Guadalupe FC después de estar hospitalizado 17 días",
+        "description": "El futbolista se desvaneció tras finalizar un partido con su actual equipo.",
+        "url": "https://www.nacion.com/puro-deporte/futbol/fallecio-exjugador-de-guadalupe-fc-despues-de/I5UM2OW6URG6HE5NPBGQ3ZPTYQ/story/",
+        "source": "Nacion.com",
+        "published_at": "2026-06-20T21:09:43Z",
+        "category": "general"
+      },
+      {
+        "title": "Palo para Alemania: Schlotterbeck dice adiós al Mundial",
+        "description": "El central sufre una lesión en el ligamento del tobillo y estará varios meses de baja",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/22/palo-alemania-schlotterbeck-dice-adios-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-22T12:34:11",
+        "category": "mundial"
+      },
+      {
+        "title": "Alineación probable de Francia - Irak en el Mundial: once del partido de la fase de grupos",
+        "description": "Conoce lo onces posibles del duelo del grupo I que se disputa este lunes a las 23:00",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/22/alineacion-probable-francia-irak-mundial-once-partido-fase-grupos.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-22T12:01:19",
+        "category": "mundial"
+      },
+      {
+        "title": "Las Palmas presenta su nuevo proyecto: a De la Barrera se añaden tres fichajes y renovaciones de pesos pesados",
+        "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+        "url": "https://www.marca.com/futbol/las-palmas/2026/06/22/palmas-presenta-nuevo-proyecto-barrera-anaden-tres-fichajes-renovaciones-canteranos.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-22T11:52:00",
+        "category": "general"
+      },
+      {
+        "title": "Alineación probable de Argentina - Austria en el Mundial: once del partido de la fase de grupos",
+        "description": "Conoce los posibles onces del partido del grupo J que se juega a las 19:00 este lunes",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/22/alineacion-probable-argentina-austria-mundial-once-partido-fase-grupos.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-22T11:44:25",
+        "category": "seleccion"
+      },
+      {
+        "title": "España - Arabia Saudí, Mundial 2026 fútbol hoy | Resultado de la selección española y goles del partido, en directo",
+        "description": "España y Arabia Saudí afrontan su segundo partido en el Mundial de 2026, jugándose un hueco en dieciseisavos tras sus respectivos últimos empates.  Lamine abrió el marcador, Oyarzabal tomó el relevo c",
+        "url": "https://www.elespanol.com/deportes/futbol/mundial/20260621/espana-arabia-saudi-mundial-2026-futbol-hoy-ultima-hora-resultado-goles-en-directo-seleccion-espanola/1003744294447_10.html",
+        "source": "Elespanol.com",
+        "published_at": "2026-06-21T17:28:00Z"
+      },
+      {
+        "title": "Mundial 2026: la reina Máxima festejó histórico empate de Curazao, con baile incluido",
+        "description": "La selección curazoleña obtuvo ante Ecuador su primer punto en la Copa del Mundo y la celebración dejó momentos virales.",
+        "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-la-reina-Maxima-festejo-historico-empate-de-Curazao-con-baile-incluido-uc965857",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-06-21T17:25:00Z"
+      },
+      {
+        "title": "España - Arabia Saudí, Mundial 2026 fútbol hoy | Gol de España, mete Cucurella el cuarto del partido",
+        "description": "España y Arabia Saudí afrontan su segundo partido en el Mundial de 2026, jugándose un hueco en dieciseisavos tras sus respectivos últimos empates.Lamine Yamal abrió el marcador, Oyarzabal tomó el rele",
+        "url": "https://www.elespanol.com/deportes/futbol/mundial/20260621/espana-arabia-saudi-mundial-2026-futbol-hoy-ultima-hora-resultado-goles-en-directo-partido-grupo-h/1003744294447_10.html",
+        "source": "Elespanol.com",
+        "published_at": "2026-06-21T17:11:00Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan -11 días para el Mundial 2026 ⚽\nUn día como hoy, pero en el futuro cercano, Argentina enfrentará a Austria en el Grupo J del Mundial 2026 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 12 del Mundial 2026 ⚽\n\n🏟️ Hoy Argentina enfrenta a Austria en el Arrowhead Stadium de Kansas City a las 14:00 (hora argentina). La Scaloneta busca mantener su racha en el Mundial después de su victoria inicial.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-22T17:48:46.490265",
+  "published_at": "2026-06-22T17:48:47.311334",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-22T17:48:46.490275"
 }
