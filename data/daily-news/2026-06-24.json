@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-06-24",
+  "scraped_at": "2026-06-24T10:10:44.075914",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Partidos de hoy del Mundial 2026, martes 23 de junio: horario y por dónde ver en vivo online",
+      "description": "En la 13ª jornada del campeonato concluye la segunda fecha de la etapa de grupos con cuatro partidos correspondientes a los grupos K y L",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/partidos-de-hoy-del-mundial-2026-martes-23-de-junio-horario-y-por-donde-ver-en-vivo-online-nid23062026/",
+      "source": "La Nacion",
+      "published_at": "2026-06-23T10:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Partido por partido: horarios de la selección argentina en el Mundial 2026",
+      "description": "El combinado nacional le ganó a Argelia y Austria y se clasificó a los 16avos de final; su próximo rival será Jordania, otra vez en Dallas",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/partido-por-partido-horarios-de-la-seleccion-argentina-en-el-mundial-2026-nid23062026/",
+      "source": "La Nacion",
+      "published_at": "2026-06-23T10:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Así está el grupo J tras la victoria de Argelia frente a Jordania en el Mundial 2026",
+      "description": "El reciente resultado del partido ha definido que selecciones del grupo tienen un puesto asegurado en la siguiente ronda, así como los eliminados del cuadro.",
+      "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-06-23/grupo-victoria-argelia-frente-jordania-mundial_4377322/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-06-23T08:49:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El Mundial se convierte en una pista de baile: Colombia y RD Congo preparan el duelo más festivo del torneo",
+      "description": "Las celebraciones colombianas y los bailes africanos prometen protagonizar uno de los partidos más llamativos del Mundial.",
+      "url": "https://www.libertaddigital.com/deportes/futbol/2026-06-23/el-mundial-se-convierte-en-una-pista-de-baile-colombia-y-rd-congo-preparan-el-duelo-mas-festivo-del-torneo-7423997/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-06-23T09:30:09Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El milagro del Mundial",
+      "description": "Tras empatar con España y Uruguay, la selección africana sueña con superar la fase de grupos en su debut Mundialista",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/23/milagro-mundial-llamado-cabo-verde.html",
+      "source": "Marca",
+      "published_at": "2026-06-23T09:27:41Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El origen de Cabo Verde: el secreto detrás de la gran sorpresa del Mundial 2026",
+      "description": "Con un plantel formado casi en su totalidad por la diáspora europea y un sistema de liga local semiprofesional, los “Tiburones Azules” se convirtieron en la revelación del torneo",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/el-origen-de-cabo-verde-el-secreto-detras-de-la-gran-sorpresa-del-mundial-2026-nid22062026/",
+      "source": "La Nacion",
+      "published_at": "2026-06-22T11:20:37Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Un día dentro de la mejor afición del Mundial: \"Sin Escocia, no hay fiesta\"",
+      "description": "MARCA se adentra en la 'Tartan Army' escocesa para vivir de primera mano a una afición que ha conquistado al mundo entero",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/24/dia-mejor-aficion-mundial-escocia-hay-fiesta.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-24T10:04:14",
+      "category": "mundial"
+    },
+    {
+      "title": "Achraf ya es 'King' África: \"Es el mejor lateral del mundo\"",
+      "description": "El marroquí ya es el africano con más partidos disputados (12) en la historia de los Mundiales",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/24/achraf-king-africa-mejor-lateral-mundo.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-24T10:01:34",
+      "category": "mundial"
+    },
+    {
+      "title": "Así quedan los grupos de Primera Federación 2026-27",
+      "description": "Durante este 24 de junio, los clubes que integrarán la próxima campaña de Primera Federación han aprobado mediante votación cómo queda distribuida la categoría",
+      "url": "https://www.marca.com/futbol/primera-rfef/2026/06/24/asi-quedan-grupos-primera-federacion-2026-27.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-24T09:50:24",
+      "category": "mundial"
+    },
+    {
+      "title": "Alineación probable de Marruecos - Haití en el Mundial: once del partido de la fase de grupos",
+      "description": "Ouahbi apunta a repetir once por tercer partido consecutivo, mientras que Isidor podría regresar en Haití",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/24/alineacion-probable-marruecos-haiti-mundial-once-partido-fase-grupos.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-24T09:01:48",
+      "category": "mundial"
+    }
+  ]
+}
