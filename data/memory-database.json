@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-06-23T16:05:58.000464",
+  "last_updated": "2026-06-24T15:38:31.404913",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -277,7 +277,8 @@
       "2026-06-20",
       "2026-06-21",
       "2026-06-22",
-      "2026-06-23"
+      "2026-06-23",
+      "2026-06-24"
     ],
     "seleccion": [
       "2026-03-26",
@@ -342,7 +343,8 @@
       "2026-06-20",
       "2026-06-21",
       "2026-06-22",
-      "2026-06-23"
+      "2026-06-23",
+      "2026-06-24"
     ]
   },
   "events_mentioned": {
@@ -800,13 +802,26 @@
       "2026-06-22"
     ],
     "Mundial 2026 - Fase de grupos, jornada 3.": [
-      "2026-06-23"
+      "2026-06-23",
+      "2026-06-24"
     ],
     "Argentina 4-1 Haití para pasar de ronda.": [
       "2026-06-23"
     ],
     "Argentina 2-0 El Salvador.": [
       "2026-06-23"
+    ],
+    "Cumpleaños de Lionel Messi (39 años)": [
+      "2026-06-24"
+    ],
+    "Argentina elimina a Brasil en octavos con el gol de Caniggia tras pase de Diego.": [
+      "2026-06-24"
+    ],
+    "Golazo inolvidable de Maxi Rodríguez a México en tiempo extra.": [
+      "2026-06-24"
+    ],
+    "Cumpleaños de Jorge Burruchaga (64 años)": [
+      "2026-06-24"
     ]
   },
   "news_topics": {
@@ -1031,6 +1046,9 @@
     ],
     "todo lo que dejo la primera fecha de la fase de gr": [
       "2026-06-21"
+    ],
+    "partido por partido: horarios de la seleccion arge": [
+      "2026-06-24"
     ]
   },
   "phrases_used": [],
