@@ -45,12 +45,114 @@
         "description": "Mundial 2026 - Fase de grupos, cierre de jornada 3."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "España: objetivo Los Ángeles",
+        "description": "España aspira a quedar primera de grupo en este Mundial del 2026 por muchos motivos. El principal es deportivo por el cruce más sencillo que esperaría en los 1/16 de final y el segundo por un tema de ",
+        "url": "https://www.elperiodico.com/es/deportes/20260624/espana-objetivo-angeles-131754015",
+        "source": "Elperiodico.com",
+        "published_at": "2026-06-24T09:56:24Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Así están los grupos del Mundial 2026 tras la segunda jornada del torneo: clasificación actualizada y próximos partidos",
+        "description": "La fase de grupos encara su última jornada con España, Brasil, Alemania, Argentina y Portugal pendientes de confirmar su posición en las eliminatorias",
+        "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-06-24/grupos-mundial-segunda-jornada_4377886/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-06-24T09:43:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "¿El Mundial 2026 ya es el más exitoso de la historia? Las razones de Infantino",
+        "description": "El titular de la FIFA se ampara en estadios llenos, los partidos con goles y las figuras en alto nivel; la infraestructura del país del soccer",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/el-mundial-2026-ya-es-el-mas-exitoso-de-la-historia-las-razones-de-infantino-nid24062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-24T09:38:01Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Mourinho, sobre su vuelta al Madrid: «Estoy aquí para ayudar, no para criticar»",
+        "description": "José Mourinho  regresará al banquillo del Santiago Bernabéu más de una década después. Pocos días antes de que termine el Mundial que se está disputando en Estados Unidos, México y Canadá, el técnico ",
+        "url": "https://www.abc.es/deportes/real-madrid/mourinho-sobre-vuelta-madrid-ayudar-criticar-20260624113331-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-06-24T09:33:32Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Dónde ver México vs. República Checa en vivo por el Mundial 2026: a qué hora se define el Grupo A",
+        "description": "República Checa enfrentará a México este miércoles 24 de junio en el emblemático Estadio Azteca por el Grupo A, con el Tri líder y los checos obligados a sumar.",
+        "url": "https://www.elpais.com.uy/ovacion/mundial/republica-checa-vs-mexico-por-el-grupo-a-del-mundial-2026-hora-estadio-y-donde-ver-en-vivo",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-06-24T09:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "¡Catástrofe! El terremoto de Venezuela destrozó su casa mientras estaba viendo el Mundial",
+        "description": "",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/25/catastrofe-terremoto-venezuela-destrozo-casa-viendo-mundial-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-25T09:41:46",
+        "category": "mundial"
+      },
+      {
+        "title": "Kaká reúne a la 'Canarinha imparable': ¿reconoces a todas las leyendas?",
+        "description": "El exfutbolista subió una foto a redes que pronto se hizo viral por los cracks que aparecían en ella<span class=\"xai-icon\" contenteditable=\"false\" tabindex=\"-1\"></span>",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/25/kaka-reune-canarinha-imparable-reconoces-todas-leyendas.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-25T09:32:58",
+        "category": "general"
+      },
+      {
+        "title": "El restaurante Olise se sube al fenómeno del astro francés... ¡y viste a sus camareros con el 11!",
+        "description": "Un bistrot de Copenhague, homónimo del atacante de los Bleus, emitirá el Noruega-Francia de la Copa del Mundo 2026<span class=\"\" contenteditable=\"false\" tabindex=\"-1\"></span>",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/25/restaurante-olise-sube-fenomeno-astro-frances-viste-camareros-11.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-25T09:22:19",
+        "category": "mundial"
+      },
+      {
+        "title": "Irán desafía a la FIFA por el ‘partido del orgullo’ ante Egipto",
+        "description": "La federación iraní reclama que no haya actos ni símbolos LGBTQ+ en el encuentro que ambas selecciones disputarán en Seattle durante el Mundial<span class=\"\" contenteditable=\"false\" tabindex=\"-1\"></sp",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/25/iran-desafia-fifa-partido-orgullo-egipto.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-25T09:18:06",
+        "category": "mundial"
+      },
+      {
+        "title": "Pedro Porro: \"Vallecas me marcó, me enseñó la pasión por el fútbol\"",
+        "description": "El lateral derecho de la selección habla con MARCA antes del España-Uruguay",
+        "url": "https://www.marca.com/futbol/seleccion/2026/06/25/pedro-porro-vallecas-me-marco-me-enseno-pasion-futbol.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-25T09:03:13",
+        "category": "seleccion"
+      },
+      {
+        "title": "El romántico mensaje de Antonela Roccuzzo para Lionel Messi en su cumpleaños número 39: \"Que seas muy feliz hoy y siempre\"",
+        "description": "La esposa del mejor jugador del mundo le dedicó un mensaje especial a través de su cuenta de Instagram y recordó varios momentos juntó a él y toda su familia en un carrusel de fotos.\n Leer más",
+        "url": "https://exitoina.perfil.com/noticias/corazon/romantico-mensaje-antonela-roccuzzo-lionel-messi-cumpleanos-numero-39-que-seas-muy-feliz-hoy-y-siempre.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-24T15:30:40Z"
+      },
+      {
+        "title": "Camila Morrone se declaró \"fan número uno de Messi\" y anunció que viajará a Dallas para conocerlo",
+        "description": "La actriz argentino-estadounidense y expareja de Leonardo Di Caprio ya tiene todo preparado para ver el tercer partido de la Selección Nacional y tratar de ver personalmente al capitán. Leer más",
+        "url": "https://exitoina.perfil.com/noticias/destacada/camila-morrone-declaro-fan-numero-uno-messi-anuncio-que-viajara-dallas-para-conocerlo.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-24T15:22:23Z"
+      },
+      {
+        "title": "Messi cumple 39 años en la cima Mundial",
+        "description": "Lionel Messi llega a 39 años este miércoles como uno de los grandes protagonistas  y goleador del Mundial 2026.",
+        "url": "https://www.nacion.com/puro-deporte/messi-cumple-39-anos-en-la-cima-mundial/WOB3ETS5SZF2NKHW5FBILEPLHY/story/",
+        "source": "Nacion.com",
+        "published_at": "2026-06-24T14:43:37Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 15 días para el Mundial 2026 ⚽\n\nUn día como hoy en 1978, Argentina se coronó campeón del mundo por primera vez después de vencer a Holanda con un marcador de 3-1. Ese título fue una fiesta para todo el país y seguirá siendo una de las mejores momentos de la historia del fútbol argentino 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 15 del Mundial 2026 ⚽\n\n🏆 Un día como hoy en 1978, Argentina se consagró campeón del mundo por primera vez en la historia, derrotando a Holanda 3-1 en la final.\n\n📰 Así está la clasificación actualizada de los grupos del Mundial 2026 tras la segunda jornada del torneo.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-25T15:45:05.440114",
+  "published_at": "2026-06-25T15:45:06.138377",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-25T15:45:05.440125"
 }
