@@ -45,12 +45,114 @@
         "description": "Argentina sufre la exhibición del Fútbol Total de Holanda (0-4)."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "El portero de Estados Unidos rechazó un contrato con el Manchester United por cumplir el sueño de todo estudiante: ser fichado por una de las mejores universidades del mundo",
+        "description": "El fútbol suele presentar decisiones que parecen imposibles: para muchos jóvenes jugadores, recibir una llamada del Manchester United sería motivo suficiente para dejarlo todo atrás. Sin embargo, el p",
+        "url": "https://www.trendencias.com/hombres/portero-estados-unidos-rechazo-contrato-manchester-united-cumplir-sueno-todo-estudiante-ser-fichado-mejores-universidades-mundo",
+        "source": "Trendencias.com",
+        "published_at": "2026-06-25T10:01:32Z",
+        "category": "general"
+      },
+      {
+        "title": "Partidos de hoy del Mundial 2026, jueves 25 de junio: horario y por dónde ver en vivo online",
+        "description": "En la 15ª jornada del campeonato se disputan seis partidos correspondiente a la tercera y última fecha de los grupos D, E y F",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/partidos-de-hoy-del-mundial-2026-jueves-25-de-junio-horario-y-por-donde-ver-en-vivo-online-nid25062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-25T10:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Estas son las doce selecciones que ya se han clasificado y las siete que hacen las maletas en el Mundial",
+        "description": "Este fin de semana se completan las jornadas de la fase en los doce grupos y quedará completo el cuadro de dieciseisavos de final",
+        "url": "https://www.lavozdegalicia.es/noticia/mundial2026/2026/06/25/doce-selecciones-clasificado-siete-maletas-mundial/00031782376657856455347.htm",
+        "source": "Lavozdegalicia.es",
+        "published_at": "2026-06-25T08:48:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "La parábola de Messi: una década en la vida del hé...",
+        "description": "El capitán de la Selección Argentina ha vivido momentos clave de su carrera en el país de la Copa América donde hoy vive y juega.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16905739/la-parabola-de-messi-una-decada-en-la-vida-del-heroe",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-26T11:31:53",
+        "category": "seleccion"
+      },
+      {
+        "title": "Los partidos de hoy viernes 26 de junio: horarios y dónde ver",
+        "description": "El detalle de todos los cruces del día en el mundo del fútbol.",
+        "url": "https://www.espn.com.ar/futbol/nota/_/id/15511528/partidos-de-hoy-fixture-calendario-fecha-horarios-donde-ver-futbol-disney-plus",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-26T11:39:40",
+        "category": "general"
+      },
+      {
+        "title": "Gustavo Gómez, tras el empate vs. Australia: \"Para...",
+        "description": "El capitán de la Albirroja valoró el punto conseguido ante Australia y confía en que alcance para avanzar a los 16avos de final del Mundial 2026.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16910603/gustavo-gomez-paraguay-se-merece-seguir-australia-empate-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-26T07:22:43",
+        "category": "mundial"
+      },
+      {
+        "title": "Por qué Paraguay y Australia empataron en el Mundi...",
+        "description": "El equipo de Alfaro igualó ante los Socceros en la última fecha del grupo D de la Copa del Mundo.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16910130/porque-paraguay-australia-empataron-mundial-2026-las-claves-del-partido",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-26T07:20:33",
+        "category": "mundial"
+      },
+      {
+        "title": "El podio de Paraguay vs. Australia: quiénes fueron...",
+        "description": "La Albirroja igualó con los Socceroos en Santa Clara y debe esperar la resolución de otros grupos para ver si se clasifica a dieciseisavos de final del Mundial 2026.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16910278/el-podio-de-paraguay-vs-australia-quienes-fueron-los-mejores-jugadores",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-26T07:20:33",
+        "category": "mundial"
+      },
+      {
+        "title": "Argentina vs. Jordania: para qué le sirve el parti...",
+        "description": "Con la clasificación anticipada a 16avos, el DT evalúa darle descanso a los titulares y minutos a los que todavía no estuvieron en cancha.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16907391/argentina-vs-jordania-para-que-le-sirve-el-partido-a-scaloni-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-26T06:18:06",
+        "category": "seleccion"
+      },
+      {
+        "title": "Scaloni, entre lo que quiere y lo que debe: cómo f...",
+        "description": "La Albiceleste busca cerrar la fase de grupos con puntaje ideal y los titulares quieren seguir en cancha. Sin embargo, otros jugadores necesitan rodaje y el DT campeón del Mundo tiene que decidir.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16891884/formacion-de-argentina-vs-jordania-fase-de-grupos-del-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-06-26T06:18:06",
+        "category": "seleccion"
+      },
+      {
+        "title": "Las fotos inéditas de Emilia Ferrero y Julián Álvarez con su hijo Amadeo: \"Nuestro primer Mundial juntos\"",
+        "description": "La pareja está atravesando uno de los momentos más emocionantes de sus vidas. Leer más",
+        "url": "https://caras.perfil.com/noticias/celebridades/fotos-ineditas-emilia-ferrero-julian-alvarez-hijo-amadeo-nuestro-primer-mundial-juntos.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-06-25T13:52:55Z"
+      },
+      {
+        "title": "“Ni yo lo entiendo, pero bueno”: Torreira con Tinelli sobre por qué no fue en la selección",
+        "description": "“Son decisiones del entrenador que obviamente hay que respetar. Acá estamos, alentando como un hincha más desde afuera”, dijo el volante.",
+        "url": "https://www.montevideo.com.uy/Deportes/-Ni-yo-lo-entiendo-pero-bueno--Torreira-con-Tinelli-sobre-por-que-no-fue-en-la-seleccion-uc966290",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-06-25T13:35:00Z"
+      },
+      {
+        "title": "Real Madrid y Como se reúnen por el futuro de Nicolás Paz",
+        "description": "La Gazzeta dello Sport y el periodistas Fabrizio Romano indicaron que el club blanco quiere hacer uso de la cláusula de recompra por Nicolás Paz en medio del Mundial 2026",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/real-madrid-y-como-se-reunen-por-el-futuro-de-nicolas-paz-nid25062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-25T13:29:35Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nDía 16 del Mundial 2026 ⚽\n\n📅 Un día como hoy en 2016, hace 10 años, Messi anuncia su renuncia temporal tras perder la final de Copa América Centenario 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 16 del Mundial 2026 ⚽\n📰 Partidos de hoy del Mundial 2026, jueves 25 de junio: horario y por dónde ver en vivo online: En la 15ª jornada del campeonato se disputan seis partidos correspondiente a la tercera y última fecha de los grupos D, E y F (La Nacion)\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-26T15:30:31.359882",
+  "published_at": "2026-06-26T15:30:32.272546",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-26T15:30:31.359892"
 }
