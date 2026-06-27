@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-06-26T15:30:32.283358",
+  "last_updated": "2026-06-27T14:54:47.519894",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -170,7 +170,8 @@
       "2026-05-30",
       "2026-06-06",
       "2026-06-13",
-      "2026-06-20"
+      "2026-06-20",
+      "2026-06-27"
     ],
     "dato_pais_sede": [
       "2026-03-29",
@@ -282,7 +283,8 @@
       "2026-06-23",
       "2026-06-24",
       "2026-06-25",
-      "2026-06-26"
+      "2026-06-26",
+      "2026-06-27"
     ],
     "seleccion": [
       "2026-03-26",
@@ -349,7 +351,8 @@
       "2026-06-22",
       "2026-06-23",
       "2026-06-24",
-      "2026-06-25"
+      "2026-06-25",
+      "2026-06-27"
     ]
   },
   "events_mentioned": {
@@ -857,6 +860,12 @@
     ],
     "Argentina sufre la exhibición del Fútbol Total de Holanda (0-4).": [
       "2026-06-26"
+    ],
+    "Mundial 2026 - Grupo J: Argentina vs Jordania, 23:00 (hora argentina), AT&T Stadium, Dallas.": [
+      "2026-06-27"
+    ],
+    "Victoria 3-1 ante México en octavos con golazo del Apache.": [
+      "2026-06-27"
     ]
   },
   "news_topics": {
@@ -1087,6 +1096,9 @@
     ],
     "partidos de hoy del mundial 2026, jueves 25 de jun": [
       "2026-06-26"
+    ],
+    "la polemica que rodea al egipto-iran en el mundial": [
+      "2026-06-27"
     ]
   },
   "phrases_used": [],

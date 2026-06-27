@@ -24,12 +24,114 @@
         "description": "Victoria 3-1 ante México en octavos con golazo del Apache."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Enrique Galván Ochoa: Dinero",
+        "description": "La fiebre del futbol se ha extendido a todos los rincones del mundo y en México está a lo máximo. El tema de esta semana de nuestro sondeo en redes sociales: ¿A cuál de estos equipos le ves más posibi",
+        "url": "https://www.jornada.com.mx/2026/06/26/opinion/010o1eco",
+        "source": "Jornada.com.mx",
+        "published_at": "2026-06-26T09:04:45Z",
+        "category": "general"
+      },
+      {
+        "title": "Con millones en la cartera, Borja Iglesias presume de un coche con historia que compró por internet y que hace honor a su mote en la cancha",
+        "description": "Hay futbolistas que se compran Ferraris, Lamborghinis y SUVs de 200.000 euros nada más cobrar su primera nómina gorda. Y luego está Borja Iglesias, que con casi tres millones de euros al año entrando ",
+        "url": "https://www.trendencias.com/hombres/millones-cartera-borja-iglesias-presume-coche-historia-que-compro-internet-que-hace-honor-a-su-mote-cancha",
+        "source": "Trendencias.com",
+        "published_at": "2026-06-26T09:01:24Z",
+        "category": "general"
+      },
+      {
+        "title": "La polémica que rodea al Egipto-Irán en el Mundial 2026",
+        "description": "La coincidencia del Egipto-Irán con el fin de semana del orgullo LGTBIQ+ en Seattle ha generado controversia entre federaciones y la FIFA.",
+        "url": "https://www.libertaddigital.com/deportes/futbol/2026-06-26/la-polemica-que-rodea-al-egipto-iran-en-el-mundial-2026-7427159/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-06-26T08:58:10Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Días y horarios: así se jugarán las primeras tres fechas del torneo Clausura",
+        "description": "La Liga Profesional dio el detalle del programa de las primeras jornadas del campeonato local; el campeón Belgrano, uno de los que arranca en la jornada inicial",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/dias-y-horarios-asi-se-jugaran-las-primeras-tres-fechas-del-torneo-clausura-nid25062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-25T23:47:55Z",
+        "category": "liga"
+      },
+      {
+        "title": "Terremoto en Venezuela: ¿Quién es el futbolista argentino que busca a su familia desaparecida?",
+        "description": "El futbolista profesional Lucas Trejo, de Argentina, pidió ayuda para conocer el paradero de su pareja y dos hijos tras el terremoto de Venezuela.",
+        "url": "https://www.nacion.com/puro-deporte/terremoto-en-venezuela-quien-es-el-futbolista/3TR2FO2Q45DW7DEX362V2GS5SI/story/",
+        "source": "Nacion.com",
+        "published_at": "2026-06-25T16:33:29Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Quién es Lucas Trejo, el futbolista argentino que busca a su familia desaparecida tras el terremoto en Venezuela",
+        "description": "Se crío en la provincia de Córdoba y desarrolló gran parte de su carrera profesional en Europa",
+        "url": "https://www.lanacion.com.ar/el-mundo/quien-es-lucas-trejo-el-futbolista-argentino-que-busca-a-su-familia-desaparecida-tras-el-terremoto-nid25062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-25T11:57:42Z",
+        "category": "general"
+      },
+      {
+        "title": "Cabo Verde recordó el \"1%\" en plena celebración tras pasar a los dieciseisavos del Mundial",
+        "description": "",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/27/cabo-verde-recordo-1-plena-celebracion-pasar-dieciseisavos-mundial-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-27T09:07:23",
+        "category": "mundial"
+      },
+      {
+        "title": "El fotógrafo de Senegal tuvo que cubrir el Mundial... desde la televisión de su hotel",
+        "description": "",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/27/fotografo-senegal-tuvo-cubrir-mundial-television-hotel-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-27T08:36:09",
+        "category": "mundial"
+      },
+      {
+        "title": "Ya no habrá que trasnochar más con España, que se gana el prime time: fechas y horarios del camino a la final",
+        "description": "La selección, primera de grupo, jugará en el horario estrella todas las eliminatorias del Mundial si sigue avanzando: dieciseisavos, octavos, cuartos, semifinales y final serían siempre a las nueve de",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/27/habra-trasnochar-espana-gana-prime-time-fechas-horarios-camino-final.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-27T07:59:43",
+        "category": "seleccion"
+      },
+      {
+        "title": "Nicolas Pépé encuentra la paz: \"Fue una de las mejores noches de mi carrera\"",
+        "description": "El atacante del Villarreal lideró la histórica clasificación de Costa de Marfil a las eliminatorias del Mundial con un doblete a Curazao tras quedarse fuera de la Copa África por cuestiones extradepor",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/27/nicolas-pepe-encuentra-paz-mejores-noches-mi-carrera.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-27T06:59:15",
+        "category": "mundial"
+      },
+      {
+        "title": "Uruguay vs España, Mundial 2026 hoy: resultado, goles y última hora, en directo",
+        "description": "Sigue la última hora del partido del Mundial 2026 entre Uruguay y España que se disputa este sábado 27 de junio aquí, en El Confidencial",
+        "url": "https://www.elconfidencial.com/deportes/2026-06-26/uruguay-espana-mundial-2026-directo_4372653/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-06-26T14:20:00Z"
+      },
+      {
+        "title": "Tokens de fanáticos del Mundial 2026 suben mientras Chiliz se desploma",
+        "description": "Los tokens de aficionados vinculados al Mundial 2026 muestran un comportamiento desigual al cierre de la fase de grupos: mientras varias selecciones registran fuertes alzas por resultados y figuras co",
+        "url": "https://www.diariobitcoin.com/altcoins/tokens-de-fanaticos-del-mundial-2026-suben-mientras-chiliz-se-desploma/",
+        "source": "Diariobitcoin.com",
+        "published_at": "2026-06-26T12:26:30Z"
+      },
+      {
+        "title": "Partidos de hoy del Mundial 2026, viernes 26 de junio: horario y por dónde ver en vivo online",
+        "description": "En la 16° jornada de la Copa del Mundo continúa la última fecha de la etapa de grupos con seis partidos correspondientes a los grupos G, H e I",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/partidos-de-hoy-del-mundial-2026-viernes-26-de-junio-horario-y-por-donde-ver-en-vivo-online-nid26062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-26T12:00:00Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 17 días para el Mundial 2026 ⚽\n\nHoy Argentina enfrenta a Jordania a las 23:00 en el AT&T Stadium, Dallas. En este partido crucial, la Scaloneta busca mantener su racha de victorias y avanzar en la competencia 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 17 del Mundial 2026 ⚽\n\n📅 Hoy Argentina enfrenta a Jordania en el AT&T Stadium de Dallas a las 23:00 (hora argentina). La Scaloneta busca mantener su racha en el Mundial después de su victoria inicial.\n\n📰 La polémica que rodea al Egipto-Irán en el Mundial 2026: La coincidencia del Egipto-Irán con el fin de semana del orgullo LGTBIQ+ en Seattle ha generado controversia entre federaciones y la FIFA.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-27T14:54:46.874987",
+  "published_at": "2026-06-27T14:54:47.510941",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-27T14:54:46.874998"
 }
