@@ -24,12 +24,114 @@
         "description": "Goleada 4-1 a Bolivia con doblete de Messi."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Yendo de la cancha al living",
+        "description": "El Mundial 2026 se convirtió en la gran vidriera de una nueva industria que ya compite con la televisión tradicional por el tiempo y la atención de las audiencias",
+        "url": "https://www.lanacion.com.ar/economia/negocios/yendo-de-la-cancha-al-living-nid27062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-27T09:31:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Australia, devastada por las peores noticias",
+        "description": "La selección australiana, que se enfrentará a Egipto en los dieciseisavos de final, no podrá contar lo que queda del Mundial 2026 con su 'recordman' de partidos jugados en fases finales Mathew Leckie ",
+        "url": "https://www.mundodeportivo.com/futbol/mundial/20260627/1004199990/australia-devastada-peores-noticias.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-06-27T08:42:22Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Digi ha perdido el tren del Mundial: el fútbol sigue siendo su gran cuenta pendiente",
+        "description": "A pesar de que las tarifas anti-Digi le están robando clientes, el operador rumano sigue presumiendo mes a mes de unos datos de portabilidad envidiables para el resto de su competencia. Tanto es así, ",
+        "url": "https://www.xatakamovil.com/digi/digi-ha-perdido-tren-mundial-futbol-sigue-siendo-su-gran-cuenta-pendiente",
+        "source": "Xatakamovil.com",
+        "published_at": "2026-06-27T09:30:13Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Audiencias TV | España barre en la madrugada de TVE con el Mundial 2026: se dispara en su primer tramo contra Uruguay",
+        "description": "El último partido clasificatorio de la selección española de fútbol reventó los audímetros de madrugada, en sus primeros 30 minutos de emisión",
+        "url": "https://www.elconfidencial.com/television/programas-tv/2026-06-27/audiencia-tv-espana-madrugada-tve-mundial-2026-tramo-uruguay_4379753/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-06-27T09:21:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El rey Felipe VI felicita a la selección tras la victoria ante Uruguay",
+        "description": "El rey Felipe VI se acercó al vestuario de la selección española de fútbol para felicitar a los jugadores y al cuerpo técnico por la victoria frente a Uruguay (0-1) en la tercera y última jornada de l",
+        "url": "https://www.europapress.es/deportes/futbol/mundial-00639/noticia-rey-felipe-vi-felicita-seleccion-victoria-uruguay-20260627111743.html",
+        "source": "Europapress.es",
+        "published_at": "2026-06-27T09:17:43Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mundial 2026: un partido con la hinchada japonesa, entre cantitos argentinos y limpieza de las tribunas",
+        "description": "Los asiáticos tienen uno de los seguidores más llamativos de esta Copa del Mundo; el origen de la conexión con la cultura futbolera argentina",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-2026-un-partido-con-la-hinchada-japonesa-entre-cantitos-argentinos-y-limpieza-de-las-nid26062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-26T16:28:36Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Quién es el árbitro que pita hoy el partido entre España y Uruguay del Mundial 2026",
+        "description": "Las dos selecciones que encabezan el grupo H se juegan este viernes el pase a dieciseisavos y el cruce que les espera en la siguiente ronda",
+        "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-06-26/quien-es-arbitro-pita-partido-espana-uruguay-mundial-2026-1qrt_4379417/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-06-26T13:30:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Mourinho se frota las manos con la BMV",
+        "description": "Sus tres estrellas brillan en la fase de grupos del Mundial tras una temporada difícil a nivel de clubes",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/28/mourinho-frota-manos-bmv.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-28T08:52:59",
+        "category": "mundial"
+      },
+      {
+        "title": "Messi, Mbappé... ¿Cuál es el mejor gol de la fase de grupos?",
+        "description": "La fase de grupos ha dejado auténticos golazos, vota y elige el mejor",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/28/messi-mbappe-mejor-gol-fase-grupos.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-28T08:48:40",
+        "category": "seleccion"
+      },
+      {
+        "title": "RTVE se vuelca con el Mundial: cuatro partidos de dieciseisavos en abierto y España-Austria en La 1",
+        "description": "La televisión pública emitirá Sudáfrica-Canadá, Brasil-Japón, Francia-Suecia y el España-Austria de este jueves, dentro de una cobertura histórica con hasta 18 horas diarias dedicadas al torneo<span c",
+        "url": "https://www.marca.com/futbol/mundial/2026/06/28/rtve-vuelca-mundial-cuatro-partidos-dieciseisavos-abierto-espana-austria-1.html",
+        "source": "Fútbol",
+        "published_at": "2026-06-28T08:13:39",
+        "category": "mundial"
+      },
+      {
+        "title": "“Perdió su esencia” e “indigno”: los análisis de Azzaro y Davo tras la derrota de Uruguay",
+        "description": "Los comunicadores argentinos dieron sus puntos de vista acerca de los motivos de la eliminación temprana de la Celeste en el Mundial.",
+        "url": "https://www.montevideo.com.uy/Deportes/-Perdio-su-esencia-e-indigno--los-analisis-de-Azzaro-y-Davo-tras-la-derrota-de-Uruguay-uc966507",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-06-27T14:07:00Z"
+      },
+      {
+        "title": "La hora de los penales: cómo juegan la respiración, la intuición y… ¿el mejor se patea fuerte y al medio?",
+        "description": "El tema vuelve a estar sobre la mesa: a partir de este domingo, con los comienzos de los 16avos de final del Mundial; los aspectos que influyen en las ejecuciones",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/la-hora-de-los-penales-como-juegan-la-respiracion-la-intuicion-y-el-mejor-se-patea-fuerte-y-al-medio-nid27062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-27T13:09:01Z"
+      },
+      {
+        "title": "¿Se terminó el ciclo de Marcelo Bielsa en la selección uruguaya? Sus números y lo que dijo",
+        "description": "Un tercer puesto en la Copa América 2024 y una magra Copa del Mundo 2026 decoran el palmarés del argentino en Uruguay.",
+        "url": "https://www.montevideo.com.uy/Deportes/-Se-termino-el-ciclo-de-Marcelo-Bielsa-en-la-seleccion-uruguaya-Sus-numeros-y-lo-que-dijo-uc966501",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-06-27T13:01:00Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 18 días para el Mundial 2026 ⚽\n\n🏆 Hoy Argentina enfrenta a en las 22:00 en el Arrowhead Stadium de Kansas City. La Scaloneta sale a defender el título con Messi al frente 🇦🇷\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 18 del Mundial 2026 ⚽\n\n🏆 Hoy Argentina enfrenta a  en el  a las 16:00 en el  . \n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-06-28T14:56:54.404542",
+  "published_at": "2026-06-28T14:56:55.130183",
+  "pre_approved": true,
+  "pre_approved_at": "2026-06-28T14:56:54.404551"
 }
