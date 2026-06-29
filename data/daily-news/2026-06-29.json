@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-06-29",
+  "scraped_at": "2026-06-29T11:50:51.037841",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Uno de los medios más leídos de Uruguay se fija en la frase que Felipe VI soltó en el vestuario de España",
+      "description": "<![CDATA[<p>El rey Felipe VI fue uno de los principales protagonistas en Guadalajara (México) durante el encuentro que la selección española disputó ante Uruguay y en el que los de Luis de la Fuente l",
+      "url": "https://www.huffingtonpost.es/virales/uno-medios-mas-leidos-uruguay-fija-frase-felipe-vi-solto-vestuario-espana-f202606.html",
+      "source": "Huffingtonpost.es",
+      "published_at": "2026-06-28T11:48:25Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Qué se celebra hoy, domingo 28 de junio de 2026: efemérides de un día como hoy en la historia",
+      "description": "En esta jornada de 28 de junio hay varios sucesos que ocurrieron un día como hoy. Se trate de hechos históricos, nacimientos o días festivos, aquí se especifican los más relevantes.",
+      "url": "https://www.elpais.com.uy/vida-actual/efemerides/que-se-celebra-hoy-domingo-28-de-junio-de-2026-efemerides-de-un-dia-como-hoy-en-la-historia",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-06-28T11:47:30Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Mundial 2026: Austria y Argelia empataron 3-3 en un vibrante final y clasificaron",
+      "description": "Un gol de Sasa Kalajdzic en el sexto minuto de adición decretó el empate final, tres minutos después del gol de Riyad Mahrez.",
+      "url": "https://www.montevideo.com.uy/Deportes/Mundial-2026-Austria-y-Argelia-empataron-3-3-en-un-vibrante-final-y-clasificaron-uc966547",
+      "source": "Montevideo.com.uy",
+      "published_at": "2026-06-28T11:44:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "No hay mejor película sobre fútbol para ver en este Mundial: está gratis y tiene a Pelé y a un \"gringo\" persiguiendo el sueño americano",
+      "description": "El deporte rey es el protagonista absoluto de esta cinta de 1986 que nos tendrá entretenidos la hora y 40 minutos que dura",
+      "url": "https://www.larazon.es/tecnologia-consumo/series/no-hay-mejor-pelicula-futbol-ver-este-mundial-esta-gratis-tiene-pele-gringo-persiguiendo-sueno-americano_202606286a3e58707a154352a3a520ac.html",
+      "source": "Larazon.es",
+      "published_at": "2026-06-28T11:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Sebastián Carrasco: la historia del basquetbolista chilote que triunfa en Argentina",
+      "description": "A sus 26 años, el deportista nacional ha acumulado victoria tras victoria en su carrera en el básquetbol profesional. Luego de ganar cuatro de las últimas cinco ligas nacionales de Chile con la U. de ",
+      "url": "https://www.latercera.com/el-deportivo/noticia/sebastian-carrasco-la-historia-del-basquetbolista-chilote-que-triunfa-en-argentina/",
+      "source": "Latercera.com",
+      "published_at": "2026-06-27T10:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Tokyo anuncia que Ryunosuke Sato no hará la pretemporada, mientras cierra el traspaso al Valencia",
+      "description": "El club de Mestalla pagará unos 4 millones de euros por el extremo de 19 años, considerado uno de los futbolistas con más progresión en Japón",
+      "url": "https://www.marca.com/futbol/valencia/2026/06/29/tokyo-anuncia-ryunosuke-sato-hara-pretemporada-cierra-traspaso-valencia.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-29T11:13:24",
+      "category": "general"
+    },
+    {
+      "title": "Hoy se cumplen 40 años de la final que encumbró a Maradona en 1986",
+      "description": "Cuatro décadas del día en el que Diego fue el rey del fútbol ante Alemania",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/29/hoy-cumplen-40-anos-final-encumbro-maradona-1986.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-29T11:05:52",
+      "category": "general"
+    },
+    {
+      "title": "Macaya, el periodista de 91 años y 18 Mundiales : \"No hay un único mejor jugador de la historia\"",
+      "description": "El argentino es la persona con más Mundiales cubiertos en la historia",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/29/macaya-periodista-91-anos-18-mundiales-hay-unico-mejor-jugador-historia.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-29T10:53:19",
+      "category": "mundial"
+    },
+    {
+      "title": "El partido que nunca terminó en ‘Oliver y Benji’ por fin tendrá final: Brasil - Japón en el Mundial 2026",
+      "description": "El cruce de dieciseisavos entre Brasil y Japón ha reactivado una de las memorias más potentes del anime futbolístico",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/29/partido-nunca-termino-oliver-benji-tendra-final-brasil-japon-mundial-2026.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-29T10:08:38",
+      "category": "mundial"
+    },
+    {
+      "title": "España, de camino a su segunda estrella: vive los dieciseisavos de final del Mundial ante Austria",
+      "description": "El combinado de Luis de la Fuente se juega su futuro en el torneo",
+      "url": "https://www.marca.com/futbol/mundial/2026/06/29/espana-camino-segunda-estrella-vive-dieciseisavos-final-mundial-austria.html",
+      "source": "Fútbol",
+      "published_at": "2026-06-29T10:02:34",
+      "category": "mundial"
+    }
+  ]
+}
