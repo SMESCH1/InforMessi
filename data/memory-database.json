@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-06-28T14:56:55.138347",
+  "last_updated": "2026-06-29T16:41:36.115721",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -126,7 +126,8 @@
       "2026-06-15",
       "2026-06-19",
       "2026-06-22",
-      "2026-06-26"
+      "2026-06-26",
+      "2026-06-29"
     ],
     "jugador_scaloneta": [
       "2026-03-26",
@@ -286,7 +287,8 @@
       "2026-06-25",
       "2026-06-26",
       "2026-06-27",
-      "2026-06-28"
+      "2026-06-28",
+      "2026-06-29"
     ],
     "seleccion": [
       "2026-03-26",
@@ -355,7 +357,8 @@
       "2026-06-24",
       "2026-06-25",
       "2026-06-27",
-      "2026-06-28"
+      "2026-06-28",
+      "2026-06-29"
     ]
   },
   "events_mentioned": {
@@ -875,6 +878,21 @@
     ],
     "Goleada 4-1 a Bolivia con doblete de Messi.": [
       "2026-06-28"
+    ],
+    "Argentina Campeón del Mundo por segunda vez (3-2 vs Alemania).": [
+      "2026-06-29"
+    ],
+    "Cumpleaños de Leandro Paredes (33 años)": [
+      "2026-06-29"
+    ],
+    "Mundial 2026 - 32avos de final, día 2.": [
+      "2026-06-29"
+    ],
+    "Argentina 1-2 Italia en segunda ronda.": [
+      "2026-06-29"
+    ],
+    "Argentina cae 4-1 ante Brasil en final de Confederaciones.": [
+      "2026-06-29"
     ]
   },
   "news_topics": {
