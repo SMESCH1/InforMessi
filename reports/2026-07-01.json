@@ -32,12 +32,107 @@
         "description": "Gol de Di María a Suiza en el último minuto del suplementario."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Partidos de hoy del Mundial 2026, martes 30 de junio: horario y por dónde ver en vivo online",
+        "description": "En la 20° jornada de la Copa del Mundo continúan los 16vos de final con tres encuentros que definirán nuevos clasificados a octavos",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/partidos-de-hoy-del-mundial-2026-martes-30-de-junio-horario-y-por-donde-ver-en-vivo-online-nid30062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-30T10:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "La Academia Mohammed VI, la cantera que impulsa al nuevo Marruecos futbolístico",
+        "description": "La clasificación de Marruecos para los octavos de final eliminando a una potencia futbolística como Países Bajos después de superar una fase de grupos en la que empató con Brasil evidencia el acierto ",
+        "url": "https://www.abc.es/deportes/futbol/mundial/academia-mohammed-cantera-impulsa-nuevo-marruecos-futbolistico-20260630233528-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-06-30T09:43:09Z",
+        "category": "general"
+      },
+      {
+        "title": "¿Quién es el nuevo héroe del Mundial 2026 que surgió de Sudamérica?",
+        "description": "El arquero que \"vendió todo\" para mantener a su familia y cuyo desempeño fue clave para la victoria sobre el tetracampeón del mundo.",
+        "url": "https://actualidad.rt.com/actualidad/614015-nuevo-heroe-mundial-2026-orlando",
+        "source": "RT",
+        "published_at": "2026-06-30T09:28:15Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Mundial 2026: los diarios de Alemania reaccionaron a la eliminación de su seleccionado ante Paraguay",
+        "description": "Los grandes medios del país del tetracampeón se hicieron eco del fracaso",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-2026-los-diarios-de-alemania-reaccionaron-a-la-eliminacion-de-su-seleccionado-ante-paraguay-nid30062026/",
+        "source": "La Nacion",
+        "published_at": "2026-06-30T10:11:19Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Horario y cómo ver hoy Francia vs Suecia en la TDT: más fútbol gratis de los dieciseisavos del Mundial 2026",
+        "description": "El Mundial 2026 continúa y los espectadores de la TDT pueden ver más fútbol gratis esta misma noche a través de RTVE. Después del partido de ayer entre Brasil y Japón, que también se pudo ver en abier",
+        "url": "https://www.adslzone.net/noticias/streaming-tv/donde-ver-gratis-francia-suecia-mundial-2026/",
+        "source": "Adslzone.net",
+        "published_at": "2026-06-30T10:06:25Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Hallan sin vida a la esposa y los hijos del futbolista Lucas Trejo tras los terremotos en Venezuela y 74 horas de búsqueda",
+        "description": "Los cuerpos fueron encontrados entre los escombros del edificio en el que vivían en la ciudad costera de La Guaira.  Más información: La desesperación de las familias de La Guaira, 100 horas tras los ",
+        "url": "https://www.elespanol.com/deportes/futbol/20260629/hallan-sin-vida-esposa-hijos-futbolista-lucas-trejo-terremotos-venezuela-horas-busqueda/1003744303236_0.html",
+        "source": "Elespanol.com",
+        "published_at": "2026-06-29T08:22:37Z",
+        "category": "general"
+      },
+      {
+        "title": "Un Mundial con aroma indálico",
+        "description": "Hasta nueve exjugadores del Almería disputan la Copa del Mundo, a los que se suma el nuevo fichaje Brian Cipenga",
+        "url": "https://www.marca.com/futbol/almeria/2026/07/01/mundial-aroma-indalico.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-01T10:32:04",
+        "category": "mundial"
+      },
+      {
+        "title": "Matthäus desvela tensiones en selección alemana por la presencia de familiares de jugadores",
+        "description": "La leyenda germana desvela algunos supuestos episodios de tensión durante el torneo",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/01/matthaeus-desvela-tensiones-seleccion-alemana-presencia-familiares-jugadores.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-01T10:30:35",
+        "category": "seleccion"
+      },
+      {
+        "title": "Kroos, contundente con Alemania: \"No tenemos ni un jugador de clase mundial\"",
+        "description": "El exjugador del Real Madrid e internacional germano ha hablado de la eliminación ante Paraguay en dieciseisavos&nbsp;",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/01/kroos-contundente-alemania-jugador-clase-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-01T10:21:47",
+        "category": "mundial"
+      },
+      {
+        "title": "El Valencia anuncia el fichaje de Justin de Haas",
+        "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+        "url": "https://www.marca.com/futbol/valencia/2026/07/01/valencia-anuncia-fichaje-justin-haas-2030.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-01T10:13:08",
+        "category": "general"
+      },
+      {
+        "title": "Dónde ver Costa de Marfil vs Noruega en vivo gratis: el Mundial 2026 online desde cualquier lugar",
+        "description": "Mala noticia para los dieciseisavos del Mundial: este partido no va por televisión abierta ni en España ni en México. Aquí tienes la ruta para verlo gratis igualmente, con Haaland de vuelta.",
+        "url": "https://es.gizmodo.com/donde-ver-costa-de-marfil-vs-noruega-en-vivo-gratis-el-mundial-2026-online-desde-cualquier-lugar-2000243873",
+        "source": "Gizmodo.com",
+        "published_at": "2026-06-30T14:46:17Z"
+      },
+      {
+        "title": "El homenaje a Enrique Macaya Márquez, el longevo periodista argentino de 91 años que lleva cubriendo 18 Mundiales",
+        "description": "La FIFA reconoció la trayectoria del comunicador argentino, cuya primera cobertura mundialista fue en Suecia 1958, cuando Pelé irrumpió en la escena internacional con apenas 17 años.",
+        "url": "https://www.latercera.com/tendencias/noticia/el-homenaje-a-enrique-macaya-marquez-el-longevo-periodista-argentino-de-91-anos-que-lleva-cubriendo-18-mundiales/",
+        "source": "Latercera.com",
+        "published_at": "2026-06-30T15:23:07Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 21 días para el Mundial 2026 ⚽\n\nHoy Argentina enfrenta a en a las 22:00 en el Arrowhead Stadium de Kansas City. La Scaloneta sale a defender el título con Messi al frente 🇦🇷\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 21 del Mundial 2026 ⚽\n📰 Partido de hoy del Mundial 2026: Argentina enfrenta a  en el  a las 16:00 en el .\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-07-01T15:48:55.010936",
+  "published_at": "2026-07-01T15:48:55.664798",
+  "pre_approved": true,
+  "pre_approved_at": "2026-07-01T15:48:55.010948"
 }
