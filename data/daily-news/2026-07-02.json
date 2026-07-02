@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-07-02",
+  "scraped_at": "2026-07-02T09:49:26.665426",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Lamine Yamal, jugador de España: \"Somos la única selección a la que se le exige jugar muy bien. A las otras les vale con ganar\"",
+      "description": "El extremo derecho se muestra confiado en poder llegar a la cima de la competición a pesar de los duros rivales a batir",
+      "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-07-01/lamine-yamal-seleccion-espanona-exige-jugar-muy-bien_4381502/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-07-01T09:15:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Inglaterra - RD Congo: horario y dónde ver hoy por TV los dieciseisavos del Mundial 2026",
+      "description": "Las selecciones de Inglaterra y de la República Democrática del Congo se citan hoy, miércoles 1 de julio, en el Mercedes-Benz Stadium de Atlanta para disputar el partido de...",
+      "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/07/01/6a44c14be4d4d815338b456e.html",
+      "source": "El Mundo",
+      "published_at": "2026-07-01T08:27:29Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Mundial 2026: calendario del 2 de julio, partidos y horarios",
+      "description": "Los próximos 16 partidos de este Mundial 2026 decidirán qué países están preparados para alcanzar la gloria",
+      "url": "https://www.elindependiente.com/deportes/2026/07/01/mundial-2026-calendario-2-julio-partidos-horarios/",
+      "source": "Elindependiente.com",
+      "published_at": "2026-07-01T07:44:16Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El Mundial 2026 impulsa a La 1 hasta el 14,3% y rompe 22 meses de liderazgo de Antena 3",
+      "description": "AUDIENCIAS JUNIO 2026 Telecinco anota su peor junio histórico con un 8,3% de share. La 2 en cambio, logra su mejor mes de junio desde 2009.El Mundial 2026 impulsa a La 1 hasta el 14,3% y rompe 22 mese",
+      "url": "https://www.formulatv.com/noticias/audiencias-mes-junio-2026-mundial-la-1-lider-137613/",
+      "source": "Formulatv.com",
+      "published_at": "2026-07-01T09:24:50Z",
+      "category": "mundial"
+    },
+    {
+      "title": "\"Ni rastro de autocrítica\": lluvia de reproches a Nagelsmann tras su tenso encontronazo con una periodista tras la derrota de Alemania",
+      "description": "La inesperada eliminación frente a Paraguay ha abierto una profunda crisis en la selección alemana, agravada por un incómodo intercambio televisado",
+      "url": "https://www.elconfidencial.com/deportes/2026-07-01/autocritica-reproches-entrenador-alemania-1qrt_4381507/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-07-01T09:09:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Inés García revela los secretos de su relación con Lamine Yamal: \"Seguramente esperéis una historia de amor perfecta pero no\"",
+      "description": "La joven está acompañando al futbolista en el Mundial 2026",
+      "url": "https://www.hola.com/actualidad/20260701910340/ines-garcia-revela-los-secretos-de-su-relacion-con-lamine-yamal/",
+      "source": "Hola",
+      "published_at": "2026-07-01T09:05:46Z",
+      "category": "mundial"
+    },
+    {
+      "title": "700 días sin jugar, lesiones y él último en entrar a la selección, detrás del milagro que clasificó a Austria: “Sin palabras”",
+      "description": "Las lesiones previas prepararon a Saša Kalajdžić con el temple para encontrar en el minuto 95 ante Argelia la revancha que parecía imposible",
+      "url": "https://www.lanacion.com.ar/lifestyle/700-dias-sin-jugar-lesiones-y-el-ultimo-en-entrar-a-la-seleccion-detras-del-milagro-que-clasifico-a-nid01072026/",
+      "source": "La Nacion",
+      "published_at": "2026-07-01T06:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Qué hará River con cada uno de los jugadores que Eduardo Coudet considera prescindibles",
+      "description": "Son ocho los futbolistas que se entrenan en Buenos Aires, pero hay más nombres apuntados",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/que-hara-river-con-cada-uno-de-los-jugadores-que-eduardo-coudet-considera-prescindibles-nid30062026/",
+      "source": "La Nacion",
+      "published_at": "2026-06-30T13:42:08Z",
+      "category": "liga"
+    },
+    {
+      "title": "Guido Rodríguez acepta la oferta del Valencia y firmará hasta 2028 con una temporada opcional",
+      "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+      "url": "https://www.marca.com/futbol/valencia/2026/07/02/guido-rodriguez-acepta-oferta-valencia-firmara-2028-temporada-opcional.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-02T09:44:47",
+      "category": "general"
+    },
+    {
+      "title": "Messi no puede aguantar la risa al descubrir lo que llevaba el Cuti Romero en la mochila",
+      "description": "",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/02/messi-aguantar-risa-descubrir-llevaba-cuti-romero-mochila-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-02T09:43:31",
+      "category": "seleccion"
+    }
+  ]
+}
