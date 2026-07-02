@@ -56,9 +56,19 @@ def collect_all_data(date: str = None, include_news: bool = True) -> dict:
     print("📊 Recolectando datos del día...")
     print("=" * 50)
     
-    # Clima: Removido (feature futura)
-    # El clima se dejó como feature futura, no se incluye en el flujo actual
-    
+    # Clima - AMBA y La Plata via Open-Meteo
+    print("🌤 Obteniendo clima...")
+    weather = None
+    try:
+        from importlib import import_module
+        fw = import_module("fetch-weather")
+        weather = fw.get_weather(date)
+        if weather is None:
+            print("⚠️  Clima no disponible para esta fecha.")
+    except Exception as e:
+        print(f"⚠️  Error al obtener clima: {e}")
+        weather = None
+
     # Eventos - usar script mejorado, con fallback directo a events.json
     print("📅 Obteniendo eventos...")
     events = []
@@ -285,7 +295,8 @@ def collect_all_data(date: str = None, include_news: bool = True) -> dict:
         "mundial_phase": mundial_phase,
         "mundial_day": mundial_day,
         "events": events,
-        "news": all_news
+        "news": all_news,
+        "weather": weather
     }
     
     print()
