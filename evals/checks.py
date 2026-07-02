@@ -283,7 +283,26 @@ def check_sin_markdown(report):
 
 def check_emojis(report):
     message = report.get("message", "")
-    count = len(_EMOJI_RE.findall(message))
+    # Contar pares de regional indicators (banderas) como 1 emoji cada uno
+    # Ejemplo: 🇦🇷 = U+1F1E6 + U+1F1F7 = se cuenta como 1 emoji visual
+    flag_pattern = re.compile(r'[\U0001F1E6-\U0001F1FF]{2}')
+    flags = flag_pattern.findall(message)
+    flag_count = len(flags)
+
+    # Eliminar las banderas del texto para contar el resto de emojis
+    message_without_flags = flag_pattern.sub('', message)
+
+    # Contar emojis restantes (sin el rango de regional indicators que ya contamos)
+    rest_emoji_pattern = re.compile(
+        "["
+        "\U0001F300-\U0001FAFF"  # símbolos misc, emoticons, transporte, suplementarios
+        "\U00002600-\U000027BF"  # misc symbols y dingbats
+        "\U0000FE0F"             # variation selector (emoji presentation)
+        "]"
+    )
+    rest_count = len(rest_emoji_pattern.findall(message_without_flags))
+    count = flag_count + rest_count
+
     if 3 <= count <= 7:
         return _make_result("emojis", True, "warning", f"{count} emojis, dentro de 3-7.")
     return _make_result("emojis", False, "warning", f"{count} emojis, fuera de 3-7.")

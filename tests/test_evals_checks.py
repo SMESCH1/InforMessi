@@ -369,6 +369,8 @@ class TestEmojis:
         result = _by_name(run_checks(report), "emojis")
         assert result["passed"] is True
         assert result["severity"] == "warning"
+        # GOOD_MESSAGE contiene: 1 bandera (🇦🇷) + 5 otros emojis (🌤🏆🩵🤍🩵) = 6 total
+        assert "6 emojis" in result["detail"]
 
     def test_fail_sin_emojis(self):
         report = make_good_report()
@@ -382,9 +384,14 @@ class TestEmojis:
 
     def test_fail_demasiados_emojis(self):
         report = make_good_report()
-        report["message"] += "\n" + "⚽🎉🎊🏆🥳🇦🇷🔥✨" * 2
+        # Agregar emojis: ⚽🎉🎊🏆🥳🔥✨ (7 no-banderas) + 🇦🇷 (1 bandera)
+        # = 8 emojis totales, fuera del rango 3-7
+        report["message"] += "\n" + "⚽🎉🎊🏆🥳🔥✨🇦🇷"
         result = _by_name(run_checks(report), "emojis")
         assert result["passed"] is False
+        # Resultado esperado: 6 (original) + 8 (agregados) = 14
+        # Realmente: 6 + 1 bandera + 7 otros = 14
+        assert "14 emojis" in result["detail"]
 
 
 class TestSummarize:
