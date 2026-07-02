@@ -327,41 +327,13 @@ def call_llm_ollama(prompt, model="qwen2.5:7b-instruct", base_url="http://localh
 
 
 def call_llm_groq(prompt, model="llama-3.1-8b-instant", temperature=0.7, max_tokens=300):
-    """Llama a Groq API (gratuita) para generar el mensaje, con retry en rate limit."""
-    import requests
-    import time
+    """Llama a Groq API (gratuita) para generar el mensaje, con retry en rate limit.
 
-    api_key = os.environ.get("GROQ_API_KEY", "")
-    if not api_key:
-        logger.error("ERROR: GROQ_API_KEY no configurada")
-        sys.exit(1)
-
-    max_retries = 5
-    for attempt in range(max_retries):
-        response = requests.post(
-            "https://api.groq.com/openai/v1/chat/completions",
-            headers={
-                "Authorization": f"Bearer {api_key}",
-                "Content-Type": "application/json"
-            },
-            json={
-                "model": model,
-                "messages": [{"role": "user", "content": prompt}],
-                "temperature": temperature,
-                "max_tokens": max_tokens
-            },
-            timeout=60
-        )
-        if response.status_code == 429:
-            retry_after = int(response.headers.get("retry-after", 15))
-            wait = max(retry_after, 10 * (attempt + 1))
-            logger.warning(f"⏳ Rate limit Groq, esperando {wait}s (intento {attempt + 1}/{max_retries})...")
-            time.sleep(wait)
-            continue
-        response.raise_for_status()
-        return response.json()["choices"][0]["message"]["content"]
-
-    response.raise_for_status()  # último intento, dejar que falle
+    Wrapper delgado sobre llm_client.call_groq (mantenido por compatibilidad).
+    """
+    sys.path.insert(0, str(Path(__file__).parent))
+    from llm_client import call_groq
+    return call_groq(prompt, model=model, temperature=temperature, max_tokens=max_tokens)
 
 
 def _get_llm_caller(provider, model, base_url):
