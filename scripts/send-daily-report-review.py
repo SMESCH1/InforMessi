@@ -11,6 +11,9 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar_iso, today_ar
+
 # Cargar variables de entorno desde .env
 try:
     from dotenv import load_dotenv
@@ -86,7 +89,7 @@ def main():
     if args.date:
         target_date = args.date
     else:
-        target_date = datetime.now().strftime("%Y-%m-%d")
+        target_date = today_ar()
     
     # Cargar variables de entorno
     preview_chat_id = os.getenv("TELEGRAM_PREVIEW_CHAT_ID")
@@ -174,7 +177,7 @@ def main():
             if success:
                 # Marcar como publicado
                 report["status"] = "published"
-                report["published_at"] = datetime.now().isoformat()
+                report["published_at"] = now_ar_iso()
                 
                 report_file = REPORTS_DIR / f"{target_date}.json"
                 with open(report_file, 'w', encoding='utf-8') as f:

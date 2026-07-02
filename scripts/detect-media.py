@@ -4,8 +4,12 @@ Detecta contenido audiovisual para una fecha específica
 """
 
 import json
+import sys
 from pathlib import Path
 from typing import Dict, Optional
+
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import today_ar
 
 PROJECT_ROOT = Path(__file__).parent.parent
 MEDIA_DIR = PROJECT_ROOT / "assets" / "media"
@@ -62,8 +66,7 @@ def get_media_for_date(date: str) -> Optional[Dict]:
 def main():
     """Función principal - para testing"""
     import argparse
-    from datetime import datetime
-    
+
     parser = argparse.ArgumentParser(
         description="Detecta contenido audiovisual para una fecha"
     )
@@ -77,7 +80,7 @@ def main():
     if args.date:
         target_date = args.date
     else:
-        target_date = datetime.now().strftime("%Y-%m-%d")
+        target_date = today_ar()
     
     media = get_media_for_date(target_date)
     

@@ -8,8 +8,12 @@ import json
 import os
 import sys
 from datetime import datetime
+from pathlib import Path
 from typing import List, Dict, Optional
 from urllib.parse import quote
+
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar, now_ar_iso, today_ar
 
 try:
     import requests
@@ -82,9 +86,9 @@ def _validate_news_basic(news_list: List[Dict], max_days: int = 3, reference_dat
         try:
             today = datetime.strptime(reference_date, "%Y-%m-%d").date()
         except Exception:
-            today = datetime.now().date()
+            today = now_ar().date()
     else:
-        today = datetime.now().date()
+        today = now_ar().date()
 
     obsolete_keywords = [
         "gerardo martino", "tata martino", "sampaoli", "bauza",
@@ -292,7 +296,7 @@ def get_news_tyc_sports(max_results: int = 8) -> List[Dict]:
                                 "description": "",
                                 "url": full_url,
                                 "source": "TyC Sports",
-                                "published_at": datetime.now().isoformat()
+                                "published_at": now_ar_iso()
                             })
 
                 if news:
@@ -417,7 +421,7 @@ def main():
                 print(f"      Fuente: {item['source']}")
 
         if args.output:
-            output_data = {"date": datetime.now().strftime("%Y-%m-%d"), "news": news}
+            output_data = {"date": today_ar(), "news": news}
             with open(args.output, 'w', encoding='utf-8') as f:
                 json.dump(output_data, f, indent=2, ensure_ascii=False)
             print(f"\n💾 Datos guardados en: {args.output}")

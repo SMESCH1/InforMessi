@@ -13,6 +13,9 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar_iso, today_ar
+
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -149,7 +152,7 @@ def main():
 
     parser = argparse.ArgumentParser(description="Scraper diario de noticias InforMessi")
     parser.add_argument(
-        "--date", default=datetime.now().strftime("%Y-%m-%d"),
+        "--date", default=today_ar(),
         help="Fecha del archivo de noticias (default: hoy)"
     )
     args = parser.parse_args()
@@ -185,7 +188,7 @@ def main():
     # Guardar
     output = {
         "scrape_date": target_date,
-        "scraped_at": datetime.now().isoformat(),
+        "scraped_at": now_ar_iso(),
         "total_news": len(unique_news),
         "news": unique_news,
     }

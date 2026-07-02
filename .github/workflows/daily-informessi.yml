@@ -40,7 +40,7 @@ jobs:
           LLM_MODEL: llama-3.1-8b-instant
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
-          DATE=$(date +%Y-%m-%d)
+          DATE=$(TZ=America/Argentina/Buenos_Aires date +%Y-%m-%d)
           if [ ! -f "reports/${DATE}.json" ]; then
             echo "Generando informe para ${DATE}..."
             python3 scripts/generate-advance-reports.py --days 1 --start-date "${DATE}" --provider groq
@@ -82,6 +82,6 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add reports/ data/ || true
-          git diff --staged --quiet || git commit -m "Actualizar informe $(date +%Y-%m-%d)"
+          git diff --staged --quiet || git commit -m "Actualizar informe $(TZ=America/Argentina/Buenos_Aires date +%Y-%m-%d)"
           # Si el push falla, el job falla: el siguiente run no tendrá reports/data actualizados (memoria desactualizada)
           git push

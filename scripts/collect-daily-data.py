@@ -11,6 +11,9 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar, now_ar_iso, today_ar
+
 PROJECT_ROOT = Path(__file__).parent.parent
 
 # Evita UnicodeEncodeError en consolas Windows (cp1252) al imprimir emojis
@@ -48,7 +51,7 @@ def collect_all_data(date: str = None, include_news: bool = True) -> dict:
     """Recolecta todos los datos del día"""
 
     if not date:
-        date = datetime.now().strftime("%Y-%m-%d")
+        date = today_ar()
     
     print("📊 Recolectando datos del día...")
     print("=" * 50)
@@ -216,7 +219,7 @@ def collect_all_data(date: str = None, include_news: bool = True) -> dict:
             "description": post.get("content", "")[:200],
             "url": post.get("url", ""),
             "source": f"Reddit r/{post.get('subreddit', 'unknown')}",
-            "published_at": post.get("created_at", datetime.now().isoformat())
+            "published_at": post.get("created_at", now_ar_iso())
         })
 
     # Combinar: scrapeadas (prioridad) + live + reddit
@@ -307,7 +310,7 @@ def main():
     parser.add_argument(
         "--date",
         help="Fecha en formato YYYY-MM-DD (default: hoy)",
-        default=datetime.now().strftime("%Y-%m-%d")
+        default=today_ar()
     )
     parser.add_argument(
         "--output",

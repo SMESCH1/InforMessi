@@ -6,11 +6,15 @@ MVP - InforMessi
 """
 
 import json
+import sys
 import unicodedata
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Set
 from collections import defaultdict
+
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar, now_ar_iso, today_ar
 
 import logging
 logger = logging.getLogger(__name__)
@@ -53,8 +57,8 @@ class MemoryDatabase:
         """Crea una base de datos vacía"""
         return {
             "version": "1.0",
-            "created_at": datetime.now().isoformat(),
-            "last_updated": datetime.now().isoformat(),
+            "created_at": now_ar_iso(),
+            "last_updated": now_ar_iso(),
             "players_used": {},  # {player_name: [dates]}
             "weekly_sections": {
                 "seleccion_mundiales": [],  # [dates]
@@ -79,7 +83,7 @@ class MemoryDatabase:
     
     def save(self):
         """Guarda la base de datos en archivo"""
-        self.data["last_updated"] = datetime.now().isoformat()
+        self.data["last_updated"] = now_ar_iso()
         
         # Crear directorio si no existe
         self.db_file.parent.mkdir(parents=True, exist_ok=True)
@@ -174,7 +178,7 @@ class MemoryDatabase:
     
     def get_recent_topics(self, days: int = 30) -> List[str]:
         """Obtiene temas mencionados recientemente"""
-        cutoff_date = datetime.now().isoformat()[:10]  # YYYY-MM-DD
+        cutoff_date = today_ar()  # YYYY-MM-DD
         # Simplificado: retornar todos los temas
         return list(self.data["topics_mentioned"].keys())
     
@@ -310,7 +314,7 @@ def build_memory_context_from_db(target_date: str) -> str:
 
     def _filter_recent_items(items_map: Dict[str, List[str]], days: int = 30) -> List[str]:
         """Retorna claves ordenadas por uso reciente dentro de ventana de dias."""
-        cutoff = datetime.now().date()
+        cutoff = now_ar().date()
         recent_items = []
         for key, dates in items_map.items():
             parsed_dates = []
@@ -395,7 +399,7 @@ def main():
     parser.add_argument(
         "--date",
         help="Fecha objetivo (YYYY-MM-DD). Default: hoy",
-        default=datetime.now().strftime("%Y-%m-%d")
+        default=today_ar()
     )
     parser.add_argument(
         "--show",

@@ -11,6 +11,9 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar_iso, today_ar
+
 import logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
@@ -138,9 +141,9 @@ def update_report_for_date(date: str) -> bool:
     report["data"] = updated_data
     report["message"] = updated_message
     report["status"] = "updated"
-    report["updated_at"] = datetime.now().isoformat()
+    report["updated_at"] = now_ar_iso()
     report["pre_approved"] = True
-    report["pre_approved_at"] = datetime.now().isoformat()
+    report["pre_approved_at"] = now_ar_iso()
     
     # Guardar
     with open(report_file, 'w', encoding='utf-8') as f:
@@ -168,7 +171,7 @@ def main():
     if args.date:
         target_date = args.date
     else:
-        target_date = datetime.now().strftime("%Y-%m-%d")
+        target_date = today_ar()
     
     logger.info("🔄 Actualizando informe del día")
     logger.info("=" * 50)

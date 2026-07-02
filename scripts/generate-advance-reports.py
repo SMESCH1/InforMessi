@@ -12,6 +12,9 @@ import subprocess
 from datetime import datetime, timedelta
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar, now_ar_iso
+
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -134,7 +137,7 @@ def generate_report_for_date(
     # Guardar informe
     report = {
         "date": date,
-        "generated_at": datetime.now().isoformat(),
+        "generated_at": now_ar_iso(),
         "data": data,
         "message": message,
         "status": "draft",  # draft, updated, published
@@ -197,7 +200,7 @@ def main():
     if args.start_date:
         start_d = _parse_cli_date(args.start_date, "--start-date")
     else:
-        start_d = datetime.now().date()
+        start_d = now_ar().date()
 
     if args.end_date:
         end_d = _parse_cli_date(args.end_date, "--end-date")
