@@ -121,6 +121,62 @@ class TestInyeccionClima:
         assert "\U0001F324 Clima" in result
         assert result.count("\U0001F324 Clima") == 1
 
+    def test_no_elimina_falso_positivo_clima_tenso(self):
+        # "clima" en sentido figurado (ambiente del vestuario), no meteorologico.
+        raw = _join(
+            SALUDO,
+            DIA5,
+            "El clima tenso del vestuario preocupa a Scaloni de cara al proximo partido "
+            "del equipo en el Mundial 2026.",
+            BUEN_DIA + NL + CIERRE,
+        )
+        data = _base_data(weather=WEATHER, events=SOME_EVENT)
+        result = postprocess_message(raw, data, days_remaining=-4)
+
+        assert "clima tenso" in result.lower()
+
+    def test_no_elimina_falso_positivo_grados_ranking(self):
+        # "grados" en un sentido no meteorologico (diferencia de puntos/ranking).
+        raw = _join(
+            SALUDO,
+            DIA5,
+            "La Scaloneta gano por 30 grados de diferencia en el ranking FIFA "
+            "respecto de su rival de turno.",
+            BUEN_DIA + NL + CIERRE,
+        )
+        data = _base_data(weather=WEATHER, events=SOME_EVENT)
+        result = postprocess_message(raw, data, days_remaining=-4)
+
+        assert "30 grados de diferencia" in result.lower()
+
+    def test_elimina_linea_con_emoji_sol_y_grados_maxima(self):
+        raw = _join(
+            SALUDO,
+            DIA5,
+            "☀️ Hoy 25 grados de maxima en Buenos Aires",
+            "La Scaloneta sigue firme en el Mundial 2026, con Messi liderando "
+            "al equipo hacia la siguiente fase con confianza total.",
+            BUEN_DIA + NL + CIERRE,
+        )
+        data = _base_data(weather=WEATHER, events=SOME_EVENT)
+        result = postprocess_message(raw, data, days_remaining=-4)
+
+        assert "25 grados de maxima" not in result.lower()
+
+    def test_elimina_linea_con_pronostico_y_grado_minima(self):
+        raw = _join(
+            SALUDO,
+            DIA5,
+            "El pronostico anuncia 12° de minima para hoy en la ciudad.",
+            "La Scaloneta sigue firme en el Mundial 2026, con Messi liderando "
+            "al equipo hacia la siguiente fase con confianza total.",
+            BUEN_DIA + NL + CIERRE,
+        )
+        data = _base_data(weather=WEATHER, events=SOME_EVENT)
+        result = postprocess_message(raw, data, days_remaining=-4)
+
+        assert "12° de minima" not in result.lower()
+
 
 class TestCierreDoble:
     def test_inserta_buen_dia_si_falta(self):

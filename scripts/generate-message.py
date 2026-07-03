@@ -383,16 +383,50 @@ def _format_weather_block(weather):
 # Líneas que el LLM a veces escribe mencionando clima/temperaturas, pese a
 # la instrucción explícita de no hacerlo (defensa: el bloque es 100%
 # determinístico e inyectado por postprocess_message).
-_WEATHER_MENTION_RE = re.compile(
-    r"(clima|temperatura|grados?\b|°c\b|min\.?\s*\d+°|max\.?\s*\d+°)",
+#
+# El filtro está acotado a patrones que efectivamente hablan del clima
+# meteorológico, para no eliminar de más frases como "el clima tenso del
+# vestuario" o "ganó por 30 grados de diferencia en el ranking" (falsos
+# positivos confirmados empíricamente). Una línea se elimina SOLO si:
+#   (a) tiene un patrón numérico de temperatura (-12° / 30 grados) JUNTO a
+#       contexto meteorológico (mín/máx/térmica/temperatura/pronóstico) en
+#       la misma línea, o
+#   (b) "clima" aparece cerca de AMBA/La Plata/pronóstico/temperatura/
+#       soleado/lluvia/nublado, o
+#   (c) la línea empieza con uno de los emojis del bloque de clima.
+_WEATHER_TEMP_CONTEXT_RE = re.compile(
+    r"m[ií]n(?:\.|ima)?|m[aá]x(?:\.|ima)?|t[eé]rmica|temperatura|pron[oó]stico",
     re.IGNORECASE,
 )
+_WEATHER_TEMP_NUMBER_RE = re.compile(r"-?\d+\s*°|\d+\s*grados?\b", re.IGNORECASE)
+_WEATHER_CLIMA_WORD_RE = re.compile(r"clima", re.IGNORECASE)
+_WEATHER_CLIMA_CONTEXT_RE = re.compile(
+    r"amba|la\s+plata|pron[oó]stico|temperatura|soleado|lluvia|nublado",
+    re.IGNORECASE,
+)
+_WEATHER_EMOJI_START_RE = re.compile(r"^\s*[\U0001F324\U0001F326\U0001F327☀️]")
+
+
+def _is_llm_weather_line(line):
+    """True si la línea debe descartarse por hablar del clima meteorológico."""
+    if _WEATHER_EMOJI_START_RE.match(line):
+        return True
+    if _WEATHER_TEMP_NUMBER_RE.search(line) and _WEATHER_TEMP_CONTEXT_RE.search(line):
+        return True
+    if _WEATHER_CLIMA_WORD_RE.search(line) and _WEATHER_CLIMA_CONTEXT_RE.search(line):
+        return True
+    return False
 
 
 def _strip_llm_weather_mentions(message):
     """Elimina líneas escritas por el LLM que mencionan clima/temperaturas."""
     lines = message.split("\n")
-    kept = [ln for ln in lines if not _WEATHER_MENTION_RE.search(ln)]
+    kept = []
+    for ln in lines:
+        if _is_llm_weather_line(ln):
+            logger.info(f"Descartando línea por mención de clima del LLM: {ln!r}")
+            continue
+        kept.append(ln)
     cleaned = "\n".join(kept)
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
     return cleaned.strip()
