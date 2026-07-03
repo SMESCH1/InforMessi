@@ -75,6 +75,11 @@ def should_auto_publish(report: dict, hours_threshold: float = 2) -> bool:
     Returns:
         True si debe publicarse, False si no
     """
+    # Si los evals fallaron y quedó marcado para revisión manual, nunca
+    # publicar automáticamente
+    if report.get("eval_warning"):
+        return False
+
     # Si ya está publicado, no hacer nada
     if report.get("status") == "published":
         return False
