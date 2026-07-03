@@ -45,12 +45,114 @@
         "description": "Mundial 2026 - Día de descanso antes de octavos de final."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Suiza - Argelia:  horario y dónde ver hoy por TV los dieciseisavos del Mundial 2026",
+        "description": "El delantero suizo Breel Embolo aseguró esta semana que el entrenador de Argelia, Vladimir Petkovic, fue responsable de impulsar a la selección nacional de Suiza durante sus...",
+        "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/07/02/6a4629a021efa0fc3d8b4585.html",
+        "source": "El Mundo",
+        "published_at": "2026-07-02T09:37:52Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mexicanos perciben a Francia o a  México ganador del Mundial: Encuesta EF",
+        "description": "Argentina y Brasil fueron desplazados de la preferencia de los aficionados.",
+        "url": "https://www.elfinanciero.com.mx/deportes/mundial-2026/2026/07/02/mexicanos-perciben-a-francia-o-a-mexico-ganador-del-mundial-encuesta-ef/",
+        "source": "El Financiero",
+        "published_at": "2026-07-02T09:37:44Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Portugal - Croacia: horario y dónde ver hoy por TV los dieciseisavos del Mundial 2026",
+        "description": "El Mundial se prepara para sacar los pañuelos. Sin importar el resultado de la vibrante pugna entre Portugal y Croacia, esta noche en Toronto, la mayor cita del fútbol dirá...",
+        "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/07/02/6a46196de9cf4aac4f8b45b6.html",
+        "source": "El Mundo",
+        "published_at": "2026-07-02T08:43:55Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Pedro Ruiz, contundente con la Selección antes del partido de España contra Austria en el Mundial: «Los nombres no ganan»",
+        "description": "La selección española llega al SoFi Stadium de Los Ángeles con una mezcla de ilusión y nerviosismo. Los jugadores dirigidos por Luis de la Fuente se mide este jueves a Austria en dieciseisavos de fina",
+        "url": "https://www.abc.es/recreo/pedro-ruiz-advierte-seleccion-espanola-partido-austria-20260702112930-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-07-02T09:35:22Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Diseñar la euforia de un gol: OPEN convierte el Mundial en diseño generativo",
+        "description": "El estudio OPEN ha desarrollado un sistema generativo que transforma los datos de cada partido del Mundial 2026 en piezas visuales únicas. El proyecto, llamado vs., plantea una pregunta muy propia del",
+        "url": "https://graffica.info/vs-convierte-cada-gol-del-mundial-en-una-pieza-de-diseno-generativo/",
+        "source": "Graffica.info",
+        "published_at": "2026-07-02T09:16:41Z",
+        "category": "mundial"
+      },
+      {
+        "title": "700 días sin jugar, lesiones y él último en entrar a la selección, detrás del milagro que clasificó a Austria: “Sin palabras”",
+        "description": "Las lesiones previas prepararon a Saša Kalajdžić con el temple para encontrar en el minuto 95 ante Argelia la revancha que parecía imposible",
+        "url": "https://www.lanacion.com.ar/lifestyle/700-dias-sin-jugar-lesiones-y-el-ultimo-en-entrar-a-la-seleccion-detras-del-milagro-que-clasifico-a-nid01072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-01T06:00:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Confianza en el corazón txuriurdin de Oyarzabal",
+        "description": "Las grandes actuaciones en el Mundial colocan al capitán de la Real más en el mercado que nunca, pero la afición se agarra a su sentimiento para no llevarse un grandísimo susto",
+        "url": "https://www.marca.com/futbol/real-sociedad/2026/07/03/confianza-corazon-txuriurdin-oyarzabal.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-03T09:37:34",
+        "category": "mundial"
+      },
+      {
+        "title": "Alineación probable del Argentina - Cabo Verde en el Mundial: onces del partido de los dieciseisavos de final",
+        "description": "Los posibles onces del partido de dieciseisavos",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/03/alineacion-probable-argentina-cabo-verde-mundial-onces-partido-dieciseisavos-final.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-03T09:06:24",
+        "category": "seleccion"
+      },
+      {
+        "title": "Petar Sucic revela su conversación con Cristiano Ronaldo: \"Me dijo que así es el fútbol...\"",
+        "description": "El centrocampista croata fue consolado por el luso tras el pitido final",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/03/petar-sucic-revela-conversacion-cristiano-ronaldo-me-dijo-asi-futbol.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-03T08:35:34",
+        "category": "general"
+      },
+      {
+        "title": "El Valencia anuncia la continuidad de Guido Rodríguez por dos temporadas más una opcional",
+        "description": "El futbolista había quedado libre tras jugar media temporada procedente del West Ham",
+        "url": "https://www.marca.com/futbol/valencia/2026/07/03/valencia-anuncia-continuidad-guido-rodriguez-dos-temporadas-opcional.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-03T08:17:32",
+        "category": "general"
+      },
+      {
+        "title": "Las canciones más icónicas de los mundiales: del ‘Rock del Mundial’ y el ‘Waka Waka’ al ‘Dai Dai’",
+        "description": "Las canciones del Mundial funcionan como un segundo marcador: no cuentan goles, sino emociones. En este recorrido repasamos los éxitos que acompañaron cada Copa del Mundo desde que inició la tradición",
+        "url": "https://www.nacion.com/viva/las-canciones-mas-iconicas-de-los-mundiales-del/SVFD5OBE65HU7ESRJ7HLV5KFDQ/story/",
+        "source": "Nacion.com",
+        "published_at": "2026-07-02T15:00:00Z"
+      },
+      {
+        "title": "La camisa de Pochettino: qué hay detrás del outfit del entrenador que despertó el interés de todos",
+        "description": "El DT de la selección de los Estados Unidos repitió uniforme en todos los partidos del Mundial y clasificó a los octavos de final; su look dio la vuelta al mundo y generó todo tipo de reacciones",
+        "url": "https://www.lanacion.com.ar/deportes/la-camisa-de-pochettino-que-hay-detras-del-outfit-del-entrenador-que-desperto-el-interes-de-todos-nid02072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-02T13:26:41Z"
+      },
+      {
+        "title": "España vs Austria de dieciseisavos de final: a qué hora y dónde ver el partido del Mundial 2026",
+        "description": "Es el turno de la Selección Española de Fútbol en dieciseisavos de final del Mundial 2026. Se ha disputado una gran parte de los choques de esta ronda eliminatoria y el siguiente es el de La Roja cont",
+        "url": "https://www.adslzone.net/noticias/streaming-tv/donde-ver-gratis-espana-austria-mundial-2026/",
+        "source": "Adslzone.net",
+        "published_at": "2026-07-02T13:07:30Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 23 días para el Mundial 2026 ⚽\n\nHoy Argentina elimina a Italia por penales y pasa a la final. Un día como hoy en 1990, la Scaloneta también alcanzó la final del Mundial 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 23 del Mundial 2026 ⚽\n\n📰 Alineación probable del Argentina - Cabo Verde en el Mundial: onces del partido de los dieciseisavos de final: Los posibles onces del partido de dieciseisavos (Fútbol)\n\n📰 Mexicanos perciben a Francia o a  México ganador del Mundial: Encuesta EF: Argentina y Brasil fueron desplazados de la preferencia de los aficionados. (El Financiero)\n\nHace 36 años, Argentina elimina a Italia por penales y pasa a la final.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-07-03T15:24:56.529605",
+  "published_at": "2026-07-03T15:24:57.297420",
+  "pre_approved": true,
+  "pre_approved_at": "2026-07-03T15:24:56.529615"
 }

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-07-02T15:29:37.674708",
+  "last_updated": "2026-07-03T15:24:57.312641",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -128,7 +128,8 @@
       "2026-06-19",
       "2026-06-22",
       "2026-06-26",
-      "2026-06-29"
+      "2026-06-29",
+      "2026-07-03"
     ],
     "jugador_scaloneta": [
       "2026-03-26",
@@ -294,7 +295,8 @@
       "2026-06-29",
       "2026-06-30",
       "2026-07-01",
-      "2026-07-02"
+      "2026-07-02",
+      "2026-07-03"
     ],
     "seleccion": [
       "2026-03-26",
@@ -367,7 +369,8 @@
       "2026-06-29",
       "2026-06-30",
       "2026-07-01",
-      "2026-07-02"
+      "2026-07-02",
+      "2026-07-03"
     ]
   },
   "events_mentioned": {
@@ -944,6 +947,21 @@
     ],
     "Maradona expulsado ante Brasil y eliminación del Mundial 82.": [
       "2026-07-02"
+    ],
+    "Argentina elimina a Italia por penales y pasa a la final.": [
+      "2026-07-03"
+    ],
+    "Dura eliminación de Sudáfrica 2010 tras caer 4-0 con Alemania.": [
+      "2026-07-03"
+    ],
+    "Eliminación de USA 94 tras perder 3-2 con Rumania.": [
+      "2026-07-03"
+    ],
+    "Goleada 3-0 a Ecuador con un Messi estelar.": [
+      "2026-07-03"
+    ],
+    "Mundial 2026 - Día de descanso antes de octavos de final.": [
+      "2026-07-03"
     ]
   },
   "news_topics": {
@@ -1183,6 +1201,12 @@
     ],
     "inglaterra - rd congo: horario y donde ver hoy por": [
       "2026-07-02"
+    ],
+    "mexicanos perciben a francia o a mexico ganador de": [
+      "2026-07-03"
+    ],
+    "alineacion probable del argentina - cabo verde en ": [
+      "2026-07-03"
     ]
   },
   "phrases_used": [],
