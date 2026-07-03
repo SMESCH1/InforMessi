@@ -138,6 +138,7 @@ def generate_report_for_date(
     report = {
         "date": date,
         "generated_at": now_ar_iso(),
+        "source": "pregenerated-base",  # base fallback; el agente diario lo actualiza
         "data": data,
         "message": message,
         "status": "draft",  # draft, updated, published
