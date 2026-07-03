@@ -8,7 +8,6 @@ generador y por el sistema de evals (judge LLM).
 
 import logging
 import os
-import sys
 import time
 
 import requests
@@ -17,6 +16,15 @@ logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
+
+
+class LLMClientError(RuntimeError):
+    """Error de configuración o comunicación con el cliente LLM.
+
+    Se usa en vez de sys.exit() para que llamadores como el judge LLM
+    (evals/judge.py) puedan capturarla con try/except y degradar de forma
+    controlada en vez de matar el proceso completo.
+    """
 
 
 def call_groq(prompt, model="llama-3.1-8b-instant", temperature=0.7, max_tokens=300,
@@ -29,7 +37,7 @@ def call_groq(prompt, model="llama-3.1-8b-instant", temperature=0.7, max_tokens=
     api_key = os.environ.get("GROQ_API_KEY", "")
     if not api_key:
         logger.error("ERROR: GROQ_API_KEY no configurada")
-        sys.exit(1)
+        raise LLMClientError("GROQ_API_KEY no configurada")
 
     messages = []
     if system:

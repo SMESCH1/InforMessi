@@ -63,14 +63,35 @@ def _save_report(date: str, report: dict) -> None:
         json.dump(report, f, indent=2, ensure_ascii=False)
 
 
+def _backup_corrupt_history() -> None:
+    """Renombra el eval-history.json corrupto/inválido a .bak antes de que
+    _append_history lo pise con una lista nueva, para no perder el archivo
+    original (aunque no se pueda parsear) sin que el usuario se entere."""
+    backup_path = EVAL_HISTORY_PATH.with_suffix(EVAL_HISTORY_PATH.suffix + ".bak")
+    try:
+        EVAL_HISTORY_PATH.replace(backup_path)
+    except OSError as e:
+        logger.warning(f"⚠️  No se pudo respaldar {EVAL_HISTORY_PATH} a {backup_path}: {e}")
+
+
 def _append_history(entry: dict) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     if EVAL_HISTORY_PATH.exists():
         try:
             history = json.loads(EVAL_HISTORY_PATH.read_text(encoding="utf-8"))
             if not isinstance(history, list):
+                logger.warning(
+                    f"⚠️  {EVAL_HISTORY_PATH} no contiene una lista JSON válida "
+                    "(tipo inesperado); se respalda como .bak y se arranca una lista nueva."
+                )
+                _backup_corrupt_history()
                 history = []
-        except (json.JSONDecodeError, OSError):
+        except (json.JSONDecodeError, OSError) as e:
+            logger.warning(
+                f"⚠️  {EVAL_HISTORY_PATH} tiene JSON inválido ({e}); "
+                "se respalda como .bak y se arranca una lista nueva."
+            )
+            _backup_corrupt_history()
             history = []
     else:
         history = []
@@ -152,7 +173,18 @@ def _regenerate_message(report: dict, date: str) -> str | None:
 
 def run_for_date(date: str, gate: bool, use_judge: bool, on_fail: str | None) -> int:
     """Corre checks (+judge opcional) sobre el report de `date`, guarda el
-    resultado, appendea a eval-history.json y retorna el exit code."""
+    resultado, appendea a eval-history.json y retorna el exit code.
+
+    Semántica de exit codes (ver plan del proyecto):
+    - Sin --on-fail: exit 1 si el veredicto final es "fail" (independiente
+      de --gate, que queda como flag redundante/documentado).
+    - Con --on-fail regenerate: exit 0 siempre.
+
+    Independientemente del modo, si el veredicto FINAL guardado es "fail",
+    el report queda marcado con eval_warning=True y pre_approved=False (un
+    report con evals fallidas jamás se auto-publica). Si el veredicto final
+    es pass/pass_with_warnings, se limpia eval_warning si estaba seteado.
+    """
     report = _load_report(date)
     if report is None:
         logger.warning(f"⚠️  Informe para {date} no encontrado, se omite.")
@@ -168,16 +200,12 @@ def run_for_date(date: str, gate: bool, use_judge: bool, on_fail: str | None) ->
             checks, judge_result, verdict = _run_checks_and_judge(report, date, use_judge)
             _write_eval_block(report, checks, judge_result, verdict)
 
-        if verdict == "fail":
-            report["eval_warning"] = True
-            report["pre_approved"] = False
-        else:
-            if report.get("eval_warning"):
-                report.pop("eval_warning", None)
-
-        _save_report(date, report)
-        _append_history(_history_entry(date, report, checks, judge_result, verdict, use_judge))
-        return 0
+    if verdict == "fail":
+        report["eval_warning"] = True
+        report["pre_approved"] = False
+    else:
+        if report.get("eval_warning"):
+            report.pop("eval_warning", None)
 
     _save_report(date, report)
     _append_history(_history_entry(date, report, checks, judge_result, verdict, use_judge))
@@ -185,7 +213,7 @@ def run_for_date(date: str, gate: bool, use_judge: bool, on_fail: str | None) ->
     if on_fail is not None:
         return 0
 
-    return 1 if (gate and verdict == "fail") else 0
+    return 1 if verdict == "fail" else 0
 
 
 def _history_entry(date, report, checks, judge_result, verdict, use_judge) -> dict:
@@ -232,7 +260,15 @@ def main():
     parser = argparse.ArgumentParser(description="Orquestador de evals para InforMessi")
     parser.add_argument("--date", help="Fecha a evaluar (YYYY-MM-DD). Default: hoy")
     parser.add_argument("--range", help="Rango de fechas A:B (ambos extremos inclusive), para backfill")
-    parser.add_argument("--gate", action="store_true", help="Exit code 1 si el veredicto es fail")
+    parser.add_argument(
+        "--gate",
+        action="store_true",
+        help=(
+            "Explícito; el gate (exit 1 en fail) es el comportamiento default "
+            "sin --on-fail. Este flag no cambia el comportamiento (no-op), se "
+            "mantiene por compatibilidad/documentación de intención."
+        ),
+    )
     parser.add_argument("--judge", action="store_true", help="Correr también el judge LLM")
     parser.add_argument("--on-fail", choices=["regenerate"], help="Acción a tomar si el veredicto es fail")
 

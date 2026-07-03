@@ -330,6 +330,8 @@ def call_llm_groq(prompt, model="llama-3.1-8b-instant", temperature=0.7, max_tok
     """Llama a Groq API (gratuita) para generar el mensaje, con retry en rate limit.
 
     Wrapper delgado sobre llm_client.call_groq (mantenido por compatibilidad).
+    Puede propagar LLMClientError (p.ej. si falta GROQ_API_KEY); main() la
+    captura para preservar el comportamiento CLI (exit 1 con mensaje claro).
     """
     sys.path.insert(0, str(Path(__file__).parent))
     from llm_client import call_groq
@@ -555,26 +557,33 @@ def main():
     events = data.get("events", [])
     news = data.get("news", [])
 
-    if events or news:
-        logger.info("\n🔎 Seleccionando eventos y noticias relevantes...")
-        selection_prompt = build_selection_prompt(data)
-        selection_response = llm_call(selection_prompt, temperature=0.1, max_tokens=200)
-        selected_events, selected_news = parse_selection_response(
-            selection_response, events, news
-        )
-        logger.info(f"   Eventos seleccionados: {len(selected_events)}")
-        logger.info(f"   Noticias seleccionadas: {len(selected_news)}")
-    else:
-        logger.info("\nℹ️  Sin eventos ni noticias, omitiendo paso de selección")
-        selected_events, selected_news = [], []
+    sys.path.insert(0, str(Path(__file__).parent))
+    from llm_client import LLMClientError
 
-    logger.info("\n📝 Construyendo prompt...")
-    prompt = build_prompt(data, selected_events, selected_news)
+    try:
+        if events or news:
+            logger.info("\n🔎 Seleccionando eventos y noticias relevantes...")
+            selection_prompt = build_selection_prompt(data)
+            selection_response = llm_call(selection_prompt, temperature=0.1, max_tokens=200)
+            selected_events, selected_news = parse_selection_response(
+                selection_response, events, news
+            )
+            logger.info(f"   Eventos seleccionados: {len(selected_events)}")
+            logger.info(f"   Noticias seleccionadas: {len(selected_news)}")
+        else:
+            logger.info("\nℹ️  Sin eventos ni noticias, omitiendo paso de selección")
+            selected_events, selected_news = [], []
 
-    logger.info(f"\n🤖 Generando mensaje con {args.provider}/{args.model}...")
-    logger.info("   (Esto puede tardar unos momentos...)\n")
+        logger.info("\n📝 Construyendo prompt...")
+        prompt = build_prompt(data, selected_events, selected_news)
 
-    raw_message = llm_call(prompt)
+        logger.info(f"\n🤖 Generando mensaje con {args.provider}/{args.model}...")
+        logger.info("   (Esto puede tardar unos momentos...)\n")
+
+        raw_message = llm_call(prompt)
+    except LLMClientError as e:
+        logger.error(f"❌ Error del cliente LLM: {e}")
+        sys.exit(1)
 
     # Post-procesamiento: validar y limpiar
     days_remaining = calculate_days_remaining(data["mundial_2026_start"], data["date"])
