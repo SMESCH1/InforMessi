@@ -35,8 +35,11 @@ Thumbs.db
 # Cursor IDE
 .cursor/
 
-# Claude
-.claude/
+# Claude (todo ignorado salvo routines versionados — agentes programados)
+.claude/*
+!.claude/routines/
+.claude/routines/*
+!.claude/routines/*.md
 
 # Informes (mantener estructura pero no datos sensibles)
 # reports/*.json
