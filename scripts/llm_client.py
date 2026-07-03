@@ -27,7 +27,7 @@ class LLMClientError(RuntimeError):
     """
 
 
-def call_groq(prompt, model="llama-3.1-8b-instant", temperature=0.7, max_tokens=300,
+def call_groq(prompt, model="llama-3.3-70b-versatile", temperature=0.7, max_tokens=300,
               json_mode=False, system=None):
     """Llama a Groq API (gratuita) para generar texto, con retry en rate limit.
 

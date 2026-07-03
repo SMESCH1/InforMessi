@@ -326,7 +326,7 @@ def call_llm_ollama(prompt, model="qwen2.5:7b-instruct", base_url="http://localh
     return response.json()["response"]
 
 
-def call_llm_groq(prompt, model="llama-3.1-8b-instant", temperature=0.7, max_tokens=300):
+def call_llm_groq(prompt, model="llama-3.3-70b-versatile", temperature=0.7, max_tokens=500):
     """Llama a Groq API (gratuita) para generar el mensaje, con retry en rate limit.
 
     Wrapper delgado sobre llm_client.call_groq (mantenido por compatibilidad).
@@ -341,11 +341,11 @@ def call_llm_groq(prompt, model="llama-3.1-8b-instant", temperature=0.7, max_tok
 def _get_llm_caller(provider, model, base_url):
     """Returns a callable (prompt, temperature, max_tokens) -> str based on provider."""
     if provider == "groq":
-        def _call(prompt, temperature=0.7, max_tokens=300):
+        def _call(prompt, temperature=0.7, max_tokens=500):
             return call_llm_groq(prompt, model=model, temperature=temperature, max_tokens=max_tokens)
         return _call
 
-    def _call(prompt, temperature=0.7, max_tokens=300):
+    def _call(prompt, temperature=0.7, max_tokens=500):
         return call_llm_ollama(prompt, model=model, base_url=base_url, temperature=temperature, max_tokens=max_tokens)
     return _call
 
@@ -361,14 +361,96 @@ _META_PATTERNS = [
 ]
 
 
-def _build_safe_message(days_remaining, mundial_phase=None, mundial_day=None):
-    """Genera un mensaje mínimo seguro: saludo + cuenta regresiva + cierre."""
+def _build_safe_message(days_remaining, mundial_phase=None, mundial_day=None, weather=None):
+    """Genera un mensaje mínimo seguro: saludo + cuenta regresiva + (clima) + cierre doble."""
     countdown = format_countdown(days_remaining, mundial_phase, mundial_day)
-    return (
-        f"Buenos días 🇦🇷\n\n"
-        f"{countdown} ⚽\n\n"
-        f"{CIERRE_COMPLETO}"
-    )
+    blocks = [f"Buenos días 🇦🇷", f"{countdown} ⚽"]
+    if weather:
+        blocks.append(_format_weather_block(weather))
+    blocks.append(f"Buen día\n{CIERRE_COMPLETO}")
+    return "\n\n".join(blocks)
+
+
+def _format_weather_block(weather):
+    """Formatea el bloque de clima determinístico (import perezoso de fetch-weather.py,
+    que tiene guion en el nombre)."""
+    from importlib import import_module
+    sys.path.insert(0, str(Path(__file__).parent))
+    _fw = import_module("fetch-weather")
+    return _fw.format_weather_block(weather)
+
+
+# Líneas que el LLM a veces escribe mencionando clima/temperaturas, pese a
+# la instrucción explícita de no hacerlo (defensa: el bloque es 100%
+# determinístico e inyectado por postprocess_message).
+_WEATHER_MENTION_RE = re.compile(
+    r"(clima|temperatura|grados?\b|°c\b|min\.?\s*\d+°|max\.?\s*\d+°)",
+    re.IGNORECASE,
+)
+
+
+def _strip_llm_weather_mentions(message):
+    """Elimina líneas escritas por el LLM que mencionan clima/temperaturas."""
+    lines = message.split("\n")
+    kept = [ln for ln in lines if not _WEATHER_MENTION_RE.search(ln)]
+    cleaned = "\n".join(kept)
+    cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
+    return cleaned.strip()
+
+
+def _inject_weather_block(message, weather):
+    """Inserta el bloque de clima determinístico inmediatamente después de la
+    línea de cuenta regresiva (si se encuentra) o después de la primera línea
+    (saludo) en caso contrario."""
+    weather_block = _format_weather_block(weather)
+    lines = message.split("\n")
+
+    countdown_idx = None
+    for i, ln in enumerate(lines):
+        stripped = ln.strip()
+        if re.match(r"^(Faltan?\s+\d+\s+d[ií]as?\s+para\s+el\s+Mundial\s+2026|"
+                     r"Hoy\s+comienza\s+el\s+Mundial\s+2026|"
+                     r"D[ií]a\s+\d+\s+del\s+Mundial\s+2026)", stripped, re.IGNORECASE):
+            countdown_idx = i
+            break
+
+    if countdown_idx is not None:
+        insert_at = countdown_idx + 1
+    else:
+        # Insertar después de la primera línea no vacía (saludo)
+        insert_at = 0
+        for i, ln in enumerate(lines):
+            if ln.strip():
+                insert_at = i + 1
+                break
+
+    new_lines = lines[:insert_at] + ["", weather_block, ""] + lines[insert_at:]
+    result = "\n".join(new_lines)
+    result = re.sub(r"\n{3,}", "\n\n", result)
+    return result.strip()
+
+
+def _ensure_cierre_doble(message):
+    """Asegura que el mensaje termine con la línea 'Buen día' inmediatamente
+    antes del cierre ritual 'Coronados de gloria vivamos 🩵🤍🩵', preservando
+    el resto de la estructura de líneas/párrafos del mensaje sin reformatear."""
+    all_lines = message.split("\n")
+    non_empty_idx = [i for i, ln in enumerate(all_lines) if ln.strip()]
+    if not non_empty_idx:
+        return message
+
+    last_idx = non_empty_idx[-1]
+    ultima = all_lines[last_idx]
+    if CIERRE_RITUAL.lower() not in ultima.lower():
+        return message  # el cierre ritual se asegura en otro paso
+
+    if len(non_empty_idx) >= 2:
+        prev_idx = non_empty_idx[-2]
+        if all_lines[prev_idx].strip() == "Buen día":
+            return message  # ya tiene cierre doble
+
+    new_lines = all_lines[:last_idx] + ["Buen día"] + all_lines[last_idx:]
+    return "\n".join(new_lines)
 
 
 def _extract_allowed_entities(events, news):
@@ -427,6 +509,7 @@ def postprocess_message(message, data, days_remaining):
     """
     events = data.get("events", [])
     news = data.get("news", [])
+    weather = data.get("weather")
 
     # --- Regla 1: sin datos → mensaje seguro ---
     if not events and not news:
@@ -447,7 +530,9 @@ def postprocess_message(message, data, days_remaining):
 
         if has_extra_content:
             logger.warning("⚠️  Post-proceso: mensaje sin datos contenía contenido extra, reemplazando con mensaje seguro")
-            return _build_safe_message(days_remaining, data.get("mundial_phase"), data.get("mundial_day"))
+            return _build_safe_message(
+                days_remaining, data.get("mundial_phase"), data.get("mundial_day"), weather=weather
+            )
 
     # --- Regla 2: limpiar metadata de corchetes [Año: ...] que el LLM copió literalmente ---
     cleaned = message
@@ -480,7 +565,9 @@ def postprocess_message(message, data, days_remaining):
             # Si quedó vacío tras la limpieza, usar mensaje seguro
             lines = [ln.strip() for ln in cleaned.split("\n") if ln.strip()]
             if len(lines) < 2:
-                return _build_safe_message(days_remaining, data.get("mundial_phase"), data.get("mundial_day"))
+                return _build_safe_message(
+                    days_remaining, data.get("mundial_phase"), data.get("mundial_day"), weather=weather
+                )
 
         # --- Regla 5: verificar scores ---
         scores_in_msg = set(re.findall(r"\b(\d+-\d+)\b", cleaned))
@@ -488,7 +575,15 @@ def postprocess_message(message, data, days_remaining):
         if hallucinated_scores:
             logger.warning(f"⚠️  Post-proceso: scores no encontrados en datos: {hallucinated_scores}")
 
-    # --- Regla 5: asegurar cierre ritual ---
+    # --- Regla 6: eliminar menciones de clima escritas por el LLM (defensa;
+    # el bloque de clima es 100% determinístico, ver Regla 7) ---
+    cleaned = _strip_llm_weather_mentions(cleaned)
+
+    # --- Regla 7: inyectar bloque de clima determinístico tras el countdown ---
+    if weather:
+        cleaned = _inject_weather_block(cleaned, weather)
+
+    # --- Regla 8: asegurar cierre ritual ---
     if CIERRE_RITUAL.lower() not in cleaned.lower():
         logger.warning("⚠️  Post-proceso: cierre ritual faltante, agregándolo")
         cleaned = cleaned.rstrip() + f"\n\n{CIERRE_COMPLETO}"
@@ -496,6 +591,9 @@ def postprocess_message(message, data, days_remaining):
     # Si el cierre no tiene los emojis, agregarlos
     if CIERRE_RITUAL in cleaned and "🩵🤍🩵" not in cleaned:
         cleaned = cleaned.replace(CIERRE_RITUAL, CIERRE_COMPLETO)
+
+    # --- Regla 9: asegurar cierre doble ("Buen día" antes del cierre ritual) ---
+    cleaned = _ensure_cierre_doble(cleaned)
 
     return cleaned
 
