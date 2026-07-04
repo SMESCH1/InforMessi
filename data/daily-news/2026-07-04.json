@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-07-04",
+  "scraped_at": "2026-07-04T09:11:25.964390",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Octavos de final del Mundial 2026: cuándo empiezan, horarios y selecciones clasificadas",
+      "description": "De las 48 selecciones que iniciaron la Copa del Mundo más multitudinaria de la historia, sólo 16 logran alcanzar los octavos de final. La nueva ronda del Mundial 2026 promete...",
+      "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/07/03/6a476082fdddfff13a8b4598.html",
+      "source": "El Mundo",
+      "published_at": "2026-07-03T08:25:19Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Un deportólogo explicó en detalle qué son y cuáles son los riesgos de las “pausas de hidratación” que se incorporaron en el Mundial 2026",
+      "description": "En diálogo con LN+, Jorge Franchella analizó el impacto fisiológico de los protocolos climáticos en el fútbol y advirtió sobre el peligro de los cambios térmicos bruscos",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/un-deportologo-explico-en-detalle-que-son-y-cuales-son-los-riesgos-de-las-pausas-de-hidratacion-que-nid03072026/",
+      "source": "La Nacion",
+      "published_at": "2026-07-03T07:30:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Así queda el cuadro del torneo del Mundial 2026 tras las victorias de España, Portugal y Suiza",
+      "description": "La última jornada de dieciseisavos dejó victorias europeas, un cruce ibérico de máxima tensión y varios emparejamientos ya cerrados antes del tramo final de la ronda",
+      "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-07-03/asi-queda-cuadro-muncial-victoria-espana-portugal-suiza-1qrt_4382746/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-07-03T07:13:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Oyarzabal, la estrella imprevista del Mundial: \"Yo no soy ningún líder, solo soy un tío de Éibar que intenta ayudar a todos\"",
+      "description": "Mikel Oyarzabal es tan discreto que no parece ni zurdo. Discreto en sus movimientos en el campo y especialmente fuera del césped el incombustible capitán de la Real Sociedad, donde ingresó hace 15 año",
+      "url": "https://www.elperiodico.com/es/deportes/20260703/oyarzabal-estrella-seleccion-espanola-de-futbol-mundial-2026-132081784",
+      "source": "Elperiodico.com",
+      "published_at": "2026-07-03T09:07:42Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La discreta historia de amor de Mikel Oyarzabal y Ainhoa Larrauri, que esperan su segundo hijo",
+      "description": "El '21' de la Selección dedicó uno de sus dos tantos ante Austria a su mujer y su futuro bebé. Será el segundo hijo de la pareja.",
+      "url": "https://www.libertaddigital.com/chic/corazon/2026-07-03/la-discreta-historia-de-amor-de-mikel-oyarzabal-y-ainhoa-larrauri-que-esperan-su-segundo-hijo-7430502/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-07-03T09:00:39Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "“Wonderwall”, el hit que emociona a los jugadores y al público inglés en el Mundial y que fue el gran himno britpop de los noventa",
+      "description": "Emblema del último gran movimiento del rock británico, el tema es ahora el elegido por la selección británica para acompañar su gran desempeño en la Copa del Mundo",
+      "url": "https://www.lanacion.com.ar/espectaculos/musica/wonderwall-el-hit-que-emociona-a-los-jugadores-y-al-publico-ingles-en-el-mundial-y-que-fue-el-gran-nid03072026/",
+      "source": "La Nacion",
+      "published_at": "2026-07-03T09:00:01Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Cristiano Ronaldo, el eterno goleador que encabeza el ranking de estrellas del Mundial que más facturan",
+      "description": "A través de acuerdos publicitarios y un salario astronómico, el astro portugués gana casi US$ 300 millones por año. Como él, otros delanteros de fama mundial multiplican sus ingresos fuera de la canch",
+      "url": "https://www.elpais.com.uy/el-empresario/cristiano-ronaldo-el-eterno-goleador-que-encabeza-el-ranking-de-estrellas-del-mundial-que-mas-facturan",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-07-03T06:15:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El Al-Hilal aprieta por Casadó",
+      "description": "El futbolista duda si ir al fútbol árabe",
+      "url": "https://www.marca.com/futbol/barcelona/2026/07/04/hilal-aprieta-casado.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-04T09:09:23",
+      "category": "general"
+    },
+    {
+      "title": "España, \"un relojito\" que no para de superar récords",
+      "description": "La lista de marcas superadas por esta selección no se detiene: Unai Simón, Oyarzabal, las rachas del equipo y de De la Fuente...",
+      "url": "https://www.marca.com/futbol/seleccion/2026/07/04/espana-relojito-superar-records.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-04T08:46:44",
+      "category": "seleccion"
+    },
+    {
+      "title": "La exótica nueva etapa de Zubizarreta: director deportivo de Atlas",
+      "description": "El exfutbolista de 61 años asume el cargo del club mexicano",
+      "url": "https://www.marca.com/futbol/2026/07/04/exotica-nueva-etapa-zubizarreta-director-deportivo-atlas.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-04T08:38:42",
+      "category": "general"
+    }
+  ]
+}
