@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "created_at": "2026-03-25T00:00:00",
-  "last_updated": "2026-07-04T14:45:10.548146",
+  "last_updated": "2026-07-05T14:52:12.234495",
   "players_used": {
     "Messi": [
       "2026-03-26",
@@ -193,7 +193,8 @@
       "2026-06-07",
       "2026-06-14",
       "2026-06-21",
-      "2026-06-28"
+      "2026-06-28",
+      "2026-07-05"
     ]
   },
   "topics_mentioned": {
@@ -298,7 +299,8 @@
       "2026-07-01",
       "2026-07-02",
       "2026-07-03",
-      "2026-07-04"
+      "2026-07-04",
+      "2026-07-05"
     ],
     "seleccion": [
       "2026-03-26",
@@ -373,7 +375,8 @@
       "2026-07-01",
       "2026-07-02",
       "2026-07-03",
-      "2026-07-04"
+      "2026-07-04",
+      "2026-07-05"
     ]
   },
   "events_mentioned": {
@@ -983,6 +986,15 @@
     ],
     "Dibu vuelve a ser héroe en penales ante Ecuador.": [
       "2026-07-04"
+    ],
+    "Mundial 2026 - Octavos de final, día 2.": [
+      "2026-07-05"
+    ],
+    "Argentina Campeón Mundial Sub-20 en Malasia.": [
+      "2026-07-05"
+    ],
+    "Victoria 1-0 ante Bélgica y regreso a semifinales tras 24 años.": [
+      "2026-07-05"
     ]
   },
   "news_topics": {
@@ -1229,6 +1241,9 @@
     ],
     "alineacion probable del argentina - cabo verde en ": [
       "2026-07-03"
+    ],
+    "el gobierno de cabo verde elogia la \"grandeza de a": [
+      "2026-07-05"
     ]
   },
   "phrases_used": [],
