@@ -7,10 +7,14 @@ MVP - InforMessi
 
 import json
 import re
+import sys
 from pathlib import Path
 from typing import List, Dict, Set
 from datetime import datetime, timedelta
 from collections import defaultdict
+
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar, today_ar
 
 PROJECT_ROOT = Path(__file__).parent.parent
 REPORTS_DIR = PROJECT_ROOT / "reports"
@@ -27,17 +31,18 @@ def load_past_reports(days_back: int = 30, exclude_date: str = None) -> List[Dic
     if exclude_date:
         exclude_date_obj = datetime.strptime(exclude_date, "%Y-%m-%d")
     
-    cutoff_date = datetime.now() - timedelta(days=days_back)
-    
+    now_naive = now_ar().replace(tzinfo=None)
+    cutoff_date = now_naive - timedelta(days=days_back)
+
     for report_file in sorted(REPORTS_DIR.glob("*.json")):
         try:
             date_str = report_file.stem
             date_obj = datetime.strptime(date_str, "%Y-%m-%d")
-            
+
             # Excluir fecha específica y fechas futuras
             if exclude_date_obj and date_obj.date() == exclude_date_obj.date():
                 continue
-            if date_obj > datetime.now():
+            if date_obj > now_naive:
                 continue
             if date_obj < cutoff_date:
                 continue
@@ -287,7 +292,7 @@ def main():
     parser.add_argument(
         "--date",
         help="Fecha objetivo (YYYY-MM-DD). Default: hoy",
-        default=datetime.now().strftime("%Y-%m-%d")
+        default=today_ar()
     )
     parser.add_argument(
         "--days-back",

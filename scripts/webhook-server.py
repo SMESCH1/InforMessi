@@ -12,6 +12,9 @@ from pathlib import Path
 from flask import Flask, request, jsonify
 from datetime import datetime
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar_iso, today_ar
+
 # Cargar variables de entorno
 try:
     from dotenv import load_dotenv
@@ -124,7 +127,7 @@ def health():
     return jsonify({
         'status': 'ok',
         'service': 'InforMessi Webhook',
-        'timestamp': datetime.now().isoformat()
+        'timestamp': now_ar_iso()
     })
 
 
@@ -181,7 +184,7 @@ def webhook():
                 message_id = data.split(':')[1]
                 
                 # Cargar informe del día
-                today = datetime.now().strftime('%Y-%m-%d')
+                today = today_ar()
                 report = load_report(today)
                 
                 if not report:
@@ -219,7 +222,7 @@ def webhook():
                     
                     # Actualizar informe: marcar como publicado
                     report['status'] = 'published'
-                    report['published_at'] = datetime.now().isoformat()
+                    report['published_at'] = now_ar_iso()
                     
                     # Guardar informe actualizado
                     report_file = REPORTS_DIR / f"{today}.json"
@@ -293,7 +296,7 @@ def webhook():
                 message_id = data.split(':')[1]
                 
                 # Cargar informe del día
-                today = datetime.now().strftime('%Y-%m-%d')
+                today = today_ar()
                 report = load_report(today)
                 
                 if not report:
@@ -334,14 +337,14 @@ def webhook():
                 bot = TelegramBot(token)
                 
                 # Cargar informe del día
-                today = datetime.now().strftime('%Y-%m-%d')
+                today = today_ar()
                 report = load_report(today)
                 
                 if report:
                     # Actualizar mensaje en el informe
                     report['message'] = text
                     report['status'] = 'updated'
-                    report['updated_at'] = datetime.now().isoformat()
+                    report['updated_at'] = now_ar_iso()
                     
                     # Guardar informe
                     report_file = REPORTS_DIR / f"{today}.json"
@@ -372,7 +375,7 @@ def webhook():
                         
                         # Actualizar informe: marcar como publicado
                         report['status'] = 'published'
-                        report['published_at'] = datetime.now().isoformat()
+                        report['published_at'] = now_ar_iso()
                         
                         # Guardar informe actualizado
                         with open(report_file, 'w', encoding='utf-8') as f:

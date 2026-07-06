@@ -11,6 +11,9 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import List, Dict
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar
+
 PROJECT_ROOT = Path(__file__).parent.parent
 
 # Subreddits a monitorear
@@ -61,7 +64,7 @@ def fetch_reddit_posts_praw(subreddits: List[str], limit: int = 10) -> List[Dict
         return []
     
     posts = []
-    cutoff_date = datetime.now() - timedelta(days=3)  # Solo últimos 3 días
+    cutoff_date = now_ar().replace(tzinfo=None) - timedelta(days=3)  # Solo últimos 3 días
     
     for subreddit_name in subreddits:
         try:
@@ -114,7 +117,7 @@ def fetch_reddit_posts_scraping(subreddits: List[str], limit: int = 10) -> List[
         return []
     
     posts = []
-    cutoff_date = datetime.now() - timedelta(days=3)
+    cutoff_date = now_ar().replace(tzinfo=None) - timedelta(days=3)
     
     for subreddit_name in subreddits:
         try:

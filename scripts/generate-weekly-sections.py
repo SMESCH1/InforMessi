@@ -11,6 +11,9 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, Optional
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import today_ar
+
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 
@@ -226,7 +229,7 @@ def main():
     parser.add_argument(
         "--date",
         help="Fecha en formato YYYY-MM-DD (default: hoy)",
-        default=datetime.now().strftime("%Y-%m-%d")
+        default=today_ar()
     )
     
     args = parser.parse_args()

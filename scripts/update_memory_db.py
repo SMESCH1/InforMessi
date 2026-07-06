@@ -33,12 +33,13 @@ def update_memory_for_report(date: str):
 
 
 if __name__ == "__main__":
-    from datetime import datetime
-    
+    sys.path.insert(0, str(Path(__file__).parent))
+    from time_utils import today_ar
+
     if len(sys.argv) > 1:
         target_date = sys.argv[1]
     else:
-        target_date = datetime.now().strftime("%Y-%m-%d")
+        target_date = today_ar()
     
     update_memory_for_report(target_date)
 

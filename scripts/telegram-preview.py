@@ -338,8 +338,9 @@ def main():
             print("   📝 El bot detectará tu mensaje y lo publicará automáticamente en el grupo público")
             
             # Esperar mensaje editado del usuario
-            from datetime import datetime
-            target_date = datetime.now().strftime("%Y-%m-%d")
+            sys.path.insert(0, str(Path(__file__).parent))
+            from time_utils import now_ar_iso, today_ar
+            target_date = today_ar()
             
             # Esperar mensaje de texto del usuario
             edited_message = wait_for_edited_message(bot, args.preview_chat_id, timeout=300)  # 5 minutos
@@ -358,7 +359,7 @@ def main():
                         
                         report["message"] = edited_message
                         report["status"] = "updated"
-                        report["updated_at"] = datetime.now().isoformat()
+                        report["updated_at"] = now_ar_iso()
                         
                         with open(report_file, 'w', encoding='utf-8') as f:
                             json.dump(report, f, indent=2, ensure_ascii=False)

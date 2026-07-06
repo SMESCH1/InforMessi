@@ -11,6 +11,9 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar, now_ar_iso, today_ar, hours_since
+
 # Cargar variables de entorno
 def load_env_file(env_path):
     """Carga variables de entorno desde archivo .env manualmente"""
@@ -72,6 +75,11 @@ def should_auto_publish(report: dict, hours_threshold: float = 2) -> bool:
     Returns:
         True si debe publicarse, False si no
     """
+    # Si los evals fallaron y quedó marcado para revisión manual, nunca
+    # publicar automáticamente
+    if report.get("eval_warning"):
+        return False
+
     # Si ya está publicado, no hacer nada
     if report.get("status") == "published":
         return False
@@ -80,11 +88,10 @@ def should_auto_publish(report: dict, hours_threshold: float = 2) -> bool:
     if not report.get("updated_at"):
         return False
     
-    # Calcular tiempo desde última actualización
-    updated_at = datetime.fromisoformat(report["updated_at"])
-    now = datetime.now()
-    hours_passed = (now - updated_at).total_seconds() / 3600
-    
+    # Calcular tiempo desde última actualización (tolerante a timestamps
+    # naive de reports viejos, que se asumen en TZ_AR)
+    hours_passed = hours_since(report["updated_at"])
+
     # Si pasaron más de X horas, publicar automáticamente
     return hours_passed >= hours_threshold
 
@@ -130,7 +137,7 @@ def auto_publish_report(date: str, hours_threshold: float = 2):
         
         # Actualizar estado del informe
         report["status"] = "published"
-        report["published_at"] = datetime.now().isoformat()
+        report["published_at"] = now_ar_iso()
         report["auto_published"] = True  # Marcar como publicación automática
         
         # Guardar
@@ -180,21 +187,21 @@ def main():
     
     if args.check_all:
         # Verificar últimos 7 días
-        today = datetime.now()
+        today = now_ar()
         published_count = 0
-        
+
         for i in range(7):
             date = (today - timedelta(days=i)).strftime("%Y-%m-%d")
             if auto_publish_report(date, args.hours):
                 published_count += 1
-        
+
         print(f"\n✅ Proceso completado: {published_count} informe(s) publicados automáticamente")
     else:
         # Verificar fecha específica o hoy
         if args.date:
             target_date = args.date
         else:
-            target_date = datetime.now().strftime("%Y-%m-%d")
+            target_date = today_ar()
         
         auto_publish_report(target_date, args.hours)
 

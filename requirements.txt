@@ -5,3 +5,5 @@ feedparser>=6.0.10
 flask>=3.0.0
 python-dotenv>=1.0.0
 praw>=7.7.0
+# Datos de timezone IANA para zoneinfo (necesario en Windows; inofensivo en Linux)
+tzdata>=2024.1

@@ -13,6 +13,14 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar_iso, today_ar
+from text_utils import normalize_title_for_dedupe
+from importlib import import_module
+
+_fetch_news = import_module("fetch-news")
+filter_news_llm = _fetch_news.filter_news_llm
+
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
 
@@ -44,7 +52,14 @@ def _categorize_news(news_item):
 
 
 def scrape_news(target_date: str) -> list:
-    """Ejecuta fetch-news.py con modo broad y retorna las noticias."""
+    """Ejecuta fetch-news.py con modo broad y retorna las noticias.
+
+    El filtro LLM (NEWS_LLM_FILTER) corre UNA sola vez, afuera (ver main()),
+    después del dedupe multi-día — nunca acá adentro. Si dejáramos pasar
+    NEWS_LLM_FILTER al subprocess, fetch-news.py filtraría por su cuenta y
+    tendríamos doble filtrado: 2 llamadas a Groq por día y doble riesgo de
+    falso negativo (una noticia rechazada por cualquiera de las dos pasadas
+    se pierde)."""
     logger.info("📰 Ejecutando fetch-news.py --broad...")
 
     cmd = [
@@ -57,10 +72,12 @@ def scrape_news(target_date: str) -> list:
         "--json-only",
     ]
 
+    subproc_env = {k: v for k, v in _SUBPROC_ENV.items() if k != "NEWS_LLM_FILTER"}
+
     try:
         result = subprocess.run(
             cmd, capture_output=True, text=True, timeout=60,
-            env=_SUBPROC_ENV, encoding="utf-8",
+            env=subproc_env, encoding="utf-8",
         )
         if result.returncode != 0:
             logger.warning(f"⚠️  fetch-news.py falló: {result.stderr[:200]}")
@@ -123,25 +140,69 @@ def scrape_reddit(target_date: str) -> list:
 
 
 def deduplicate_news(news_list: list) -> list:
-    """Deduplicación por similitud de título."""
-    import unicodedata
-    import re
-
-    def normalize(text):
-        text = text.lower().strip()
-        text = unicodedata.normalize("NFKD", text)
-        text = re.sub(r"[^\w\s]", "", text)
-        text = re.sub(r"\s+", " ", text)
-        return text
-
+    """Deduplicación por similitud de título (dentro del propio scrape).
+    Usa la misma normalización compartida que el dedupe multi-día (ver
+    `_normalize_title` / `text_utils.normalize_title_for_dedupe`)."""
     seen = set()
     unique = []
     for item in news_list:
-        key = normalize(item.get("title", ""))
+        key = _normalize_title(item.get("title", ""))
         if key and key not in seen:
             seen.add(key)
             unique.append(item)
     return unique
+
+
+def _normalize_title(title: str) -> str:
+    """Normaliza un título para comparación de dedupe (multi-día y dentro
+    del propio scrape): minúsculas, sin acentos/diacríticos, sin
+    puntuación, espacios colapsados. Delega en
+    `text_utils.normalize_title_for_dedupe`, compartida con fetch-news.py
+    y rag_memory_database.py, para que "¡...!" o distinta puntuación entre
+    fuentes no impida detectar el duplicado."""
+    return normalize_title_for_dedupe(title)
+
+
+def load_recent_titles(reference_date: str, days: int = 3, daily_news_dir: Path = None) -> set:
+    """Carga los títulos normalizados de los daily-news de los últimos
+    `days` días anteriores a `reference_date` (sin incluir el propio día
+    de referencia). Ignora archivos inexistentes o JSON corrupto."""
+    news_dir = daily_news_dir if daily_news_dir is not None else DAILY_NEWS_DIR
+    ref = datetime.strptime(reference_date, "%Y-%m-%d").date()
+
+    titles = set()
+    for offset in range(1, days + 1):
+        day = ref - timedelta(days=offset)
+        file_path = Path(news_dir) / f"{day.isoformat()}.json"
+        if not file_path.exists():
+            continue
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            continue
+
+        for item in data.get("news", []):
+            norm_title = _normalize_title(item.get("title", ""))
+            if norm_title:
+                titles.add(norm_title)
+
+    return titles
+
+
+def filter_seen_titles(news_list: list, recent_titles: set) -> list:
+    """Descarta noticias cuyo título normalizado ya apareció en los
+    daily-news recientes (ver load_recent_titles)."""
+    if not recent_titles:
+        return list(news_list)
+
+    result = []
+    for item in news_list:
+        norm_title = _normalize_title(item.get("title", ""))
+        if norm_title in recent_titles:
+            continue
+        result.append(item)
+    return result
 
 
 def main():
@@ -149,7 +210,7 @@ def main():
 
     parser = argparse.ArgumentParser(description="Scraper diario de noticias InforMessi")
     parser.add_argument(
-        "--date", default=datetime.now().strftime("%Y-%m-%d"),
+        "--date", default=today_ar(),
         help="Fecha del archivo de noticias (default: hoy)"
     )
     args = parser.parse_args()
@@ -168,9 +229,26 @@ def main():
     news_from_reddit = scrape_reddit(target_date)
     all_news.extend(news_from_reddit)
 
-    # Deduplicar
+    # Deduplicar (dentro del scrape de hoy)
     unique_news = deduplicate_news(all_news)
     logger.info(f"\n📊 Total antes de dedup: {len(all_news)}, después: {len(unique_news)}")
+
+    # Dedupe multi-día: descartar títulos ya vistos en los daily-news de
+    # los últimos 3 días (no solo duplicados dentro del propio scrape).
+    recent_titles = load_recent_titles(target_date, days=3)
+    before_multiday = len(unique_news)
+    unique_news = filter_seen_titles(unique_news, recent_titles)
+    if before_multiday != len(unique_news):
+        logger.info(
+            f"   🗑️  Dedupe multi-día: {before_multiday - len(unique_news)} "
+            f"noticia(s) descartada(s) por repetirse en días anteriores"
+        )
+
+    # Filtro LLM opcional (best-effort, fallback silencioso ante error)
+    if os.environ.get("NEWS_LLM_FILTER") == "1":
+        before_llm = len(unique_news)
+        unique_news = filter_news_llm(unique_news)
+        logger.info(f"   🤖 Filtro LLM: {before_llm} -> {len(unique_news)} noticia(s)")
 
     # Categorizar
     for item in unique_news:
@@ -185,7 +263,7 @@ def main():
     # Guardar
     output = {
         "scrape_date": target_date,
-        "scraped_at": datetime.now().isoformat(),
+        "scraped_at": now_ar_iso(),
         "total_news": len(unique_news),
         "news": unique_news,
     }

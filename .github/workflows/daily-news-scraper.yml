@@ -30,8 +30,10 @@ jobs:
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          NEWS_LLM_FILTER: "1"
         run: |
-          DATE=$(date -u +%Y-%m-%d)
+          DATE=$(TZ=America/Argentina/Buenos_Aires date +%Y-%m-%d)
           echo "Scrapeando noticias para $DATE"
           python3 scripts/scrape-daily-news.py --date "$DATE"
 
@@ -46,5 +48,5 @@ jobs:
             echo "Sin cambios en data/daily-news, no hay commit"
             exit 0
           fi
-          git commit -m "📰 Noticias $(date -u +%Y-%m-%d)"
+          git commit -m "📰 Noticias $(TZ=America/Argentina/Buenos_Aires date +%Y-%m-%d)"
           git push origin "HEAD:${BRANCH}"

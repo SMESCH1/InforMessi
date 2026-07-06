@@ -12,6 +12,9 @@ from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Optional
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import today_ar
+
 # Evita UnicodeEncodeError en consolas Windows (cp1252) al imprimir emojis
 for _stream in (sys.stdout, sys.stderr):
     try:
@@ -205,7 +208,7 @@ def main():
     parser.add_argument(
         "--date",
         help="Fecha en formato YYYY-MM-DD (default: hoy)",
-        default=datetime.now().strftime("%Y-%m-%d")
+        default=today_ar()
     )
     parser.add_argument(
         "--output",

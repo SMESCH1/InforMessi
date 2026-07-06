@@ -25,21 +25,21 @@ MUNDIAL_EVENTS = [
         "type": "match",
         "priority": "critical",
         "person": "Selección Argentina",
-        "description": "Mundial 2026 - Grupo J: Argentina vs Argelia, 21:00 ET, Arrowhead Stadium, Kansas City."
+        "description": "Mundial 2026 - Grupo J: Argentina vs Argelia, 22:00 (hora argentina), Arrowhead Stadium, Kansas City."
     },
     {
         "date": "2026-06-22",
         "type": "match",
         "priority": "critical",
         "person": "Selección Argentina",
-        "description": "Mundial 2026 - Grupo J: Argentina vs Austria, 13:00 ET, AT&T Stadium, Dallas."
+        "description": "Mundial 2026 - Grupo J: Argentina vs Austria, 14:00 (hora argentina), AT&T Stadium, Dallas."
     },
     {
         "date": "2026-06-27",
         "type": "match",
         "priority": "critical",
         "person": "Selección Argentina",
-        "description": "Mundial 2026 - Grupo J: Argentina vs Jordania, 22:00 ET, AT&T Stadium, Dallas."
+        "description": "Mundial 2026 - Grupo J: Argentina vs Jordania, 23:00 (hora argentina), AT&T Stadium, Dallas."
     },
     # Fase de grupos - Otros partidos destacados
     {
@@ -171,74 +171,74 @@ MUNDIAL_EVENTS = [
         "person": "N/A",
         "description": "Mundial 2026 - Últimos 32avos de final."
     },
-    # Día de descanso
+    # Dieciseisavos de final - Argentina (confirmado 2026-07-03)
     {
         "date": "2026-07-03",
         "type": "match",
-        "priority": "medium",
-        "person": "N/A",
-        "description": "Mundial 2026 - Día de descanso antes de octavos de final."
+        "priority": "critical",
+        "person": "Selección Argentina",
+        "description": "Mundial 2026 - Dieciseisavos de final: Argentina vs Cabo Verde, 19:00 hora argentina, Hard Rock Stadium, Miami. Árbitro: Drew Fischer (Canadá). El ganador enfrenta en octavos al ganador de Australia vs Egipto."
     },
-    # Octavos de final
+    # Octavos de final (ventana 4-7 de julio; cruces por definir)
     {
         "date": "2026-07-04",
         "type": "match",
         "priority": "high",
         "person": "N/A",
-        "description": "Mundial 2026 - Comienzan los octavos de final."
+        "description": "Mundial 2026 - Se juegan los octavos de final. Si Argentina avanza, jugará vs el ganador de Australia/Egipto en el Mercedes-Benz Stadium de Atlanta (día y hora a confirmar)."
     },
     {
         "date": "2026-07-05",
         "type": "match",
         "priority": "high",
         "person": "N/A",
-        "description": "Mundial 2026 - Octavos de final, día 2."
+        "description": "Mundial 2026 - Se juegan los octavos de final (ventana 4-7 de julio, cruces por definir)."
     },
     {
         "date": "2026-07-06",
         "type": "match",
         "priority": "high",
         "person": "N/A",
-        "description": "Mundial 2026 - Octavos de final, día 3."
+        "description": "Mundial 2026 - Se juegan los octavos de final (ventana 4-7 de julio, cruces por definir)."
     },
     {
         "date": "2026-07-07",
         "type": "match",
         "priority": "high",
         "person": "N/A",
-        "description": "Mundial 2026 - Últimos octavos de final."
+        "description": "Mundial 2026 - Cierran los octavos de final (cruces por definir)."
     },
-    # Días de descanso
+    # Día de descanso
     {
         "date": "2026-07-08",
         "type": "match",
         "priority": "medium",
         "person": "N/A",
-        "description": "Mundial 2026 - Día de descanso antes de cuartos de final."
+        "description": "Mundial 2026 - Día de descanso antes de los cuartos de final."
     },
-    # Cuartos de final
+    # Cuartos de final (9-11 de julio; cruces a definir)
     {
         "date": "2026-07-09",
         "type": "match",
         "priority": "high",
         "person": "N/A",
-        "description": "Mundial 2026 - Cuartos de final (2 partidos)."
+        "description": "Mundial 2026 - Se juegan los cuartos de final (9-11 de julio, cruces a definir)."
     },
     {
         "date": "2026-07-10",
         "type": "match",
         "priority": "high",
         "person": "N/A",
-        "description": "Mundial 2026 - Cuartos de final (2 partidos)."
+        "description": "Mundial 2026 - Se juegan los cuartos de final (9-11 de julio, cruces a definir)."
     },
-    # Descanso
     {
         "date": "2026-07-11",
         "type": "match",
-        "priority": "medium",
+        "priority": "high",
         "person": "N/A",
-        "description": "Mundial 2026 - Día previo a semifinales."
+        "description": "Mundial 2026 - Cierran los cuartos de final (cruces a definir)."
     },
+    # Días previos a semifinales
     {
         "date": "2026-07-12",
         "type": "match",
@@ -253,20 +253,20 @@ MUNDIAL_EVENTS = [
         "person": "N/A",
         "description": "Mundial 2026 - Día previo a semifinales."
     },
-    # Semifinales
+    # Semifinales (sedes confirmadas)
     {
         "date": "2026-07-14",
         "type": "match",
         "priority": "critical",
         "person": "N/A",
-        "description": "Mundial 2026 - Semifinal 1."
+        "description": "Mundial 2026 - Semifinal 1, AT&T Stadium, Arlington (Texas). Cruces por definir."
     },
     {
         "date": "2026-07-15",
         "type": "match",
         "priority": "critical",
         "person": "N/A",
-        "description": "Mundial 2026 - Semifinal 2."
+        "description": "Mundial 2026 - Semifinal 2, Mercedes-Benz Stadium, Atlanta. Cruces por definir."
     },
     # Descanso pre-final
     {
@@ -289,7 +289,7 @@ MUNDIAL_EVENTS = [
         "type": "match",
         "priority": "high",
         "person": "N/A",
-        "description": "Mundial 2026 - Partido por el tercer puesto."
+        "description": "Mundial 2026 - Partido por el tercer puesto, Hard Rock Stadium, Miami."
     },
     # FINAL
     {
@@ -297,36 +297,58 @@ MUNDIAL_EVENTS = [
         "type": "match",
         "priority": "critical",
         "person": "N/A",
-        "description": "FINAL del Mundial 2026, MetLife Stadium, Nueva Jersey."
+        "description": "FINAL del Mundial 2026, domingo 19 de julio, MetLife Stadium, Nueva York/Nueva Jersey."
     },
 ]
 
 
-def main():
-    with open(EVENTS_FILE, "r", encoding="utf-8") as f:
+def apply_fixture(events_file=EVENTS_FILE, mundial_events=None):
+    """Aplica el fixture del Mundial a events.json de forma idempotente.
+
+    Reemplaza por (fecha, tipo): antes de insertar cada evento del fixture,
+    elimina los eventos existentes con la misma fecha y el mismo tipo. Así,
+    re-correr el script actualiza descripciones/prioridades desactualizadas
+    en vez de duplicar o dejar versiones viejas.
+
+    Devuelve (added, replaced, total).
+    """
+    if mundial_events is None:
+        mundial_events = MUNDIAL_EVENTS
+
+    with open(events_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    existing_dates = {e["date"] for e in data["events"]}
-    added = 0
+    fixture_keys = {(e["date"], e["type"]) for e in mundial_events}
+    existing_keys = {(e.get("date"), e.get("type")) for e in data["events"]}
 
-    for event in MUNDIAL_EVENTS:
-        # Evitar duplicados por fecha + descripción
-        is_dup = any(
-            e["date"] == event["date"] and "Mundial 2026" in e.get("description", "")
-            for e in data["events"]
-        )
-        if not is_dup:
-            data["events"].append(event)
-            added += 1
+    kept = []
+    replaced = 0
+    for existing in data["events"]:
+        if (existing.get("date"), existing.get("type")) in fixture_keys:
+            replaced += 1
+        else:
+            kept.append(existing)
+
+    added = sum(
+        1 for e in mundial_events if (e["date"], e["type"]) not in existing_keys
+    )
+    kept.extend(mundial_events)
 
     # Ordenar por fecha
-    data["events"].sort(key=lambda e: e["date"])
+    kept.sort(key=lambda e: e["date"])
+    data["events"] = kept
 
-    with open(EVENTS_FILE, "w", encoding="utf-8") as f:
+    with open(events_file, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-    print(f"Agregados {added} eventos del Mundial 2026")
-    print(f"Total eventos: {len(data['events'])}")
+    return added, replaced, len(kept)
+
+
+def main():
+    added, replaced, total = apply_fixture()
+    print(f"Agregados {added} eventos nuevos del Mundial 2026")
+    print(f"Reemplazados {replaced} eventos existentes (misma fecha+tipo)")
+    print(f"Total eventos: {total}")
 
 
 if __name__ == "__main__":

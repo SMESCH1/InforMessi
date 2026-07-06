@@ -4,11 +4,14 @@ import sys
 import json
 from pathlib import Path
 
+import pytest
+
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from importlib import import_module
 
 gm = import_module("generate-message")
+gm_llm_client = import_module("llm_client")
 
 calculate_days_remaining = gm.calculate_days_remaining
 _extract_json = gm._extract_json
@@ -148,3 +151,64 @@ class TestFormatNews:
         result = _format_news_for_prompt(news)
         assert "Solo titulo" in result
         assert "ESPN" in result
+
+
+class TestLLMClientErrorNoCrash:
+    """CRITICAL fix: falta de GROQ_API_KEY debe ser un error capturable
+    (LLMClientError), no un sys.exit(1) directo dentro de call_groq."""
+
+    def test_llm_client_error_is_runtime_error(self):
+        from llm_client import LLMClientError
+        assert issubclass(LLMClientError, RuntimeError)
+
+    def test_call_groq_raises_llm_client_error_without_key(self, monkeypatch):
+        import llm_client
+        monkeypatch.delenv("GROQ_API_KEY", raising=False)
+
+        with pytest.raises(llm_client.LLMClientError):
+            llm_client.call_groq("prompt de prueba")
+
+    def test_call_llm_groq_wrapper_propagates_llm_client_error(self, monkeypatch):
+        monkeypatch.delenv("GROQ_API_KEY", raising=False)
+
+        with pytest.raises(gm_llm_client.LLMClientError):
+            gm.call_llm_groq("prompt de prueba")
+
+
+class TestGenerateMessageCLIMissingApiKey:
+    """El CLI de generate-message.py debe seguir saliendo con exit code 1 y
+    un mensaje de error claro cuando falta GROQ_API_KEY (comportamiento
+    preservado tras cambiar call_groq de sys.exit a LLMClientError)."""
+
+    def test_cli_exits_1_with_clear_message_when_groq_key_missing(self, tmp_path):
+        import subprocess
+        import os
+
+        data = {
+            "date": "2026-06-15",
+            "mundial_2026_start": "2026-06-11",
+            "mundial_2026_end": "2026-07-19",
+            "events": [],
+            "news": [],
+        }
+        data_path = tmp_path / "data.json"
+        data_path.write_text(json.dumps(data), encoding="utf-8")
+
+        script_path = Path(__file__).parent.parent / "scripts" / "generate-message.py"
+
+        env = os.environ.copy()
+        env.pop("GROQ_API_KEY", None)
+
+        result = subprocess.run(
+            [sys.executable, str(script_path), "--data", str(data_path), "--provider", "groq"],
+            capture_output=True,
+            text=True,
+            timeout=60,
+            env=env,
+            encoding="utf-8",
+            errors="replace",
+        )
+
+        assert result.returncode == 1
+        combined_output = ((result.stdout or "") + (result.stderr or "")).lower()
+        assert "groq_api_key" in combined_output

@@ -37,10 +37,10 @@ jobs:
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
           LLM_PROVIDER: groq
-          LLM_MODEL: llama-3.1-8b-instant
+          LLM_MODEL: llama-3.3-70b-versatile
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: |
-          DATE=$(date +%Y-%m-%d)
+          DATE=$(TZ=America/Argentina/Buenos_Aires date +%Y-%m-%d)
           if [ ! -f "reports/${DATE}.json" ]; then
             echo "Generando informe para ${DATE}..."
             python3 scripts/generate-advance-reports.py --days 1 --start-date "${DATE}" --provider groq
@@ -55,12 +55,22 @@ jobs:
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USER_AGENT: ${{ secrets.REDDIT_USER_AGENT }}
           LLM_PROVIDER: groq
-          LLM_MODEL: llama-3.1-8b-instant
+          LLM_MODEL: llama-3.3-70b-versatile
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_PREVIEW_CHAT_ID: ${{ secrets.TELEGRAM_PREVIEW_CHAT_ID }}
           TELEGRAM_PUBLIC_CHAT_ID: ${{ secrets.TELEGRAM_PUBLIC_CHAT_ID }}
         run: python3 scripts/update-today-report.py
+
+      - name: Evals (gate de calidad)
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          LLM_PROVIDER: groq
+          LLM_MODEL: llama-3.3-70b-versatile
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+        run: |
+          DATE=$(TZ=America/Argentina/Buenos_Aires date +%Y-%m-%d)
+          python3 evals/run_evals.py --date "$DATE" --gate --judge --on-fail regenerate
 
       - name: Enviar a Telegram
         env:
@@ -82,6 +92,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add reports/ data/ || true
-          git diff --staged --quiet || git commit -m "Actualizar informe $(date +%Y-%m-%d)"
+          git diff --staged --quiet || git commit -m "Actualizar informe $(TZ=America/Argentina/Buenos_Aires date +%Y-%m-%d)"
+          # Evita carrera con commits del agente/scraper que puedan haber llegado entre medio
+          git pull --rebase origin $(git branch --show-current) || true
           # Si el push falla, el job falla: el siguiente run no tendrá reports/data actualizados (memoria desactualizada)
           git push

@@ -31,8 +31,8 @@ else
     echo "⚠️  Archivo .env no encontrado"
 fi
 
-# Fecha del día
-DATE=$(date +"%Y-%m-%d")
+# Fecha del día (siempre Argentina, independiente del TZ del sistema)
+DATE=$(TZ=America/Argentina/Buenos_Aires date +"%Y-%m-%d")
 
 echo -e "${BLUE}🚀 InforMessi - Actualización Diaria${NC}"
 echo "================================================"

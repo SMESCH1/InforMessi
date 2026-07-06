@@ -11,6 +11,10 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar_iso, today_ar, parse_ts, TZ_AR
+from report_schema import validate_report
+
 import logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
@@ -57,7 +61,28 @@ def update_report_for_date(date: str) -> bool:
     # Cargar informe existente
     with open(report_file, 'r', encoding='utf-8') as f:
         report = json.load(f)
-    
+
+    if report.get("source") == "claude-agent":
+        try:
+            gen_date = parse_ts(report["generated_at"]).astimezone(TZ_AR).date().isoformat()
+        except (KeyError, ValueError, TypeError) as e:
+            logger.warning(f"Report del agente con generated_at inválido ({e}); se regenera con Groq")
+            gen_date = None
+
+        if gen_date == date and report.get("message"):
+            errors = validate_report(report)
+            if not errors:
+                logger.info("✅ Report fresco del agente Claude detectado; se omite regeneración Groq")
+                report["updated_at"] = now_ar_iso()   # habilita el flujo de auto-publish (usa updated_at)
+                # NO tocar pre_approved: el flujo de aprobación manual sigue igual
+                with open(report_file, 'w', encoding='utf-8') as f:
+                    json.dump(report, f, indent=2, ensure_ascii=False)
+                return True
+            else:
+                logger.warning(f"Report del agente inválido ({errors}); se regenera con Groq")
+        elif gen_date is not None:
+            logger.info("Report del agente stale (generated_at no es de hoy); se regenera con Groq")
+
     # Recolectar datos actualizados
     data_file = PROJECT_ROOT / "tmp" / f"data-{date}.json"
     data_file.parent.mkdir(exist_ok=True)
@@ -138,9 +163,10 @@ def update_report_for_date(date: str) -> bool:
     report["data"] = updated_data
     report["message"] = updated_message
     report["status"] = "updated"
-    report["updated_at"] = datetime.now().isoformat()
+    report["updated_at"] = now_ar_iso()
     report["pre_approved"] = True
-    report["pre_approved_at"] = datetime.now().isoformat()
+    report["pre_approved_at"] = now_ar_iso()
+    report["source"] = "groq-fallback"
     
     # Guardar
     with open(report_file, 'w', encoding='utf-8') as f:
@@ -168,7 +194,7 @@ def main():
     if args.date:
         target_date = args.date
     else:
-        target_date = datetime.now().strftime("%Y-%m-%d")
+        target_date = today_ar()
     
     logger.info("🔄 Actualizando informe del día")
     logger.info("=" * 50)

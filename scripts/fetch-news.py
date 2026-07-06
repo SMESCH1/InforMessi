@@ -5,11 +5,22 @@ Fase 4 - InforMessi
 """
 
 import json
+import logging
 import os
+import re
 import sys
 from datetime import datetime
+from pathlib import Path
 from typing import List, Dict, Optional
 from urllib.parse import quote
+
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar, now_ar_iso, today_ar
+from text_utils import normalize_text as _norm
+from llm_client import call_groq, LLMClientError
+
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logger = logging.getLogger(__name__)
 
 try:
     import requests
@@ -44,6 +55,210 @@ KEYWORDS_BROAD = [
     "fútbol", "futbol", "football",
     "copa américa", "champions", "libertadores",
 ]
+
+# Keywords fuertes: si aparecen, la noticia es futbolística/Selección con
+# confianza alta. Se usan tanto para exigir relevancia mínima como para
+# "salvar" noticias de la blacklist (ver has_strong_football_signal).
+KEYWORDS_STRONG = [
+    "seleccion", "messi", "scaloni", "scaloneta", "mundial", "afa", "fifa",
+    "albiceleste", "copa america", "eliminatorias", "conmebol",
+]
+
+# Subconjunto de KEYWORDS_STRONG que son nombres propios o apodos (jugador,
+# DT, apodos del equipo) en vez de términos futbolísticos genéricos. Un
+# nombre propio (solo o combinado con otros nombres propios) puede aparecer
+# en una nota de farándula/policiales sin que la nota sea sobre fútbol — por
+# eso NO alcanza por sí solo para anular un match de blacklist (ver
+# _has_non_proper_strong_signal). Los nombres de jugadores cargados desde
+# data/players.json también se consideran nombres propios.
+KEYWORDS_STRONG_PROPER_NOUNS = {
+    "messi", "scaloni", "scaloneta", "afa", "albiceleste",
+}
+
+# Términos futbolísticos genéricos: solos no alcanzan, pero combinados con
+# "argentina" sí indican contexto futbolístico fuerte. OJO: muchos de estos
+# son ambiguos fuera de contexto futbolístico ("entrenador" personal de
+# gimnasio, "jugador" de poker, "partido" de truco/cartas/política) — por
+# eso este set se usa para relevancia general (junto con "argentina"), pero
+# NO alcanza para anular la blacklist (ver FOOTBALL_UNAMBIGUOUS_TERMS y
+# _has_non_proper_strong_signal).
+FOOTBALL_CONTEXT_TERMS = [
+    "partido", "gol", "goles", "estadio", "tecnico", "convocatoria",
+    "lesion", "futbol", "football", "liga", "torneo", "arquero",
+    "delantero", "defensor", "mediocampista", "entrenador", "cancha",
+    "jugador", "jugadores", "plantel", "amistoso", "clasico",
+]
+
+# Términos futbolísticos INEQUÍVOCOS: la palabra sola ya implica fútbol/
+# Selección Argentina, sin ambigüedad razonable en otro dominio (a
+# diferencia de "entrenador", "jugador", "partido", "gol", "técnico", que
+# son términos de FOOTBALL_CONTEXT_TERMS pero se usan en muchos otros
+# contextos: entrenador personal, jugador de poker, partido de truco/
+# política, gol de una campaña de marketing, técnico de PC, etc.). Se usa
+# exclusivamente para la regla anti-blacklist: para anular un match de
+# blacklist hace falta 2+ señales fuertes Y al menos una de este set.
+#
+# Nota: "afa" y "scaloneta" quedan afuera a propósito aunque sean
+# inequívocamente futbolísticos, porque están clasificados como nombres
+# propios/apodos en KEYWORDS_STRONG_PROPER_NOUNS (una nota de farándula
+# puede nombrar "la Scaloneta" o "la AFA" de pasada sin ser sobre fútbol,
+# igual que puede nombrar a "Messi" o "Scaloni") — deben poder repetirse
+# junto a otros nombres propios sin anular la blacklist por sí solos (ver
+# test_farandula_milei_scaloni_almuerzo_rechazada).
+FOOTBALL_UNAMBIGUOUS_TERMS = [
+    "fifa", "seleccion argentina", "seleccion", "eliminatorias",
+    "conmebol", "copa america",
+]
+
+# Noticias basura frecuentes que pasan el filtro laxo actual: política,
+# farándula/policiales, apuestas, negocios no futbolísticos, autos/lujo.
+KEYWORDS_BLACKLIST = [
+    # política
+    "elecciones", "milei", "congreso", "gobierno", "senado", "diputados",
+    "candidato", "campaña electoral", "ministro", "ministerio",
+    # apuestas
+    "quiniela", "cuotas", "apuestas", "casa de apuestas", "bono de bienvenida",
+    # negocios no futbolísticos
+    "telecom", "operador", "acciones", "bolsa", "cotización", "dólar blue",
+    "criptomoneda", "inflación",
+    # autos/lujo/farándula
+    "coche", "auto de lujo", "mansión", "ferrari", "lamborghini",
+    "farándula", "escándalo", "polémica amorosa", "chimento",
+]
+
+_PLAYER_NAMES_CACHE: Optional[List[str]] = None
+
+
+def _load_player_names() -> List[str]:
+    """Carga nombres de jugadores desde data/players.json (normalizados),
+    si el archivo existe. Devuelve lista vacía ante cualquier error."""
+    global _PLAYER_NAMES_CACHE
+    if _PLAYER_NAMES_CACHE is not None:
+        return _PLAYER_NAMES_CACHE
+
+    names = []
+    try:
+        players_path = Path(__file__).parent.parent / "data" / "players.json"
+        with open(players_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        for player in data.get("players", []):
+            full_name = player.get("name", "")
+            if not full_name:
+                continue
+            # Nombres pueden venir con apodos entre comillas, ej: Emiliano 'Dibu' Martínez
+            clean_name = re.sub(r"['\"][^'\"]*['\"]", "", full_name)
+            for part in clean_name.split():
+                norm_part = _norm(part)
+                if len(norm_part) > 3:  # evitar matchear partículas cortas
+                    names.append(norm_part)
+    except Exception:
+        names = []
+
+    _PLAYER_NAMES_CACHE = names
+    return names
+
+
+def _count_strong_signals(norm_text: str) -> int:
+    """Cuenta cuántos keywords fuertes distintos (KEYWORDS_STRONG o nombres
+    de jugadores) aparecen en el texto normalizado. Un solo match (ej. la
+    palabra "mundial" suelta) puede ser incidental (el Mundial de otra
+    cosa); varios matches distintos son una señal mucho más confiable de
+    que la nota es realmente sobre Selección/fútbol."""
+    count = sum(1 for kw in KEYWORDS_STRONG if kw in norm_text)
+    count += sum(1 for player_name in _load_player_names() if player_name in norm_text)
+    return count
+
+
+def _has_non_proper_strong_signal(norm_text: str) -> bool:
+    """True si el texto tiene al menos una señal fuerte que NO sea un
+    nombre propio/apodo (jugador, DT, apodo del equipo) Y que sea
+    INEQUÍVOCAMENTE futbolística. Nombres de jugadores conocidos convocados
+    (players.json) y los apodos/nombres propios de
+    KEYWORDS_STRONG_PROPER_NOUNS no cuentan: una nota de farándula puede
+    mencionar a Messi, Scaloni o varios jugadores sin ser una noticia
+    futbolística (ej. "el escándalo amoroso entre Messi y Rulli").
+
+    Importante: términos de FOOTBALL_CONTEXT_TERMS como "entrenador",
+    "jugador" o "partido" tampoco alcanzan acá, porque son ambiguos fuera
+    de contexto futbolístico (entrenador personal de gimnasio, jugador de
+    poker, partido de truco/política) y una nota de farándula/policiales
+    puede usarlos en ese sentido no futbolístico. Solo cuentan los
+    términos de FOOTBALL_UNAMBIGUOUS_TERMS (fifa, selección, eliminatorias,
+    conmebol, copa américa), donde la palabra sola ya implica fútbol sin
+    ambigüedad razonable."""
+    if any(term in norm_text for term in FOOTBALL_UNAMBIGUOUS_TERMS):
+        return True
+    return False
+
+
+def has_strong_football_signal(text: str) -> bool:
+    """True si el texto tiene una señal futbolística/Selección fuerte:
+    keyword fuerte, nombre de jugador convocado, o "argentina" combinado
+    con un término futbolístico genérico."""
+    norm_text = _norm(text)
+
+    if _count_strong_signals(norm_text) >= 1:
+        return True
+
+    if "argentina" in norm_text and any(term in norm_text for term in FOOTBALL_CONTEXT_TERMS):
+        return True
+
+    return False
+
+
+def _matches_blacklist(text: str) -> bool:
+    norm_text = _norm(text)
+    return any(_norm(kw) in norm_text for kw in KEYWORDS_BLACKLIST)
+
+
+def filter_news_llm(news_list: List[Dict]) -> List[Dict]:
+    """Filtra noticias con una única llamada al LLM (Groq), pidiéndole que
+    devuelva los índices de las noticias relevantes (fútbol/Mundial
+    2026/Selección Argentina), excluyendo política/farándula/negocios/otros
+    deportes.
+
+    Best-effort: ante CUALQUIER error (sin GROQ_API_KEY, error de red, JSON
+    inválido, etc.) se retorna la lista original sin filtrar — el filtro
+    por keywords ya aplicado en _validate_news_basic sigue siendo la red de
+    seguridad principal. Nunca debe hacer fallar el pipeline del scraper.
+    """
+    if not news_list:
+        return news_list
+
+    titles = "\n".join(f"{i}. {n.get('title', '')}" for i, n in enumerate(news_list))
+    prompt = (
+        "Estas son noticias numeradas. Devolvé SOLO un JSON con la forma "
+        '{"relevantes": [indices]} de las noticias que sean sobre fútbol, '
+        "el Mundial 2026 o la Selección Argentina, excluyendo política, "
+        "farándula, negocios no futbolísticos u otros deportes.\n\n"
+        f"{titles}"
+    )
+
+    try:
+        response = call_groq(
+            prompt,
+            model="llama-3.1-8b-instant",
+            json_mode=True,
+            temperature=0,
+        )
+        data = json.loads(response)
+        indices = data["relevantes"]
+        filtered = [
+            news_list[i] for i in indices
+            if isinstance(i, int) and 0 <= i < len(news_list)
+        ]
+        return filtered
+    except LLMClientError as e:
+        # Caso esperado (ej. GROQ_API_KEY no configurada en local/dev): no es
+        # un error real, solo degradación best-effort. No amerita warning.
+        logger.info(f"ℹ️  filter_news_llm: sin filtro LLM disponible ({e})")
+        return news_list
+    except Exception as e:
+        # Error real de red, parsing de JSON, índices inesperados, etc. —
+        # sí es una condición anómala que conviene ver como warning.
+        logger.warning(f"⚠️  filter_news_llm: fallback silencioso ({e})")
+        return news_list
+
 
 # --- NewsAPI Queries ---
 
@@ -82,9 +297,9 @@ def _validate_news_basic(news_list: List[Dict], max_days: int = 3, reference_dat
         try:
             today = datetime.strptime(reference_date, "%Y-%m-%d").date()
         except Exception:
-            today = datetime.now().date()
+            today = now_ar().date()
     else:
-        today = datetime.now().date()
+        today = now_ar().date()
 
     obsolete_keywords = [
         "gerardo martino", "tata martino", "sampaoli", "bauza",
@@ -127,6 +342,34 @@ def _validate_news_basic(news_list: List[Dict], max_days: int = 3, reference_dat
                     break
 
         if has_obsolete:
+            continue
+
+        # Primero: exigir relevancia futbolística mínima (señal fuerte o
+        # "argentina" + término de contexto). Sin esto no alcanza el umbral
+        # mínimo, matchee o no la blacklist.
+        if not has_strong_football_signal(text):
+            continue
+
+        # Orden de evaluación: la señal futbolística fuerte gana sobre la
+        # blacklist, pero no con un solo match incidental, y no solo con
+        # nombres propios. Ej. "Digi ha perdido el tren del Mundial"
+        # (telecom) tiene una única palabra fuerte ("mundial") que aparece
+        # de pura casualidad — no alcanza. "El escándalo amoroso entre
+        # Messi y Rulli sacude la farándula" tiene DOS señales fuertes
+        # (dos nombres de jugadores) pero CERO no-nombre-propio — no
+        # alcanza: los nombres propios solos no acreditan que la nota sea
+        # futbolística, ya que farándula/policiales frecuentemente
+        # mencionan jugadores. En cambio "El gobierno de la FIFA definió
+        # el nuevo formato de eliminatorias... Mundial 2026" tiene varias
+        # señales fuertes distintas ("fifa", "eliminatorias", "mundial"),
+        # todas no-nombre-propio: ahí sí gana sobre la blacklist
+        # ("gobierno"). Se requieren 2+ señales fuertes distintas Y AL
+        # MENOS UNA no-nombre-propio para "salvar" una noticia que matchea
+        # la blacklist.
+        if _matches_blacklist(text) and (
+            _count_strong_signals(_norm(text)) < 2
+            or not _has_non_proper_strong_signal(_norm(text))
+        ):
             continue
 
         valid_news.append(news)
@@ -292,7 +535,7 @@ def get_news_tyc_sports(max_results: int = 8) -> List[Dict]:
                                 "description": "",
                                 "url": full_url,
                                 "source": "TyC Sports",
-                                "published_at": datetime.now().isoformat()
+                                "published_at": now_ar_iso()
                             })
 
                 if news:
@@ -306,7 +549,7 @@ def get_news_tyc_sports(max_results: int = 8) -> List[Dict]:
         return []
 
 
-def get_news_argentina(max_results: int = 8, silent: bool = False, reference_date: Optional[str] = None, max_days: int = 3, broad: bool = False) -> List[Dict]:
+def get_news_argentina(max_results: int = 8, silent: bool = False, reference_date: Optional[str] = None, max_days: int = 3, broad: bool = False, llm_filter: bool = False) -> List[Dict]:
     """Obtiene noticias deportivas desde múltiples fuentes"""
 
     all_news = []
@@ -358,6 +601,10 @@ def get_news_argentina(max_results: int = 8, silent: bool = False, reference_dat
     # Validar noticias
     validated_news = _validate_news_basic(unique_news, max_days=max_days, reference_date=reference_date)
 
+    # Filtro LLM opcional (best-effort, fallback silencioso ante error)
+    if llm_filter or os.getenv("NEWS_LLM_FILTER") == "1":
+        validated_news = filter_news_llm(validated_news)
+
     return validated_news[:max_results]
 
 
@@ -389,6 +636,10 @@ def main():
         "--broad", action="store_true",
         help="Usar keywords amplios (fútbol mundial, liga argentina, FIFA, etc.)"
     )
+    parser.add_argument(
+        "--llm-filter", action="store_true",
+        help="Aplicar filtro adicional por LLM (Groq). También se activa con NEWS_LLM_FILTER=1"
+    )
 
     args = parser.parse_args()
 
@@ -403,6 +654,7 @@ def main():
         reference_date=args.date,
         max_days=args.max_days,
         broad=args.broad,
+        llm_filter=args.llm_filter,
     )
 
     if args.json_only:
@@ -417,7 +669,7 @@ def main():
                 print(f"      Fuente: {item['source']}")
 
         if args.output:
-            output_data = {"date": datetime.now().strftime("%Y-%m-%d"), "news": news}
+            output_data = {"date": today_ar(), "news": news}
             with open(args.output, 'w', encoding='utf-8') as f:
                 json.dump(output_data, f, indent=2, ensure_ascii=False)
             print(f"\n💾 Datos guardados en: {args.output}")

@@ -11,6 +11,9 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar_iso, today_ar
+
 # Cargar variables de entorno desde .env
 try:
     from dotenv import load_dotenv
@@ -30,6 +33,22 @@ except ImportError:
 
 PROJECT_ROOT = Path(__file__).parent.parent
 REPORTS_DIR = PROJECT_ROOT / "reports"
+
+
+def build_eval_warning_header(report: dict) -> str:
+    """Arma el header de advertencia a prependear al texto del preview cuando
+    report["eval_warning"] es True. Resume los checks de severity=error que
+    fallaron en report["eval"]["checks"]."""
+    eval_block = report.get("eval") or {}
+    checks = eval_block.get("checks") or []
+    failed_errors = [c for c in checks if not c.get("passed") and c.get("severity") == "error"]
+
+    if failed_errors:
+        detalle = "\n".join(f"- {c['name']}: {c['detail']}" for c in failed_errors)
+    else:
+        detalle = "- (ver reports/<fecha>.json → eval para el detalle)"
+
+    return f"⚠️ EVALS FALLARON — revisar antes de aprobar:\n{detalle}\n\n---\n\n"
 
 
 def load_report(date: str) -> dict:
@@ -86,7 +105,7 @@ def main():
     if args.date:
         target_date = args.date
     else:
-        target_date = datetime.now().strftime("%Y-%m-%d")
+        target_date = today_ar()
     
     # Cargar variables de entorno
     preview_chat_id = os.getenv("TELEGRAM_PREVIEW_CHAT_ID")
@@ -105,7 +124,13 @@ def main():
     # Cargar informe
     report = load_report(target_date)
     message = report["message"]
-    
+
+    # Si los evals fallaron (eval_warning), prependear un header de alerta al
+    # TEXTO DEL PREVIEW (no se toca report["message"] guardado en disco)
+    if report.get("eval_warning"):
+        message = build_eval_warning_header(report) + message
+        print("⚠️  eval_warning activo: se antepone alerta al preview")
+
     # Detectar contenido audiovisual (antes de verificar pre-aprobación)
     sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
     media_path = None
@@ -117,9 +142,9 @@ def main():
             print(f"📷 Contenido visual detectado: {media['primary_image']}")
     except:
         media_path = None
-    
-    # Verificar si está pre-aprobado
-    if report.get("pre_approved"):
+
+    # Verificar si está pre-aprobado (nunca si los evals fallaron)
+    if report.get("pre_approved") and not report.get("eval_warning"):
         print("✅ Informe pre-aprobado detectado")
         print("   Publicando directamente en grupo público...")
         print("")
@@ -174,7 +199,7 @@ def main():
             if success:
                 # Marcar como publicado
                 report["status"] = "published"
-                report["published_at"] = datetime.now().isoformat()
+                report["published_at"] = now_ar_iso()
                 
                 report_file = REPORTS_DIR / f"{target_date}.json"
                 with open(report_file, 'w', encoding='utf-8') as f:

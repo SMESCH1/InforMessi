@@ -11,6 +11,9 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).parent))
+from time_utils import now_ar_iso, today_ar
+
 PROJECT_ROOT = Path(__file__).parent.parent
 REPORTS_DIR = PROJECT_ROOT / "reports"
 
@@ -116,9 +119,9 @@ def edit_report_interactive(date: str):
         if new_message and new_message != report.get("message", ""):
             report["message"] = new_message
             report["status"] = "updated"
-            report["updated_at"] = datetime.now().isoformat()
+            report["updated_at"] = now_ar_iso()
             report["edited_manually"] = True
-            report["edited_at"] = datetime.now().isoformat()
+            report["edited_at"] = now_ar_iso()
             
             print()
             print("✅ Mensaje actualizado")
@@ -128,7 +131,7 @@ def edit_report_interactive(date: str):
             validate = input("¿Marcar como pre-aprobado? (s/n): ").strip().lower()
             if validate == "s":
                 report["pre_approved"] = True
-                report["pre_approved_at"] = datetime.now().isoformat()
+                report["pre_approved_at"] = now_ar_iso()
                 print("✅ Informe marcado como pre-aprobado")
             else:
                 report["pre_approved"] = False
@@ -139,7 +142,7 @@ def edit_report_interactive(date: str):
         
     elif choice == "2":
         report["pre_approved"] = True
-        report["pre_approved_at"] = datetime.now().isoformat()
+        report["pre_approved_at"] = now_ar_iso()
         print("✅ Informe marcado como pre-aprobado")
         
     elif choice == "3":
@@ -184,7 +187,7 @@ def main():
     if args.date:
         target_date = args.date
     else:
-        target_date = datetime.now().strftime("%Y-%m-%d")
+        target_date = today_ar()
     
     success = edit_report_interactive(target_date)
     
