@@ -26,6 +26,8 @@ def make_agent_report(date: str, generated_at: str, message: str = "mensaje del 
             "news": [],
             "weather": {"amba": {"min": 8, "max": 16}, "la_plata": {"min": 6, "max": 15}},
             "sources": ["https://www.fifa.com/mundial2026"],
+            "mundial_2026_start": "2026-06-11",
+            "mundial_2026_end": "2026-07-19",
         },
         "message": message,
         "status": "agent-draft",

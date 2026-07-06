@@ -13,7 +13,7 @@ import json
 import sys
 from importlib import import_module
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
 import pytest
 
@@ -416,3 +416,57 @@ class TestDedupeMultiDia:
         )
         result = scrape_daily_news.filter_seen_titles(today_news, recent_titles)
         assert len(result) == 1
+
+
+# =====================================================================
+# 6. NEWS_LLM_FILTER no debe propagarse al subprocess de fetch-news.py
+#    (evitar doble filtrado LLM: una vez adentro del subprocess y otra
+#    vez afuera, en main()).
+# =====================================================================
+
+class TestNoDobleFiltradoLlm:
+    def test_subprocess_env_no_contiene_news_llm_filter(self, monkeypatch):
+        """Si NEWS_LLM_FILTER=1 está seteado en el proceso principal, el
+        subprocess de fetch-news.py NO debe recibirlo en su env: el filtro
+        LLM debe correr una única vez, afuera (en main()), no adentro del
+        subprocess también."""
+        monkeypatch.setenv("NEWS_LLM_FILTER", "1")
+
+        captured_env = {}
+
+        def fake_run(cmd, **kwargs):
+            captured_env.update(kwargs.get("env") or {})
+            mock_result = MagicMock()
+            mock_result.returncode = 0
+            mock_result.stdout = "[]"
+            mock_result.stderr = ""
+            return mock_result
+
+        with patch.object(scrape_daily_news.subprocess, "run", side_effect=fake_run) as mock_run:
+            scrape_daily_news.scrape_news("2026-06-28")
+
+        assert mock_run.called
+        assert "NEWS_LLM_FILTER" not in captured_env
+
+    def test_filtro_exterior_sigue_activo_con_news_llm_filter(self, tmp_path, monkeypatch):
+        """El filtro LLM exterior (en main(), después del dedupe multi-día)
+        debe seguir activándose con NEWS_LLM_FILTER=1, aunque ya no se
+        propague al subprocess. Corremos main() de punta a punta (con
+        scrape_news/scrape_reddit mockeados para no tocar red ni
+        subprocess) y verificamos que filter_news_llm se invoca."""
+        monkeypatch.setenv("NEWS_LLM_FILTER", "1")
+        monkeypatch.setattr(scrape_daily_news, "DAILY_NEWS_DIR", tmp_path)
+
+        news = [make_news("Messi habló tras la victoria de Argentina")]
+
+        with patch.object(scrape_daily_news, "scrape_news", return_value=news), \
+             patch.object(scrape_daily_news, "scrape_reddit", return_value=[]), \
+             patch.object(
+                 scrape_daily_news, "filter_news_llm", return_value=news
+             ) as mock_filter_llm, \
+             patch.object(sys, "argv", ["scrape-daily-news.py", "--date", "2026-06-28"]):
+            scrape_daily_news.main()
+
+        mock_filter_llm.assert_called_once()
+        output_file = tmp_path / "2026-06-28.json"
+        assert output_file.exists()

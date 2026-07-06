@@ -37,6 +37,8 @@ def make_claude_agent_report():
         "https://www.fifa.com/mundial2026",
         "http://example.com/noticia",
     ]
+    report["data"]["mundial_2026_start"] = "2026-06-11"
+    report["data"]["mundial_2026_end"] = "2026-07-19"
     return report
 
 
@@ -157,6 +159,22 @@ class TestClaudeAgentReport:
         report["data"]["sources"] = [{"url": "https://example.com"}]
         errors = validate_report(report)
         assert errors
+
+    def test_missing_mundial_2026_start_is_error(self):
+        report = make_claude_agent_report()
+        del report["data"]["mundial_2026_start"]
+        errors = validate_report(report)
+        assert errors
+
+    def test_malformed_mundial_2026_start_is_error(self):
+        report = make_claude_agent_report()
+        report["data"]["mundial_2026_start"] = "11-06-2026"
+        errors = validate_report(report)
+        assert errors
+
+    def test_mundial_2026_start_present_is_valid(self):
+        report = make_claude_agent_report()
+        assert validate_report(report) == []
 
     def test_generated_at_naive_is_error(self):
         report = make_claude_agent_report()

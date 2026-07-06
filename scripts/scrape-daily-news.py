@@ -52,7 +52,14 @@ def _categorize_news(news_item):
 
 
 def scrape_news(target_date: str) -> list:
-    """Ejecuta fetch-news.py con modo broad y retorna las noticias."""
+    """Ejecuta fetch-news.py con modo broad y retorna las noticias.
+
+    El filtro LLM (NEWS_LLM_FILTER) corre UNA sola vez, afuera (ver main()),
+    después del dedupe multi-día — nunca acá adentro. Si dejáramos pasar
+    NEWS_LLM_FILTER al subprocess, fetch-news.py filtraría por su cuenta y
+    tendríamos doble filtrado: 2 llamadas a Groq por día y doble riesgo de
+    falso negativo (una noticia rechazada por cualquiera de las dos pasadas
+    se pierde)."""
     logger.info("📰 Ejecutando fetch-news.py --broad...")
 
     cmd = [
@@ -65,10 +72,12 @@ def scrape_news(target_date: str) -> list:
         "--json-only",
     ]
 
+    subproc_env = {k: v for k, v in _SUBPROC_ENV.items() if k != "NEWS_LLM_FILTER"}
+
     try:
         result = subprocess.run(
             cmd, capture_output=True, text=True, timeout=60,
-            env=_SUBPROC_ENV, encoding="utf-8",
+            env=subproc_env, encoding="utf-8",
         )
         if result.returncode != 0:
             logger.warning(f"⚠️  fetch-news.py falló: {result.stderr[:200]}")

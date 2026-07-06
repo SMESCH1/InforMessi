@@ -98,6 +98,12 @@ def _validate_claude_agent(report: dict) -> list[str]:
         if bad:
             errors.append(f"'data.sources' contiene entradas inválidas (deben ser http(s) strings): {bad!r}")
 
+    mundial_start = data.get("mundial_2026_start")
+    if not _is_valid_date_string(mundial_start):
+        errors.append(
+            f"source=claude-agent requiere 'data.mundial_2026_start' con formato YYYY-MM-DD: {mundial_start!r}"
+        )
+
     generated_at = report.get("generated_at")
     if isinstance(generated_at, str) and not _TZ_OFFSET_RE.search(generated_at):
         errors.append(

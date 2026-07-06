@@ -32,6 +32,19 @@ que ya usa cualquier report (`date`, `data.events`, `data.news`, `message`,
   `fetch-weather.py` falló). La clave debe existir siempre.
 - `"data.sources"` — lista no vacía de URLs http(s) verificadas en la
   búsqueda web.
+- `"data.mundial_2026_start"` — fecha de inicio del Mundial 2026,
+  `"2026-06-11"`, formato `YYYY-MM-DD`. Obligatoria: sin ella,
+  `evals/checks.py::check_countdown_correcto` no puede calcular el
+  countdown y `scripts/generate-message.py` levanta `KeyError` si el
+  report se regenera con Groq a partir de un report base incompleto.
+- `"data.mundial_2026_end"` — fecha de fin del Mundial 2026,
+  `"2026-07-19"`, mismo formato.
+- `"data.mundial_phase"` / `"data.mundial_day"` / `"data.days_remaining"` —
+  mismas claves y formato que produce `scripts/collect-daily-data.py`:
+  `mundial_phase` es `"pre_mundial"` / `"durante_mundial"` /
+  `"post_mundial"`; `mundial_day` es el número de día del Mundial (solo
+  durante `"durante_mundial"`, si no `null`); `days_remaining` son los días
+  que faltan para `mundial_2026_start`.
 
 El schema completo y su validación programática están en
 `scripts/report_schema.py::validate_report`. La validación es **aditiva**:

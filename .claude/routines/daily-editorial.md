@@ -108,6 +108,18 @@ base del paso 3) y seteando/agregando:
   no se pudo obtener (la clave debe existir siempre).
 - `data.sources`: lista de URLs http(s) que verificaste en el paso 4 (no
   vacía).
+- `data.mundial_2026_start`: `"2026-06-11"`.
+- `data.mundial_2026_end`: `"2026-07-19"`.
+- Conservá también `data.mundial_phase`, `data.mundial_day` y
+  `data.days_remaining` del report base del paso 3 (mismo nombre y formato
+  que produce `scripts/collect-daily-data.py`). Si no hay report base,
+  calculalas vos mismo de forma coherente con la fecha de HOY: `mundial_phase`
+  es `"pre_mundial"` si HOY es anterior a `mundial_2026_start`,
+  `"durante_mundial"` si está entre `mundial_2026_start` y
+  `mundial_2026_end` (incluidos) o `"post_mundial"` si es posterior;
+  `mundial_day` es el número de día del Mundial (1 el día de inicio) solo
+  durante `"durante_mundial"`, si no `null`; `days_remaining` son los días
+  que faltan para `mundial_2026_start` (negativo si ya pasó).
 - `"message"`: el mensaje completo del paso 7.
 
 ### 9. Correr evals y corregir si hace falta
