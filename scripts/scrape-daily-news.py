@@ -8,15 +8,14 @@ Guarda noticias en data/daily-news/YYYY-MM-DD.json.
 import json
 import logging
 import os
-import re
 import subprocess
 import sys
-import unicodedata
 from datetime import datetime, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from time_utils import now_ar_iso, today_ar
+from text_utils import normalize_title_for_dedupe
 from importlib import import_module
 
 _fetch_news = import_module("fetch-news")
@@ -132,21 +131,13 @@ def scrape_reddit(target_date: str) -> list:
 
 
 def deduplicate_news(news_list: list) -> list:
-    """Deduplicación por similitud de título."""
-    import unicodedata
-    import re
-
-    def normalize(text):
-        text = text.lower().strip()
-        text = unicodedata.normalize("NFKD", text)
-        text = re.sub(r"[^\w\s]", "", text)
-        text = re.sub(r"\s+", " ", text)
-        return text
-
+    """Deduplicación por similitud de título (dentro del propio scrape).
+    Usa la misma normalización compartida que el dedupe multi-día (ver
+    `_normalize_title` / `text_utils.normalize_title_for_dedupe`)."""
     seen = set()
     unique = []
     for item in news_list:
-        key = normalize(item.get("title", ""))
+        key = _normalize_title(item.get("title", ""))
         if key and key not in seen:
             seen.add(key)
             unique.append(item)
@@ -154,17 +145,13 @@ def deduplicate_news(news_list: list) -> list:
 
 
 def _normalize_title(title: str) -> str:
-    """Normaliza un título para comparación de dedupe multi-día: minúsculas,
-    sin acentos/diacríticos, sin puntuación, espacios colapsados. Reusa el
-    mismo criterio de normalización sin acentos que fetch-news._norm, y
-    además quita puntuación para que "¡...!" o distinta puntuación entre
+    """Normaliza un título para comparación de dedupe (multi-día y dentro
+    del propio scrape): minúsculas, sin acentos/diacríticos, sin
+    puntuación, espacios colapsados. Delega en
+    `text_utils.normalize_title_for_dedupe`, compartida con fetch-news.py
+    y rag_memory_database.py, para que "¡...!" o distinta puntuación entre
     fuentes no impida detectar el duplicado."""
-    text = (title or "").lower().strip()
-    text = unicodedata.normalize("NFD", text)
-    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
-    text = re.sub(r"[^\w\s]", "", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+    return normalize_title_for_dedupe(title)
 
 
 def load_recent_titles(reference_date: str, days: int = 3, daily_news_dir: Path = None) -> set:

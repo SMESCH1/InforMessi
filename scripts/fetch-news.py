@@ -9,7 +9,6 @@ import logging
 import os
 import re
 import sys
-import unicodedata
 from datetime import datetime
 from pathlib import Path
 from typing import List, Dict, Optional
@@ -17,6 +16,7 @@ from urllib.parse import quote
 
 sys.path.insert(0, str(Path(__file__).parent))
 from time_utils import now_ar, now_ar_iso, today_ar
+from text_utils import normalize_text as _norm
 from llm_client import call_groq, LLMClientError
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
@@ -64,6 +64,17 @@ KEYWORDS_STRONG = [
     "albiceleste", "copa america", "eliminatorias", "conmebol",
 ]
 
+# Subconjunto de KEYWORDS_STRONG que son nombres propios o apodos (jugador,
+# DT, apodos del equipo) en vez de términos futbolísticos genéricos. Un
+# nombre propio (solo o combinado con otros nombres propios) puede aparecer
+# en una nota de farándula/policiales sin que la nota sea sobre fútbol — por
+# eso NO alcanza por sí solo para anular un match de blacklist (ver
+# _has_non_proper_strong_signal). Los nombres de jugadores cargados desde
+# data/players.json también se consideran nombres propios.
+KEYWORDS_STRONG_PROPER_NOUNS = {
+    "messi", "scaloni", "scaloneta", "afa", "albiceleste",
+}
+
 # Términos futbolísticos genéricos: solos no alcanzan, pero combinados con
 # "argentina" sí indican contexto futbolístico fuerte.
 FOOTBALL_CONTEXT_TERMS = [
@@ -90,15 +101,6 @@ KEYWORDS_BLACKLIST = [
 ]
 
 _PLAYER_NAMES_CACHE: Optional[List[str]] = None
-
-
-def _norm(text: str) -> str:
-    """Normaliza texto: minúsculas, sin acentos/diacríticos, espacios colapsados."""
-    text = (text or "").lower().strip()
-    text = unicodedata.normalize("NFD", text)
-    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
-    text = re.sub(r"\s+", " ", text)
-    return text
 
 
 def _load_player_names() -> List[str]:
@@ -139,6 +141,26 @@ def _count_strong_signals(norm_text: str) -> int:
     count = sum(1 for kw in KEYWORDS_STRONG if kw in norm_text)
     count += sum(1 for player_name in _load_player_names() if player_name in norm_text)
     return count
+
+
+def _has_non_proper_strong_signal(norm_text: str) -> bool:
+    """True si el texto tiene al menos una señal fuerte que NO sea un
+    nombre propio/apodo (jugador, DT, apodo del equipo). Nombres de
+    jugadores conocidos convocados (players.json) y los apodos/nombres
+    propios de KEYWORDS_STRONG_PROPER_NOUNS no cuentan: una nota de
+    farándula puede mencionar a Messi, Scaloni o varios jugadores sin ser
+    una noticia futbolística (ej. "el escándalo amoroso entre Messi y
+    Rulli"). Se exige un término futbolístico genérico (mundial, fifa,
+    selección, eliminatorias, conmebol, copa américa, un término de
+    FOOTBALL_CONTEXT_TERMS, etc.) para anular la blacklist."""
+    non_proper_strong = [
+        kw for kw in KEYWORDS_STRONG if kw not in KEYWORDS_STRONG_PROPER_NOUNS
+    ]
+    if any(kw in norm_text for kw in non_proper_strong):
+        return True
+    if any(term in norm_text for term in FOOTBALL_CONTEXT_TERMS):
+        return True
+    return False
 
 
 def has_strong_football_signal(text: str) -> bool:
@@ -198,7 +220,14 @@ def filter_news_llm(news_list: List[Dict]) -> List[Dict]:
             if isinstance(i, int) and 0 <= i < len(news_list)
         ]
         return filtered
+    except LLMClientError as e:
+        # Caso esperado (ej. GROQ_API_KEY no configurada en local/dev): no es
+        # un error real, solo degradación best-effort. No amerita warning.
+        logger.info(f"ℹ️  filter_news_llm: sin filtro LLM disponible ({e})")
+        return news_list
     except Exception as e:
+        # Error real de red, parsing de JSON, índices inesperados, etc. —
+        # sí es una condición anómala que conviene ver como warning.
         logger.warning(f"⚠️  filter_news_llm: fallback silencioso ({e})")
         return news_list
 
@@ -294,15 +323,25 @@ def _validate_news_basic(news_list: List[Dict], max_days: int = 3, reference_dat
             continue
 
         # Orden de evaluación: la señal futbolística fuerte gana sobre la
-        # blacklist, pero no con un solo match incidental. Ej. "Digi ha
-        # perdido el tren del Mundial" (telecom) tiene una única palabra
-        # fuerte ("mundial") que aparece de pura casualidad — no alcanza.
-        # En cambio "El gobierno de la FIFA definió el nuevo formato de
-        # eliminatorias... Mundial 2026" tiene varias señales fuertes
-        # distintas ("fifa", "eliminatorias", "mundial"): ahí sí gana sobre
-        # la blacklist ("gobierno"). Se requieren 2+ señales fuertes
-        # distintas para "salvar" una noticia que matchea la blacklist.
-        if _matches_blacklist(text) and _count_strong_signals(_norm(text)) < 2:
+        # blacklist, pero no con un solo match incidental, y no solo con
+        # nombres propios. Ej. "Digi ha perdido el tren del Mundial"
+        # (telecom) tiene una única palabra fuerte ("mundial") que aparece
+        # de pura casualidad — no alcanza. "El escándalo amoroso entre
+        # Messi y Rulli sacude la farándula" tiene DOS señales fuertes
+        # (dos nombres de jugadores) pero CERO no-nombre-propio — no
+        # alcanza: los nombres propios solos no acreditan que la nota sea
+        # futbolística, ya que farándula/policiales frecuentemente
+        # mencionan jugadores. En cambio "El gobierno de la FIFA definió
+        # el nuevo formato de eliminatorias... Mundial 2026" tiene varias
+        # señales fuertes distintas ("fifa", "eliminatorias", "mundial"),
+        # todas no-nombre-propio: ahí sí gana sobre la blacklist
+        # ("gobierno"). Se requieren 2+ señales fuertes distintas Y AL
+        # MENOS UNA no-nombre-propio para "salvar" una noticia que matchea
+        # la blacklist.
+        if _matches_blacklist(text) and (
+            _count_strong_signals(_norm(text)) < 2
+            or not _has_non_proper_strong_signal(_norm(text))
+        ):
             continue
 
         valid_news.append(news)

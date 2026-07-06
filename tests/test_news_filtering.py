@@ -80,6 +80,30 @@ class TestBlacklistDescartaBasura:
         result = fetch_news._validate_news_basic(news, reference_date="2026-06-28")
         assert result == []
 
+    def test_farandula_milei_scaloni_almuerzo_rechazada(self):
+        """Dos nombres propios (Milei no es jugador, pero 'Scaloni' es señal
+        fuerte) en una nota de chimento no deben anular la blacklist: los
+        nombres propios solos no acreditan que la nota sea futbolística."""
+        news = [make_news(
+            "Milei y Scaloni compartieron un almuerzo en la Casa Rosada",
+            "El chimento del año: la Casa Rosada organizó un evento social "
+            "con la Scaloneta en el marco de la farándula porteña.",
+        )]
+        result = fetch_news._validate_news_basic(news, reference_date="2026-06-28")
+        assert result == []
+
+    def test_farandula_messi_rulli_escandalo_rechazada(self):
+        """'Messi' y 'Rulli' son nombres de jugadores (señales fuertes) pero
+        la nota es un escándalo de farándula, no fútbol: dos nombres propios
+        sin ningún término futbolístico no-nombre-propio no deben anular la
+        blacklist."""
+        news = [make_news(
+            "El escándalo amoroso entre Messi y Rulli sacude la farándula del Congreso",
+            "",
+        )]
+        result = fetch_news._validate_news_basic(news, reference_date="2026-06-28")
+        assert result == []
+
 
 # =====================================================================
 # 2. Blacklist NO debe descartar noticias legítimas de fútbol que
@@ -109,6 +133,16 @@ class TestBlacklistNoRechazaFalsosPositivos:
         news = [make_news(
             "Messi lanzó nuevas acciones de marketing junto a la AFA para el Mundial",
             "El capitán de la Selección participó del lanzamiento de la campaña oficial.",
+        )]
+        result = fetch_news._validate_news_basic(news, reference_date="2026-06-28")
+        assert len(result) == 1
+
+    def test_congreso_fifa_mundial_dos_senales_no_nombre_propio_no_se_descarta(self):
+        """'fifa' y 'mundial' son dos señales fuertes no-nombre-propio:
+        deben anular la blacklist ('congreso') igual que antes del fix."""
+        news = [make_news(
+            "El congreso de la FIFA aprobó cambios para el Mundial",
+            "",
         )]
         result = fetch_news._validate_news_basic(news, reference_date="2026-06-28")
         assert len(result) == 1
@@ -186,6 +220,32 @@ class TestFilterNewsLlm:
         with patch.object(fetch_news, "call_groq", side_effect=Exception("boom")):
             result = fetch_news.filter_news_llm(news)
         assert result == news
+
+    def test_error_real_llm_loguea_warning(self, caplog):
+        """Errores reales (red, parsing, etc.) deben loguearse como warning,
+        no como info — distinto del caso esperado sin GROQ_API_KEY."""
+        news = [make_news("Messi habló tras la victoria")]
+        with patch.object(fetch_news, "call_groq", side_effect=Exception("timeout de red")):
+            with caplog.at_level("WARNING", logger=fetch_news.logger.name):
+                fetch_news.filter_news_llm(news)
+        assert any(
+            record.levelname == "WARNING" and "timeout de red" in record.message
+            for record in caplog.records
+        )
+
+    def test_sin_groq_api_key_loguea_info_no_warning(self, monkeypatch, caplog):
+        """Falta de GROQ_API_KEY es un caso esperado (best-effort sin LLM
+        configurado), no un error real: debe loguearse como info/debug, sin
+        emitir ningún warning."""
+        monkeypatch.delenv("GROQ_API_KEY", raising=False)
+        news = [make_news("Messi habló tras la victoria")]
+        with caplog.at_level("INFO", logger=fetch_news.logger.name):
+            fetch_news.filter_news_llm(news)
+        assert not any(record.levelname == "WARNING" for record in caplog.records)
+        assert any(
+            record.levelname == "INFO" and "GROQ_API_KEY" in record.message
+            for record in caplog.records
+        )
 
     def test_json_invalido_retorna_lista_original(self):
         news = [make_news("Messi habló tras la victoria")]

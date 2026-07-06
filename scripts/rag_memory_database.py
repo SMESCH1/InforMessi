@@ -7,7 +7,6 @@ MVP - InforMessi
 
 import json
 import sys
-import unicodedata
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Set
@@ -15,17 +14,10 @@ from collections import defaultdict
 
 sys.path.insert(0, str(Path(__file__).parent))
 from time_utils import now_ar, now_ar_iso, today_ar
+from text_utils import normalize_text as _normalize_text
 
 import logging
 logger = logging.getLogger(__name__)
-
-
-def _normalize_text(text: str) -> str:
-    """Lowercase, strip accents, collapse whitespace."""
-    text = text.lower().strip()
-    text = unicodedata.normalize("NFD", text)
-    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
-    return " ".join(text.split())
 
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
