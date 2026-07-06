@@ -8,13 +8,19 @@ Guarda noticias en data/daily-news/YYYY-MM-DD.json.
 import json
 import logging
 import os
+import re
 import subprocess
 import sys
+import unicodedata
 from datetime import datetime, timedelta
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from time_utils import now_ar_iso, today_ar
+from importlib import import_module
+
+_fetch_news = import_module("fetch-news")
+filter_news_llm = _fetch_news.filter_news_llm
 
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 logger = logging.getLogger(__name__)
@@ -147,6 +153,62 @@ def deduplicate_news(news_list: list) -> list:
     return unique
 
 
+def _normalize_title(title: str) -> str:
+    """Normaliza un título para comparación de dedupe multi-día: minúsculas,
+    sin acentos/diacríticos, sin puntuación, espacios colapsados. Reusa el
+    mismo criterio de normalización sin acentos que fetch-news._norm, y
+    además quita puntuación para que "¡...!" o distinta puntuación entre
+    fuentes no impida detectar el duplicado."""
+    text = (title or "").lower().strip()
+    text = unicodedata.normalize("NFD", text)
+    text = "".join(c for c in text if unicodedata.category(c) != "Mn")
+    text = re.sub(r"[^\w\s]", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def load_recent_titles(reference_date: str, days: int = 3, daily_news_dir: Path = None) -> set:
+    """Carga los títulos normalizados de los daily-news de los últimos
+    `days` días anteriores a `reference_date` (sin incluir el propio día
+    de referencia). Ignora archivos inexistentes o JSON corrupto."""
+    news_dir = daily_news_dir if daily_news_dir is not None else DAILY_NEWS_DIR
+    ref = datetime.strptime(reference_date, "%Y-%m-%d").date()
+
+    titles = set()
+    for offset in range(1, days + 1):
+        day = ref - timedelta(days=offset)
+        file_path = Path(news_dir) / f"{day.isoformat()}.json"
+        if not file_path.exists():
+            continue
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except (json.JSONDecodeError, OSError):
+            continue
+
+        for item in data.get("news", []):
+            norm_title = _normalize_title(item.get("title", ""))
+            if norm_title:
+                titles.add(norm_title)
+
+    return titles
+
+
+def filter_seen_titles(news_list: list, recent_titles: set) -> list:
+    """Descarta noticias cuyo título normalizado ya apareció en los
+    daily-news recientes (ver load_recent_titles)."""
+    if not recent_titles:
+        return list(news_list)
+
+    result = []
+    for item in news_list:
+        norm_title = _normalize_title(item.get("title", ""))
+        if norm_title in recent_titles:
+            continue
+        result.append(item)
+    return result
+
+
 def main():
     import argparse
 
@@ -171,9 +233,26 @@ def main():
     news_from_reddit = scrape_reddit(target_date)
     all_news.extend(news_from_reddit)
 
-    # Deduplicar
+    # Deduplicar (dentro del scrape de hoy)
     unique_news = deduplicate_news(all_news)
     logger.info(f"\n📊 Total antes de dedup: {len(all_news)}, después: {len(unique_news)}")
+
+    # Dedupe multi-día: descartar títulos ya vistos en los daily-news de
+    # los últimos 3 días (no solo duplicados dentro del propio scrape).
+    recent_titles = load_recent_titles(target_date, days=3)
+    before_multiday = len(unique_news)
+    unique_news = filter_seen_titles(unique_news, recent_titles)
+    if before_multiday != len(unique_news):
+        logger.info(
+            f"   🗑️  Dedupe multi-día: {before_multiday - len(unique_news)} "
+            f"noticia(s) descartada(s) por repetirse en días anteriores"
+        )
+
+    # Filtro LLM opcional (best-effort, fallback silencioso ante error)
+    if os.environ.get("NEWS_LLM_FILTER") == "1":
+        before_llm = len(unique_news)
+        unique_news = filter_news_llm(unique_news)
+        logger.info(f"   🤖 Filtro LLM: {before_llm} -> {len(unique_news)} noticia(s)")
 
     # Categorizar
     for item in unique_news:
