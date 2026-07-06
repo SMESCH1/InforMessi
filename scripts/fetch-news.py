@@ -76,12 +76,39 @@ KEYWORDS_STRONG_PROPER_NOUNS = {
 }
 
 # Términos futbolísticos genéricos: solos no alcanzan, pero combinados con
-# "argentina" sí indican contexto futbolístico fuerte.
+# "argentina" sí indican contexto futbolístico fuerte. OJO: muchos de estos
+# son ambiguos fuera de contexto futbolístico ("entrenador" personal de
+# gimnasio, "jugador" de poker, "partido" de truco/cartas/política) — por
+# eso este set se usa para relevancia general (junto con "argentina"), pero
+# NO alcanza para anular la blacklist (ver FOOTBALL_UNAMBIGUOUS_TERMS y
+# _has_non_proper_strong_signal).
 FOOTBALL_CONTEXT_TERMS = [
     "partido", "gol", "goles", "estadio", "tecnico", "convocatoria",
     "lesion", "futbol", "football", "liga", "torneo", "arquero",
     "delantero", "defensor", "mediocampista", "entrenador", "cancha",
     "jugador", "jugadores", "plantel", "amistoso", "clasico",
+]
+
+# Términos futbolísticos INEQUÍVOCOS: la palabra sola ya implica fútbol/
+# Selección Argentina, sin ambigüedad razonable en otro dominio (a
+# diferencia de "entrenador", "jugador", "partido", "gol", "técnico", que
+# son términos de FOOTBALL_CONTEXT_TERMS pero se usan en muchos otros
+# contextos: entrenador personal, jugador de poker, partido de truco/
+# política, gol de una campaña de marketing, técnico de PC, etc.). Se usa
+# exclusivamente para la regla anti-blacklist: para anular un match de
+# blacklist hace falta 2+ señales fuertes Y al menos una de este set.
+#
+# Nota: "afa" y "scaloneta" quedan afuera a propósito aunque sean
+# inequívocamente futbolísticos, porque están clasificados como nombres
+# propios/apodos en KEYWORDS_STRONG_PROPER_NOUNS (una nota de farándula
+# puede nombrar "la Scaloneta" o "la AFA" de pasada sin ser sobre fútbol,
+# igual que puede nombrar a "Messi" o "Scaloni") — deben poder repetirse
+# junto a otros nombres propios sin anular la blacklist por sí solos (ver
+# test_farandula_milei_scaloni_almuerzo_rechazada).
+FOOTBALL_UNAMBIGUOUS_TERMS = [
+    "mundial", "fifa", "seleccion argentina", "seleccion", "eliminatorias",
+    "conmebol", "copa america", "convocatoria",
+    "amistoso", "hinchada", "estadio",
 ]
 
 # Noticias basura frecuentes que pasan el filtro laxo actual: política,
@@ -145,20 +172,28 @@ def _count_strong_signals(norm_text: str) -> int:
 
 def _has_non_proper_strong_signal(norm_text: str) -> bool:
     """True si el texto tiene al menos una señal fuerte que NO sea un
-    nombre propio/apodo (jugador, DT, apodo del equipo). Nombres de
-    jugadores conocidos convocados (players.json) y los apodos/nombres
-    propios de KEYWORDS_STRONG_PROPER_NOUNS no cuentan: una nota de
-    farándula puede mencionar a Messi, Scaloni o varios jugadores sin ser
-    una noticia futbolística (ej. "el escándalo amoroso entre Messi y
-    Rulli"). Se exige un término futbolístico genérico (mundial, fifa,
-    selección, eliminatorias, conmebol, copa américa, un término de
-    FOOTBALL_CONTEXT_TERMS, etc.) para anular la blacklist."""
+    nombre propio/apodo (jugador, DT, apodo del equipo) Y que sea
+    INEQUÍVOCAMENTE futbolística. Nombres de jugadores conocidos convocados
+    (players.json) y los apodos/nombres propios de
+    KEYWORDS_STRONG_PROPER_NOUNS no cuentan: una nota de farándula puede
+    mencionar a Messi, Scaloni o varios jugadores sin ser una noticia
+    futbolística (ej. "el escándalo amoroso entre Messi y Rulli").
+
+    Importante: términos de FOOTBALL_CONTEXT_TERMS como "entrenador",
+    "jugador" o "partido" tampoco alcanzan acá, porque son ambiguos fuera
+    de contexto futbolístico (entrenador personal de gimnasio, jugador de
+    poker, partido de truco/política) y una nota de farándula/policiales
+    puede usarlos en ese sentido no futbolístico. Solo cuentan los
+    términos de FOOTBALL_UNAMBIGUOUS_TERMS (mundial, fifa, selección,
+    eliminatorias, conmebol, copa américa, afa, scaloneta, convocatoria,
+    amistoso, hinchada, estadio), donde la palabra sola ya implica fútbol
+    sin ambigüedad razonable."""
     non_proper_strong = [
         kw for kw in KEYWORDS_STRONG if kw not in KEYWORDS_STRONG_PROPER_NOUNS
     ]
     if any(kw in norm_text for kw in non_proper_strong):
         return True
-    if any(term in norm_text for term in FOOTBALL_CONTEXT_TERMS):
+    if any(term in norm_text for term in FOOTBALL_UNAMBIGUOUS_TERMS):
         return True
     return False
 

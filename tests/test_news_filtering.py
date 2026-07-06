@@ -104,6 +104,31 @@ class TestBlacklistDescartaBasura:
         result = fetch_news._validate_news_basic(news, reference_date="2026-06-28")
         assert result == []
 
+    def test_entrenador_personal_gimnasio_lujo_rechazada(self):
+        """Ronda 2: bypass reproducido por el reviewer. 'entrenador' es un
+        término de contexto ambiguo (entrenador personal de gimnasio, no
+        DT de fútbol) y 'jugador' en la descripción también es ambiguo (de
+        poker). Ninguno de los dos debería alcanzar para anular la
+        blacklist ('escándalo', 'mansión', 'farándula')."""
+        news = [make_news(
+            "El escándalo de Messi y su entrenador personal en el gimnasio de lujo",
+            "Se supo que es jugador de poker... mansión escándalo de la farándula",
+        )]
+        result = fetch_news._validate_news_basic(news, reference_date="2026-06-28")
+        assert result == []
+
+    def test_messi_di_maria_partido_truco_rechazada(self):
+        """Ronda 2: bypass reproducido por el reviewer. 'partido' en 'partido
+        de truco' es un término ambiguo (no futbolístico en este contexto).
+        Dos nombres propios (Messi, Di María) + un término ambiguo no deben
+        anular la blacklist ('farándula', 'casino', 'polémica amorosa')."""
+        news = [make_news(
+            "Messi y Di María fueron vistos en un partido de truco",
+            "Chimento: la farándula... casino y polémica amorosa",
+        )]
+        result = fetch_news._validate_news_basic(news, reference_date="2026-06-28")
+        assert result == []
+
 
 # =====================================================================
 # 2. Blacklist NO debe descartar noticias legítimas de fútbol que
