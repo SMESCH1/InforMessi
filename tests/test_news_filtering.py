@@ -129,6 +129,45 @@ class TestBlacklistDescartaBasura:
         result = fetch_news._validate_news_basic(news, reference_date="2026-06-28")
         assert result == []
 
+    def test_messi_estadio_eventos_escandalo_rechazada(self):
+        """Ronda 3: 'estadio' fue removido de FOOTBALL_UNAMBIGUOUS_TERMS
+        porque es ambiguo (estadio de eventos, etc.). Solo con Messi (nombre
+        propio) + 'estadio' (término de contexto ambiguo) + blacklist
+        ('escándalo', 'farándula'), no debe pasar: no es suficiente señal
+        futbolística inequívoca."""
+        news = [make_news(
+            "Messi compró un estadio de eventos y quedó envuelto en un escándalo de la farándula",
+            "",
+        )]
+        result = fetch_news._validate_news_basic(news, reference_date="2026-06-28")
+        assert result == []
+
+    def test_messi_mundial_empanada_farándula_rechazada(self):
+        """Ronda 3: 'mundial' fue removido de FOOTBALL_UNAMBIGUOUS_TERMS
+        porque es ambiguo fuera de fútbol (Mundial de la Empanada, etc.).
+        Solo con Messi (nombre propio) + 'mundial' (término ambiguo) +
+        rumores de farándula, no debe pasar: 'mundial' solo no es suficiente
+        sin otras señales inequívocas."""
+        news = [make_news(
+            "Messi participó del Mundial de la Empanada, en medio de rumores de la farándula",
+            "",
+        )]
+        result = fetch_news._validate_news_basic(news, reference_date="2026-06-28")
+        assert result == []
+
+    def test_messi_amistoso_poker_escandalo_rechazada(self):
+        """Ronda 3: 'amistoso' fue removido de FOOTBALL_UNAMBIGUOUS_TERMS
+        porque es ambiguo (amistoso de otra actividad). Solo con Messi
+        (nombre propio) + 'amistoso' (término de contexto ambiguo) +
+        'escándalo' + 'apuestas', no debe pasar: 'amistoso' solo no es
+        suficiente señal futbolística inequívoca."""
+        news = [make_news(
+            "Messi jugó un amistoso de poker con amigos, escándalo de la farándula por las apuestas",
+            "",
+        )]
+        result = fetch_news._validate_news_basic(news, reference_date="2026-06-28")
+        assert result == []
+
 
 # =====================================================================
 # 2. Blacklist NO debe descartar noticias legítimas de fútbol que

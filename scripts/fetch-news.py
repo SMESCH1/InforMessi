@@ -106,9 +106,8 @@ FOOTBALL_CONTEXT_TERMS = [
 # junto a otros nombres propios sin anular la blacklist por sí solos (ver
 # test_farandula_milei_scaloni_almuerzo_rechazada).
 FOOTBALL_UNAMBIGUOUS_TERMS = [
-    "mundial", "fifa", "seleccion argentina", "seleccion", "eliminatorias",
-    "conmebol", "copa america", "convocatoria",
-    "amistoso", "hinchada", "estadio",
+    "fifa", "seleccion argentina", "seleccion", "eliminatorias",
+    "conmebol", "copa america",
 ]
 
 # Noticias basura frecuentes que pasan el filtro laxo actual: política,
@@ -184,15 +183,9 @@ def _has_non_proper_strong_signal(norm_text: str) -> bool:
     de contexto futbolístico (entrenador personal de gimnasio, jugador de
     poker, partido de truco/política) y una nota de farándula/policiales
     puede usarlos en ese sentido no futbolístico. Solo cuentan los
-    términos de FOOTBALL_UNAMBIGUOUS_TERMS (mundial, fifa, selección,
-    eliminatorias, conmebol, copa américa, afa, scaloneta, convocatoria,
-    amistoso, hinchada, estadio), donde la palabra sola ya implica fútbol
-    sin ambigüedad razonable."""
-    non_proper_strong = [
-        kw for kw in KEYWORDS_STRONG if kw not in KEYWORDS_STRONG_PROPER_NOUNS
-    ]
-    if any(kw in norm_text for kw in non_proper_strong):
-        return True
+    términos de FOOTBALL_UNAMBIGUOUS_TERMS (fifa, selección, eliminatorias,
+    conmebol, copa américa), donde la palabra sola ya implica fútbol sin
+    ambigüedad razonable."""
     if any(term in norm_text for term in FOOTBALL_UNAMBIGUOUS_TERMS):
         return True
     return False
