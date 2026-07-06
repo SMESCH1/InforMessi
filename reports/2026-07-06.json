@@ -24,12 +24,114 @@
         "description": "Mundial 2026 - Octavos de final, día 3."
       }
     ],
-    "news": []
+    "news": [
+      {
+        "title": "Partidos de hoy del Mundial 2026, domingo 5 de julio: horario y por dónde ver en vivo online",
+        "description": "En la jornada número 25 de la Copa del Mundo continúan los octavos de final con dos encuentros que definen más clasificados a cuartos",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/partidos-de-hoy-del-mundial-2026-domingo-5-de-julio-horario-y-por-donde-ver-en-vivo-online-nid05072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-05T10:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Cabo Verde dejó el Mundial con episodios memorables",
+        "description": "Miami., La selección de Cabo Verde es leyenda del Mundial 2026. Sin una estructura profesional de élite y con jugadores que mostraron garra, el plantel africano creó una conexión de admiración entre l",
+        "url": "https://www.jornada.com.mx/2026/07/05/deportes/a05n2dep",
+        "source": "Jornada.com.mx",
+        "published_at": "2026-07-05T09:05:33Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "“Sabemos todo sobre México”, lanza Tuchel, el DT de Inglaterra",
+        "description": "Thomas Tuchel camina despacio y sonríe. Intenta memorizar la imagen del estadio Azteca mientras una marea de cámaras y micrófonos esperan su llegada en la sala de prensa. El técnico de la selección de",
+        "url": "https://www.jornada.com.mx/2026/07/05/deportes/a03n2dep",
+        "source": "Jornada.com.mx",
+        "published_at": "2026-07-05T09:05:33Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Elyaz Zidane deja el Betis y da el salto al fútbol internacional",
+        "description": "El central Elyaz Zidane es uno de los futbolistas que acabó contrato con el Betis Deportivo, filial del Real Betis, el pasado 30 de junio, y no va a seguir vinculado al club verdiblanco, al igual que ",
+        "url": "https://www.mundodeportivo.com/futbol/fichajes/oficial/20260705/1004203036/elyaz-zidane-deja-betis-da-salto-futbol-internacional.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-07-05T10:15:06Z",
+        "category": "general"
+      },
+      {
+        "title": "\"Llegaron a confundirme con una prostituta brasileña\": Rafaela Pimenta, la \"superagente\" del fútbol que representa a estrellas como Haaland",
+        "description": "En una entrevista con BBC Sport, Rafaela Pimenta habló sobre su carrera, las transformaciones en el fútbol y la desigualdad de género.",
+        "url": "https://www.bbc.com/mundo/articles/c05yd6yvqg4o",
+        "source": "BBC News",
+        "published_at": "2026-07-05T10:11:10Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "España vs Portugal: dos candidatos que vienen de m...",
+        "description": "Las Selecciones ibéricas se enfrentan en uno de los cruces más fuertes de los octavos de final del Mundial.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16950763/espana-vs-portugal-dos-candidatos-que-vienen-de-menor-a-mayor-ante-su-mayor-desafio",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-07-06T12:59:53",
+        "category": "mundial"
+      },
+      {
+        "title": "España llegó al Mundial: mostró sus virtudes ante ...",
+        "description": "El equipo de Luis de la Fuente viene de menos a más y comienza a meter miedo a sus rivales.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16947568/espana-llego-al-mundial-mostro-sus-virtudes-ante-austria-y-se-planta-en-octavos-mejorado",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-07-06T12:59:53",
+        "category": "mundial"
+      },
+      {
+        "title": "¿Es candidato? Las verdaderas posibilidades de Por...",
+        "description": "La Selección lusa no tiene ninguna estrella en la Copa del Mundo, pero llega a esta edición con argumentos: es el último baile de Cristiano Ronaldo y cuenta con una generación dorada que quiere cumpli",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16786001/portugal-candidato-mundial-2026-las-verdades-posibilidades-en-copa-del-mundo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-07-06T12:59:53",
+        "category": "seleccion"
+      },
+      {
+        "title": "Inglaterra sorteó un duro obstáculo como México y se metió en 4tos. del Mundial 2026",
+        "description": "Con un gran Bellingham, los Tres Leones pasaron una prueba de carácter y están entre los ocho mejores de la Copa del Mundo.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16945804/mexico-vs-inglaterra-octavos-8vos-mundial-2026-equipo-fecha-hora-y-tv-en-vivo",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-07-06T05:48:02",
+        "category": "mundial"
+      },
+      {
+        "title": "Mundial: así compite Oyarzabal vs. Kane, Messi, Mb...",
+        "description": "Oyarzabal volvió a ser protagonista en la victoria de España con un doblete y ya suma 4 goles en el Mundial 2026.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16951616/mundial-2026-oyarzabal-kane-messi-mbappe-cristiano",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-07-06T12:52:18",
+        "category": "seleccion"
+      },
+      {
+        "title": "Los hijos y nietos de emigrantes, principal impulso para que África supere a Asia en el dominio del fútbol mundial",
+        "description": "La tendencia marcó un avance de los países africanos, con gran influencia del desarrollo que propició la FIFA a partir de un apoyo económico superior",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/los-hijos-y-nietos-de-emigrantes-principal-impulso-para-que-africa-supere-a-asia-en-el-dominio-del-nid05072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-05T15:39:58Z"
+      },
+      {
+        "title": "Cabo Verde recibe a sus héroes mundialistas tras una histórica participación",
+        "description": "Una numerosa expedición de aficionados y medios de comunicación recibió este domingo en el Aeropuerto Nelson Mandela de Praia a la selección de fútbol de Cabo Verde tras su histórica participación en ",
+        "url": "https://www.elperiodico.com/es/deportes/20260705/cabo-verde-recibe-heroes-mundialistas-132147384",
+        "source": "Elperiodico.com",
+        "published_at": "2026-07-05T15:21:54Z"
+      },
+      {
+        "title": "Futbolistas de Cabo Verde fueron recibidos como héroes en su país tras el Mundial 2026",
+        "description": "Los tiburones azules, en su primera participación, cayeron en dieciseisavos y en el camino empataron con tres selecciones campeonas.",
+        "url": "https://www.montevideo.com.uy/Deportes/Futbolistas-de-Cabo-Verde-fueron-recibidos-como-heroes-en-su-pais-tras-el-Mundial-2026-uc967268",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-07-05T14:31:00Z"
+      }
+    ]
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 26 días para el Mundial 2026 ⚽\n\nHoy Argentina enfrenta a  en  a las . La Scaloneta busca seguir su racha de victorias y avanzar en la competición. El partido promete ser emocionante con Messi al frente 🇦🇷\n\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null
+  "message": "Buenos días 🇦🇷\n\nDía 26 del Mundial 2026 ⚽\n\n📰 Cabo Verde dejó el Mundial con episodios memorables: Miami. La selección de Cabo Verde es leyenda del Mundial 2026. Sin una estructura profesional de élite y con jugadores que mostraron garra, el plante (Jornada.com.mx)\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-07-06T16:29:22.183351",
+  "published_at": "2026-07-06T16:29:23.073922",
+  "pre_approved": true,
+  "pre_approved_at": "2026-07-06T16:29:22.183360"
 }
