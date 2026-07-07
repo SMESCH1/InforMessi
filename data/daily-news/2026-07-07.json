@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-07-07",
+  "scraped_at": "2026-07-07T07:15:26.514245-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Partidos de hoy del Mundial 2026, lunes 6 de julio: horario y por dónde ver en vivo online",
+      "description": "En la jornada número 26 de la Copa del Mundo continúan los octavos de final con dos encuentros que definen más clasificados a cuartos",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/partidos-de-hoy-del-mundial-2026-lunes-6-de-julio-horario-y-por-donde-ver-en-vivo-online-nid06072026/",
+      "source": "La Nacion",
+      "published_at": "2026-07-06T10:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Antony y Abde se incorporarán unos días más tarde a la pretemporada",
+      "description": "El brasileño tiene permiso hasta el viernes y el marroquí estuvo con su selección  Leer",
+      "url": "https://www.marca.com/futbol/betis/2026/07/06/antony-abde-incorporaran-dias-tarde-pretemporada.html",
+      "source": "Marca",
+      "published_at": "2026-07-06T09:33:34Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Temas emblemáticos de cada país suenan en las canchas de la Copa",
+      "description": "Nueva York., ¿Es sólo una coincidencia que suene Wonderwall después de los partidos de la selección de Inglaterra? Ver el Mundial y escuchar la música que se entona en los estadios puede que despierte",
+      "url": "https://www.jornada.com.mx/2026/07/06/espectaculos/a12n1esp",
+      "source": "Jornada.com.mx",
+      "published_at": "2026-07-06T09:18:05Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Quién es François Letexier, el árbitro francés que dirigirá Argentina-Egipto este martes",
+      "description": "El francés François Letexier, de 37 años, integrará la terna arbitral junto a colegas de su misma nacionalidad",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/quien-es-francois-letexier-el-arbitro-frances-que-dirigira-argentina-egipto-este-martes-nid05072026/",
+      "source": "La Nacion",
+      "published_at": "2026-07-05T18:54:46Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Cristiano Ronaldo: un adiós Mundial... y un futuro por decidir",
+      "description": "El luso no cierra la puerta a seguir en la Selección tras la eliminación en octavos",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/07/cristiano-ronaldo-adios-mundial-futuro-decidir.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-07T09:39:52",
+      "category": "seleccion"
+    },
+    {
+      "title": "La Champions 26-27 se pone en marcha en pleno Mundial",
+      "description": "Los primeros 28 equipos arrancan la primera ronda de clasificación",
+      "url": "https://www.marca.com/futbol/champions-league/2026/07/07/champions-26-27-pone-marcha-pleno-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-07T08:40:00",
+      "category": "mundial"
+    }
+  ]
+}
