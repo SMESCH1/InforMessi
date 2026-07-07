@@ -1,6 +1,7 @@
 {
   "date": "2026-07-16",
-  "generated_at": "2026-03-25T12:20:08.595031",
+  "generated_at": "2026-07-06T20:05:50.808314-03:00",
+  "source": "pregenerated-base",
   "data": {
     "date": "2026-07-16",
     "mundial_2026_start": "2026-06-11",
@@ -24,12 +25,91 @@
         "description": "Final del primer Sudamericano (Argentina 0-0 Uruguay)."
       }
     ],
-    "news": []
+    "news": [],
+    "weather": {
+      "amba": {
+        "min": 10,
+        "max": 13
+      },
+      "la_plata": {
+        "min": 9,
+        "max": 13
+      },
+      "fetched_at": "2026-07-06T20:05:24.952131-03:00",
+      "source": "open-meteo"
+    }
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 36 días para el Mundial 2026 ⚽\n\nHoy Argentina enfrenta a en a las (Mundial 2026 - Previa de la final. Expectativa mundial.) ⏰\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "message": "Buenos días 🇦🇷\n\nDía 36 del Mundial 2026\n\n🌤 Clima\nAMBA: min 10° / max 13°\nLa Plata: min 9° / max 13°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\nHoy Argentina enfrenta a su rival en la previa de la final del Mundial 2026, con la expectativa de todo el país puesta en la Scaloneta. La selección busca avanzar hacia la final con la garra y el corazón que la caracteriza.\n\nLa Scaloneta de hoy es heredera de una larga historia de pasión y gloria en el fútbol argentino. Con Messi al frente, el equipo busca dejar su huella en este Mundial inédito de 48 equipos.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,
   "pre_approved": false,
-  "pre_approved_at": null
+  "pre_approved_at": null,
+  "eval": {
+    "run_at": "2026-07-06T20:29:44.624407-03:00",
+    "checks": [
+      {
+        "name": "saludo",
+        "passed": true,
+        "severity": "error",
+        "detail": "Saludo correcto."
+      },
+      {
+        "name": "countdown_correcto",
+        "passed": true,
+        "severity": "error",
+        "detail": "Countdown correcto: 'Día 36 del Mundial 2026'"
+      },
+      {
+        "name": "clima_presente",
+        "passed": true,
+        "severity": "error",
+        "detail": "Bloque de clima presente y temperaturas coinciden."
+      },
+      {
+        "name": "sin_placeholders",
+        "passed": true,
+        "severity": "error",
+        "detail": "Sin placeholders."
+      },
+      {
+        "name": "cierre_ritual",
+        "passed": true,
+        "severity": "error",
+        "detail": "Cierre ritual correcto."
+      },
+      {
+        "name": "años_grounded",
+        "passed": true,
+        "severity": "error",
+        "detail": "Todos los años mencionados están grounded en los datos."
+      },
+      {
+        "name": "longitud",
+        "passed": true,
+        "severity": "error",
+        "detail": "114 palabras, dentro de 90-150."
+      },
+      {
+        "name": "sin_markdown",
+        "passed": true,
+        "severity": "warning",
+        "detail": "Sin markdown."
+      },
+      {
+        "name": "emojis",
+        "passed": true,
+        "severity": "warning",
+        "detail": "5 emojis, dentro de 3-7."
+      },
+      {
+        "name": "fecha_correcta",
+        "passed": true,
+        "severity": "error",
+        "detail": "Fecha correcta."
+      }
+    ],
+    "judge": null,
+    "verdict": "pass"
+  }
 }

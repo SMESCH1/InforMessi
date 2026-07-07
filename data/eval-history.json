@@ -1,0 +1,215 @@
+[
+  {
+    "date": "2026-07-07",
+    "run_at": "2026-07-06T20:07:37.691331-03:00",
+    "source": "pregenerated-base",
+    "model": "llama-3.3-70b-versatile",
+    "checks_passed": 9,
+    "checks_failed": 0,
+    "warnings_failed": 1,
+    "judge_scores": {
+      "tono": 4,
+      "estructura": 4,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 4,
+      "comentario": "Falta el bloque de Dato del día y el bloque de Argentina no es muy específico, pero el mensaje sigue la estructura y el tono es cercano.",
+      "promedio": 4.0,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass_with_warnings"
+  },
+  {
+    "date": "2026-07-08",
+    "run_at": "2026-07-06T20:07:38.503356-03:00",
+    "source": "pregenerated-base",
+    "model": "llama-3.3-70b-versatile",
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "warnings_failed": 0,
+    "judge_scores": {
+      "tono": 5,
+      "estructura": 4,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 5,
+      "comentario": "Falta el bloque de Dato del día y el de Argentina, pero el mensaje es argentino y editorial, con humor sutil y sin sonar a chatbot ni a publicidad.",
+      "promedio": 4.5,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass"
+  },
+  {
+    "date": "2026-07-09",
+    "run_at": "2026-07-06T20:07:39.520239-03:00",
+    "source": "pregenerated-base",
+    "model": "llama-3.3-70b-versatile",
+    "checks_passed": 9,
+    "checks_failed": 0,
+    "warnings_failed": 1,
+    "judge_scores": {
+      "tono": 5,
+      "estructura": 4,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 5,
+      "comentario": "Falta el bloque 'Dato del día' y el bloque 'Argentina' podría ser más específico, pero el mensaje sigue la estructura general y es fiel a los datos proporcionados.",
+      "promedio": 4.5,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass_with_warnings"
+  },
+  {
+    "date": "2026-07-10",
+    "run_at": "2026-07-06T20:07:50.574341-03:00",
+    "source": "pregenerated-base",
+    "model": "llama-3.3-70b-versatile",
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "warnings_failed": 0,
+    "judge_scores": {
+      "tono": 5,
+      "estructura": 5,
+      "fidelidad_guia": 5,
+      "factualidad_aparente": 5,
+      "comentario": "El mensaje sigue la estructura obligatoria, tiene un tono argentino y editorial, y todos los datos están respaldados por los datos fuente.",
+      "promedio": 5.0,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass"
+  },
+  {
+    "date": "2026-07-11",
+    "run_at": "2026-07-06T20:29:44.423060-03:00",
+    "source": "pregenerated-base",
+    "model": null,
+    "checks_passed": 8,
+    "checks_failed": 1,
+    "warnings_failed": 1,
+    "judge_scores": null,
+    "verdict": "fail"
+  },
+  {
+    "date": "2026-07-12",
+    "run_at": "2026-07-06T20:29:44.489532-03:00",
+    "source": "pregenerated-base",
+    "model": null,
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "warnings_failed": 0,
+    "judge_scores": null,
+    "verdict": "pass"
+  },
+  {
+    "date": "2026-07-13",
+    "run_at": "2026-07-06T20:29:44.561482-03:00",
+    "source": "pregenerated-base",
+    "model": null,
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "warnings_failed": 0,
+    "judge_scores": null,
+    "verdict": "pass"
+  },
+  {
+    "date": "2026-07-14",
+    "run_at": "2026-07-06T20:29:44.581277-03:00",
+    "source": "pregenerated-base",
+    "model": null,
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "warnings_failed": 0,
+    "judge_scores": null,
+    "verdict": "pass"
+  },
+  {
+    "date": "2026-07-15",
+    "run_at": "2026-07-06T20:29:44.603136-03:00",
+    "source": "pregenerated-base",
+    "model": null,
+    "checks_passed": 9,
+    "checks_failed": 0,
+    "warnings_failed": 1,
+    "judge_scores": null,
+    "verdict": "pass_with_warnings"
+  },
+  {
+    "date": "2026-07-16",
+    "run_at": "2026-07-06T20:29:44.625182-03:00",
+    "source": "pregenerated-base",
+    "model": null,
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "warnings_failed": 0,
+    "judge_scores": null,
+    "verdict": "pass"
+  },
+  {
+    "date": "2026-07-17",
+    "run_at": "2026-07-06T20:29:44.656943-03:00",
+    "source": "pregenerated-base",
+    "model": null,
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "warnings_failed": 0,
+    "judge_scores": null,
+    "verdict": "pass"
+  },
+  {
+    "date": "2026-07-18",
+    "run_at": "2026-07-06T20:29:44.672378-03:00",
+    "source": "pregenerated-base",
+    "model": null,
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "warnings_failed": 0,
+    "judge_scores": null,
+    "verdict": "pass"
+  },
+  {
+    "date": "2026-07-19",
+    "run_at": "2026-07-06T20:29:44.685995-03:00",
+    "source": "pregenerated-base",
+    "model": null,
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "warnings_failed": 0,
+    "judge_scores": null,
+    "verdict": "pass"
+  },
+  {
+    "date": "2026-07-11",
+    "run_at": "2026-07-07T08:49:13.707990-03:00",
+    "source": "pregenerated-base",
+    "model": "llama-3.3-70b-versatile",
+    "checks_passed": 4,
+    "checks_failed": 5,
+    "warnings_failed": 1,
+    "judge_scores": {
+      "tono": 4,
+      "estructura": 5,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 5,
+      "comentario": "El mensaje sigue la estructura obligatoria y los datos están respaldados por los datos fuente.",
+      "promedio": 4.5,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "fail"
+  },
+  {
+    "date": "2026-07-11",
+    "run_at": "2026-07-07T08:49:55.575735-03:00",
+    "source": "pregenerated-base",
+    "model": "llama-3.3-70b-versatile",
+    "checks_passed": 9,
+    "checks_failed": 0,
+    "warnings_failed": 1,
+    "judge_scores": {
+      "tono": 4,
+      "estructura": 4,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 5,
+      "comentario": "Falta el bloque 'Dato del día' y el bloque 'Argentina' es un poco genérico.",
+      "promedio": 4.25,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass_with_warnings"
+  }
+]

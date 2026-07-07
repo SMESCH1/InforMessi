@@ -1,6 +1,7 @@
 {
   "date": "2026-07-14",
-  "generated_at": "2026-03-25T12:19:47.754742",
+  "generated_at": "2026-07-06T20:04:54.994011-03:00",
+  "source": "pregenerated-base",
   "data": {
     "date": "2026-07-14",
     "mundial_2026_start": "2026-06-11",
@@ -14,7 +15,7 @@
         "type": "match",
         "priority": "critical",
         "person": "N/A",
-        "description": "Mundial 2026 - Semifinal 1."
+        "description": "Mundial 2026 - Semifinal 1, AT&T Stadium, Arlington (Texas). Cruces por definir."
       },
       {
         "date": "2024-07-14",
@@ -24,12 +25,91 @@
         "description": "Argentina Bicampeón de América venciendo 1-0 a Colombia."
       }
     ],
-    "news": []
+    "news": [],
+    "weather": {
+      "amba": {
+        "min": 10,
+        "max": 14
+      },
+      "la_plata": {
+        "min": 9,
+        "max": 13
+      },
+      "fetched_at": "2026-07-06T20:04:30.564326-03:00",
+      "source": "open-meteo"
+    }
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 34 días para el Mundial 2026 ⚽\n\n🏆 Hoy Argentina enfrenta a  en  a las 20:00 en el Arrowhead Stadium de Kansas City. La Scaloneta sale a defender el título con Messi al frente 🇦🇷\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "message": "Buenos días 🇦🇷\n\nDía 34 del Mundial 2026\n\n🌤 Clima\nAMBA: min 10° / max 14°\nLa Plata: min 9° / max 13°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n🏆 Hoy Argentina enfrenta a su rival en las semifinales del Mundial 2026 en el AT&T Stadium de Arlington, Texas. La Scaloneta busca avanzar a la final con Messi al frente, en una noche cargada de nervios y expectativa para todo un país que vuelve a soñar.\n\nLa Selección Argentina tiene una rica historia en los Mundiales, y esta generación busca dejar su huella. Con la base campeona de Qatar 2022 intacta, la ilusión de repetir la hazaña en un formato inédito de 48 equipos es palpable 🇦🇷\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,
   "pre_approved": false,
-  "pre_approved_at": null
+  "pre_approved_at": null,
+  "eval": {
+    "run_at": "2026-07-06T20:29:44.580225-03:00",
+    "checks": [
+      {
+        "name": "saludo",
+        "passed": true,
+        "severity": "error",
+        "detail": "Saludo correcto."
+      },
+      {
+        "name": "countdown_correcto",
+        "passed": true,
+        "severity": "error",
+        "detail": "Countdown correcto: 'Día 34 del Mundial 2026'"
+      },
+      {
+        "name": "clima_presente",
+        "passed": true,
+        "severity": "error",
+        "detail": "Bloque de clima presente y temperaturas coinciden."
+      },
+      {
+        "name": "sin_placeholders",
+        "passed": true,
+        "severity": "error",
+        "detail": "Sin placeholders."
+      },
+      {
+        "name": "cierre_ritual",
+        "passed": true,
+        "severity": "error",
+        "detail": "Cierre ritual correcto."
+      },
+      {
+        "name": "años_grounded",
+        "passed": true,
+        "severity": "error",
+        "detail": "Todos los años mencionados están grounded en los datos."
+      },
+      {
+        "name": "longitud",
+        "passed": true,
+        "severity": "error",
+        "detail": "125 palabras, dentro de 90-150."
+      },
+      {
+        "name": "sin_markdown",
+        "passed": true,
+        "severity": "warning",
+        "detail": "Sin markdown."
+      },
+      {
+        "name": "emojis",
+        "passed": true,
+        "severity": "warning",
+        "detail": "7 emojis, dentro de 3-7."
+      },
+      {
+        "name": "fecha_correcta",
+        "passed": true,
+        "severity": "error",
+        "detail": "Fecha correcta."
+      }
+    ],
+    "judge": null,
+    "verdict": "pass"
+  }
 }

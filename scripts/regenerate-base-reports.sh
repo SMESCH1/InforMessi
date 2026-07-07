@@ -19,16 +19,26 @@ if [ -z "${GROQ_API_KEY:-}" ] && ! grep -qs "^GROQ_API_KEY=." .env; then
     exit 1
 fi
 
-echo "==> Regenerando reports base 2026-07-03 a 2026-07-19 (provider: groq)"
+# Forzar el modelo de Groq: el .env local puede tener LLM_MODEL apuntando a un
+# modelo de Ollama (ej. llama3.2), que Groq rechaza con 404 model_not_found.
+export LLM_PROVIDER=groq
+export LLM_MODEL=llama-3.3-70b-versatile
+
+# Rango parametrizable: por defecto arranca MAÑANA (hora argentina) para no
+# pisar reports de días ya publicados. Uso: bash scripts/regenerate-base-reports.sh [START] [END]
+START_DATE="${1:-$(python -c "import sys; sys.path.insert(0,'scripts'); from time_utils import now_ar; from datetime import timedelta; print((now_ar()+timedelta(days=1)).strftime('%Y-%m-%d'))")}"
+END_DATE="${2:-2026-07-19}"
+
+echo "==> Regenerando reports base ${START_DATE} a ${END_DATE} (provider: groq, model: ${LLM_MODEL})"
 python scripts/generate-advance-reports.py \
-    --start-date 2026-07-03 \
-    --end-date 2026-07-19 \
+    --start-date "${START_DATE}" \
+    --end-date "${END_DATE}" \
     --overwrite \
     --provider groq
 
 echo ""
 echo "==> Corriendo baseline de evals (checks + judge LLM)"
-python evals/run_evals.py --range 2026-07-03:2026-07-19 --judge
+python evals/run_evals.py --range "${START_DATE}:${END_DATE}" --judge
 
 echo ""
 echo "==> Listo. Revisá data/eval-history.json y commiteá reports/ + eval-history."

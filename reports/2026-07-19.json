@@ -1,6 +1,7 @@
 {
   "date": "2026-07-19",
-  "generated_at": "2026-03-25T12:20:41.624724",
+  "generated_at": "2026-07-06T20:07:11.388574-03:00",
+  "source": "pregenerated-base",
   "data": {
     "date": "2026-07-19",
     "mundial_2026_start": "2026-06-11",
@@ -14,7 +15,7 @@
         "type": "match",
         "priority": "critical",
         "person": "N/A",
-        "description": "FINAL del Mundial 2026, MetLife Stadium, Nueva Jersey."
+        "description": "FINAL del Mundial 2026, domingo 19 de julio, MetLife Stadium, Nueva York/Nueva Jersey."
       },
       {
         "date": "1930-07-19",
@@ -24,12 +25,91 @@
         "description": "Primer hat-trick de Argentina en un Mundial realizado por Guillermo Stábile."
       }
     ],
-    "news": []
+    "news": [],
+    "weather": {
+      "amba": {
+        "min": 12,
+        "max": 15
+      },
+      "la_plata": {
+        "min": 11,
+        "max": 15
+      },
+      "fetched_at": "2026-07-06T20:06:47.004775-03:00",
+      "source": "open-meteo"
+    }
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 39 días para el Mundial 2026 ⚽\n\n🏆 Hoy Argentina enfrenta a en a las 22:00 en el MetLife Stadium de Nueva Jersey. La Scaloneta sale a defender el título con Messi al frente 🇦🇷\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "message": "Buenos días 🇦🇷\n\nDía 39 del Mundial 2026\n\n🌤 Clima\nAMBA: min 12° / max 15°\nLa Plata: min 11° / max 15°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n🏆 Hoy Argentina juega la final del Mundial 2026 en el MetLife Stadium de Nueva York/Nueva Jersey. La expectativa es máxima para ver a la Scaloneta defender su título ante un rival por definir.\n\nLa Selección Argentina busca hacer historia en este Mundial inédito de 48 equipos. Con Messi al frente, el equipo tiene la ambición de repetir la hazaña de Qatar 2022.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,
   "pre_approved": false,
-  "pre_approved_at": null
+  "pre_approved_at": null,
+  "eval": {
+    "run_at": "2026-07-06T20:29:44.685304-03:00",
+    "checks": [
+      {
+        "name": "saludo",
+        "passed": true,
+        "severity": "error",
+        "detail": "Saludo correcto."
+      },
+      {
+        "name": "countdown_correcto",
+        "passed": true,
+        "severity": "error",
+        "detail": "Countdown correcto: 'Día 39 del Mundial 2026'"
+      },
+      {
+        "name": "clima_presente",
+        "passed": true,
+        "severity": "error",
+        "detail": "Bloque de clima presente y temperaturas coinciden."
+      },
+      {
+        "name": "sin_placeholders",
+        "passed": true,
+        "severity": "error",
+        "detail": "Sin placeholders."
+      },
+      {
+        "name": "cierre_ritual",
+        "passed": true,
+        "severity": "error",
+        "detail": "Cierre ritual correcto."
+      },
+      {
+        "name": "años_grounded",
+        "passed": true,
+        "severity": "error",
+        "detail": "Todos los años mencionados están grounded en los datos."
+      },
+      {
+        "name": "longitud",
+        "passed": true,
+        "severity": "error",
+        "detail": "100 palabras, dentro de 90-150."
+      },
+      {
+        "name": "sin_markdown",
+        "passed": true,
+        "severity": "warning",
+        "detail": "Sin markdown."
+      },
+      {
+        "name": "emojis",
+        "passed": true,
+        "severity": "warning",
+        "detail": "6 emojis, dentro de 3-7."
+      },
+      {
+        "name": "fecha_correcta",
+        "passed": true,
+        "severity": "error",
+        "detail": "Fecha correcta."
+      }
+    ],
+    "judge": null,
+    "verdict": "pass"
+  }
 }

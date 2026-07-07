@@ -1,6 +1,7 @@
 {
   "date": "2026-07-18",
-  "generated_at": "2026-03-25T12:20:30.825643",
+  "generated_at": "2026-07-06T20:06:44.822926-03:00",
+  "source": "pregenerated-base",
   "data": {
     "date": "2026-07-18",
     "mundial_2026_start": "2026-06-11",
@@ -14,15 +15,94 @@
         "type": "match",
         "priority": "high",
         "person": "N/A",
-        "description": "Mundial 2026 - Partido por el tercer puesto."
+        "description": "Mundial 2026 - Partido por el tercer puesto, Hard Rock Stadium, Miami."
       }
     ],
-    "news": []
+    "news": [],
+    "weather": {
+      "amba": {
+        "min": 14,
+        "max": 17
+      },
+      "la_plata": {
+        "min": 14,
+        "max": 19
+      },
+      "fetched_at": "2026-07-06T20:06:19.579272-03:00",
+      "source": "open-meteo"
+    }
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 38 días para el Mundial 2026 ⚽\n\nPartido: Argentina vs en a las 22:00 en el Estadio de Kansas City. La Scaloneta sale a defender el título con Messi al frente 🇦🇷\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "message": "Buenos días 🇦🇷\n\nDía 38 del Mundial 2026\n\n🌤 Clima\nAMBA: min 14° / max 17°\nLa Plata: min 14° / max 19°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n🏆 Hoy Argentina enfrenta a su rival en el partido por el tercer puesto en el Hard Rock Stadium de Miami. La Scaloneta busca cerrar su participación en el Mundial con una victoria que le permita mantener la dignidad y dejar un buen sabor de boca después de una campaña irregular.\n\nLa selección argentina ha demostrado garra y determinación en momentos clave del torneo. \n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,
   "pre_approved": false,
-  "pre_approved_at": null
+  "pre_approved_at": null,
+  "eval": {
+    "run_at": "2026-07-06T20:29:44.671577-03:00",
+    "checks": [
+      {
+        "name": "saludo",
+        "passed": true,
+        "severity": "error",
+        "detail": "Saludo correcto."
+      },
+      {
+        "name": "countdown_correcto",
+        "passed": true,
+        "severity": "error",
+        "detail": "Countdown correcto: 'Día 38 del Mundial 2026'"
+      },
+      {
+        "name": "clima_presente",
+        "passed": true,
+        "severity": "error",
+        "detail": "Bloque de clima presente y temperaturas coinciden."
+      },
+      {
+        "name": "sin_placeholders",
+        "passed": true,
+        "severity": "error",
+        "detail": "Sin placeholders."
+      },
+      {
+        "name": "cierre_ritual",
+        "passed": true,
+        "severity": "error",
+        "detail": "Cierre ritual correcto."
+      },
+      {
+        "name": "años_grounded",
+        "passed": true,
+        "severity": "error",
+        "detail": "Todos los años mencionados están grounded en los datos."
+      },
+      {
+        "name": "longitud",
+        "passed": true,
+        "severity": "error",
+        "detail": "101 palabras, dentro de 90-150."
+      },
+      {
+        "name": "sin_markdown",
+        "passed": true,
+        "severity": "warning",
+        "detail": "Sin markdown."
+      },
+      {
+        "name": "emojis",
+        "passed": true,
+        "severity": "warning",
+        "detail": "6 emojis, dentro de 3-7."
+      },
+      {
+        "name": "fecha_correcta",
+        "passed": true,
+        "severity": "error",
+        "detail": "Fecha correcta."
+      }
+    ],
+    "judge": null,
+    "verdict": "pass"
+  }
 }

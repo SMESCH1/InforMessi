@@ -1,6 +1,7 @@
 {
   "date": "2026-07-11",
-  "generated_at": "2026-03-25T12:19:15.752610",
+  "generated_at": "2026-07-07T08:49:43.324292-03:00",
+  "source": "pregenerated-base",
   "data": {
     "date": "2026-07-11",
     "mundial_2026_start": "2026-06-11",
@@ -12,17 +13,104 @@
       {
         "date": "2026-07-11",
         "type": "match",
-        "priority": "medium",
+        "priority": "high",
         "person": "N/A",
-        "description": "Mundial 2026 - Día previo a semifinales."
+        "description": "Mundial 2026 - Cierran los cuartos de final (cruces a definir)."
       }
     ],
-    "news": []
+    "news": [],
+    "weather": {
+      "amba": {
+        "min": 8,
+        "max": 12
+      },
+      "la_plata": {
+        "min": 7,
+        "max": 12
+      },
+      "fetched_at": "2026-07-07T08:49:36.689346-03:00",
+      "source": "open-meteo"
+    }
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 31 días para el Mundial 2026 ⚽\n\nHoy Argentina enfrenta a en a las , en Mundial 2026 - Día previo a semifinales.\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "message": "Buenos días 🇦🇷\n\nDía 31 del Mundial 2026\n\n🌤 Clima\nAMBA: min 8° / max 12°\nLa Plata: min 7° / max 12°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\nHoy Argentina cierra los cuartos de final en el Mundial 2026. La Scaloneta busca avanzar a semifinales con la garra y el espíritu que la llevó a ser campeona en Qatar.\n\nLa Selección Argentina tiene una rica historia en Mundiales, con momentos inolvidables que han marcado la memoria de los hinchas.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,
   "pre_approved": false,
-  "pre_approved_at": null
+  "pre_approved_at": null,
+  "eval": {
+    "run_at": "2026-07-07T08:49:55.574764-03:00",
+    "checks": [
+      {
+        "name": "saludo",
+        "passed": true,
+        "severity": "error",
+        "detail": "Saludo correcto."
+      },
+      {
+        "name": "countdown_correcto",
+        "passed": true,
+        "severity": "error",
+        "detail": "Countdown correcto: 'Día 31 del Mundial 2026'"
+      },
+      {
+        "name": "clima_presente",
+        "passed": true,
+        "severity": "error",
+        "detail": "Bloque de clima presente y temperaturas coinciden."
+      },
+      {
+        "name": "sin_placeholders",
+        "passed": true,
+        "severity": "error",
+        "detail": "Sin placeholders."
+      },
+      {
+        "name": "cierre_ritual",
+        "passed": true,
+        "severity": "error",
+        "detail": "Cierre ritual correcto."
+      },
+      {
+        "name": "años_grounded",
+        "passed": true,
+        "severity": "error",
+        "detail": "Todos los años mencionados están grounded en los datos."
+      },
+      {
+        "name": "longitud",
+        "passed": false,
+        "severity": "warning",
+        "detail": "88 palabras, fuera del rango ideal (90-150)."
+      },
+      {
+        "name": "sin_markdown",
+        "passed": true,
+        "severity": "warning",
+        "detail": "Sin markdown."
+      },
+      {
+        "name": "emojis",
+        "passed": true,
+        "severity": "warning",
+        "detail": "5 emojis, dentro de 3-7."
+      },
+      {
+        "name": "fecha_correcta",
+        "passed": true,
+        "severity": "error",
+        "detail": "Fecha correcta."
+      }
+    ],
+    "judge": {
+      "tono": 4,
+      "estructura": 4,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 5,
+      "comentario": "Falta el bloque 'Dato del día' y el bloque 'Argentina' es un poco genérico.",
+      "promedio": 4.25,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass_with_warnings"
+  }
 }

@@ -1,6 +1,7 @@
 {
   "date": "2026-07-08",
-  "generated_at": "2026-03-25T12:18:46.696741",
+  "generated_at": "2026-07-06T20:02:17.422622-03:00",
+  "source": "pregenerated-base",
   "data": {
     "date": "2026-07-08",
     "mundial_2026_start": "2026-06-11",
@@ -28,7 +29,7 @@
         "type": "match",
         "priority": "medium",
         "person": "N/A",
-        "description": "Mundial 2026 - Día de descanso antes de cuartos de final."
+        "description": "Mundial 2026 - Día de descanso antes de los cuartos de final."
       },
       {
         "date": "2001-07-08",
@@ -38,12 +39,99 @@
         "description": "Argentina 3-0 Ghana en final Sub-20."
       }
     ],
-    "news": []
+    "news": [],
+    "weather": {
+      "amba": {
+        "min": 8,
+        "max": 16
+      },
+      "la_plata": {
+        "min": 8,
+        "max": 14
+      },
+      "fetched_at": "2026-07-06T20:02:14.138624-03:00",
+      "source": "open-meteo"
+    }
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 28 días para el Mundial 2026 ⚽\n\nUn día como hoy en 1990, Argentina pierde con Alemania por un penal polémico en la final del Mundial. El seleccionado albiceleste buscaba su tercer título mundial, pero el gol de Andreas Brehme decidió el partido 🏆\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "message": "Buenos días 🇦🇷\n\nDía 28 del Mundial 2026\n\n🌤 Clima\nAMBA: min 8° / max 16°\nLa Plata: min 8° / max 14°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n📅 Hace 36 años, Argentina pierde la final de Italia 90 con Alemania por un penal polémico. Ese día marcó un hito en la historia argentina, con una generación de jugadores que lucharon hasta el final.\n\nLa Scaloneta de hoy recuerda esas glorias pasadas, con la determinación de escribir su propia historia en este Mundial. Con Messi al frente, el equipo busca superar cada obstáculo y hacer que el país vuelva a soñar 🏆\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,
   "pre_approved": false,
-  "pre_approved_at": null
+  "pre_approved_at": null,
+  "eval": {
+    "run_at": "2026-07-06T20:07:38.502543-03:00",
+    "checks": [
+      {
+        "name": "saludo",
+        "passed": true,
+        "severity": "error",
+        "detail": "Saludo correcto."
+      },
+      {
+        "name": "countdown_correcto",
+        "passed": true,
+        "severity": "error",
+        "detail": "Countdown correcto: 'Día 28 del Mundial 2026'"
+      },
+      {
+        "name": "clima_presente",
+        "passed": true,
+        "severity": "error",
+        "detail": "Bloque de clima presente y temperaturas coinciden."
+      },
+      {
+        "name": "sin_placeholders",
+        "passed": true,
+        "severity": "error",
+        "detail": "Sin placeholders."
+      },
+      {
+        "name": "cierre_ritual",
+        "passed": true,
+        "severity": "error",
+        "detail": "Cierre ritual correcto."
+      },
+      {
+        "name": "años_grounded",
+        "passed": true,
+        "severity": "error",
+        "detail": "Todos los años mencionados están grounded en los datos."
+      },
+      {
+        "name": "longitud",
+        "passed": true,
+        "severity": "error",
+        "detail": "111 palabras, dentro de 90-150."
+      },
+      {
+        "name": "sin_markdown",
+        "passed": true,
+        "severity": "warning",
+        "detail": "Sin markdown."
+      },
+      {
+        "name": "emojis",
+        "passed": true,
+        "severity": "warning",
+        "detail": "7 emojis, dentro de 3-7."
+      },
+      {
+        "name": "fecha_correcta",
+        "passed": true,
+        "severity": "error",
+        "detail": "Fecha correcta."
+      }
+    ],
+    "judge": {
+      "tono": 5,
+      "estructura": 4,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 5,
+      "comentario": "Falta el bloque de Dato del día y el de Argentina, pero el mensaje es argentino y editorial, con humor sutil y sin sonar a chatbot ni a publicidad.",
+      "promedio": 4.5,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass"
+  }
 }

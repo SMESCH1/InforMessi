@@ -1,6 +1,7 @@
 {
   "date": "2026-07-09",
-  "generated_at": "2026-03-25T12:18:56.502285",
+  "generated_at": "2026-07-06T20:02:38.728773-03:00",
+  "source": "pregenerated-base",
   "data": {
     "date": "2026-07-09",
     "mundial_2026_start": "2026-06-11",
@@ -9,6 +10,13 @@
     "mundial_phase": "durante_mundial",
     "mundial_day": 29,
     "events": [
+      {
+        "date": "1816-07-09",
+        "type": "fecha_patria",
+        "priority": "high",
+        "person": "N/A",
+        "description": "Dia de la Independencia Argentina. El 9 de julio de 1816 el Congreso de Tucuman declaro la independencia de las Provincias Unidas del Rio de la Plata."
+      },
       {
         "date": "2014-07-09",
         "type": "world_cup",
@@ -21,15 +29,102 @@
         "type": "match",
         "priority": "high",
         "person": "N/A",
-        "description": "Mundial 2026 - Cuartos de final (2 partidos)."
+        "description": "Mundial 2026 - Se juegan los cuartos de final (9-11 de julio, cruces a definir)."
       }
     ],
-    "news": []
+    "news": [],
+    "weather": {
+      "amba": {
+        "min": 8,
+        "max": 15
+      },
+      "la_plata": {
+        "min": 8,
+        "max": 14
+      },
+      "fetched_at": "2026-07-06T20:02:19.628753-03:00",
+      "source": "open-meteo"
+    }
   },
-  "message": "Buenos días 🇦🇷\n\nFaltan 29 días para el Mundial 2026 ⚽\n\nMascherano a Romero: 'Hoy te convertís en héroe'. Argentina a la final. 💥\n\nCoronados de gloria vivamos 🩵🤍🩵",
+  "message": "Buenos días 🇦🇷\n\nDía 29 del Mundial 2026\n\n🌤 Clima\nAMBA: min 8° / max 15°\nLa Plata: min 8° / max 14°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n📅 Hace 12 años, Mascherano le decía a Romero: 'Hoy te convertís en héroe'. Argentina avanzaba a la final del Mundial 2014. La Scaloneta de hoy busca seguir sumando capítulos a esa historia de pasión y entrega 🏆\n\nLa determinación y la garra son las claves de esta generación de jugadores. Con Messi al frente, la Selección Argentina busca superar cada obstáculo y llevar la alegría a todos los hinchas 🇦🇷\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
   "status": "draft",
   "updated_at": null,
   "published_at": null,
   "pre_approved": false,
-  "pre_approved_at": null
+  "pre_approved_at": null,
+  "eval": {
+    "run_at": "2026-07-06T20:07:39.519439-03:00",
+    "checks": [
+      {
+        "name": "saludo",
+        "passed": true,
+        "severity": "error",
+        "detail": "Saludo correcto."
+      },
+      {
+        "name": "countdown_correcto",
+        "passed": true,
+        "severity": "error",
+        "detail": "Countdown correcto: 'Día 29 del Mundial 2026'"
+      },
+      {
+        "name": "clima_presente",
+        "passed": true,
+        "severity": "error",
+        "detail": "Bloque de clima presente y temperaturas coinciden."
+      },
+      {
+        "name": "sin_placeholders",
+        "passed": true,
+        "severity": "error",
+        "detail": "Sin placeholders."
+      },
+      {
+        "name": "cierre_ritual",
+        "passed": true,
+        "severity": "error",
+        "detail": "Cierre ritual correcto."
+      },
+      {
+        "name": "años_grounded",
+        "passed": true,
+        "severity": "error",
+        "detail": "Todos los años mencionados están grounded en los datos."
+      },
+      {
+        "name": "longitud",
+        "passed": true,
+        "severity": "error",
+        "detail": "108 palabras, dentro de 90-150."
+      },
+      {
+        "name": "sin_markdown",
+        "passed": true,
+        "severity": "warning",
+        "detail": "Sin markdown."
+      },
+      {
+        "name": "emojis",
+        "passed": false,
+        "severity": "warning",
+        "detail": "8 emojis, fuera de 3-7."
+      },
+      {
+        "name": "fecha_correcta",
+        "passed": true,
+        "severity": "error",
+        "detail": "Fecha correcta."
+      }
+    ],
+    "judge": {
+      "tono": 5,
+      "estructura": 4,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 5,
+      "comentario": "Falta el bloque 'Dato del día' y el bloque 'Argentina' podría ser más específico, pero el mensaje sigue la estructura general y es fiel a los datos proporcionados.",
+      "promedio": 4.5,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass_with_warnings"
+  }
 }
