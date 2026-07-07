@@ -211,5 +211,24 @@
       "model": "llama-3.3-70b-versatile"
     },
     "verdict": "pass_with_warnings"
+  },
+  {
+    "date": "2026-07-07",
+    "run_at": "2026-07-07T12:50:08.233842-03:00",
+    "source": "groq-fallback",
+    "model": "llama-3.3-70b-versatile",
+    "checks_passed": 9,
+    "checks_failed": 0,
+    "warnings_failed": 1,
+    "judge_scores": {
+      "tono": 4,
+      "estructura": 5,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 4,
+      "comentario": "El mensaje sigue la estructura solicitada y mantiene un tono cercano, pero algunos detalles como el partido específico de Argentina contra Egipto y el árbitro no están explícitamente mencionados en los datos fuente proporcionados, aunque se menciona a François Letexier en una noticia.",
+      "promedio": 4.25,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass_with_warnings"
   }
 ]
