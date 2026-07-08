@@ -1,7 +1,7 @@
 {
   "date": "2026-07-08",
   "generated_at": "2026-07-06T20:02:17.422622-03:00",
-  "source": "pregenerated-base",
+  "source": "groq-fallback",
   "data": {
     "date": "2026-07-08",
     "mundial_2026_start": "2026-06-11",
@@ -39,28 +39,106 @@
         "description": "Argentina 3-0 Ghana en final Sub-20."
       }
     ],
-    "news": [],
+    "news": [
+      {
+        "title": "El dardo de Cristiano Ronaldo tras perder en el Mundial: \"Antes de Cristiano, Portugal no tenía ningún título\"",
+        "description": "La eliminación ante España puso fin a una etapa histórica para el delantero portugués",
+        "url": "https://www.elconfidencial.com/deportes/2026-07-07/dardo-ronaldo-mundial-titulo-1qrt_4385416/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-07-07T09:13:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "La Selección Argentina, el equipo que nunca se rin...",
+        "description": "La Albiceleste llegó a cuartos de final del Mundial 2026 con un impulso que la sostiene cuando el fútbol no fluye.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16975158/la-seleccion-argentina-equipo-que-nunca-se-rinde-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-07-08T04:07:30",
+        "category": "seleccion"
+      },
+      {
+        "title": "Messi habló de la remontada de Argentina: \"La vi f...",
+        "description": "El astro argentino expuso sus emociones después de la clasificación de la Albiceleste a 4tos. de final del Mundial 2026.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16974025/que-dijo-messi-sobre-la-remontada-de-argentina-vs-egipto-8vos-de-final-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-07-08T04:07:29",
+        "category": "seleccion"
+      },
+      {
+        "title": "Así juega Suiza, rival de Argentina en 4tos. de fi...",
+        "description": "El equipo de Murat Yakin tiene un estilo muy marcado que puede traerle problemas a la Albiceleste.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16975080/como-juega-suiza-rival-de-argentina-4tos-de-final-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-07-08T04:56:49",
+        "category": "seleccion"
+      },
+      {
+        "title": "Suiza volvió a destacarse en un Mundial, cortando ...",
+        "description": "null",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16975028/suiza-perfil-destaca-mundial-2026-futbol-corta-sequia-cuartos-de-final-argentina",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-07-08T04:56:49",
+        "category": "mundial"
+      },
+      {
+        "title": "La prensa del mundo se rindió a los pies de Messi ...",
+        "description": "El conjunto de Lionel Scaloni sufrió hasta el último minuto para doblegar a Egipto.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16973195/messi-argentina-clasifica-4tos-cuartos-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-07-08T04:07:47",
+        "category": "seleccion"
+      },
+      {
+        "title": "Cuándo juega Argentina ante Suiza en cuartos y cuá...",
+        "description": "La Selección está en cuartos de la Copa del Mundo que se juega en Estados Unidos, México y Canadá.",
+        "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16048812/argentina-cuando-juega-camino-final-mundial-2026",
+        "source": "www.espn.com.ar - TOP",
+        "published_at": "2026-07-08T04:07:47",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mundial 1966: cómo Egipto protagonizó el boicot que cambió la historia de la FIFA",
+        "description": "Para la Copa del Mundo disputada en Inglaterra, la CAF exigió una ampliación de las plazas para el continente africano",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-1966-como-egipto-protagonizo-el-boicot-que-cambio-la-historia-de-la-fifa-nid07072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-07T15:05:06Z"
+      },
+      {
+        "title": "Se queda el Mundial 2026 sin anfitriones; van Argentina y Colombia por honor del futbol sudamericano",
+        "description": "Ya se conocen seis de los ocho cuartofinalistas del Mundial, cinco europeos y un africano. Argentina y Colombia tratarán de salvar el honor del futbol sudamericano.",
+        "url": "https://aristeguinoticias.com/0707/deportes/se-queda-el-mundial-2026-sin-anfitriones-van-argentina-y-colombia-por-honor-del-futbol-sudamericano/",
+        "source": "Aristeguinoticias.com",
+        "published_at": "2026-07-07T15:02:01Z"
+      },
+      {
+        "title": "De Valentina Cervantes a Caro Calvagni y Kelci Rose Bowers, todos los looks de las \"mujeres de la selección\" para el partido ante Egipto",
+        "description": "En octavos de final, la selección busca una nueva consagración de gloria en Atlanta, mientras las mujeres imponen con la intervención de la camiseta. Leer más",
+        "url": "https://caras.perfil.com/noticias/moda/de-valentina-cervantes-caro-calvagni-y-kelci-rose-bowers-todos-los-looks-de-las-mujeres-de-la-seleccion-para-el-partido-ante-egipto.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-07-07T14:43:36Z"
+      }
+    ],
     "weather": {
       "amba": {
         "min": 8,
         "max": 16
       },
       "la_plata": {
-        "min": 8,
+        "min": 9,
         "max": 14
       },
-      "fetched_at": "2026-07-06T20:02:14.138624-03:00",
+      "fetched_at": "2026-07-08T12:33:27.855250-03:00",
       "source": "open-meteo"
     }
   },
-  "message": "Buenos días 🇦🇷\n\nDía 28 del Mundial 2026\n\n🌤 Clima\nAMBA: min 8° / max 16°\nLa Plata: min 8° / max 14°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n📅 Hace 36 años, Argentina pierde la final de Italia 90 con Alemania por un penal polémico. Ese día marcó un hito en la historia argentina, con una generación de jugadores que lucharon hasta el final.\n\nLa Scaloneta de hoy recuerda esas glorias pasadas, con la determinación de escribir su propia historia en este Mundial. Con Messi al frente, el equipo busca superar cada obstáculo y hacer que el país vuelva a soñar 🏆\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null,
+  "message": "Buenos días 🇦🇷\n\nDía 28 del Mundial 2026\n\n🌤 Clima\nAMBA: min 8° / max 16°\nLa Plata: min 9° / max 14°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\nLa Selección Argentina se prepara para los cuartos de final del Mundial 2026, después de una remontada histórica que los llevó a esta instancia. Messi habló sobre la emoción del equipo y la importancia de seguir adelante con garra y determinación.\n\nLa Scaloneta muestra un espíritu de lucha que la caracteriza, y con Messi al frente, busca avanzar en el torneo.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-07-08T12:33:37.698610-03:00",
+  "published_at": "2026-07-08T12:33:39.391875-03:00",
+  "pre_approved": true,
+  "pre_approved_at": "2026-07-08T12:33:37.698629-03:00",
   "eval": {
-    "run_at": "2026-07-06T20:07:38.502543-03:00",
+    "run_at": "2026-07-08T12:33:38.565020-03:00",
     "checks": [
       {
         "name": "saludo",
@@ -102,7 +180,7 @@
         "name": "longitud",
         "passed": true,
         "severity": "error",
-        "detail": "111 palabras, dentro de 90-150."
+        "detail": "98 palabras, dentro de 90-150."
       },
       {
         "name": "sin_markdown",
@@ -114,7 +192,7 @@
         "name": "emojis",
         "passed": true,
         "severity": "warning",
-        "detail": "7 emojis, dentro de 3-7."
+        "detail": "5 emojis, dentro de 3-7."
       },
       {
         "name": "fecha_correcta",
@@ -124,12 +202,12 @@
       }
     ],
     "judge": {
-      "tono": 5,
+      "tono": 4,
       "estructura": 4,
       "fidelidad_guia": 4,
-      "factualidad_aparente": 5,
-      "comentario": "Falta el bloque de Dato del día y el de Argentina, pero el mensaje es argentino y editorial, con humor sutil y sin sonar a chatbot ni a publicidad.",
-      "promedio": 4.5,
+      "factualidad_aparente": 4,
+      "comentario": "El mensaje sigue la estructura y el tono solicitados, pero carece de un bloque de 'Dato del día' y la longitud es un poco corta.",
+      "promedio": 4.0,
       "model": "llama-3.3-70b-versatile"
     },
     "verdict": "pass"
