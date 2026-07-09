@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-07-09",
+  "scraped_at": "2026-07-09T07:20:09.751216-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Egipto se planta tras el resultado contra Argentina en el Mundial: \"El torneo está amañado\"",
+      "description": "Cuando parecía tener el pase encarrilado tras colocarse con dos goles de ventaja, la selección africana vio cómo el encuentro cambiaba por completo",
+      "url": "https://www.elconfidencial.com/deportes/2026-07-08/egipto-planta-resultado-argentina-mundial-1qrt_4386401/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-07-08T09:56:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Diego Brancatelli publicó un descargo tras las críticas que recibió por su opinión del partido entre Argentina y Egipto: \"Paren la pelota\"",
+      "description": "El periodista tuvo que salir a dar explicaciones luego de haber deslizado que el arbitraje del encuentro benefició a la Selección Nacional. Leer más",
+      "url": "https://exitoina.perfil.com/noticias/escandalo/diego-brancatelli-publico-descargo-tras-criticas-recibio-opinion-partido-argentina-egipto-paren-pelota.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-07-08T09:54:34Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Quién es Mostafa Shobeir, el arquero de Egipto que fue figura contra la Selección Argentina en el Mundial 2026",
+      "description": "El joven de 26 años se desempeña en el fútbol de su país, donde ha logrado lucirse después de varias batallas por conseguir el puesto. Leer más",
+      "url": "https://exitoina.perfil.com/noticias/destacada/quien-es-mostafa-shobeir-arquero-egipto-figura-contra-seleccion-argentina-mundial-2026.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-07-07T22:17:04Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Francia vs Marruecos: FIFA designó un arbitro argentino para dirigir los Cuartos del Mundial 2026",
+      "description": "Histórica designación de la FIFA para los cuartos de final del Mundial 2026: Facundo Tello liderará una terna arbitral íntegramente argentina en el choque entre Francia y Marruecos. Leer más",
+      "url": "https://442.perfil.com/noticias/mundial-2026/fifa-designo-un-arbitro-argentino-para-francia-vs-marruecos.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-07-07T20:29:27Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Hay algo en lo que Messi no es el mejor del mundo",
+      "description": "El Diez falló otro penalti ante Egipto y ya son cuatro errores en la historia de los Mundiales",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/07/hay-messi-mejor-mundo.html",
+      "source": "Marca",
+      "published_at": "2026-07-07T18:05:24Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Los números de Argentina: los más y los menos de la Selección",
+      "description": "Antes de los cuartos de final del Mundial 2026, un repaso por las estadísticas del conjunto de Lionel Scaloni.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/16979135/los-numeros-de-argentina-en-el-mundial-2026-los-mas-y-los-menos",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-07-09T04:58:07",
+      "category": "seleccion"
+    }
+  ]
+}
