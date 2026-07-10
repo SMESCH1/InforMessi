@@ -268,5 +268,24 @@
       "model": "llama-3.3-70b-versatile"
     },
     "verdict": "pass"
+  },
+  {
+    "date": "2026-07-10",
+    "run_at": "2026-07-10T12:39:48.144312-03:00",
+    "source": "groq-fallback",
+    "model": "llama-3.3-70b-versatile",
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "warnings_failed": 0,
+    "judge_scores": {
+      "tono": 4,
+      "estructura": 5,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 3,
+      "comentario": "El mensaje tiene un tono cercano y editorial, pero algunos datos no están respaldados por las fuentes proporcionadas.",
+      "promedio": 4.0,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass"
   }
 ]

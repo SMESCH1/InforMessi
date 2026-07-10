@@ -1,7 +1,7 @@
 {
   "date": "2026-07-10",
   "generated_at": "2026-07-06T20:03:06.226322-03:00",
-  "source": "pregenerated-base",
+  "source": "groq-fallback",
   "data": {
     "date": "2026-07-10",
     "mundial_2026_start": "2026-06-11",
@@ -32,28 +32,98 @@
         "description": "Mundial 2026 - Se juegan los cuartos de final (9-11 de julio, cruces a definir)."
       }
     ],
-    "news": [],
+    "news": [
+      {
+        "title": "Partidos de hoy del Mundial 2026, jueves 9 de julio: horario y por dónde ver en vivo online",
+        "description": "La jornada tendrá solamente un encuentro, el que abre los cuartos de final entre dos equipos de rivalidad histórica; la etapa concluirá el sábado",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/partidos-de-hoy-del-mundial-2026-jueves-9-de-julio-horario-y-por-donde-ver-en-vivo-online-nid09072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-09T10:00:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Ezio Oliva se rinde a España: \"Quiero que gane el Mundial 2026\"",
+        "description": "El cantante peruano Ezio Oliva continúa muy pendiente del Mundial 2026 pese a que la selección de Perú no logró clasificarse para el torneo. Durante una entrevista concedida a Mundo Deportivo, el arti",
+        "url": "https://www.mundodeportivo.com/ocio/20260709/1004204569/ezio-oliva-rinde-espana-quiero-gane-mundial-2026.html",
+        "source": "Mundodeportivo.com",
+        "published_at": "2026-07-09T09:51:14Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El nuevo Mundial convence: más equipos... y más espectáculo",
+        "description": "Las sorpresas deportivas, el lleno casi absoluto en los estadios, el crecimiento de las audiencias y el impacto en las redes desmontan, de momento, las dudas iniciales",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/09/nuevo-mundial-convence-equipos-espectaculo.html",
+        "source": "Marca",
+        "published_at": "2026-07-09T09:15:32Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Hernández Hernández 'vuelve' al Mundial: será el cuarto árbitro del Inglaterra - Noruega",
+        "description": "No le designaban para un encuentro desde el 20 de junio cuando dirigió el Brasil-Haití",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/10/hernandez-hernandez-vuelve-mundial-sera-cuarto-arbitro-inglaterra-noruega.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-10T09:27:00",
+        "category": "mundial"
+      },
+      {
+        "title": "A qué hora es el España - Bélgica: horario, fecha y dónde ver hoy en TV el partido de cuartos del Mundial 2026",
+        "description": "Volverá a jugar en el SoFi Stadium de Los Ángeles",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/10/hora-espana-belgica-horario-fecha-ver-hoy-tv-partido-cuartos-mundial-2026.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-10T08:12:09",
+        "category": "mundial"
+      },
+      {
+        "title": "La prensa mundial ensalza a Francia en clave revolución francesa: \"El asalto más irresistible desde la Bastilla\"",
+        "description": "Destacan el triunfo ante Marruecos y recuerdan que la semifinal está programada para el 16 de julio,&nbsp;Fiesta Nacional de Francia que conmemora el inicio de la revolución francesa",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/10/prensa-mundial-ensalza-francia-clave-revolucion-francesa-asalto-irresistible-bastilla.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-10T08:00:37",
+        "category": "mundial"
+      },
+      {
+        "title": "Collina se defiende: «Ni siquiera Infantino puede influir en el arbitraje FIFA»",
+        "description": "El jefe de los árbitros FIFA descarta cualquier influencia sobre su estamento, respalda al árbitro del polémico Argentina-Egipto y se muestra satisfecho por el arbitraje del torneo",
+        "url": "https://www.lavozdegalicia.es/noticia/mundial2026/2026/07/09/collina-defiende-siquiera-infantino-puede-influir-arbitraje-fifa/00031783604784813930133.htm",
+        "source": "Lavozdegalicia.es",
+        "published_at": "2026-07-09T15:38:00Z"
+      },
+      {
+        "title": "Yamal se pronuncia sobre el nivel de Messi en este Mundial",
+        "description": "El astro argentino marcó su octavo gol en el torneo actual y estableció un nuevo récord absoluto.",
+        "url": "https://actualidad.rt.com/actualidad/615771-yamal-pronuncia-nivel-messi-mundial",
+        "source": "RT",
+        "published_at": "2026-07-09T15:33:30Z"
+      },
+      {
+        "title": "Tras su eliminación del Mundial, Portugal acordó la llegada de Jorge Jesús como nuevo DT",
+        "description": "El técnico, de 71 años, se despidió del Al Nassr saudí en mayo pasado y sucederá al español Roberto Martínez, campeón de Liga de Naciones.",
+        "url": "https://www.montevideo.com.uy/Deportes/Tras-su-eliminacion-del-Mundial-Portugal-acordo-la-llegada-de-Jorge-Jesus-como-nuevo-DT-uc967751",
+        "source": "Montevideo.com.uy",
+        "published_at": "2026-07-09T15:09:00Z"
+      }
+    ],
     "weather": {
       "amba": {
-        "min": 8,
-        "max": 10
+        "min": 9,
+        "max": 13
       },
       "la_plata": {
-        "min": 7,
-        "max": 10
+        "min": 9,
+        "max": 14
       },
-      "fetched_at": "2026-07-06T20:02:40.904770-03:00",
+      "fetched_at": "2026-07-10T12:39:38.583560-03:00",
       "source": "open-meteo"
     }
   },
-  "message": "Buenos días 🇦🇷\n\nDía 30 del Mundial 2026\n\n🌤 Clima\nAMBA: min 8° / max 10°\nLa Plata: min 7° / max 10°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n📅 Hace 5 años, Argentina se consagró campeón de América en el Maracaná, derrotando a Brasil 1-0. Ese título marcó un punto de inflexión en la historia reciente de la Selección.\n\nLa Scaloneta de hoy busca seguir escribiendo su propia historia en este Mundial 2026, con la misma pasión y determinación que los llevó a ser campeones en Qatar.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null,
+  "message": "Buenos días 🇦🇷\n\nDía 30 del Mundial 2026\n\n🌤 Clima\nAMBA: min 9° / max 13°\nLa Plata: min 9° / max 14°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n🏆 Hace 5 años, Argentina se consagró campeón de América en el Maracaná, derrotando a Brasil 1-0. Ese título sigue siendo un hito en la historia de la Selección. La Scaloneta de hoy busca igualar esa grandeza en el Mundial 2026.\n\nYamal destacó el nivel de Messi en este torneo, marcando su octavo gol y estableciendo un nuevo récord. La Selección Argentina sigue firme en su búsqueda de la gloria.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-07-10T12:39:47.237119-03:00",
+  "published_at": "2026-07-10T12:39:48.778306-03:00",
+  "pre_approved": true,
+  "pre_approved_at": "2026-07-10T12:39:47.237139-03:00",
   "eval": {
-    "run_at": "2026-07-06T20:07:50.573522-03:00",
+    "run_at": "2026-07-10T12:39:48.143750-03:00",
     "checks": [
       {
         "name": "saludo",
@@ -95,7 +165,7 @@
         "name": "longitud",
         "passed": true,
         "severity": "error",
-        "detail": "96 palabras, dentro de 90-150."
+        "detail": "107 palabras, dentro de 90-150."
       },
       {
         "name": "sin_markdown",
@@ -117,12 +187,12 @@
       }
     ],
     "judge": {
-      "tono": 5,
+      "tono": 4,
       "estructura": 5,
-      "fidelidad_guia": 5,
-      "factualidad_aparente": 5,
-      "comentario": "El mensaje sigue la estructura obligatoria, tiene un tono argentino y editorial, y todos los datos están respaldados por los datos fuente.",
-      "promedio": 5.0,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 3,
+      "comentario": "El mensaje tiene un tono cercano y editorial, pero algunos datos no están respaldados por las fuentes proporcionadas.",
+      "promedio": 4.0,
       "model": "llama-3.3-70b-versatile"
     },
     "verdict": "pass"
