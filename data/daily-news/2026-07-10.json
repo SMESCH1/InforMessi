@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-07-10",
+  "scraped_at": "2026-07-10T07:12:08.473549-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Partidos de hoy del Mundial 2026, jueves 9 de julio: horario y por dónde ver en vivo online",
+      "description": "La jornada tendrá solamente un encuentro, el que abre los cuartos de final entre dos equipos de rivalidad histórica; la etapa concluirá el sábado",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/partidos-de-hoy-del-mundial-2026-jueves-9-de-julio-horario-y-por-donde-ver-en-vivo-online-nid09072026/",
+      "source": "La Nacion",
+      "published_at": "2026-07-09T10:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Ezio Oliva se rinde a España: \"Quiero que gane el Mundial 2026\"",
+      "description": "El cantante peruano Ezio Oliva continúa muy pendiente del Mundial 2026 pese a que la selección de Perú no logró clasificarse para el torneo. Durante una entrevista concedida a Mundo Deportivo, el arti",
+      "url": "https://www.mundodeportivo.com/ocio/20260709/1004204569/ezio-oliva-rinde-espana-quiero-gane-mundial-2026.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-07-09T09:51:14Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El nuevo Mundial convence: más equipos... y más espectáculo",
+      "description": "Las sorpresas deportivas, el lleno casi absoluto en los estadios, el crecimiento de las audiencias y el impacto en las redes desmontan, de momento, las dudas iniciales",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/09/nuevo-mundial-convence-equipos-espectaculo.html",
+      "source": "Marca",
+      "published_at": "2026-07-09T09:15:32Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Hernández Hernández 'vuelve' al Mundial: será el cuarto árbitro del Inglaterra - Noruega",
+      "description": "No le designaban para un encuentro desde el 20 de junio cuando dirigió el Brasil-Haití",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/10/hernandez-hernandez-vuelve-mundial-sera-cuarto-arbitro-inglaterra-noruega.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-10T09:27:00",
+      "category": "mundial"
+    },
+    {
+      "title": "A qué hora es el España - Bélgica: horario, fecha y dónde ver hoy en TV el partido de cuartos del Mundial 2026",
+      "description": "Volverá a jugar en el SoFi Stadium de Los Ángeles",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/10/hora-espana-belgica-horario-fecha-ver-hoy-tv-partido-cuartos-mundial-2026.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-10T08:12:09",
+      "category": "mundial"
+    },
+    {
+      "title": "La prensa mundial ensalza a Francia en clave revolución francesa: \"El asalto más irresistible desde la Bastilla\"",
+      "description": "Destacan el triunfo ante Marruecos y recuerdan que la semifinal está programada para el 16 de julio,&nbsp;Fiesta Nacional de Francia que conmemora el inicio de la revolución francesa",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/10/prensa-mundial-ensalza-francia-clave-revolucion-francesa-asalto-irresistible-bastilla.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-10T08:00:37",
+      "category": "mundial"
+    }
+  ]
+}
