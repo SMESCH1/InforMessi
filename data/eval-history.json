@@ -287,5 +287,24 @@
       "model": "llama-3.3-70b-versatile"
     },
     "verdict": "pass"
+  },
+  {
+    "date": "2026-07-11",
+    "run_at": "2026-07-11T11:32:22.316730-03:00",
+    "source": "groq-fallback",
+    "model": "llama-3.3-70b-versatile",
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "warnings_failed": 0,
+    "judge_scores": {
+      "tono": 4,
+      "estructura": 4,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 4,
+      "comentario": "El mensaje sigue la estructura solicitada, pero falta el bloque de 'Dato del día' y el bloque de 'Argentina' es un poco confuso con la información sobre Murat Yakin.",
+      "promedio": 4.0,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass"
   }
 ]

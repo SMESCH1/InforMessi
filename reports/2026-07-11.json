@@ -1,7 +1,7 @@
 {
   "date": "2026-07-11",
   "generated_at": "2026-07-07T08:49:43.324292-03:00",
-  "source": "pregenerated-base",
+  "source": "groq-fallback",
   "data": {
     "date": "2026-07-11",
     "mundial_2026_start": "2026-06-11",
@@ -18,28 +18,82 @@
         "description": "Mundial 2026 - Cierran los cuartos de final (cruces a definir)."
       }
     ],
-    "news": [],
+    "news": [
+      {
+        "title": "Arbitraje 100% argentino en el juego de ayer atiza críticas contra la FIFA",
+        "description": "La designación de un cuerpo arbitral integrado completamente por argentinos y liderado por Facundo Tello para el partido de cuartos de final del Mundial 2026 entre Francia y Marruecos desató una gran ",
+        "url": "https://www.jornada.com.mx/2026/07/10/deportes/a02n2dep",
+        "source": "Jornada.com.mx",
+        "published_at": "2026-07-10T08:15:24Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Murat Yakin, el estratega y multifacético DT de Suiza que busca dar el golpe ante Argentina",
+        "description": "Hijo de una inmigrante turca, aficionado al golf y empresario de colchones, tiene un costado excéntrico no sólo en su look, que ha sido viralizado en las redes",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/murat-yakin-el-estratega-y-multifacetico-dt-de-suiza-que-busca-dar-el-golpe-ante-argentina-nid09072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-09T15:01:32Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Argentina - Suiza: horario y dónde ver hoy en TV el partido de cuartos de final del Mundial 2026",
+        "description": "Los detalles de cada cruce de Cuartos de final del Mundial",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/10/argentina-suiza-horario-y-donde-ver-hoy-en-tv-el-partido-de-cuartos-de-final-del-mundial-2026.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-11T08:24:59",
+        "category": "seleccion"
+      },
+      {
+        "title": "El secreto de los MVP del Mundial: dos trofeos, una polémica votación… y el caso Mbappé",
+        "description": "La FIFA prepara dos versiones del premio al mejor jugador del partido: una patrocinada por Michelob ULTRA y otra sin publicidad para menores o futbolistas que rechazan asociar su imagen al alcohol",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/11/secreto-mvp-mundial-dos-trofeos-polemica-votacion-caso-mbappe.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-11T08:01:05",
+        "category": "mundial"
+      },
+      {
+        "title": "La infartoneta: el emotivo video de la Selección Argentina homenajeando a René Favaloro",
+        "description": "​AFA celebró el pase a cuartos de final del Mundial 2026 con un video protagonizado por René Favaloro, la eminencia médica que ayuda a entender lo que nos pasa en el corazón cuando juega la Selección ",
+        "url": "https://442.perfil.com/noticias/mundial-2026/la-infartoneta-el-emotivo-video-de-la-seleccion-argentina-homenajeando-a-rene-favaloro.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-07-10T12:39:40Z"
+      },
+      {
+        "title": "Los futbolistas egipcios son recibidos como héroes en su regreso a su país tras el Mundial",
+        "description": "Ante un sol inclemente, el conjunto de los Faraones ha sido recibido como héroes en su regreso este viernes a Egipto después de que la selección hiciera historia por alcanzar los octavos de final del ",
+        "url": "https://www.elperiodico.com/es/deportes/20260710/faraones-recibidos-heroes-regreso-egipto-mundial-salah-132330764",
+        "source": "Elperiodico.com",
+        "published_at": "2026-07-10T12:13:34Z"
+      },
+      {
+        "title": "Aniversario e ilusión mundialista antes de enfrentar a Suiza: los mensajes de la Selección a cinco años del triunfo en la Copa América",
+        "description": "El 10 de julio de 2021, la selección argentina le ganó 1 a 0 a Brasil en el Maracaná y gritó campeón por primera vez en la era Scaloni",
+        "url": "https://www.lanacion.com.ar/deportes/aniversario-e-ilusion-mundialista-antes-de-enfrentar-a-suiza-los-mensajes-de-la-seleccion-a-cinco-nid10072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-10T14:24:19Z"
+      }
+    ],
     "weather": {
       "amba": {
-        "min": 8,
-        "max": 12
+        "min": 9,
+        "max": 14
       },
       "la_plata": {
-        "min": 7,
-        "max": 12
+        "min": 8,
+        "max": 14
       },
-      "fetched_at": "2026-07-07T08:49:36.689346-03:00",
+      "fetched_at": "2026-07-11T11:32:11.842874-03:00",
       "source": "open-meteo"
     }
   },
-  "message": "Buenos días 🇦🇷\n\nDía 31 del Mundial 2026\n\n🌤 Clima\nAMBA: min 8° / max 12°\nLa Plata: min 7° / max 12°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\nHoy Argentina cierra los cuartos de final en el Mundial 2026. La Scaloneta busca avanzar a semifinales con la garra y el espíritu que la llevó a ser campeona en Qatar.\n\nLa Selección Argentina tiene una rica historia en Mundiales, con momentos inolvidables que han marcado la memoria de los hinchas.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null,
+  "message": "Buenos días 🇦🇷\n\nDía 31 del Mundial 2026\n\n🌤 Clima\nAMBA: min 9° / max 14°\nLa Plata: min 8° / max 14°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n🏆 Hoy Argentina enfrenta a Suiza en los cuartos de final del Mundial 2026. La Scaloneta busca avanzar con Messi al frente, en una noche cargada de nervios y expectativa para todo un país que vuelve a soñar.\n\nLa estrategia de Murat Yakin, el DT de Suiza, puede ser un desafío para la Selección. Con su look excéntrico y su pasado como empresario de colchones, Yakin tiene un costado multifacético que puede influir en el partido.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-07-11T11:32:21.263317-03:00",
+  "published_at": "2026-07-11T11:32:23.030363-03:00",
+  "pre_approved": true,
+  "pre_approved_at": "2026-07-11T11:32:21.263335-03:00",
   "eval": {
-    "run_at": "2026-07-07T08:49:55.574764-03:00",
+    "run_at": "2026-07-11T11:32:22.316197-03:00",
     "checks": [
       {
         "name": "saludo",
@@ -79,9 +133,9 @@
       },
       {
         "name": "longitud",
-        "passed": false,
-        "severity": "warning",
-        "detail": "88 palabras, fuera del rango ideal (90-150)."
+        "passed": true,
+        "severity": "error",
+        "detail": "113 palabras, dentro de 90-150."
       },
       {
         "name": "sin_markdown",
@@ -93,7 +147,7 @@
         "name": "emojis",
         "passed": true,
         "severity": "warning",
-        "detail": "5 emojis, dentro de 3-7."
+        "detail": "6 emojis, dentro de 3-7."
       },
       {
         "name": "fecha_correcta",
@@ -106,11 +160,11 @@
       "tono": 4,
       "estructura": 4,
       "fidelidad_guia": 4,
-      "factualidad_aparente": 5,
-      "comentario": "Falta el bloque 'Dato del día' y el bloque 'Argentina' es un poco genérico.",
-      "promedio": 4.25,
+      "factualidad_aparente": 4,
+      "comentario": "El mensaje sigue la estructura solicitada, pero falta el bloque de 'Dato del día' y el bloque de 'Argentina' es un poco confuso con la información sobre Murat Yakin.",
+      "promedio": 4.0,
       "model": "llama-3.3-70b-versatile"
     },
-    "verdict": "pass_with_warnings"
+    "verdict": "pass"
   }
 }
