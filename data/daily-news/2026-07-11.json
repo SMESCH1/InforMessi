@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-07-11",
+  "scraped_at": "2026-07-11T05:30:32.871253-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "Arbitraje 100% argentino en el juego de ayer atiza críticas contra la FIFA",
+      "description": "La designación de un cuerpo arbitral integrado completamente por argentinos y liderado por Facundo Tello para el partido de cuartos de final del Mundial 2026 entre Francia y Marruecos desató una gran ",
+      "url": "https://www.jornada.com.mx/2026/07/10/deportes/a02n2dep",
+      "source": "Jornada.com.mx",
+      "published_at": "2026-07-10T08:15:24Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Murat Yakin, el estratega y multifacético DT de Suiza que busca dar el golpe ante Argentina",
+      "description": "Hijo de una inmigrante turca, aficionado al golf y empresario de colchones, tiene un costado excéntrico no sólo en su look, que ha sido viralizado en las redes",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/murat-yakin-el-estratega-y-multifacetico-dt-de-suiza-que-busca-dar-el-golpe-ante-argentina-nid09072026/",
+      "source": "La Nacion",
+      "published_at": "2026-07-09T15:01:32Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Argentina - Suiza: horario y dónde ver hoy en TV el partido de cuartos de final del Mundial 2026",
+      "description": "Los detalles de cada cruce de Cuartos de final del Mundial",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/10/argentina-suiza-horario-y-donde-ver-hoy-en-tv-el-partido-de-cuartos-de-final-del-mundial-2026.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-11T08:24:59",
+      "category": "seleccion"
+    },
+    {
+      "title": "El secreto de los MVP del Mundial: dos trofeos, una polémica votación… y el caso Mbappé",
+      "description": "La FIFA prepara dos versiones del premio al mejor jugador del partido: una patrocinada por Michelob ULTRA y otra sin publicidad para menores o futbolistas que rechazan asociar su imagen al alcohol",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/11/secreto-mvp-mundial-dos-trofeos-polemica-votacion-caso-mbappe.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-11T08:01:05",
+      "category": "mundial"
+    }
+  ]
+}
