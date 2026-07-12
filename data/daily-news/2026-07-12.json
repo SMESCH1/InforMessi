@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-07-12",
+  "scraped_at": "2026-07-12T05:56:25.000933-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "Argentina - Suiza: horario y dónde ver hoy por TV los cuartos del Mundial 2026",
+      "description": "Los cuartos de final del Mundial 2026 se cierran en esta madrugada del sábado al domingo con el partido entre Argentina y Suiza. La campeona del mundo y el matagigantes helvético...",
+      "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/07/11/6a4f7d7ee85ece6c628b4598.html",
+      "source": "El Mundo",
+      "published_at": "2026-07-11T08:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Noruega - Inglaterra: horario y dónde ver hoy por TV los cuartos del Mundial 2026",
+      "description": "Los cuartos de final del Mundial 2026 ofrecen la batalla en Miami entre Noruega e Inglaterra, esto es, un duelo entre Harry Kane y Erling Haaland, dos de los delanteros más...",
+      "url": "https://www.elmundo.es/deportes/futbol/mundial-de-futbol/2026/07/11/6a4f66f3fdddff7f438b4585.html",
+      "source": "El Mundo",
+      "published_at": "2026-07-11T07:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Nico Williams vuelve a ser protagonista",
+      "description": "Nico Williams vivió y vio muy de cerca el gol de Mikel Merino que supuso la victoria ante Bélgica y la clasificación de España para las semifinales del Mundial 2026. De navarro a navarro en plenos San",
+      "url": "https://www.mundodeportivo.com/futbol/athletic-bilbao/20260711/1004205302/nico-williams-vuelve-protagonista.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-07-11T08:49:45Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Kobel, vaselina frente a Messi",
+      "description": "Enfrentarse al máximo goleador de la historia de los Mundiales tiene su miga por mucho que la Argentina de Leo Messi haya exhibido en la fase eliminatoria de este Mundial mucha más épica que juego, pe",
+      "url": "https://www.elcorreo.com/deportes/futbol/mundial/kobel-vaselina-frente-messi-20260710004010-ntrc.html",
+      "source": "Elcorreo.com",
+      "published_at": "2026-07-10T22:40:10Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Scaloni rebaja la tensión antes de medirse a Inglaterra: \"Es un partido de fútbol, punto final\"",
+      "description": "",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/12/scaloni-rebaja-tension-medirse-inglaterra-partido-futbol-punto-final-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-12T08:41:32",
+      "category": "seleccion"
+    },
+    {
+      "title": "Messi: \"No es normal lo que está haciendo esta selección\"",
+      "description": "\"Este grupo compite y no deja nunca de insistir, de querer más, de seguir estando a la altura de los mejores\", asegura Leo tras eliminar a Suiza y meterse en semifinales del Mundial",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/12/messi-normal-haciendo-seleccion.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-12T07:31:32",
+      "category": "seleccion"
+    },
+    {
+      "title": "Scaloni: \"El panorama pintaba feo… pero estamos en semis\"",
+      "description": "Reconoció que Suiza hizo sufrir mucho a Argentina pero la albiceleste supo sacar adelante el partido&nbsp;",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/12/scaloni-panorama-pintaba-feo-semis.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-12T05:49:04",
+      "category": "seleccion"
+    },
+    {
+      "title": "La barbaridad de Julián para meter a Argentina en semifinales",
+      "description": "",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/12/barbaridad-julian-meter-argentina-semifinales-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-12T05:22:16",
+      "category": "seleccion"
+    }
+  ]
+}
