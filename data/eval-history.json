@@ -306,5 +306,24 @@
       "model": "llama-3.3-70b-versatile"
     },
     "verdict": "pass"
+  },
+  {
+    "date": "2026-07-12",
+    "run_at": "2026-07-12T11:37:15.116208-03:00",
+    "source": "groq-fallback",
+    "model": "llama-3.3-70b-versatile",
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "warnings_failed": 0,
+    "judge_scores": {
+      "tono": 4,
+      "estructura": 4,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 4,
+      "comentario": "El mensaje sigue la estructura y el tono solicitados, pero falta el bloque de 'Dato del día' y el bloque principal podría ser más específico sobre el evento del día.",
+      "promedio": 4.0,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass"
   }
 ]
