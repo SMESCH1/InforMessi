@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-07-13",
+  "scraped_at": "2026-07-13T07:13:40.114113-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "Lo nunca visto en las mejores semifinales de la historia del fútbol",
+      "description": "España, Francia, Inglaterra y Argentina se jugarán el pase a la gran final",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/12/mejores-semifinales-historia-estara-top-4-ranking-fifa-completo-primera-vez.html",
+      "source": "Marca",
+      "published_at": "2026-07-12T09:36:44Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Lo Celso abre la vía para aplazar la primera jornada de Liga del Betis... a la espera del mercado",
+      "description": "El argentino, sin minutos anoche ante Suiza, se mete en las semifinales del Mundial  Leer",
+      "url": "https://www.marca.com/futbol/betis/2026/07/12/celso-abre-via-aplazar-primera-jornada-liga-betis-espera-mercado.html",
+      "source": "Marca",
+      "published_at": "2026-07-12T09:10:33Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Lo Celso está en semifinales del Mundial y el Betis medita si le interesa o no aplazar su primera jornada de LaLiga",
+      "description": "La selección argentina se impuso en los cuartos de final del Mundial 2026 a Suiza por 3-1, eliminatoria que se decidió en la prórroga, y disputará las semifinales frente a Inglaterra el próximo miérco",
+      "url": "https://www.abc.es/deportes/alfinaldelapalmera/noticias-betis/celso-semifinales-mundial-betis-medita-interesa-aplazar-20260712110142-nts.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-07-12T09:01:42Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El VAR desata las iras: el extraño caso de la Spyder y una roja rearbitrada habrían hecho 'olvidar' a Maradona",
+      "description": "Dos decisiones polémicas con el videoarbitraje de por medio dieron lugar a que Inglaterra y Argentina se vuelvan a ver las caras en un Mundial, con aquellos goles de 'D10s' en el punto de mira con el ",
+      "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-07-12/var-argentina-suiza-spyder-roja-embolo-protestas_4388592/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-07-12T10:02:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La decepción de Bernardo Silva: \"Ha sido frustrante acabar tan pronto el Mundial\"",
+      "description": "El nuevo jugador del Real Madrid asume que su participación mundialista acabó más pronto de lo esperado",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/13/decepcion-bernardo-silva-sido-frustrante-acabar-pronto-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-13T08:44:44",
+      "category": "mundial"
+    },
+    {
+      "title": "Los secretos del estadio de la semifinal: \"El césped estará preparado para un juego rápido\"",
+      "description": "MARCA visita el AT&amp;T de Dallas (Dallas Stadium durante el Mundial) de cara al decisivo encuentro que jugará mañana la selección española contra Francia",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/13/secretos-estadio-semifinal-cesped-estara-preparado-juego-rapido.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-13T08:16:49",
+      "category": "seleccion"
+    },
+    {
+      "title": "Contra el imperio del gol",
+      "description": "Los hombres de Luis de la Fuente, que sólo han encajado un gol en todo el torneo, desafían a la mayor fábrica de goles del fútbol mundial",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/13/imperio-gol.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-13T07:35:20",
+      "category": "mundial"
+    }
+  ]
+}
