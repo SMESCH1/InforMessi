@@ -1,7 +1,7 @@
 {
   "date": "2026-07-13",
   "generated_at": "2026-07-06T20:04:27.637442-03:00",
-  "source": "pregenerated-base",
+  "source": "groq-fallback",
   "data": {
     "date": "2026-07-13",
     "mundial_2026_start": "2026-06-11",
@@ -39,28 +39,106 @@
         "description": "Argentina 2-1 España en Inglaterra."
       }
     ],
-    "news": [],
+    "news": [
+      {
+        "title": "Lo nunca visto en las mejores semifinales de la historia del fútbol",
+        "description": "España, Francia, Inglaterra y Argentina se jugarán el pase a la gran final",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/12/mejores-semifinales-historia-estara-top-4-ranking-fifa-completo-primera-vez.html",
+        "source": "Marca",
+        "published_at": "2026-07-12T09:36:44Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Lo Celso abre la vía para aplazar la primera jornada de Liga del Betis... a la espera del mercado",
+        "description": "El argentino, sin minutos anoche ante Suiza, se mete en las semifinales del Mundial  Leer",
+        "url": "https://www.marca.com/futbol/betis/2026/07/12/celso-abre-via-aplazar-primera-jornada-liga-betis-espera-mercado.html",
+        "source": "Marca",
+        "published_at": "2026-07-12T09:10:33Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Lo Celso está en semifinales del Mundial y el Betis medita si le interesa o no aplazar su primera jornada de LaLiga",
+        "description": "La selección argentina se impuso en los cuartos de final del Mundial 2026 a Suiza por 3-1, eliminatoria que se decidió en la prórroga, y disputará las semifinales frente a Inglaterra el próximo miérco",
+        "url": "https://www.abc.es/deportes/alfinaldelapalmera/noticias-betis/celso-semifinales-mundial-betis-medita-interesa-aplazar-20260712110142-nts.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-07-12T09:01:42Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El VAR desata las iras: el extraño caso de la Spyder y una roja rearbitrada habrían hecho 'olvidar' a Maradona",
+        "description": "Dos decisiones polémicas con el videoarbitraje de por medio dieron lugar a que Inglaterra y Argentina se vuelvan a ver las caras en un Mundial, con aquellos goles de 'D10s' en el punto de mira con el ",
+        "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-07-12/var-argentina-suiza-spyder-roja-embolo-protestas_4388592/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-07-12T10:02:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "La decepción de Bernardo Silva: \"Ha sido frustrante acabar tan pronto el Mundial\"",
+        "description": "El nuevo jugador del Real Madrid asume que su participación mundialista acabó más pronto de lo esperado",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/13/decepcion-bernardo-silva-sido-frustrante-acabar-pronto-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-13T08:44:44",
+        "category": "mundial"
+      },
+      {
+        "title": "Los secretos del estadio de la semifinal: \"El césped estará preparado para un juego rápido\"",
+        "description": "MARCA visita el AT&amp;T de Dallas (Dallas Stadium durante el Mundial) de cara al decisivo encuentro que jugará mañana la selección española contra Francia",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/13/secretos-estadio-semifinal-cesped-estara-preparado-juego-rapido.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-13T08:16:49",
+        "category": "seleccion"
+      },
+      {
+        "title": "Contra el imperio del gol",
+        "description": "Los hombres de Luis de la Fuente, que sólo han encajado un gol en todo el torneo, desafían a la mayor fábrica de goles del fútbol mundial",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/13/imperio-gol.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-13T07:35:20",
+        "category": "mundial"
+      },
+      {
+        "title": "Argentina vs Inglaterra: las figuras inglesas que Scaloni no puede perder de vista",
+        "description": "En la antesala de una de las semifinales más esperadas del Mundial 2026, Inglaterra se presenta como un examen de máxima exigencia para la Selección Argentina. Repasamos a los nombres propios de los \"",
+        "url": "https://442.perfil.com/noticias/mundial-2026/argentina-vs-inglaterra-las-figuras-inglesas-que-la-scaloni-no-puede-perder-de-vista.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-07-12T15:30:14Z"
+      },
+      {
+        "title": "La reacción de los medios ingleses tras el pase de Argentina a las semifinales del Mundial 2026: \"Inglaterra deberá destronar a Messi\"",
+        "description": "La prensa de Inglaterra analizaron el triunfo de la Selección Argentina ante Suiza y ya palpintan el próximo cruce ante su seleccionado como un viejo clásico internacional.\n Leer más",
+        "url": "https://442.perfil.com/noticias/mundial-2026/la-reaccion-de-los-medios-ingleses-tras-el-pase-de-argentina-a-las-semifinales-del-mundial-2026-inglaterra-debera-destronar-a-messi.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-07-12T14:09:35Z"
+      },
+      {
+        "title": "Mauricio Macri vivió el triunfo de Argentina contra Suiza con su hija Antonia y la hija de Juliana Awada, Valentina Barbier",
+        "description": "El expresidente compartió un emocionante momento familiar en las tribunas del Mundial 2026 en el triunfo de Argentina frente a Suiza. Leer más",
+        "url": "https://caras.perfil.com/noticias/celebridades/mauricio-macri-vivio-el-triunfo-de-argentina-contra-suiza-con-su-hija-antonia-y-la-hija-de-juliana-awada-valentina-barbier.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-07-12T14:05:38Z"
+      }
+    ],
     "weather": {
       "amba": {
-        "min": 8,
+        "min": 3,
         "max": 11
       },
       "la_plata": {
-        "min": 7,
+        "min": 2,
         "max": 10
       },
-      "fetched_at": "2026-07-06T20:04:02.772351-03:00",
+      "fetched_at": "2026-07-13T12:51:43.659139-03:00",
       "source": "open-meteo"
     }
   },
-  "message": "Buenos días 🇦🇷\n\nDía 33 del Mundial 2026\n\n🌤 Clima\nAMBA: min 8° / max 11°\nLa Plata: min 7° / max 10°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n📅 Un día como hoy en 2014, Argentina pierde 1-0 con Alemania en tiempo extra en la final del Mundial Brasil. La Scaloneta de hoy busca superar ese dolor del pasado y hacer historia en este torneo.\n\nLa Selección Argentina ha demostrado ser una de las más consistentes en los Mundiales, con una rica historia que la respalda. La garra y el orgullo de ser argentino son fundamentales en cada partido.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null,
+  "message": "Buenos días 🇦🇷\n\nDía 33 del Mundial 2026\n\n🌤 Clima\nAMBA: min 3° / max 11°\nLa Plata: min 2° / max 10°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\nArgentina se prepara para enfrentar a Inglaterra en semifinales, un partido clave en el Mundial 2026. La Scaloneta busca avanzar a la final con Messi al frente. La noticia de que España, Francia, Inglaterra y Argentina se jugarán el pase a la gran final genera expectativa.\n\nLa Selección Argentina en Mundiales ha demostrado ser un equipo fuerte, y ahora busca superar a Inglaterra. \n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-07-13T12:51:53.854410-03:00",
+  "published_at": "2026-07-13T12:51:55.530715-03:00",
+  "pre_approved": true,
+  "pre_approved_at": "2026-07-13T12:51:53.854427-03:00",
   "eval": {
-    "run_at": "2026-07-06T20:29:44.560716-03:00",
+    "run_at": "2026-07-13T12:51:54.760520-03:00",
     "checks": [
       {
         "name": "saludo",
@@ -102,7 +180,7 @@
         "name": "longitud",
         "passed": true,
         "severity": "error",
-        "detail": "108 palabras, dentro de 90-150."
+        "detail": "100 palabras, dentro de 90-150."
       },
       {
         "name": "sin_markdown",
@@ -114,7 +192,7 @@
         "name": "emojis",
         "passed": true,
         "severity": "warning",
-        "detail": "6 emojis, dentro de 3-7."
+        "detail": "5 emojis, dentro de 3-7."
       },
       {
         "name": "fecha_correcta",
@@ -123,7 +201,15 @@
         "detail": "Fecha correcta."
       }
     ],
-    "judge": null,
+    "judge": {
+      "tono": 4,
+      "estructura": 4,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 4,
+      "comentario": "El mensaje sigue la estructura y el tono solicitados, pero falta el bloque de 'Dato del día' y el bloque de 'Argentina' es un poco breve.",
+      "promedio": 4.0,
+      "model": "llama-3.3-70b-versatile"
+    },
     "verdict": "pass"
   }
 }
