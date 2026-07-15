@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-07-15",
+  "scraped_at": "2026-07-15T06:02:34.844714-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "VOTA | ¿Quién crees que ganará el partido?",
+      "description": "La selección de Luis de la Fuente se enfrenta a otra favorita al título con el pase a la final en juego.",
+      "url": "https://www.20minutos.es/deportes/futbol/encuesta-quien-crees-ganara-semifinal-mundial-entre-francia-espana_7013498_0.html",
+      "source": "20minutos.es",
+      "published_at": "2026-07-14T08:42:06Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Ver el Francia - España en DAZN cuesta menos de 1 euro y tiene premio: un mes gratis del Plan Fútbol para ver LaLiga",
+      "description": "Ya estamos encarando la recta final del Mundial y faltan pocos días para saber qué Selección levantará la ansiada Copa del Mundo el próximo domingo. Sólo quedan vivos cuatro combinados y uno de ellos,",
+      "url": "https://www.xatakamovil.com/tv-movil/ver-francia-espana-dazn-cuesta-1-euro-tiene-premio-mes-gratis-plan-futbol-para-ver-laliga",
+      "source": "Xatakamovil.com",
+      "published_at": "2026-07-14T08:31:54Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "De Apollo a Taito Suzuki: ¿cómo el fútbol español ha llegado a los 30 dueños extranjeros?",
+      "description": "La Covid aceleró una tendencia que ha traído a LaLiga, pero también a Primera Federación, a inversores de México, Estados Unidos, Japón, Argentina, Arabia o Colombia. El precio de entrada y el control",
+      "url": "https://www.marca.com/sport-business/2playbook/2026/07/14/apollo-taito-suzuki-futbol-espanol-llegado-30-duenos-extranjeros.html",
+      "source": "Marca",
+      "published_at": "2026-07-14T07:52:43Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El día que Scaloni se peleó con Beckham en la cancha",
+      "description": "A horas del esperado partido entre Argentina e Inglaterra, resurgió un video de un fuerte encontronazo entre ambos exfutbolistas",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/el-dia-que-scaloni-se-peleo-con-beckham-en-la-cancha-nid13072026/",
+      "source": "La Nacion",
+      "published_at": "2026-07-13T15:55:26Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Argentina enfrenta a Inglaterra en el Mundial 2026 con seis figuras de la Premier League: ¿ventaja o desventaja?",
+      "description": "La Selección Argentina enfrentará a Inglaterra en semifinales de la Copa Mundial 2026 con una tropa de Premier League habituada a medirse constantemente contra jugadores, escenarios y cultura futboler",
+      "url": "https://442.perfil.com/noticias/mundial-2026/argentina-enfrenta-a-inglaterra-en-el-mundial-2026-con-seis-figuras-de-la-premier-league-ventaja-o-desventaja.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-07-13T14:43:43Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "¿Y si tenemos al mejor seleccionador del Mundial?",
+      "description": "La opinión de Jaime Rincón",
+      "url": "https://www.marca.com/futbol/mundial/opinion/2026/07/15/mejor-seleccionador-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-15T08:47:05",
+      "category": "mundial"
+    },
+    {
+      "title": "Conte: \"Scaloni se ha centrado en los fieles de Messi, que anteponen su amor por Leo a las ambiciones personales\"",
+      "description": "El exentrenador del Nápoles analizó el Mundial en una entrevista con 'La Gazzetta dello Sport'",
+      "url": "https://www.marca.com/futbol/2026/07/15/conte-scaloni-centrado-fieles-messi-anteponen-amor-leo-ambiciones-personales.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-15T08:25:22",
+      "category": "seleccion"
+    },
+    {
+      "title": "Dani Olmo y Eric García alcanzan la final del Mundial, pero... ¡su sueño es posar con Puyol!",
+      "description": "Divertido momento que protagonizaron los dos jugadores españoles en plena retransmisión",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/15/dani-olmo-eric-garcia-alcanzan-final-mundial-sueno-posar-puyol.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-15T08:24:11",
+      "category": "mundial"
+    }
+  ]
+}
