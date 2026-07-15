@@ -363,5 +363,24 @@
       "model": "llama-3.3-70b-versatile"
     },
     "verdict": "pass"
+  },
+  {
+    "date": "2026-07-15",
+    "run_at": "2026-07-15T12:01:08.478078-03:00",
+    "source": "groq-fallback",
+    "model": "llama-3.3-70b-versatile",
+    "checks_passed": 10,
+    "checks_failed": 0,
+    "warnings_failed": 0,
+    "judge_scores": {
+      "tono": 4,
+      "estructura": 5,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 2,
+      "comentario": "El mensaje tiene un tono cercano y editorial, pero la estructura del bloque principal y la mención a un partido entre Argentina e Inglaterra no están respaldadas por los datos fuente.",
+      "promedio": 3.75,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass"
   }
 ]

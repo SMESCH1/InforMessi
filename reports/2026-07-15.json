@@ -1,7 +1,7 @@
 {
   "date": "2026-07-15",
   "generated_at": "2026-07-06T20:05:22.771908-03:00",
-  "source": "pregenerated-base",
+  "source": "groq-fallback",
   "data": {
     "date": "2026-07-15",
     "mundial_2026_start": "2026-06-11",
@@ -40,28 +40,107 @@
         "description": "Argentina pierde final de Copa América 2007 ante Brasil."
       }
     ],
-    "news": [],
+    "news": [
+      {
+        "title": "VOTA | ¿Quién crees que ganará el partido?",
+        "description": "La selección de Luis de la Fuente se enfrenta a otra favorita al título con el pase a la final en juego.",
+        "url": "https://www.20minutos.es/deportes/futbol/encuesta-quien-crees-ganara-semifinal-mundial-entre-francia-espana_7013498_0.html",
+        "source": "20minutos.es",
+        "published_at": "2026-07-14T08:42:06Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Ver el Francia - España en DAZN cuesta menos de 1 euro y tiene premio: un mes gratis del Plan Fútbol para ver LaLiga",
+        "description": "Ya estamos encarando la recta final del Mundial y faltan pocos días para saber qué Selección levantará la ansiada Copa del Mundo el próximo domingo. Sólo quedan vivos cuatro combinados y uno de ellos,",
+        "url": "https://www.xatakamovil.com/tv-movil/ver-francia-espana-dazn-cuesta-1-euro-tiene-premio-mes-gratis-plan-futbol-para-ver-laliga",
+        "source": "Xatakamovil.com",
+        "published_at": "2026-07-14T08:31:54Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "De Apollo a Taito Suzuki: ¿cómo el fútbol español ha llegado a los 30 dueños extranjeros?",
+        "description": "La Covid aceleró una tendencia que ha traído a LaLiga, pero también a Primera Federación, a inversores de México, Estados Unidos, Japón, Argentina, Arabia o Colombia. El precio de entrada y el control",
+        "url": "https://www.marca.com/sport-business/2playbook/2026/07/14/apollo-taito-suzuki-futbol-espanol-llegado-30-duenos-extranjeros.html",
+        "source": "Marca",
+        "published_at": "2026-07-14T07:52:43Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El día que Scaloni se peleó con Beckham en la cancha",
+        "description": "A horas del esperado partido entre Argentina e Inglaterra, resurgió un video de un fuerte encontronazo entre ambos exfutbolistas",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/el-dia-que-scaloni-se-peleo-con-beckham-en-la-cancha-nid13072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-13T15:55:26Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Argentina enfrenta a Inglaterra en el Mundial 2026 con seis figuras de la Premier League: ¿ventaja o desventaja?",
+        "description": "La Selección Argentina enfrentará a Inglaterra en semifinales de la Copa Mundial 2026 con una tropa de Premier League habituada a medirse constantemente contra jugadores, escenarios y cultura futboler",
+        "url": "https://442.perfil.com/noticias/mundial-2026/argentina-enfrenta-a-inglaterra-en-el-mundial-2026-con-seis-figuras-de-la-premier-league-ventaja-o-desventaja.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-07-13T14:43:43Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "¿Y si tenemos al mejor seleccionador del Mundial?",
+        "description": "La opinión de Jaime Rincón",
+        "url": "https://www.marca.com/futbol/mundial/opinion/2026/07/15/mejor-seleccionador-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-15T08:47:05",
+        "category": "mundial"
+      },
+      {
+        "title": "Conte: \"Scaloni se ha centrado en los fieles de Messi, que anteponen su amor por Leo a las ambiciones personales\"",
+        "description": "El exentrenador del Nápoles analizó el Mundial en una entrevista con 'La Gazzetta dello Sport'",
+        "url": "https://www.marca.com/futbol/2026/07/15/conte-scaloni-centrado-fieles-messi-anteponen-amor-leo-ambiciones-personales.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-15T08:25:22",
+        "category": "seleccion"
+      },
+      {
+        "title": "Dani Olmo y Eric García alcanzan la final del Mundial, pero... ¡su sueño es posar con Puyol!",
+        "description": "Divertido momento que protagonizaron los dos jugadores españoles en plena retransmisión",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/15/dani-olmo-eric-garcia-alcanzan-final-mundial-sueno-posar-puyol.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-15T08:24:11",
+        "category": "mundial"
+      },
+      {
+        "title": "Luis de la Fuente, sobre su infancia: «Mi padre era marino mercante y navegó durante casi 40 años. Fue la parte más dura de mi niñez»",
+        "description": "Luis de la Fuente es un hombre admirable en muchos sentidos. Es el primero en 15 años que logra llevar a la Selección a las semifinales del Mundial, algo que entraña un mérito indiscutible por sí solo",
+        "url": "https://www.abc.es/gente/luis-fuente-sobre-infancia-padre-era-marino-20260714164810-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-07-14T14:48:38Z"
+      },
+      {
+        "title": "A qué hora es el partido de Francia vs. España hoy",
+        "description": "El encuentro que abre las semifinales del Mundial 2026 se desarrolla este martes en el estadio de Dallas con arbitraje del salvadoreño Iván Barton",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-es-el-partido-de-francia-vs-espana-hoy-nid14072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-14T14:42:37Z"
+      }
+    ],
     "weather": {
       "amba": {
-        "min": 10,
-        "max": 13
+        "min": 11,
+        "max": 16
       },
       "la_plata": {
-        "min": 10,
-        "max": 13
+        "min": 11,
+        "max": 16
       },
-      "fetched_at": "2026-07-06T20:04:57.216549-03:00",
+      "fetched_at": "2026-07-15T12:00:56.843743-03:00",
       "source": "open-meteo"
     }
   },
-  "message": "Buenos días 🇦🇷\n\nDía 35 del Mundial 2026\n\n🌤 Clima\nAMBA: min 10° / max 13°\nLa Plata: min 10° / max 13°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n📅 Hoy Argentina enfrenta a su rival en las semifinales del Mundial 2026 en el Mercedes-Benz Stadium de Atlanta. La Scaloneta busca avanzar a la final con la garra y el liderazgo de Messi.\n\nLa Selección Argentina está lista para este desafío crucial. \n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null,
+  "message": "Buenos días 🇦🇷\n\nDía 35 del Mundial 2026\n\n🌤 Clima\nAMBA: min 11° / max 16°\nLa Plata: min 11° / max 16°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n🏆 Hoy Argentina se enfrenta a Inglaterra en las semifinales del Mundial 2026, en el Mercedes-Benz Stadium de Atlanta. La Scaloneta busca avanzar a la final con la garra y el corazón que la caracterizan. \n\nLa noticia de un encontronazo entre Scaloni y Beckham en el pasado revive la tensión entre ambos equipos. La Selección Argentina tiene la misión de superar a un equipo con seis figuras de la Premier League.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-07-15T12:01:07.172324-03:00",
+  "published_at": "2026-07-15T12:01:09.368126-03:00",
+  "pre_approved": true,
+  "pre_approved_at": "2026-07-15T12:01:07.172344-03:00",
   "eval": {
-    "run_at": "2026-07-06T20:29:44.601754-03:00",
+    "run_at": "2026-07-15T12:01:08.477534-03:00",
     "checks": [
       {
         "name": "saludo",
@@ -101,9 +180,9 @@
       },
       {
         "name": "longitud",
-        "passed": false,
-        "severity": "warning",
-        "detail": "80 palabras, fuera del rango ideal (90-150)."
+        "passed": true,
+        "severity": "error",
+        "detail": "108 palabras, dentro de 90-150."
       },
       {
         "name": "sin_markdown",
@@ -124,7 +203,15 @@
         "detail": "Fecha correcta."
       }
     ],
-    "judge": null,
-    "verdict": "pass_with_warnings"
+    "judge": {
+      "tono": 4,
+      "estructura": 5,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 2,
+      "comentario": "El mensaje tiene un tono cercano y editorial, pero la estructura del bloque principal y la mención a un partido entre Argentina e Inglaterra no están respaldadas por los datos fuente.",
+      "promedio": 3.75,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass"
   }
 }
