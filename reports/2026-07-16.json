@@ -1,7 +1,7 @@
 {
   "date": "2026-07-16",
   "generated_at": "2026-07-06T20:05:50.808314-03:00",
-  "source": "pregenerated-base",
+  "source": "groq-fallback",
   "data": {
     "date": "2026-07-16",
     "mundial_2026_start": "2026-06-11",
@@ -25,28 +25,114 @@
         "description": "Final del primer Sudamericano (Argentina 0-0 Uruguay)."
       }
     ],
-    "news": [],
+    "news": [
+      {
+        "title": "Palestina celebra el pase de España a la final del Mundial tras su apoyo a Gaza",
+        "description": "La cuenta oficial del Estado de Palestina ha celebrado el pase, mientras influencers muestran plazas abarrotadas de gente que grita los goles de la selección española ante Francia\r\nCrónica - Claro que",
+        "url": "https://www.eldiario.es/rastreador/palestina-celebra-pase-espana-final-mundial-apoyo-gaza_132_13381251.html",
+        "source": "Eldiario.es",
+        "published_at": "2026-07-15T08:54:55Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "España ganará el Mundial: la predicción de EA Sports FC 26 lo vaticinó y lleva acertando desde 2010",
+        "description": "<!--cache-->Electronic Arts predijo que España ganaría la Copa Mundial de la FIFA 2026 y ahora la Roja está a un partido de conseguirlo. El videojuego lleva 4 mundiales acertando al vencedor.<!--aa---",
+        "url": "https://vandal.elespanol.com/noticia/1350791642/espana-ganara-el-mundial-la-prediccion-de-ea-sports-fc-26-lo-vaticino-y-lleva-acertando-desde-2010/",
+        "source": "Elespanol.com",
+        "published_at": "2026-07-15T08:54:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "España se desploma",
+        "description": "Pastón sitúa a la Selección como la gran favorita para conquistar el Mundial 2026 tras eliminar a Francia",
+        "url": "https://www.marca.com/apuestas-deportivas/predicciones/2026/07/15/espana-desploma.html",
+        "source": "Marca",
+        "published_at": "2026-07-15T09:04:44Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Los datos de un baño histórico: “Desde el banquillo se veía…”",
+        "description": "Francia llegó a semifinales con el ataque más temible del Mundial y se marchó con su peor producción ofensiva en 60 años. Los datos, las palabras de Mbappé y la sinceridad de Cherki explican cómo Espa",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/15/datos-bano-historico-banquillo-veia.html",
+        "source": "Marca",
+        "published_at": "2026-07-15T09:02:44Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Sueño americano cumplido: es venezolano y pasó de no recibir propuestas laborales a entrevistar a Messi en el Mundial",
+        "description": "El periodista Manu Gutiérrez, radicado en Alabama desde 2016, contó a LA NACION cómo también logró conversar con Jude Bellingham y Enzo Fernández",
+        "url": "https://www.lanacion.com.ar/estados-unidos/migraciones/sueno-americano-cumplido-es-venezolano-y-paso-de-no-recibir-propuestas-laborales-a-entrevistar-a-nid14072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-14T22:20:01Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "\"Messi no sabía ni cómo coger al bebé\": el fotógrafo recuerda la icónica foto con Lamine",
+        "description": "",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/16/messi-sabia-coger-bebe-fotografo-recuerda-iconica-foto-lamin-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-16T09:01:31",
+        "category": "seleccion"
+      },
+      {
+        "title": "Casillas: \"Este domingo se juega la Finalissima… ¡y el Mundial! FIFA, prepara los dos trofeos\"",
+        "description": "El exguardameta español vaticinó la victoria española ante la selección abiceleste",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/16/casillas-domingo-juega-finalissima-mundial-fifa-prepara-dos-trofeos.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-16T08:59:51",
+        "category": "seleccion"
+      },
+      {
+        "title": "Paredes rompe el silencio sobre la pancarta de las Malvinas: \"Éramos conscientes de que no era solo un partido de fútbol\"",
+        "description": "",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/16/paredes-rompe-silencio-sobre-pancarta-malvinas-eramos-conscientes-partido-futbol-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-16T08:48:59",
+        "category": "general"
+      },
+      {
+        "title": "La formación de Inglaterra para la semifinal ante Argentina: cómo llega el equipo de Tuchel",
+        "description": "A horas del cruce contra Argentina, Inglaterra siente la tensión: un agotador recorrido por el torneo, la dependencia goleadora de su dupla estrella y un fuego cruzado público entre Thomas Tuchel y Ju",
+        "url": "https://442.perfil.com/noticias/mundial-2026/la-formacion-de-inglaterra-para-la-semifinal-ante-argentina-como-llega-el-equipo-de-tuchel.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-07-15T15:10:36Z"
+      },
+      {
+        "title": "Torneo Clausura, Copa Argentina, Libertadores y Sudamericana: arranca el fútbol post Mundial",
+        "description": "Horas después de que la Argentina decida su futuro en el Mundial, el fútbol local ya brindará instancias importantes para varios de los clubes grandes",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/torneo-clausura-copa-argentina-libertadores-y-sudamericana-arranca-el-futbol-post-mundial-nid15072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-15T15:02:25Z"
+      },
+      {
+        "title": "Cábala de la Selección Argentina: para qué sirve prender un palo santo antes del partido, según la psicología",
+        "description": "Conocidos como \"La banda del palo santo\", jugadores como Lisandro Martínez, Cristian \"Cuti\" Romero, Rodrigo De Paul y Nahuel Molina utilizan este elemento para limpiar energías.",
+        "url": "https://www.elpais.com.uy/bienestar/mente/cabala-de-la-seleccion-argentina-para-que-sirve-prender-un-palo-santo-antes-del-partido-segun-la-psicologia",
+        "source": "Diario EL PAIS Uruguay",
+        "published_at": "2026-07-15T15:00:00Z"
+      }
+    ],
     "weather": {
       "amba": {
-        "min": 10,
-        "max": 13
+        "min": 15,
+        "max": 20
       },
       "la_plata": {
-        "min": 9,
-        "max": 13
+        "min": 14,
+        "max": 20
       },
-      "fetched_at": "2026-07-06T20:05:24.952131-03:00",
+      "fetched_at": "2026-07-16T12:12:33.860172-03:00",
       "source": "open-meteo"
     }
   },
-  "message": "Buenos días 🇦🇷\n\nDía 36 del Mundial 2026\n\n🌤 Clima\nAMBA: min 10° / max 13°\nLa Plata: min 9° / max 13°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\nHoy Argentina enfrenta a su rival en la previa de la final del Mundial 2026, con la expectativa de todo el país puesta en la Scaloneta. La selección busca avanzar hacia la final con la garra y el corazón que la caracteriza.\n\nLa Scaloneta de hoy es heredera de una larga historia de pasión y gloria en el fútbol argentino. Con Messi al frente, el equipo busca dejar su huella en este Mundial inédito de 48 equipos.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null,
+  "message": "Buenos días 🇦🇷\n\nDía 36 del Mundial 2026\n\n🌤 Clima\nAMBA: min 15° / max 20°\nLa Plata: min 14° / max 20°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\nHoy Argentina se enfrenta a un desafío clave en su camino por el Mundial 2026. La expectativa es alta y la Scaloneta busca demostrar su garra y determinación en la cancha.\n\nLa noticia sobre la pancarta de las Malvinas sigue generando debate, y Leandro Paredes rompió el silencio sobre el tema, recordando que \"éramos conscientes de que no era solo un partido de fútbol\".\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-07-16T12:12:45.277435-03:00",
+  "published_at": "2026-07-16T12:12:46.993264-03:00",
+  "pre_approved": true,
+  "pre_approved_at": "2026-07-16T12:12:45.277454-03:00",
   "eval": {
-    "run_at": "2026-07-06T20:29:44.624407-03:00",
+    "run_at": "2026-07-16T12:12:46.175369-03:00",
     "checks": [
       {
         "name": "saludo",
@@ -88,7 +174,7 @@
         "name": "longitud",
         "passed": true,
         "severity": "error",
-        "detail": "114 palabras, dentro de 90-150."
+        "detail": "101 palabras, dentro de 90-150."
       },
       {
         "name": "sin_markdown",
@@ -109,7 +195,15 @@
         "detail": "Fecha correcta."
       }
     ],
-    "judge": null,
+    "judge": {
+      "tono": 4,
+      "estructura": 5,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 5,
+      "comentario": "El mensaje sigue la estructura y el tono adecuados, pero podría mejorar en la fidelidad a la guía al incluir un dato del día o un bloque de Argentina más específico y detallado.",
+      "promedio": 4.5,
+      "model": "llama-3.3-70b-versatile"
+    },
     "verdict": "pass"
   }
 }
