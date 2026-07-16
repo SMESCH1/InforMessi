@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-07-16",
+  "scraped_at": "2026-07-16T06:06:22.708347-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "Palestina celebra el pase de España a la final del Mundial tras su apoyo a Gaza",
+      "description": "La cuenta oficial del Estado de Palestina ha celebrado el pase, mientras influencers muestran plazas abarrotadas de gente que grita los goles de la selección española ante Francia\r\nCrónica - Claro que",
+      "url": "https://www.eldiario.es/rastreador/palestina-celebra-pase-espana-final-mundial-apoyo-gaza_132_13381251.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-07-15T08:54:55Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "España ganará el Mundial: la predicción de EA Sports FC 26 lo vaticinó y lleva acertando desde 2010",
+      "description": "<!--cache-->Electronic Arts predijo que España ganaría la Copa Mundial de la FIFA 2026 y ahora la Roja está a un partido de conseguirlo. El videojuego lleva 4 mundiales acertando al vencedor.<!--aa---",
+      "url": "https://vandal.elespanol.com/noticia/1350791642/espana-ganara-el-mundial-la-prediccion-de-ea-sports-fc-26-lo-vaticino-y-lleva-acertando-desde-2010/",
+      "source": "Elespanol.com",
+      "published_at": "2026-07-15T08:54:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "España se desploma",
+      "description": "Pastón sitúa a la Selección como la gran favorita para conquistar el Mundial 2026 tras eliminar a Francia",
+      "url": "https://www.marca.com/apuestas-deportivas/predicciones/2026/07/15/espana-desploma.html",
+      "source": "Marca",
+      "published_at": "2026-07-15T09:04:44Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Los datos de un baño histórico: “Desde el banquillo se veía…”",
+      "description": "Francia llegó a semifinales con el ataque más temible del Mundial y se marchó con su peor producción ofensiva en 60 años. Los datos, las palabras de Mbappé y la sinceridad de Cherki explican cómo Espa",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/15/datos-bano-historico-banquillo-veia.html",
+      "source": "Marca",
+      "published_at": "2026-07-15T09:02:44Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Sueño americano cumplido: es venezolano y pasó de no recibir propuestas laborales a entrevistar a Messi en el Mundial",
+      "description": "El periodista Manu Gutiérrez, radicado en Alabama desde 2016, contó a LA NACION cómo también logró conversar con Jude Bellingham y Enzo Fernández",
+      "url": "https://www.lanacion.com.ar/estados-unidos/migraciones/sueno-americano-cumplido-es-venezolano-y-paso-de-no-recibir-propuestas-laborales-a-entrevistar-a-nid14072026/",
+      "source": "La Nacion",
+      "published_at": "2026-07-14T22:20:01Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "\"Messi no sabía ni cómo coger al bebé\": el fotógrafo recuerda la icónica foto con Lamine",
+      "description": "",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/16/messi-sabia-coger-bebe-fotografo-recuerda-iconica-foto-lamin-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-16T09:01:31",
+      "category": "seleccion"
+    },
+    {
+      "title": "Casillas: \"Este domingo se juega la Finalissima… ¡y el Mundial! FIFA, prepara los dos trofeos\"",
+      "description": "El exguardameta español vaticinó la victoria española ante la selección abiceleste",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/16/casillas-domingo-juega-finalissima-mundial-fifa-prepara-dos-trofeos.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-16T08:59:51",
+      "category": "seleccion"
+    },
+    {
+      "title": "Paredes rompe el silencio sobre la pancarta de las Malvinas: \"Éramos conscientes de que no era solo un partido de fútbol\"",
+      "description": "",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/16/paredes-rompe-silencio-sobre-pancarta-malvinas-eramos-conscientes-partido-futbol-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-16T08:48:59",
+      "category": "general"
+    }
+  ]
+}
