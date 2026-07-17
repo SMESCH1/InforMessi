@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-07-17",
+  "scraped_at": "2026-07-17T06:01:26.127649-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "A Argentina no le pesó la historia",
+      "description": "Instantes después de que se confirmó el duelo entre Inglaterra y Argentina en el Mundial 2026, quedó claro que cada selección vivía el partido desde una perspectiva distinta.",
+      "url": "https://www.jornada.com.mx/2026/07/16/deportes/a03n1dep",
+      "source": "Jornada.com.mx",
+      "published_at": "2026-07-16T09:00:11Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Collina defiende al árbitro Iván Barton de las críticas francesas",
+      "description": "Arlington. La FIFA respondió ayer a las críticas del entrenador de la selección de Francia, Didier Deschamps, contra las aptitudes del árbitro salvadoreño Iván Barton durante la semifinal que su equip",
+      "url": "https://www.jornada.com.mx/2026/07/16/deportes/a04n2dep",
+      "source": "Jornada.com.mx",
+      "published_at": "2026-07-16T09:00:11Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "LaLiga golea en la final del Mundial",
+      "description": "Casi la mitad de los futbolistas (24) de las dos plantillas de Argentina y España juegan en la Liga  Leer",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/16/laliga-golea-final-mundial.html",
+      "source": "Marca",
+      "published_at": "2026-07-16T08:46:42Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La clasificación de España para la final del Mundial dispara un 367% las búsquedas de vuelos a Nueva York",
+      "description": "La clasificación de la selección española para la final del Mundial de fútbol de 2026 ha impulsado el interés de los aficionados por viajar a Nueva York y su área metropolitana, con un aumento del 367",
+      "url": "https://www.europapress.es/economia/noticia-clasificacion-espana-final-mundial-dispara-367-busquedas-vuelos-nueva-york-20260716105914.html",
+      "source": "Europapress.es",
+      "published_at": "2026-07-16T08:59:14Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El dato que avergüenza a Inglaterra: un lamentable 12% de posesión desde el gol de Gordon",
+      "description": "Los de Tuchel regalaron por completo el dominio del balón a la Albiceleste desde el minuto 55 hasta el gol de Lautaro en el 92'.",
+      "url": "https://www.libertaddigital.com/deportes/futbol/2026-07-16/el-dato-que-averguenza-a-inglaterra-un-lamentable-12-de-posesion-desde-el-gol-de-gordon-7436584/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-07-16T08:50:56Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Al estilo Super Bowl: el polémico descanso de la final del Mundial 2026 que podría durar hasta 30 minutos",
+      "description": "El organismo organizará un espectáculo musical donde actuarán Justin Bieber, Madonna, BTS y Shakira y que estará dirigido por Chris Martin de Coldplay\r\nMourinho, Shakira y España a la final: paralelis",
+      "url": "https://www.eldiario.es/spin/deportes/controvertido-descanso-final-mundial-2026-30-minutos-duracion-espectaculo-musical-pm_1_13384051.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-07-16T07:56:38Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Los detalles del anillo que los jugadores recibirán por ganar el Mundial 2026... y que tú podrás comprar",
+      "description": "",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/17/detalles-anillo-jugadores-recibiran-ganar-mundial-2026-podras-comprar-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-17T08:54:39",
+      "category": "mundial"
+    }
+  ]
+}
