@@ -1,7 +1,7 @@
 {
   "date": "2026-07-18",
   "generated_at": "2026-07-06T20:06:44.822926-03:00",
-  "source": "pregenerated-base",
+  "source": "groq-fallback",
   "data": {
     "date": "2026-07-18",
     "mundial_2026_start": "2026-06-11",
@@ -18,28 +18,99 @@
         "description": "Mundial 2026 - Partido por el tercer puesto, Hard Rock Stadium, Miami."
       }
     ],
-    "news": [],
+    "news": [
+      {
+        "title": "El polémico Vincic pitará la final: España invicta y el peor recuerdo para Argentina",
+        "description": "El colegiado esloveno, que dirigirá el partido decisivo por el título, trae grandes recuerdos a la selección de Luis de la Fuente.",
+        "url": "https://www.libertaddigital.com/deportes/futbol/2026-07-17/el-polemico-vincic-pitara-la-final-espana-invicta-y-el-peor-recuerdo-para-argentina-7437115/",
+        "source": "Libertaddigital.com",
+        "published_at": "2026-07-17T08:00:29Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Alineación probable del Francia - Inglaterra en el Mundial: onces del partido por el tercer y cuarto puesto",
+        "description": "Te contamos los detalles para que puedas disfrutar del encuentro",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/18/alineacion-probable-francia-inglaterra-mundial-onces-partido-tercer-cuarto-puesto.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-18T08:23:31",
+        "category": "mundial"
+      },
+      {
+        "title": "España gana la final de los mil millones",
+        "description": "La Roja llega con una plantilla tasada en 1.470 millones de euros y la Argentina de Messi presume de un impacto social muy superior",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/18/espana-gana-final-mil-millones.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-18T07:56:49",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mascherano: \"Para mí es la mejor selección que yo he visto en mis 42 años\"",
+        "description": "El exjugador argentino habló de la final de la Copa del Mundo en un evento",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/18/mascherano-mi-mejor-seleccion-he-visto-mis-42-anos.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-18T07:39:38",
+        "category": "seleccion"
+      },
+      {
+        "title": "Mundial 2026 en directo | Última hora de España - Argentina en la final del Mundial en vivo",
+        "description": "Sigue el minuto a minuto de la última hora de la Copa del Mundo 2026 en MARCA.com",
+        "url": "https://www.marca.com/futbol/2026/07/18/6a5b28afb364eacdc80d33f1.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-18T07:24:24",
+        "category": "seleccion"
+      },
+      {
+        "title": "Fernando Llorente: \"La noche antes de la final del Mundial no es como cualquier partido\"",
+        "description": "\"Leo Messi es el mejor jugador de la historia. Es para quitarse el sombrero lo que nos sigue demostrando\", comentó el campeón del mundo en 2010",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/18/fernando-llorente-noche-final-mundial-partido.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-18T07:23:46",
+        "category": "seleccion"
+      },
+      {
+        "title": "Balogun, sobre tarjeta roja que FIFA le quitó tras llamada de Trump: \"Pensé que era broma\"",
+        "description": "El jugador estadounidense mostró si enorme sorpresa tras la decisión más polémica del Mundial",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/18/balogun-sobre-tarjeta-roja-fifa-le-quito-llamada-trump-pense-broma.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-18T07:01:19",
+        "category": "mundial"
+      },
+      {
+        "title": "Ámbar de Benedictis, la hija de Juana Viale, y la foto más esperada con Lionel Messi: \"Humildad y simpleza\"",
+        "description": "Salió a la luz el momento que vivió la joven junto al astro del fútbol. Leer más",
+        "url": "https://caras.perfil.com/noticias/celebridades/ambar-de-benedictis-hija-juana-viale-compartio-foto-lionel-messi-humildad-y-simpleza.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-07-17T14:21:38Z"
+      },
+      {
+        "title": "Una actriz de American Horror Story se confesó fanática de la Selección argentina: quién es",
+        "description": "El desempeño de la Scaloneta en el Mundial despertó la admiración y el apoyo incondicional de impensadas figuras internacionales que se declararon abiertamente a favor de la Argentina. Leer más",
+        "url": "https://exitoina.perfil.com/noticias/destacada/actriz-american-horror-story-confeso-fanatica-seleccion-argentina-quien-es.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-07-17T14:17:56Z"
+      }
+    ],
     "weather": {
       "amba": {
         "min": 14,
-        "max": 17
-      },
-      "la_plata": {
-        "min": 14,
         "max": 19
       },
-      "fetched_at": "2026-07-06T20:06:19.579272-03:00",
+      "la_plata": {
+        "min": 12,
+        "max": 20
+      },
+      "fetched_at": "2026-07-18T11:31:13.329235-03:00",
       "source": "open-meteo"
     }
   },
-  "message": "Buenos días 🇦🇷\n\nDía 38 del Mundial 2026\n\n🌤 Clima\nAMBA: min 14° / max 17°\nLa Plata: min 14° / max 19°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n🏆 Hoy Argentina enfrenta a su rival en el partido por el tercer puesto en el Hard Rock Stadium de Miami. La Scaloneta busca cerrar su participación en el Mundial con una victoria que le permita mantener la dignidad y dejar un buen sabor de boca después de una campaña irregular.\n\nLa selección argentina ha demostrado garra y determinación en momentos clave del torneo. \n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null,
+  "message": "Buenos días 🇦🇷\n\nDía 38 del Mundial 2026\n\n🌤 Clima\nAMBA: min 14° / max 19°\nLa Plata: min 12° / max 20°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\nHoy Argentina se medirá en el partido por el tercer puesto en el Mundial 2026. La Scaloneta busca cerrar su participación en el torneo con una victoria que le permita llevarse el bronce.\n\nLa noticia de que el polémico árbitro Vincic dirigirá la final entre España y otro equipo ha generado revuelo, recordando el pasado de Argentina en la competición.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-07-18T11:31:23.187251-03:00",
+  "published_at": "2026-07-18T11:32:18.547915-03:00",
+  "pre_approved": true,
+  "pre_approved_at": "2026-07-18T11:31:23.187270-03:00",
   "eval": {
-    "run_at": "2026-07-06T20:29:44.671577-03:00",
+    "run_at": "2026-07-18T11:32:17.756265-03:00",
     "checks": [
       {
         "name": "saludo",
@@ -81,7 +152,7 @@
         "name": "longitud",
         "passed": true,
         "severity": "error",
-        "detail": "101 palabras, dentro de 90-150."
+        "detail": "97 palabras, dentro de 90-150."
       },
       {
         "name": "sin_markdown",
@@ -93,7 +164,7 @@
         "name": "emojis",
         "passed": true,
         "severity": "warning",
-        "detail": "6 emojis, dentro de 3-7."
+        "detail": "5 emojis, dentro de 3-7."
       },
       {
         "name": "fecha_correcta",
@@ -102,7 +173,15 @@
         "detail": "Fecha correcta."
       }
     ],
-    "judge": null,
+    "judge": {
+      "tono": 4,
+      "estructura": 5,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 4,
+      "comentario": "El mensaje sigue la estructura solicitada y mantiene un tono cercano, pero podría mejorar en la fidelidad a la guía y la factualidad al no incluir un bloque específico sobre la Selección Argentina y al no proporcionar un dato del día claro.",
+      "promedio": 4.25,
+      "model": "llama-3.3-70b-versatile"
+    },
     "verdict": "pass"
   }
 }
