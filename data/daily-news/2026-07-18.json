@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-07-18",
+  "scraped_at": "2026-07-18T05:28:38.168560-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "El polémico Vincic pitará la final: España invicta y el peor recuerdo para Argentina",
+      "description": "El colegiado esloveno, que dirigirá el partido decisivo por el título, trae grandes recuerdos a la selección de Luis de la Fuente.",
+      "url": "https://www.libertaddigital.com/deportes/futbol/2026-07-17/el-polemico-vincic-pitara-la-final-espana-invicta-y-el-peor-recuerdo-para-argentina-7437115/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-07-17T08:00:29Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Alineación probable del Francia - Inglaterra en el Mundial: onces del partido por el tercer y cuarto puesto",
+      "description": "Te contamos los detalles para que puedas disfrutar del encuentro",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/18/alineacion-probable-francia-inglaterra-mundial-onces-partido-tercer-cuarto-puesto.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-18T08:23:31",
+      "category": "mundial"
+    },
+    {
+      "title": "España gana la final de los mil millones",
+      "description": "La Roja llega con una plantilla tasada en 1.470 millones de euros y la Argentina de Messi presume de un impacto social muy superior",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/18/espana-gana-final-mil-millones.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-18T07:56:49",
+      "category": "seleccion"
+    },
+    {
+      "title": "Mascherano: \"Para mí es la mejor selección que yo he visto en mis 42 años\"",
+      "description": "El exjugador argentino habló de la final de la Copa del Mundo en un evento",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/18/mascherano-mi-mejor-seleccion-he-visto-mis-42-anos.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-18T07:39:38",
+      "category": "seleccion"
+    },
+    {
+      "title": "Mundial 2026 en directo | Última hora de España - Argentina en la final del Mundial en vivo",
+      "description": "Sigue el minuto a minuto de la última hora de la Copa del Mundo 2026 en MARCA.com",
+      "url": "https://www.marca.com/futbol/2026/07/18/6a5b28afb364eacdc80d33f1.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-18T07:24:24",
+      "category": "seleccion"
+    },
+    {
+      "title": "Fernando Llorente: \"La noche antes de la final del Mundial no es como cualquier partido\"",
+      "description": "\"Leo Messi es el mejor jugador de la historia. Es para quitarse el sombrero lo que nos sigue demostrando\", comentó el campeón del mundo en 2010",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/18/fernando-llorente-noche-final-mundial-partido.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-18T07:23:46",
+      "category": "seleccion"
+    },
+    {
+      "title": "Balogun, sobre tarjeta roja que FIFA le quitó tras llamada de Trump: \"Pensé que era broma\"",
+      "description": "El jugador estadounidense mostró si enorme sorpresa tras la decisión más polémica del Mundial",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/18/balogun-sobre-tarjeta-roja-fifa-le-quito-llamada-trump-pense-broma.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-18T07:01:19",
+      "category": "mundial"
+    }
+  ]
+}
