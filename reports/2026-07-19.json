@@ -1,7 +1,7 @@
 {
   "date": "2026-07-19",
   "generated_at": "2026-07-06T20:07:11.388574-03:00",
-  "source": "pregenerated-base",
+  "source": "groq-fallback",
   "data": {
     "date": "2026-07-19",
     "mundial_2026_start": "2026-06-11",
@@ -25,28 +25,107 @@
         "description": "Primer hat-trick de Argentina en un Mundial realizado por Guillermo Stábile."
       }
     ],
-    "news": [],
+    "news": [
+      {
+        "title": "\"Tenemos nuestras armas\": El comentario de Messi antes de la final ante España",
+        "description": "El astro argentino no escatimó elogios para el atacante español Lamine Yamal, calificándolo de \"uno de los mejores del mundo\".",
+        "url": "https://actualidad.rt.com/actualidad/617520-armas-comentario-messi-final-espana",
+        "source": "RT",
+        "published_at": "2026-07-18T08:38:09Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Joan Capdevila solicita ayuda en redes para asistir a la final del Mundial tras su restricción de entrar en Estados Unidos: \"No sabéis la ilusión que me hacía poder estar allí\"",
+        "description": "El que fuera miembro de la alineación que se proclamó campeona del mundo en 2010 hace público sus problemas para asistir al esperado evento.",
+        "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-07-18/joan-capdevila-ayuda-redes-asistir-final-mundial_4392163/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-07-18T08:37:00Z",
+        "category": "mundial"
+      },
+      {
+        "title": "De Pasadena a East Rutherford, el colofón al expansionismo del 'soccer'",
+        "description": "El MetLife Stadium, situado en East Rutherford (Nueva Jersey), pasará este domingo a la historia del fútbol como sede de otra final de la Copa Mundial de la FIFA, poniendo la guinda a una edición con ",
+        "url": "https://www.europapress.es/deportes/futbol/mundial-00639/noticia-pasadena-east-rutherford-colofon-expansionismo-soccer-20260718102950.html",
+        "source": "Europapress.es",
+        "published_at": "2026-07-18T08:29:50Z",
+        "category": "mundial"
+      },
+      {
+        "title": "'Dibu' Martínez: \"No me pesa la presión, solo me trato de calzar los guantes\"",
+        "description": "El portero argentino Emiliano Martínez ha negado que le pese \"la presión\" por jugar este domingo (21.00 horas) la final de la Copa Mundial de la FIFA 2026 contra la selección española en el MetLife St",
+        "url": "https://www.europapress.es/deportes/futbol/mundial-00639/noticia-dibu-martinez-no-me-pesa-presion-solo-me-trato-calzar-guantes-20260718020221.html",
+        "source": "Europapress.es",
+        "published_at": "2026-07-18T00:02:21Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Fabián Nicieza, el argentino que creó a Deadpool y vive hace más de seis décadas en la ciudad de la final: “Messi sería Wolverine, pero con garras en los pies”",
+        "description": "Fabián Nicieza dejó el país de muy chico, pero vive el Mundial como uno más: “Las críticas me dan más ganas de que salga campeón”",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/fabian-nicieza-el-argentino-que-creo-a-deadpool-y-vive-hace-mas-de-seis-decadas-en-la-ciudad-de-la-nid17072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-17T18:53:18Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Harry Kane respalda a Tuchel: \"Es uno de los mejores entrenadores del mundo\"",
+        "description": "\"Él es el gran responsable de que hayamos logrado nuestro puesto más alto en un Mundial en sesenta años\", dijo el delantero",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/19/harry-kane-respalda-tuchel-mejores-entrenadores-mundo.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-19T08:10:14",
+        "category": "mundial"
+      },
+      {
+        "title": "Así se esconde la final del siglo: los secretos del MetLife Stadium",
+        "description": "MARCA recorrió por dentro el estadio donde España y Argentina disputarán la final del Mundial y descubrió la gigantesca maquinaria que la FIFA ha construido para convertir el partido en el mayor espec",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/19/asi-esconde-final-siglo-secretos-metlife-stadium.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-19T07:58:56",
+        "category": "seleccion"
+      },
+      {
+        "title": "España vs Argentina | Última hora de la previa de la final del Mundial en vivo",
+        "description": "Sigue el minuto a minuto de la última hora de la final de la Copa del Mundo 2026 en MARCA.com",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/19/6a5c74d3b364eacdc81fa475.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-19T07:08:24",
+        "category": "seleccion"
+      },
+      {
+        "title": "¿De qué se ríe Chiqui Tapia?",
+        "description": "El presidente de la AFA, señalado por la Justicia, subió su perfil en Estados Unidos al ritmo del avance de la selección",
+        "url": "https://www.lanacion.com.ar/deportes/futbol/de-que-se-rie-chiqui-tapia-nid18072026/",
+        "source": "La Nacion",
+        "published_at": "2026-07-18T13:46:07Z"
+      },
+      {
+        "title": "El Barça saca pecho",
+        "description": "El FC Barcelona ha publicado un emotivo vídeo en la previa de la final del Mundial entre España y Argentina en el que enlaza las figuras de Lionel Messi y Lamine Yamal, ambos formados en La Masia. Baj",
+        "url": "https://www.marca.com/futbol/barcelona/2026/07/18/barca-saca-pecho-masia-messi-lamine-protagonistas-final-mundial-video.html",
+        "source": "Marca",
+        "published_at": "2026-07-18T13:33:17Z"
+      }
+    ],
     "weather": {
       "amba": {
-        "min": 12,
-        "max": 15
+        "min": 9,
+        "max": 14
       },
       "la_plata": {
-        "min": 11,
-        "max": 15
+        "min": 8,
+        "max": 13
       },
-      "fetched_at": "2026-07-06T20:06:47.004775-03:00",
+      "fetched_at": "2026-07-19T11:34:21.535574-03:00",
       "source": "open-meteo"
     }
   },
-  "message": "Buenos días 🇦🇷\n\nDía 39 del Mundial 2026\n\n🌤 Clima\nAMBA: min 12° / max 15°\nLa Plata: min 11° / max 15°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n🏆 Hoy Argentina juega la final del Mundial 2026 en el MetLife Stadium de Nueva York/Nueva Jersey. La expectativa es máxima para ver a la Scaloneta defender su título ante un rival por definir.\n\nLa Selección Argentina busca hacer historia en este Mundial inédito de 48 equipos. Con Messi al frente, el equipo tiene la ambición de repetir la hazaña de Qatar 2022.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
-  "status": "draft",
-  "updated_at": null,
-  "published_at": null,
-  "pre_approved": false,
-  "pre_approved_at": null,
+  "message": "Buenos días 🇦🇷\n\nDía 39 del Mundial 2026\n\n🌤 Clima\nAMBA: min 9° / max 14°\nLa Plata: min 8° / max 13°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\nHoy Argentina enfrenta a España en la final del Mundial 2026 en el MetLife Stadium de Nueva York/Nueva Jersey. La Scaloneta busca defender su título con Messi al frente, en una noche cargada de nervios y expectativa para todo un país que vuelve a soñar.\n\nLa preparación de la Selección ha sido intensa, con \"Dibu\" Martínez listo para enfrentar el desafío. Messi ha elogiado al atacante español Lamine Yamal, calificándolo de \"uno de los mejores del mundo\".\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-07-19T11:34:29.558897-03:00",
+  "published_at": "2026-07-19T11:34:30.992432-03:00",
+  "pre_approved": true,
+  "pre_approved_at": "2026-07-19T11:34:29.558914-03:00",
   "eval": {
-    "run_at": "2026-07-06T20:29:44.685304-03:00",
+    "run_at": "2026-07-19T11:34:30.373605-03:00",
     "checks": [
       {
         "name": "saludo",
@@ -88,7 +167,7 @@
         "name": "longitud",
         "passed": true,
         "severity": "error",
-        "detail": "100 palabras, dentro de 90-150."
+        "detail": "114 palabras, dentro de 90-150."
       },
       {
         "name": "sin_markdown",
@@ -100,7 +179,7 @@
         "name": "emojis",
         "passed": true,
         "severity": "warning",
-        "detail": "6 emojis, dentro de 3-7."
+        "detail": "5 emojis, dentro de 3-7."
       },
       {
         "name": "fecha_correcta",
@@ -109,7 +188,15 @@
         "detail": "Fecha correcta."
       }
     ],
-    "judge": null,
+    "judge": {
+      "tono": 5,
+      "estructura": 4,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 5,
+      "comentario": "El mensaje sigue la estructura y el tono solicitados, pero falta el bloque de 'Dato del día' y el bloque de 'Argentina' no es muy claro.",
+      "promedio": 4.5,
+      "model": "llama-3.3-70b-versatile"
+    },
     "verdict": "pass"
   }
 }
