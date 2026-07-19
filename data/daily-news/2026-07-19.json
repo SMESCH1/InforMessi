@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-07-19",
+  "scraped_at": "2026-07-19T05:59:43.974979-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "\"Tenemos nuestras armas\": El comentario de Messi antes de la final ante España",
+      "description": "El astro argentino no escatimó elogios para el atacante español Lamine Yamal, calificándolo de \"uno de los mejores del mundo\".",
+      "url": "https://actualidad.rt.com/actualidad/617520-armas-comentario-messi-final-espana",
+      "source": "RT",
+      "published_at": "2026-07-18T08:38:09Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Joan Capdevila solicita ayuda en redes para asistir a la final del Mundial tras su restricción de entrar en Estados Unidos: \"No sabéis la ilusión que me hacía poder estar allí\"",
+      "description": "El que fuera miembro de la alineación que se proclamó campeona del mundo en 2010 hace público sus problemas para asistir al esperado evento.",
+      "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-07-18/joan-capdevila-ayuda-redes-asistir-final-mundial_4392163/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-07-18T08:37:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "De Pasadena a East Rutherford, el colofón al expansionismo del 'soccer'",
+      "description": "El MetLife Stadium, situado en East Rutherford (Nueva Jersey), pasará este domingo a la historia del fútbol como sede de otra final de la Copa Mundial de la FIFA, poniendo la guinda a una edición con ",
+      "url": "https://www.europapress.es/deportes/futbol/mundial-00639/noticia-pasadena-east-rutherford-colofon-expansionismo-soccer-20260718102950.html",
+      "source": "Europapress.es",
+      "published_at": "2026-07-18T08:29:50Z",
+      "category": "mundial"
+    },
+    {
+      "title": "'Dibu' Martínez: \"No me pesa la presión, solo me trato de calzar los guantes\"",
+      "description": "El portero argentino Emiliano Martínez ha negado que le pese \"la presión\" por jugar este domingo (21.00 horas) la final de la Copa Mundial de la FIFA 2026 contra la selección española en el MetLife St",
+      "url": "https://www.europapress.es/deportes/futbol/mundial-00639/noticia-dibu-martinez-no-me-pesa-presion-solo-me-trato-calzar-guantes-20260718020221.html",
+      "source": "Europapress.es",
+      "published_at": "2026-07-18T00:02:21Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Fabián Nicieza, el argentino que creó a Deadpool y vive hace más de seis décadas en la ciudad de la final: “Messi sería Wolverine, pero con garras en los pies”",
+      "description": "Fabián Nicieza dejó el país de muy chico, pero vive el Mundial como uno más: “Las críticas me dan más ganas de que salga campeón”",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/fabian-nicieza-el-argentino-que-creo-a-deadpool-y-vive-hace-mas-de-seis-decadas-en-la-ciudad-de-la-nid17072026/",
+      "source": "La Nacion",
+      "published_at": "2026-07-17T18:53:18Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Harry Kane respalda a Tuchel: \"Es uno de los mejores entrenadores del mundo\"",
+      "description": "\"Él es el gran responsable de que hayamos logrado nuestro puesto más alto en un Mundial en sesenta años\", dijo el delantero",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/19/harry-kane-respalda-tuchel-mejores-entrenadores-mundo.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-19T08:10:14",
+      "category": "mundial"
+    },
+    {
+      "title": "Así se esconde la final del siglo: los secretos del MetLife Stadium",
+      "description": "MARCA recorrió por dentro el estadio donde España y Argentina disputarán la final del Mundial y descubrió la gigantesca maquinaria que la FIFA ha construido para convertir el partido en el mayor espec",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/19/asi-esconde-final-siglo-secretos-metlife-stadium.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-19T07:58:56",
+      "category": "seleccion"
+    },
+    {
+      "title": "España vs Argentina | Última hora de la previa de la final del Mundial en vivo",
+      "description": "Sigue el minuto a minuto de la última hora de la final de la Copa del Mundo 2026 en MARCA.com",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/19/6a5c74d3b364eacdc81fa475.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-19T07:08:24",
+      "category": "seleccion"
+    }
+  ]
+}
