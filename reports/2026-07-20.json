@@ -1,0 +1,201 @@
+{
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T12:20:25.387724-03:00",
+  "source": "groq-fallback",
+  "data": {
+    "date": "2026-07-20",
+    "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
+    "days_remaining": -39,
+    "mundial_phase": "post_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1902-07-20",
+        "type": "match",
+        "priority": "medium",
+        "person": "N/A",
+        "description": "Primer partido oficial de Argentina (6-0 vs Uruguay en Montevideo)."
+      },
+      {
+        "date": "1966-07-20",
+        "type": "world_cup",
+        "priority": "low",
+        "person": "Artime",
+        "description": "Argentina 2-0 Suiza para clasificar a cuartos."
+      }
+    ],
+    "news": [
+      {
+        "title": "La provincia de Córdoba enloquece con la final del Mundial: pantallas para ver el partido de España",
+        "description": "Faltan pocas horas para la final del Mundial de fútbol 2026 entre España y Argentina y muchos buscan un espacio para disfrutar con todos sus paisanos de lo que sueñan que sea una victoria de la selecc",
+        "url": "https://www.abc.es/espana/andalucia/cordoba/provincia-cordoba-enloquece-final-mundial-pantallas-ver-20260719113428-nts.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-07-19T09:34:29Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Quién es Gianni Infantino y cómo llegó a ser el hombre más poderoso (y polémico) del fútbol mundial",
+        "description": "Gianni Infantino ha tenido roces con los sindicatos y el fútbol europeo, pero tras 10 años como presidente de la FIFA, sigue estando en una posición inexpugnable. Te contamos por qué.",
+        "url": "https://www.bbc.com/mundo/articles/cwy0yvdzzyvo",
+        "source": "BBC News",
+        "published_at": "2026-07-19T09:30:17Z",
+        "category": "mundial"
+      },
+      {
+        "title": "Argentina y España, dos \"enemigos íntimos\" que disputan una final de Mundial inédita",
+        "description": "Estadísticas, curiosidades y antecedentes futbolísticos de argentinos y españoles, que este domingo se cruzan por primera vez en la final de un Mundial.",
+        "url": "https://www.bbc.com/mundo/articles/c1j1lz2k7epo",
+        "source": "BBC News",
+        "published_at": "2026-07-19T03:58:36Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Juan del Val ante la final del Mundial: \"Somos mejores que Argentina. Ojalá sea el día de Lamine Yamal y no el de Messi\"",
+        "description": "Con los nervios previos a la final de un Mundial, EL ESPAÑOL ha contactado con el escritor para que haga su pronóstico para el España-Argentina.  Más información: Juan Carlos Rivero, sobre sus errores",
+        "url": "https://www.elespanol.com/reportajes/20260719/juan-val-final-mundial-mejores-argentina-ojala-dia-lamine-yamal-no-messi/1003744325190_0.html",
+        "source": "Elespanol.com",
+        "published_at": "2026-07-18T23:36:38Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "El troleo del Mundial: un argentino increpa a un mexicano por ir con España y la respuesta no puede ser más viral",
+        "description": "El aficionado mexicano no entró al trapo y decidió tomarse con humor los insultos del argentino: ¡tarjeta roja y a bailar!",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/20/troleo-mundial-argentino-increpa-mexicano-espana-respuesta-divertida.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-20T09:32:14",
+        "category": "mundial"
+      },
+      {
+        "title": "Guárdate este vídeo: todos los goles de España para ganar el Mundial",
+        "description": "",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/20/guardate-video-todos-goles-espana-ganar-mundial-video.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-20T09:30:25",
+        "category": "mundial"
+      },
+      {
+        "title": "El doblete mágico de Fabián en 50 días: \"Ganar la Champions y el Mundial\"",
+        "description": "El andaluz es el único jugador del mundo que puede presumir en 2026 de los dos títulos más importantes del mundo del fútbol",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/20/doblete-magico-fabian-50-dias-ganar-champions-mundial.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-20T09:19:57",
+        "category": "mundial"
+      },
+      {
+        "title": "Por qué el descanso de la final del Mundial entre España y Argentina dura 17 minutos",
+        "description": "El espacio reglamentario que separará ambas partes del encuentro superará por dos minutos el tiempo habitual debido a una novedad en el ámbito futbolístico.",
+        "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-07-19/descanso-final-mundial-espana-argentina-dura-minutos_4392456/",
+        "source": "Elconfidencial.com",
+        "published_at": "2026-07-19T15:14:00Z"
+      },
+      {
+        "title": "Mikel Merino y su mujer Lola Liberal: así fue su historia de amor y el nacimiento de su hijo Marco",
+        "description": "La selección española se juega este domingo 19 de julio convertirse en campeona del Mundial 2026 frente a Argentina. Una oportunidad que se ha dado gracias al conjunto de la Selección, que logró una v",
+        "url": "https://www.abc.es/gente/historia-amor-mikel-merino-lola-liberal-quiero-20260719171415-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-07-19T15:00:00Z"
+      },
+      {
+        "title": "La Batalla Naval convierte de nuevo Vallecas en puerto de mar y hace de telonera informal de la final del Mundial",
+        "description": "La Batalla Naval convierte de nuevo este domingo un año más a Vallecas en puerto de mar y se vuelve esta vez también telonera informal del a final del Mundial de Fútbol que enfrenta esta noche a Españ",
+        "url": "https://www.europapress.es/madrid/noticia-batalla-naval-convierte-nuevo-vallecas-puerto-mar-hace-telonera-informal-final-mundial-20260719171949.html",
+        "source": "Europapress.es",
+        "published_at": "2026-07-19T15:19:49Z"
+      }
+    ],
+    "weather": {
+      "amba": {
+        "min": 10,
+        "max": 14
+      },
+      "la_plata": {
+        "min": 9,
+        "max": 14
+      },
+      "fetched_at": "2026-07-20T12:20:26.832611-03:00",
+      "source": "open-meteo"
+    }
+  },
+  "message": "Buenos días 🇦🇷\n\nDía 40 del Mundial 2026\n\n🌤 Clima\nAMBA: min 10° / max 14°\nLa Plata: min 9° / max 14°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n🏆 Hoy Argentina se enfrenta a España en la final del Mundial. La Scaloneta busca defender su título con Messi al frente. La expectativa es alta para todo un país que vuelve a soñar.\n\nLa final promete ser un partido emocionante, con dos equipos con gran historia y pasión. Argentina busca repetir la hazaña de Qatar 2022.\n\nDato del día: Esta es la primera vez que Argentina y España se cruzan en una final de Mundial.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-07-20T12:20:37.140118-03:00",
+  "published_at": "2026-07-20T12:20:49.087849-03:00",
+  "pre_approved": true,
+  "pre_approved_at": "2026-07-20T12:20:37.140134-03:00",
+  "eval": {
+    "run_at": "2026-07-20T12:20:48.324011-03:00",
+    "checks": [
+      {
+        "name": "saludo",
+        "passed": true,
+        "severity": "error",
+        "detail": "Saludo correcto."
+      },
+      {
+        "name": "countdown_correcto",
+        "passed": true,
+        "severity": "error",
+        "detail": "Countdown correcto: 'Día 40 del Mundial 2026'"
+      },
+      {
+        "name": "clima_presente",
+        "passed": true,
+        "severity": "error",
+        "detail": "Bloque de clima presente y temperaturas coinciden."
+      },
+      {
+        "name": "sin_placeholders",
+        "passed": true,
+        "severity": "error",
+        "detail": "Sin placeholders."
+      },
+      {
+        "name": "cierre_ritual",
+        "passed": true,
+        "severity": "error",
+        "detail": "Cierre ritual correcto."
+      },
+      {
+        "name": "años_grounded",
+        "passed": true,
+        "severity": "error",
+        "detail": "Todos los años mencionados están grounded en los datos."
+      },
+      {
+        "name": "longitud",
+        "passed": true,
+        "severity": "error",
+        "detail": "113 palabras, dentro de 90-150."
+      },
+      {
+        "name": "sin_markdown",
+        "passed": true,
+        "severity": "warning",
+        "detail": "Sin markdown."
+      },
+      {
+        "name": "emojis",
+        "passed": true,
+        "severity": "warning",
+        "detail": "6 emojis, dentro de 3-7."
+      },
+      {
+        "name": "fecha_correcta",
+        "passed": true,
+        "severity": "error",
+        "detail": "Fecha correcta."
+      }
+    ],
+    "judge": {
+      "tono": 4,
+      "estructura": 5,
+      "fidelidad_guia": 5,
+      "factualidad_aparente": 2,
+      "comentario": "El mensaje tiene una estructura correcta y un tono cercano, pero carece de respaldo en los datos fuente para afirmar que Argentina se enfrenta a España en la final del Mundial y que es la primera vez que se cruzan en una final.",
+      "promedio": 4.0,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass"
+  }
+}
