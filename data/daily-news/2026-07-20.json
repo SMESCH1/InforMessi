@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-07-20",
+  "scraped_at": "2026-07-20T06:47:35.356489-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "La provincia de Córdoba enloquece con la final del Mundial: pantallas para ver el partido de España",
+      "description": "Faltan pocas horas para la final del Mundial de fútbol 2026 entre España y Argentina y muchos buscan un espacio para disfrutar con todos sus paisanos de lo que sueñan que sea una victoria de la selecc",
+      "url": "https://www.abc.es/espana/andalucia/cordoba/provincia-cordoba-enloquece-final-mundial-pantallas-ver-20260719113428-nts.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-07-19T09:34:29Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Quién es Gianni Infantino y cómo llegó a ser el hombre más poderoso (y polémico) del fútbol mundial",
+      "description": "Gianni Infantino ha tenido roces con los sindicatos y el fútbol europeo, pero tras 10 años como presidente de la FIFA, sigue estando en una posición inexpugnable. Te contamos por qué.",
+      "url": "https://www.bbc.com/mundo/articles/cwy0yvdzzyvo",
+      "source": "BBC News",
+      "published_at": "2026-07-19T09:30:17Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Argentina y España, dos \"enemigos íntimos\" que disputan una final de Mundial inédita",
+      "description": "Estadísticas, curiosidades y antecedentes futbolísticos de argentinos y españoles, que este domingo se cruzan por primera vez en la final de un Mundial.",
+      "url": "https://www.bbc.com/mundo/articles/c1j1lz2k7epo",
+      "source": "BBC News",
+      "published_at": "2026-07-19T03:58:36Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Juan del Val ante la final del Mundial: \"Somos mejores que Argentina. Ojalá sea el día de Lamine Yamal y no el de Messi\"",
+      "description": "Con los nervios previos a la final de un Mundial, EL ESPAÑOL ha contactado con el escritor para que haga su pronóstico para el España-Argentina.  Más información: Juan Carlos Rivero, sobre sus errores",
+      "url": "https://www.elespanol.com/reportajes/20260719/juan-val-final-mundial-mejores-argentina-ojala-dia-lamine-yamal-no-messi/1003744325190_0.html",
+      "source": "Elespanol.com",
+      "published_at": "2026-07-18T23:36:38Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El troleo del Mundial: un argentino increpa a un mexicano por ir con España y la respuesta no puede ser más viral",
+      "description": "El aficionado mexicano no entró al trapo y decidió tomarse con humor los insultos del argentino: ¡tarjeta roja y a bailar!",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/20/troleo-mundial-argentino-increpa-mexicano-espana-respuesta-divertida.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-20T09:32:14",
+      "category": "mundial"
+    },
+    {
+      "title": "Guárdate este vídeo: todos los goles de España para ganar el Mundial",
+      "description": "",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/20/guardate-video-todos-goles-espana-ganar-mundial-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-20T09:30:25",
+      "category": "mundial"
+    },
+    {
+      "title": "El doblete mágico de Fabián en 50 días: \"Ganar la Champions y el Mundial\"",
+      "description": "El andaluz es el único jugador del mundo que puede presumir en 2026 de los dos títulos más importantes del mundo del fútbol",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/20/doblete-magico-fabian-50-dias-ganar-champions-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-20T09:19:57",
+      "category": "mundial"
+    }
+  ]
+}
