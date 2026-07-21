@@ -1,0 +1,155 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T12:17:00.618479-03:00",
+  "source": "groq-fallback",
+  "data": {
+    "date": "2026-07-21",
+    "mundial_2026_start": "2026-06-11",
+    "mundial_2026_end": "2026-07-19",
+    "days_remaining": -40,
+    "mundial_phase": "post_mundial",
+    "mundial_day": null,
+    "events": [
+      {
+        "date": "1991-07-21",
+        "type": "title",
+        "priority": "high",
+        "person": "Alfio Basile",
+        "description": "Argentina gana la Copa América en Chile rompiendo 32 años de sequía."
+      }
+    ],
+    "news": [
+      {
+        "title": "Estos son los comentaristas de TVE para la final del Mundial 2026 entre España y Argentina",
+        "description": "El Mundial 2026 llega a su final. Después de más de un mes de espera, de semanas de nervios y de varios días de de preparación, está todo listo para que ruede el balón en la gran final de Nueva York, ",
+        "url": "https://www.abc.es/deportes/futbol/mundial/comentaristas-tve-final-mundial-2026-espana-argentina-20260719183000-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-07-19T16:30:00Z",
+        "category": "seleccion"
+      },
+      {
+        "title": "Tebas va con todo: \"La FIFA está destruyendo el fútbol, Infantino debe irse\"",
+        "description": "El presidente de LaLiga carga con enorme dureza contra el máximo estamento del fútbol mundial y, sobre todo, contra Infantino, que está haciendo \"mucho daño\" a este deporte",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/21/tebas-fifa-destruyendo-futbol-infantino-debe-irse.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-21T08:24:48",
+        "category": "mundial"
+      },
+      {
+        "title": "Henry destaca el \"fallo\" que llevó a España a ganar el Mundial: \"Todo el mundo lo crucificó\"",
+        "description": "\"En los próximos 10 años, uno de los aspectos más recordados será que España es el mejor equipo y el más valiente, y merecieron ganar el Mundial\"",
+        "url": "https://www.marca.com/futbol/mundial/2026/07/21/henry-destaca-fallo-llevo-espana-ganar-mundial-mundo-crucifico.html",
+        "source": "Fútbol",
+        "published_at": "2026-07-21T07:47:11",
+        "category": "mundial"
+      },
+      {
+        "title": "¿Agotamiento físico o error de Scaloni? Por qué falló el plan de Argentina en la final del Mundial 2026",
+        "description": "La Selección Argentina no hizo una buena Final del Mundo y se apoyó en su espíritu inquebrantable para estirar la definición hasta la prórroga. El equipo llegó con lo justo desde lo físico, y un par d",
+        "url": "https://442.perfil.com/noticias/mundial-2026/agotamiento-fisico-o-error-de-scaloni-por-que-fallo-el-plan-de-argentina-en-la-final-del-mundial-2026.phtml",
+        "source": "Perfil.com",
+        "published_at": "2026-07-20T15:09:14Z"
+      },
+      {
+        "title": "Luis de la Fuente, 65 años: «Yo siempre hablo de valores, disciplina y capacidad de esfuerzo y sufrimiento. Esa es mi dieta»",
+        "description": "El seleccionador español ha llevado a la Roja a la final del Mundial 2026 tras superar cada partido que ha jugado en las últimas semanas del torneo. Hoy, se enfrenta a la selección de Argentina, con u",
+        "url": "https://www.abc.es/deportes/futbol/eurocopa/secreto-cambio-fisico-luis-fuente-anos-alimentacion-gimnasio-lucir-musculos-20240709184948-nt.html",
+        "source": "Www.abc.es",
+        "published_at": "2026-07-20T15:06:03Z"
+      }
+    ],
+    "weather": {
+      "amba": {
+        "min": 10,
+        "max": 13
+      },
+      "la_plata": {
+        "min": 11,
+        "max": 13
+      },
+      "fetched_at": "2026-07-21T12:17:02.167628-03:00",
+      "source": "open-meteo"
+    }
+  },
+  "message": "Buenos días 🇦🇷\n\nDía 41 del Mundial 2026\n\n🌤 Clima\nAMBA: min 10° / max 13°\nLa Plata: min 11° / max 13°\nClima en otras partes de Argentina: https://www.smn.gob.ar/pronostico\n\n🏆 Un día como hoy en 1991, Argentina se coronó campeón de la Copa América en Chile, rompiendo una sequía de 32 años. Fue un momento especial en la historia del fútbol argentino. La Scaloneta de hoy busca escribir su propia historia en este Mundial 2026.\n\nLa final entre Argentina y España es el partido más esperado. La Selección busca defender su título con Messi al frente.\n\nBuen día\nCoronados de gloria vivamos 🩵🤍🩵",
+  "status": "published",
+  "updated_at": "2026-07-21T12:17:11.327946-03:00",
+  "published_at": "2026-07-21T12:17:23.362922-03:00",
+  "pre_approved": true,
+  "pre_approved_at": "2026-07-21T12:17:11.327963-03:00",
+  "eval": {
+    "run_at": "2026-07-21T12:17:22.480174-03:00",
+    "checks": [
+      {
+        "name": "saludo",
+        "passed": true,
+        "severity": "error",
+        "detail": "Saludo correcto."
+      },
+      {
+        "name": "countdown_correcto",
+        "passed": true,
+        "severity": "error",
+        "detail": "Countdown correcto: 'Día 41 del Mundial 2026'"
+      },
+      {
+        "name": "clima_presente",
+        "passed": true,
+        "severity": "error",
+        "detail": "Bloque de clima presente y temperaturas coinciden."
+      },
+      {
+        "name": "sin_placeholders",
+        "passed": true,
+        "severity": "error",
+        "detail": "Sin placeholders."
+      },
+      {
+        "name": "cierre_ritual",
+        "passed": true,
+        "severity": "error",
+        "detail": "Cierre ritual correcto."
+      },
+      {
+        "name": "años_grounded",
+        "passed": true,
+        "severity": "error",
+        "detail": "Todos los años mencionados están grounded en los datos."
+      },
+      {
+        "name": "longitud",
+        "passed": true,
+        "severity": "error",
+        "detail": "104 palabras, dentro de 90-150."
+      },
+      {
+        "name": "sin_markdown",
+        "passed": true,
+        "severity": "warning",
+        "detail": "Sin markdown."
+      },
+      {
+        "name": "emojis",
+        "passed": true,
+        "severity": "warning",
+        "detail": "6 emojis, dentro de 3-7."
+      },
+      {
+        "name": "fecha_correcta",
+        "passed": true,
+        "severity": "error",
+        "detail": "Fecha correcta."
+      }
+    ],
+    "judge": {
+      "tono": 4,
+      "estructura": 5,
+      "fidelidad_guia": 4,
+      "factualidad_aparente": 4,
+      "comentario": "El mensaje sigue la estructura y el tono adecuados, pero incluye información sobre la final entre Argentina y España que no está respaldada por los datos fuente proporcionados.",
+      "promedio": 4.25,
+      "model": "llama-3.3-70b-versatile"
+    },
+    "verdict": "pass"
+  }
+}
