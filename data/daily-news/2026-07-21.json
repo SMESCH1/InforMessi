@@ -1,0 +1,31 @@
+{
+  "scrape_date": "2026-07-21",
+  "scraped_at": "2026-07-21T06:19:53.959830-03:00",
+  "total_news": 3,
+  "news": [
+    {
+      "title": "Estos son los comentaristas de TVE para la final del Mundial 2026 entre España y Argentina",
+      "description": "El Mundial 2026 llega a su final. Después de más de un mes de espera, de semanas de nervios y de varios días de de preparación, está todo listo para que ruede el balón en la gran final de Nueva York, ",
+      "url": "https://www.abc.es/deportes/futbol/mundial/comentaristas-tve-final-mundial-2026-espana-argentina-20260719183000-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-07-19T16:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Tebas va con todo: \"La FIFA está destruyendo el fútbol, Infantino debe irse\"",
+      "description": "El presidente de LaLiga carga con enorme dureza contra el máximo estamento del fútbol mundial y, sobre todo, contra Infantino, que está haciendo \"mucho daño\" a este deporte",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/21/tebas-fifa-destruyendo-futbol-infantino-debe-irse.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-21T08:24:48",
+      "category": "mundial"
+    },
+    {
+      "title": "Henry destaca el \"fallo\" que llevó a España a ganar el Mundial: \"Todo el mundo lo crucificó\"",
+      "description": "\"En los próximos 10 años, uno de los aspectos más recordados será que España es el mejor equipo y el más valiente, y merecieron ganar el Mundial\"",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/21/henry-destaca-fallo-llevo-espana-ganar-mundial-mundo-crucifico.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-21T07:47:11",
+      "category": "mundial"
+    }
+  ]
+}
