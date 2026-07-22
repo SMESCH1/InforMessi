@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-07-22",
+  "scraped_at": "2026-07-22T06:19:00.742009-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "Rodri, capitán de la selección española, sobre Ferran Torres: \"Un jugador que ha sido muchas veces injustamente criticado y que hoy es historia del fútbol español\"",
+      "description": "La celebración del evento también dio espacio a mensajes de cariño entre los miembros del equipo vencedor.",
+      "url": "https://www.elconfidencial.com/deportes/futbol/mundial/2026-07-21/rodri-capitan-seleccion-espanola-ferran-torres-jugador_4393329/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-07-21T09:13:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Quién es Santiago Silva, la nueva alta de Nacional para disputar la Copa Sudamericana y Liga AUF Uruguaya 2026",
+      "description": "El mediocampista de 21 años, surgido de las divisiones formativas de Danubio y con pasaje por la selección uruguaya Sub 20, viene desde el Huachipato de Chile donde logró ser campeón el año pasado.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/quien-es-santiago-silva-la-nueva-alta-de-nacional-para-disputar-la-copa-sudamericana-y-liga-auf-uruguaya-2026",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-07-20T21:18:11Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Un minuto de aplausos para Messi, Scaloni y la selección argentina",
+      "description": "Chiqui Tapia ha anunciado en sus redes sociales que se llevará a cabo esta acción, tras el OK de la Conmebol, tanto en competiciones domésticas como internacionales",
+      "url": "https://www.marca.com/futbol/2026/07/22/minuto-aplausos-messi-scaloni-seleccion-argentina.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-22T09:10:32",
+      "category": "seleccion"
+    },
+    {
+      "title": "\"Habría sido un escándalo si gana Argentina... Destacó por su dureza y antideportividad\"",
+      "description": "El exinternacional alemán&nbsp;Markus Babbel critica el papel de la selección de Argentina en la final del Mundial ante España",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/22/habria-sido-escandalo-gana-argentina-destaco-dureza-antideportividad.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-22T08:41:13",
+      "category": "seleccion"
+    },
+    {
+      "title": "De la Fuente impresiona al mundo",
+      "description": "El seleccionador ha dado una masterclass en el Mundial&nbsp;",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/22/fuente-impresiona-mundo.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-22T07:12:45",
+      "category": "mundial"
+    }
+  ]
+}
