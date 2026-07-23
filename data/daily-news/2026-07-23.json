@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-07-23",
+  "scraped_at": "2026-07-23T06:16:06.235713-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Un jugador que rompió un récord en el Mundial 2026 anunció su retiro del fútbol",
+      "description": "El arquero mexicano Guillermo Ochoa informó que colgará los guantes tras una trayectoria de 22 años; en la Copa del Mundo llegó, junto con Cristiano Ronaldo y Messi, a las seis ediciones disputadas",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/un-jugador-que-rompio-un-record-en-el-mundial-2026-anuncio-su-retiro-del-futbol-nid22072026/",
+      "source": "La Nacion",
+      "published_at": "2026-07-22T05:39:12Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Un minuto de aplausos: AFA homenajeará a la Selección Argentina en la Liga Profesional y Sudamericana",
+      "description": "​Claudio Tapia anticipó una serie de acciones que los equipos del Fútbol Argentino harán en homenaje a la Selección Argentina, tras el subcampeonato en la Copa Mundial 2026. Tigre puso primera con una",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/afa-homenajeara-a-la-seleccion-argentina-en-la-liga-profesional-y-sudamericana.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-07-22T01:27:23Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Tapia al pueblo argentino: \"No se dejen llevar por las mentiras, fueron superiores, nos ganaron bien...\"",
+      "description": "El presidente de la AFA pide a los hinchas de la selección que se olviden de las teorías conspiranóicas tras la derrota en la final del Mundial ante España",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/23/tapia-pueblo-argentino-dejen-llevar-mentiras-superiores-ganaron-bien.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-23T08:21:07",
+      "category": "seleccion"
+    },
+    {
+      "title": "La cruz de Mbappé",
+      "description": "Triplete goleador del francés, (Pichichi en Liga, Champions y Mundial), pero de nuevo ningún título",
+      "url": "https://www.marca.com/futbol/real-madrid/2026/07/23/cruz-mbappe.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-23T07:29:58",
+      "category": "mundial"
+    },
+    {
+      "title": "El nuevo orden en el fútbol tras el Mundial: los 25 jugadores con más valor de mercado",
+      "description": "Transfermarkt ha actualizado tras el Mundial su listado de los <a href=\"https://www.marca.com/futbol/mundial/2026/07/23/tambien-han-ganado-mundial.html\"><b>25 jugadores más valiosos del mercado</b></a",
+      "url": "https://www.marca.com/futbol/mundial/album/2026/07/23/nuevo-orden-futbol-mundial-25-jugadores-valor-mercado.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-23T07:28:23",
+      "category": "mundial"
+    },
+    {
+      "title": "También han ganado (en) el Mundial",
+      "description": "Haaland y Lamine alcanzan los 220 millones de valoración por 200 de Mbappé",
+      "url": "https://www.marca.com/futbol/mundial/2026/07/23/tambien-han-ganado-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-23T04:50:18",
+      "category": "mundial"
+    }
+  ]
+}
