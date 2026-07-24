@@ -1,0 +1,23 @@
+{
+  "scrape_date": "2026-07-24",
+  "scraped_at": "2026-07-24T06:12:53.849781-03:00",
+  "total_news": 2,
+  "news": [
+    {
+      "title": "Por qué la Selección Argentina no puede darse el lujo de perder a Lionel Scaloni",
+      "description": "Tras cuatro títulos en ocho años, dos Finales del Mundo y una identidad basada en la unión, dejar ir a Lionel Scaloni sería romper el alma de esta Selección Argentina histórica. No es solo emoción, se",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/por-que-la-seleccion-argentina-no-puede-darse-el-lujo-de-perder-a-lionel-scaloni.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-07-22T09:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Di María: \"Para mí el Mundial acabó con la victoria sobre Inglaterra\"",
+      "description": "El Fideo habló tras la derrota de Rosario en el Clausura y confirmó que, para él, Messi puede jugar hasta cuando él quiera: \"Con 39 años, sigue demostrando por qué es uno de los mejores de la historia",
+      "url": "https://www.marca.com/futbol/2026/07/24/di-maria-mi-mundial-acabo-victoria-sobre-inglaterra.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-24T08:27:16",
+      "category": "seleccion"
+    }
+  ]
+}
