@@ -1,0 +1,31 @@
+{
+  "scrape_date": "2026-07-25",
+  "scraped_at": "2026-07-25T05:53:08.217392-03:00",
+  "total_news": 3,
+  "news": [
+    {
+      "title": "Ojalá el fútbol argentino haya mirado el Mundial (y se contagie de sus emociones)",
+      "description": "Este jueves comenzará el torneo Clausura con tres partidos; el legado que dejó el certamen de Estados Unidos, México y Canadá en el campo de juego y que le vendría bien replicar a la Liga Profesional",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/ojala-el-futbol-argentino-haya-mirado-el-mundial-y-se-contagie-de-sus-emociones-nid23072026/",
+      "source": "La Nacion",
+      "published_at": "2026-07-23T20:17:12Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Boston River cerró su cuarta alta: fue campeón del mundo Sub 20 con Uruguay y viene de jugar en Inglaterra",
+      "description": "Las otras tres incorporaciones del equipo que dirige Ignacio Ithurralde de cara a la recta final de la temporada 2026 son Facundo y Rodrigo Saravia, y Felipe Avenatti.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/boston-river-cerro-su-cuarta-alta-fue-campeon-del-mundo-sub-20-con-uruguay-y-viene-de-jugar-en-inglaterra",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-07-23T20:06:01Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Comienza el Clausura 2026 del Fútbol Argentino: partidos, TV y resultados de la Fecha 1",
+      "description": "El Fútbol Argentino retoma su cronograma de Primera División con el comienzo del Clausura 2026 de la Liga Profesional. La Fecha 1 tendrá un inicio frenético y compacto, con la segunda jornada programa",
+      "url": "https://442.perfil.com/noticias/futbol/fecha-1-de-la-liga-profesional-argentina-2026-partidos-tv-y-resultados.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-07-23T15:57:58Z",
+      "category": "mundial"
+    }
+  ]
+}
