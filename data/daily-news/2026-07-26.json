@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-07-26",
+  "scraped_at": "2026-07-26T06:05:40.030816-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "Colo Colo ficha a Vozinha, el portero sensación del Mundial",
+      "description": "El Mundial de futbol 2026 cambió la trayectoria de un jugador que hasta hace unas semanas parecía destinado al retiro discreto y cercano. Vozinha, el arquero que causó sensación con Cabo Verde en el r",
+      "url": "https://www.jornada.com.mx/2026/07/25/deportes/a11n3dep",
+      "source": "Jornada.com.mx",
+      "published_at": "2026-07-25T08:10:07Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El chileno Colo Colo ficha a Vozinha, portero de Cabo Verde",
+      "description": "El arquero de la selección caboverdiana fue una de las revelaciones del Mundial 2026, incluido en el once ideal de la FIFA.",
+      "url": "https://www.dw.com/es/el-chileno-colo-colo-ficha-a-vozinha-portero-de-cabo-verde/a-78109234",
+      "source": "DW (English)",
+      "published_at": "2026-07-25T07:10:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Vozinha, una de las figuras del Mundial 2026, jugará en América",
+      "description": "Vozinha, el famoso arquero de Cabo Verde en el Mundial, extenderá su carrera profesional con un reconocido equipo del continente americano.",
+      "url": "https://www.nacion.com/puro-deporte/vozinha-una-de-las-figuras-del-mundial-2026-jugara/AIV5Y5WZCRHTDNWRDNN2DZPHPA/story/",
+      "source": "Nacion.com",
+      "published_at": "2026-07-25T04:14:32Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Balance final: lo mejor y lo peor del Mundial 2026 según cuatro destacados periodistas deportivos",
+      "description": "Los periodistas Julio Ríos, Máximo Goñi, Carlos Muñoz y Nadia Fumeiro evalúan qué dejó esta última edición del campeonato del mundo.",
+      "url": "https://www.elpais.com.uy/ovacion/mundial/show-mundial/balance-final-lo-mejor-y-lo-peor-del-mundial-2026-segun-cuatro-destacados-periodistas-deportivos",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-07-25T07:10:58Z",
+      "category": "mundial"
+    }
+  ]
+}
