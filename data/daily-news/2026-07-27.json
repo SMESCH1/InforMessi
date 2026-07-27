@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-07-27",
+  "scraped_at": "2026-07-27T07:30:11.252483-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "Tiene 12 años, juega Pokémon y va a representar a Uruguay entre los mejores del mundo",
+      "description": "Alejandro Etcheverry disputará por segunda vez el Mundial de cartas, luego de lograr actuaciones destacadas en torneos a nivel regional.",
+      "url": "https://www.montevideo.com.uy/Ciencia-y-Tecnologia/Tiene-12-anos-juega-Pokemon-y-va-a-representar-a-Uruguay-entre-los-mejores-del-mundo-uc969397",
+      "source": "Montevideo.com.uy",
+      "published_at": "2026-07-26T10:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Otamendi habló tras su debut con derrota en River: “Quien se esconde no sabe lo que es representar a un club grande”",
+      "description": "El defensor jugó su primer partido con la camiseta del club de Núñez y se refirió a la derrota ante Barracas; antes del encuentro fue homenajeado por su participación en el Mundial 2026",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/otamendi-hablo-tras-su-debut-con-derrota-en-river-quien-se-esconde-no-sabe-lo-que-es-representar-a-nid26072026/",
+      "source": "La Nacion",
+      "published_at": "2026-07-26T04:27:41Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Carta abierta de Mbappé a los franceses tras el Mundial: \"Nunca abandonaron la fe en nosotros, incluso cuando no lo merecíamos\"",
+      "description": "La estrella de Francia expresa a sus compatriotas su \"orgullo\" por el título de máximo goleador y por sus compañeros, pero confiesa que \"duele y seguirá doliendo no traer un título colectivo\"",
+      "url": "https://www.marca.com/futbol/2026/07/27/carta-abierta-mbappe-franceses-mundial-nunca-abandonaron-fe-nosotros-mereciamos.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-27T09:53:34",
+      "category": "mundial"
+    },
+    {
+      "title": "Scaloni, tras el Mundial: \"Aguantamos baldazos de agua fría de gente que no nos conoce\"",
+      "description": "El seleccionador argentino escribió tras tres años de silencio en Instagram para hacerles llegar un sentido mensaje a la afición albiceleste",
+      "url": "https://www.marca.com/futbol/2026/07/27/scaloni-mundial-aguantamos-baldazos-agua-fria-gente-conoce.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-27T06:47:37",
+      "category": "seleccion"
+    }
+  ]
+}
