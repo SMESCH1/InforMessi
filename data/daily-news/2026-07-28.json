@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-07-28",
+  "scraped_at": "2026-07-28T06:28:47.369709-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Dani Olmo, jugador de la selección española, tras las disculpas de Ayala: \"Está faltando a la verdad, porque no le dije nada\"",
+      "description": "El jugador del Barcelona ha roto su silencio sobre el incidente ocurrido después de la final del Mundial 2026 entre España y Argentina",
+      "url": "https://www.elconfidencial.com/deportes/futbol/2026-07-27/dani-olmo-disculpas-ayala-esta-faltando-verdad-1qrt_4396329/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-07-27T07:24:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Martina Calvo: \"¿Ganar mi primer torneo en 2026? En París sería la leche\"",
+      "description": "La joven española de 18 años atiende a MARCA Pádel para hablar de su rápida evolución, la ruptura con Martita Ortega y el nuevo proyecto con Claudia Fernández.",
+      "url": "https://www.marca.com/padel/2026/07/27/martina-calvo-ganar-mi-primer-torneo-2026-paris-seria-leche.html",
+      "source": "Marca",
+      "published_at": "2026-07-27T08:49:09Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Se retira con España campeona del mundo",
+      "description": "El árbitro esloveno Slavko Vincic, que dirigió la final del Mundial 2026 entre España y Argentina el pasado 19 de julio, ha terminado su carrera profesional, informó este lunes la Federación eslovena ",
+      "url": "https://www.mundodeportivo.com/futbol/mundial/20260727/1004210539/retira-espana-campeona-mundo.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-07-27T08:43:29Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Francia y Lamine Yamal, objeto de odio en redes sociales durante el Mundial",
+      "description": "El Observatorio Español del Racismo y la Xenofobia (OBERAXE) ha detectado cerca de 55.000 mensajes de odio en redes sociales durante la celebración del Mundial de fútbol",
+      "url": "https://www.marca.com/futbol/2026/07/28/francia-lamine-yamal-objeto-odio-redes-sociales-durante-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-28T08:03:26",
+      "category": "mundial"
+    },
+    {
+      "title": "Rudi Völler atiza a Argentina: \"No quiero un equipo que juegue así\"",
+      "description": "El legendario delantero alemán, ahora director deportivo de la Mannschaft afirmó que el fútbol de Alemania debe parecerse más al de España y a Inglaterra",
+      "url": "https://www.marca.com/futbol/2026/07/28/rudi-voeller-atiza-argentina-quiero-equipo-juegue-asi.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-28T06:35:10",
+      "category": "seleccion"
+    },
+    {
+      "title": "Rosalía Domínguez, una MVP de altos vuelos: \"Me gustaría ganar una Champions y un Mundial\"",
+      "description": "La jugadora del Barcelona, figura destacada del Europeo Sub'19, es imagen de Nike y una de las perlas de la cantera española",
+      "url": "https://www.marca.com/futbol/futbol-femenino/seleccion/2026/07/28/rosalia-dominguez-mvp-altos-vuelos-me-gustaria-ganar-champions-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-28T05:12:04",
+      "category": "mundial"
+    }
+  ]
+}
