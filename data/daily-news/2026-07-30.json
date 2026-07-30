@@ -1,0 +1,23 @@
+{
+  "scrape_date": "2026-07-30",
+  "scraped_at": "2026-07-30T06:23:15.501251-03:00",
+  "total_news": 2,
+  "news": [
+    {
+      "title": "Cancelo aún no se suma a la pretemporada con el Al-Hilal",
+      "description": "Su compañero de selección, Rúben Neves, ya ha pasado la revisión médica",
+      "url": "https://www.marca.com/futbol/barcelona/2026/07/30/cancelo-aun-suma-pretemporada-hilal.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-30T08:52:51",
+      "category": "seleccion"
+    },
+    {
+      "title": "La UEFA se reúne este jueves por los planes de la FIFA",
+      "description": "El organismo que preside Alexander Ceferin advirtió que se \"toma muy en serio\" la iniciativa comercial de la FIFA",
+      "url": "https://www.marca.com/futbol/2026/07/30/uefa-reune-jueves-planes-fifa.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-30T08:18:35",
+      "category": "mundial"
+    }
+  ]
+}
