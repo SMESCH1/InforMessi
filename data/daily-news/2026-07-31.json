@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-07-31",
+  "scraped_at": "2026-07-31T06:35:19.637836-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "\"No tienen negros\": la absurda campaña contra Argentina en el Mundial 2026 y la realidad que desmorona el mito",
+      "description": "Una mirada sesgada desde el exterior volvió a poner al fútbol argentino en el centro de ataques infundados en redes sociales y medios extranjeros durante el último Mundial. Lejos de ese relato, la his",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/no-tienen-negros-la-absurda-campana-contra-argentina-en-el-mundial-2026-y-la-realidad-que-desmorona-el-mito.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-07-30T09:20:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Piden retirar a Messi el Princesa de Asturias de 2026 por su comportamiento en la final del Mundial",
+      "description": "Los usuarios de la plataforma 'Change.org' han creado 30 peticiones para pedir a la Fundación Princesa de Asturias que retire, revoque o reconsidere el Premio Princesa de Asturias de los Deportes al c",
+      "url": "https://www.elperiodico.com/es/deportes/20260730/retirar-messi-princesa-asturias-actitud-final-mundial-132945514",
+      "source": "Elperiodico.com",
+      "published_at": "2026-07-30T08:43:14Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Messi se reincorpora al Inter Miami tras sus vacaciones en Argentina después del Mundial",
+      "description": "Leo Messi regresó este miércoles a los entrenamientos del Inter Miami tras casi diez días de vacaciones en Argentina después de la conclusión del Mundial, período en el que se perdió los dos últimos p",
+      "url": "https://www.elperiodico.com/es/deportes/20260730/messi-reincorpora-inter-miami-vacaciones-132944639",
+      "source": "Elperiodico.com",
+      "published_at": "2026-07-30T07:51:26Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El amistoso de hoy ante el Toulouse puede ser otra oportunidad para los menos habituales",
+      "description": "Matarazzo podría volver a echar mano de Pacheco y Javi López, que no jugaron el martes, también de los futbolistas del Sanse y Sucic podría tener su primeros minutos",
+      "url": "https://www.marca.com/futbol/real-sociedad/2026/07/31/amistoso-hoy-toulouse-oportunidad-habituales.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-31T05:54:55",
+      "category": "general"
+    },
+    {
+      "title": "Muere Franco Baresi, leyenda eterna del Milan y del fútbol italiano",
+      "description": "Uno de los mejores defensas de la historia del fútbol se ha ido a los 66 años",
+      "url": "https://www.marca.com/futbol/2026/07/31/muere-franco-baresi-66-anos.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-31T05:49:29",
+      "category": "general"
+    },
+    {
+      "title": "Casemiro: \"Soñaba todos los días jugar con Messi\"",
+      "description": "El nuevo centrocampista de Inter Miami habló públicamente tras ser confirmado la semana pasada como nuevo fichaje del equipo estadounidense",
+      "url": "https://www.marca.com/futbol/estados-unidos/2026/07/31/casemiro-sonaba-todos-dias-jugar-messi.html",
+      "source": "Fútbol",
+      "published_at": "2026-07-31T05:44:56",
+      "category": "seleccion"
+    }
+  ]
+}
