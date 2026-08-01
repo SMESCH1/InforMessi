@@ -1,0 +1,23 @@
+{
+  "scrape_date": "2026-08-01",
+  "scraped_at": "2026-08-01T05:58:14.729161-03:00",
+  "total_news": 2,
+  "news": [
+    {
+      "title": "Cuánto cobran los futbolistas de la selección por una campaña publicitaria: Lamine Yamal hasta 4,8 millones",
+      "description": "La conquista del Mundial por parte de la selección española no solo ha disparado el prestigio deportivo de sus jugadores, sino también su valor comercial.",
+      "url": "https://www.elconfidencialdigital.com/articulo/dinero/cuanto-cobran-futbolistas-seleccion-campana-publicitaria-lamine-yamal-48-millones/202607310500001033998.html",
+      "source": "Elconfidencialdigital.com",
+      "published_at": "2026-07-31T03:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Infantino da marcha atrás y suspende la privatización del Mundial",
+      "description": "El presidente de la FIFA cede ante las críticas",
+      "url": "https://www.marca.com/futbol/2026/08/01/infantino-da-marcha-atras-criticas-suspende-privatizacion-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-01T00:04:21",
+      "category": "mundial"
+    }
+  ]
+}
