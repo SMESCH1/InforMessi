@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-08-02",
+  "scraped_at": "2026-08-02T06:03:02.561063-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "La 1 lidera un julio de ensueño para RTVE con el Mundial, Antena 3 sigue segunda y Telecinco vive el peor mes de su historia",
+      "description": "La 1 arrasa en las audiencias de julio gracias al Mundial de fútbol ganado por España. Las eliminatorias directas de la cita mundial llevan a la cadena pública a firmar su mejor mes en 20 años y al Gr",
+      "url": "https://www.eldiario.es/vertele/audiencias-tv/mensuales-julio-2026-la-1-lidera-julio-ensueno-rtve-mundial-antena-3-sigue-segunda-telecinco-vive-peor-mes-su-historia_1_13419954.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-08-01T07:39:46Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Llega agosto y estos son los partidos que puedes ver por menos de 5€",
+      "description": "Está siendo un verano entretenido, con mucho fútbol, por la celebración del Mundial conquistado por España, pero ahora hemos tenido un parón que te puede haber afectado un poco... No te preocupes porq",
+      "url": "https://www.mundodeportivo.com/elrecomendador/deportes/20260801/1004211332/llega-agosto-son-todos-partidos-futbol-vas-ver-mkt-movi.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-08-01T05:50:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Buffon: \"Mancini es la elección correcta\"",
+      "description": "El exfutbolista italiano le otorga la confianza a un técnico al que se 'opuso' hace un año",
+      "url": "https://www.marca.com/futbol/2026/08/02/buffon-mancini-eleccion-correcta.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-02T08:14:49",
+      "category": "general"
+    },
+    {
+      "title": "Brais Méndez amarga el regreso de Messi con el Inter Miami",
+      "description": "El español anotó en el 85 para darle el empate a&nbsp;Columbus Crew",
+      "url": "https://www.marca.com/futbol/estados-unidos/2026/08/02/brais-mendez-amarga-regreso-messi-inter-miami.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-02T06:23:50",
+      "category": "seleccion"
+    }
+  ]
+}
