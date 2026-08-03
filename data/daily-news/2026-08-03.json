@@ -1,0 +1,23 @@
+{
+  "scrape_date": "2026-08-03",
+  "scraped_at": "2026-08-03T07:29:53.897287-03:00",
+  "total_news": 2,
+  "news": [
+    {
+      "title": "Terzic levanta el pie y ofrece unas minivacaciones a sus futbolistas",
+      "description": "El técnico destaca la capacidad de reacción del equipo tras la derrota ante el Rayo",
+      "url": "https://www.marca.com/futbol/athletic/2026/08/03/terzic-levanta-pie-ofrece-minivacaciones-futbolistas.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-03T08:46:28",
+      "category": "general"
+    },
+    {
+      "title": "Vozinha ilusiona a Colo Colo y se declara \"muy feliz de haber llegado\" a Chile",
+      "description": "El guardameta revelación en el Mundial está muy cerca de oficializar su fichaje por el conjunto chileno",
+      "url": "https://www.marca.com/futbol/2026/08/03/vozinha-ilusiona-colo-colo-declara-feliz-haber-llegado-chile.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-03T06:29:14",
+      "category": "mundial"
+    }
+  ]
+}
