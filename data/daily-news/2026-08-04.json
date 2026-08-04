@@ -1,0 +1,31 @@
+{
+  "scrape_date": "2026-08-04",
+  "scraped_at": "2026-08-04T06:31:19.656402-03:00",
+  "total_news": 3,
+  "news": [
+    {
+      "title": "La era post-Mundial de Messi: entre la ilusión en la MLS y el dilema de su continuidad en la Selección Argentina",
+      "description": "Lionel Messi volvió a sumar minutos en el empate ante Columbus Crew. Cómo fue su actuación, el calendario cargado con la Leagues Cup y la MLS, y el interrogante sobre su continuidad en la Albiceleste.",
+      "url": "https://442.perfil.com/noticias/futbol/la-era-post-mundial-de-messi-entre-la-ilusion-en-la-mls-y-el-dilema-de-su-continuidad-en-la-seleccion-argentina.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-08-03T09:20:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Arturo Pérez Reverte, escritor, sobre la polémica tras el España-Argentina del Mundial: \"Criticar un acto de una selección no es despreciar a un país\"",
+      "description": "El novelista ha publicado un extenso artículo en el que ha repasado su histórica relación con Argentina y ha denuniado cómo una polémica nacida en redes terminó eclipsando décadas de reconocimiento y ",
+      "url": "https://www.elconfidencial.com/cultura/2026-08-03/1qrt-perez-reverte-polemica-espana-argentina-mundia-criticar-seleccion_4399908/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-08-03T06:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Ferran Torres, sobre el lema de la gorra: \"No tenía nada que ver con la política\"",
+      "description": "El jugador del Barcelona habló sobre la polémica acerca del mensaje \"Make Spain Great Again\" durante la celebración del Mundial&nbsp;",
+      "url": "https://www.marca.com/futbol/barcelona/2026/08/04/ferran-torres-sobre-lema-gorra-tenia-ver-politica.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-04T06:21:09",
+      "category": "mundial"
+    }
+  ]
+}
