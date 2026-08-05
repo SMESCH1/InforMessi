@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-08-05",
+  "scraped_at": "2026-08-05T06:28:05.595235-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "FMF: más de 789 mil aficionados y audiencia récord en el Mundial",
+      "description": "La Federación Mexicana de Futbol (FMF) informó que las tres sedes locales para la Copa Mundial de la FIFA –Ciudad de México, Guadalajara y Monterrey– registraron una asistencia total de 789 mil 766 af",
+      "url": "https://www.jornada.com.mx/2026/08/04/deportes/a10n3dep",
+      "source": "Jornada.com.mx",
+      "published_at": "2026-08-04T08:39:16Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Mariano Closs se refirió a las teorías conspirativas de la final del Mundial 2026: “Cerré el teléfono por 10 días”",
+      "description": "El relator de fútbol reveló la decisión que tomó luego de que la Albiceleste fuera derrotada por España",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/mariano-closs-se-refirio-a-las-teorias-conspirativas-de-la-final-del-mundial-2026-cerre-el-telefono-nid04082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-04T04:42:34Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Almería utiliza el 'efecto Cristiano' en pleno mercado",
+      "description": "Su imagen luciendo la camiseta rojiblanca antes del amistoso vuelve a situar al Almería en el foco mundial del fútbol",
+      "url": "https://www.marca.com/futbol/almeria/2026/08/05/almeria-utiliza-efecto-cristiano-pleno-mercado.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-05T08:23:05",
+      "category": "mundial"
+    },
+    {
+      "title": "Ferran Torres, protagonista en la MLB tras conquistar el Mundial",
+      "description": "",
+      "url": "https://www.marca.com/futbol/2026/08/05/ferran-torres-protagonista-mlb-conquistar-mundial-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-05T06:05:28",
+      "category": "mundial"
+    }
+  ]
+}
