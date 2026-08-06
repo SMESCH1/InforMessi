@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-08-06",
+  "scraped_at": "2026-08-06T06:32:37.090399-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "Ya está aquí la nueva camiseta de la Selección: las dos estrellas tras la histórica victoria",
+      "description": "La equipación con la que La Roja conquistó su segunda estrella ya está disponible en tiendas físicas de Adidas, canales digitales y distribuidores.\nLa entrada Ya está aquí la nueva camiseta de la Sele",
+      "url": "https://www.marketingdirecto.com/anunciantes-general/esta-aqui-nueva-camiseta-eleccion-dos-estrellas-historica-victoria",
+      "source": "Marketingdirecto.com",
+      "published_at": "2026-08-05T09:21:47Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El fútbol le ha dado a Europa una rara victoria geopolítica",
+      "description": "Cuando Bélgica venció a Estados Unidos en el reciente Mundial, los jugadores belgas lo celebraron imitando burlonamente el baile de Donald Trump. Fue una clara crítica al...",
+      "url": "https://www.expansion.com/economia/financial-times/2026/08/05/6a72ff28e5fdeac04c8b456f.html",
+      "source": "Expansion.com",
+      "published_at": "2026-08-05T09:20:27Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Doblete de Messi en la Leagues Cup y su entrenador le pone un nuevo apodo: el \"Picasso\" del fútbol",
+      "description": "El argentino regresó a la titularidad con Inter Miami tras el Mundial y anotó un doblete ante San Luis en la victoria de su equipo en la Leagues Cup&nbsp;",
+      "url": "https://www.marca.com/futbol/estados-unidos/2026/08/06/doblete-messi-leagues-cup-entrenador-le-pone-nuevo-apodo-picasso-futbol.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-06T06:21:35",
+      "category": "seleccion"
+    },
+    {
+      "title": "¡Messi está de vuelta! Doblete y asistencia para arrancar la Leagues Cup",
+      "description": "",
+      "url": "https://www.marca.com/futbol/estados-unidos/2026/08/06/messi-vuelta-doblete-asistencia-arrancar-leagues-cup-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-06T05:46:01",
+      "category": "seleccion"
+    },
+    {
+      "title": "Gavi se suma a los retos del Mundial y se tiñe el pelo de rosa",
+      "description": "",
+      "url": "https://www.marca.com/futbol/seleccion/2026/08/06/gavi-suma-retos-mundial-tine-pelo-rosa-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-06T05:31:25",
+      "category": "mundial"
+    }
+  ]
+}
