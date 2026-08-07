@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-08-07",
+  "scraped_at": "2026-08-07T05:02:32.245779-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "¿Cuáles equipos aportaron los jugadores de la Selección Sub-20 que clasificó al Mundial en México?",
+      "description": "La Selección Sub-20 de Costa Rica vuelve a un Mundial luego de una década; vea dónde militan sus futbolistas.",
+      "url": "https://www.nacion.com/puro-deporte/futbol/cuales-equipos-aportaron-los-jugdores-de-la/RDO3QCRS4FGDDAPUWUZ5TD3SGM/story/",
+      "source": "Nacion.com",
+      "published_at": "2026-08-06T00:20:18Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Fue el 10 de Boca Juniors, jugó dos Mundiales y anunció su retiro a los 37 años: “Es difícil”",
+      "description": "El mediocampista uruguayo Nicolás Lodeiro comunicó el final de su trayectoria profesional en Nacional, club donde se formó y al que regresó en 2025 tras un exitoso paso por el fútbol internacional",
+      "url": "https://www.lanacion.com.ar/deportes/fue-el-10-de-boca-juniors-jugo-dos-mundiales-y-anuncio-su-retiro-a-los-37-anos-es-dificil-nid05082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-05T20:12:17Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La final del Torneo Clausura 2026 se jugará en el Estadio Único de La Plata",
+      "description": "La Asociación del Fútbol Argentino celebró su primera reunión de Comité Ejecutivo tras la Copa Mundial 2026, y entre los temas tratados se definió la fecha y sede para la gran final del Torneo Clausur",
+      "url": "https://442.perfil.com/noticias/futbol/la-final-del-torneo-clausura-2026-se-jugara-en-el-estadio-unico-de-la-plata.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-08-05T18:24:32Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Del Mundial de Trump al reto de España en 2030: el fútbol como herramienta de marca país",
+      "description": "España se juega su reputación internacional, su capacidad para atraer inversión y talento y la oportunidad de consolidarse como una potencia global de marca país: analizamos las claves en MARCA con di",
+      "url": "https://www.marca.com/futbol/mundial/2026/08/07/mundial-trump-reto-espana-2030-futbol-herramienta-marca-pais.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-07T05:27:35",
+      "category": "mundial"
+    }
+  ]
+}
