@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-08-09",
+  "scraped_at": "2026-08-09T04:42:10.488305-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "“Hay que estar orgullosos”: Nicolás Tagliafico presumió su medalla de subcampeón del Mundo",
+      "description": "El defensor de Argentina habló durante un stream sobre sus recientes logros con la Albiceleste",
+      "url": "https://www.record.com.mx/historia/hay-que-estar-orgullosos-nicolas-tagliafico-presumio-su-medalla-de-subcampeon-del-mundo-2026080804555650138",
+      "source": "Record.com.mx",
+      "published_at": "2026-08-08T04:55:56Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "\"Dejadle tranquilo\"",
+      "description": "Especialmente tras haber sido testigo de lo que Lionel Messi aún ha sido capaz de hacer en el Mundial de este verano, el presidente de la Asociación del Fútbol Argentino no tiene prisa por ver cómo es",
+      "url": "https://www.mundodeportivo.com/futbol/internacional/20260808/1004214191/hay-dejarlo-tranquilo.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-08-08T05:39:54Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Lionel Messi y la carrera hacia los 1000 goles: la proyección que marca cuántos partidos necesita para alcanzar el hito",
+      "description": "El imparable Lionel Messi regresó a Inter Miami con goles y el contador personal de su carrera empieza a acercarse a los extraordinarios cuatro dígitos. El análisis matemático que determina el margen ",
+      "url": "https://442.perfil.com/noticias/futbol/lionel-messi-y-la-carrera-hacia-los-1000-goles-la-proyeccion-que-marca-cuantos-partidos-necesita-para-alcanzar-el-hito.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-08-07T21:13:45Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Zubimendi y Oyarzabal dan un inicio Mundial a las fiestas de San Sebastián",
+      "description": "El donostiarra y el eibartarra, pero residente en la ciudad, homenajeados por el Ayuntamiento en el comienzo de la Semana Grande",
+      "url": "https://www.marca.com/futbol/real-sociedad/2026/08/09/zubimendi-oyarzabal-dan-inicio-mundial-fiestas-san-sebastian.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-09T07:25:39",
+      "category": "mundial"
+    },
+    {
+      "title": "Inter Miami cae en una noche marcada por el homenaje a Messi tras el fallecimiento de su padre",
+      "description": "Rodrigo De Paul, autor del único tanto, también tuvo una dedicatoria con el astro argentino",
+      "url": "https://www.marca.com/futbol/2026/08/09/inter-miami-cae-noche-marcada-homenaje-messi-fallecimiento-padre.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-09T06:55:42",
+      "category": "seleccion"
+    }
+  ]
+}
