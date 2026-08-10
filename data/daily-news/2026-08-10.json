@@ -1,0 +1,31 @@
+{
+  "scrape_date": "2026-08-10",
+  "scraped_at": "2026-08-10T05:18:17.512181-03:00",
+  "total_news": 3,
+  "news": [
+    {
+      "title": "Leandro Paredes dijo que los jugadores de la selección argentina podrían viajar a Rosario para acompañar a Messi",
+      "description": "El capitán de Boca expresó la intención de algunos integrantes de la albiceleste de acercarse al rosarino para acompañarlo, aunque la visita todavía no está confirmada",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/leandro-paredes-dijo-que-los-jugadores-de-la-seleccion-argentina-podrian-viajar-a-rosario-para-nid08082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-09T02:48:11Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El emotivo video de Lionel Messi con su padre tras ganar la Copa América en el Maracaná",
+      "description": "Se trata de una videollamada que el capitán de la selección argentina tuvo con Jorge Messi en Brasil, tras ganar la competencia; su familia no pudo estar con el jugador porque el torneo se disputó sin",
+      "url": "https://www.lanacion.com.ar/sociedad/el-emotivo-video-de-lionel-messi-con-su-padre-tras-ganar-la-copa-america-en-el-maracana-nid08082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-09T01:16:35Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Murió Jorge Messi, padre de Lionel, a los 68 años",
+      "description": "Jorge Messi nacido en 1958 en la provincia argentina de Santa Fe y fue determinante para la carrera de su hijo Lionel, de quien fue representante y administrador del patrimonio familiar.",
+      "url": "https://aristeguinoticias.com/0808/deportes/murio-jorge-messi-padre-de-lionel-a-los-68-anos/",
+      "source": "Aristeguinoticias.com",
+      "published_at": "2026-08-08T20:32:17Z",
+      "category": "seleccion"
+    }
+  ]
+}
