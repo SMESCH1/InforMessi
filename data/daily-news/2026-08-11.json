@@ -1,0 +1,23 @@
+{
+  "scrape_date": "2026-08-11",
+  "scraped_at": "2026-08-11T04:59:26.401653-03:00",
+  "total_news": 2,
+  "news": [
+    {
+      "title": "Trump, al rescate de Infantino: \"Ha hecho el Mundial más exitoso de la historia\"",
+      "description": "El presidente de EEUU carga las tintas en Truth Social: \"Sería un terrible error reemplazarlo\"",
+      "url": "https://www.marca.com/futbol/2026/08/11/trump-rescate-infantino-hecho-mundial-exitoso-historia.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-11T06:22:41",
+      "category": "mundial"
+    },
+    {
+      "title": "El surrealista y divertido estreno del Pequeño Nicolás como dirigente en el fútbol que deja varias anécdotas: “Sin gatillazo”",
+      "description": "Francisco Nicolás vivió su primer partido oficial como propietario del Deportivo Guadalajara, que eliminó al Toledo tras un 0-0 y una agónica tanda de penaltis<span class=\"\" contenteditable=\"false\" ta",
+      "url": "https://www.marca.com/futbol/mas-futbol/2026/08/11/surrealista-divertido-estreno-pequeno-nicolas-dirigente-futbol-deja-anecdotas-gatillazo.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-11T04:56:49",
+      "category": "general"
+    }
+  ]
+}
