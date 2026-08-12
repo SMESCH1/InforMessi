@@ -1,0 +1,23 @@
+{
+  "scrape_date": "2026-08-12",
+  "scraped_at": "2026-08-12T05:06:42.343386-03:00",
+  "total_news": 2,
+  "news": [
+    {
+      "title": "Diego Forlán asumió como entrenador de la selección de Uruguay y no descartó la vuelta de Luis Suárez",
+      "description": "El exdelantero asumió como interino, en principio, hasta marzo próximo; también se hará cargo del Sub 20",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/diego-forlan-asumio-como-entrenador-de-la-seleccion-de-uruguay-y-no-descarto-la-vuelta-de-luis-nid10082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-10T22:16:15Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El mensaje de Rafa Nadal a Messi por la muerte de su padre",
+      "description": "El extenista español acompañó al capitán argentino en uno de sus momentos más difíciles con unas sentidas palabras publicadas en redes sociales. Leer más",
+      "url": "https://noticias.perfil.com/noticias/deportes/el-mensaje-de-rafa-nadal-a-messi-por-la-muerte-de-su-padre.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-08-10T19:31:43Z",
+      "category": "seleccion"
+    }
+  ]
+}
