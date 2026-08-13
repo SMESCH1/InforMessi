@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-08-13",
+  "scraped_at": "2026-08-13T05:08:17.509247-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "Thiago Almada desmintió que Chiqui Tapia le sugiriera jugar en Boca por sobre River: “No sé de dónde sacaron eso”",
+      "description": "​Thiago Almada habló sobre su llegada a River Plate con elogios a la institución y al Chacho Coudet. El futbolista de la Selección Argentina desmintió que Chiqui Tapia haya condicionado su arribo al c",
+      "url": "https://442.perfil.com/noticias/futbol/thiago-almada-desmintio-que-chiqui-tapia-le-sugiriera-jugar-en-boca-por-sobre-river-no-se-de-donde-sacaron-eso.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-08-11T19:59:56Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La gran fiesta de Tenerife a Pedri tras la gloria mundialista: \"Los sueños se cumplen\"",
+      "description": "La villa de Tegueste se echó a la calle para recibir a su vecino más ilustre. El Ayuntamiento del municipio y el Cabildo de Tenerife brindaron un masivo y emotivo homenaje institucional a Pedro Gonzál",
+      "url": "https://www.mundodeportivo.com/canarias/20260812/1004215329/gran-fiesta-tegueste-pedri-gloria-mundialista-suenos-cumplen.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-08-12T07:45:12Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Messi vuelve a jugar por sorpresa tras la muerte de su padre: \"Nunca había visto eso en mi vida\"",
+      "description": "No pudo evitar la eliminación del Inter Miami de la Leagues Cup tras caer 2-3 ante el León mexicano",
+      "url": "https://www.marca.com/futbol/estados-unidos/2026/08/13/messi-vuelve-jugar-sorpresa-muerte-padre-nunca-habia-visto-mi-vida.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-13T05:50:10",
+      "category": "seleccion"
+    },
+    {
+      "title": "Atlético, único campeón de la Europa League que gana la Supercopa desde 2010... ¡y lo ha hecho tres veces!",
+      "description": "El PSG mantiene la tradición de que se imponga el que haya conquistado la última Champions, pero el equipo rojiblanco ha sido hasta tres veces la excepción para esa regla",
+      "url": "https://www.marca.com/futbol/supercopa-europa/2026/08/12/atletico-unico-campeon-europa-league-gana-supercopa-2010-hecho-tres-veces.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-12T21:18:29",
+      "category": "general"
+    }
+  ]
+}
