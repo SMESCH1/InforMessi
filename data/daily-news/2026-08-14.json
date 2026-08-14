@@ -1,0 +1,23 @@
+{
+  "scrape_date": "2026-08-14",
+  "scraped_at": "2026-08-14T05:04:56.873226-03:00",
+  "total_news": 2,
+  "news": [
+    {
+      "title": "Xavi toma las riendas de la Selección de Países Bajos",
+      "description": "Países Bajos sorprende con el nombramiento de su primer entrenador extranjero en casi 50 años.",
+      "url": "https://www.nacion.com/puro-deporte/xavi-toma-las-riendas-de-la-seleccion-de-paises/S22JPEN7FRHMBOIXEWSINBAVEQ/story/",
+      "source": "Nacion.com",
+      "published_at": "2026-08-12T23:59:08Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Infantino insiste en un Mundial de 64 países en 2030 como maniobra en su búsqueda desesperada de apoyos",
+      "description": "La propuesta, una iniciativa de la Conmebol, recibirá su visto bueno mientras intenta reclutar federaciones que sostengan su presidencia.  Más información: García Silvero, el español que susurra a Inf",
+      "url": "https://www.elespanol.com/deportes/futbol/20260813/infantino-insiste-mundial-paises-maniobra-busqueda-desesperada-apoyos/1003744350647_0.html",
+      "source": "Elespanol.com",
+      "published_at": "2026-08-13T06:19:46Z",
+      "category": "mundial"
+    }
+  ]
+}
