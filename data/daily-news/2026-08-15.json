@@ -1,0 +1,23 @@
+{
+  "scrape_date": "2026-08-15",
+  "scraped_at": "2026-08-15T04:19:05.940572-03:00",
+  "total_news": 2,
+  "news": [
+    {
+      "title": "LaLiga fue el corazón del Mundial",
+      "description": "Arranca una nueva edición de la Primera división española, reforzada por el éxito de sus jugadores en la pasada cita futbolística del verano",
+      "url": "https://www.marca.com/futbol/primera-division/2026/08/15/laliga-corazon-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-15T05:39:31",
+      "category": "mundial"
+    },
+    {
+      "title": "El torneo de los héroes",
+      "description": "Arranca LaLiga con 18 nuevos campeones mundiales mientras el Real Madrid de Mou y el Atlético del Cholo buscan el antídoto al Barça de Flick",
+      "url": "https://www.marca.com/futbol/2026/08/15/torneo-heroes.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-14T22:36:01",
+      "category": "mundial"
+    }
+  ]
+}
