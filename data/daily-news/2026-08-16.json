@@ -1,0 +1,23 @@
+{
+  "scrape_date": "2026-08-16",
+  "scraped_at": "2026-08-16T04:20:35.568581-03:00",
+  "total_news": 2,
+  "news": [
+    {
+      "title": "Radiografía de la Selección Argentina: el destino de cada uno de los 26 subcampeones del mundo",
+      "description": "Pases millonarios, renovaciones estratégicas y regresos de peso al fútbol argentino. Caso por caso, cómo se reconfigura el futuro de los argentinos integrantes de la \"Scaloneta\". Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/radiografia-de-la-seleccion-argentina-el-destino-de-cada-uno-de-los-26-subcampeones-del-mundo.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-08-14T09:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Nashville golea a Inter Miami y Messi falla un penalti",
+      "description": "El campeón de la MLS, que solo ha ganado un partido de sus últimos cinco, entra en crisis",
+      "url": "https://www.marca.com/futbol/estados-unidos/2026/08/16/nashville-golea-inter-miami-messi-falla-penalti.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-16T05:42:04",
+      "category": "seleccion"
+    }
+  ]
+}
