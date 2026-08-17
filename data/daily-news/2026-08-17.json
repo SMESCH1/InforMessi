@@ -1,0 +1,31 @@
+{
+  "scrape_date": "2026-08-17",
+  "scraped_at": "2026-08-17T04:40:21.377941-03:00",
+  "total_news": 3,
+  "news": [
+    {
+      "title": "La FIFA difundió la Ref Cam de la final del Mundial: de los reclamos de Enzo Fernández y Messi al gol de España",
+      "description": "La casa madre del fútbol publicó la grabación de la cámara que portó el árbitro esloveno Slavko Vincic en el partido decisivo de la última Copa del Mundo",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/la-fifa-difundio-la-ref-cam-de-la-final-del-mundial-de-los-reclamos-de-enzo-fernandez-y-messi-al-gol-nid16082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-16T05:09:41Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Nuestro mundial: Córdoba CF",
+      "description": "España es campeona del mundo de fútbol. La selección española también es vigente campeona de Europa. Incluso, tiene la triple corona como brillante medalla de oro de los Juegos Olímpicos. También es c",
+      "url": "https://www.abc.es/espana/andalucia/cordoba/javier-gomez-mundial-cordoba-20260816115526-nts.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-08-16T07:35:32Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Alexander Machado, ex Peñarol, debutó con gol en la victoria de Banfield que incrementó la crisis de Racing",
+      "description": "El futbolista con pasado en Defensor Sporting aprovechó un rebote para estampar el único tanto del encuentro; la Academia del Pacha Espino y Gastón Martirena cosechó su tercera caída al hilo.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/alexander-machado-ex-penarol-debuto-con-gol-en-la-victoria-de-banfield-que-incremento-la-crisis-de-racing",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-08-15T18:53:08Z",
+      "category": "liga"
+    }
+  ]
+}
