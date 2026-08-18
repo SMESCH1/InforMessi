@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-08-18",
+  "scraped_at": "2026-08-18T04:26:16.769274-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "Las Leonas vs. Alemania, por el Mundial 2026: día, horario, TV y cómo ver online",
+      "description": "El partido correspondiente a la segunda fecha del Grupo B se disputará este lunes a las 12 en el Belfius Hockey Arena de Bélgica",
+      "url": "https://www.lanacion.com.ar/deportes/hockey/las-leonas-vs-alemania-por-el-mundial-2026-dia-horario-tv-y-como-ver-online-nid16082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-16T20:41:20Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Así quedó la tabla de posiciones del grupo de los Leones en el Mundial 2026, tras el triunfo vs. Japón",
+      "description": "La selección argentina debutó con una sonrisa y está en el primer puesto de la clasificación junto a Países Bajos, que goleó a Nueva Zelanda",
+      "url": "https://www.lanacion.com.ar/deportes/hockey/asi-quedo-la-tabla-de-posiciones-del-grupo-de-los-leones-en-el-mundial-2026-tras-el-triunfo-vs-japon-nid16082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-16T19:01:52Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Cristiano Ronaldo revela sus planes de retiro: ‘Probablemente este será mi último año en el fútbol’",
+      "description": "Cristiano Ronaldo habló sobre su retiro del futbol y los negocios que le permitirán mantenerse ocupado cuando deje de jugar profesionalmente.",
+      "url": "https://www.elfinanciero.com.mx/deportes/2026/08/16/cristiano-ronaldo-adelanta-que-este-sera-su-ultimo-ano-en-el-futbol/",
+      "source": "El Financiero",
+      "published_at": "2026-08-16T18:56:33Z",
+      "category": "general"
+    },
+    {
+      "title": "Muere a los 36 años la actriz Hayden Panettiere, estrella de las series \"Heroes\" y \"Nashville\"",
+      "description": "La actriz estadounidense Hayden Panettiere, reconocida mundialmente por sus papeles protagónicos en las series de televisión \"Heroes\" y \"Nashville\", falleció...",
+      "url": "https://www.elmundo.es/cultura/cine/2026/08/17/6a82a24c21efa047238b456e.html",
+      "source": "El Mundo",
+      "published_at": "2026-08-17T05:55:44Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Cristiano Ronaldo aseguró que podría retirarse la próxima temporada: “Probablemente este sea mi último año”",
+      "description": "El delantero del Al-Nassr en Arabia Saudita habló sobre sus proyectos futuros una vez que deje el fútbol; “Quiero dejar un legado espectacular”, aseguró",
+      "url": "https://www.lanacion.com.ar/deportes/cristiano-ronaldo-aseguro-que-podria-retirarse-la-proxima-temporada-probablemente-este-sea-mi-ultimo-nid16082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-16T16:57:54Z",
+      "category": "general"
+    },
+    {
+      "title": "Pelea entre entrenadores en Argentina: Guillermo Barros Schelotto y Julio Vaccari acaban a golpes",
+      "description": "",
+      "url": "https://www.marca.com/futbol/america/2026/08/18/pelea-entrenadores-argentina-guillermo-barros-schelotto-julio-vaccari-acaban-golpes-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-18T07:24:23",
+      "category": "seleccion"
+    },
+    {
+      "title": "El dilema de los que se quedan",
+      "description": "La mayoría de los futbolistas prefieren continuar en el Real Madrid pese a intuir o saber ya a ciencia cierta que su papel será residual. Camavinga no es el único caso",
+      "url": "https://www.marca.com/futbol/real-madrid/opinion/2026/08/18/dilema-quedan.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-18T05:08:47",
+      "category": "general"
+    },
+    {
+      "title": "Kevin Lamour, crítico con Infantino, deja su cargo en la FIFA",
+      "description": "El ejecutivo discrepó públicamente con el presidente del la organización",
+      "url": "https://www.marca.com/futbol/2026/08/18/kevin-lamour-critico-infantino-deja-cargo-fifa.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-17T22:13:42",
+      "category": "mundial"
+    }
+  ]
+}
