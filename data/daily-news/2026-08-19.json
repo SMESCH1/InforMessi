@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-08-19",
+  "scraped_at": "2026-08-19T04:27:13.257093-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "El entrenador de la selección de Egipto se desmayó en medio de una pelea entre sus dos esposas",
+      "description": "El cruce se dio en un hotel en el norte del país y derivó en la separación de una de ellas",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/el-entrenador-de-la-seleccion-de-egipto-se-desmayo-en-medio-de-una-pelea-entre-sus-dos-esposas-nid18082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-18T06:28:50Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "A 21 años del debut de Lionel Messi con la selección Argentina",
+      "description": "Un 17 de agosto, pero de 2005, 'la pulga' debutó con el cuadro Albiceleste, marcando el inicio de una era histórica para el futbol internacional.",
+      "url": "https://aristeguinoticias.com/1708/deportes/a-21-anos-del-debut-de-lionel-messi-con-la-seleccion-argentina/",
+      "source": "Aristeguinoticias.com",
+      "published_at": "2026-08-17T21:39:13Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La FIFA despide a su director de operaciones tras calificar el plan de Infantino como \"el proyecto de una sola persona\"",
+      "description": "La FIFA confirmó este lunes que su director de operaciones (Chief Operating Officer), el francés Kevin Lamour, ha dejado el organismo rector del fútbol mundial, apenas unas...",
+      "url": "https://www.elmundo.es/deportes/futbol/2026/08/18/6a8407c4e85ecee8578b4579.html",
+      "source": "El Mundo",
+      "published_at": "2026-08-18T07:26:24Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Cesan al director de operaciones de la FIFA que se había opuesto a privatizar el Mundial",
+      "description": "El francés opositor a la apertura del Mundial a capital privado fue apartado de la cúpula del fútbol global tras denunciar un plan personalista avalado por líderes internacionales",
+      "url": "https://www.elconfidencial.com/deportes/2026-08-18/kevin-lamour-fifa-privatizacion-1tps_4407496/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-08-18T06:40:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Lamour, el crítico de Infantino, carga contra FIFA: \"No hay que hacer lo fácil, sino lo justo\"",
+      "description": "El organismo rector del fútbol mundial anunció su salida el pasado lunes tras criticar al mandatario italiano",
+      "url": "https://www.marca.com/futbol/mundial/2026/08/18/lamour-critico-infantino-carga-fifa-hay-facil-justo.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-18T18:21:11",
+      "category": "mundial"
+    }
+  ]
+}
