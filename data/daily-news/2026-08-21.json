@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-08-21",
+  "scraped_at": "2026-08-21T04:32:21.502813-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "Dónde ver los Leones vs. Nueva Zelanda y qué canal lo transmite en vivo",
+      "description": "El encuentro entre la selección argentina y el combinado neozelandés se disputa este jueves a las 7.30 (horario argentino) en Amstelveen, Países Bajos",
+      "url": "https://www.lanacion.com.ar/deportes/hockey/donde-ver-los-leones-vs-nueva-zelanda-y-que-canal-lo-transmite-en-vivo-nid20082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-20T03:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Los Leones vs. Nueva Zelanda, por el Mundial 2026. día, horario, TV y cómo ver online",
+      "description": "El encuentro entre la selección argentina y el combinado neozelandés se disputa este jueves a las 7.30 (horario argentino) en Amstelveen, Países Bajos",
+      "url": "https://www.lanacion.com.ar/deportes/hockey/los-leones-vs-nueva-zelanda-por-el-mundial-2026-dia-horario-tv-y-como-ver-online-nid19082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-20T01:52:43Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Quién es Cristiano Ronaldo dos Santos Aveiro: edad, récords y carrera",
+      "description": "Cristiano Ronaldo dos Santos Aveiro es un futbolista portugués de 41 años, considerado uno de los mejores de la historia, con cinco Balones de Oro y más de 976 goles en carrera profesional.",
+      "url": "https://culturacolectiva.com/noticias/deportes/quien-es-cristiano-ronaldo-dos-santos-aveiro-15/",
+      "source": "Culturacolectiva.com",
+      "published_at": "2026-08-20T04:17:26Z",
+      "category": "general"
+    },
+    {
+      "title": "Cuando la Serie A vive anclada en el 'día de la marmota': un dato de los banquillos que da que pensar",
+      "description": "Arranca la Serie A bajo la crisis de identidad con la ausencia en el Mundial, el lío de gestión de la FIGC con el seleccionador nuevo y casi los mismos técnicos rotando siempre en los grandes",
+      "url": "https://www.marca.com/futbol/liga-italiana/2026/08/21/serie-vive-anclada-dia-marmota-dato-banquillos-da-pensar.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-21T05:52:40",
+      "category": "mundial"
+    },
+    {
+      "title": "De Jong está empezando a convertirse en un problema",
+      "description": "La lesión con su selección, sus declaraciones, la capitanía...",
+      "url": "https://www.marca.com/futbol/barcelona/2026/08/21/jong-empezando-convertirse-problema.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-21T05:20:18",
+      "category": "seleccion"
+    }
+  ]
+}
