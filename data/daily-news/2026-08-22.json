@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-08-22",
+  "scraped_at": "2026-08-22T04:20:55.566313-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "¿Qué partidos de la Selección Mexicana se transmitirán por Prime Video?",
+      "description": "Los próximos partidos de la Selección Mexicana van a tener una transmisión en la plataforma de streaming.",
+      "url": "https://www.elfinanciero.com.mx/deportes/2026/08/20/que-partidos-de-la-seleccion-mexicana-se-transmitiran-por-prime-video/",
+      "source": "El Financiero",
+      "published_at": "2026-08-20T21:42:14Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La historia detrás de la salida de Enzo Ferrari de Uruguay y quién asumiría en los amistosos de la Celeste",
+      "description": "El entrenador de arqueros no continuará trabajando en la selección mayor y se despidió a través de sus redes: \"Para algunos podría ser un día triste, para mí un momento de tranquilidad y orgullo\".",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/la-historia-detras-de-la-salida-de-enzo-ferrari-de-uruguay-y-quien-asumiria-en-los-amistosos-de-la-celeste",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-08-21T06:20:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La MLS multa a Messi",
+      "description": "La sanción, por un altercado con Quinn Sullivan, jugador de Philadelphia Union, es de una cantidad \"no revelada\"",
+      "url": "https://www.marca.com/futbol/estados-unidos/2026/08/22/mls-multa-messi.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-22T05:52:58",
+      "category": "seleccion"
+    },
+    {
+      "title": "Rodrigo o cómo acercarse de nuevo a la Champions",
+      "description": "El capitán de España puede ser el salto definitivo del Barça para tocar la orejona que no gana desde 2015",
+      "url": "https://www.marca.com/futbol/barcelona/opinion/2026/08/22/rodrigo-acercarse-nuevo-champions.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-22T05:34:27",
+      "category": "general"
+    },
+    {
+      "title": "La siempre revolucionaria Marsella celebra el Mundial de España",
+      "description": "Los 'South Winner' desplegaron una pancarta en la previa del partido donde se leía 'Viva Roja'",
+      "url": "https://www.marca.com/futbol/liga-francesa/2026/08/21/siempre-revolucionaria-marsella-celebra-mundial-espana.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-21T21:49:51",
+      "category": "mundial"
+    },
+    {
+      "title": "Gouiri calma las aguas en un Marsella que tuvo un guiño con España",
+      "description": "Un doblete del atacante francoargelino comandó la goleada contra el Estrasburgo (4-0) en un Velodrome que mostró un tifo en conmemoración al Mundial de 'La Roja'",
+      "url": "https://www.marca.com/futbol/liga-francesa/cronica/2026/08/21/gouri-calma-aguas-marsella-tuvo-guino-espana.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-21T21:06:17",
+      "category": "mundial"
+    },
+    {
+      "title": "Un Córdoba mandón muestra su ADN: jugar, no sentenciar y sufrir",
+      "description": "Víctor Sánchez marcó su primer gol en el fútbol profesional al Girona; la pasada temporada la comenzó en el Móstoles en 3ª RFEF",
+      "url": "https://www.marca.com/futbol/segunda-division/cronica/2026/08/21/cordoba-mandon-muestra-adn-jugar-sentenciar-sufrir.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-21T21:03:50",
+      "category": "general"
+    }
+  ]
+}
