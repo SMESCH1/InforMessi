@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-08-23",
+  "scraped_at": "2026-08-23T04:22:32.322162-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Las Leonas vs. España, por el Mundial 2026: día, horario, TV y cómo ver online",
+      "description": "El encuentro de la segunda ronda está programado para este sábado a las 16 (hora argentina) en el Belfius Hockey Arena de Wavre, Bélgica",
+      "url": "https://www.lanacion.com.ar/deportes/hockey/las-leonas-vs-espana-por-el-mundial-2026-dia-horario-tv-y-como-ver-online-nid21082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-21T17:42:59Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "FIFA multa a Argentina por la pancarta de las Malvinas en el Mundial 2026: ¿Cuánto tendrá que pagar?",
+      "description": "La Asociación del Fútbol Argentino anunció que apelará la sanción, la cual se les impuso tras violar artículos del Código Disciplinario de la FIFA.",
+      "url": "https://www.elfinanciero.com.mx/deportes/2026/08/21/fifa-multa-a-argentina-por-la-pancarta-de-las-malvinas-en-el-mundial-2026/",
+      "source": "El Financiero",
+      "published_at": "2026-08-21T17:32:22Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Diriyah, a la espera de la llegada de Darwin Núñez, consiguió un hecho histórico en el fútbol de Arabia Saudita",
+      "description": "Tras varios rumores de posibles salidas del delantero que supo jugar con la selección uruguaya en el Mundial 2026, finalmente va a continuar en un elenco saudí a préstamo desde Al Hilal.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/diriyah-a-la-espera-de-la-llegada-de-darwin-nunez-consiguio-un-hecho-historico-en-el-futbol-de-arabia-saudita",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-08-21T22:07:12Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Cómo Beckham se convirtió en una máquina de hacer dinero",
+      "description": "David Beckham apareció en las pantallas gigantes del estadio de Atlanta donde se jugaba la semifinal entre Argentina e Inglaterra en el pasado Mundial y la multitud estalló en un inmenso rugido. Estab",
+      "url": "https://www.abc.es/xlsemanal/beckham-la-maquina-de-hacer-dinero-20260817125032-ntrc.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-08-21T10:53:52Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Messi y su 'yo sólo jugaba al fútbol'",
+      "description": "El borde del área, por José Luis Hurtado",
+      "url": "https://www.marca.com/futbol/opinion/2026/08/23/messi-jugaba-futbol.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-23T05:38:27",
+      "category": "seleccion"
+    },
+    {
+      "title": "Se agrava la crisis de Inter Miami: nueva derrota pese al gol de Messi",
+      "description": "Suma dos puntos de los últimos doce en juego",
+      "url": "https://www.marca.com/futbol/estados-unidos/2026/08/23/agrava-crisis-inter-miami-nueva-derrota-pese-gol-messi.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-23T05:19:15",
+      "category": "seleccion"
+    }
+  ]
+}
