@@ -1,0 +1,31 @@
+{
+  "scrape_date": "2026-08-24",
+  "scraped_at": "2026-08-24T04:46:10.027659-03:00",
+  "total_news": 3,
+  "news": [
+    {
+      "title": "Juan Carlos Pallarols hizo una pieza para Lionel Messi que repasa su trayectoria mundialista: “Fueron millones de sueños inspirados”",
+      "description": "Antonela Roccuzzo encargó la obra y envió las seis fotografías que la integran; el artista mostró en redes el proceso de elaboración",
+      "url": "https://www.lanacion.com.ar/sociedad/juan-carlos-pallarols-hizo-una-pieza-para-lionel-messi-que-repasa-su-trayectoria-mundialista-fueron-nid23082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-23T06:39:17Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Así quedó la tabla de posiciones del grupo de las Leonas en el Mundial de hockey 2026, tras la victoria vs. España",
+      "description": "La selección argentina goleó al combinado español y se aseguró un lugar en las semifinales de la Copa del Mundo a falta de una jornada",
+      "url": "https://www.lanacion.com.ar/deportes/hockey/asi-quedo-la-tabla-de-posiciones-del-grupo-de-las-leonas-en-el-mundial-de-hockey-2026-tras-la-nid22082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-22T21:26:13Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Infantino: \"Algunos no necesitan ni quieren que otros crezcan\"",
+      "description": "\"Estoy muy, muy contento con todo el apoyo que recibo aquí\", dice el presidente de la FIFA",
+      "url": "https://www.marca.com/futbol/2026/08/24/infantino-necesitan-quieren-otros-crezcan.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-24T07:41:12",
+      "category": "mundial"
+    }
+  ]
+}
