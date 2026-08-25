@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-08-25",
+  "scraped_at": "2026-08-25T04:32:56.900673-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "Las Leonas vs. Bélgica, por el Mundial 2026: día, horario, TV y cómo ver online",
+      "description": "El partido correspondiente a la segunda fecha del F se disputará este lunes a las 15.30 (hora argentina) en el Belfius Hockey Arena de Wavre",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/las-leonas-vs-belgica-por-el-mundial-2026-dia-horario-tv-y-como-ver-online-nid23082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-23T23:36:05Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Los Leones vs. India, por el Mundial 2026: día, horario, TV y cómo ver online",
+      "description": "El partido correspondiente a la segunda fecha del Grupo E se disputará este lunes a las 9.45 (hora argentina) en el Wagener Hockey Stadium de Amstelveen",
+      "url": "https://www.lanacion.com.ar/deportes/hockey/los-leones-vs-india-por-el-mundial-2026-dia-horario-tv-y-como-ver-online-nid23082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-23T21:56:01Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Doble vara en la FIFA: los antecedentes donde no actuó de oficio ante agresiones explícitas",
+      "description": "Las durísimas sanciones contra la delegación argentina tras la final del Mundial 2026 encendieron el debate por la severidad del organismo. El repaso por dos casos recientes y de alto voltaje donde la",
+      "url": "https://442.perfil.com/noticias/futbol/doble-vara-en-la-fifa-los-antecedentes-donde-no-actuo-de-oficio-ante-agresiones-explicitas.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-08-23T21:25:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El momento en que le aplican a River la regla del Mundial y casi termina en empate de Vélez",
+      "description": "Correa demoró más de diez segundos en salir y Borré debió esperar un minuto para ingresar; además, los hinchas cantaron contra el presidente de la AFA, Claudio “Chiqui” Tapia",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/el-momento-en-que-le-aplican-a-river-la-regla-del-mundial-y-casi-termina-en-empate-de-velez-nid23082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-24T00:17:57Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Valencia - Betis: horario y dónde ver hoy en TV y online el partido de LaLiga EA Sports",
+      "description": "Partido correspondiente a la primera jornada liguera que fue aplazado por los mundialistas",
+      "url": "https://www.marca.com/futbol/primera-division/2026/08/23/valencia-betis-horario-y-donde-ver-hoy-en-tv-y-online-el-partido-de-laliga-ea-sports.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-25T06:42:07",
+      "category": "mundial"
+    }
+  ]
+}
