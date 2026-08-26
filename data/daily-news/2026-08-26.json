@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-08-26",
+  "scraped_at": "2026-08-26T04:34:32.988637-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "Así quedó la tabla de posiciones del grupo de las Leonas en el Mundial de hockey 2026, tras el empate vs. Bélgica",
+      "description": "La selección argentina y el combinado europeo avanzaron a las semifinales porque terminaron en los primeros lugares de la zona F",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/asi-quedo-la-tabla-de-posiciones-del-grupo-de-las-leonas-en-el-mundial-de-hockey-2026-tras-el-empate-nid24082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-24T20:53:17Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Vendido por casi 3 millones de euros el balón con el que Maradona marcó el gol de \"la mano de Dios\"",
+      "description": "Con el Mundial de Estados Unidos entre los recursos más bonitos y especiales del verano de 2026 para todos los españoles, cualquier noticia que nos haga recordar el gol de Ferran y la segunda estrella",
+      "url": "https://www.abc.es/summum/gente-vip/vendido-millones-euros-balon-maradona-marco-gol-20260825134437-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-08-25T07:27:35Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Argentina: goles uruguayos de Mauro Méndez y Michael Santos en Tigre-Central Córdoba",
+      "description": "El equipo de Victoria se impuso 2-1 como local. Méndez abrió el marcador, mientras que el Pelo descontó para la visita en el complemento.",
+      "url": "https://www.montevideo.com.uy/Deportes/Argentina-goles-uruguayos-de-Mauro-Mendez-y-Michael-Santos-en-Tigre-Central-Cordoba-uc972969",
+      "source": "Montevideo.com.uy",
+      "published_at": "2026-08-24T23:28:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "\"Me recuerda al descaro y la cara que tenía Jesé\"",
+      "description": "Con 16 años, Rafa Cruz se ha convertido en la última perla de la cantera canaria",
+      "url": "https://www.marca.com/futbol/las-palmas/2026/08/26/me-recuerda-descaro-cara-tenia-jese.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-26T04:18:36",
+      "category": "seleccion"
+    }
+  ]
+}
