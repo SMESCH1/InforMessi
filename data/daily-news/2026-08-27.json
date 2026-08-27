@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-08-27",
+  "scraped_at": "2026-08-27T14:55:40.815967-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "El trasfondo de Luis Suárez con la selección uruguaya y la reunión que mantendrá con el técnico Diego Forlán",
+      "description": "El Pistolero no mantiene contacto formal con Uruguay desde abril, previo al Mundial de Estados Unidos, México y Canadá. Hay varios temas arriba de la mesa pensando en el futuro.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/el-trasfondo-de-luis-suarez-con-la-seleccion-uruguaya-y-la-reunion-que-mantendra-con-el-tecnico-diego-forlan",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-08-26T14:33:36Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "De ser figura en el Mundial a Europa: San Lorenzo vendió a Orlando Gill al futbol francés",
+      "description": "Tras brillar con la selección de Paraguay en la Copa del Mundo, el arquero Orlando Gill se despidió de San Lorenzo rumbo a la Ligue 1 en una millonaria operación. Su emotivo adiós y la historia de sup",
+      "url": "https://442.perfil.com/noticias/futbol/de-ser-figura-en-el-mundial-a-europa-san-lorenzo-vendio-a-orlando-gill-al-futbol-frances.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-08-26T12:53:19Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Leyendas del fútbol sudamericano dan espaldarazo a Infantino: ¿quiénes lo apoyan?",
+      "description": "El mensaje es contrario al de ciertas estrellas del fútbol europeo, quienes urgieron un \"cambio necesario\" en la presidencia del fútbol mundial.",
+      "url": "https://actualidad.rt.com/actualidad/624316-leyendas-futbol-sudamericano-espaldarazo-infantino",
+      "source": "RT",
+      "published_at": "2026-08-26T16:11:44Z",
+      "category": "mundial"
+    },
+    {
+      "title": "San Lorenzo se refuerza con Farías: del calvario de las graves lesiones a ser compañero de Messi",
+      "description": "El media-punta es una ilusión dentro del alicaído y austero mercado de pases del Ciclón; llega en préstamo desde Estudiantes",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/san-lorenzo-se-refuerza-con-farias-del-calvario-de-las-graves-lesiones-a-ser-companero-de-messi-nid25082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-26T00:25:27Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Betis valora el sorteo: \"Este equipo está preparado para enfrentarse a cualquiera\"",
+      "description": "Ladrón de Guevara, secretario técnico, analiza los rivales de los verdiblancos en la Champions",
+      "url": "https://www.marca.com/futbol/betis/2026/08/27/betis-valora-sorteo-equipo-preparado-enfrentarse-cualquiera.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-27T17:49:40",
+      "category": "general"
+    },
+    {
+      "title": "Gil Marín, sobre el estado de Julián: \"Está realmente mal, hay personas que se han encargado de engañarle y confundirle\"",
+      "description": "El CEO del Atlético atendió a Movistar en el sorteo de la Champions",
+      "url": "https://www.marca.com/futbol/atletico/2026/08/27/gil-marin-sobre-julian-realmente-mal-hay-personas-han-encargado-enganarle-confundirle.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-27T17:32:39",
+      "category": "general"
+    },
+    {
+      "title": "La UEFA confirma que no habrá boicot pero 'invita' a Infantino a no seguir en la FIFA",
+      "description": "El máximo organismo del fútbol europeo confirma que buscaría otro candidato si el actual presidente decide presentarse a la reelección en marzo",
+      "url": "https://www.marca.com/futbol/2026/08/27/uefa-confirma-habra-boicot-invita-infantino-seguir-fifa.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-27T17:26:16",
+      "category": "mundial"
+    },
+    {
+      "title": "De '¿Quién quiere ser millonario?' a enfrentarse al Barça en Champions",
+      "description": "La historia de Valdas Dambrauskas, el técnico del Sabah FK",
+      "url": "https://www.marca.com/futbol/champions-league/2026/08/27/quiere-millonario-enfrentarse-barca-champions.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-27T16:43:06",
+      "category": "general"
+    }
+  ]
+}
