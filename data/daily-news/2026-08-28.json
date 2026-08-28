@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-08-28",
+  "scraped_at": "2026-08-28T16:06:21.822914-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "¡Cambio en las sanciones a los jugadores de Argentina por los incidentes en la final!",
+      "description": "Buenos Aires, 27 ago (EFE).- La Asociación del Fútbol Argentino (AFA) anunció que la FIFA modificó la sanción contra los jugadores de su selección por los incidentes ocurridos en la final del Mundial ",
+      "url": "https://www.mundodeportivo.com/futbol/mundial/20260827/1004220415/cambio-sanciones-jugadores-argentina-incidentes-final.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-08-27T17:25:27Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Selección Argentina: la FIFA aceptó el pedido de la AFA sobre las sanciones del Mundial",
+      "description": "La FIFA avaló la solicitud de la AFA para que los castigos impuestos tras la final del Mundial 2026 puedan cumplirse en amistosos o en el partido oficial que ocurra primero. Pese a la habilitación, la",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/seleccion-argentina-la-fifa-acepto-el-pedido-de-la-afa-sobre-las-sanciones-del-mundial.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-08-27T16:37:31Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Dónde pasan las Leonas vs. Australia y qué canal lo transmite en vivo",
+      "description": "La selección argentina y el combinado australiano se verán las caras este jueves en el Belfius Hockey Arena de Wavre, Bélgica, por un lugar en la final del Mundial",
+      "url": "https://www.lanacion.com.ar/deportes/hockey/donde-pasan-las-leonas-vs-australia-y-que-canal-lo-transmite-en-vivo-nid27082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-27T14:34:48Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La UEFA emprende acciones penales contra Infantino por su intención de privatizar parte del Mundial",
+      "description": "La UEFA inició un proceso penal contra el presidente de la FIFA, Gianni Infantino, por el descartado plan de vender acciones en la Copa del Mundo y otras competiciones.",
+      "url": "https://www.bbc.com/mundo/articles/cdj4338llelo",
+      "source": "BBC News",
+      "published_at": "2026-08-27T18:45:32Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Quién es Lamine Yamal Nasraoui Ebana: edad, récords y por qué todos hablan de él",
+      "description": "Lamine Yamal tiene 19 años y es el extremo derecho del FC Barcelona y la selección española. Ganó la Eurocopa 2024 y el Mundial 2026 antes de cumplir 20 años, algo que ningún jugador había logrado ant",
+      "url": "https://culturacolectiva.com/noticias/deportes/quien-es-lamine-yamal-nasraoui-ebana-3/",
+      "source": "Culturacolectiva.com",
+      "published_at": "2026-08-27T03:17:15Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Louzán y De la Fuente visitarán Ceuta para mostrar el apoyo del fútbol español",
+      "description": "El presidente de la RFEF y el seleccionador estarán en la ciudad autónoma, inmersa en plena crisis migratoria, el viernes 4 de septiembre",
+      "url": "https://www.marca.com/futbol/2026/08/28/louzan-fuente-visitaran-ceuta-mostrar-apoyo-futbol-espanol.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-28T17:57:19",
+      "category": "general"
+    }
+  ]
+}
