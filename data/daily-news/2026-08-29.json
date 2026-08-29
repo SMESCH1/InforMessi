@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-08-29",
+  "scraped_at": "2026-08-29T09:50:53.284452-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "A qué hora juegan los Leones hoy",
+      "description": "La selección argentina y Alemania se enfrentan este viernes en el Belfius Hockey Arena de Wavre, Bélgica, con transmisión de ESPN 2 y Disney+ Premium",
+      "url": "https://www.lanacion.com.ar/deportes/hockey/a-que-hora-juegan-los-leones-hoy-nid28082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-28T12:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Revelan posible nuevo destino del 'Dibu' Martínez tras perder la final del Mundial",
+      "description": "",
+      "url": "https://actualidad.rt.com/actualidad/624644-revelan-nuevo-destino-dibu-martinez",
+      "source": "RT",
+      "published_at": "2026-08-28T09:29:48Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El Betis arranca la Fase de Liga de la Champions en Francia contra el Lille y la cierra en Alemania ante el Bayern",
+      "description": "El técnico da mucho valor al triunfo de su equipo sin tres de sus titulares Gayá, Folquier y Rioja que no jugaron por acumulación de amarillas",
+      "url": "https://www.marca.com/futbol/betis/2026/08/29/betis-arranca-fase-liga-champions-francia-lille-cierra-alemania-bayern.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-29T11:37:44",
+      "category": "general"
+    },
+    {
+      "title": "Mourinho reclama el Balón de Oro para Mbappé",
+      "description": "\"Sabemos quién ha hecho historia este verano y no es del PSG ni de la selección española\"",
+      "url": "https://www.marca.com/futbol/real-madrid/2026/08/29/mourinho-reclama-balon-oro-mbappe.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-29T10:43:31",
+      "category": "seleccion"
+    }
+  ]
+}
