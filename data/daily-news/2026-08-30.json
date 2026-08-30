@@ -1,0 +1,79 @@
+{
+  "scrape_date": "2026-08-30",
+  "scraped_at": "2026-08-30T09:19:43.180608-03:00",
+  "total_news": 9,
+  "news": [
+    {
+      "title": "En qué canal pasan las Leonas vs. Países Bajos, por la final del Mundial de hockey 2026",
+      "description": "El encuentro definitorio entre la selección argentina y el tricampeón en ejercicio se disputa este sábado a las 11 (horario argentino) en Amstelveen",
+      "url": "https://www.lanacion.com.ar/deportes/hockey/en-que-canal-pasan-las-leonas-vs-paises-bajos-por-la-final-del-mundial-de-hockey-2026-nid29082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-29T11:39:32Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "A qué hora juegan las Leonas hoy",
+      "description": "La selección argentina y Países Bajos se enfrentan este sábado en el Wagener Hockey Stadium de Amstelveen, con transmisión de ESPN 2 y Disney+ Premium",
+      "url": "https://www.lanacion.com.ar/deportes/hockey/a-que-hora-juegan-las-leonas-hoy-nid29082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-29T11:23:15Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Leandro Paredes opinó sobre la sanción que le impuso la FIFA y señaló a Gavi: “Él es el que me da la piña”",
+      "description": "El capitán de Boca y volante de la selección argentina consideró como “exagerada” la suspensión por 10 partidos que definió la Comisión Disciplinaria tras los disturbios ocurridos en la final del Mund",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/leandro-paredes-opino-sobre-la-sancion-que-le-impuso-la-fifa-y-senalo-a-gavi-el-es-el-que-me-da-la-nid29082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-29T06:50:01Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Las Leonas y la batalla final en Amstelveen: el choque ante Países Bajos que romperá medio siglo de paridad",
+      "description": "Cuatro finales mundialistas disputadas y un balance perfecto de dos trofeos para cada uno: el quinto capítulo entre Argentina y Países Bajos consagrará a la reina absoluta. Leer más",
+      "url": "https://442.perfil.com/noticias/hockey/las-leonas-y-la-batalla-final-en-amstelveen-el-choque-ante-paises-bajos-que-rompera-medio-siglo-de-paridad.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-08-29T09:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Anuncian al cuerpo técnico de Rafa Márquez con la selección mexicana",
+      "description": "Juan Manuel Lillo, Vidal Paloma, Andrés Guardado, Xabier Mancisidor y Pol Lorente serán los nuevos colaboradores del 'Kaiser' de cara al proceso mundialista del 2030.",
+      "url": "https://aristeguinoticias.com/2808/deportes/anuncian-al-cuerpo-tecnico-de-rafa-marquez-con-la-seleccion-mexicana/",
+      "source": "Aristeguinoticias.com",
+      "published_at": "2026-08-28T19:55:01Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Rafa Leao “rechaza” al Aston Villa y ficha por Galatasaray",
+      "description": "Abandona el Milan después de siete temporadas por 38 millones de euros",
+      "url": "https://www.marca.com/futbol/liga-italiana/2026/08/30/rafa-leao-rechaza-aston-villa-ficha-galatasaray.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-30T11:26:16",
+      "category": "seleccion"
+    },
+    {
+      "title": "¡Hasta siempre, Rafa! El AC Milan despide a Leão antes de su marcha al Galatasaray",
+      "description": "",
+      "url": "https://www.marca.com/futbol/liga-italiana/2026/08/30/siempre-rafa-ac-milan-despide-leao-marcha-galatasaray-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-30T10:47:26",
+      "category": "seleccion"
+    },
+    {
+      "title": "Grecia es una mina: “Son el futuro del país”",
+      "description": "Ha habido 20 traspasos de jugadores griegos este verano y han movido cerca de 160 millones de euros • No acuden a un gran torneo de selecciones desde el Mundial 2014",
+      "url": "https://www.marca.com/futbol/2026/08/30/grecia-mina-son-futuro-pais.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-30T05:32:44",
+      "category": "mundial"
+    },
+    {
+      "title": "Los entresijos del mundo de las agencias de representación: ¿minas de oro desconocidas?, “competencia desleal” y el “mito” de las comisiones",
+      "description": "MARCA habla con varias de las agencias de futbolistas más importantes a nivel mundial y nacional para saber cómo trabajan, sus relaciones con el jugador, sus responsabilidades en casos como el de Juli",
+      "url": "https://www.marca.com/futbol/2026/08/30/entresijos-mundo-agencias-representacion-minas-oro-desconocidas-competencia-desleal-mito-comisiones.html",
+      "source": "Fútbol",
+      "published_at": "2026-08-30T05:17:17",
+      "category": "mundial"
+    }
+  ]
+}
