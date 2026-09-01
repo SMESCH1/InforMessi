@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-09-01",
+  "scraped_at": "2026-09-01T09:08:34.724485-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "Las Leonas revolucionaron Ezeiza en su regreso a Argentina: emotivo recibimiento tras ganar el Mundial de Hockey",
+      "description": "La Selección Argentina de Hockey femenino desató una fiesta en su regreso al país y celebraron con la copa del mundo junto al público que se acercó al aeropuerto de Ezeiza en gran número para recibirl",
+      "url": "https://442.perfil.com/noticias/hockey/las-leonas-revolucionaron-ezeiza-en-su-regreso-a-argentina-emotivo-recibimiento-tras-ganar-el-mundial-de-hockey.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-08-31T10:34:42Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "\"Me parece exagerada\": Paredes se queja de que su sanción fuera superior a la de Gavi",
+      "description": "El mediocampista argentino apuntó contra el español por lo ocurrido en la Final del mundial",
+      "url": "https://www.record.com.mx/historia/me-parece-exagerada-paredes-se-queja-de-que-su-sancion-fuera-superior-a-la-de-gavi-2026083021405999979",
+      "source": "Record.com.mx",
+      "published_at": "2026-08-30T21:40:59Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La Bundesliga 2026-27: lo que hay que saber en el arranque de la nueva temporada",
+      "description": "Desde fechas clave hasta jóvenes promesas y nuevas reglas: repasa todo lo que hay que saber sobre la nueva temporada de la Bundesliga, que comenzó con fuerza.",
+      "url": "https://www.dw.com/es/la-bundesliga-2026-27-lo-que-hay-que-saber-en-el-arranque-de-la-nueva-temporada/a-78551522",
+      "source": "DW (English)",
+      "published_at": "2026-08-31T08:22:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Giráldez ya ha utilizado a 20 futbolistas",
+      "description": "Radu es el único que ha disputado todos los minutos",
+      "url": "https://www.marca.com/futbol/celta/2026/09/01/giraldez-utilizado-20-futbolistas.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-01T10:10:48",
+      "category": "general"
+    },
+    {
+      "title": "Mourinho también reacciona a la retirada de Messi de la Selección: \"Brillante e inolvidable\"",
+      "description": "El técnico luso se unió a los mensajes de reconocimiento al astro argentino",
+      "url": "https://www.marca.com/futbol/argentina/2026/09/01/mourinho-tambien-reacciona-retirada-messi-seleccion-brillante-e-inolvidable.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-01T07:59:55",
+      "category": "seleccion"
+    }
+  ]
+}
