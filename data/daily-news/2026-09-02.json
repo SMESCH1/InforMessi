@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-09-02",
+  "scraped_at": "2026-09-02T08:46:20.371072-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "Recordando la Copa América perdida ante Chile: el recorrido audiovisual de Lionel Messi tras su retiro de Argentina",
+      "description": "Este lunes el delantero realizó el anuncio a través de sus redes sociales. En la misma plataforma compartió lo que ha sido su vida defendiendo a la Albiceleste.",
+      "url": "https://www.latercera.com/el-deportivo/noticia/recordando-la-copa-america-perdida-ante-chile-el-recorrido-audiovisual-de-lionel-messi-tras-su-retiro-de-argentina/",
+      "source": "Latercera.com",
+      "published_at": "2026-09-01T11:16:16Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Fin de una era histórica: Lionel Messi se retira de la Albiceleste",
+      "description": "Lionel Messi escribió su adiós a la selección argentina de puño y letra sobre tres hojas de una libreta rayada. Un texto sin fecha en el papel, pero estampado en el alma el pasado 21 de julio, dos día",
+      "url": "https://www.jornada.com.mx/2026/09/01/deportes/a10n1dep",
+      "source": "Jornada.com.mx",
+      "published_at": "2026-09-01T09:25:14Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Jorge D'Alessandro, sobre la retirada de Messi de la selección: \"En el fútbol hay un eclipse total\"",
+      "description": "Tras más de dos décadas con la Albiceleste, el delantero se despide a los 39 años, después de haber disputado la final del Mundial de 2026 y completado una trayectoria inigualable",
+      "url": "https://www.elconfidencial.com/deportes/futbol/2026-09-01/jorge-dalessandro-retirada-messi-seleccion-1qrt_4415688/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-09-01T08:02:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Álvaro Morales, comentarista mexicano, y su insólito descargo contra Messi después de su retiro de Argentina: “Quedó a deber”",
+      "description": "Conoce la crítica de Álvaro Morales a Messi tras su retiro de la Selección Argentina y qué dijo sobre su legado, sus títulos y los penales.",
+      "url": "https://www.lanacion.com.ar/estados-unidos/alvaro-morales-comentarista-mexicano-y-su-insolito-descargo-contra-messi-despues-de-su-retiro-de-nid31082026/",
+      "source": "La Nacion",
+      "published_at": "2026-08-31T19:00:50Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Los futbolistas que más veces han reventado la banca en el planeta fútbol",
+      "description": "El estratosférico fichaje de Enzo Fernández por el Manchester City ha colocado al centrocampista argentino en la tercera posición de 'cracks' que más dinero han movido con sus traspasos , aquí os deja",
+      "url": "https://www.marca.com/futbol/album/2026/09/02/futbolistas-veces-han-reventado-banca-planeta-futbol.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-02T09:50:22",
+      "category": "general"
+    }
+  ]
+}
