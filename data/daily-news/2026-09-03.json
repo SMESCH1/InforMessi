@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-09-03",
+  "scraped_at": "2026-09-03T08:46:20.913391-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "¿Lionel Messi a Boca Juniors? Esto dijo Juan Román Riquelme",
+      "description": "El presidente de Boca Juniors habló sobre la posibilidad de que Lionel Messi llegue al Xeneize",
+      "url": "https://www.record.com.mx/historia/lionel-messi-a-boca-juniors-esto-dijo-juan-roman-riquelme-2026090202374606778",
+      "source": "Record.com.mx",
+      "published_at": "2026-09-02T02:37:46Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Anuncio de Francia sobre Zidane",
+      "description": "La era de Zinedine Zidane como seleccionador de Francia ya está en marcha y tiene una primera fecha señalada con mayúsculas en el calendario. Así, la Federación de Fútbol de dicho país (FFF) hizo públ",
+      "url": "https://www.mundodeportivo.com/futbol/uefa-nations-league/20260902/1004222533/anuncio-francia-sobre-zidane.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-09-02T10:50:50Z",
+      "category": "general"
+    },
+    {
+      "title": "Los desafíos deportivos que Lionel Messi tiene por delante y sus posibles contactos con el Fútbol Argentino",
+      "description": "Lionel Messi sacudió todo al anunciar su retiro de la Selección Argentina, pero seguirá regalando su talento a nivel clubes. Con contrato vigente, cuáles son los desafíos que tiene por delante y qué p",
+      "url": "https://442.perfil.com/noticias/futbol/los-desafios-deportivos-que-lionel-messi-tiene-por-delante-y-sus-posibles-contactos-con-el-futbol-argentino.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-01T21:30:27Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El único jugador de Argentina que miró a España levantar la Copa del Mundo: \"Es el hecho de ser respetuoso\"",
+      "description": "“Creo que en ese momento necesitaba mirar porque yo también quiero volver allí algún día y lograr ganar\", dijo el Flaco López",
+      "url": "https://www.marca.com/futbol/mundial/2026/09/03/unico-jugador-argentina-miro-espana-levantar-copa-mundo-hecho-respetuoso.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-03T11:44:54",
+      "category": "seleccion"
+    },
+    {
+      "title": "Estafan 25.000 euros en Cantabria con un software malicioso con promesa de fútbol gratis",
+      "description": "Incremento en la difusión de enlaces fraudulentos a través de redes sociales",
+      "url": "https://www.marca.com/futbol/2026/09/03/estafan-25-000-euros-cantabria-software-malicioso-promesa-futbol-gratis.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-03T10:16:01",
+      "category": "seleccion"
+    },
+    {
+      "title": "\"La 10 post Messi, si Scaloni sigue siendo el seleccionador de Argentina, será para Nico Paz\"",
+      "description": "",
+      "url": "https://www.marca.com/futbol/argentina/2026/09/03/10-post-messi-scaloni-sigue-siendo-seleccionador-argentina-sera-nico-paz-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-03T07:59:31",
+      "category": "seleccion"
+    }
+  ]
+}
