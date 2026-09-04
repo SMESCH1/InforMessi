@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-09-04",
+  "scraped_at": "2026-09-04T08:47:37.984855-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "El futbol argentino rinde homenaje a Messi tras anunciar su retiro de la Selección Argentina",
+      "description": "El encuentro entre Vélez y Boca Juniors se detuvo un minuto",
+      "url": "https://www.record.com.mx/historia/el-futbol-argentino-rinde-homenaje-a-messi-tras-anunciar-su-retiro-de-la-seleccion-argentina-2026090304554031022",
+      "source": "Record.com.mx",
+      "published_at": "2026-09-03T04:55:40Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Ghana vuelve a nombrar entrenador a Carlos Queiroz",
+      "description": "El portugués Carlos Queiroz, de 73 años, fue nombrado de nuevo como seleccionador de Ghana, apenas un mes después de haberse despedido de las Estrellas Negras tras liderar al combinado ghanés durante ",
+      "url": "https://www.mundodeportivo.com/futbol/internacional/20260903/1004222825/ghana-vuelve-nombrar-entrenador-carlos-queiroz.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-09-03T07:19:05Z",
+      "category": "general"
+    },
+    {
+      "title": "El particular homenaje que todos los clubes argentinos le rendirán a Messi tras su retiro",
+      "description": "La AFA dispuso una medida para reconocer al histórico capitán en los partidos de todas las categorías y disciplinas del fútbol nacional.",
+      "url": "https://actualidad.rt.com/actualidad/625611-particular-homenaje-clubes-argentinos-messi",
+      "source": "RT",
+      "published_at": "2026-09-02T21:11:12Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Bernat: \"Entrenar con Messi es una barbaridad; no creo que vayamos a ver a otro como él\"",
+      "description": "El valenciano, tras pasar varias veces por quirófano, busca en el Eibar recuperar su mejor nivel tras una carrera brillante en Bayern y PSG",
+      "url": "https://www.marca.com/futbol/eibar/2026/09/04/entrenar-messi-barbaridad-volver-ver-nadie-igual.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-04T11:00:44",
+      "category": "seleccion"
+    }
+  ]
+}
