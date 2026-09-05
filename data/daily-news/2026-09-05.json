@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-09-05",
+  "scraped_at": "2026-09-05T07:57:47.020599-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "El ambicioso plan de AFA para la Selección Argentina en la Fecha FIFA de septiembre: ¿Despedida a Lionel Messi?",
+      "description": "La Selección Argentina retomará su agenda durante este mes de septiembre y saldrá a la cancha por primera vez desde la Final del Mundial 2026. AFA cambió los planes tras el anuncio de Lionel Messi, y ",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/seleccion-argentina-lionel-messi-ambicioso-plante-de-afa-para-la-fecha-fifa.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-03T21:20:51Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Galarza Fonda, de una apuesta que no funcionó en River a compañero de Messi después de destacarse en el Mundial",
+      "description": "El paraguayo fue anunciado en EE. UU. tras un ciclo de apenas 14 partidos en Núñez y un final conflictivo; todavía quedan dos jugadores apartados en Cantilo",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/galarza-fonda-de-una-apuesta-que-no-funciono-en-river-a-companero-de-messi-despues-de-destacarse-en-nid03092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-03T20:20:22Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El comentado mensaje de Ferran Torres a Marcos Llorente tras su adiós a la Selección",
+      "description": "Tras un verano en el que su amistad estuvo en el foco, Ferran reacciona al inesperado adiós de Llorente, arropado también por el \"orgullo infinito\" de su mujer, Paddy",
+      "url": "https://www.hola.com/actualidad/20260904921635/marcos-llorente-adios-seleccion-mensaje-ferran-torres/",
+      "source": "Hola",
+      "published_at": "2026-09-04T07:39:48Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Enzo Fernández, un molde de crack de los pies a la cabeza y de la cabeza a los pies",
+      "description": "Protagonizó el pase más valioso del verano europeo, pero eso no lo conmueve: su progreso todavía no tiene techo y su nombre será el pilar de la nueva selección",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/enzo-fernandez-un-molde-de-crack-de-los-pies-a-la-cabeza-y-de-la-cabeza-a-los-pies-nid04092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-04T10:10:29Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Vozinha, el único que dejó a cero a España, debuta con Colo Colo",
+      "description": "El portero caboverdiano que lo paró todo en el Mundial, arranca en la Liga chilena a sus 40 años",
+      "url": "https://www.marca.com/futbol/2026/09/05/vozinha-unico-dejo-cero-espana-debuta-colo-colo.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-05T08:56:11",
+      "category": "mundial"
+    }
+  ]
+}
