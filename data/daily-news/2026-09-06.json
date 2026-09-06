@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-09-06",
+  "scraped_at": "2026-09-06T08:23:23.836535-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "A los Pumas no les quedan muchas pruebas de cara al Mundial: todo lo que se juegan ante Australia",
+      "description": "La selección argentina, que viene de perder en Jujuy ante el mismo rival y en una discreta actuación, disputará su último partido de local en el año. Una oportunidad para varios jugadores",
+      "url": "https://www.lanacion.com.ar/deportes/rugby/a-los-pumas-no-les-quedan-muchas-pruebas-de-cara-al-mundial-todo-lo-que-se-juegan-ante-australia-nid05092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-05T11:03:14Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "México vs. Benín EN VIVO HOY: ¿Dónde ver el debut de la Selección en el Mundial Femenil Sub-20?",
+      "description": "La Selección Mexicana Femenil Sub-20 debuta ante Benín en la Copa Mundial de Polonia 2026. Revisa la hora del partido, canales de transmisión, jugadoras convocadas y calendario del Grupo A.",
+      "url": "https://www.elfinanciero.com.mx/deportes/2026/09/05/mexico-vs-benin-en-vivo-resultado-mundial-femenil-sub-20-2026/",
+      "source": "El Financiero",
+      "published_at": "2026-09-05T11:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Madrid vuelve al trabajo con tres novedades",
+      "description": "Tchouaméni, Endrick y Thiago Pitarch se reincorporaron al grupo en la penúltima sesión antes de recibir al Inter en el estreno de Champions",
+      "url": "https://www.marca.com/futbol/real-madrid/2026/09/06/madrid-vuelve-trabajo-tres-novedades.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-06T10:37:18",
+      "category": "general"
+    },
+    {
+      "title": "Gimnasia Mendoza vs Boca Juniors, pausa en el minuto diez para rendir homenaje a Lionel Messi",
+      "description": "",
+      "url": "https://www.marca.com/futbol/argentina/2026/09/06/gimnasia-mendoza-vs-boca-juniors-pausa-minuto-diez-rendir-homenaje-lionel-mess-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-06T08:59:11",
+      "category": "seleccion"
+    },
+    {
+      "title": "Elliott persigue la estela de Gordon",
+      "description": "Compañeros de la selección inglesa sub 21, el jugador del Barcelona llega a la Liga como estrella • El valencianista batía récords de precocidad, pero le falta consolidarse",
+      "url": "https://www.marca.com/futbol/primera-division/2026/09/06/elliott-persigue-estela-gordon.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-06T05:50:36",
+      "category": "seleccion"
+    }
+  ]
+}
