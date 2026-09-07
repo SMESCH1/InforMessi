@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-09-07",
+  "scraped_at": "2026-09-07T10:04:13.281609-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "México empata 2-2 con Benín en su debut en el Mundial Sub-20 Femenil",
+      "description": "Las desconcentraciones empañaron el debut de México en el Mundial Sub-20 Femenil. Las tricolores dejaron escapar una ventaja de hasta dos tantos en el marcador para terminar con un inesperado empate p",
+      "url": "https://www.jornada.com.mx/2026/09/06/deportes/a09n2dep",
+      "source": "Jornada.com.mx",
+      "published_at": "2026-09-06T08:12:52Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Campeones del mundo en Uruguay: los que jugaron, los que dirigieron y los que estuvieron cerca",
+      "description": "De futbolistas que ganaron un Mundial a los entrenadores que arribaron a nuestro fútbol para dirigir pasando por lo que casi sacuden el mercado y no llegaron.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/campeones-del-mundo-en-uruguay-los-que-jugaron-los-que-dirigieron-y-los-que-estuvieron-cerca",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-09-06T06:40:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Argentina busca a su nuevo dios del fútbol: el legado de Maradona y Messi continúa",
+      "description": "En septiembre de 2005, hace exactamente dos décadas y un año, Diego Armando Maradona había vuelto a resucitar. Después de varias muertes -algunas mediáticas y otras vertiginosamente cercanas a la real",
+      "url": "https://www.abc.es/deportes/futbol/argentina-busca-nuevo-dios-futbol-legado-maradona-20260906014915-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-09-05T23:49:15Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Vélez se quejó ante la AFA: pidió que le den por perdido el partido a Boca y que sea descalificado de la Copa Argentina",
+      "description": "La dirigencia del \"Fortín\" realizó una presentación formal ante el Tribunal de Disciplina denunciando que el \"Xeneize\" incluyó a seis futbolistas extranjeros en la planilla del partido disputado en oc",
+      "url": "https://442.perfil.com/noticias/futbol/velez-se-quejo-ante-la-afa-pidio-que-le-den-por-perdido-el-partido-a-boca-y-que-sea-descalificado-de-la-copa-argentina.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-05T17:55:57Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Atlético se prepara para la Champions... y Julián Álvarez ya sonríe",
+      "description": "Los jugadores del Atlético de Madrid posaron para la UEFA incluidas todas sus estrellas.",
+      "url": "https://www.marca.com/futbol/atletico/album/2026/09/07/atletico-prepara-champions-julian-sonrie.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-07T12:52:30",
+      "category": "general"
+    },
+    {
+      "title": "Mbappé y la rebelión de las estrellas contra el 'patrocinador obligado': una guerra que inició LeBron",
+      "description": "El delantero francés apartó una botella de bebida isotónica durante la rueda de prensa previa de Champions en un gesto que recuerda al de Cristiano Ronaldo",
+      "url": "https://www.marca.com/futbol/2026/09/07/mbappe-rebelion-estrellas-patrocinador-obligado-guerra-inicio-lebron.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-07T12:49:29",
+      "category": "general"
+    }
+  ]
+}
