@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-09-08",
+  "scraped_at": "2026-09-08T08:47:35.069820-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "River Plate le dedica Monumental homenaje a Messi",
+      "description": "El estadio fue colmado con el tributo por el respetable",
+      "url": "https://www.record.com.mx/historia/river-plate-le-dedica-monumental-homenaje-a-messi-2026090701563591460",
+      "source": "Record.com.mx",
+      "published_at": "2026-09-07T01:56:35Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Miss Argentina sorprende en Miss Mundo 2026 con vestido en homenaje a Lionel Messi",
+      "description": "Alina Luz Akselrad fue una de las más aclamadas en el certamen de belleza",
+      "url": "https://www.record.com.mx/historia/miss-argentina-sorprende-en-miss-mundo-2026-con-vestido-en-homenaje-a-lionel-messi-2026090618405322907",
+      "source": "Record.com.mx",
+      "published_at": "2026-09-06T18:40:53Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Kompany se cuela en la fiesta española a Mejor Entrenador del año",
+      "description": "Luis Enrique, Luis de la Fuente, Mikel Arteta y Unai Emery son cuatro de los cinco nominados a mejor técnico para el Balón de Oro 2026",
+      "url": "https://www.marca.com/futbol/balon-oro/2026/09/08/kompany-cuela-fiesta-espanol-mejor-entrenador-ano.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-08T10:34:37",
+      "category": "mundial"
+    },
+    {
+      "title": "Canales no llegará a tiempo ante el Elche y Terzic se queda sin Vivian hasta después de la ventana FIFA",
+      "description": "El fantasma de la temporada 2028/19 se apodera del entorno viendo a su equipo incapaz de mejorar",
+      "url": "https://www.marca.com/futbol/athletic/2026/09/08/canales-llegara-elche-terzic-dispondra-vivian-despues-ventana-fifa.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-08T09:52:50",
+      "category": "mundial"
+    },
+    {
+      "title": "Diez 'joyas' que pueden dar el pelotazo en Champions: Nico Paz, Manzambi, Karetsas, Godts, Karl...",
+      "description": "Analizamos a 10 jóvenes promesas de 10 equipos (distintos) de fuera de LaLiga",
+      "url": "https://www.marca.com/futbol/champions-league/2026/09/08/diez-joyas-dar-pelotazo-champions-nico-paz-manzambi-karetsas-godts-karl.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-08T08:42:13",
+      "category": "general"
+    },
+    {
+      "title": "Joaquín: \"Nos vienen recuerdos muy bonitos de la Champions de 2005\"",
+      "description": "El técnico da mucho valor al triunfo de su equipo sin tres de sus titulares Gayá, Folquier y Rioja que no jugaron por acumulación de amarillas",
+      "url": "https://www.marca.com/futbol/betis/2026/09/08/joaquin-vienen-recuerdos-bonitos-champions-2005.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-08T08:15:47",
+      "category": "general"
+    }
+  ]
+}
