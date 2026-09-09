@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-09-09",
+  "scraped_at": "2026-09-09T08:59:48.914434-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "Claudio Borghi y el futuro sin Messi: “Va a ser difícil, como fue difícil después de Diego...”",
+      "description": "Radicado hace más de tres décadas en Chile, “Bichi” analiza a la selección argentina, recuerda a Maradona, reivindica a Bilardo, le agradece a Pizzi y se sorprende con... Faustino Oro",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/claudio-borghi-y-el-futuro-sin-messi-va-a-ser-dificil-como-fue-dificil-despues-de-diego-nid08092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-08T11:09:06Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Canciller ruso revela con qué equipo iba en el Mundial de fútbol 2026",
+      "description": "",
+      "url": "https://actualidad.rt.com/actualidad/626494-canciller-ruso-revelar-mundial",
+      "source": "RT",
+      "published_at": "2026-09-08T07:09:22Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Cata Coll, nominada al Balón de Oro como mejor guardameta de 2026",
+      "description": "La guardameta balear del FC Barcelona y de la selección española, Cata Coll, vuelve a estar entre las mejores. La portera ha sido incluida en la lista de cinco nominadas al premio a mejor guardameta d",
+      "url": "https://www.mundodeportivo.com/futbol/femenino/20260908/1004224750/cata-coll-nominada-balon-oro-mejor-guardameta-2026.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-09-08T11:46:48Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Copa Argentina: AFA puso fecha para el fallo por la protesta de Vélez contra Boca",
+      "description": "El presidente de Vélez, Fabián Berlanga, confirmó la fecha en la que el Tribunal de Disciplina se expedirá sobre la presunta mala inclusión de futbolistas extranjeros, en medio de la controversia regl",
+      "url": "https://442.perfil.com/noticias/futbol/copa-argentina-afa-puso-fecha-para-el-fallo-por-la-protesta-de-velez-contra-boca.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-08T02:27:31Z",
+      "category": "seleccion"
+    }
+  ]
+}
