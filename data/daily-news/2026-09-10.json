@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-09-10",
+  "scraped_at": "2026-09-10T08:53:25.133415-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "De la Fuente, sobre la final del Mundial entre España y Argentina: \"Cuando estás 0-0 o 1-0, puede pasar de todo\"",
+      "description": "El técnico asegura que España sintió el partido controlado en todo momento, aunque reconoce que ante Argentina no podían relajarse hasta el pitido final",
+      "url": "https://www.elconfidencial.com/deportes/futbol/2026-09-09/luis-de-la-fuente-seleccionador-espanol_4420485/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-09-09T11:46:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Francia, la última Federación que no apoya la reelección de Infantino",
+      "description": "La Federación de Fútbol de Francia se une a otros organismos que han retirado el respaldo al todavía presidente de la FIFA",
+      "url": "https://www.marca.com/futbol/2026/09/10/francia-ultima-federacion-apoya-reeleccion-infantino.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-10T11:47:54",
+      "category": "mundial"
+    },
+    {
+      "title": "España - Nueva Caledonia, en directo | La segunda fecha del Mundial Sub 20 femenino, en vivo",
+      "description": "Sigue en vivo y en directo el España - Nueva Caledonia de la segunda jornada del Mundial Sub 20 femenino",
+      "url": "https://www.marca.com/futbol/futbol-femenino/seleccion/2026/09/10/6aa280056c283cdca8e21712.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-10T11:34:42",
+      "category": "mundial"
+    },
+    {
+      "title": "Un Atlético en construcción... de una obra ilusionante",
+      "description": "El gol en Anfield, tras un minuto y medio de posesión y 22 pases, marca el camino de lo que persigue Simeone Dejar de 'regalar' goles y 'recuperar' a los mundialistas, premisas para crecer",
+      "url": "https://www.marca.com/futbol/atletico/2026/09/10/atletico-construccion-obra-ilusionante.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-10T10:03:37",
+      "category": "mundial"
+    },
+    {
+      "title": "Ancelotti confecciona su primera lista del Brasil post-Neymar",
+      "description": "El técnico italiano cuenta con Raphinha y Vini como grandes referencias de la selección brasileña",
+      "url": "https://www.marca.com/futbol/2026/09/10/ancelotti-confecciona-primera-lista-brasil-post-neymar.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-10T08:45:38",
+      "category": "seleccion"
+    },
+    {
+      "title": "El hermano de Jenni Hermoso asegura que a Vinicius le dijeron que era el ganador del Balón de Oro 2024",
+      "description": "Rafa Hermoso desvela que durante una cena entre Jenni y Vini, el brasileño desveló que hasta tenía el sitio donde iba a colocar el premio",
+      "url": "https://www.marca.com/futbol/real-madrid/2026/09/10/tenia-sitio-vitrina.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-10T08:29:41",
+      "category": "seleccion"
+    }
+  ]
+}
