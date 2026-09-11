@@ -1,0 +1,79 @@
+{
+  "scrape_date": "2026-09-11",
+  "scraped_at": "2026-09-11T08:51:48.498301-03:00",
+  "total_news": 9,
+  "news": [
+    {
+      "title": "Lekjaa, hombre de confianza de Mohamed VI y líder del fútbol marroquí, asegura que la final del Mundial será en Casablanca",
+      "description": "El presidente de la Federación de Marruecos, listo para dar el salto político, desafió a la RFEF con sus declaraciones.  Más información: Lekjaa, el elegido de Mohamed VI: de jefe del fútbol marroquí ",
+      "url": "https://www.elespanol.com/deportes/futbol/20260910/lekjaa-hombre-confianza-mohamed-vi-lider-futbol-marroqui-asegura-final-mundial-casablanca/1003744378922_0.html",
+      "source": "Elespanol.com",
+      "published_at": "2026-09-10T10:52:51Z",
+      "category": "mundial"
+    },
+    {
+      "title": "De Paul y Lewandowski se encaran en la MLS: '¿Quién eres, bobo? Yo gané dos Copas América y un Mundial. ¿Y tú?'",
+      "description": "El centrocampista del Inter Miami, ex del Atlético, y el delantero del Chicago Fire, ex del Barça, mantienen una dura bronca en el Soldier Field",
+      "url": "https://www.lavozdegalicia.es/noticia/deportes/2026/09/10/paul-lewandowski-encaran-mls-bobo-gane-dos-copas-america-mundial-tu/00031789036993471687234.htm",
+      "source": "Lavozdegalicia.es",
+      "published_at": "2026-09-10T10:50:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Lo que tiene que hacer el Tri Femenil para clasificar a los Octavos en el Mundial de Polonia Sub-20",
+      "description": "Tras sufrir un tropezón ante el país anfitrión y dejar ir puntos en el debut, el combinado nacional dirigido por Dorival Bueno se jugará el todo por el todo frente a Argentina",
+      "url": "https://www.record.com.mx/historia/mexico-clasificacion-para-octavos-mundial-polonia-sub-20-2026091004504369582",
+      "source": "Record.com.mx",
+      "published_at": "2026-09-10T04:50:43Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La final del Mundial 2030 será en Marruecos, según su responsable de fútbol",
+      "description": "El Gran Estadio Hassan II, cuya inauguración está prevista para finales de 2027, es un recinto de 115.000 plazas que está llamado a ser el mayor del mundo por capacidad, y con el que Marruecos compite",
+      "url": "https://www.elmundo.es/deportes/futbol/2026/09/10/6aa296fce9cf4ace0a8b456d.html",
+      "source": "El Mundo",
+      "published_at": "2026-09-10T11:46:16Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El plan de la AFA para retener a Lionel Scaloni tras la salida de Messi",
+      "description": "La Asociación del Fútbol Argentino confía en seducir a Lionel Scaloni para que continúe en el cargo, pese al desgaste del ciclo y el profundo vacío que deja el capitán en el nuevo equipo. Leer más",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/el-plan-de-la-afa-para-retener-a-lionel-scaloni-tras-la-salida-de-messi.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-10T11:12:17Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "María Tello, jugadora de hockey: \"Además de congelar óvulos, hay que facilitar la maternidad durante la carrera deportiva\"",
+      "description": "Acaba de regresar del Mundial de Hockey femenino, donde ha sido la portera suplente. Un rol \"que no es sencillo\", pero que ha conseguido normalizar gracias al trabajo con un psicólogo. En esta entrevi",
+      "url": "https://www.eldiario.es/castilla-la-mancha/social/maria-tello-jugadora-hockey-ademas-congelar-ovulos-hay-facilitar-maternidad-durante-carrera-deportiva_1_13496521.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-09-09T18:28:36Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Messi prepara su aterrizaje en Elda",
+      "description": "La bomba saltó en la noche del pasado lunes. Los rumores de la venta del CD Eldense a Leo Messi que circulaban por Elda y, sobre todo, por el panorama futbolístico nacional estallaron cuando el alcald",
+      "url": "https://www.abc.es/deportes/futbol/messi-prepara-aterrizaje-elda-20260909181713-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-09-09T16:17:14Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Los cinco estadios de LaLiga que han gritado contra la selección y los seis contra Pedro Sánchez en las cuatro primeras jornadas",
+      "description": "Repaso a las denuncias de LaLiga en las primeras fechas del campeonato",
+      "url": "https://www.marca.com/futbol/primera-division/2026/09/11/cinco-estadios-laliga-han-gritado-seleccion-seis-pedro-sanchez-cuatro-primeras-jornadas.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-11T09:41:14",
+      "category": "seleccion"
+    },
+    {
+      "title": "Iñaki Williams deja la selección de Ghana para volcar toda su dedicación en el Athletic",
+      "description": "El meta de Las Palmas tuvo que pasar por el quirófano tras un choque fortuito con el delantero del Celta en el encuentro de la pasada jornada",
+      "url": "https://www.marca.com/futbol/athletic/2026/09/11/inaki-williams-ultima-despedida-seleccion-ghana-volcar-toda-dedicacion-athletic.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-11T09:35:24",
+      "category": "seleccion"
+    }
+  ]
+}
