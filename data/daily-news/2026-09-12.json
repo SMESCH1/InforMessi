@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-09-12",
+  "scraped_at": "2026-09-12T08:18:30.240958-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "México vs. Argentina HOY: ¿A qué hora y dónde ver EN VIVO partido del Mundial Femenil Sub-20?",
+      "description": "México enfrenta a Argentina en el Mundial Femenino Sub-20. Conoce la hora, dónde ver en vivo y qué necesita el Tricolor para clasificar a octavos.",
+      "url": "https://www.elfinanciero.com.mx/deportes/2026/09/11/mexico-vs-argentina-en-vivo-resultado-del-partido-en-mundial-femenil-sub-20-de-polonia-2026/",
+      "source": "El Financiero",
+      "published_at": "2026-09-11T06:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Lisandro Martínez le respondió con ironía a una leyenda del fútbol inglés que lo criticaba por su llegada a la Premier League",
+      "description": "El jugador del Manchester United habló con el panel de CBS Sports luego de marcar un gol en el 4-0 de su equipo",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/lisandro-martinez-le-respondio-con-ironia-a-una-leyenda-del-futbol-ingles-que-lo-criticaba-por-su-nid10092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-11T02:59:13Z",
+      "category": "general"
+    },
+    {
+      "title": "Elda sigue sin creérselo: \"Messi nos puede llevar a otra dimensión\"",
+      "description": "Pasan los días, pero el aterrizaje de Leo Messi en Elda sigue estando presente en cada conversación de la ciudad. En las plazas, las cafeterías, los parques, alrededores del Nuevo Pepico Amat... no se",
+      "url": "https://www.elperiodico.com/es/deportes/20260911/elda-sigue-creerselo-messi-llevar-otra-dimension-134182796",
+      "source": "Elperiodico.com",
+      "published_at": "2026-09-11T10:50:24Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Entrevista en exclusiva a Pascal Quignard. Las bazas de las galerías madrileñas",
+      "description": "Pascal Quignard es una de las voces imprescindibles de la mejor literatura no solo europea sino mundial. ABC Cultural mantiene una larga y sustanciosa conversación en exclusiva con el autor francés a ",
+      "url": "https://www.abc.es/cultura/cultural/entrevista-exclusiva-pascal-quignard-bazas-galerias-madrilenas-20260911094929-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-09-11T07:49:29Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Fabián debería ganar el Balón de Oro",
+      "description": "El español es el único que ha conquistado Champions y Mundial este año",
+      "url": "https://www.marca.com/futbol/psg/opinion/2026/09/12/fabian-deberia-ganar-balon-oro.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-12T04:52:20",
+      "category": "mundial"
+    }
+  ]
+}
