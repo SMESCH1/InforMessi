@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-09-13",
+  "scraped_at": "2026-09-13T09:22:13.878364-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "Gustavo Alfaro renovó su contrato con la selección de Paraguay hasta 2030",
+      "description": "La extensión contractual fue confirmada por la asociación local a través de redes sociales; en el próximo Mundial, la Albirroja será una de las sedes",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/gustavo-alfaro-renovo-su-contrato-con-la-seleccion-de-paraguay-hasta-2030-nid11092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-12T01:20:43Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El deportista a seguir | El hijo de una leyenda del Barça es el máximo goleador de su equipo... siendo el portero",
+      "description": "Ronald Koeman Jr. siguió los pasos de su padre hasta convertirse en futbolista profesional, pero con los guantes de arquero enfundados. Ahora, hace historia gracias a su precisión desde el punto de pe",
+      "url": "https://www.elconfidencial.com/deportes/futbol/internacional/2026-09-12/deportista-seguir-ronald-koeman-telstar-eredivisie-goleador_4421958/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-09-12T03:00:00Z",
+      "category": "general"
+    },
+    {
+      "title": "China - España, en directo | Tercer partido de la fase de grupos del Mundial Sub 20 femenino, en vivo",
+      "description": "Sigue en vivo y en directo el China - España de la tercera jornada de la fase de grupos del Mundial Sub 20 femenino",
+      "url": "https://www.marca.com/futbol/futbol-femenino/seleccion/2026/09/13/6aa674e6b364eacdc856286e.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-13T11:19:10",
+      "category": "mundial"
+    },
+    {
+      "title": "Robert Moreno llega a Corea del Sur: \"El objetivo es que la afición se sienta orgullosa\"",
+      "description": "El técnico español dirigirá los próximos seis partidos a la selección asiática, hasta el 27 de noviembre, y después la federación evaluará y decidirá",
+      "url": "https://www.marca.com/futbol/2026/09/13/robert-moreno-llega-corea-sur-objetivo-aficion-sienta-orgullosa.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-13T10:25:46",
+      "category": "seleccion"
+    },
+    {
+      "title": "Surridge amarga a Messi en el 92",
+      "description": "El Inter Miami dejó escapar los tres puntos ante el Nashville (2-2) en la última jugada del partido",
+      "url": "https://www.marca.com/futbol/estados-unidos/2026/09/13/surridge-amarga-messi-92.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-13T05:03:06",
+      "category": "seleccion"
+    }
+  ]
+}
