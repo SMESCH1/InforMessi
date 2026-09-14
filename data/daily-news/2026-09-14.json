@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-09-14",
+  "scraped_at": "2026-09-14T10:24:58.636583-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "Entre el retiro y el regreso a América: se cierra el círculo de la Generación Dorada",
+      "description": "Esta semana, Mauricio Isla anunció que deja el fútbol profesional, a lo que se suma el retiro anunciado por Marcelo Díaz para fin de año. Mientras Alexis Sánchez, el último de los bastiones que se afe",
+      "url": "https://www.latercera.com/el-deportivo/noticia/entre-el-retiro-y-el-regreso-a-america-se-cierra-el-circulo-de-la-generacion-dorada/",
+      "source": "Latercera.com",
+      "published_at": "2026-09-12T23:03:19Z",
+      "category": "general"
+    },
+    {
+      "title": "La argentina más famosa",
+      "description": "La cima de la cultura pop hoy pertenece a los futbolistas millonarios y sus consortes; así lo demuestra Georgina Rodríguez",
+      "url": "https://www.lanacion.com.ar/conversaciones-de-domingo/la-argentina-mas-famosa-nid13092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-13T03:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Luis de la Fuente, ante la primera lista de la España bicampeona del mundo",
+      "description": "La selección estrenará las dos estrellas de campeona mundial en una exigente ventana de Nations League con partidos ante Inglaterra, Croacia y Chequia",
+      "url": "https://www.marca.com/futbol/seleccion/2026/09/14/luis-fuente-primera-lista-espana-bicampeona-mundo.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-14T09:54:28",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Zaragoza encuentra el 'Jardí' de las delicias",
+      "description": "\"Antes los futbolistas éramos más duros. Hoy en día todo les afecta\", asegura el técnico del Málaga",
+      "url": "https://www.marca.com/futbol/zaragoza/2026/09/14/zaragoza-encuentra-jardi-delicias.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-14T09:41:46",
+      "category": "general"
+    }
+  ]
+}
