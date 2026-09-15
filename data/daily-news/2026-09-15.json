@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-09-15",
+  "scraped_at": "2026-09-15T09:16:08.209319-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "Lamine Yamal pega un volantazo por el Balón de Oro, aplasta a Mbappé y se olvida de sus compañeros",
+      "description": "El astro del Barça y de España se proclama ganador del Balón de Oro por delante de Kylian Mbappé. Solo hay un problema, no ganó la Champions League y pasó de puntillas por el Mundial, donde marcó un ú",
+      "url": "https://www.elconfidencial.com/deportes/futbol/2026-09-14/lamine-yamal-kylian-mbappe-balon-oro-espana-barca-real-madrid_4423348/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-09-14T11:24:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Mundial Femenil Sub-20: Así se quedan los partidos de Octavos de Final en Polonia",
+      "description": "Las 16 mejores selecciones juveniles del planeta ya conocen sus llaves para la etapa de eliminación directa",
+      "url": "https://www.record.com.mx/historia/mundial-femenil-sub-20-asi-se-quedan-los-partidos-de-octavos-de-final-en-polonia-2026091404324932550",
+      "source": "Record.com.mx",
+      "published_at": "2026-09-14T04:32:49Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La impresionante fiesta de cumpleaños del hermano de Lamine Yamal, con sorpresa del Barça incluida",
+      "description": "Mientras España celebraba su pase a los octavos de final del Mundial 2026, hubo un protagonista inesperado que consiguió robar parte de la atención a los futbolistas de la selección. No marcó ningún g",
+      "url": "https://www.abc.es/gente/impresionante-fiesta-cumpleanos-hermano-lamine-yamal-sorpresa-20260914101806-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-09-14T08:18:41Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "De tal palo, tal astilla: El Elche reúne a la 'Saga de los hijos' en la élite",
+      "description": "El Martínez Valero se ha convertido en el ecosistema perfecto para una generación de futbolistas con apellidos ilustres",
+      "url": "https://www.marca.com/futbol/elche/2026/09/15/palo-astilla-elche-reune-saga-hijos-elite.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-15T12:10:32",
+      "category": "general"
+    },
+    {
+      "title": "El impacto Ochieng llega a Kenia",
+      "description": "El atacante de la Real, artífice del triunfo en Elche, es el protagonista del cartel con el que se anuncia el próximo partido internacional de la selección de su país",
+      "url": "https://www.marca.com/futbol/real-sociedad/2026/09/15/impacto-ochieng-llega-kenia.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-15T10:23:24",
+      "category": "seleccion"
+    }
+  ]
+}
