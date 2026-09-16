@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-09-16",
+  "scraped_at": "2026-09-16T09:15:00.009844-03:00",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "¡De vuelta a casa! La Albiceleste jugará amistosos internacionales en Argentina",
+      "description": "El equipo albiceleste volverá al Estadio Único con tres partidos amistosos",
+      "url": "https://www.record.com.mx/historia/argentina-jugara-amistosos-internacionales-en-casa-2026091501525448790",
+      "source": "Record.com.mx",
+      "published_at": "2026-09-15T01:50:12Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Lejos del fútbol, el exitoso negocio de Lionel Messi que lleva su sello y pisa fuerte en el mercado",
+      "description": "El astro argentino amplió su marca personal con un nuevo proyecto.\n Leer más",
+      "url": "https://caras.perfil.com/noticias/celebridades/lejos-futbol-exitoso-negocio-lionel-messi.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-14T23:47:18Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Marcelo Gallardo eleva su propia vara al nivel de selecciones: desafíos, ventajas y contras del arribo a Ecuador",
+      "description": "La Federación Ecuatoriana de Fútbol (FEF) oficializó la llegada de Marcelo Gallardo, que ocupará el cargo de seleccionador en el camino al Mundial 2030. El entrenador afronta un importante desafío y y",
+      "url": "https://442.perfil.com/noticias/futbol/marcelo-gallardo-eleva-su-propia-vara-al-nivel-de-selecciones-desafios-pros-y-contras-del-arribo-a-ecuador.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-14T21:30:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "TVE aparca la ficción en su noche dominical y recupera su formato de divulgación más exitoso en La 2",
+      "description": "La cadena pública rescata los seis nuevos capítulos de 'Órbita Laika' de la temporada 11 que dejó sin emitir por el Mundial de fútbol",
+      "url": "https://www.elconfidencial.com/television/programas-tv/2026-09-15/la2-deja-ficcion-temporada-orbita-laika_4424158/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-09-15T12:11:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Netflix apuesta de nuevo por la Segunda Guerra Mundial: su nuevo thriller bélico tiene muy buena pinta",
+      "description": "Con un reparto de calidad\nNetflix volverá a llevarnos a la Segunda Guerra Mundial con una película que cuenta con un reparto de lujo y que se estrenará dentro de poco. Hace unos días, la plataforma de",
+      "url": "https://es.ign.com/netflix-1/233695/netflix-apuesta-de-nuevo-por-la-segunda-guerra-mundial-su-nuevo-thriller-belico-tiene-muy-buena-pint",
+      "source": "IGN",
+      "published_at": "2026-09-15T11:49:05Z",
+      "category": "mundial"
+    },
+    {
+      "title": "De jugar el Mundial con Messi y compartir cancha con Zidane a deslumbrar en un concurso de baile de malambo con su hija en Milán",
+      "description": "El exfutbolista Esteban Cambiasso sorprendió en las redes sociales tras participar de una coreografía profesional junto a su hija Victoria en Italia; el video captó una destreza atlética poco conocida",
+      "url": "https://www.lanacion.com.ar/deportes/de-jugar-el-mundial-con-messi-y-compartir-cancha-con-zidane-a-deslumbrar-en-un-concurso-de-baile-de-nid14092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-14T17:20:31Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Rafa Marín, una alegría para Allegri: \"Me siento más fuerte que nunca\"",
+      "description": "El central español ha sido titular en todos los partidos que ha disputado el Nápoles",
+      "url": "https://www.marca.com/futbol/liga-italiana/2026/09/16/rafa-marin-alegria-allegri-me-siento-fuerte-nunca.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-16T11:57:42",
+      "category": "seleccion"
+    },
+    {
+      "title": "Mensaje de Bordalás sobre su plantilla: \"Somos el único equipo del fútbol profesional que no tiene extremos”",
+      "description": "Marcó el primer tanto, un golazo, de los célticos, que alcanzan la séptima plaza tras ocho jornadas sin perder",
+      "url": "https://www.marca.com/futbol/getafe/2026/09/16/mensaje-bordalas-sobre-plantilla-unico-equipo-futbol-profesional-extremos.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-16T10:56:46",
+      "category": "general"
+    },
+    {
+      "title": "Enzo Maresca: \"El fútbol a veces te favorece, a veces te perjudica\"",
+      "description": "El italiano habló en rueda de prensa previo al duelo ante el Norwich de Carabao Cup y recordó una jugada similar de un derbi de hace tres años: \"Todavía estamos esperando la disculpa por ese gol\".",
+      "url": "https://www.marca.com/futbol/premier-league/2026/09/16/enzo-maresca-futbol-veces-te-favorece-veces-te-perjudica.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-16T10:05:54",
+      "category": "general"
+    },
+    {
+      "title": "Messi elige a Calleja",
+      "description": "El entrenador madrileño será el nuevo dueño del banquillo alicantino",
+      "url": "https://www.marca.com/futbol/cd-eldense/2026/09/16/messi-elige-calleja.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-16T09:49:15",
+      "category": "seleccion"
+    }
+  ]
+}
