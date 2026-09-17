@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-09-17",
+  "scraped_at": "2026-09-17T09:15:08.236507-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "Inter Miami vs. Cruz Azul: ¿A qué hora y dónde ver a Messi ante ‘La Máquina’ EN VIVO en la Campeones Cup 2026?",
+      "description": "Inter Miami vs. Cruz Azul: conoce fecha, hora CDMX, estadio y plataformas de transmisión de la Campeones Cup, además del contexto de ambos equipos.",
+      "url": "https://www.elfinanciero.com.mx/deportes/2026/09/16/inter-miami-vs-cruz-azul-en-vivo-quien-gano-la-campeones-cup-2026/",
+      "source": "El Financiero",
+      "published_at": "2026-09-16T12:00:01Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Alcaraz encara la recta final de 2026: calendario, fechas y torneos que se disputarán hasta final de año",
+      "description": "El tenista murciano ha confirmado su participación en competiciones como la Laver Cup y el Six Kings Slam \r\nEl renacer de Marc Márquez sacude el mundial de MotoGP: “Estaba jugando un poco con nosotros",
+      "url": "https://www.eldiario.es/spin/deportes/alcaraz-encara-recta-final-2026-calendario-fechas-torneos-disputaran-final-ano-pm_1_13514497.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-09-16T11:41:22Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Calleja: \"Que esté Messi en el proyecto es una garantía para todos\"",
+      "description": "El nuevo entrenador del Eldense fue presentado y el sábado dirigirá su primer partido",
+      "url": "https://www.marca.com/futbol/cd-eldense/2026/09/17/calleja-messi-proyecto-garantia-todos.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-17T11:39:50",
+      "category": "seleccion"
+    },
+    {
+      "title": "Cardoso: el 5 que buscaba el Atlético estaba en casa",
+      "description": "En su primera titularidad desde que renunció al Mundial para pasar por el quirófano con el fin de ser el pivote que necesita Simeone, Johnny rozó la perfección en el pase y la recuperación",
+      "url": "https://www.marca.com/futbol/atletico/2026/09/17/cardoso-5-buscaba-atletico-casa.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-17T11:12:19",
+      "category": "mundial"
+    },
+    {
+      "title": "España inicia su camino hacia el Mundial de 2028 ante Finlandia",
+      "description": "Será el primer partido de la 'Main Round' en la que la Selección comparte grupo con su homóloga finesa y Macedonia del Norte",
+      "url": "https://www.marca.com/futbol/futbol-sala/2026/09/17/espana-inicia-camino-mundial-2028-finlandia.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-17T11:07:46",
+      "category": "seleccion"
+    },
+    {
+      "title": "Pesimismo en la selección con Joan García y puerta abierta a Leo Román",
+      "description": "A la espera del resultado de las pruebas a las que será sometido el portero del Barcelona durante el día de hoy",
+      "url": "https://www.marca.com/futbol/seleccion/2026/09/17/pesimismo-seleccion-joan-garcia-puerta-abierta-leo-roman.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-17T09:45:42",
+      "category": "seleccion"
+    },
+    {
+      "title": "La carcajada de Messi al ver que su hijo Ciro le olía su sudor",
+      "description": "",
+      "url": "https://www.marca.com/futbol/estados-unidos/2026/09/17/carcajada-messi-ver-hijo-ciro-le-olia-sudor-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-17T08:17:34",
+      "category": "seleccion"
+    },
+    {
+      "title": "El discurso de Beckham para convencerte de que Messi debe ganar el Balón de Oro: ¿tiene razón?",
+      "description": "",
+      "url": "https://www.marca.com/futbol/2026/09/17/discurso-beckham-convencerte-messi-debe-ganar-balon-oro-razon-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-17T08:14:13",
+      "category": "seleccion"
+    }
+  ]
+}
