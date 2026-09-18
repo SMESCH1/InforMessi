@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-09-18",
+  "scraped_at": "2026-09-18T08:54:57.414946-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "El día que Lionel Messi comenzó a cambiar la historia del fútbol",
+      "description": "A 26 años de su debut, Lionel Messi continúa agigantando su leyenda: Barcelona, PSG, Inter Miami y la Selección Argentina fueron los escenarios de una carrera marcada por títulos, récords y momentos h",
+      "url": "https://442.perfil.com/noticias/futbol/el-dia-que-lionel-messi-comenzo-a-cambiar-la-historia-del-futbol.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-17T08:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "¿Cuándo se juega el derbi? Horario y dónde ver el partido entre Atlético de Madrid y Real Madrid por TV",
+      "description": "El conjunto blanco, entrenado ahora por Mourinho, busca resarcirse de la dolorosa derrota de la temporada pasada (5-2)\r\nEl último tango de Messi: el delantero se despedirá de la selección argentina en",
+      "url": "https://www.eldiario.es/spin/deportes/juega-derbi-horario-ver-partido-atletico-madrid-real-madrid-tv-pm_1_13516499.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-09-17T06:39:28Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "¡Sir David habló! Beckham pide el Balón de Oro para Lionel Messi",
+      "description": "El exjugador inglés y copropietario del Inter Miami respaldó al astro rosarino",
+      "url": "https://www.record.com.mx/historia/sir-david-hablo-beckham-pide-el-balon-de-oro-para-lionel-messi-2026091704550876231",
+      "source": "Record.com.mx",
+      "published_at": "2026-09-17T04:55:08Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "De la Fuente: \"No me gusta este formato, prefería el otro; más claro el agua\"",
+      "description": "El seleccionar habla tras dar su primera lista tras el Mundial.",
+      "url": "https://www.marca.com/futbol/seleccion/2026/09/18/fuente-me-gusta-formato-preferia-claro-agua.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-18T10:56:53",
+      "category": "mundial"
+    },
+    {
+      "title": "De la Fuente llama a Josep Martínez, Huijsen, Fermín y Roberto",
+      "description": "Respecto al Mundial se caen Joan García, lesionado, Marcos Llorente, que renunció, Gavi y Borja Iglesias",
+      "url": "https://www.marca.com/futbol/seleccion/2026/09/18/fuente-llama-josep-martinez-huijsen-fermin-roberto.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-18T09:35:52",
+      "category": "mundial"
+    },
+    {
+      "title": "Trent y Cole Palmer vuelven a una convocatoria con Inglaterra",
+      "description": "Tuchel hizo oficial su primera lista después del Mundial para el partido de Nations League ante España",
+      "url": "https://www.marca.com/futbol/nations-league/2026/09/18/trent-cole-palmer-vuelven-convocatoria-inglaterra.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-18T09:22:44",
+      "category": "mundial"
+    },
+    {
+      "title": "Lista de Luis de la Fuente, en directo | Última hora de la selección española hoy, en vivo",
+      "description": "El seleccionador nacional da su primera lista con las dos estrellas mundialistas",
+      "url": "https://www.marca.com/futbol/seleccion/2026/09/18/6aace869b364eacdc88e25bb.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-18T08:40:47",
+      "category": "seleccion"
+    },
+    {
+      "title": "El padre de Mac Allister avisa: \"Nos preparamos para lo que pueda venir\"",
+      "description": "Carlos Mac Allister, padre y agente del futbolista del Liverpool, asegura que el Liverpool todavía no les ha llamado para renovar y niega cualquier contacto del Real Madrid",
+      "url": "https://www.marca.com/futbol/premier-league/2026/09/18/padre-mac-allister-avisa-preparamos-pueda-venir.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-18T08:40:27",
+      "category": "general"
+    }
+  ]
+}
