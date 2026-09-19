@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-09-19",
+  "scraped_at": "2026-09-19T08:38:54.134284-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "Fermín, Huijsen y otras novedades en la lista de De la Fuente para los partidos de la Nations League",
+      "description": "De los mundialistas quedan fuera Gavi, Borja Iglesias, Joan García y Marcos Llorente, que anunció su retirada de la selección\r\nDe Arabia Saudí a Turquía: la Supercopa de España seguirá cautiva y se di",
+      "url": "https://www.eldiario.es/spin/deportes/fermin-huijsen-novedades-lista-fuente-partidos-nations-league-pm_1_13520356.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-09-18T10:57:58Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Lionel Scaloni ante una Fecha FIFA de quiebre: la incertidumbre de su renovación y el adiós final a Lionel Messi",
+      "description": "Lionel Scaloni llega al país para comenzar a trabajar la Fecha FIFA desde el predio de Ezeiza. Con la despedida a Lionel Messi monopolizando la atención, la próxima ventana internacional se presenta c",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/lionel-scaloni-ante-una-fecha-fifa-de-quiebre-la-incertidumbre-de-su-renovacion-y-el-adios-final-a-lionel-messi.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-18T08:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Toni Nadal, Carolina Marín, Sergio Rodríguez, Ona Carbonell o Carlos Moyá, juntos por unos días en esta ciudad castellanoleonesa",
+      "description": "La 10ª edición del Foro Internacional del Deporte reunirá a figuras legendarias del 22 al 26 de septiembre en León\r\nMarc Márquez como líder del Mundial ante Martín y Bezzecchi: previa, horario y dónde",
+      "url": "https://www.eldiario.es/spin/deportes/toni-nadal-carolina-marin-sergio-rodriguez-ona-carbonell-carlos-moya-dias-ciudad-castellanoleonesa-pm_1_13520405.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-09-18T11:31:55Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Josep Martínez, Roberto Fernández y la vuelta de Huijsen y Fermín, novedades en la lista de España",
+      "description": "La entrada del portero del Inter de Milán Josep Martínez y del delantero del RCD Espanyol Roberto Fernández y los regresos de Dean Huijsen (Real Madrid) y de Fermín López (FC Barcelona) son las princi",
+      "url": "https://www.europapress.es/deportes/futbol/mundial-00639/noticia-josep-martinez-roberto-fernandez-vuelta-huijsen-fermin-novedades-lista-espana-20260918115117.html",
+      "source": "Europapress.es",
+      "published_at": "2026-09-18T09:51:17Z",
+      "category": "general"
+    },
+    {
+      "title": "Compromís denuncia ante Antifraude al presidente Pérez Llorca por aceptar un pase de 21.000 euros para la final del Mundial",
+      "description": "La diputada valencianista Isaura Navarro señala un posible conflicto de intereses tras la inclusión de 90.000 euros de fondos públicos para la RFEF en las cuentas de la Generalitat\r\nQué sabemos, y qué",
+      "url": "https://www.eldiario.es/comunitat-valenciana/politica/compromis-denuncia-antifraude-presidente-perez-llorca-aceptar-pase-21-000-euros-final-mundial_1_13520075.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-09-18T09:45:49Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La reivindicación de Lamine Yamal: \"Los que saben de fútbol lo valoran\"",
+      "description": "El internacional español explica cómo arrastró a dos defensas antes del centro de Pedro Porro en la final del Mundial y admite que no terminó satisfecho con su rendimiento<span class=\"\" contenteditabl",
+      "url": "https://www.marca.com/futbol/barcelona/2026/09/19/reivindicacion-lamine-yamal-futbol-valoran.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-19T09:13:26",
+      "category": "mundial"
+    },
+    {
+      "title": "Ya trabajan por fichar a Leo Messi: \"Pero no es el momento, por una cuestión humana\"",
+      "description": "Ignacio Boero admite que el club trabaja desde hace tiempo en su vuelta y asegura que ahora toca respetar el momento del argentino<span class=\"xai-icon\" contenteditable=\"false\" tabindex=\"-1\"></span>",
+      "url": "https://www.marca.com/futbol/2026/09/19/trabajan-fichar-leo-messi-momento-cuestion-humana.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-19T09:00:30",
+      "category": "seleccion"
+    }
+  ]
+}
