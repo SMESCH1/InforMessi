@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-09-20",
+  "scraped_at": "2026-09-20T08:52:37.626650-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "Lionel Scaloni concede primera entrevista luego del Mundial a un canal chino: lo que dijo ya es viral",
+      "description": "Lionel Scaloni dio una entrevista a profundidad, antes de arrancar labores para los tres amistosos de esta fecha FIFA.",
+      "url": "https://www.nacion.com/puro-deporte/lionel-scaloni-concede-primera-entrevista-luego/QE5EVZDYMZGD7G6E6TXFLJ6NYU/story/",
+      "source": "Nacion.com",
+      "published_at": "2026-09-19T04:27:58Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Lionel Scaloni dio la primera entrevista luego del Mundial y dejó un mensaje... ¿esperanzador?",
+      "description": "El entrenador viaja a nuestro país para la serie de amistosos de la fecha FIFA; los lesionados en el Mundial, un tema clave",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/lionel-scaloni-dio-la-primera-entrevista-luego-del-mundial-y-dejo-un-mensaje-esperanzador-nid18092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-19T01:47:56Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El 'policía' de la selección francesa, investigado: Mbappé le habría regalado 60.000 euros",
+      "description": "Mohamed Sanhadji, actual responsable de logística y seguridad de la selección francesa, fue imputado el miércoles -entre otros cargos, por corrupción de una persona que ejerce autoridad pública- en el",
+      "url": "https://www.mundodeportivo.com/futbol/internacional/20260919/1004228905/jefe-logistica-seleccion-francesa-investigado-mbappe-le-habria-regalado-60-000-euros.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-09-19T05:49:27Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Tiene “una ensalada” de nacionalidades y jugó en países paradisíacos: Nahuel Arrarte",
+      "description": "Nació en Argentina, su padre es uruguayo, Australia lo acogió y se enamoró de Fiyi y Filipinas por el fútbol. Su familia no se queda atrás.",
+      "url": "https://www.montevideo.com.uy/Deportes/Tiene-una-ensalada-de-nacionalidades-y-jugo-en-paises-paradisiacos-Nahuel-Arrarte-uc975718",
+      "source": "Montevideo.com.uy",
+      "published_at": "2026-09-19T10:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Pol Lorente deja la selección mexicana para reunirse con Javier Aguirre en el Valencia",
+      "description": "La Federación azteca confirma la salida del preparador físico después de dos años en la tri",
+      "url": "https://www.marca.com/futbol/valencia/2026/09/20/pol-lorente-deja-seleccion-mexicana-reunirse-javier-aguirre-valencia.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-20T07:17:09",
+      "category": "seleccion"
+    }
+  ]
+}
