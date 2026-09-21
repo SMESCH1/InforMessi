@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-09-21",
+  "scraped_at": "2026-09-21T10:24:52.455987-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "Juegos Suramericanos: la nueva camada de los Pumas 7s está lista para el objetivo olímpico",
+      "description": "La Argentina presenta en Rosario a siete jugadores que dan sus primeros pasos en el máximo nivel y pronto mostraron sus virtudes",
+      "url": "https://www.lanacion.com.ar/deportes/rugby/juegos-suramericanos-la-nueva-camada-de-los-pumas-7s-esta-lista-para-el-objetivo-olimpico-nid19092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-19T22:45:26Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Scaloni estuvo presente en el partido de la selección argentina Sub 19 contra Uruguay por los Juegos Suramericanos",
+      "description": "Llegó al estadio de Newell’s acompañado por Walter Samuel, Pablo Aimar y Roberto Fabián Ayala; el conjunto de Diego Placente busca la clasificación a semifinales",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/scaloni-estuvo-presente-en-el-partido-de-la-seleccion-argentina-sub-19-contra-uruguay-por-los-juegos-nid19092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-19T19:40:16Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Zinedine Zidane puso mando dura en Francia: cinco debutantes y varias figuras afuera de su primera convocatoria",
+      "description": "El flamante entrenador de Les Bleus dio a conocer los 23 convocados para sus primeros cuatro partidos de la Liga de Naciones. Restes, Diouf, Jacquet, Da Cunha y Lepaul tendrán su primera oportunidad e",
+      "url": "https://442.perfil.com/noticias/futbol/zinedine-zidane-puso-mando-dura-en-francia-cinco-debutantes-y-varias-figuras-afuera-de-su-primera-convocatoria.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-19T19:25:59Z",
+      "category": "general"
+    },
+    {
+      "title": "\"De la Fuente renovará porque se lo ha ganado\"",
+      "description": "El seleccionador español de fútbol Luis de la Fuente renovará hasta “más allá del Mundial 2030”, a falta de concretar algunos “flecos” de su contrato, afirmó este domingo el presidente de la Real Fede",
+      "url": "https://www.mundodeportivo.com/seleccion-espanola/20260920/1004229387/fuente-renovara-ganado.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-09-20T12:59:06Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Con sorpresas del fútbol local y figuras del exterior: Lionel Scaloni amplió la convocatoria de la Selección Argentina",
+      "description": "El entrenador del combinado nacional dio a conocer una ampliación en la nómina de citados de cara a los próximos amistosos. Hay caras nuevas provenientes del torneo doméstico y refuerzos que se suman ",
+      "url": "https://442.perfil.com/noticias/futbol/con-sorpresas-del-futbol-local-y-figuras-del-exterior-lionel-scaloni-amplio-la-convocatoria-de-la-seleccion-argentina.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-19T18:12:53Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La sobrecogedora charla de De la Fuente antes de la final del Mundial",
+      "description": "",
+      "url": "https://www.marca.com/futbol/2026/09/21/sobrecogedora-charla-fuente-final-mundial-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-21T12:31:09",
+      "category": "mundial"
+    },
+    {
+      "title": "El Badajoz demanda a la FIFA por una suspensión que, según el club, le costó el ascenso directo",
+      "description": "El conflicto viene por impedir al club inscribir jugadores al inicio de la temporada 2025-26.",
+      "url": "https://www.marca.com/futbol/segunda-rfef/2026/09/21/badajoz-demanda-fifa-suspension-club-le-costo-ascenso.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-21T11:35:15",
+      "category": "mundial"
+    }
+  ]
+}
