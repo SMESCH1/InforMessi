@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-09-22",
+  "scraped_at": "2026-09-22T09:08:37.080251-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "Luis de la Fuente renueva como seleccionador de España hasta 2032",
+      "description": "El técnico amplía cuatro años más su contrato con la «Roja» y entrenará al equipo nacional en el Mundial del 2030",
+      "url": "https://www.lavozdegalicia.es/noticia/deportes/2026/09/21/luis-fuente-renueva-seleccionador-espana-2032/00031789989089245261112.htm",
+      "source": "Lavozdegalicia.es",
+      "published_at": "2026-09-21T11:31:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "De la Fuente renueva como seleccionador hasta 2032",
+      "description": "El entrenador español Luis de la Fuente ha renovado este lunes su contrato como seleccionador español absoluto hasta 2032, ampliando cuatro años su actual contrato, que llegaba hasta el final de la pr",
+      "url": "https://www.europapress.es/deportes/futbol/mundial-00639/noticia-fuente-renueva-seleccionador-2032-20260921130402.html",
+      "source": "Europapress.es",
+      "published_at": "2026-09-21T11:04:02Z",
+      "category": "general"
+    },
+    {
+      "title": "Luis de la Fuente renueva hasta 2032",
+      "description": "La Junta Directiva de la Real Federación Española de Fútbol, presidida por Rafael Louzán y reunida en la Ciudad del Fútbol de Las Rozas, ha dado el visto bueno por unanimidad a la ampliación de contra",
+      "url": "https://www.elperiodico.com/es/deportes/20260921/luis-fuente-renueva-seleccionador-espanol-2032-134516513",
+      "source": "Elperiodico.com",
+      "published_at": "2026-09-21T11:01:14Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "¡Totti desvela que Cesc Fàbregas le propuso volver al fútbol a los 48 años con el Como!",
+      "description": "La leyenda de la Roma realiza esta sorprendente confesión sobre el técnico español",
+      "url": "https://www.marca.com/futbol/liga-italiana/2026/09/22/totti-desvela-cesc-fabregas-le-propuso-volver-futbol-48-anos.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-22T12:03:51",
+      "category": "general"
+    },
+    {
+      "title": "Embargan preventivamente el 15,8% del Eldense a su expresidenta mientras lo vende a Messi",
+      "description": "Un juzgado de Madrid lo ha ordenado debido a una deuda con el expropietario del club",
+      "url": "https://www.marca.com/futbol/cd-eldense/2026/09/22/embargan-preventivamente-15-8-eldense-expresidenta-vende-messi.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-22T09:24:07",
+      "category": "seleccion"
+    },
+    {
+      "title": "Recuperar al soldado Thiago Pitarch",
+      "description": "El plan es que juegue con el Castilla durante el parón y acelerar una puesta a punto que podría completar con la selección sub 20",
+      "url": "https://www.marca.com/futbol/real-madrid/2026/09/22/recuperar-soldado-thiago-pitarch.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-22T09:09:51",
+      "category": "seleccion"
+    },
+    {
+      "title": "FIFA abre dos escuelas de fútbol en Cisjordania",
+      "description": "La Copa Infantil Unidos por la Paz, con 14 equipos palestinos y 160 niños, servirá como apertura oficial de estos campos en Rabah y Qusin",
+      "url": "https://www.marca.com/futbol/2026/09/22/fifa-abre-dos-escuelas-futbol-cisjordania.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-22T09:07:58",
+      "category": "mundial"
+    }
+  ]
+}
