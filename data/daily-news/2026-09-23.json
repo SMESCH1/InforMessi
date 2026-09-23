@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-09-23",
+  "scraped_at": "2026-09-23T09:21:30.353518-03:00",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Ferran Torres, futbolista de España, revela lo que sintió al marcar el gol de la final del Mundial: \"Sentí lo mismo que Iniesta, escuché el silencio\"",
+      "description": "El delantero ha reconstruido en 'El Hormiguero' aquel instante que decidió el partido y otorgó a la selección española su segunda estrella",
+      "url": "https://www.elconfidencial.com/deportes/futbol/2026-09-22/ferran-torres-sintio-marcar-gol-final-mundial-iniesta-silencio-1qrt_4428721/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-09-22T09:43:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Betis, un trampolín internacional",
+      "description": "Valentín Gómez se une al grupo de futbolistas verdiblancos que alcanzan, recuperan o mantienen la llamada de sus selecciones  Leer",
+      "url": "https://www.marca.com/futbol/betis/2026/09/22/betis-trampolin-internacional.html",
+      "source": "Marca",
+      "published_at": "2026-09-22T09:40:32Z",
+      "category": "general"
+    },
+    {
+      "title": "\"El argentino nace donde quiere\": las historias de los atletas nacidos en el exterior que brillan para Argentina en los Suramericanos",
+      "description": "La delegación anfitriona en los Juegos Suramericanos Santa Fe 2026 cuenta con deportistas nacidos en Inglaterra, Armenia y Bolivia. Del fanatismo por Lionel Messi a las estrategias de alto rendimiento",
+      "url": "https://442.perfil.com/noticias/polideportivo/el-argentino-nace-donde-quiere-las-historias-de-los-atletas-nacidos-en-el-exterior-que-brillan-para-argentina-en-los-suramericanos.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-22T08:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Louzan y varios miembros de la RFEF, denunciados por el coste millonario y las plazas en el viaje a la final del Mundial",
+      "description": "El sindicato Futbolistas ON ha hecho el cálculo y reclama al CSD contratos, facturas, listas completas, criterios empleados e investigación disciplinaria.  Más información: La RFEF responde a Marlaska",
+      "url": "https://www.elespanol.com/deportes/futbol/20260922/louzan-varios-miembros-rfef-denunciados-coste-millonario-plazas-viaje-final-mundial/1003744392253_0.html",
+      "source": "Elespanol.com",
+      "published_at": "2026-09-22T11:10:35Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La Nations League también se juega en Mister: crea tu equipo y compite durante el parón",
+      "description": "España vuelve a escena tras conquistar el Mundial y la Nations League se convierte en el gran atractivo futbolístico de las próximas semanas. En Mister puedes vivirla también desde el Fantasy: ficha a",
+      "url": "https://www.mundodeportivo.com/el-mister/20260922/1004230022/nations-league-juega-mister-crea-equipo-compite-paron.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-09-22T08:30:28Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Atlético: 34 partidos y 12 días 'rezando' contra el 'virus FIFA'",
+      "description": "El técnico da por conseguida la permanencia virtual y busca retos mayores",
+      "url": "https://www.marca.com/futbol/atletico/2026/09/23/atletico-34-partidos-12-dias-rezando-virus-fifa.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-23T11:57:22",
+      "category": "mundial"
+    },
+    {
+      "title": "Italia - España, en directo | Partido de semifinales del Mundial Sub 20 femenino, en vivo",
+      "description": "Sigue en vivo y en directo el Italia - España de las semifinales del Mundial Sub 20 femenino",
+      "url": "https://www.marca.com/futbol/futbol-femenino/seleccion/2026/09/23/6ab3afedb364eacdc8ced942.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-23T11:31:18",
+      "category": "mundial"
+    },
+    {
+      "title": "Roberto Fernández: \"El Espanyol apostó por mí cuando lo pasé regular en Braga, estoy muy agradecido\"",
+      "description": "Primera rueda de prensa del debutante en la selección.",
+      "url": "https://www.marca.com/futbol/seleccion/2026/09/23/roberto-fernandez-espanyol-aposto-mi-pase-regular-braga-agradecido.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-23T11:19:11",
+      "category": "seleccion"
+    },
+    {
+      "title": "La rueda de prensa de Roberto Fernández con la selección española, en directo",
+      "description": "",
+      "url": "https://www.marca.com/futbol/seleccion/2026/09/23/6ab3a8996c283cdca880816e.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-23T10:28:23",
+      "category": "seleccion"
+    },
+    {
+      "title": "Atlético, Barça y Cornellà, en la II edición de la Messi Cup",
+      "description": "Miami volverá a acoger el torneo del 25 de octubre al 1 de noviembre. Tras el éxito de su I edición",
+      "url": "https://www.marca.com/futbol/2026/09/23/atletico-barca-cornella-ii-edicion-messi-cup.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-23T10:13:40",
+      "category": "seleccion"
+    }
+  ]
+}
