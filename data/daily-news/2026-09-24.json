@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-09-24",
+  "scraped_at": "2026-09-24T09:21:28.871739-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "Scaloni 2028: el plan de Chiqui Tapia para blindar el proyecto de la Selección Argentina y su futuro en AFA",
+      "description": "Las gestiones entre Lionel Scaloni y Claudio “Chiqui” Tapia ingresaron en etapa decisiva para extender el vínculo bajo un esquema de dos años, con opción a dos más. La fecha coincide con las próximas ",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/scaloni-2028-el-plan-de-chiqui-tapia-para-blindar-el-proyecto-de-la-seleccion-argentina-y-su-futuro-en-afa.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-23T08:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Vuelve la Messi Cup con el doble de participantes",
+      "description": "La Messi Cup ya calienta motores para su segunda edición. Del 25 de octubre al 1 de noviembre de 2026, el torneo de categoría sub-16 regresará a las instalaciones del Inter Miami CF en Miami dando un ",
+      "url": "https://www.mundodeportivo.com/futbol/fc-barcelona/20260923/1004230436/vuelve-messi-cup-doble-participantes.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-09-23T11:54:13Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "River volvió al comité ejecutivo de la AFA: postergaron la discusión de su petitorio de seis puntos para 2028",
+      "description": "Dirigentes cercanos a Claudio “Chiqui” Tapia le facturaron al club millonario su ausencia de seis meses",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/river-plate/river-volvio-al-comite-ejecutivo-de-la-afa-postergaron-la-discusion-de-su-petitorio-de-seis-puntos-nid22092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-22T19:52:10Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Bellingham y la Bota que ni sabía que existía",
+      "description": "El centrocampista inglés recibe dos meses después el premio que reconoce sus siete goles en el Mundial, donde terminó tercero en la tabla de goleadores",
+      "url": "https://www.marca.com/futbol/real-madrid/2026/09/24/bellingham-bota-sabia-existia.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-24T11:54:47",
+      "category": "mundial"
+    }
+  ]
+}
