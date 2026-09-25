@@ -1,0 +1,79 @@
+{
+  "scrape_date": "2026-09-25",
+  "scraped_at": "2026-09-25T09:21:41.466499-03:00",
+  "total_news": 9,
+  "news": [
+    {
+      "title": "Equipazo de España para el Mundial... con una gran novedad",
+      "description": "El navarro de 20 años se 'cuela' en la lista de 8 integrantes para la cita definitiva en Doha del 2 al 7 de noviembre",
+      "url": "https://www.marca.com/padel/2026/09/24/convocados-espana-mundial-padel-2026-aimar-goni-gran-novedad-juanjo-gutierrez.html",
+      "source": "Marca",
+      "published_at": "2026-09-24T11:28:39Z",
+      "category": "mundial"
+    },
+    {
+      "title": "A qué hora empieza hoy la venta de entradas para la despedida de Messi de la selección argentina",
+      "description": "A partir de este jueves se pueden adquirir los tickets de los próximos amistosos; el retiro del capitán será el 6 de octubre ante Benín, en el estadio Monumental",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-empieza-hoy-la-venta-de-entradas-para-la-despedida-de-messi-de-la-seleccion-argentina-nid24092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-24T10:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Comienza una Fecha FIFA histórica: por qué la ventana de septiembre y octubre promete cambiar el mapa del fútbol mundial",
+      "description": "Una ventana internacional sin precedentes combina despedidas legendarias, la renovación total de grandes potencias en los banquillos y el arranque de un torneo continental que promete emociones desde ",
+      "url": "https://442.perfil.com/noticias/futbol/fecha-fifa-historica-por-que-la-ventana-de-septiembre-y-octubre-promete-cambiar-el-mapa-del-futbol-mundial.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-24T08:30:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El reloj de Lamine Yamal en su vuelta a la selección española: de oro rosa, diseño extraplano y 240.000 euros",
+      "description": "El futbolista Lamine Yamal, incluido por Luis de la Fuente en la convocatoria para los primeros cuatro partidos de la UEFA Nations League 2026/27, se ha incorporado este martes a la concentración de l",
+      "url": "https://www.elperiodico.com/es/gente/20260924/lamine-yamal-reloj-richard-millie-oro-rosa-seleccion-espanola-dv-134624131",
+      "source": "Elperiodico.com",
+      "published_at": "2026-09-24T09:45:45Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Fabián y el Balón de Oro: «Soy el jugador que más títulos ha ganado pero la campaña la dejo para los demás»",
+      "description": "Vuelve la selección española. Dos meses después de ganar el Mundial arranca una nueva temporada para el grupo dirigido por Luis de la Fuente . Entre los seleccionados para jugar los próximos partidos ",
+      "url": "https://www.abc.es/deportes/alfinaldelapalmera/noticias-betis/fabian-balon-oro-jugador-titulos-ganado-campana-20260924105235-nts.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-09-24T08:52:35Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "\"Chiqui\" Tapia y un sorpresivo pedido a River tras su regreso a la AFA: qué le exigió por la despedida de Messi",
+      "description": "El Millonario volvió a sentarse en la mesa del Comité Ejecutivo y presentó un documento con profundas críticas y propuestas de reforma. En paralelo, el presidente de la casa madre del fútbol argentino",
+      "url": "https://442.perfil.com/noticias/futbol/chiqui-tapia-y-un-sorpresivo-pedido-a-river-tras-su-regreso-a-la-afa-que-le-exigio-por-la-despedida-de-messi.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-24T11:38:45Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El último 'álbum' de Messi con la selección argentina",
+      "description": "La firma deportiva Adidas conmemora el que será el último encuentro que disputará Leo Messi con Argentina celebrando su legendaria trayectoria con una edición especial de la elástica albiceleste. A la",
+      "url": "https://www.marca.com/futbol/album/2026/09/25/ultimo-album-messi-seleccion-argentina.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-25T12:01:52",
+      "category": "seleccion"
+    },
+    {
+      "title": "Inglaterra elige a Bellingham por delante de Kane",
+      "description": "El medio del Madrid ha sido escogido 'Mejor Jugador' de la selección inglesa en la 2025-26",
+      "url": "https://www.marca.com/futbol/2026/09/25/inglaterra-elige-bellingham-delante-kane.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-25T11:38:49",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Cádiz busca su identidad frente al entrenador que mejor supo definirla",
+      "description": "El conjunto amarillo, todavía sin victorias y con solo tres puntos de 18, visita al Tenerife de Álvaro Cervera, el técnico que lo llevó de Segunda B a Primera División.",
+      "url": "https://www.marca.com/futbol/cadiz/2026/09/25/cadiz-busca-identidad-frente-entrenador-mejor-supo-definirla.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-25T11:27:55",
+      "category": "liga"
+    }
+  ]
+}
