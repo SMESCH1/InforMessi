@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-09-26",
+  "scraped_at": "2026-09-26T08:53:03.309194-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "Los jugadores de la Selección española estrenan la camiseta de las dos estrellas",
+      "description": "La victoria de España ante Argentina en la gran final del Mundial de fútbol 2026 ha sido sin duda uno de los grandes momentos de este año. Un hito que pasará a la historia y una camiseta, la que visti",
+      "url": "https://www.abc.es/summum/estilo/moda/jugadores-seleccion-espanola-estrenan-camiseta-dos-estrellas-20260925112655-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-09-25T09:26:55Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Las entradas para el último partido de Messi con Argentina se agotan en dos horas",
+      "description": "Las entradas para el partido de despedida de Lionel Messi con la selección argentina, que se enfrentará a Benín en Buenos Aires (la madrugada del 7 de octubre en España), se agotaron en menos de dos h",
+      "url": "https://www.elperiodico.com/es/deportes/20260925/entradas-ultimo-partido-messi-argentina-134665758",
+      "source": "Elperiodico.com",
+      "published_at": "2026-09-25T08:32:51Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Juanjo Gutiérrez: \"Es muy probable que Galán y Lebrón jueguen juntos”",
+      "description": "El seleccionador español atiende a MARCA tras anunciar la lista de 8 convocados para el Mundial de pádel 2026",
+      "url": "https://www.marca.com/padel/2026/09/25/juanjo-gutierrez-probable-galan-lebron-jueguen.html",
+      "source": "Marca",
+      "published_at": "2026-09-25T04:20:56Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Beckham recibe 45 millones de euros tras un récord de beneficios de sus marcas",
+      "description": "El exfutbolista británico David Beckham ha recibido unos 51 millones de dólares (44,7 millones de euros) en dividendos después de que sus marcas registraran en 2025 un récord de beneficios, impulsados",
+      "url": "https://www.mundodeportivo.com/futbol/internacional/20260925/1004231157/beckham-recibe-45-millones-euros-record-beneficios-marcas.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-09-25T11:48:13Z",
+      "category": "general"
+    },
+    {
+      "title": "El 'Batman' de la Selección cuenta la historia que hay detrás de su máscara",
+      "description": "",
+      "url": "https://www.marca.com/futbol/seleccion/2026/09/26/batman-seleccion-cuenta-historia-hay-detras-mascara-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-26T11:17:32",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Spotify Camp Nou reluce: tras acoger la final de la Champions 2029, optimismo para la del Mundial 2030",
+      "description": "El Barça y las instituciones creen en sus opciones pese a que todo apunta a que será en Casablanca",
+      "url": "https://www.marca.com/futbol/barcelona/2026/09/26/spotify-camp-nou-reluce-acoger-final-champions-2029-optimismo-mundial-2030.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-26T09:03:33",
+      "category": "mundial"
+    },
+    {
+      "title": "La La Love You, la banda sonora del éxito de la selección: \"Que nada nos pare\"",
+      "description": "Roberto Amor, fundador, compositor,&nbsp;voz y guitarra del grupo, atiende a MARCA antes de la final del Mundial Sub'20 y manda su apoyo a la selección",
+      "url": "https://www.marca.com/futbol/futbol-femenino/seleccion/2026/09/26/love-you-banda-sonora-exito-seleccion-pare.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-26T06:51:49",
+      "category": "seleccion"
+    },
+    {
+      "title": "Wembley, el estadio del imperio",
+      "description": "La catedral del fútbol inglés nació como muestra del poderío colonial británico",
+      "url": "https://www.marca.com/futbol/seleccion/2026/09/26/wembley-estadio-imperio.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-26T06:51:34",
+      "category": "general"
+    }
+  ]
+}
