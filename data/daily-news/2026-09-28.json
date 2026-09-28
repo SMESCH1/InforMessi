@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-09-28",
+  "scraped_at": "2026-09-28T11:35:38.586700-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "Alineación confirmada de España hoy ante Inglaterra para el partido de la Selección en la Nations League 2026",
+      "description": "Partido para la historia. España va a sentir por primera vez el peso de tener dos estrellas sobre el pecho. Y, más concretamente, los once futbolistas que Luis de la Fuente seleccione para iniciar el ",
+      "url": "https://www.abc.es/deportes/futbol/alineacion-confirmada-espana-hoy-ante-inglaterra-nations-league-20260926053000-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-09-26T17:09:43Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Fernando ‘Bocha’ Batista: trayectoria, logros y fracasos desde Argentina hasta Costa Rica",
+      "description": "Historial de fracasos de Fernando Batista y su cuestionado inicio al frente de la Selección de Costa Rica tras derrotas y empates.",
+      "url": "https://www.nacion.com/puro-deporte/futbol/fernando-bocha-batista-trayectoria-logros-y/VBHX66FBP5AVFGZH2BUK2KEYXA/story/",
+      "source": "Nacion.com",
+      "published_at": "2026-09-26T16:51:39Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La Copa del Mundo ya está en Sevilla",
+      "description": "El trofeo de la Copa del Mundo ganado por España el pasado verano ya está en la ciudad hispalense. La Copa llega para ir abriendo boca antes de que la selección de Luis de la Fuente, que ayer ganó con",
+      "url": "https://www.abc.es/deportes/sevilla/copa-mundo-sevilla-20260927123910-nts.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-09-27T10:39:10Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Campaña de Aficiones Unidas para la final del Mundial 2030 en España",
+      "description": "Comienza mañana martes con motivo del España-Croacia en el Sánchdez-Pizjuán<span class=\"\" contenteditable=\"false\" tabindex=\"-1\"></span>",
+      "url": "https://www.marca.com/futbol/seleccion/2026/09/28/campana-aficiones-unidas-final-mundial-2030-espana.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-28T13:28:02",
+      "category": "mundial"
+    },
+    {
+      "title": "El Girona tiene una lista de bajas que mete miedo",
+      "description": "Afrontó el duelo ante el Albacete con cuatro lesionados y seis jugadores con su selección",
+      "url": "https://www.marca.com/futbol/girona/2026/09/28/lista-bajas-mete-miedo.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-28T13:27:35",
+      "category": "seleccion"
+    },
+    {
+      "title": "Homenaje a la Selección sub 20 femenina campeona del mundo, en directo",
+      "description": "Sigue en vivo y en directo el homenaje a la selección Sub 20 femenina",
+      "url": "https://www.marca.com/futbol/futbol-femenino/seleccion/2026/09/28/6aba6301b364eacdc80f7ee6.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-28T13:15:01",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Granada se desangra en defensa",
+      "description": "\"Antes los futbolistas éramos más duros. Hoy en día todo les afecta\", asegura el técnico del Málaga",
+      "url": "https://www.marca.com/futbol/granada/2026/09/28/granada-desangra-defensa.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-28T10:47:10",
+      "category": "general"
+    },
+    {
+      "title": "El día que Bélgica intentó el fichaje imposible de Zidane",
+      "description": "Esta noche 'Zizou' se enfrenta a los belgas al frente de la Selección Francesa",
+      "url": "https://www.marca.com/futbol/nations-league/2026/09/28/dia-belgica-intento-fichaje-imposible-zidane-zidane.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-28T10:45:38",
+      "category": "seleccion"
+    }
+  ]
+}
