@@ -1,0 +1,79 @@
+{
+  "scrape_date": "2026-09-29",
+  "scraped_at": "2026-09-29T10:26:56.103597-03:00",
+  "total_news": 9,
+  "news": [
+    {
+      "title": "El Ramón Sánchez-Pizjuán, un fortín para alargar la racha de imbatibilidad",
+      "description": "La selección española masculina de fútbol jugará este martes su segundo partido de la Liga de Naciones 2026-2027, un duelo contra Croacia en el que espera alargar su racha de imbatibilidad apoyado no ",
+      "url": "https://www.europapress.es/deportes/futbol/mundial-00639/noticia-ramon-sanchez-pizjuan-fortin-alargar-racha-imbatibilidad-20260928125736.html",
+      "source": "Europapress.es",
+      "published_at": "2026-09-28T10:57:36Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Lionel Messi se sube al avión para el viaje más especial de su carrera: la despedida en la selección argentina",
+      "description": "Convirtió un golazo de tiro libre en la derrota de Inter Miami por 2-1 ante Columbus Crew; en las próximas horas llegará a Buenos Aires para el partido ante Benín del 6 de octubre",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/lionel-messi-se-sube-al-avion-para-el-viaje-mas-especial-de-su-carrera-la-despedida-en-la-seleccion-nid27092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-28T02:05:10Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Pedri no se conforma con 50: \"No toca parar aquí, esta generación va a dar mucha guerra\"",
+      "description": "Pedri González, centrocampista de la selección española, con 50 partidos como internacional, no se conforma con los títulos ganados ya, un Mundial y una Eurocopa, sino que quiere más en el equipo naci",
+      "url": "https://www.mundodeportivo.com/seleccion-espanola/20260928/1004232129/pedri.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-09-28T12:44:01Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Enner Valencia, el goleador que en 23 minutos sepultó los cuestionamientos para convertirse en el “Superman” que necesitaba Boca",
+      "description": "Con tres tantos de cabeza, el ecuatoriano fue el héroe en el triunfo sobre Racing por la Copa Argentina",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/enner-valencia-el-goleador-que-en-23-minutos-sepulto-los-cuestionamientos-para-convertirse-en-el-nid28092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-28T11:08:07Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Martim Neto: “El grupo está muy bien y queremos estar lo más preparados posible”",
+      "description": "\"Antes los futbolistas éramos más duros. Hoy en día todo les afecta\", asegura el técnico del Málaga",
+      "url": "https://www.marca.com/futbol/elche/2026/09/29/martim-neto-grupo-esta-bien-queremos-mas-preparados-posible.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-29T12:25:23",
+      "category": "general"
+    },
+    {
+      "title": "La RFEF rinde homenaje a Caparrós",
+      "description": "Una delegación encabezada por Rafael Louzán ha visitado la ciudad deportiva del Sevilla",
+      "url": "https://www.marca.com/futbol/sevilla/2026/09/29/rfef-rinde-homenaje-caparros.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-29T12:04:27",
+      "category": "seleccion"
+    },
+    {
+      "title": "La FIFA acusa a la UEFA de \"acoso\"",
+      "description": "El máximo organismo del fútbol responsabiliza a la entidad europea de llevar a cabo una \"campaña de desinformación",
+      "url": "https://www.marca.com/futbol/2026/09/29/fifa-acusa-uefa-acoso.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-29T11:47:00",
+      "category": "mundial"
+    },
+    {
+      "title": "Kayode, el nuevo tren de mercancías de Italia que 'descarriló' a Turquía: \"Nunca pensé cambiar de selección\"",
+      "description": "El lateral del Brentford culminó su debut con la 'Azzurra' marcando el 0-3 ante los de Montella",
+      "url": "https://www.marca.com/futbol/nations-league/2026/09/29/kayode-nuevo-tren-mercancias-italia-descarrilo-turquia-nunca-pense-cambiar-seleccion.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-29T11:18:42",
+      "category": "seleccion"
+    },
+    {
+      "title": "Sonia Bermúdez define su 'bloque' mirando hacia el Mundial de Brasil",
+      "description": "Oihane Hernández y Ainhoa Marín, grandes novedades para los amistosos ante Estados Unidos, donde no estarán Aitana Bonmatí, Olga Carmona ni Esther González",
+      "url": "https://www.marca.com/futbol/futbol-femenino/seleccion/2026/09/29/sonia-bermudez-define-bloque-mirando-mundial-brasil.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-29T09:39:48",
+      "category": "mundial"
+    }
+  ]
+}
