@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-09-30",
+  "scraped_at": "2026-09-30T10:05:16.909520-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "Alineación de España hoy ante Croacia para el partido de la Selección en la Nations League 2026",
+      "description": "España demostró en Wembley por qué es campeona del mundo. La victoria por 2-3 ante Inglaterra , con remontada incluida, mantiene la histórica racha vigente de 39 partidos sin perder, superando a selec",
+      "url": "https://www.abc.es/deportes/futbol/alineacion-espana-hoy-ante-croacia-partido-seleccion-20260929131515-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-09-29T11:15:15Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La prensa internacional reacciona a la dura confesión de Vozinha",
+      "description": "El portero de Colo Colo reconoció que le gustaría volver a tener una vida similar a la que llevaba antes del Mundial de Norteamérica 2026.",
+      "url": "https://www.latercera.com/el-deportivo/noticia/la-prensa-internacional-reacciona-a-la-dura-confesion-de-vozinha/",
+      "source": "Latercera.com",
+      "published_at": "2026-09-29T10:18:45Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Gilberto Mora rompe récord en el Tri vigente desde 1930, como el jugador más joven en anotar con la Selección Mexicana",
+      "description": "El joven futbolista de Xolos de Tijuana hizo el tanto del empate en el amistoso contra Colombia el pasado fin de semana",
+      "url": "https://www.record.com.mx/historia/gilberto-mora-rompe-record-en-el-tri-vigente-desde-1930-como-el-jugador-mas-joven-en-anotar-con-la-seleccion-mexicana-2026092822040422293",
+      "source": "Record.com.mx",
+      "published_at": "2026-09-28T22:04:04Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La Copa del Mundo ya está en el Parlamento de Andalucía: «Sevilla es el hogar de la Selección»",
+      "description": "La Copa del Mundo ya se encuentra en el Parlamento de Andalucía. El presidente de la Real Federación Española de Fútbol (RFEF), Rafael Louzán, y Juanma Moreno , presidente de la Junta, han posado este",
+      "url": "https://www.abc.es/deportes/sevilla/copa-mundo-parlamento-andalucia-20260929140029-nts.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-09-29T12:00:57Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Fran García, tras la llamada de De la Fuente: \"Es una alegría enorme, el premio al trabajo y la dedicación\"",
+      "description": "El lateral bético sustituye a Grimaldo en la concentración de la Selección Española",
+      "url": "https://www.marca.com/futbol/seleccion/2026/09/30/fran-garcia-llamada-fuente-alegria-enorme-premio-trabajo-dedicacion.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-30T12:58:39",
+      "category": "seleccion"
+    },
+    {
+      "title": "Zidane deja huella desde el principio: \"Aún conserva esa técnica, en su época debió de ser increíble\"",
+      "description": "Koné reconoce que los jugadores de la selección de Francia están encantados en estos primeros días de la 'era Zinedine'",
+      "url": "https://www.marca.com/futbol/2026/09/30/zidane-deja-huella-principio-aun-conserva-tecnica-epoca-debio-increible.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-30T12:19:46",
+      "category": "seleccion"
+    },
+    {
+      "title": "Grimaldo vuelve al Atlético... pensando en el Alavés",
+      "description": "Pese a tener que dejar la selección por unas molestias en el cuádriceps, no está descartado para el próximo partido",
+      "url": "https://www.marca.com/futbol/atletico/2026/09/30/grimaldo-vuelve-atletico-pensando-alaves.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-30T11:47:32",
+      "category": "seleccion"
+    },
+    {
+      "title": "Fran García sustituye a Grimaldo en la Selección",
+      "description": "El lateral rojiblanco vuelve a Madrid con unas molestias en el muslo izquierdo y le suple el bético",
+      "url": "https://www.marca.com/futbol/seleccion/2026/09/30/fran-garcia-sustituye-grimaldo-seleccion.html",
+      "source": "Fútbol",
+      "published_at": "2026-09-30T10:31:09",
+      "category": "seleccion"
+    }
+  ]
+}
