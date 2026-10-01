@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-10-01",
+  "scraped_at": "2026-10-01T10:58:06.343620-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "Selección Argentina vs Bolivia, por la fecha FIFA",
+      "description": "La Selección Argentina, sin Lionel Messi, recibe en Córdoba a Bolivia en el primer partido oficial tras perder la final del Mundial con España.\n Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/seleccion-argentina-vs-bolivia-por-la-fecha-fifa.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-09-30T12:57:03Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Vojvoda habló de su salida de Racing: “Yo estaba firme, fue una decisión del club”",
+      "description": "El entrenador contó los pormenores de su desvinculación de la Academia luego de la resonante derrota ante Boca por la Copa Argentina; dijo que la determinación de que no hablara en la conferencia post",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/racing/vojvoda-hablo-de-su-salida-de-racing-yo-estaba-firme-fue-una-decision-del-club-nid29092026/",
+      "source": "La Nacion",
+      "published_at": "2026-09-29T15:37:35Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Zaragoza y Teruel, un derbi aragonés inédito en Liga",
+      "description": "\"Antes los futbolistas éramos más duros. Hoy en día todo les afecta\", asegura el técnico del Málaga",
+      "url": "https://www.marca.com/futbol/zaragoza/2026/10/01/zaragoza-teruel-derbi-aragones-inedito-liga.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-01T12:23:15",
+      "category": "general"
+    },
+    {
+      "title": "Mastantuono se sincera: \"Es feo quedarse fuera de la lista del Mundial\"",
+      "description": "El ahora futbolista de la Fiorentina confirma lo bien que se siente desde que llegó a Italia",
+      "url": "https://www.marca.com/futbol/2026/10/01/mastantuono-sincera-golpe-mundial-buen-momento-italia.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-01T12:09:12",
+      "category": "mundial"
+    },
+    {
+      "title": "El próximo reto de la EFC de Al Khelaifi: una asociación de clubes a nivel mundial",
+      "description": "La asociación de clubes europeos busca expandirse para ganar más peso ante la FIFA, como ya ha hecho ante la UEFA, pensando también en los derechos del próximo Mundial de clubes",
+      "url": "https://www.marca.com/futbol/2026/10/01/proximo-reto-efc-khelaifi-asociacion-clubes-nivel-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-01T10:56:22",
+      "category": "mundial"
+    },
+    {
+      "title": "Rafael Leao hereda el mítico '7' de Cristiano Ronaldo",
+      "description": "El extremo, el elegido para portar el dorsal de CR7<span class=\"\" contenteditable=\"false\" tabindex=\"-1\"></span>",
+      "url": "https://www.marca.com/futbol/nations-league/2026/10/01/rafael-leao-hereda-mitico-7-cristiano-ronaldo.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-01T10:19:21",
+      "category": "seleccion"
+    },
+    {
+      "title": "Valentín Gómez y un soñado debut con Argentina para seguir creciendo",
+      "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+      "url": "https://www.marca.com/futbol/betis/2026/10/01/valentin-gomez-sonado-debut-argentina-seguir-creciendo.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-01T10:17:04",
+      "category": "seleccion"
+    }
+  ]
+}
