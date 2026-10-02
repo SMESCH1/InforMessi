@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-10-02",
+  "scraped_at": "2026-10-02T10:15:59.795221-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Mastantuono se sincera: del golpe del Mundial a su buen momento en Italia",
+      "description": "El ahora futbolista de la Fiorentina confirma lo bien que se sienta desde que llegó a Italia  Leer",
+      "url": "https://www.marca.com/futbol/2026/10/01/mastantuono-sincera-golpe-mundial-buen-momento-italia.html",
+      "source": "Marca",
+      "published_at": "2026-10-01T12:09:26Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Un mundialista se declara inocente ante el juez",
+      "description": "El delantero internacional inglés Ivan Toney se declaró inocente este jueves de un cargo de agresión en una discoteca de Soho, en Londres, en diciembre, según informaron medios británicos. A la espera",
+      "url": "https://www.mundodeportivo.com/futbol/liga-arabia-saudi/20261001/1004233334/mundialista-declara-inocente-juez.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-10-01T11:00:48Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El ojeador que descubrió a Lamine Yamal se sienta en el banquillo del Deportivo: el correo que cambió la historia del Barça y La Roja",
+      "description": "La exhibición de Lamine Yamal con España ante Croacia vuelve a poner al zurdo de apenas 19 años en boca de todos. Campeón en 2024 de la Eurocopa y en 2026 del Mundial, el de Esplugues de Llobregat asp",
+      "url": "https://www.elperiodico.com/es/deportes/20261001/ojeador-descubrio-lamine-yamal-sienta-134877440",
+      "source": "Elperiodico.com",
+      "published_at": "2026-10-01T10:29:03Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Víctor Muñoz: \"No me produce frustración competir con Lamine Yamal\"",
+      "description": "El jugador de la selección española masculina de fútbol Víctor Muñoz confesó que tener competir con Lamine Yamal es \"todo un privilegio\" porque aprende mucho de él, y también recordó \"las sensaciones ",
+      "url": "https://www.europapress.es/deportes/futbol/mundial-00639/noticia-victor-munoz-no-me-produce-frustracion-competir-lamine-yamal-20261001141107.html",
+      "source": "Europapress.es",
+      "published_at": "2026-10-01T12:11:07Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Los mundialistas Yeremy y Pedri, reconocidos en los Premios al Deporte Canario",
+      "description": "Comparten galardón con el luchador Eusebio Ledesma, Puntal A del Chimbesque",
+      "url": "https://www.marca.com/futbol/mas-futbol/2026/10/02/mundialistas-yeremy-pedri-reconocidos-premios-deporte-canario.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-02T11:43:01",
+      "category": "mundial"
+    },
+    {
+      "title": "La reacción de Arturo Vidal ante el 'caso Cristiano': \"es una vergüenza\"",
+      "description": "El chileno critica el trato recibido por el portugués en su selección y también señala al cuerpo técnico por su gestión de la situación",
+      "url": "https://www.marca.com/futbol/nations-league/2026/10/02/reaccion-arturo-vidal-caso-cristiano-vergueenza.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-02T10:27:56",
+      "category": "seleccion"
+    }
+  ]
+}
