@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-10-03",
+  "scraped_at": "2026-10-03T09:06:28.055215-03:00",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Fútbol Argentino en plena Fecha FIFA: la ventana internacional expone el mal manejo de los calendarios de AFA",
+      "description": "Este viernes comienza la Fecha 11 del Torneo Clausura 2026, jornada que tendrá partidos el mismo día que la Selección Argentina enfrentará a Burkina Faso por la Fecha FIFA. Luego que el Comité Ejecuti",
+      "url": "https://442.perfil.com/noticias/futbol/futbol-argentino-en-plena-fecha-fifa-la-ventana-internacional-expone-el-mal-manejo-de-los-calendarios-de-afa.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-02T08:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Las Smart TV reciben por sorpresa un nuevo canal de fútbol gratis de RTVE con partidos completos",
+      "description": "Un nuevo canal gratis de fútbol ya está disponible en las Smart TV y la mejor noticia es que está dedicado a la Selección Española. Su lanzamiento, de la mano de RTVE, sirve como tributo a la Roja des",
+      "url": "https://www.adslzone.net/noticias/streaming-tv/rtve-segunda-estrella-canal-gratis-futbol-mundial/",
+      "source": "Adslzone.net",
+      "published_at": "2026-10-02T04:00:50Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Próximo partido de la selección argentina: cuándo juega vs. Burkina Faso",
+      "description": "Luego de golear a Bolivia por 4 a 0 en el primer amistoso de la fecha FIFA en curso, el seleccionado dirigido por Lionel Scaloni recibirá a los Potros en el Monumental",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/proximo-partido-de-la-seleccion-argentina-cuando-juega-vs-burkina-faso-nid01102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-01T20:16:51Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "España tuvo \"especial habilidad\" en la presión tras pérdida durante el Mundial",
+      "description": "La FIFA publicó este viernes un informe analizando a nivel táctico y técnico todo lo que rodeó al pasado Mundial de Estados Unidos, México y Canadá, en el que se subraya \"la especial habilidad\" que tu",
+      "url": "https://www.europapress.es/deportes/futbol-00162/noticia-espana-tuvo-especial-habilidad-presion-perdida-mundial-20261002134816.html",
+      "source": "Europapress.es",
+      "published_at": "2026-10-02T11:48:16Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El europeo de ciclismo se corre en la casa de Pogacar: horario y dónde ver las carreras por TV",
+      "description": "El corredor belga Remco Evenepoel parte como favorito y aspira al doblete línea-contrarreloj \r\n¿Qué pasa con Cristiano Ronaldo? El delantero abandona la selección portuguesa y promete explicaciones\n\r\n",
+      "url": "https://www.eldiario.es/spin/deportes/europeo-ciclismo-corre-casa-pogacar-horario-ver-carreras-tv-pm_1_13556334.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-10-02T10:25:03Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El informe técnico de FIFA ya es una realidad: así ha cambiado el fútbol tras el Mundial",
+      "description": "El Grupo de Estudio Técnico de la FIFA y el Departamento de Perspectivas del Rendimiento Futbolístico de la FIFA analizaron los 104 partidos del Mundial de este año",
+      "url": "https://www.marca.com/futbol/mundial/2026/10/02/informe-tecnico-fifa-realidad-asi-cambiado-futbol-mundial.html",
+      "source": "Marca",
+      "published_at": "2026-10-02T10:07:26Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Vozinha y el 'peaje' de su fama exprés tras el Mundial: \"Mucha gente quiso aprovecharse de mí...\"",
+      "description": "El guardameta caboverdiano se sincera en L'Equipe",
+      "url": "https://www.marca.com/futbol/2026/10/03/vozinha-peaje-fama-expres-mundial-gente-quiso-aprovecharse-mi.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-03T11:03:29",
+      "category": "mundial"
+    },
+    {
+      "title": "La superventana, hasta 2030",
+      "description": "El calendario aprobado por la FIFA mantiene los cuatro partidos del tirón entre septiembre y octubre",
+      "url": "https://www.marca.com/futbol/seleccion/2026/10/03/superventana-2030.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-03T09:56:03",
+      "category": "mundial"
+    },
+    {
+      "title": "Terzic pone deberes a su equipo para el tramo que arrancará en Vallecas",
+      "description": "El Athletic jugará seis partidos de Liga y uno de Copa hasta la ventana FIFA de noviembre",
+      "url": "https://www.marca.com/futbol/athletic/2026/10/03/terzic-pone-deberes-equipo-tramo-arrancara-vallecas.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-03T09:46:17",
+      "category": "mundial"
+    },
+    {
+      "title": "El Chelsea no se olvida de Koundé, pese a su cambio de rol en el Barça y en la selección de Francia",
+      "description": "El galo, en la agenda del equipo de Londres desde hace años, pierde peso en el once de Flick",
+      "url": "https://www.marca.com/futbol/barcelona/2026/10/03/chelsea-olvida-kounde-pese-cambio-rol-barca-seleccion-francia.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-03T09:02:19",
+      "category": "seleccion"
+    }
+  ]
+}
