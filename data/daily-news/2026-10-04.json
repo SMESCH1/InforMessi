@@ -1,0 +1,79 @@
+{
+  "scrape_date": "2026-10-04",
+  "scraped_at": "2026-10-04T09:53:46.035528-03:00",
+  "total_news": 9,
+  "news": [
+    {
+      "title": "Horario del partido de la selección argentina vs. Burkina Faso",
+      "description": "La albiceleste se mide con el equipo africano en el Monumental, después de un viernes pleno de dudas sobre la realización de este encuentro",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/horario-del-partido-de-la-seleccion-argentina-vs-burkina-faso-nid03102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-03T12:33:01Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La selección ya empezó a sufrir la ausencia de Messi (y eso que todavía no se retiró)",
+      "description": "La situación vivida en la previa del viaje de Burkina Faso para el partido con la Argentina expone una forma de negociar de la AFA que no sólo apunta a conseguir rivales de poca jerarquía",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/la-seleccion-ya-empezo-a-sufrir-la-ausencia-de-messi-y-eso-que-todavia-no-se-retiro-nid03102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-03T11:44:47Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Argentina vs Burkina Faso: Canales y hora del partido",
+      "description": "La gira del adiós de Lionel Messi arranca desde el Estadio Monumental",
+      "url": "https://www.record.com.mx/historia/argentina-vs-burkina-faso-donde-ver-2026100306191246448",
+      "source": "Record.com.mx",
+      "published_at": "2026-10-03T06:19:12Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Lucía Rodríguez habló del sabor amargo en Carnaval, las crisis de ansiedad y las ganas de ponerse \"más profunda\"",
+      "description": "La actriz y comunicadora se despide de su unipersonal \"Harta\" el 10 de octubre en el Movie, y es la excusa para conversar sobre sus nuevos desafíos, la cobertura del Mundial y el año difícil que vivió",
+      "url": "https://www.elpais.com.uy/sabado-show/lucia-rodriguez-hablo-del-sabor-amargo-en-carnaval-las-crisis-de-ansiedad-y-las-ganas-de-ponerse-mas-profunda",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-10-03T06:23:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Último amistoso de Brasil tras la baja de Raphinha",
+      "description": "Brasil cerrará este sábado ante India su primera serie de amistosos después del Mundial 2026 con Pedro o Endrick como opciones para reemplazar al lesionado Raphinha, en una nueva prueba de Carlo Ancel",
+      "url": "https://www.mundodeportivo.com/futbol/internacional/20261003/1004233912/brasil.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-10-03T05:15:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Otro gran paso para recuperar a Julián Alvarez",
+      "description": "La vuelta a un gol que no celebraba desde el Mundial acerca a la Araña a su propósito y el del Atlético de empezar a redimirse de su culebrón veraniego a la vuelta del parón",
+      "url": "https://www.marca.com/futbol/atletico/2026/10/04/gran-paso-recuperar-julian-alvarez.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-04T09:53:35",
+      "category": "mundial"
+    },
+    {
+      "title": "Santi Guardia: cuando juegas por una casa para tus papás",
+      "description": "El centrocampista de los ‘millonarios’ deja una respuesta que habla claro de cómo se vive el fútbol en las inferiores argentinas",
+      "url": "https://www.marca.com/futbol/2026/10/04/santi-guardia-juegas-casa-tus-papas.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-04T09:08:53",
+      "category": "seleccion"
+    },
+    {
+      "title": "Marcos Alonso cumplió 500 partidos como profesional",
+      "description": "Repartidos entre siete clubes y la selección española",
+      "url": "https://www.marca.com/futbol/celta/2026/10/04/marcos-alonso-cumplio-500-partidos-profesional.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-04T08:25:48",
+      "category": "seleccion"
+    },
+    {
+      "title": "Argentina le mete 7 goles a Burkina Faso en el amistoso de la vergüenza",
+      "description": "La selección africana jugó con un equipo Sub23 y llegó al partido sólo seis horas antes tras un vuelo de 11 horas",
+      "url": "https://www.marca.com/futbol/2026/10/04/argentina-le-mete-7-goles-burkina-faso-amistoso-vergueenza.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-04T03:10:27",
+      "category": "seleccion"
+    }
+  ]
+}
