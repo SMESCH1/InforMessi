@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-10-05",
+  "scraped_at": "2026-10-05T12:20:21.654549-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "Messi se despide de Argentina como dueño de una colección de récords",
+      "description": "Máximo goleador, futbolista con más partidos y dueño de buena parte de los principales registros de Argentina: Lionel Messi cierra en la madrugada del miércoles más de dos décadas con la Albiceleste c",
+      "url": "https://www.elperiodico.com/es/deportes/20261004/messi-despide-argentina-dueno-coleccion-134990457",
+      "source": "Elperiodico.com",
+      "published_at": "2026-10-04T14:11:11Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "DIRECTO | Luka Modric: rueda de prensa en directo antes del Croacia-España",
+      "description": "El capitán de la selección y su entrenador atienden a los medios antes del partido frente a España.",
+      "url": "https://www.marca.com/futbol/seleccion/2026/10/05/6ac361a6b364eacdc861d29c.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-05T14:49:05",
+      "category": "seleccion"
+    },
+    {
+      "title": "Junior regresa a Sevilla para ser examinado por los médicos del Betis",
+      "description": "El lateral hispano-dominicano sufrió unas molestias jugando con su selección",
+      "url": "https://www.marca.com/futbol/betis/2026/10/05/junior-regresa-sevilla-examinado-medicos-betis.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-05T14:01:59",
+      "category": "seleccion"
+    },
+    {
+      "title": "Hjulmand inicia la 'operación retorno' en un Atlético entre el orgullo y la preocupación",
+      "description": "El danés,&nbsp;tras participar en los cuatro partidos con su selección, regresará con 342 minutos en sus piernas, encarnando la alta carga en las piernas de la mayoría de los internacionales",
+      "url": "https://www.marca.com/futbol/atletico/2026/10/05/hjulmand-inicia-operacion-retorno-atletico-orgullo-preocupacion.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-05T12:04:17",
+      "category": "seleccion"
+    },
+    {
+      "title": "Jesús Velasco y nueve campeones de Europa para medirse a Finlandia en Manzanares",
+      "description": "Lesiones, operaciones y decisiones tácticas varian la imagen de la Selección",
+      "url": "https://www.marca.com/futbol/futbol-sala/2026/10/05/jesus-velasco-nueve-campeones-europa-medirse-finlandia-manzanares.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-05T11:11:44",
+      "category": "seleccion"
+    }
+  ]
+}
