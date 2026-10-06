@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-10-06",
+  "scraped_at": "2026-10-06T10:41:51.127315-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "Cuándo juega la selección argentina vs. Benín, en la despedida de Lionel Messi",
+      "description": "El último partido en el que el astro rosarino vestirá la camiseta albiceleste será este martes a las 20 en el estadio Monumental y lo arbitrará Fernando Véjar",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/cuando-juega-la-seleccion-argentina-vs-benin-en-la-despedida-de-lionel-messi-nid05102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-05T12:29:52Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "VIDEO: El inesperado detalle de Argentina para Messi rumbo a su despedida",
+      "description": "El arquero argentino y sus compañeros organizaron un asado para Lionel Messi durante sus últimos entrenamientos con la Selección Argentina",
+      "url": "https://www.record.com.mx/historia/inesperado-detalle-argentina-messi-despedida-2026100502181674549",
+      "source": "Record.com.mx",
+      "published_at": "2026-10-05T02:18:16Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Qué se sabe de la despedida de Lionel Messi de la selección argentina: horario, TV e invitados especiales",
+      "description": "El evento empezará antes del partido vs. Benín y habrá shows y homenajes para el ‘10′; se espera la presencia de gran parte de los futbolistas que compartieron planteles con él",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/que-se-sabe-de-la-despedida-de-lionel-messi-de-la-seleccion-argentina-horario-tv-e-invitados-nid04102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-04T21:47:52Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Rafael de los Santos y el NFL Madrid Game, protagonistas este martes en los Desayunos Deportivos de EP",
+      "description": "El director de NFL España analizará el impacto del segundo partido de la liga estadounidense, que se disputa el 8 de noviembre en el Bernabéu",
+      "url": "https://www.europapress.es/deportes/noticia-rafael-santos-nfl-madrid-game-protagonistas-martes-desayunos-deportivos-ep-20261005090048.html",
+      "source": "Europapress.es",
+      "published_at": "2026-10-05T07:00:48Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "¡Impresionante! Enorme homenaje de Messi en Rosario",
+      "description": "",
+      "url": "https://www.marca.com/futbol/2026/10/06/impresionante-enorme-homenaje-messi-rosar-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-06T13:39:42",
+      "category": "seleccion"
+    },
+    {
+      "title": "La Federación noruega presenta dos solicitudes a la FIFA para investigar la roja a Balogun y el premio a Trump",
+      "description": "Dos solicitudes formales para ir al fondo de ambos casos",
+      "url": "https://www.marca.com/futbol/mundial/2026/10/06/federacion-noruega-presenta-dos-solicitudes-fifa-investigar-roja-balogun-premio-trump.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-06T11:31:37",
+      "category": "mundial"
+    },
+    {
+      "title": "Irene Paredes, en clave Estados Unidos: \"Hemos pasado de mirarlas desde abajo a jugar a de tú a tú\"",
+      "description": "La capitana de la selección española dibuja el viaje en los últimos siete años",
+      "url": "https://www.marca.com/futbol/futbol-femenino/seleccion/2026/10/06/irene-paredes-clave-estados-unidos-hemos-pasado-mirarlas-abajo-jugar.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-06T11:28:35",
+      "category": "seleccion"
+    },
+    {
+      "title": "UEFA abre investigación por lo sucedido entre la República de Irlanda e Israel",
+      "description": "El máximo organismo del fútbol europeo confirmó que ha abierto un procedimiento para evaluar un presunto 'escupitajo' durante el partido",
+      "url": "https://www.marca.com/futbol/nations-league/2026/10/06/uefa-abre-investigacion-sucedido-republica-irlanda-e-israel.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-06T10:17:42",
+      "category": "general"
+    }
+  ]
+}
