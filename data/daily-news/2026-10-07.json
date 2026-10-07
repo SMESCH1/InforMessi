@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-10-07",
+  "scraped_at": "2026-10-07T11:00:39.466184-03:00",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Horario de la despedida de Lionel Messi de la selección argentina hoy",
+      "description": "El partido amistoso ante Benín está programado a las 20 en el estadio Monumental, donde desde mucho antes hay anunciados shows en vivo",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/horario-de-la-despedida-de-lionel-messi-de-la-seleccion-argentina-hoy-nid06102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-06T13:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "AFA armó un Fan Fest para vivir el retiro de Lionel Messi de la Selección Argentina: todos los detalles",
+      "description": "El Campo de Deportes de la UBA será sede de una jornada especial para acompañar el último partido de Lionel Messi con la Selección Argentina. Habrá música, juegos, gastronomía, invitados y la transmis",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/afa-armo-un-fan-fest-para-vivir-el-retiro-de-lionel-messi-de-la-seleccion-argentina-todos-los-detalles.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-06T12:14:27Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La Federación de Fútbol de Noruega denuncia a Infantino por el escándalo de Balogun, sus relaciones con Trump y el proyecto de privatizar el Mundial",
+      "description": "La Federación de Fútbol de Noruega (NFF) presentó ante la FIFA dos solicitudes formales para solicitar la investigación del caso de la tarjeta roja anulada a Folarin Balogun durante el Mundial 2026, e",
+      "url": "https://www.elperiodico.com/es/deportes/20261006/federacion-futbol-noruega-denuncia-infantino-135063621",
+      "source": "Elperiodico.com",
+      "published_at": "2026-10-06T13:25:43Z",
+      "category": "mundial"
+    },
+    {
+      "title": "España, a por el billete a cuartos de final de la Liga de Naciones ante una Croacia en pleno incendio",
+      "description": "Un punto este martes le basta a la selección para conseguir el pase a la siguiente ronda, mientras que los croatas quieren resarcirse de la «humillación» ante Inglaterra",
+      "url": "https://www.lavozdegalicia.es/noticia/deportes/2026/10/05/espana-billete-cuartos-ante-croacia-pleno-incendio/00031791221134115445544.htm",
+      "source": "Lavozdegalicia.es",
+      "published_at": "2026-10-06T03:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La Copa ya tiene horarios para sus 56 eliminatorias de la primera ronda",
+      "description": "Entre el 27 y el 29 de octubre, 112 equipos buscarán el pase en una primera eliminatoria que se disputará íntegramente a partido único",
+      "url": "https://www.marca.com/futbol/copa-rey/2026/10/07/copa-horarios-56-eliminatorias-primera-ronda.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-07T12:23:36",
+      "category": "general"
+    },
+    {
+      "title": "Sólo quedan cuatro supervivientes del Mundial 2010... y tres están sin equipo",
+      "description": "Sergio Ramos, Javi Martínez y Juan Mata se encuentran libres a la espera de que les fichen o anunciar su retirada mientras que Silva acaba de fichar por el Hong Kong<span class=\"\" contenteditable=\"fal",
+      "url": "https://www.marca.com/futbol/seleccion/2026/10/07/quedan-tres-supervivientes-mundial-2010-estan-equipo.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-07T12:02:12",
+      "category": "mundial"
+    },
+    {
+      "title": "Los nuevos escenarios del 'Caso Cristiano': dos tipos de sanción y la decisión de Jorge Jesús",
+      "description": "El comunicado de CR7 abre ahora varios escenarios en el devenir del futuro de la Federación y de propio futbolista.",
+      "url": "https://www.marca.com/futbol/2026/10/07/nuevos-escenarios-caso-cristiano-dos-tipos-sancion-decision-jorge-jesus.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-07T12:00:48",
+      "category": "general"
+    },
+    {
+      "title": "Rafita eclosiona ahora para Europa",
+      "description": "El canterano del Málaga se pone en el escaparate mundial",
+      "url": "https://www.marca.com/futbol/malaga/2026/10/07/rafita-eclosiona-europa.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-07T11:58:57",
+      "category": "mundial"
+    },
+    {
+      "title": "La fórmula Merino",
+      "description": "De los quince goles que ha marcado con la selección, siete han llegado desde el banquillo.",
+      "url": "https://www.marca.com/futbol/seleccion/2026/10/07/formula-merino.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-07T11:31:29",
+      "category": "seleccion"
+    },
+    {
+      "title": "Messi participará en un encuentro con la comunidad educativa antes de recibir el Premio Princesa de Asturias de los Deportes",
+      "description": "Será en el Palacio de los Deportes de Oviedo el 22 de octubre, a las 17:30 horas",
+      "url": "https://www.marca.com/futbol/2026/10/07/messi-mantendra-encuentro-comunidad-educativa-recibir-premio-princesa-asturias-deportes.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-07T11:28:27",
+      "category": "seleccion"
+    }
+  ]
+}
