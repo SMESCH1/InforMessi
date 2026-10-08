@@ -1,0 +1,79 @@
+{
+  "scrape_date": "2026-10-08",
+  "scraped_at": "2026-10-08T11:05:55.655539-03:00",
+  "total_news": 9,
+  "news": [
+    {
+      "title": "El inesperado espectáculo de drones que abochornó a los hinchas argentinos",
+      "description": "Lionel Messi cerró este martes, de madrugada en España, su etapa en la selección de fútbol de Argentina después de 21 años. Con un Mundial y dos Copas América en su vitrina personal, el atacante del I",
+      "url": "https://www.abc.es/deportes/futbol/inesperado-espectaculo-drones-abochorno-hinchas-argentinos-20261007144037-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-10-07T12:40:38Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Habló el excombatiente que cantó el himno en la despedida de Messi y reveló el consejo que le dio Scaloni",
+      "description": "Fabio Santana fue el encargado de la presentación previa al partido de la selección argentina contra Benín; el artista llevó la bandera en reclamo por las islas Malvinas",
+      "url": "https://www.lanacion.com.ar/deportes/hablo-el-excombatiente-que-canto-el-himno-en-la-despedida-de-messi-y-revelo-el-consejo-que-le-dio-nid07102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-07T12:38:23Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "“Pasó lo peor”: Las palabras de Celia Cuccittini al final de la despedida histórica de Lionel Messi",
+      "description": "La mamá del capitán dedicó unas breves palabras que resumieron lo vivido en el Monumental. Leer más",
+      "url": "https://caras.perfil.com/noticias/celebridades/paso-lo-peor-celia-cuccittini-despedida-historica-lionel-messi.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-07T11:28:11Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "David Silva ficha por el Supreme Sha Tin de Hong Kong tres años después de retirarse por una lesión",
+      "description": "El histórico jugador de la Selección Española, Manchester City, Real Sociedad y Valencia anunció su retirada en 2023 tras sufrir una lesión de rodilla. Tres años después, sale de su jubilación y se va",
+      "url": "https://www.elconfidencial.com/deportes/futbol/2026-10-07/david-silva-supreme-sha-tin_4440329/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-10-07T13:50:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "\"Chiqui Tapia, botón\": el enojó con la AFA en la despedida a Messi",
+      "description": "Los drones arrancaron con publicidad y dibujaron a Messi pateando con la derecha. El show sorpresa se cayó por la organización. La tribuna no perdonó. Leer más",
+      "url": "https://noticias.perfil.com/noticias/informacion-general/chiqui-tapia-boton-el-enojo-con-la-afa-en-la-despedida-a-messi.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-07T11:20:33Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La locura por la camiseta de Messi",
+      "description": "Las búsquedas de su elástica de Argentina aumentaron&nbsp;un 531% en las 24 horas siguientes a su último partido con la selección",
+      "url": "https://www.marca.com/futbol/2026/10/08/locura-camiseta-messi.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-08T12:22:37",
+      "category": "seleccion"
+    },
+    {
+      "title": "Buchanan estará varios partidos de baja por una lesión muscular",
+      "description": "Las pruebas médicas desvelan el problema que sufrió con su selección: tiene una pequeña rotura en la zona del isquio",
+      "url": "https://www.marca.com/futbol/villarreal/2026/10/08/buchanan-estara-partidos-baja-lesion-muscular.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-08T12:04:12",
+      "category": "seleccion"
+    },
+    {
+      "title": "Romario defiende a Cristiano: \"Su error fue no mandar a Jorge Jesus a tomar por culo\"",
+      "description": "El astro brasileño afirma que, si todo ocurrió como ha contado el futbolista luso, él hubiera hecho lo mismo:&nbsp;\"Si no cumplió su palabra, actuó de mala fe\"",
+      "url": "https://www.marca.com/futbol/2026/10/08/romario-defiende-cristiano-error-mandar-jorge-jesus-tomar-culo.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-08T11:10:23",
+      "category": "general"
+    },
+    {
+      "title": "Giay, el 2 para la Argentina post Messi que se le 'escapó' al Atlético",
+      "description": "Andrea Berta llegó a ofrecer cinco kilos antes de que el Palmeiras se llevara por ocho al que ya es considerado como el mejor lateral de Sudamérica",
+      "url": "https://www.marca.com/futbol/atletico/2026/10/08/giay-2-argentina-post-messi-le-escapo-atletico.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-08T10:19:45",
+      "category": "seleccion"
+    }
+  ]
+}
