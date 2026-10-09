@@ -1,0 +1,79 @@
+{
+  "scrape_date": "2026-10-09",
+  "scraped_at": "2026-10-09T10:53:33.615099-03:00",
+  "total_news": 9,
+  "news": [
+    {
+      "title": "¿Se va o se queda? La estrategia de Lionel Scaloni para retener a Walter Samuel",
+      "description": "Mientras se encamina a asegurar su continuidad histórica de cara a un nuevo ciclo mundialista, el DT de la Selección Argentina, Lionel Scaloni, intentará convencer a Walter Samuel de postergar su salt",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/se-va-o-se-queda-la-estrategia-de-lionel-scaloni-para-retener-a-walter-samuel.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-08T12:21:22Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Selección Argentina sin Lionel Messi: continuidad de Scaloni y otras certezas que dejó la Fecha FIFA",
+      "description": "La fuerte emoción por la última función de Lionel Messi con la Selección Argentina dominó una extensa Fecha FIFA en donde Lionel Scaloni tuvo lugar para mostrar algunas cartas de lo que se viene. La r",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/seleccion-argentina-sin-lionel-messi-continuidad-de-scaloni-y-otras-certezas-que-dejo-la-fecha-fifa.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-08T08:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La Fiscalía del TSJ pide el archivo de la querella contra Pérez Llorca por la entrada a la final del mundial de fútbol",
+      "description": "La Fiscalía de la Comunitat Valenciana ha solicitado la inadmisión y el archivo de la querella presentada contra el presidente de la Generalitat, Juanfran Pérez Llorca y la jefa de comunicación de la ",
+      "url": "https://www.elperiodico.com/es/politica/20261008/la-fiscalia-de-la-comunitat-valenciana-pide-el-archivo-de-la-querella-contra-perez-llorca-por-la-entrada-a-la-final-del-mundial-de-futbol-135134413",
+      "source": "Elperiodico.com",
+      "published_at": "2026-10-08T11:21:08Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Bruno Cabral, la nueva joya de River: goles, blindaje contractual y el encuentro con Lionel Messi",
+      "description": "Con apenas 16 años firmó su primer contrato profesional con el club de Núñez; suma más de un tanto por partido desde que compite en la órbita de la AFA",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/river-plate/bruno-cabral-la-nueva-joya-de-river-goles-blindaje-contractual-y-el-encuentro-con-lionel-messi-nid08102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-08T13:10:23Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Benín carga contra Argentina por el homenaje a Messi: \"No nos dejaron hacernos ni una foto\"",
+      "description": "El seleccionador se quejó del trato de la albiceleste en el partido de despedida del astro rosarino",
+      "url": "https://www.marca.com/futbol/2026/10/09/benin-carga-argentina-homenaje-messi-dejaron-hacernos-foto.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-09T10:44:06",
+      "category": "seleccion"
+    },
+    {
+      "title": "Simeone: \"Doy las gracias a Messi por lo que nos enseñó\"",
+      "description": "El técnico argentino atendió a los medios de comunicación en la previa del duelo ante el Alavés",
+      "url": "https://www.marca.com/futbol/atletico/2026/10/09/simeone-doy-gracias-messi-enseno.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-09T10:30:07",
+      "category": "seleccion"
+    },
+    {
+      "title": "De la Barrera, de nuevo a reinventarse: \"El número de bajas es muy bestia, es un factor que limita a todos\"",
+      "description": "Recupera a Iñaki, Rafa Cruz y Herzog, pero sigue con el equipo cogido con pinzas",
+      "url": "https://www.marca.com/futbol/las-palmas/2026/10/09/barrera-nuevo-reinventarse-numero-bajas-bestia-factor-limita-todos.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-09T10:29:17",
+      "category": "seleccion"
+    },
+    {
+      "title": "Pellegrini: \"Tres semanas es mucho para parar un campeonato\"",
+      "description": "El Ingeniero prefería la anterior programación de los partidos de selecciones en la fecha FIFA",
+      "url": "https://www.marca.com/futbol/betis/2026/10/09/pellegrini-peor-osasuna-confiarnos-estadisticas.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-09T10:25:27",
+      "category": "mundial"
+    },
+    {
+      "title": "El fútbol africano muestra su apoyo a Infantino",
+      "description": "El presidente de la Confederación Africana de Fútbol, Patrice Motsepe, elogió el compromiso del presidente de la FIFA",
+      "url": "https://www.marca.com/futbol/2026/10/09/futbol-africano-muestra-apoyo-infantino.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-09T10:11:43",
+      "category": "mundial"
+    }
+  ]
+}
