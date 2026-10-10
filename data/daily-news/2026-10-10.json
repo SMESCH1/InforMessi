@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-10-10",
+  "scraped_at": "2026-10-10T10:06:43.069456-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "La exposición 'Reyes del Mundo' y la Copa del Mundo de Fútbol recalan en Valladolid hasta este domingo",
+      "description": "La muestra, en su segunda vuelta, pasará también a primeros de año por Ciudad Rodrigo (Salamanca) en homenaje al menor de 13 años que falleció durante la celebración del entorchado",
+      "url": "https://www.europapress.es/castilla-y-leon/noticia-exposicion-reyes-mundo-copa-mundo-futbol-recalan-valladolid-domingo-20261009120721.html",
+      "source": "Europapress.es",
+      "published_at": "2026-10-09T10:07:21Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Chiqui Tapia tuvo récord de menciones y comentarios negativos tras la polémica en la despedida de Lionel Messi",
+      "description": "Un informe reveló que Claudio Tapia tuvo su día con mayor volumen de menciones en redes sociales tras el fallido show de drones durante el partido homenaje a Lionel Messi. La predominancia de términos",
+      "url": "https://442.perfil.com/noticias/futbol/chiqui-tapia-tuvo-record-de-menciones-y-comentarios-negativos-tras-la-polemica-en-la-despedida-de-lionel-messi.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-08T21:32:27Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Cristiano Ronaldo contó su verdad y ahora Messi se despide: el gesto de Georgina Rodríguez y Antonela Roccuzzo que lo cambia todo",
+      "description": "El astro argentino ha compartido una emotiva carta tras jugar su último partido con Argentina y ha recibido el apoyo del portugués y su mujer",
+      "url": "https://www.hola.com/actualidad/20261008927939/cristiano-ronaldo-messi-despedida-gesto-georgina-antonela/",
+      "source": "Hola",
+      "published_at": "2026-10-08T19:36:33Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La segunda ruta de la Copa del Mundial arrancará en enero en Ciudad Rodrigo en homenaje al joven aficionado fallecido",
+      "description": "La segunda ruta de la exposición 'Reyes del Mundo' con la Copa del Mundial de Fútbol arrancará a primeros del año próximo en Ciudad Rodrigo (Salamanca) para homenajear al joven de 13 años Adrián Ibarr",
+      "url": "https://www.abc.es/espana/castilla-leon/segunda-ruta-copa-mundial-arrancara-enero-ciudad-20261009122811-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-10-09T10:28:12Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Lionel Messi volvió a entrenarse en el Inter Miami tras su histórica despedida de la Selección Argentina",
+      "description": "El capitán argentino dejó rápidamente atrás los festejos y la emoción de su última función con la \"Albiceleste\" para reincorporarse a los entrenamientos de las \"Garzas\". Acompañado por Rodrigo De Paul",
+      "url": "https://442.perfil.com/noticias/futbol/lionel-messi-volvio-a-entrenarse-en-el-inter-miami-tras-su-historica-despedida-de-la-seleccion-argentina.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-09T01:39:58Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "LPF Play deja de ser gratuita y habrá que pagar para ver el Ascenso",
+      "description": "La plataforma oficial de la AFA pondrá fin a su etapa gratuita y comenzará a exigir una suscripción mensual para seguir en vivo las principales categorías del fútbol argentino, marcando un fuerte impa",
+      "url": "https://442.perfil.com/noticias/futbol/lpf-play-deja-de-ser-gratuita-y-habra-que-pagar-para-ver-el-ascenso.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-08T23:40:53Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Estados Unidos - España: horario y dónde ver hoy en TV el partido amistoso de la selección femenina",
+      "description": "Los detalles del duelo en Estados Unidos",
+      "url": "https://www.marca.com/futbol/futbol-femenino/seleccion/2026/10/10/estados-unidos-espana-horario-ver-hoy-tv-partido-amistoso-seleccion-femenina.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-10T10:10:39",
+      "category": "seleccion"
+    }
+  ]
+}
