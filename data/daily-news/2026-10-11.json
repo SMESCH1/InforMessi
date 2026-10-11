@@ -1,0 +1,31 @@
+{
+  "scrape_date": "2026-10-11",
+  "scraped_at": "2026-10-11T10:35:28.351463-03:00",
+  "total_news": 3,
+  "news": [
+    {
+      "title": "La selección española femenina de hockey línea conquista su segundo Mundial",
+      "description": "La selección española femenina de hockey línea se ha proclamado este sábado campeona del mundo por segunda vez en los World Skate Games 2026, los Juegos Mundiales de patinaje, que se disputan en Asunc",
+      "url": "https://www.europapress.es/deportes/noticia-seleccion-espanola-femenina-hockey-linea-conquista-segundo-mundial-20261010120133.html",
+      "source": "Europapress.es",
+      "published_at": "2026-10-10T10:01:33Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Infantino blinda el voto africano desde Cabo Verde: así saca tajada de la mayor gesta en un Mundial",
+      "description": "El presidente de la FIFA logra en Cabo Verde el apoyo \"unánime e incondicional\" de la segunda confederación más poderosa: África. Infantino promete más financiación y oportunidades para los africanos",
+      "url": "https://www.elconfidencial.com/deportes/futbol/2026-10-10/infantino-fifa-africa-votos-elecciones_4441780/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-10-10T03:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El Atlético ya mira a la Champions",
+      "description": "Tras consolidarse como perseguidor del Barcelona en LaLiga, los de Simeone empiezan a preparar la visita del Manchester United entre el descanso y el trabajo sobre el verde",
+      "url": "https://www.marca.com/futbol/atletico/2026/10/11/atletico-mira-champions.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-11T09:57:32",
+      "category": "general"
+    }
+  ]
+}
