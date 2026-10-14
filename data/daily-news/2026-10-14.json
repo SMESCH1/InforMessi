@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-10-14",
+  "scraped_at": "2026-10-14T09:30:25.381589-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "Netflix da el golpe del siglo en televisión: compra el Mundial 2030 y revoluciona el fútbol en España",
+      "description": "La plataforma sorprende al sector audiovisual al adquirir los derechos exclusivos de los 104 encuentros del Mundial que se celebrará en España, Marruecos y Portugal. RTVE todavía no tiene asegurada su",
+      "url": "https://www.elmundo.es/television/2026/10/13/6ace14f4e4d4d806188b457c.html",
+      "source": "El Mundo",
+      "published_at": "2026-10-13T11:42:59Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Netflix adquiere los derechos audiovisuales exclusivos Mundial 2030 para España y Andorra",
+      "description": "El acuerdo garantiza cobertura íntegra del torneo, con un encuentro gratuito por jornada y una ventana televisiva en abierto para los duelos de la selección, semifinales y final",
+      "url": "https://www.elconfidencial.com/deportes/futbol/2026-10-13/netflix-derechos-mundial-fifa-2030-1tps_4443880/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-10-13T11:41:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Netflix da su gran golpe en España: compra los derechos del Mundial 2030 de fútbol para emitirlo completo en exclusiva",
+      "description": "La plataforma anuncia por sorpresa la compra de los derechos audiovisuales del próximo Mundial de fútbol masculino, que se disputará en España, Marruecos y Portugal en 2030 y que ofrecerá completo en ",
+      "url": "https://www.eldiario.es/vertele/noticias/netflix-da-gran-golpe-espana-compra-derechos-mundial-2030-futbol-emitirlo-completo-exclusiva_1_13581740.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-10-13T11:25:54Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Golpe de Netflix: compra los derechos del Mundial de fútbol 2030 en España y emitirá los 104 partidos del torneo",
+      "description": "La compañía, que retransmitirá un encuentro gratis por jornada, busca un acuerdo con una cadena en abierto para los choques de España.  Más información: El desfile militar de la Fiesta Nacional arrasa",
+      "url": "https://www.elespanol.com/corazon/bluper/20261013/golpe-netflix-compra-derechos-mundial-futbol-espana-emitira-partidos-torneo/1003744418253_0.html",
+      "source": "Elespanol.com",
+      "published_at": "2026-10-13T11:44:29Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El Mundial de fútbol del 2030 se retransmitirá íntegramente en Netflix para España y Andorra",
+      "description": "La plataforma adquiere los derechos exclusivos de los 104 partidos de la Copa del Mundo. Los encuentros de la selección española, las dos semifinales y la final los ofrecerá una cadena en abierto aún ",
+      "url": "https://www.lavozdegalicia.es/noticia/television/2026/10/13/mundial-2030-retransmitira-integramente-netflix/00031791890030938661849.htm",
+      "source": "Lavozdegalicia.es",
+      "published_at": "2026-10-13T11:42:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Kane continúa en campaña y amenaza un récord histórico de Cristiano Ronaldo",
+      "description": "Sólo CR7 (11) encadenó más partidos seguidos marcando en Champions que el inglés (9)",
+      "url": "https://www.marca.com/futbol/champions-league/2026/10/14/kane-continua-campana-amenaza-record-historico-cristiano-ronaldo.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-14T12:10:50",
+      "category": "general"
+    },
+    {
+      "title": "El increíble agujero negro del extremo izquierdo del Córdoba",
+      "description": "La lesión de Kevin Medina para varias semanas es el último de una tanda de infortunios en un puesto que parece gafado",
+      "url": "https://www.marca.com/futbol/cordoba/2026/10/14/increible-agujero-negro-extremo-izquierdo-cordoba.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-14T12:08:26",
+      "category": "seleccion"
+    },
+    {
+      "title": "Rooney atiza a Cristiano: \"No está llevando bien el final de su carrera internacional\"",
+      "description": "El ex delantero y compañero del luso en el Manchester United reconoce que cree que está llevando mal el momento de decir adiós al fútbol",
+      "url": "https://www.marca.com/futbol/2026/10/14/rooney-atiza-cristiano-llevando-bien-final-carrera-internacional.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-14T11:05:03",
+      "category": "general"
+    }
+  ]
+}
