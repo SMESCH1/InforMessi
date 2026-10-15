@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-10-15",
+  "scraped_at": "2026-10-15T09:11:16.444032-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "Netflix ha comprado el lote de 104 partidos del Mundial 2030. Ahora solo tiene que averiguar cómo rentabilizarlo",
+      "description": "Netflix tendrá en exclusiva los 104 partidos del Mundial 2030 en España. Esa es la noticia que parece dar un vuelco a las emisiones deportivas en nuestro país, en su competición más importante. Eso sí",
+      "url": "https://www.xataka.com/cine-y-tv/netflix-ha-comprado-mundial-2030-que-verdad-interesa-a-espana-se-vera-gratis-otra-cadena",
+      "source": "Xataka.com",
+      "published_at": "2026-10-14T12:00:27Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La verdadera razón por la que Leo Messi no hablará en la gala tras recibir el Premio Princesa de Asturias de los Deportes 2026",
+      "description": "El astro argentino recibirá el Premio Princesa de Asturias de los Deportes 2026 el 23 de octubre en Oviedo, pero no pronunciará ningún discurso durante la ceremonia por una llamativa decisión que no h",
+      "url": "https://www.elconfidencial.com/deportes/futbol/2026-10-14/razon-leo-messi-no-hablara-tras-recibir-princesa-asturias-deportes-1qrt_4444753/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-10-14T12:01:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Stefano Di Carlo recibió a Juan Sebastián Verón en el Monumental: la foto que abre un frente común contra la AFA de Tapia",
+      "description": "River y Estudiantes de La Plata publicaron un comunicado conjunto en sus redes sociales",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/stefano-di-carlo-recibio-a-juan-sebastian-veron-en-el-monumental-la-foto-que-abre-un-frente-comun-nid13102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-13T18:42:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Oviedo encuentra gol lejos del '9'",
+      "description": "Ocho futbolistas se reparten los once tantos del conjunto de Julián Calero, con cuatro firmados por centrales y solo uno obra de un delantero centro<span class=\"xai-icon\" contenteditable=\"false\" tabin",
+      "url": "https://www.marca.com/futbol/oviedo/2026/10/15/oviedo-encuentra-gol-lejos-9.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-15T10:26:05",
+      "category": "general"
+    }
+  ]
+}
