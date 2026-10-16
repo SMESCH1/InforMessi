@@ -1,0 +1,79 @@
+{
+  "scrape_date": "2026-10-16",
+  "scraped_at": "2026-10-16T08:57:05.493683-03:00",
+  "total_news": 9,
+  "news": [
+    {
+      "title": "David Ferrer deja la capitanía del equipo español de Copa Davis a final de 2026",
+      "description": "El seleccionador español de tenis, David Ferrer, ha comunicado a la Real Federación Española de Tenis (RFET) su voluntad de renunciar al año que le queda de contrato y dejar su cargo al frente del equ",
+      "url": "https://www.europapress.es/deportes/tenis-00166/noticia-david-ferrer-deja-capitania-equipo-espanol-copa-davis-final-2026-20261015131712.html",
+      "source": "Europapress.es",
+      "published_at": "2026-10-15T11:17:12Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La agenda de Messi en los Premios Princesa de Asturias: visita exprés y sin pronunciar discurso",
+      "description": "El astro argentino permanecerá apenas unas horas en Oviedo para recoger el galardón, aunque no será uno de los elegidos para pronunciar un discurso.",
+      "url": "https://www.libertaddigital.com/chic/2026-10-15/la-agenda-de-messi-en-los-premios-princesa-de-asturias-visita-expres-y-sin-pronunciar-discurso-7476511/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-10-15T10:19:33Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La Selección Argentina podría jugar en el Estadio Único de La Plata por la Fecha FIFA de noviembre",
+      "description": "La Selección Argentina cerraría el 2026 con otros dos amistosos internacionales en el país. Con la gira asiática descartada, la AFA trabaja en un amistoso de reapertura para el estadio platense renomb",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/seleccion-argentina-posibles-sedes-y-rivales-para-el-inicio-de-la-era-post-messi.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-14T19:36:01Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Shaun Edwards, el hombre de acero que llega a los Pumas con su Blitz Defence para evitar tries fáciles",
+      "description": "La incorporación del preparador al cuerpo técnico de Felipe Contepomi aporta un gen histórico inglés a la selección argentina",
+      "url": "https://www.lanacion.com.ar/deportes/rugby/shaun-edwards-el-hombre-de-acero-que-llega-a-los-pumas-con-su-blitz-defence-para-evitar-tries-nid14102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-14T14:53:48Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Athletic se revuelve por las declaraciones del agente de Nico Williams sobre el fichaje fallido por el Barça",
+      "description": "El entorno está agitado con el futuro del futbolista con el contrato más largo y poderoso",
+      "url": "https://www.marca.com/futbol/athletic/2026/10/16/athletic-revuelve-declaraciones-agente-nico-sobre-fichaje-fallido-barca.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-16T10:39:30",
+      "category": "general"
+    },
+    {
+      "title": "Aquel 16 de octubre comenzó todo: 22 años del debut de Leo Messi con el Barça",
+      "description": "",
+      "url": "https://www.marca.com/futbol/barcelona/2026/10/16/16-octubre-comenzo-22-anos-debut-leo-messi-barca-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-16T10:19:45",
+      "category": "seleccion"
+    },
+    {
+      "title": "Ander Herrera, sobre lo que es jugar con Messi, Neymar y Mbappé: \"y añadiría un cuarto monstruo\"",
+      "description": "El futbolista español de 37 años repasa en Rio Ferdinand su actual etapa en el Zaragoza, además de lo que ha vivido en su dilatada carrera",
+      "url": "https://www.marca.com/futbol/2026/10/16/ander-herrera-sobre-jugar-messi-neymar-mbappe-anadiria-cuarto-monstruo.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-16T09:54:50",
+      "category": "seleccion"
+    },
+    {
+      "title": "Mallorca reúne al futuro del fútbol femenino mundial en la octava East Mallorca Girls Cup",
+      "description": "Más de 70 equipos de cerca de 20 nacionalidades participan en uno de los torneos internacionales de referencia del fútbol femenino de base",
+      "url": "https://www.marca.com/futbol/futbol-femenino/2026/10/16/mallorca-reune-futuro-futbol-femenino-mundial-octava-east-mallorca-girls-cup.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-16T09:16:48",
+      "category": "mundial"
+    },
+    {
+      "title": "Chirino antepuso el Almería a un Mundial con Curazao",
+      "description": "El lateral neerlandés desvela que rechazó jugar con la selección caribeña durante la fase clasificatoria para centrarse en el ascenso",
+      "url": "https://www.marca.com/futbol/almeria/2026/10/16/chirino-antepuso-almeria-mundial-curazao.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-16T08:18:57",
+      "category": "seleccion"
+    }
+  ]
+}
