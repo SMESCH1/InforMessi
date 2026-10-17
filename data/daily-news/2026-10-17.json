@@ -1,0 +1,31 @@
+{
+  "scrape_date": "2026-10-17",
+  "scraped_at": "2026-10-17T08:13:07.589330-03:00",
+  "total_news": 3,
+  "news": [
+    {
+      "title": "Enzo Fernández: “Con los ingleses hay cargadas, obviamente, en un vestuario pasa todo el tiempo”",
+      "description": "Símbolo de la selección, anticipa la era post Messi y la influencia de Scaloni; su vida en Manchester, la sociedad con Haaland en el City y el desafío de Ponzio en River",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/enzo-fernandez-con-los-ingleses-hay-cargadas-obviamente-en-un-vestuario-pasa-todo-el-tiempo-nid16102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-16T10:59:06Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Ferrán Torres protagoniza una campaña de ropa interior y deja sus tatuajes al descubierto",
+      "description": "El jugador español del PSG y la selección es la imagen de la nueva campaña de Intimissimi",
+      "url": "https://www.lavozdegalicia.es/noticia/sociedad/2026/10/16/ferran-torres-protagoniza-campana-ropa-interior-deja-tatuajes-descubiertobr-/00031792136787983818873.htm",
+      "source": "Lavozdegalicia.es",
+      "published_at": "2026-10-16T07:55:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Su señoría se puso las botas: de jugar con Osasuna al crimen de Yesa",
+      "description": "Después de estrenarse con el primer equipo rojillo a los 18 años, pero de abandonar el fútbol a los 23 por las lesiones, Javier Martínez Tabernero se ha convertido en juez titular",
+      "url": "https://www.marca.com/futbol/2026/10/17/senoria-puso-botas-jugar-osasuna-crimen-yesa.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-17T04:59:51",
+      "category": "general"
+    }
+  ]
+}
