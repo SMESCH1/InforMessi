@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-10-18",
+  "scraped_at": "2026-10-18T08:47:38.839029-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Chevi Guzmán logra el oro en la vuelta esprint en una jornada con cuatro medallas españolas en Asunción",
+      "description": "El patinador español Chevi Guzmán se ha proclamado campeón del mundo de la modalidad de vuelta esprint en los World Skate Games 2026, los Juegos Mundiales de patinaje, que se están disputando en Asunc",
+      "url": "https://www.europapress.es/deportes/noticia-chevi-guzman-logra-oro-vuelta-esprint-jornada-cuatro-medallas-espanolas-asuncion-20261017104845.html",
+      "source": "Europapress.es",
+      "published_at": "2026-10-17T08:48:45Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La FIFA confirmó la sanción a España por cánticos islamófobos en un amistoso contra Egipto",
+      "description": "La federación española deberá pagar US$20.000 y cerrar al menos el 15% del aforo del estadio en su próximo amistoso como local; anunció que recurrirá al Tribunal Arbitral del Deporte",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/la-fifa-confirmo-la-sancion-a-espana-por-canticos-islamofobos-en-un-amistoso-contra-egipto-nid17102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-17T05:15:54Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Las entradas para ver a Messi en Oviedo se agotan en 13 minutos",
+      "description": "Se registró un pico de más de 16.000 personas en la cola virtual para asistir al acto con el argentino dentro de los eventos de los Premios Princesa de Asturias 2026",
+      "url": "https://www.marca.com/futbol/2026/10/18/entradas-ver-messi-oviedo-duran-13-minutos.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-18T09:57:35",
+      "category": "seleccion"
+    },
+    {
+      "title": "Secretos de barbería antes de ganar el Mundial: “Laporte era el más presumido”",
+      "description": "",
+      "url": "https://www.marca.com/futbol/2026/10/18/secretos-barberia-ganar-mundial-laporte-mas-presum-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-18T08:31:06",
+      "category": "mundial"
+    },
+    {
+      "title": "Messi brilla con doblete y asistencia en el triunfo de Inter Miami ante Atlanta United",
+      "description": "El argentino suma 25 goles y refuerza su condición de máximo goleador de la liga",
+      "url": "https://www.marca.com/futbol/estados-unidos/2026/10/18/messi-brilla-doblete-asistencia-triunfo-inter-miami-atlanta-united.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-18T06:07:44",
+      "category": "seleccion"
+    },
+    {
+      "title": "‘El juego por dentro’: Luismi González, entrenador personal de futbolistas de élite, y lo que no se ve en el rendimiento",
+      "description": "Escúchalo gratis en Spotify, Ivoox, Apple Podcast, Omny, MARCA.com y Radio MARCA",
+      "url": "https://www.marca.com/futbol/2026/10/18/juego-luismi-gonzalez-entrenador-personal-futbolistas-elite-ve-rendimiento.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-18T05:08:04",
+      "category": "general"
+    }
+  ]
+}
