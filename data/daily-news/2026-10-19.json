@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-10-19",
+  "scraped_at": "2026-10-19T11:05:37.068810-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "Santiago Beltrán, de un comienzo casi ideal en River y el llamado a la selección a un futuro incierto",
+      "description": "Hoy ya lleva 41 partidos jugados (40 como titular), con 17 vallas invictas y 34 goles recibidos, además de las citaciones de Lionel Scaloni; su contrato, uno de los temas a resolver",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/santiago-beltran-de-un-comienzo-casi-ideal-en-river-y-el-llamado-a-la-seleccion-a-un-futuro-incierto-nid18102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-18T13:27:15Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El futbolista Pau Cubarsí, estrella del FC Barcelona y la Selección, rompe con su novia Martina Riera",
+      "description": "El joven jugador catalán y su pareja, que llevaban juntos un año y medio, habrían dejado de seguirse en redes sociales recientemente",
+      "url": "https://www.hola.com/actualidad/20261018929718/pau-cubarsi-rompe-novia/",
+      "source": "Hola",
+      "published_at": "2026-10-18T12:15:37Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Los Pumas: puesto por puesto, el semáforo de la selección argentina de rugby a un año del Mundial",
+      "description": "Tras dos años y medio de ensayos del ciclo de Contepomi, las posiciones bien ocupadas, las que necesitan más y las inquietantes",
+      "url": "https://www.lanacion.com.ar/deportes/rugby/los-pumas-puesto-por-puesto-el-semaforo-de-la-seleccion-argentina-de-rugby-a-un-ano-del-mundial-nid18102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-18T11:31:18Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Demichelis: \"Le dije a River que era un error porque Mastantuono es un jugador del Madrid\"",
+      "description": "MARCA participa en la mesa redonda virtual con el entrenador del Leipzig en la previa del partido de Champions en el Bernabéu",
+      "url": "https://www.marca.com/futbol/real-madrid/2026/10/19/demichelis-les-dije-error-mastantuono-jugador-madrid.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-19T13:11:42",
+      "category": "liga"
+    },
+    {
+      "title": "Manzambi: de 'Mejor Joven' de la Europa League y revelación del Mundial... a sensación de la Premier",
+      "description": "El nuevo 'juguete' de Emery suma&nbsp;tres dianas y dos asistencias en los últimos cuatro partidos",
+      "url": "https://www.marca.com/futbol/premier-league/2026/10/19/manzambi-mejor-joven-europa-league-revelacion-mundial-sensacion-premier.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-19T10:32:29",
+      "category": "mundial"
+    }
+  ]
+}
