@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-10-20",
+  "scraped_at": "2026-10-20T09:19:46.152189-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "3-5: Portugal aparta del podio a España, que pasa del oro mundial al 4º puesto",
+      "description": "Del oro de Novara 2024 a salir del podio en Asunción 2026. Tras quedar fuera de la final en la tanda de penaltis contra Argentina, España, plusmarquista de la competición con 18 títulos, sufrió otra d",
+      "url": "https://www.mundodeportivo.com/hockey-patines/20261018/1004240376/3-5-portugal-aparta-podio-espana-pasa-oro-mundial-4o-puesto.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-10-18T21:47:21Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Messi estará en Oviedo y ya genera furor: las entradas para verlo en un acto se agotaron en 13 minutos",
+      "description": "En ese lapso volaron los 4700 tickets a disposición para ver al rosarino, galardonado por la Fundación Princesa de Asturias",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/messi-estara-en-oviedo-y-genero-furor-las-entradas-para-verlo-en-un-acto-se-agotaron-en-13-minutos-nid18102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-18T15:12:03Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "QNED, con retroiluminación MiniLED y 65 pulgadas por menos de 500 euros: esta tele LG es perfecta para salones grandes e iluminados",
+      "description": "Aunque fue durante el Mundial de fútbol y los meses anteriores cuando vimos más ofertas en teles, la cosa no se ha relajado prácticamente ahora que estamos cerca de llegar al final del año. ¿Buscas un",
+      "url": "https://www.xataka.com/seleccion/qned-retroiluminacion-miniled-65-pulgadas-500-euros-esta-tele-lg-perfecta-para-salones-grandes-e-iluminados",
+      "source": "Xataka.com",
+      "published_at": "2026-10-19T08:46:12Z",
+      "category": "mundial"
+    },
+    {
+      "title": "España vs México Femenil en el Mundial sub-17: ¿Dónde y a qué hora ver el partido EN VIVO?",
+      "description": "El último partido entre España y México en el mundial sub 17 fue en la final de la edición de 218 que terminó con una victoria europea.",
+      "url": "https://www.elfinanciero.com.mx/deportes/2026/10/19/mexico-vs-espana-en-el-mundial-femenil-sub-17-en-vivo-resultado-del-partido/",
+      "source": "El Financiero",
+      "published_at": "2026-10-19T06:00:00Z",
+      "category": "mundial"
+    }
+  ]
+}
