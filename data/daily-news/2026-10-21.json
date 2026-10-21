@@ -1,0 +1,31 @@
+{
+  "scrape_date": "2026-10-21",
+  "scraped_at": "2026-10-21T09:29:18.468296-03:00",
+  "total_news": 3,
+  "news": [
+    {
+      "title": "El presidente de Almirante Brown defendió a Claudio Tapia y Luciano Nakis con una fuerte frase",
+      "description": "Maximiliano Levy se refirió al video en que el prosecretario de AFA le seca la nuca al presidente del fútbol argentino; además habló sobre los arbitrajes y la televisación del ascenso",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/el-presidente-de-almirante-brown-defendio-a-claudio-tapia-y-luciano-nakis-con-una-fuerte-frase-nid19102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-20T01:38:32Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Boda secreta en el fútbol: famosos entrenador y actriz se casan tras ocultar su relación durante años",
+      "description": "Fabian Hürzeler, cotizado entrenador alemán del Brighton &amp; Hove Albion de la Premier League, se casa en secreto con Anna Karolin Berger. 'Bild' informa que el famoso técnico de 33 años y la conoci",
+      "url": "https://www.marca.com/futbol/album/2026/10/21/boda-secreta-futbol-famosos-entrenador-actriz-casan-ocultar-relacion-durante-anos.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-21T08:54:22",
+      "category": "general"
+    },
+    {
+      "title": "The Times se disculpa con Infantino y la FIFA por informar de un \"segundo salario\" que no existió",
+      "description": "El diario británico rectifica también sus informaciones sobre una propiedad en Miami y la vinculación del presidente de la FIFA con una sociedad. El organismo denuncia un intento de socavar su imagen<",
+      "url": "https://www.marca.com/futbol/2026/10/21/the-times-disculpa-infantino-fifa-informar-segundo-salario-existio.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-21T08:29:58",
+      "category": "mundial"
+    }
+  ]
+}
