@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-10-22",
+  "scraped_at": "2026-10-22T09:33:04.223113-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Leo Messi llega este jueves a Oviedo para recoger el Premio Princesa de Asturias de los Deportes",
+      "description": "El futbolista argentino Lionel Messi llega este jueves, 22 de octubre, a las 13.00 horas al Hotel Eurostars de la Reconquista de Oviedo para recoger el Premio Princesa de Asturias de los Deportes 2026",
+      "url": "https://www.elperiodico.com/es/deportes/20261021/leo-messi-llega-jueves-oviedo-135573088",
+      "source": "Elperiodico.com",
+      "published_at": "2026-10-21T10:02:40Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Messi llegará este jueves a Oviedo a las 13.00 horas para recoger el Premio Princesa de Asturias de los Deportes",
+      "description": "El futbolista argentino Lionel Messi llegará este jueves, 22 de octubre, a las 13.00 horas al Hotel Eurostars de la Reconquista de Oviedo para recoger el Premio Princesa de Asturias de los Deportes 20",
+      "url": "https://www.europapress.es/asturias/noticia-messi-llegara-jueves-oviedo-1300-horas-recoger-premio-princesa-asturias-deportes-20261021104418.html",
+      "source": "Europapress.es",
+      "published_at": "2026-10-21T08:44:18Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Cuándo vuelve a jugar Boca: la agenda completa entre el Torneo Clausura, la Copa Argentina y la Copa Sudamericana",
+      "description": "Sin tiempo para el descanso, el conjunto de La Ribera ingresa en el tramo más exigente de la temporada. Días, horarios, sedes y todos los detalles del maratónico calendario que le espera a Boca. Leer ",
+      "url": "https://442.perfil.com/noticias/futbol/cuando-vuelve-a-jugar-boca-la-agenda-completa-entre-el-torneo-clausura-la-copa-argentina-y-la-copa-sudamericana.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-21T01:38:25Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Y Julián volvió a marcar con el Atlético 185 días después para mostrar que está de vuelta",
+      "description": "Estaba claro, ¿no? Si había un escenario que le motivaba como para acabar con una sequía preocupante y dar un paso, quién sabe si definitivo, en su recuperación como futbolista del Atlético de Madrid,",
+      "url": "https://www.mundodeportivo.com/futbol/atletico-madrid/20261020/1004241229/julian-volvio-marcar-atletico-185-dias-mostrar-vuelta.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-10-20T20:29:09Z",
+      "category": "general"
+    },
+    {
+      "title": "Messi recibe en Oviedo su primer baño de cariño: decenas de personas le dan la bienvenida",
+      "description": "El argentino recibirá mañana el Premio Princesa de Asturias de los Deportes",
+      "url": "https://www.marca.com/futbol/2026/10/22/messi-recibe-oviedo-primer-bano-carino-decenas-personas-le-dan-bienvenida.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-22T11:31:24",
+      "category": "seleccion"
+    },
+    {
+      "title": "Maresca: \"¿Phil Foden? No sé si amor es la palabra correcta\"",
+      "description": "El técnico de Manchester City habló del futbolista inglés y de su propósito de que vuelva a ser uno de los mejores futbolistas ingleses",
+      "url": "https://www.marca.com/futbol/premier-league/2026/10/22/maresca-phil-foden-amor-palabra-correcta.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-22T10:03:10",
+      "category": "general"
+    }
+  ]
+}
