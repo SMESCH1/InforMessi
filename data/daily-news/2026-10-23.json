@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-10-23",
+  "scraped_at": "2026-10-23T09:13:19.188291-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Messi, ya en Oviedo, recibido entre gritos y aplausos de sus admiradores a las puertas del Reconquista",
+      "description": "El Premio Princesa de los Deportes ha sido el último de los galardonados en llegar a Asturias y lo ha hecho acompañado de su mujer,  Antonela Roccuzzo",
+      "url": "https://www.lavozdeasturias.es/noticia/cultura/2026/10/22/messi-oviedo-recibido-gritos-aplausos-admiradores-puertas-reconquista/00031792668558027563482.htm",
+      "source": "Lavozdeasturias.es",
+      "published_at": "2026-10-22T11:51:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Leo Messi llega a Oviedo entre gritos y aplausos de sus admiradores",
+      "description": "El jugador de fútbol argentino Leo Messi, Premio Princesa de los Deportes 2026, ha llegado al Hotel de la Reconquista de Oviedo pasadas las 13.00 horas, en medio de una gran expectación mediática y en",
+      "url": "https://www.europapress.es/asturias/noticia-leo-messi-llega-oviedo-gritos-aplausos-admiradores-20261022132309.html",
+      "source": "Europapress.es",
+      "published_at": "2026-10-22T11:23:09Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Jude Bellingham, el jugador más sexy del Mundial, según la revista People",
+      "description": "Desde 1985 la revista americana People elige al hombre vivo más sexy del mundo: Brad Pitt, Patrick Dempsey, David Beckham y hasta Dwayne Johnson han sido algunos de los triunfadores. Como aperitivo pr",
+      "url": "https://www.abc.es/summum/gente-vip/jude-bellingham-jugador-sexy-mundial-segun-revista-20261022135728-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-10-22T11:57:29Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Messi en Oviedo: cuándo recoge el Premio Princesa de Asturias y por qué se lo dan",
+      "description": "El futbolista argentino llega este jueves 22 de octubre a la capital asturiana y recibirá el galardón de Deportes el viernes en el Teatro Campoamor por su trayectoria deportiva y su compromiso solidar",
+      "url": "https://www.elconfidencial.com/deportes/futbol/2026-10-22/messi-premio-princesa-asturias_4450620/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-10-22T11:57:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Javier Aguirre: \"¿Canteranos? He hecho debutar a más de treinta futbolistas; jugué un Mundial con un chico de diecisiete años...\"",
+      "description": "El fantasma de la temporada 2028/19 se apodera del entorno viendo a su equipo incapaz de mejorar",
+      "url": "https://www.marca.com/futbol/valencia/2026/10/23/javier-aguirre-canteranos-he-hecho-debutar-treinta-futbolistas-jugue-mundial-chico-diecisiete-anos.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-23T11:52:34",
+      "category": "mundial"
+    },
+    {
+      "title": "Hoy son los Princesa de Asturias: Messi, un Premio deportivo... y social",
+      "description": "El astro argentino recibirá su distinción a partir de las 18.30 en el Teatro Campoamor",
+      "url": "https://www.marca.com/futbol/2026/10/23/hoy-son-princesa-asturias-messi-premio-deportivo-social.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-23T09:28:32",
+      "category": "seleccion"
+    }
+  ]
+}
