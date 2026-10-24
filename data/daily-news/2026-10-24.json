@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-10-24",
+  "scraped_at": "2026-10-24T08:40:46.718336-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "Lionel Messi recibe el Premio Princesa de Asturias 2026: a qué hora es y cómo verlo en vivo",
+      "description": "El astro rosarino será galardonado este viernes en el Teatro Campoamor de Oviedo por su trayectoria y labor solidaria. Horarios de las actividades oficiales, opciones para ver en vivo la ceremonia des",
+      "url": "https://442.perfil.com/noticias/futbol/lionel-messi-premio-princesa-de-asturias-2026.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-22T21:42:26Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "\"No la pasó bien y le hicimos ver que tenía mucho para dar\": Cacique Medina sobre la noche soñada de Muslera",
+      "description": "\"Le ha dado mucho a Estudiantes de La Plata, si estamos en una final de Libertadores es producto de su gran actuación\", agregó el técnico, que recordó lo que significa para los uruguayos el Maracaná.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/no-la-paso-bien-y-le-hicimos-ver-que-tenia-mucho-para-dar-cacique-medina-sobre-la-noche-sonada-de-muslera",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-10-23T11:19:53Z",
+      "category": "general"
+    },
+    {
+      "title": "La SEPI inyecta 85 millones a RTVE para cuadrar sus cuentas con la excusa del Mundial de Fútbol y de la visita del Papa",
+      "description": "La aportación extraordinaria a la cadena fue aprobada en marzo de este año.  Más información: El Consejo de Informativos de TVE señala a 'Mañaneros 360' y 'Malas Lenguas' por \"numerosos incumplimiento",
+      "url": "https://www.elespanol.com/invertia/medios/20261023/sepi-inyecta-millones-rtve-cuadrar-cuentas-excusa-mundial-futbol-visita-papa/1003744432021_0.html",
+      "source": "Elespanol.com",
+      "published_at": "2026-10-23T09:15:37Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Por qué una coronación de Boca podría clasificar a River a la Copa Libertadores 2027",
+      "description": "Boca Juniors mantiene frentes abiertos en la Sudamericana, la Copa Argentina y el torneo local. Cómo influye la cosecha xeneize en las aspiraciones continentales de River Plate. Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/por-que-una-coronacion-de-boca-podria-clasificar-a-river-a-la-copa-libertadores-2027.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-22T12:38:52Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Se descubre de quién era la cita de la Princesa Leonor sobre Leo Messi",
+      "description": "La princesa recuperó una reflexión de Nacho Cases para describir al argentino durante la entrega del Premio Princesa de Asturias de los Deportes",
+      "url": "https://www.marca.com/futbol/2026/10/24/descubre-cita-princesa-leonor-sobre-leo-messi.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-24T08:37:16",
+      "category": "seleccion"
+    }
+  ]
+}
