@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-10-25",
+  "scraped_at": "2026-10-25T09:08:40.694106-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "Luis de la Fuente, principal favorito al Balón de Oro a mejor entrenador",
+      "description": "Luis de la Fuente, seleccionador español masculino de fútbol, figura entre los cinco nominados al premio a Mejor Entrenador Masculino de 2026 del Balón de Oro, junto a Luis Enrique Martínez (París Sai",
+      "url": "https://www.mundodeportivo.com/seleccion-espanola/20261024/1004242513/luis-fuente-gran-favorito-balon-oro-mejor-entrenador-2026.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-10-24T05:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Lionel Messi fue ovacionado al recibir el premio Princesa de Asturias de los Deportes 2026 en España: la emoción de Antonela Roccuzzo",
+      "description": "Acompañado de su esposa, la Pulga aceptó el reconocimiento individual que le fue entregado por la Princesa Leonor de Borbón y se convirtió en el primer deportista sudamericano en recibirlo. Leer más",
+      "url": "https://exitoina.perfil.com/noticias/destacada/lionel-messi-ovacionado-recibir-premio-princesa-asturias-deportes-2026-espana-emocion-antonela-roccuzzo.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-23T22:40:45Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Pau Cubarsí y su primera nominación al Balón de Oro: de La Masía a la élite mundial",
+      "description": "Con apenas 19 años se consagró campeón de LaLiga y ganador del Mundial, evento en el que tuvo una destacada participación.",
+      "url": "https://aristeguinoticias.com/2310/deportes/pau-cubarsi-y-su-primera-nominacion-al-balon-de-oro-de-la-masia-a-la-elite-mundial",
+      "source": "Aristeguinoticias.com",
+      "published_at": "2026-10-23T20:30:48Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El presidente de la FIFA reacciona con risas ante cuestionamientos de renuncia: \"¿Ha pensado en dimitir?\"",
+      "description": "El ojo mediático sigue sobre Gianni Infantino, mientras diversas federaciones se unen para oponerse a otro mandato del actual mandamás del futbol mundial",
+      "url": "https://www.record.com.mx/historia/gianni-infantino-presidente-reacciona-risas-cuestionamientos-renuncia-2026102412051973674",
+      "source": "Record.com.mx",
+      "published_at": "2026-10-24T12:05:19Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La FIFA dará 2,23 millones de euros a cada selección del Mundial de 2027 solo por participar",
+      "description": "La FIFA da un nuevo paso para reducir la brecha entre el fútbol masculino y el femenino. Las 32 selecciones que participarán en el Mundial de Brasil 2027 recibirán unos 2,23 millones de euros cada una",
+      "url": "https://www.mundodeportivo.com/futbol/femenino/20261024/1004242555/fifa-dara-2-23-millones-euros-seleccion-mundial-2027-participar.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-10-24T08:51:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Messi y España: \"Hacía tiempo que no venía por acá y disfruté muchísimo\"",
+      "description": "El astro argentino agradeció el Princesa de Asturias de los Deportes en sus redes  Leer",
+      "url": "https://www.marca.com/futbol/2026/10/24/messi-espana-venia-aca-disfrute-muchisimo.html",
+      "source": "Marca",
+      "published_at": "2026-10-24T07:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Mourinho contra el mejor Barça de la historia: tres años de guerra en 17 batallas",
+      "description": "De la goleada del 5-0 al dedo en el ojo de Tito Vilanova, del “¿por qué?” al “calma” de Cristiano: la crónica de la rivalidad más tensa que ha vivido el fútbol español, cuando el portugués se midió al",
+      "url": "https://www.marca.com/futbol/real-madrid/2026/10/25/mourinho-mejor-barca-historia-tres-anos-guerra-17-batallas.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-25T10:29:38",
+      "category": "general"
+    }
+  ]
+}
