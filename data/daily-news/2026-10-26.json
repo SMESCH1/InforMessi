@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-10-26",
+  "scraped_at": "2026-10-26T10:38:54.553894-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "Quién gana este lunes el Balón de Oro, según la IA: ¿Lionel Messi o Lamine Yamal?",
+      "description": "La herramienta tecnológica vaticinó quién será el ganador de la ceremonia organizada por la revista France Football",
+      "url": "https://www.lanacion.com.ar/deportes/quien-gana-este-lunes-el-balon-de-oro-segun-la-ia-lionel-messi-o-lamine-yamal-nid25102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-25T13:11:49Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Balón de Oro viaja a Londres con Yamal, Kane, Mbappé, Messi y Rodri como aspirantes",
+      "description": "La prestigiosa entrega del premio, que se hará este lunes, abandona una París convulsionada por las manifestaciones sociales",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/el-balon-de-oro-viaja-a-londres-con-yamal-kane-mbappe-messi-y-rodri-como-aspirantes-nid25102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-25T12:10:35Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Patricio Hernández, una mirada profunda del fútbol: se educó con Bilardo y Menotti y fue el catequista de Maradona",
+      "description": "Exjugador de Estudiantes, River y la selección, a los 70 años trabaja con los juveniles de Racing; sus recuerdos con los grandes maestros, su visión del fútbol actual y sus momentos con Diego: “Era un",
+      "url": "https://www.lanacion.com.ar/deportes/patricio-hernandez-una-mirada-profunda-del-futbol-se-educo-con-bilardo-y-menotti-y-fue-el-catequista-nid24102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-24T13:54:48Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Kane se hace presente en Londres para el Balón de Oro y no se espera a Messi",
+      "description": "Confianza en el entorno del jugador inglés para recibir el galardón esta noche",
+      "url": "https://www.marca.com/futbol/2026/10/26/kane-presente-londres-balon-oro-espera-messi.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-26T11:42:54",
+      "category": "seleccion"
+    }
+  ]
+}
