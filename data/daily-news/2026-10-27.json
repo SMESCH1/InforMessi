@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-10-27",
+  "scraped_at": "2026-10-27T09:47:30.596227-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "Los números de Lionel Messi para pelear por su noveno Balón de Oro",
+      "description": "En el London Palladium Theatre, el astro albiceleste competirá por el dorado galardón. ¿Quiénes son sus rivales en la terna? Leer más",
+      "url": "https://noticias.perfil.com/noticias/deportes/los-numeros-de-lionel-messi-para-pelear-por-su-noveno-balon-de-oro.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-26T12:42:42Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "España conquista ocho medallas en el Mundial de maratón de piragüismo",
+      "description": "El Campeonato del Mundo de Piragüismo en Maratón 2026, disputado en la localidad argentina de Gualeguaychú, ha bajado el telón con un balance muy positivo para el piragüismo español. El combinado espa",
+      "url": "https://www.mundodeportivo.com/otros-deportes/20261026/1004243355/espana-conquista-ocho-medallas-mundial-maraton-piragueismo.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-10-26T12:10:56Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Balón de Oro 2026: a qué hora se entrega y cómo ver en vivo la ceremonia",
+      "description": "El prestigioso galardón que distingue a los mejores del fútbol mundial se muda a Londres por primera vez en la historia para celebrar su edición 70. Lionel Messi amenaza la definición entre Harry Kane",
+      "url": "https://442.perfil.com/noticias/futbol/balon-de-oro-2026-ceremonia-en-vivo-todos-los-galardonados.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-26T11:27:31Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Recreativo - Rayo Vallecano: horario y dónde ver hoy en TV la Copa del Rey",
+      "description": "El Decano recibe al conjunto madrileño en una de las eliminatorias destacadas de la jornada",
+      "url": "https://www.marca.com/futbol/copa-rey/2026/10/27/recreativo-rayo-vallecano-horario-ver-hoy-tv-copa-rey.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-27T09:37:46",
+      "category": "general"
+    }
+  ]
+}
