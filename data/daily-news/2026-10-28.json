@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-10-28",
+  "scraped_at": "2026-10-28T10:36:55.379519-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "Kylian Mbappé y el Balón de Oro: otra decepción para un premio que se le resiste",
+      "description": "El francés terminó segundo en la edición 2026, detrás de Harry Kane, y sumó una nueva frustración en la carrera por el máximo premio individual. Desde su llegada a la elite, acumula temporadas de cifr",
+      "url": "https://442.perfil.com/noticias/futbol/kylian-mbappe-y-el-balon-de-oro-otra-decepcion-para-un-premio-que-se-le-resiste.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-27T10:51:37Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La hazaña de Charlyn Corral, la jugadora que hizo historia para México al ganar el premio a la mejor delantera en el Balón de Oro",
+      "description": "Charlyn Corral ofreció un emotivo discurso en el que expresó cuán feliz se sentía de “ser la primera mexicana\" en recibir un reconocimiento en la prestigiosa gala del fútbol mundial.",
+      "url": "https://www.bbc.com/mundo/articles/cq62ygg3e245o",
+      "source": "BBC News",
+      "published_at": "2026-10-27T12:55:03Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La reacción de Lamine Yamal tras perder el Ballon d'Or 2026 que se hizo viral: quién fue el ganador",
+      "description": "El jugador de 33 años fue recompensado por sus impresionantes 73 goles en 65 partidos con su club y selección la temporada pasada, impulsando al Bayern a conseguir el doblete de liga y copa. Leer más",
+      "url": "https://exitoina.perfil.com/noticias/destacada/reaccion-lamine-yamal-tras-perder-ballon-dor-2026-que-se-hizo-viral-quien-fue-ganador.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-27T02:58:11Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Romero y Saliba se suben al “submarino”",
+      "description": "El Betis resistió ante el líder, se pone quinto provisional de LaLiga y sueña con la Champions",
+      "url": "https://www.marca.com/futbol/villarreal/2026/10/28/romero-saliba-suben-submarino.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-28T12:19:29",
+      "category": "general"
+    }
+  ]
+}
