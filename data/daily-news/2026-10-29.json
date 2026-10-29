@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-10-29",
+  "scraped_at": "2026-10-29T10:46:14.717308-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "El árbol familiar de Lionel Scaloni: sus raíces en Pujato y la vida que construyó en España",
+      "description": "Una pérdida importante vuelve a dirigir las miradas hacia quienes acompañaron al director técnico argentino durante distintas etapas. Leer más",
+      "url": "https://caras.perfil.com/noticias/celebridades/el-arbol-familiar-de-lionel-scaloni-sus-raices-en-pujato-y-la-vida-que-construyo-en-espana.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-28T12:54:03Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "\"Jugué con un par de pastillas e infiltrado\": la confesión del Cuti Romero sobre la final del Mundial",
+      "description": "A más de tres meses de la definición en Nueva Jersey ante España, el marcador central de la Selección argentina rompió el silencio sobre las complicaciones físicas que condicionaron su rendimiento y d",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/jugue-con-un-par-de-pastillas-e-infiltrado-la-confesion-del-cuti-romero-sobre-la-final-del-mundial.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-28T11:56:29Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Roque Raúl Alfaro, de 1 a 100: “En la Bombonera me tiraron dos gallinas vivas desde la popular”",
+      "description": "A los 70 años, el ex ffutbolista cuenta cómo superó dos cánceres y el gesto de River que lo sostiene económicamente.El Scaloni que dirigió en las inferiores de Newells, el Messi que jugaba con su hijo",
+      "url": "https://www.clarin.com/deportes/roque-raul-alfaro-1-100-bombonera-tiraron-gallinas-vivas-popular_0_XvpVlX9qpH.html",
+      "source": "Clarín",
+      "published_at": "2026-10-28T10:44:08Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Pierre Webo, del ser el 'gol' en Osasuna y Mallorca al banquillo del Dunkerque: el inesperado heredero de Albert Sánchez",
+      "description": "El exfutbolista de Osasuna y Mallorca será el nuevo técnico 'interino' hasta nuevo aviso",
+      "url": "https://www.marca.com/futbol/2026/10/29/pierre-webo-gol-osasuna-mallorca-banquillo-dunkerque-inesperado-heredero-albert-sanchez.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-29T12:13:36",
+      "category": "general"
+    },
+    {
+      "title": "La 'prima volta' de Rafa Marín: \"Esto es por ti, Diego, que desde donde estés no has dejado de cuidarle\"",
+      "description": "El ex de Alavés, Villarreal y Real Madrid debutó como goleador con el Nápoles... y en Serie A",
+      "url": "https://www.marca.com/futbol/liga-italiana/2026/10/29/prima-volta-rafa-marin-esto-ti-diego-estes-has-dejado-cuidarle.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-29T12:08:54",
+      "category": "seleccion"
+    }
+  ]
+}
