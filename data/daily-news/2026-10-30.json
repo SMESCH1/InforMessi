@@ -1,0 +1,79 @@
+{
+  "scrape_date": "2026-10-30",
+  "scraped_at": "2026-10-30T10:40:01.327735-03:00",
+  "total_news": 9,
+  "news": [
+    {
+      "title": "Lejos del ruido, los viajes y de los premios, cerca en el empate de Inter Miami con Cincinnati y la Messi Cup",
+      "description": "El crack rosarino no viajó a la entrega del Balón de Oro, pero jugó con las Garzas y presenció partidos de los clubes argentinos en el torneo Sub 16",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/lejos-del-ruido-los-viajes-y-de-los-premios-cerca-en-el-empate-de-inter-miami-con-cincinnati-y-la-nid28102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-29T02:36:24Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Nicolás Sattler y Facundo “El Chino” Herrera de Q’ Lokura sobre Lionel Messi: “Saber que es argentino es un orgullo enorme”",
+      "description": "Los integrantes del dúo cuartetero hablaron con LA NACION sobre su participación en la despedida del capitán de la selección argentina y revelaron cómo su música llegó al vestuario de los campeones de",
+      "url": "https://www.lanacion.com.ar/espectaculos/nicolas-sattler-y-facundo-el-chino-herrera-de-q-lokura-sobre-lionel-messi-saber-que-es-argentino-es-nid28102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-29T01:30:03Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "España sufre la pérdida de peso del Mundial en el Balón de Oro",
+      "description": "El delantero inglés del Bayern Múnich, Harry Kane, se impuso este lunes en la votación del Balón de Oro por delante del francés Kylian Mbappé y el español Lamine Yamal, una edición en la que, por cuar",
+      "url": "https://www.europapress.es/deportes/futbol-00162/noticia-espana-sufre-perdida-peso-mundial-balon-oro-20261029102316.html",
+      "source": "Europapress.es",
+      "published_at": "2026-10-29T09:23:16Z",
+      "category": "mundial"
+    },
+    {
+      "title": "De Messi a María Pombo: el ‘marketing’ que hay detrás del auge de las bebidas funcionales",
+      "description": "Las bebidas funcionales venden algo más que un refresco: la promesa de autocuidado. De los ingredientes a los influencers, ¿cómo construye el ‘marketing’ expectativas sobre sus beneficios para la salu",
+      "url": "https://theconversation.com/de-messi-a-maria-pombo-el-marketing-que-hay-detras-del-auge-de-las-bebidas-funcionales-291480",
+      "source": "The Conversation Africa",
+      "published_at": "2026-10-29T07:35:48Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Revelan el ranking completo de los deportistas mejor pagados y Messi no está primero: cómo se compone el Top 10",
+      "description": "La revista Forbes actualizó su listado de ingresos históricos en el deporte mundial; Cristiano Ronaldo encabeza la nómina con una cifra que supera los 2000 millones de dólares",
+      "url": "https://www.lanacion.com.ar/deportes/revelan-el-ranking-completo-de-los-deportistas-mejor-pagados-y-messi-no-esta-primero-como-se-compone-nid28102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-28T19:30:26Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Fútbol Argentino reprogramará su definición por la visita del papa León XIV",
+      "description": "AFA anunciará una programación diferente a la prevista para la Fecha 16 del Clausura 2026, última jornada regular en la temporada de Primera División. Todos los detalles.\n Leer más",
+      "url": "https://442.perfil.com/noticias/futbol/el-futbol-argentino-reprogramara-su-definicion-por-la-visita-del-papa-leon-xiv.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-28T15:38:08Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "España - República Checa, final del Mundial Sub-15 en directo",
+      "description": "Sigue en vivo y en directo el España - República Checa, final del Mundial Sub-15 en Bakú",
+      "url": "https://www.marca.com/futbol/seleccion/2026/10/30/6ae49b2a020dbf8b21b1dec8.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-30T13:31:56",
+      "category": "mundial"
+    },
+    {
+      "title": "La Selección Argentina comparte emotivo vídeo por el cumpleaños de Diego Maradona",
+      "description": "",
+      "url": "https://www.marca.com/futbol/2026/10/30/seleccion-argentina-comparte-emotivo-video-cumpleanos-diego-maradona-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-30T12:41:02",
+      "category": "seleccion"
+    },
+    {
+      "title": "La autocrítica de Enzo Fernández por la expulsión en la final: \"Es una espina que tengo clavada\"",
+      "description": "El ahora mediocentro del Manchester City pasa revista a la selección argentina tras la salida de Messi, a su nuevo equipo y la final disputada contra España",
+      "url": "https://www.marca.com/futbol/mundial/2026/10/30/autocritica-enzo-fernandez-expulsion-final-espina-clavada.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-30T11:13:22",
+      "category": "seleccion"
+    }
+  ]
+}
