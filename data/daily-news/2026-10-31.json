@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-10-31",
+  "scraped_at": "2026-10-31T10:08:26.630349-03:00",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Duro mazazo para España: Ale Galán, baja para el Mundial de Qatar",
+      "description": "Duro golpe para la selección española de cara al Mundial de Qatar 2026. La Roja no podrá contar finalmente con Ale Galán, una de las grandes estrellas del equipo, que no podrá jugar el torneo en Doha ",
+      "url": "https://www.mundodeportivo.com/padel/mas-padel/20261030/1004244916/confirmado-ale-galan-baja-mundial-qatar.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-10-30T09:24:58Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Enzo Fernández habló sobre la final con España en el Mundial 2026: “En los penales ganábamos”",
+      "description": "El mediocampista, que fue expulsado al final del tiempo reglamentario, describió cómo se vivió la definición de la Copa del Mundo",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/enzo-fernandez-hablo-sobre-la-final-con-espana-en-el-mundial-2026-en-los-penales-ganabamos-nid29102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-30T01:45:16Z",
+      "category": "mundial"
+    },
+    {
+      "title": "\"Todo mentira\": Enzo Fernández desmintió rumores sobre la final del Mundial y recordó la última charla con Messi",
+      "description": "El mediocampista del Manchester City rompió el silencio tras la definición frente a España, explicó el desgaste físico del plantel argentino y revivió con emoción el legado del capitán tras su retiro ",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/todo-mentira-enzo-fernandez-desmintio-rumores-sobre-la-final-del-mundial-y-recordo-la-ultima-charla-con-messi.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-29T17:42:33Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Ferran Torres, el marketing explota su lado 'canalla'",
+      "description": "Ferran Torres. El gol del Mundial con España le puso en el gran foco. Su llegada a París (PSG) le abre ahora el mercado del lujo. Madruga a diario, se sumerge en agua gélida, a cuatro grados, y luego ",
+      "url": "https://www.mundodeportivo.com/futbol/internacional/20261030/1004244963/ferran-torres-marketing-explota-lado-canalla.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-10-30T10:20:42Z",
+      "category": "mundial"
+    },
+    {
+      "title": "VAR semiautomático en Argentina: menos demora y sin trazado manual de líneas",
+      "description": "Su utilización fue aprobada este jueves por el Comité Ejecutivo de la Liga Profesional; se estrenará en diciembre, en la final del Clausura",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/var-semiautomatico-en-argentina-menos-demora-y-sin-trazado-manual-de-lineas-nid29102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-29T21:13:33Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La pregunta de Tapia, el voto de River y el apoyo de Estudiantes en una pelea cada vez más abierta con la AFA",
+      "description": "La disputa tuvo un nuevo capítulo en la reunión de Comité Ejecutivo de este jueves; silencios y gestos de una interna cada vez más abierta",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/la-pregunta-de-tapia-el-voto-de-river-y-el-apoyo-de-estudiantes-en-una-pelea-cada-vez-mas-abierta-nid29102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-29T20:25:20Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Zakharyan no está en una lista para el derbi con todos los importantes para Matarazzo",
+      "description": "El ruso no está disponible para la visita al Athletic, como anticipó ayer el técnico de Nueva Jersey, que podrá disponer de todos sus futbolistas más relevantes",
+      "url": "https://www.marca.com/futbol/real-sociedad/2026/10/31/zakharyan-lista-derbi-todos-importantes-matarazzo.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-31T12:59:04",
+      "category": "general"
+    },
+    {
+      "title": "La generación 2011 campeona del mundo: el ‘10’ que lo marca todo, el pequeño de los Mosquera y un 'killer' de 1,92",
+      "description": "Así son los 14 campeones del primer Mundial Sub-15 de la historia, uno por uno",
+      "url": "https://www.marca.com/futbol/seleccion/2026/10/31/generacion-2011-campeona-mundo-10-marca-pequeno-mosquera-killer-1-92.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-31T11:35:09",
+      "category": "mundial"
+    },
+    {
+      "title": "Unai Simón: \"En festejos, los cinco días tras ganar la Copa del Rey no tuvo nada que ver con el Mundial\"",
+      "description": "El portero se confiesa en los medios oficiales del Athletic tras ser reconocido como el mejor portero del mundo.",
+      "url": "https://www.marca.com/futbol/athletic/2026/10/31/unai-simon-festejos-cinco-dias-ganar-copa-rey-tuvo-ver-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-31T09:12:24",
+      "category": "mundial"
+    },
+    {
+      "title": "Joaquín Larrivey: “El Rayo me recuerda a los equipos de la Capital Federal en Argentina”",
+      "description": "El exjugador del Rayo Vallecano y Celta atendió a MARCA para hablar sobre su carrera y el partido entre ambos<span class=\"\" contenteditable=\"false\" tabindex=\"-1\"></span>",
+      "url": "https://www.marca.com/futbol/rayo/2026/10/31/joaquin-larrivey-rayo-me-recuerda-equipos-capital-federal-argentina.html",
+      "source": "Fútbol",
+      "published_at": "2026-10-31T07:47:08",
+      "category": "seleccion"
+    }
+  ]
+}
