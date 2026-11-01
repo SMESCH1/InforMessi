@@ -1,0 +1,31 @@
+{
+  "scrape_date": "2026-11-01",
+  "scraped_at": "2026-11-01T10:52:08.265232-03:00",
+  "total_news": 3,
+  "news": [
+    {
+      "title": "Nadie puede con el Dalí argentino, un jugador de todas las canchas que se ríe de la tribuna",
+      "description": "El presidente de la AFA extiende su dominio, pese a la fuerte oposición de River y Estudiantes; sin novedades en el ámbito judicial, las oleadas en su contra de los estadios tampoco lo salpican",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/nadie-puede-con-el-dali-argentino-un-jugador-de-todas-las-canchas-que-se-rie-de-la-tribuna-nid31102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-31T11:33:09Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "A 66 años del nacimiento de Diego Maradona, varias figuras recordaron el inmenso legado del \"10\"",
+      "description": "Desde la FIFA a varios clubes, jugadores y hasta figuras de otros ámbitos homenajearon al Barrilete Cósmico en una fecha donde estaría cumpliendo años.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/a-66-anos-del-nacimiento-de-diego-maradona-varias-figuras-recordaron-el-inmenso-legado-del-10",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-10-30T21:22:27Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Insfrán, tras los pasos de Zamora: el poder político, los millones y la trama detrás del ascenso de San Martín de Formosa a la Primera Nacional",
+      "description": "El gobernador busca replicar el modelo de Santiago del Estero para llevar al fútbol formoseño a la élite.Los fondos públicos, los vínculos con la AFA y el rol de una dirigente cercana al poder.",
+      "url": "https://www.clarin.com/deportes/insfran-pasos-zamora-poder-politico-millones-trama-detras-ascenso-san-martin-formosa-primera-nacional_0_BLeiNJn95v.html",
+      "source": "Clarín",
+      "published_at": "2026-10-31T10:32:53Z",
+      "category": "seleccion"
+    }
+  ]
+}
