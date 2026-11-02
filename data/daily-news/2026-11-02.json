@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-11-02",
+  "scraped_at": "2026-11-02T13:37:47.272038-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "La AFA ordenó transferencias a 10 sociedades bajo sospecha con la firma de un exdirector ejecutivo",
+      "description": "Se trata de Gerardo León, que ingresó a la entidad que preside Claudio Tapia en 2017 y luego se transformó en “asesor”; LA NACION accedió a una docena de instrucciones de pago que le enviaban a la emp",
+      "url": "https://www.lanacion.com.ar/politica/la-afa-ordeno-transferencias-a-10-sociedades-bajo-sospecha-con-la-firma-de-un-exdirector-ejecutivo-nid01112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-01T10:24:22Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Dibu Martínez mostró cómo le quedó la mano tras atajar con un dedo fracturado durante el Mundial 2026",
+      "description": "El arquero que ya quedó en la historia de la Selección Argentina reveló las consecuencias que tuvo por no operarse de su fractura y elegir jugar el Mundial con su país. Leer más",
+      "url": "https://exitoina.perfil.com/noticias/destacada/dibu-martinez-mostro-como-quedo-mano-tras-atajar-dedo-fracturado-durante-mundial-2026.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-10-31T22:20:55Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "A qué hora juega River vs. Palmeiras por la final de la Messi Cup 2026 y qué canal lo transmite en vivo",
+      "description": "El Millonario quiere defender el título que ya ganó el año pasado, en la primera edición del certamen que organiza el astro del fútbol mundial",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-juega-river-vs-palmeiras-por-la-final-de-la-messi-cup-2026-y-que-canal-lo-transmite-en-nid01112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-01T13:28:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El nuevo club de los Estados Unidos que sueña con competir contra Messi y busca jugadores en la Argentina: cómo participar de las pruebas",
+      "description": "El Port St. Lucie SC, fundado por una familia argentina, abre una convocatoria masiva para captar talento joven; en diálogo con LA NACION, la presidenta Agostina Galimberti afirma que el proyecto busc",
+      "url": "https://www.lanacion.com.ar/deportes/el-nuevo-club-de-los-estados-unidos-que-suena-con-competir-contra-messi-y-busca-jugadores-en-la-nid31102026/",
+      "source": "La Nacion",
+      "published_at": "2026-10-31T20:39:15Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Mourinho-Álvaro López: pulso triunfal entre maestro y alumno",
+      "description": "Ambos técnicos protagonizan un pleno en Champions y Youth League que buscan prolongar en Atenas",
+      "url": "https://www.marca.com/futbol/real-madrid/2026/11/02/mourinho-alvaro-lopez-pulso-triunfal-maestro-alumno.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-02T16:15:27",
+      "category": "general"
+    },
+    {
+      "title": "Joao Félix se luce con un Al Nassr sin Cristiano Ronaldo: dos goles y dos asistencias",
+      "description": "Triunfo saudí en la Champions de Asia con goleada (2-6) en Uzbekistán",
+      "url": "https://www.marca.com/futbol/liga-arabia-saudi/2026/11/02/joao-felix-luce-nassr-cristiano-ronaldo-dos-goles-dos-asistencias.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-02T15:42:13",
+      "category": "general"
+    }
+  ]
+}
