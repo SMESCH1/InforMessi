@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-11-03",
+  "scraped_at": "2026-11-03T11:41:54.866983-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Arranca el Mundial de Pádel en Doha con España en busca de un nuevo título",
+      "description": "El Mundial de Pádel 2026 ya está en marcha. Doha (Qatar) vuelve a convertirse en el epicentro del pádel internacional con la celebración de la FIP World Cup, una competición que reúne a las mejores se",
+      "url": "https://www.abc.es/deportes/padel/arranca-mundial-padel-doha-espana-busca-nuevo-20261102135837-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-11-02T12:58:38Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Comienza el Mundial de pádel en Qatar: la selección argentina defiende la corona",
+      "description": "Este lunes se enfrentan con Chile, las mujeres, y con Australia, los varones; televisa el torneo Disney+",
+      "url": "https://www.lanacion.com.ar/deportes/padel/comienza-el-mundial-de-padel-en-qatar-la-seleccion-argentina-defiende-la-corona-nid02112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-02T11:22:39Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Lionel Messi dio otra lección de fútbol y vigencia para la agónica victoria de Inter Miami",
+      "description": "Inter Miami ganó en su visita a New England gracias al golazo que Lionel Messi marcó a pocos minutos del final. El astro mantiene números impresionantes en la temporada y recorta diferencia en el cami",
+      "url": "https://442.perfil.com/noticias/futbol/lionel-messi-dio-otra-leccion-de-futbol-y-vigencia-para-la-agonica-victoria-de-inter-miami.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-11-02T12:01:43Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Cuando el Madrid fichó a Breitner, el futbolista que leía a Mao: \"A mí no me interesa si es comunista\"",
+      "description": "Hace 52 años, un retrato de Mao Zedong también fue objeto de debate en el Real Madrid. Aunque aquella historia era bien diferente. El protagonista fue Paul Breitner, campeón del mundo con Alemania en ",
+      "url": "https://www.elperiodico.com/es/deportes/20261102/madrid-ficho-breitner-futbolista-leia-135990432",
+      "source": "Elperiodico.com",
+      "published_at": "2026-11-02T08:59:29Z",
+      "category": "general"
+    },
+    {
+      "title": "Andrés García, en la prelista de la Selección Española",
+      "description": "El carrilero del Getafe está en la órbita de Luis de la Fuente y podría llamarle este viernes",
+      "url": "https://www.marca.com/futbol/getafe/2026/11/03/andres-garcia-prelista-seleccion-espanola.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-03T13:49:32",
+      "category": "seleccion"
+    },
+    {
+      "title": "Felipe Miñambres: \"Es un día muy triste para el fútbol mundial\"",
+      "description": "",
+      "url": "https://www.marca.com/futbol/tenerife/2026/11/03/felipe-minambres-dia-triste-futbol-mundial-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-03T13:42:49",
+      "category": "mundial"
+    }
+  ]
+}
