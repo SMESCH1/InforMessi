@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-11-04",
+  "scraped_at": "2026-11-04T11:54:44.947814-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "La actualidad de los reservados de Uruguay para la fecha FIFA de noviembre y los dilemas que debe resolver Forlán",
+      "description": "La lista tiene a varios jugadores con escasa actividad oficial y también a algunos que están entre algodones por temas sanitarios pero que aspiran a llegar en óptimas condiciones.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/la-actualidad-de-los-reservados-de-uruguay-para-la-fecha-fifa-de-noviembre-y-los-dilemas-que-debe-resolver-forlan",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-11-03T06:45:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Bryan Ruiz se frota las manos gracias a Manfred Ugalde, Patrick Sequeira y Carlos Mora, entre otros",
+      "description": "El nuevo entrenador de la Selección de Costa Rica, Bryan Ruiz, tendrá su debut oficial el 13 de noviembre contra Ecuador.",
+      "url": "https://www.nacion.com/puro-deporte/bryan-ruiz-se-frota-las-manos-gracias-a-manfred/FQU5V5NMCFCHPIDG5WPVTOSABM/story/",
+      "source": "Nacion.com",
+      "published_at": "2026-11-03T01:23:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Gerard Piqué, presidente del Andorra, sobre la muerte de Jesús de Miguel tras el Tenerife-Andorra de LaLiga Hypermotion: \"Lo siento con toda mi alma\"",
+      "description": "El máximo responsable de la entidad del Principado, rival del conjunto tinerfeño durante el fatídico encuentro, encabeza el dolor del fútbol español tras confirmarse el deceso del delantero madrileño",
+      "url": "https://www.elconfidencial.com/deportes/futbol/2026-11-03/pique-presidente-andorra-lamento-fallecimiento-jesus-miguel-tenerife_4457962/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-11-03T11:51:00Z",
+      "category": "general"
+    },
+    {
+      "title": "La AFA celebra 92 años de su constitución entre cuestionamientos y reformas de sus torneos",
+      "description": "El 3 de noviembre de 1934 la Asociación del Fútbol Argentino se constituyó con su denominación actual y dio continuidad a una construcción que había iniciado varias décadas antes, posicionando con el ",
+      "url": "https://442.perfil.com/noticias/futbol/la-afa-celebra-92-anos-de-su-constitucion-entre-cuestionamientos-y-reformas-de-sus-torneos.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-11-03T08:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Se define la Tabla Anual: días y horarios de la última fecha del torneo Clausura, con Boca en busca del título",
+      "description": "Hay 11 equipos clasificados para los octavos de final y quedan solo cinco cupos; para definir la programación, la AFA tuvo en cuenta los pedidos de seguridad y la llegada del Papa a la Argentina",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/se-define-la-tabla-anual-dias-y-horarios-de-la-ultima-fecha-del-torneo-clausura-con-boca-en-busca-nid03112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-03T03:48:42Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Rafa Nadal más madridista",
+      "description": "Desde su infancia en Manacor hasta sus celebraciones más recientes, la pasión de Rafa Nadal por el Real Madrid nunca ha sido un secreto. Ahora, con su nombramiento como directivo del club blanco, repa",
+      "url": "https://www.marca.com/futbol/real-madrid/album/2026/11/04/rafa-nadal-madridista.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-04T13:59:18",
+      "category": "seleccion"
+    },
+    {
+      "title": "La reflexión del vicepresidente del Cádiz tras la muerte de Jesús de Miguel: “Hay noticias que deberían obligarnos a parar”",
+      "description": "Rafael Contreras ha compartido un mensaje en sus redes sociales después del fallecimiento del delantero del Tenerife",
+      "url": "https://www.marca.com/futbol/cadiz/2026/11/04/reflexion-vicepresidente-cadiz-muerte-jesus-miguel-hay-noticias-deberian-obligarnos-parar.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-04T12:21:52",
+      "category": "seleccion"
+    },
+    {
+      "title": "Rafa Nadal: \"Acepto esta propuesta con mucha ilusión y ganas de aprender\"",
+      "description": "La leyenda del tenis formará parte de la Junta Directiva desde el 21 de noviembre, cuando se ratifique la decisión en la Asamblea",
+      "url": "https://www.marca.com/futbol/real-madrid/2026/11/04/rafa-nadal-acepto-propuesta-ilusion-ganas-aprender.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-04T12:10:31",
+      "category": "seleccion"
+    }
+  ]
+}
