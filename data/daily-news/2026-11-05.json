@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-11-05",
+  "scraped_at": "2026-11-05T11:59:20.836790-03:00",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "La nueva etapa de Rodrigo De Paul: fuera de la convocatoria, cada vez más cerca de Messi y con una vida armada en Miami",
+      "description": "El volante no fue citado por Scaloni; entre un rendimiento irregular, el respaldo de Kily González y su presente con Tini Stoessel, los Playoffs aparecen como una oportunidad para recuperar protagonis",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/la-nueva-etapa-de-rodrigo-de-paul-fuera-de-la-convocatoria-cada-vez-mas-cerca-de-messi-y-con-una-nid04112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-04T14:25:23Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La Copa del Mundo de Fútbol se mostrará en el Ayuntamiento de Santander el viernes y el sábado",
+      "description": "El Salón de Recepciones del Ayuntamiento de Santander albergará este viernes 6 y el sábado 7 la Copa del Mundo 2026, conquistada por la Selección Española de Fútbol el pasado verano en Estados Unidos ",
+      "url": "https://www.europapress.es/cantabria/noticia-copa-mundo-futbol-mostrara-ayuntamiento-santander-viernes-sabado-20261104110350.html",
+      "source": "Europapress.es",
+      "published_at": "2026-11-04T10:03:50Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Un Mundial, una sola sede: Rabat inaugura un modelo pionero en el fútbol femenino",
+      "description": "El Mundial femenino Sub-17 de 2026 dejará una novedad que va más allá de lo estrictamente deportivo. Por primera vez, la competición ha apostado por un modelo de sede única, concentrando en Rabat toda",
+      "url": "https://www.mundodeportivo.com/futbol/femenino/20261104/1004247185/mundial-sola-sede-rabat-inaugura-modelo-pionero-futbol-femenino.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-11-04T14:01:09Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Hernán Crespo, ex futbolista de la Selección Argentina espera su cuarto hijo: quién es Antonella Silguero, su pareja",
+      "description": "El director técnico emocionó a sus seguidores con la noticia y generó curiosidad sobre su nueva pareja. Leer más",
+      "url": "https://caras.perfil.com/noticias/celebridades/hernan-crespo-ex-futbolista-seleccion-argentina-cuarto-hijo-antonella-silguero-pareja.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-11-04T11:27:14Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Enzo Alves y Tunkara lideran la lista de España para el Mundial Sub-17",
+      "description": "David Cubillo convoca a 21 futbolistas de la generación de 2009 para el torneo que se disputa en Catar del 19 de noviembre al 13 de diciembre, con el debut ante China el día 20",
+      "url": "https://www.marca.com/futbol/seleccion/2026/11/05/enzo-alves-tunkara-lideran-lista-espana-mundial-sub-17.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-05T14:49:55",
+      "category": "mundial"
+    },
+    {
+      "title": "Cristiano Ronaldo, el jugador que cambió la historia del fútbol en Portugal",
+      "description": "",
+      "url": "https://www.marca.com/futbol/2026/11/05/cristiano-ronaldo-jugador-cambio-historia-futbol-portugal-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-05T13:59:21",
+      "category": "general"
+    },
+    {
+      "title": "Raphinha: \"¿La selección? Que los culés no estén preocupados\"",
+      "description": "El brasileño desveló durante su renovación que ha hablado con Ancelotti",
+      "url": "https://www.marca.com/futbol/barcelona/2026/11/05/raphinha-seleccion-cules-esten-preocupados.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-05T13:52:39",
+      "category": "seleccion"
+    },
+    {
+      "title": "Álex Suárez: \"Es muy difícil centrarse en lo deportivo, aunque hay pique, somos como hermanos\"",
+      "description": "\"Antes los futbolistas éramos más duros. Hoy en día todo les afecta\", asegura el técnico del Málaga",
+      "url": "https://www.marca.com/futbol/las-palmas/2026/11/05/alex-suarez-dificil-centrarse-deportivo-hay-pique-hermanos.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-05T12:55:00",
+      "category": "general"
+    },
+    {
+      "title": "Portugal agradece \"todo\" a Cristiano y le califica como \"el mejor de todos los tiempos\"",
+      "description": "Comunicado oficial de la Federación portuguesa de Fútbol",
+      "url": "https://www.marca.com/futbol/2026/11/05/portugal-agradece-cristiano-le-califica-mejor-todos-tiempos.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-05T12:44:27",
+      "category": "general"
+    },
+    {
+      "title": "Una delegación FIFA de 18 personas pone nota a San Mamés y Anoeta",
+      "description": "Valoran distintos aspectos para la viabilidad de su plan como sede conjunta del Mundial 2030",
+      "url": "https://www.marca.com/futbol/2026/11/05/delegacion-fifa-18-personas-pone-nota-san-mames-anoeta.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-05T11:51:04",
+      "category": "mundial"
+    }
+  ]
+}
