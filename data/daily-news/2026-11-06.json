@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-11-06",
+  "scraped_at": "2026-11-06T11:39:27.243033-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "Antonela Roccuzzo se lució con un inglés perfecto, reveló qué significa la belleza para ella y mostró qué no puede faltar nunca en su cartera",
+      "description": "La rosarina sorprendió a sus seguidores con el dominio del idioma y reveló cuáles son las piezas de maquillaje que se volvieron infaltables en su día a día en Miami con Lionel Messi",
+      "url": "https://www.lanacion.com.ar/espectaculos/antonela-roccuzzo-se-lucio-con-un-ingles-perfecto-revelo-que-significa-la-belleza-para-ella-y-mostro-nid05112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-05T13:48:31Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Brian Rodríguez sufrió una lesión y se perderá los amistosos de Uruguay ante Argentina y República Dominicana",
+      "description": "El América de México confirmó que el extremo uruguayo, que estaba entre los reservados por Diego Forlán, presenta una lesión en el bíceps femoral izquierdo y no estableció plazos para su recuperación.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/brian-rodriguez-sufrio-una-lesion-y-se-perdera-los-amistosos-de-uruguay-ante-argentina-y-republica-dominicana",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-11-05T11:40:33Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Mundial de Pádel 2026: estas son las alineaciones de España y Argentina para los cuartos de final",
+      "description": "El Mundial de Pádel de Qatar 2026 sigue avanzando y cada jornada gana peso en la lucha por el título, acercándose al gran momento de la verdad. Con España y Argentina como principales candidatas a lev",
+      "url": "https://www.mundodeportivo.com/padel/mas-padel/20261105/1004247509/mundial-padel-2026-son-alineaciones-espana-argentina-cuartos-final.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-11-05T11:12:23Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Del banquillo al adiós: la cronología del conflicto entre Cristiano y Jesus",
+      "description": "Cristiano Ronaldo anunció este jueves su despedida de la selección de Portugal, tras más de un mes de conflicto con el seleccionador Jorge Jesus y de incertidumbre sobre su continuidad en el equipo na",
+      "url": "https://www.mundodeportivo.com/futbol/internacional/20261105/1004247574/banquillo-adios-cronologia-conflicto-cristiano-jesus.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-11-05T14:17:34Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Emilio García Silvero deja la FIFA",
+      "description": "Hasta la fecha, ocupaba el cargo de Jefe de Asuntos Jurídicos y Cumplimiento Normativo dentro de la institución internacional",
+      "url": "https://www.marca.com/futbol/2026/11/06/emilio-garcia-silvero-deja-fifa.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-06T14:17:20",
+      "category": "mundial"
+    },
+    {
+      "title": "Jorge Jesus, tras la retirada de Cristiano: \"Claro que pensaba que volvería\"",
+      "description": "El seleccionador portugués asegura que contaba con volver a convocar al exmadridista y niega cualquier sentimiento de culpa por el conflicto que acabó precipitando su adiós a la selección",
+      "url": "https://www.marca.com/futbol/2026/11/06/jorge-jesus-rompe-silencio-retirada-cristiano-claro-pensaba-volveria.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-06T13:29:18",
+      "category": "seleccion"
+    },
+    {
+      "title": "Marc Roca, tras su primera llamada con la selección: \"Ojalá sea la primera de muchas\"",
+      "description": "El jugador del Betis, de 29 años, se reencontrará con De la Fuente, quien le dirigió en las inferiores",
+      "url": "https://www.marca.com/futbol/seleccion/2026/11/06/marc-roca-primera-llamada-seleccion-ojala-sea-primera-muchas.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-06T12:54:51",
+      "category": "seleccion"
+    }
+  ]
+}
