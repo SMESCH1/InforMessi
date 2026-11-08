@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-11-08",
+  "scraped_at": "2026-11-08T10:55:44.927620-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "Oficial: España y Argentina ya tienen sus alineaciones para la final del Mundial de Pádel",
+      "description": "Ya ha llegado el gran día que todo el mundo del pádel estaba esperando. Después de una semana de máxima intensidad, el Mundial de Doha 2026 llega a su desenlace con una final de auténtico lujo: España",
+      "url": "https://www.mundodeportivo.com/padel/mas-padel/20261107/1004248201/oficial-espana-argentina-alineaciones-para-final-mundial-padel.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-11-07T10:15:33Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La final del Mundial de Pádel entre España y Argentina ya tiene hora oficial y televisión en abierto",
+      "description": "Ya ha llegado el gran día que todo el mundo del pádel estaba esperando. Después de una semana de máxima intensidad, el Mundial de Doha 2026 llega a su desenlace con una final de auténtico lujo: España",
+      "url": "https://www.mundodeportivo.com/padel/mas-padel/20261107/1004248182/final-mundial-padel-espana-argentina-hora-oficial-television-abierto.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-11-07T08:51:20Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "2-2: España deja en la cuneta a Portugal y jugará la Finalíssima",
+      "description": "La selección de fútbol sala de España venció este viernes a la de Portugal por 7-8 en una tanda de penaltis tras empatar 2-2 en tiempo reglamentario de la semifinal europea, y garantizó cupo en la dec",
+      "url": "https://www.mundodeportivo.com/futbol/sala/20261107/1004248150/2-2-espana-deja-cuneta-portugal-jugara-finalissima.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-11-07T06:49:56Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El español Emilio García Silvero, director jurídico de FIFA, deja el cargo",
+      "description": "La FIFA anunció este viernes que Emilio García Silvero, director jurídico de la FIFA en los últimos ocho años, deja su puesto de Director del Departamento Legal y Cumplimiento para iniciar una nueva e",
+      "url": "https://www.elperiodico.com/es/deportes/20261107/espanol-emilio-garcia-silvero-director-136198759",
+      "source": "Elperiodico.com",
+      "published_at": "2026-11-07T12:54:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El Athletic blinda a Imga antes de su participación en el Mundial sub'17",
+      "description": "Mejora las condiciones de su contrato y se asegura una cláusula de prórroga automática",
+      "url": "https://www.marca.com/futbol/athletic/2026/11/08/athletic-blinda-imga-participacion-mundial-sub-17.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-08T09:34:37",
+      "category": "mundial"
+    }
+  ]
+}
