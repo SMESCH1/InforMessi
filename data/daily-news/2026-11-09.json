@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-11-09",
+  "scraped_at": "2026-11-09T13:55:10.114141-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "España hace doblete en el Mundial de Pádel 2026: campeona masculina y femenina tras vencer a Argentina en ambas finales",
+      "description": "La selección española conquista los dos títulos en Doha tras imponerse por 2-1 en la final masculina y por 2-0 en la femenina. Los hombres recuperan la corona mundial y las mujeres encadenan su séptim",
+      "url": "https://www.eldiario.es/spin/deportes/espana-doblete-mundial-padel-2026-campeona-masculina-femenina-vencer-argentina-ambas-finales-pm_1_13647454.html",
+      "source": "Eldiario.es",
+      "published_at": "2026-11-08T07:30:57Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "España golpea primero ante Argentina con una remontada épica de Lebrón y Goñi",
+      "description": "España ha dado el primer paso hacia la conquista del Campeonato del Mundo de pádel 2026, que se disputa en Doha (Qatar). Juan Lebrón y Aimar Goñi han conseguido adelantar a la selección española en la",
+      "url": "https://www.abc.es/deportes/padel/espana-golpea-primero-ante-argentina-remontada-epica-20261107193737-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-11-07T18:37:37Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Boca llegó a los 75 títulos oficiales: uno por uno, todos los campeonatos y copas de su historia",
+      "description": "Con la consagración en la Tabla Anual 2026, gracias al gol agónico de Enner Valencia ante Defensa y Justicia, el Xeneize alcanzó las 75 conquistas oficiales y se consolidó como el club más ganador del",
+      "url": "https://442.perfil.com/noticias/futbol/boca-llego-a-los-75-titulos-oficiales-uno-por-uno-todos-los-campeonatos-y-copas-de-su-historia.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-11-08T03:06:39Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Calero se despide del Oviedo sin reproches",
+      "description": "El técnico madrileño publica una carta tras su destitución en la que lamenta la brevedad de su etapa y destaca el compromiso de los futbolistas",
+      "url": "https://www.marca.com/futbol/oviedo/2026/11/09/calero-despide-oviedo-reproches.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-09T16:42:47",
+      "category": "general"
+    },
+    {
+      "title": "Zidane convoca para la selección francesa a un jugador de la segunda división alemana",
+      "description": "El seleccionador galo ha llamado al joven defensa Saël Kumbedi, de 21 años, que milita en el Wolfsburgo de la segunda división alemana&nbsp;para paliar la baja de Kalulu",
+      "url": "https://www.marca.com/futbol/2026/11/09/zidane-convoca-seleccion-francesa-jugador-segunda-division-alemana.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-09T14:44:48",
+      "category": "seleccion"
+    },
+    {
+      "title": "Así es la llegada de la Selección a la concentración en las Rozas",
+      "description": "",
+      "url": "https://www.marca.com/futbol/seleccion/2026/11/09/asi-llegada-seleccion-concentracion-rozas-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-09T14:35:13",
+      "category": "seleccion"
+    }
+  ]
+}
