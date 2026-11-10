@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-11-10",
+  "scraped_at": "2026-11-10T12:16:14.130353-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "La complicada nueva vida en Chile de Vozinha, el héroe de Cabo Verde en el Mundial",
+      "description": "La prensa chilena ya especula con una posible salida del portero en 2027. Vozinha firmó un contrato de seis meses, con opción a ampliarlo por un año más si disputa al menos el 50% de los minutos ofici",
+      "url": "https://www.elmundo.es/deportes/futbol/2026/11/09/6af1906be85ece765c8b458c.html",
+      "source": "El Mundo",
+      "published_at": "2026-11-09T09:20:44Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Kiki Ramos deja a la Selección Argentina para jugar el Mundial Sub-17 con Haití",
+      "description": "El delantero de Vélez Sarsfield aceptó el llamado de su país natal para disputar la Copa del Mundo",
+      "url": "https://www.record.com.mx/historia/kiki-ramos-deja-a-la-seleccion-argentina-para-jugar-el-mundial-sub-17-con-haiti-2026110904121954499",
+      "source": "Record.com.mx",
+      "published_at": "2026-11-09T04:34:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Llegó Valverde a la selección y será dirigido por primera vez por Forlán: “Voy a sacarle el mayor fruto”",
+      "description": "El Pajarito habló de las charlas con Cachavacha de “cambiar la energía” a la Celeste y desmintió situaciones que se vivieron en el Mundial 2026 con respecto al mal relacionamiento con Marcelo Bielsa.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/llego-valverde-a-la-seleccion-y-sera-dirigido-por-primera-vez-por-forlan-voy-a-sacarle-el-mayor-fruto",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-11-09T01:28:36Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Cubarsí se alza con el premio Golden Boy al mejor joven de la temporada",
+      "description": "El mejor jugador joven del Mundial no recibió el trofeo Kopa al mejor joven del año pero sí el Golden Boy, que premia exactamente lo mismo. Pau Cubarsí perdió por dos votos el primer galardón que conc",
+      "url": "https://www.elperiodico.com/es/deportes/20261109/cubarsi-alza-premio-golden-boy-136241531",
+      "source": "Elperiodico.com",
+      "published_at": "2026-11-09T14:41:17Z",
+      "category": "mundial"
+    },
+    {
+      "title": "España lidera el Mejor 11 Femenino de FIFPRO con cinco jugadoras y Aitana Bonmatí como la más votada",
+      "description": "Alexia Putellas, Irene Paredes, Mapi León y Claudia Pina acompañan a Aitana tras la votación de 6.511 futbolistas",
+      "url": "https://www.europapress.es/deportes/futbol-00162/noticia-espana-lidera-mejor-11-femenino-fifpro-cinco-jugadoras-aitana-bonmati-mas-votada-20261109151426.html",
+      "source": "Europapress.es",
+      "published_at": "2026-11-09T14:14:26Z",
+      "category": "general"
+    },
+    {
+      "title": "Joan García: \"Me siento cómodo con la defensa adelantada, aunque conlleva un riesgo muy grande\"",
+      "description": "El meta catalán valora el juego culé y cómo vive la llamada de la selección",
+      "url": "https://www.marca.com/futbol/barcelona/2026/11/10/joan-garcia-me-siento-comodo-defensa-adelantada-conlleva-riesgo-grande.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-10T14:50:31",
+      "category": "seleccion"
+    },
+    {
+      "title": "Enzo Alves, baja para el Mundial sub-17",
+      "description": "El delantero del Real Madrid se cae de la lista de España por una microrrotura en el psoas y Guillermo Trujillano será su sustituto",
+      "url": "https://www.marca.com/futbol/seleccion/2026/11/10/enzo-alves-baja-mundial-sub-17.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-10T14:46:34",
+      "category": "mundial"
+    },
+    {
+      "title": "Aitana Bonmatí, sobre su inclusión en el once ideal: \"Otras compañeras se lo merecían más\"",
+      "description": "La jugadora del Barça y la selección valora su inclusión entre las mejores de las 2025-26",
+      "url": "https://www.marca.com/futbol/futbol-femenino/2026/11/10/aitana-bonmati-sobre-inclusion-once-ideal-companeras-merecian.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-10T13:10:06",
+      "category": "seleccion"
+    }
+  ]
+}
