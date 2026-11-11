@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-11-11",
+  "scraped_at": "2026-11-11T11:45:50.056414-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "Golden Boy, balón de playa",
+      "description": "Veinticuatro promesas, dos docenas de esperanzas, casi un cuarto de ilusiones máximas de otras tantas jóvenes figuras del fútbol mundial —que deben militar obligatoriamente en algún club de Europa— y ",
+      "url": "https://www.abc.es/deportes/futbol/golden-boy-balon-playa-20261109135147-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-11-10T12:51:47Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Las novedades de Disney: producciones argentinas, grandes estrenos y el desembarco de Frozen en el teatro",
+      "description": "Con Guillermo Francella, Celeste Cid, Ángela Torres, Agustín “Rada” Aristarán, Topa y numerosas figuras invitadas, la compañía realizó su Upfront en Buenos Aires y anticipó una programación 2027",
+      "url": "https://www.lanacion.com.ar/espectaculos/series-de-tv/las-novedades-de-disney-producciones-argentinas-grandes-estrenos-y-el-desembarco-de-frozen-en-el-nid10112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-10T12:10:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Cavani celebró el título de Boca con un mensaje y sigue siendo uno de los futbolistas uruguayos con más trofeos",
+      "description": "Pese a rescindir en julio, el Matador se consagró campeón este fin de semana al formar parte del plantel que comenzó la temporada y dejó atrás al Cebolla Rodríguez en el ranking de los más ganadores.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/cavani-celebro-el-titulo-de-boca-con-un-mensaje-y-sigue-siendo-uno-de-los-futbolistas-uruguayos-con-mas-trofeos",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-11-09T15:48:20Z",
+      "category": "liga"
+    },
+    {
+      "title": "El rumor que vuelve loca a Polonia: \"Marcel Regula al Real Madrid\"",
+      "description": "Sus compañeros en la selección polaca ya le gastan bromas con el asunto, aunque la prensa local desmiente el interés",
+      "url": "https://www.marca.com/futbol/real-madrid/2026/11/11/rumor-vuelve-loca-polonia-marcel-regula-real-madrid.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-11T14:31:53",
+      "category": "seleccion"
+    },
+    {
+      "title": "Los campeones del mundo vuelven a la carga",
+      "description": "Tras alzar el Mundial en Bakú,&nbsp;la sub-16 afronta en este mes de noviembre un minitorneo en El Albir.",
+      "url": "https://www.marca.com/futbol/seleccion/2026/11/11/campeones-mundo-vuelven-carga.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-11T11:45:36",
+      "category": "mundial"
+    },
+    {
+      "title": "Incautados 2 millones de artículos falsos del Mundial de fútbol en operación internacional",
+      "description": "Con un valor estimado de 132 millones de euros",
+      "url": "https://www.marca.com/futbol/mundial/2026/11/11/incautados-2-millones-articulos-falsos-mundial-futbol-operacion-internacional.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-11T11:26:33",
+      "category": "mundial"
+    },
+    {
+      "title": "La prueba del algodón para el Córdoba",
+      "description": "\"Antes los futbolistas éramos más duros. Hoy en día todo les afecta\", asegura el técnico del Málaga",
+      "url": "https://www.marca.com/futbol/cordoba/2026/11/11/prueba-algodon-cordoba.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-11T11:15:10",
+      "category": "general"
+    },
+    {
+      "title": "Gabriel dice que las palabras de Raphinha sobre la dosificación de minutos se malinterpretaron",
+      "description": "El defensa del Arsenal habla sobre su compañero en la selección de Brasil",
+      "url": "https://www.marca.com/futbol/barcelona/2026/11/11/gabriel-dice-palabras-raphinha-sobre-dosificacion-minutos-malinterpretaron.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-11T11:14:20",
+      "category": "seleccion"
+    }
+  ]
+}
