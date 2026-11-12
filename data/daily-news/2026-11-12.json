@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-11-12",
+  "scraped_at": "2026-11-12T12:38:17.103452-03:00",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Selección argentina Sub 17: rivales, horarios y cómo ver los partidos del Mundial Qatar 2026",
+      "description": "El equipo dirigido por Diego Placente debutará el 19 de noviembre en el Grupo C con el anhelo de lograr el título por primera vez",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/seleccion-argentina-sub-17-rivales-horarios-y-como-ver-los-partidos-del-mundial-qatar-2026-nid11112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-11T15:22:34Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Lista de convocados de la selección argentina Sub 17 para el Mundial Qatar 2026",
+      "description": "El equipo dirigido por Diego Placente sueña con levantar el único trofeo que le falta al país; en la última edición, en 2025, quedó eliminado en 16vos de final",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/lista-de-convocados-de-la-seleccion-argentina-sub-17-para-el-mundial-qatar-2026-nid11112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-11T14:50:42Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Se dio a conocer el plantel de la selección argentina que disputará el Mundial Sub 17 de Qatar",
+      "description": "Diego Placente convocó a 21 jugadores, todos del fútbol de nuestro país, que participarán del certamen que se llevará a cabo del 19 de noviembre al 13 de diciembre",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/se-dio-a-conocer-el-plantel-de-la-seleccion-argentina-que-disputara-el-mundial-sub-17-de-qatar-nid11112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-11T14:27:13Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "LaLiga lidera la representación en el Fifpro World 11 2026 con cinco futbolistas en el once ideal mundial",
+      "description": "Lamine Yamal hace historia al ser escogido por segunda vez antes de cumplir 20 años, junto a otros cuatro talentos de clubes españoles",
+      "url": "https://www.elconfidencial.com/deportes/2026-11-11/laliga-domina-fifpro-world-once-1hms-1svm_4462984/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-11-11T14:32:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Convocado y luego descartado por Colombia, Franco Pérez, de Boca. fue llamado por Diego Placente para la Sub 20 argentina",
+      "description": "El hijo de Omar Pérez, campeón con el Xeneize e ídolo de Independiente Santa Fe, puede jugar por cualquiera de los dos países",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/convocado-y-luego-descartado-por-colombia-franco-perez-de-boca-fue-llamado-por-diego-placente-para-nid10112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-10T20:13:36Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "España y Estados Unidos no podrán cruzarse hasta la final del Mundial",
+      "description": "La FIFA, emulando al torneo masculino y por \"garantizar el equilibrio competitivo\", redirige el sorteo para que los cuatro rimeros del ranking no se crucen hasta semifinales",
+      "url": "https://www.marca.com/futbol/futbol-femenino/seleccion/2026/11/12/espana-estados-unidos-podran-cruzarse-final-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-12T15:07:45",
+      "category": "mundial"
+    },
+    {
+      "title": "La Nueva Romareda, en observación: una visita positiva de la FIFA y una fecha deseada para su estreno",
+      "description": "",
+      "url": "https://www.marca.com/futbol/zaragoza/2026/11/12/nueva-romareda-observacion-visita-positiva-fifa-fecha-deseada-estreno.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-12T13:30:26",
+      "category": "mundial"
+    },
+    {
+      "title": "Cuenta atrás para que arranque el Mundial Sub17 2026",
+      "description": "Las selecciones participantes ya van desembarcando en Qatar y han presentado sus listas definitivas · Estados Unidos ha renunciado a participar a última hora por cuestiones de seguridad",
+      "url": "https://www.marca.com/futbol/2026/11/12/cuenta-atras-arranque-mundial-sub17-2026.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-12T13:22:35",
+      "category": "mundial"
+    },
+    {
+      "title": "\"La selección me hundió: acabé con alcohol, cocaína y una sobredosis\"",
+      "description": "El exgoleador brasileño Mario Jardel confiesa que no superar quedarse fuera del Mundial 2002: \"Mi vida se acabó ahí",
+      "url": "https://www.marca.com/futbol/2026/11/12/seleccion-me-hundio-acabe-alcohol-cocaina-sobredosis.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-12T12:48:18",
+      "category": "seleccion"
+    },
+    {
+      "title": "La sonrisa canaria de Iván Jaime: \"En Las Palmas he vuelto a disfrutar del fútbol\"",
+      "description": "\"Antes los futbolistas éramos más duros. Hoy en día todo les afecta\", asegura el técnico del Málaga",
+      "url": "https://www.marca.com/futbol/las-palmas/2026/11/12/sonrisa-canaria-ivan-jaime-palmas-he-vuelto-disfrutar-futbol.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-12T11:16:31",
+      "category": "general"
+    }
+  ]
+}
