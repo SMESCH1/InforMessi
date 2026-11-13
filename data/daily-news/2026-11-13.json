@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-11-13",
+  "scraped_at": "2026-11-13T11:57:19.311768-03:00",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Renovación de Lionel Scaloni: los cinco récords históricos que persigue el DT de la Selección Argentina",
+      "description": "​Lionel Scaloni habla en una conferencia de prensa cargada de expectativa sobre el posible anuncio de renovación. El DT albiceleste comanda un nuevo ciclo en el que buscará seguir reescribiendo la his",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/renovacion-de-lionel-scaloni-los-cinco-records-historicos-que-persigue-el-dt-de-la-seleccion-argentina.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-11-12T08:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Sonia Bermudez dará la última lista del año el próximo 20 de noviembre",
+      "description": "Ya hay fecha para la última lista de la selección internacional femenina y la primera en el ranking FIFA. Será el próximo viernes 20 de noviembre cuando la seleccionadora Sonia Bermúdez dará a conocer",
+      "url": "https://www.mundodeportivo.com/futbol/femenino/seleccion-espanola/20261112/1004250262/sonia-bermudez-dara-ultima-lista-ano-proximo-20-noviembre.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-11-12T14:36:50Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "FIFA acepta candidatura de México para el Mundial Femenil 2031",
+      "description": "En el informe de FIFA, la candidatura conjunta de México, Estados Unidos, Jamaica y Costa Rica, obtuvo 4.4 puntos de cinco posibles.",
+      "url": "https://aristeguinoticias.com/1211/deportes/fifa-acepta-candidatura-de-mexico-para-el-mundial-femenil-2031/",
+      "source": "Aristeguinoticias.com",
+      "published_at": "2026-11-12T13:47:46Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Oficial: River e Inter Miami jugarán un amistoso en el Monumental",
+      "description": "Lionel Messi jugará por primera vez en Argentina a nivel clubes.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/17511208/river-vs-inter-miami-partido-amistoso-estadio-monumental",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-11-13T16:41:48",
+      "category": "seleccion"
+    },
+    {
+      "title": "Guido Carrillo hizo historia: rompió un récord de 80 años en el fútbol argentino",
+      "description": "El delantero del Pincha marcó en la final de la Supercopa Argentina ante Independiente Rivadavia y se convirtió en el primer futbolista desde 1946 en convertir en cuatro finales diferentes de torneos ",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/17510992/guido-carrillo-hizo-historia-rompio-un-record-de-80-anos-en-el-futbol-argentino",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-11-13T15:30:01",
+      "category": "seleccion"
+    },
+    {
+      "title": "¿Gol vale título? El dato que afirma a Lucas Alario como jugador de goles importantes",
+      "description": "El Pipa anotó el tanto decisivo para la consagración del Pincha en la Supercopa Argentina.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/17510940/estudiantes-campeon-lucas-alario-jugador-goles-importantes",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-11-13T15:30:01",
+      "category": "seleccion"
+    },
+    {
+      "title": "Scaloni despeja dudas en el equipo de Argentina para enfrentar a Uruguay",
+      "description": "En el arranque de la era post Messi, el DT diagrama el XI titular para medirse ante La Celeste.",
+      "url": "https://www.espn.com.ar/futbol/nota/_/id/17505040/formacion-de-argentina-vs-uruguay-fecha-fifa",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-11-13T15:26:40",
+      "category": "seleccion"
+    },
+    {
+      "title": "Argentina después de Messi: quién asumirá cada uno de sus roles rumbo al Mundial 2030",
+      "description": "Tras el retiro de Lionel, la Selección deberá repartir entre varias figuras las funciones que durante dos décadas concentró el mejor jugador de su historia.",
+      "url": "https://www.espn.com.ar/futbol/mundial/nota/_/id/17507136/argentina-messi-mundial-2030-quien-asumira-cada-uno-de-sus-roles",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-11-13T15:26:40",
+      "category": "seleccion"
+    },
+    {
+      "title": "¡Estudiantes, campeón de la Supercopa Argentina!",
+      "description": "El Pincha se quedó con un partido para el infarto en Córdoba y levantó un nuevo trofeo a dos semanas de la final de la CONMEBOL Libertadores.",
+      "url": "https://www.espn.com.ar/futbol/argentina/nota/_/id/17502254/estudiantes-de-la-plata-vs-independiente-rivadavia-supercopa-argentina-equipo-fecha-hora-tv-en-vivo",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-11-13T15:49:30",
+      "category": "seleccion"
+    },
+    {
+      "title": "MLS: con Messi, los nominados al MVP",
+      "description": "El astro argentino puede convertirse en el primer jugador en ganar tres veces este premio.",
+      "url": "https://www.espn.com.ar/futbol/mls/nota/_/id/17509451/nominados-premio-mvp-mls-lionel-messi-inter-miami",
+      "source": "www.espn.com.ar - TOP",
+      "published_at": "2026-11-13T15:49:30",
+      "category": "seleccion"
+    }
+  ]
+}
