@@ -1,0 +1,79 @@
+{
+  "scrape_date": "2026-11-14",
+  "scraped_at": "2026-11-14T10:49:47.700577-03:00",
+  "total_news": 9,
+  "news": [
+    {
+      "title": "A qué hora juega la selección argentina hoy",
+      "description": "El combinado albiceleste recibe este viernes a Uruguay en la Bombonera en su penúltimo partido del año; la posible primera formación sin Lionel Messi",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-juega-la-seleccion-argentina-hoy-nid13112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-13T13:43:45Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Uruguay visitará a Argentina hoy a las 20 horas: alineaciones y cómo ver el partido",
+      "description": "La Celeste tendrá con el clásico en La Bombonera su primer amistoso del mes, antes de recibir a República Dominicana el martes en el Campus.",
+      "url": "https://www.montevideo.com.uy/Deportes/Uruguay-visitara-a-Argentina-hoy-a-las-20-horas-alineaciones-y-como-ver-el-partido-uc982074",
+      "source": "Montevideo.com.uy",
+      "published_at": "2026-11-13T09:47:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Sancet, internacional español: «Ojalá podamos jugar un Mundial con Euskadi, nuestro país»",
+      "description": "El 12 de octubre de 2023, Oihan Sancet se estrenaba con la selección española marcando un gol en un partido clasificatorio para la Eurocopa de 2024 frente a Escocia. Tras vestir esa camiseta en tres o",
+      "url": "https://www.abc.es/deportes/futbol/sancet-internacional-espanol-ojala-podamos-jugar-mundial-20261113093808-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-11-13T08:38:08Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Estudiantes sumó otra estrella en la gestión Tapia y Chiqui saludó a Verón en redes: “Merecido título”",
+      "description": "Estudiantes de La Plata gritó campeón y el presidente de AFA volvió a estar ausente en la premiación. Esta vez, y a diferencia de otras, Chiqui Tapia felicitó públicamente a Juan Sebastián Verón.\n Lee",
+      "url": "https://442.perfil.com/noticias/futbol/estudiantes-sumo-otra-estrella-en-la-gestion-tapia-y-chiqui-saludo-a-veron-en-redes-merecido-titulo.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-11-13T11:59:47Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Estudiantes de La Plata campeón: cómo quedó el ranking de títulos en el fútbol argentino",
+      "description": "El Pincha ganó la Supercopa Argentina ante Independiente Rivadavia en Córdoba y amplió su palmarés a pocas semanas de disputar la final de la Copa Libertadores",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/estudiantes-de-la-plata-campeon-como-quedo-el-ranking-de-titulos-en-el-futbol-argentino-nid12112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-13T02:47:48Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La selección española visita a Barrenetxea en el hospital: \"¡Estamos contigo, Barrene!\"",
+      "description": "El delantero de la Real Sociedad fue operado de una grave lesión en el muslo derecho que le dejó fuera de la última convocatoria del año con España<span class=\"\" contenteditable=\"false\" tabindex=\"-1\">",
+      "url": "https://www.marca.com/futbol/seleccion/2026/11/14/seleccion-espanola-visita-barrenetxea-hospital-contigo-barrene.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-14T13:18:14",
+      "category": "seleccion"
+    },
+    {
+      "title": "La segunda estrella de España, en viñetas: el Mundial de 2026 ya tiene cómic oficial",
+      "description": "La RFEF abre este sábado la preventa de 'Érase una vez en América', una novela gráfica que revive el título mundial desde dentro del vestuario<span class=\"xai-icon\" contenteditable=\"false\" tabindex=\"-",
+      "url": "https://www.marca.com/futbol/seleccion/2026/11/14/segunda-estrella-espana-vinetas-mundial-2026-comic-oficial.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-14T12:29:21",
+      "category": "mundial"
+    },
+    {
+      "title": "El parón ‘recupera’ el gol",
+      "description": "Julián y Jonathan David anotaron con Argentina y Canadá",
+      "url": "https://www.marca.com/futbol/atletico/2026/11/14/paron-recupera-gol.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-14T12:10:02",
+      "category": "seleccion"
+    },
+    {
+      "title": "Yan Diomande sigue alimentando el debate",
+      "description": "El jugador brilla por la izquierda con su selección, donde ha explotado también en el Madrid ante la baja de Vinicius, que regresa ya el próximo partido ante el Celta",
+      "url": "https://www.marca.com/futbol/real-madrid/2026/11/14/yan-diomande-sigue-alimentando-debate.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-14T10:31:43",
+      "category": "seleccion"
+    }
+  ]
+}
