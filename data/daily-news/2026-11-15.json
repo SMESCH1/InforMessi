@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-11-15",
+  "scraped_at": "2026-11-15T11:23:03.299841-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "La Uruguay de Facundo Bernal tumba a la Argentina post Messi en la Bombonera (1-2)",
+      "description": "En el primer partido de la era post Messi , la selección argentina cayó 1-2 en un amistoso ante Uruguay en el estadio de la Bombonera de Buenos Aires. Dirigida por el legendario artillero Diego Forlán",
+      "url": "https://www.abc.es/deportes/alfinaldelapalmera/noticias-betis/uruguay-facundo-bernal-tumba-argentina-post-messi-20261114141403-nts.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-11-14T13:48:53Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El alocado festejo de los futbolistas de la selección uruguaya tras vencer a Argentina: “¡Somos los mejores!”",
+      "description": "Los jugadores de la Celeste mostraron parte de la celebración en el vestuario de la Bombonera tras imponerse en el clásico ante la Albiceleste por 2-1.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/el-alocado-festejo-de-los-futbolistas-de-la-seleccion-uruguaya-tras-vencer-a-argentina-somos-los-mejores",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-11-14T13:09:52Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Dodgeball: el regreso del “quemado” como deporte de alta intensidad",
+      "description": "Lo que nació en un entretenimiento en los recreos escolares ha mutado en una disciplina de alta intensidad; con la selección argentina consolidada en el top 10 mundial y tras consagrarse campeona pana",
+      "url": "https://www.lanacion.com.ar/salud/dodgeball-el-regreso-del-quemado-como-deporte-de-alta-intensidad-nid14112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-14T10:29:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "'Érase una vez en América': la RFEF lanza un cómic para contar la conquista de la segunda estrella",
+      "description": "La conquista del Mundial 2026 tendrá también su versión en viñetas. La Real Federación Española de Fútbol (RFEF), en colaboración con Gersh, ha anunciado el lanzamiento de 'Érase una vez en América. L",
+      "url": "https://www.mundodeportivo.com/seleccion-espanola/20261114/1004250920/erase-vez-america-rfef-lanza-comic-contar-conquista-segunda-estrella.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-11-14T12:44:07Z",
+      "category": "mundial"
+    },
+    {
+      "title": "“Me mandó hacer estudios”: la divertida confesión del Cacique Medina con su cardiólogo hincha de Estudiantes",
+      "description": "El técnico uruguayo, tras la consagración del Pincha en la Supercopa Argentina, dejó en claro que se los hará después de la final de la Copa Libertadores. “No vaya a ser que me deje afuera”, sonrió.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/me-mando-hacer-estudios-la-divertida-confesion-del-cacique-medina-con-su-cardiologo-hincha-de-estudiantes",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-11-14T14:08:57Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Quique Wolff, mucho más que fútbol: del Racing de José al periodismo, y sus anécdotas con Pelé, Maradona y Messi",
+      "description": "Una carrera vertiginosa con “La capricciosa”, un periodista con el que todos los jugadores se sientan a hablar de su gran pasión: recuerdos y vivencias imperdibles",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/quique-wolff-mucho-mas-que-futbol-del-racing-de-jose-al-periodismo-y-sus-anecdotas-con-pele-maradona-nid14112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-14T10:49:42Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La selección vasca celebró la victoria cantando: \"Español el que no bote\"",
+      "description": "",
+      "url": "https://www.marca.com/futbol/2026/11/15/seleccion-vasca-celebro-victoria-cantando-espanol-bot-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-15T09:46:57",
+      "category": "seleccion"
+    },
+    {
+      "title": "Jorge Jesús: \"¿Qué vamos a echar de menos? Si Cristiano ya no está disponible para la selección\"",
+      "description": "",
+      "url": "https://www.marca.com/futbol/nations-league/2026/11/15/jorge-jesus-echar-cristiano-disponible-seleccion-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-15T08:56:17",
+      "category": "seleccion"
+    }
+  ]
+}
