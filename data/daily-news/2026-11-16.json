@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-11-16",
+  "scraped_at": "2026-11-16T13:31:03.919345-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Almeida: \"¿Alguien tiene el cuajo de robarle la final a una ciudad que tiene los mejores estadios?\"",
+      "description": "Madrid, 15 nov (EFE).- El alcalde de Madrid, José Luis Martínez-Almeida, ha declarado que España reúne todos los requisitos para albergar la final del Mundial 2030 y ha opinado que, si no es designada",
+      "url": "https://www.mundodeportivo.com/futbol/20261115/1004251271/almeida-no-albergar-final-mundial-2030-seria-insultar-directamente-espana.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-11-15T15:04:59Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Jesús Velasco, 2029",
+      "description": "En el acto de la presentación de la renovación, Rafael Louzán, presidente de la Federación Española valoró la renovación: \"Es el día de Jesús. Ahí hay dos títulos, pero lo bueno está por llegar\".",
+      "url": "https://www.marca.com/futbol/futbol-sala/2026/11/16/jesus-velasco-2029.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-16T13:33:59",
+      "category": "seleccion"
+    },
+    {
+      "title": "Luis Rubiales está de 'vuelta'",
+      "description": "El castigo del TAD vence este martes, casi tres meses después del de la FIFA. El expresidente de la RFEF sigue investigado en el caso Supercopa<span class=\"\" contenteditable=\"false\" tabindex=\"-1\"></sp",
+      "url": "https://www.marca.com/futbol/2026/11/16/luis-rubiales-vuelta.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-16T13:03:28",
+      "category": "mundial"
+    },
+    {
+      "title": "Jesús Rodríguez, de visita en la Ciudad Deportiva con el duelo de Champions en el horizonte",
+      "description": "El técnico destaca la capacidad de reacción del equipo tras la derrota ante el Rayo",
+      "url": "https://www.marca.com/futbol/betis/2026/11/16/jesus-rodriguez-visita-ciudad-deportiva-duelo-champions-horizonte.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-16T12:58:55",
+      "category": "general"
+    },
+    {
+      "title": "Almeida reclama la final del Mundial 2030 para Madrid: \"¿Alguien tiene el cuajo de robarle la final?\"",
+      "description": "El alcalde pide replantear el papel de España en la organización si la FIFA concede el partido a otro país y acepta Barcelona como alternativa<span class=\"\" contenteditable=\"false\" tabindex=\"-1\"></spa",
+      "url": "https://www.marca.com/futbol/seleccion/2026/11/16/almeida-reclama-final-mundial-2030-madrid-alguien-cuajo-robarle-final.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-16T12:37:10",
+      "category": "mundial"
+    },
+    {
+      "title": "Ryunosuke Sato, nominado al premio de mejor futbolista joven de Asia",
+      "description": "El atacante japonés del Valencia figura entre los tres finalistas del galardón de la AFC tras su irrupción con el FC Tokyo y la selección sub-23 de Japón",
+      "url": "https://www.marca.com/futbol/valencia/2026/11/16/ryunosuke-sato-nominado-premio-mejor-futbolista-joven-asia.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-16T12:33:15",
+      "category": "seleccion"
+    }
+  ]
+}
