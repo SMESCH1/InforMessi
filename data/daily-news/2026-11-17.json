@@ -1,0 +1,87 @@
+{
+  "scrape_date": "2026-11-17",
+  "scraped_at": "2026-11-17T13:30:46.614763-03:00",
+  "total_news": 10,
+  "news": [
+    {
+      "title": "Argentina teme otro papelón, ahora ante la Selección de Costa Rica",
+      "description": "Esta es la realidad que vive la Selección de Argentina a pocas horas del amistoso contra la Selección de Costa Rica en Córdoba.",
+      "url": "https://www.nacion.com/puro-deporte/argentina-teme-otro-papelon-ahora-ante-la/DDDP6XVPDRAV7M7BIBUD7XQCAM/story/",
+      "source": "Nacion.com",
+      "published_at": "2026-11-16T16:18:59Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "\"Chiqui\" Tapia habló del supuesto requerimiento del FBI: \"Pasó todo y yo estoy acá\"",
+      "description": "En el flamante ciclo \"Dominbord\", el presidente de la AFA apuntó contra quienes critican su conducción en la entidad deportiva. Leer más",
+      "url": "https://noticias.perfil.com/noticias/medios/chiqui-tapia-hablo-del-supuesto-requerimiento-del-fbi-paso-todo-y-yo-estoy-aca.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-11-16T15:56:33Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Cronograma de partidos de la selección argentina Sub 17 en el Mundial Qatar 2026",
+      "description": "El equipo dirigido por Diego Placente integra el Grupo C y enfrentará a Australia, Mozambique y Dinamarca",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/cronograma-de-partidos-de-la-seleccion-argentina-sub-17-en-el-mundial-qatar-2026-nid16112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-16T14:56:25Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Muere a los 94 años futbolista que ganó el primer Mundial de Brasil",
+      "description": "",
+      "url": "https://actualidad-rt.com/actualidad/638071-morir-futbolista-brasil",
+      "source": "Actualidad-rt.com",
+      "published_at": "2026-11-16T16:15:29Z",
+      "category": "mundial"
+    },
+    {
+      "title": "El Cádiz completa una ampliación de capital de 6,6 millones de euros",
+      "description": "\"Antes los futbolistas éramos más duros. Hoy en día todo les afecta\", asegura el técnico del Málaga",
+      "url": "https://www.marca.com/futbol/cadiz/2026/11/17/cadiz-completa-ampliacion-capital-6-6-millones-euros.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-17T15:23:33",
+      "category": "general"
+    },
+    {
+      "title": "Una reforma estatutaria que abre nuevas incógnitas para la mujer en el fútbol",
+      "description": "Tribuna Libre de María José López González",
+      "url": "https://www.marca.com/futbol/futbol-femenino/opinion/2026/11/17/reforma-estatutaria-abre-nuevas-incognitas-mujer-futbol.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-17T15:03:04",
+      "category": "general"
+    },
+    {
+      "title": "Los aliados sorpresa por la final del Mundial en España: Diallo y un demócrata de EE.UU. que puede aguarle la fiesta a Infantino",
+      "description": "UEFA confía en el presidente de la Federación Francesa para ganar las elecciones de marzo a la FIFA, pero casi más en el candidato opositor a Trump, Jamie Raskin",
+      "url": "https://www.marca.com/futbol/2026/11/17/aliados-sorpresa-final-mundial-espana-diallo-democrata-ee-uu-aguarle-fiesta-infantino.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-17T15:00:06",
+      "category": "mundial"
+    },
+    {
+      "title": "Rudé señala el problema de un Huesca en apuros: \"Sin competitividad y solo con fútbol no nos va a dar\"",
+      "description": "El técnico se muestra confiado para obtener el primer triunfo bajo su mando ante el Mirandés",
+      "url": "https://www.marca.com/futbol/huesca/2026/11/17/rude-senala-problema-huesca-apuros-competitividad-futbol-dar.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-17T13:52:32",
+      "category": "general"
+    },
+    {
+      "title": "Louzán: \"La final del Mundial 2030 sólo puede ser en España y va a ser en España\"",
+      "description": "",
+      "url": "https://www.marca.com/futbol/2026/11/17/louzan-final-mundial-2030-espana-espana-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-17T13:28:08",
+      "category": "mundial"
+    },
+    {
+      "title": "Haaland: \"El Mundial me cambió\"",
+      "description": "El internacional noruego muestra su lado más personal en una entrevista con 'TV2'",
+      "url": "https://www.marca.com/futbol/nations-league/2026/11/17/haaland-mundial-me-cambio.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-17T12:43:41",
+      "category": "mundial"
+    }
+  ]
+}
