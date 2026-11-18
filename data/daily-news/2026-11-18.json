@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-11-18",
+  "scraped_at": "2026-11-18T12:59:56.893054-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "Dónde ver Uruguay vs. República Dominicana en vivo este 17 de noviembre; amistoso internacional en Maldonado",
+      "description": "La selección uruguaya dirigida por Diego Forlán recibe a su similar dominicano este martes 17 de noviembre de 2026. Mirá en qué canal pasan el amistoso que empieza a las 20:30 horas.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/donde-ver-uruguay-vs-republica-dominicana-en-vivo-este-17-de-noviembre-amistoso-internacional-en-maldonado",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-11-17T12:41:05Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "A qué hora juega la selección argentina hoy",
+      "description": "El equipo albiceleste recibe este martes a Costa Rica en el estadio Mario Alberto Kempes de Córdoba con arbitraje de Bruno Arleu",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/a-que-hora-juega-la-seleccion-argentina-hoy-nid17112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-17T12:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "A qué hora juega Uruguay ante República Dominicana por el segundo partido de la fecha FIFA de noviembre",
+      "description": "Los dirigidos por Diego Forlán juegan este martes 17 de noviembre en el Estadio Domingo Burgueño Miguel un partido que marcará el cierre de la actividad internacional en 2026.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/a-que-hora-juega-uruguay-ante-republica-dominicana-por-el-segundo-partido-de-la-fecha-fifa-de-noviembre",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-11-17T11:47:26Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Pellegrini, pendiente de los minutos de Abde con Marruecos para terminar de perfilar su once para el derbi",
+      "description": "Ez Abde apunta a ser el único de los futbolistas internacionales que el Betis ha tenido repartidos por el mundo en el parón de noviembre que entrará directamente en el once titular del conjunto verdib",
+      "url": "https://www.abc.es/deportes/alfinaldelapalmera/noticias-betis/pellegrini-pendiente-minutos-abde-marruecos-terminar-perfilar-20261117165344-nts.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-11-17T15:53:44Z",
+      "category": "general"
+    },
+    {
+      "title": "Juan Mata se despide del fútbol: \"Gracias\"",
+      "description": "",
+      "url": "https://www.marca.com/futbol/2026/11/18/juan-mata-despide-futbol-gracias-video.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-18T15:35:43",
+      "category": "general"
+    },
+    {
+      "title": "Detienen a exjugadora de la selección brasileña por presunto lavado de dinero del crimen",
+      "description": "Se trata de Gabi Morais, de 32 años, con pasado en el equipo nacional",
+      "url": "https://www.marca.com/futbol/2026/11/18/detienen-exjugadora-seleccion-brasilena-presunto-lavado-dinero-crimen.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-18T14:43:33",
+      "category": "seleccion"
+    },
+    {
+      "title": "'Rebelión' en el parón: Kroupi, Forbs, Gruda, Ouazane, Nico Paz, Dowman...",
+      "description": "Una nueva hornada de jóvenes talentos comienza brillar en el fútbol de selecciones",
+      "url": "https://www.marca.com/futbol/2026/11/18/rebelion-paron-kroupi-forbs-gruda-ouazane-nico-paz-dowman.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-18T13:37:09",
+      "category": "general"
+    }
+  ]
+}
