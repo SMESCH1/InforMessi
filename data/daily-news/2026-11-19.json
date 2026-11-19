@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-11-19",
+  "scraped_at": "2026-11-19T13:06:27.566920-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "\"Fue un 2026 maravilloso\": el balance de Chiqui Tapia tras el cierre del año de la Selección Argentina",
+      "description": "Luego de la goleada frente a Costa Rica, el presidente de la AFA celebró en sus redes sociales el cierre de una temporada que incluyó el subcampeonato del mundo, agradeció al plantel y ratificó el rum",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/fue-un-2026-maravilloso-el-balance-de-chiqui-tapia-tras-el-cierre-del-ano-de-la-seleccion-argentina.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-11-18T14:34:23Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Mundial Sub 17: cuándo empieza la Copa del Mundo Qatar 2026, con la selección argentina",
+      "description": "El torneo se jugará en el Complejo Aspire Zone con la participación de 48 combinados, entre ellos la albiceleste que va por su primer título",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/mundial-sub-17-cuando-empieza-la-copa-del-mundo-qatar-2026-con-la-seleccion-argentina-nid18112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-18T14:30:17Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La terapia de Julián Alvarez: tres goles con la selección y un regreso a Atlético de Madrid con la confianza renovada",
+      "description": "El cordobés convirtió en dos amistosos más tantos que en toda la temporada con el equipo del Cholo Simeone",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/la-terapia-de-julian-alvarez-tres-goles-con-la-seleccion-y-un-regreso-a-atletico-de-madrid-con-la-nid18112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-18T13:57:06Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Las Eliminatorias Sudamericanas podrían tener formato de Nations League y un título oficial: qué dijo Ignacio Alonso",
+      "description": "Ignacio Alonso, presidente de la AUF, adelantó que el próximo proceso clasificatorio tendrá un formato diferente y contará con un título en disputa. Argentina, Uruguay y Paraguay también participarían",
+      "url": "https://442.perfil.com/noticias/futbol/las-eliminatorias-sudamericanas-podrian-tener-formato-de-nations-league-y-un-titulo-oficial-que-dijo-ignacio-alonso.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-11-18T13:40:08Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Tres aspirantes para echar a Infantino de la FIFA",
+      "description": "La presidencia de la FIFA sigue siendo un cargo codiciado, y esta vez los aspirantes a obtenerlo tienen motivos para la esperanza por la incierta posición en la que ha quedado Gianni Infantino después",
+      "url": "https://www.elperiodico.com/es/deportes/20261118/tres-aspirantes-echar-infantino-fifa-136573599",
+      "source": "Elperiodico.com",
+      "published_at": "2026-11-18T12:32:44Z",
+      "category": "mundial"
+    },
+    {
+      "title": "¿Solo alcanza para competir en Centroamérica? Esto dijo Douglas López tras el 7-0 ante Argentina",
+      "description": "Douglas López, volante de Costa Rica, aseguró que el juego contra Argentina dejó muchas enseñanzas.",
+      "url": "https://www.nacion.com/puro-deporte/solo-alcanza-para-competir-en-centroamerica-esto/B4BIGBDJHNAWHKZSQRMPTHDKXU/story/",
+      "source": "Nacion.com",
+      "published_at": "2026-11-18T02:25:59Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "De la Fuente y Louzán ofrecen el título mundial al Apóstol en la Catedral de Santiago",
+      "description": "\"Fue un éxito de todo un país, de toda una nación\", ha dicho el seleccionador",
+      "url": "https://www.marca.com/futbol/seleccion/2026/11/19/fuente-louzan-ofrecen-titulo-mundial-apostol-catedral-santiago.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-19T15:48:13",
+      "category": "mundial"
+    },
+    {
+      "title": "\"La FIFA no ha respondido a ninguna de nuestras preguntas\"",
+      "description": "Los ocho miembros europeos del Consejo de la FIFA, entre ellos Ceferin, reclaman explicaciones y acceso a la documentación solicitada sobre distintos asuntos",
+      "url": "https://www.marca.com/futbol/2026/11/19/uefa-queja-fifa-recibir-respuestas-sobre-proyecto-vender-mundial.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-19T14:32:18",
+      "category": "mundial"
+    }
+  ]
+}
