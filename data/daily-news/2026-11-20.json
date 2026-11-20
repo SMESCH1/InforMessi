@@ -1,0 +1,71 @@
+{
+  "scrape_date": "2026-11-20",
+  "scraped_at": "2026-11-20T12:47:46.896257-03:00",
+  "total_news": 8,
+  "news": [
+    {
+      "title": "Argentina vs. Australia, por el Mundial Sub 17 Qatar 2026, en vivo",
+      "description": "El equipo de Diego Placente emprende el primer paso en Doha; televisan TyC Sports, TV Pública, DSports y el canal 109 de Flow",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/argentina-vs-australia-por-el-mundial-sub-17-qatar-2026-en-vivo-nid19112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-19T15:43:51Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "En qué canal pasan hoy Argentina Sub 17 vs. Australia Sub 17, por el Mundial Qatar 2026",
+      "description": "El encuentro entre argentinos y australianos se disputa este jueves a las 13 (hora argentina) en la cancha 8 del complejo Aspire Zone de Doha, con arbitraje del canadiense Michael Venne",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/en-que-canal-pasan-hoy-argentina-sub-17-vs-australia-sub-17-por-el-mundial-qatar-2026-nid19112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-19T14:36:25Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Por dónde pasan Argentina Sub 17 vs. Australia Sub 17 y qué canal lo transmite en vivo",
+      "description": "El encuentro correspondiente a lafecha 1 del Grupo C del Mundial juvenil se disputa este jueves a las 13 (horario argentino) en el complejo Aspire Zone de Doha, Qatar",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/por-donde-pasan-argentina-sub-17-vs-australia-sub-17-y-que-canal-lo-transmite-en-vivo-nid19112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-19T14:36:10Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La Selección Argentina afronta una cuenta pendiente en el histórico Mundial Sub-17 de Qatar",
+      "description": "​Argentina inicia su participación en la Copa Mundial Sub-17 de Qatar 2026 con la renovada ilusión de consagrarse por primera vez en la categoría. Diego Placente comanda un equipo con varios chicos qu",
+      "url": "https://442.perfil.com/noticias/seleccion-argentina/la-seleccion-argentina-afronta-una-cuenta-pendiente-en-el-historico-mundial-sub-17-de-qatar.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-11-19T08:30:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Zidane valora el duelo contra España y 'olvida' las semifinales del Mundial: \"No es una revancha\"",
+      "description": "\"Nuestro objetivo sigue siendo el mismo: llegar a la Final Four y ganar la Nations League\", ha dicho el seleccionador",
+      "url": "https://www.marca.com/futbol/nations-league/2026/11/20/zidane-valora-duelo-espana-olvida-semifinales-mundial-revancha.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-20T14:53:34",
+      "category": "mundial"
+    },
+    {
+      "title": "Marc Santos firma su primer contrato profesional",
+      "description": "\"Antes los futbolistas éramos más duros. Hoy en día todo les afecta\", asegura el técnico del Málaga",
+      "url": "https://www.marca.com/futbol/levante/2026/11/20/marc-santos-firma-primer-contrato-profesional.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-20T13:38:31",
+      "category": "general"
+    },
+    {
+      "title": "La nueva vida de Juan Mata",
+      "description": "El ya exfutbolista se convierte en asesor a Populous, uno de los estudios de arquitectura deportiva más prestigiosos del mundo",
+      "url": "https://www.marca.com/futbol/2026/11/20/nueva-vida-juan-mata.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-20T12:55:56",
+      "category": "general"
+    },
+    {
+      "title": "España - China en directo | Última hora de Mundial Sub-17 en vivo hoy",
+      "description": "Sigue en vivo y en directo el España - China del Mundial Sub-17 con todos los goles y estadísticas del partido",
+      "url": "https://www.marca.com/futbol/2026/11/20/01-01129-20261120-9681-10401.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-20T12:38:11",
+      "category": "mundial"
+    }
+  ]
+}
