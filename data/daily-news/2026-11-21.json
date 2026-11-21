@@ -1,0 +1,39 @@
+{
+  "scrape_date": "2026-11-21",
+  "scraped_at": "2026-11-21T11:58:03.820748-03:00",
+  "total_news": 4,
+  "news": [
+    {
+      "title": "Las cinco calles más \"cool\" del mundo, incluida una argentina",
+      "description": "Según el medio británico Time Out, la peatonal de Fernández de Enciso del barrio de Villa Devoto se posiciona en el podio de los recorridos urbanos imperdibles. Leer más",
+      "url": "https://noticias.perfil.com/noticias/informacion-general/las-cinco-calles-mas-cool-del-mundo-incluida-una-argentina.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-11-20T13:27:43Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Goleada y sorpresa en el inicio del Mundial Sub-17: ¿Cuándo debuta Costa Rica?",
+      "description": "La Selección Sub 17 de Costa Rica es dirigida por Rándall Azofeifa y tendrá que medirse a Brasil.",
+      "url": "https://www.nacion.com/puro-deporte/goleada-y-sorpresa-en-el-inicio-del-mundial-sub-17/RL5OZ2CFRNHTDOQVLWNXDUD7HA/story/",
+      "source": "Nacion.com",
+      "published_at": "2026-11-19T22:13:07Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Rafa Nadal: \"Lo único que quiero es ser un buen padre\"",
+      "description": "El legado de Rafa Nadal (Manacor, 1986) trasciende los éxitos que ha conseguido sobre la pista, algo que quedó patente en la Gala Valores del Deporte organizada por Sport, donde fue distinguido con el",
+      "url": "https://www.sport.es/es/noticias/tenis/rafa-nadal-alcaraz-sinner-son-136545138",
+      "source": "Sport.es",
+      "published_at": "2026-11-20T14:55:05Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Zidane: \"Conocemos a la perfección a España, no es una revancha del Mundial\"",
+      "description": "El seleccionador francés masculino de fútbol, Zinédine Zidane, recalcó que conocen \"a la perfección\" a la selección española, su rival en los cuartos de final de la Liga de Naciones 2026-2027, y que e",
+      "url": "https://www.europapress.es/deportes/futbol/mundial-00639/noticia-zidane-conocemos-perfeccion-espana-no-revancha-mundial-20261120150228.html",
+      "source": "Europapress.es",
+      "published_at": "2026-11-20T14:02:28Z",
+      "category": "seleccion"
+    }
+  ]
+}
