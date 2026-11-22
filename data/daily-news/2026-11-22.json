@@ -1,0 +1,31 @@
+{
+  "scrape_date": "2026-11-22",
+  "scraped_at": "2026-11-22T11:56:09.349832-03:00",
+  "total_news": 3,
+  "news": [
+    {
+      "title": "La pista estaba en París: vio un detalle en los menús más exigentes y cambió el rumbo de una empresa con más de 100 años",
+      "description": "Ángel Luis Rossi viajó a Francia como exportador de carne y lo que observó en las cartas de los restaurantes lo llevó a apostar por la raza Angus; unos 25 años después, el programa de selección de La ",
+      "url": "https://www.lanacion.com.ar/economia/campo/la-pista-estaba-en-paris-vio-un-detalle-en-los-menus-mas-exigentes-y-cambio-el-rumbo-de-una-empresa-nid21112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-21T09:00:01Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El deportista a seguir | Por qué JJ Gabriel es el juvenil más deseado del mundo y el peligro para el Real Madrid",
+      "description": "El joven ya exfutbolista del Manchester United es, con solo 16 años, una de las grandes joyas en ciernes del fútbol mundial. Todo apunta a que el Real Madrid cerrará el fichaje del jugador de moda",
+      "url": "https://www.elconfidencial.com/deportes/futbol/liga/2026-11-21/deportista-seguir-jj-gabriel-real-madrid-juvenil-deseado-peligro_4469044/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-11-21T04:00:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La frustración de Messi: pelotazo en la cara a un rival en la derrota del Inter Miami",
+      "description": "El argentino le dio un pelotazo por considerar que Gonzalo Tapia, ex de River, intentaba perder tiempo en la goleada del Columbus Crew",
+      "url": "https://www.marca.com/futbol/2026/11/22/frustracion-messi-pelotazo-cara-rival-derrota-inter-miami.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-22T09:27:24",
+      "category": "seleccion"
+    }
+  ]
+}
