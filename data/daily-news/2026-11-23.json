@@ -1,0 +1,79 @@
+{
+  "scrape_date": "2026-11-23",
+  "scraped_at": "2026-11-23T15:47:55.248290-03:00",
+  "total_news": 9,
+  "news": [
+    {
+      "title": "Así quedó la tabla de posiciones del grupo de la selección argentina Sub 17 en el Mundial 2026, tras la fecha 2",
+      "description": "El equipo albiceleste logró su primera victoria en el torneo, mientras que Australia y Dinamarca empataron sin goles; todo se definirá en la última jornada",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/asi-quedo-la-tabla-de-posiciones-del-grupo-de-la-seleccion-argentina-sub-17-en-el-mundial-2026-tras-nid22112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-22T18:03:24Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La selección Argentina Sub 17 le ganó 2 a 1 a Mozambique y sigue en carrera en el Mundial de Qatar 2026",
+      "description": "Con goles de Machuca y Escobar, el equipo de Diego Placente se repuso del debut con derrota ante Australia",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/la-seleccion-argentina-sub-17-le-gano-2-a-1-a-mozambique-y-sigue-en-carrera-en-el-mundial-de-qatar-nid22112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-22T17:22:25Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El mensaje de Camila Galante tras el desmayo de Leandro Paredes en plena entrevista: \"Te amo con toda mi alma\"",
+      "description": "La empresaria publicó en la red una postal familiar junto a sentidas palabras para el futbolista. Leer más",
+      "url": "https://exitoina.perfil.com/noticias/destacada/mensaje-camila-galante-tras-desmayo-leandro-paredes-plena-entrevista-te-amo-con-toda-mi-alma.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-11-22T15:23:54Z",
+      "category": "general"
+    },
+    {
+      "title": "Messi volvió a mostrar su cara más antideportiva",
+      "description": "La carrera de Lionel Messi quedará como una de las más destacadas del fútbol mundial. Sus títulos, sus récords y sobre todo su forma de dominar la pelota y el juego serán recordadas muchas décadas des",
+      "url": "https://www.abc.es/deportes/futbol/messi-volvio-mostrar-cara-antideportiva-20261122163506-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-11-22T15:35:06Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "La FIFA concede a EE.UU., México, Costa Rica y Jamaica el Mundial femenino de 2031",
+      "description": "La edición de 2035 sera&nbsp;para la candidatura de Inglaterra, Irlanda del Norte, Escocia y Gales.",
+      "url": "https://www.marca.com/futbol/mundial/2026/11/23/fifa-concede-ee-uu-mexico-costa-rica-jamaica-mundial-femenino-2031.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-23T17:59:04",
+      "category": "mundial"
+    },
+    {
+      "title": "Iniesta, Silva, Cesc, Navas, Llorente... ¿Quiénes fueron los jugadores de la última goleada histórica de España?",
+      "description": "Repasamos los jugadores que formaron parte del equipo que atesoraba la mayor goleada de las categorías inferiores de la Selección española hasta el día de hoy",
+      "url": "https://www.marca.com/futbol/mundial-sub-17/2026/11/23/iniesta-silva-cesc-navas-llorente-quienes-jugadores-ultima-goleada-historica-espana.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-23T17:20:49",
+      "category": "seleccion"
+    },
+    {
+      "title": "La pizarra de Albert y un gol de Loiodice tres temporadas y media después",
+      "description": "\"Antes los futbolistas éramos más duros. Hoy en día todo les afecta\", asegura el técnico del Málaga",
+      "url": "https://www.marca.com/futbol/las-palmas/2026/11/23/pizarra-albert-gol-loiodice-tres-temporadas-media-despues.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-23T15:53:38",
+      "category": "general"
+    },
+    {
+      "title": "Cubillo: \"Bajar el acelerador hubiera sido una falta de respeto\"",
+      "description": "El seleccionador valoró el 15-0 endosado a Fiyi en la segunda jornada del Mundial Sub-17",
+      "url": "https://www.marca.com/futbol/seleccion/2026/11/23/cubillo-bajar-acelerador-hubiera-sido-falta-respeto.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-23T15:51:48",
+      "category": "mundial"
+    },
+    {
+      "title": "El Mundial es cosa de niños",
+      "description": "España se divierte con un festival de goles ante Fiyi (15-0) en su segundo partido del Mundial Sub-17 con un repóker de Rafa Cruz, un 'hat-trick' de Roberto Tomás, otro de Trujillano, un doblete de Jo",
+      "url": "https://www.marca.com/futbol/seleccion/cronica/2026/11/23/mundial-cosa-ninos.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-23T14:18:15",
+      "category": "seleccion"
+    }
+  ]
+}
