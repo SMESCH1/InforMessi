@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-11-24",
+  "scraped_at": "2026-11-24T15:24:36.750457-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Argentina Sub 17 vs. Dinamarca Sub 17, por el Mundial Qatar 2026: día, horario, TV y cómo ver online",
+      "description": "El partido correspondiente a la tercera y última fecha del Grupo C se disputará el próximo miércoles a las 12.30 (hora argentina) en la cancha número 7",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/argentina-sub-17-vs-dinamarca-sub-17-por-el-mundial-qatar-2026-dia-horario-tv-y-como-ver-online-nid23112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-23T17:14:20Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "¡OFICIAL! México recibirá otra Copa del Mundo en 2031: Así será el histórico mundial femenino de la FIFA",
+      "description": "El organismo internacional confirmó este lunes que nuestro país nuevamente recibirá un torneo grande a nivel de selecciones",
+      "url": "https://www.record.com.mx/historia/oficial-mexico-recibira-otra-copa-del-mundo-en-2031-asi-sera-el-historico-mundial-femenino-de-la-fifa-2026112307225392702",
+      "source": "Record.com.mx",
+      "published_at": "2026-11-23T14:50:00Z",
+      "category": "mundial"
+    },
+    {
+      "title": "De la Fuente saca galones ante Francia: «Tendrán enfrente al mejor equipo del mundo»",
+      "description": "Se presenta en Madrid 'Érase una vez en América. La historia de nuestra segunda estrella', un cómic impulsado por la Federación Española de Fútbol con las vivencias de la selección en la conquista del",
+      "url": "https://www.abc.es/deportes/futbol/fuente-saca-galones-ante-francia-enfrente-mejor-20261123174914-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-11-23T16:49:14Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Hoja de ruta para el fútbol femenino: la FIFA confirma las multisedes de los Mundiales de 2031 y 2035 en plena expansión a 48 selecciones",
+      "description": "El fútbol femenino internacional acaba de dar uno de los pasos institucionales más trascendentes de su historia reciente. Este lunes 23 de noviembre, el Congreso Extraordinario de la FIFA, celebrado d",
+      "url": "https://www.abc.es/deportes/futbol/hoja-ruta-futbol-femenino-fifa-confirma-multisedes-20261123174336-nt.html",
+      "source": "Www.abc.es",
+      "published_at": "2026-11-23T16:43:37Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Aitor Esteban compara la selección vasca con dos ejemplos que no cuadran: Gales y Andorra",
+      "description": "El presidente del PNV apela a estas dos comparaciones erróneas para tratar de defender la oficialidad de la selección vasca.",
+      "url": "https://www.libertaddigital.com/deportes/futbol/2026-11-23/aitor-esteban-compara-la-seleccion-vasca-con-dos-ejemplos-que-no-cuadran-gales-y-andorra-7495835/",
+      "source": "Libertaddigital.com",
+      "published_at": "2026-11-23T06:51:37Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Las erróneas comparaciones del presidente del PNV para defender la oficialidad de la selección vasca de fútbol",
+      "description": "Preguntado sobre si era consciente de las consecuencias que tendría para Real Sociedad, Alavés y su querido Athletic tener que abandonar la liga española, Aitor Esteban respondió con unas alusiones a ",
+      "url": "https://www.elconfidencial.com/deportes/futbol/2026-11-23/aitor-esteban-presidente-pnv-nueva-economia-forum-euskal-selekzioa_4468569/",
+      "source": "Elconfidencial.com",
+      "published_at": "2026-11-23T04:00:00Z",
+      "category": "seleccion"
+    }
+  ]
+}
