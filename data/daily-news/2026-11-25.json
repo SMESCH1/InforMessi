@@ -1,0 +1,63 @@
+{
+  "scrape_date": "2026-11-25",
+  "scraped_at": "2026-11-25T14:39:51.952228-03:00",
+  "total_news": 7,
+  "news": [
+    {
+      "title": "Con el Mundial 2031, México alcanzará importante marca: ¿Qué torneo FIFA le falta organizar?",
+      "description": "Nuestro país ha estado en momentos memorables del futbol internacional y ahora tendrá un capítulo más",
+      "url": "https://www.record.com.mx/historia/con-el-mundial-2031-mexico-alcanzara-importante-marca-que-torneo-fifa-le-falta-organizar-2026112413550503376",
+      "source": "Record.com.mx",
+      "published_at": "2026-11-24T13:55:05Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La Copa América 2028 se disputará otra vez en Estados Unidos y pasará más de una década sin jugarse en Sudamérica",
+      "description": "Tras la eliminación temprana en el Mundial, Uruguay buscará sumar su título 16 y así volver a igualar a la selección de Argentina en la cima de los más ganadores del torneo.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/la-copa-america-2028-se-disputara-otra-vez-en-estados-unidos-y-pasara-mas-de-una-decada-sin-jugarse-en-sudamerica",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-11-24T13:51:28Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Ferran Torres cierra un 2026 inolvidable con un proyecto muy especial vinculado al Valencia CF, el club de su infancia",
+      "description": "El actual jugador del Paris Saint-Germain fue el anotador del gol con el que España se impuso a Argentina en la final del Mundial, celebrado el pasado verano",
+      "url": "https://www.hola.com/actualidad/20261124936863/ferran-torres-cierra-un-2026-inolvidable/",
+      "source": "Hola",
+      "published_at": "2026-11-24T13:36:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Bajraktarevic, del genocidio de Srebrenica a 'verdugo' de Italia: el 'Messi del PSV' desafía al Madrid",
+      "description": "El extremo bosnio pasa por ser uno de los jugadores más desequilibrantes de la Eredivisie  Leer",
+      "url": "https://www.marca.com/futbol/champions-league/2026/11/24/bajraktarevic-genocidio-srebrenica-verdugo-italia-messi-psv-desafia-madrid.html",
+      "source": "Marca",
+      "published_at": "2026-11-24T15:59:29Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "De '¿Quién quiere ser millonario?' a enfrentarse al Barça en Champions",
+      "description": "La historia de Valdas Dambrauskas, el técnico del Sabah FK",
+      "url": "https://www.marca.com/futbol/champions-league/2026/11/25/quiere-millonario-enfrentarse-barca-champions.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-25T17:39:39",
+      "category": "general"
+    },
+    {
+      "title": "El Sabadell ya mira hacia el futuro",
+      "description": "\"Antes los futbolistas éramos más duros. Hoy en día todo les afecta\", asegura el técnico del Málaga",
+      "url": "https://www.marca.com/futbol/sabadell/2026/11/25/sabadell-mira-futuro.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-25T17:01:32",
+      "category": "general"
+    },
+    {
+      "title": "Marruecos - España: a qué hora y dónde ver hoy en TV el partido del Mundial sub 17 en directo",
+      "description": "Consulta a qué hora juega la selección española sub-17 ante Marruecos y dónde ver en abierto en España la fase de grupos del Mundial de Qatar",
+      "url": "https://www.marca.com/futbol/mundial-sub-17/2026/11/25/marruecos-espana-hora-ver-hoy-tv-partido-mundial-sub-17.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-25T15:59:49",
+      "category": "seleccion"
+    }
+  ]
+}
