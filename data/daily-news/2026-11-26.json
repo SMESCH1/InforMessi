@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-11-26",
+  "scraped_at": "2026-11-26T14:22:19.105643-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Plantel de los Pumas 7s para el Seven de Dubái del Circuito Mundial 2026-2027",
+      "description": "El head coach Santiago Gómez Cora convocó a 14 jugadores para la primera etapa y la siguiente en Ciudad del Cabo, Sudáfrica",
+      "url": "https://www.lanacion.com.ar/deportes/rugby/plantel-de-los-pumas-7s-para-el-seven-de-dubai-del-circuito-mundial-2026-2027-nid25112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-25T16:41:11Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Messi y Cristiano Ronaldo juntos en el mismo equipo está más cerca de convertirse en realidad",
+      "description": "Carlos Tévez, que recibirá un homenaje en La Bombonera el 20 de diciembre en un partido con varios de sus excompañeros, confirma la presencia del argentino y que sigue intentando convencer al luso par",
+      "url": "https://www.marca.com/futbol/2026/11/26/messi-cristiano-ronaldo-equipo-cerca-convertirse-realidad.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-26T17:10:29",
+      "category": "seleccion"
+    },
+    {
+      "title": "España se instala en el nirvana",
+      "description": "La selección, con goles de Tunkara y Trujillano, supera con autoridad a Marruecos (0-2) y avanza como primera de grupo a dieciseisavos de final del Mundial Sub-17",
+      "url": "https://www.marca.com/futbol/seleccion/cronica/2026/11/26/espana-instala-nirvana.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-26T16:55:11",
+      "category": "seleccion"
+    },
+    {
+      "title": "Pérez Llorca aprieta a la FIFA: \"Para un Mundial con éxito Valencia tiene que ser sede\"",
+      "description": "El presidente de la Generalitat inaugura la exposición itinerante de la Copa del Mundo en la Ciudad de las Artes y las Ciencias",
+      "url": "https://www.marca.com/futbol/valencia/2026/11/26/perez-llorca-aprieta-fifa-mundial-exito-valencia-quye-sede.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-26T14:39:00",
+      "category": "mundial"
+    },
+    {
+      "title": "Marruecos - España: resumen, resultado y goles",
+      "description": "La selección cierra el grupo como primera gracias a los goles de Tunkara y Trujillano y ya espera rival para los dieciseisavos",
+      "url": "https://www.marca.com/futbol/2026/11/26/01-01129-20261126-9138-9681.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-26T13:49:29",
+      "category": "seleccion"
+    },
+    {
+      "title": "Beatriz Álvarez, elegida como primera representante del fútbol femenino en European Leagues",
+      "description": "Las ligas femeninas contarán con voz propia para trasladar sus perspectivas e intereses al más alto nivel de la organización",
+      "url": "https://www.marca.com/futbol/futbol-femenino/primera-division/2026/11/26/beatriz-alvarez-elegida-primera-representante-futbol-femenino-european-leagues.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-26T12:48:28",
+      "category": "general"
+    }
+  ]
+}
