@@ -1,0 +1,47 @@
+{
+  "scrape_date": "2026-11-27",
+  "scraped_at": "2026-11-27T14:01:00.104145-03:00",
+  "total_news": 5,
+  "news": [
+    {
+      "title": "La curva 2 de Madring se llamará Dos Estrellas en homenaje a los dos mundiales de España",
+      "description": "Madrid, 26 nov (EFE).- La curva 2 de Madring, circuito que del 10 al 12 de septiembre de 2027 acogerá por segunda vez el Gran Premio de España de Fórmula Uno, se llamará Dos Estrellas, en reconocimien",
+      "url": "https://www.mundodeportivo.com/motor/f1/20261126/1004255783/curva-2-madring-llamara-dos-estrellas-homenaje-dos-mundiales-espana.html",
+      "source": "Mundodeportivo.com",
+      "published_at": "2026-11-26T11:48:29Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La curva 2 del circuito Madring se llamará Dos Estrellas en homenaje a los dos mundiales de España",
+      "description": "La curva 2 de Madring, circuito que del 10 al 12 de septiembre de 2027 acogerá por segunda vez el Gran Premio de España de Fórmula Uno, se llamará Dos Estrellas, en...",
+      "url": "https://www.elmundo.es/madrid/2026/11/26/6b0814fafdddffff618b457b.html",
+      "source": "El Mundo",
+      "published_at": "2026-11-26T11:28:24Z",
+      "category": "mundial"
+    },
+    {
+      "title": "La FIFA sufre ciberataque y confirma filtración de información personal y empresarial",
+      "description": "El hackeo se suma a otros ataques recientes en el fútbol, como el de LaLiga, y ocurre en medio de la crisis por el intento de Infantino de vender una parte del negocio comercial.",
+      "url": "https://www.df.cl/internacional/ft/la-fifa-sufre-ciberataque-y-confirma-filtracion-de-informacion-personal-y",
+      "source": "Www.df.cl",
+      "published_at": "2026-11-26T15:44:32Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Emery se 'reconcilia' con Garnacho: \"Está entrenando muy bien y su actitud es fantástica\"",
+      "description": "El técnico del Aston Villa resta importancia a su ausencia en Champions ante el Galatasaray",
+      "url": "https://www.marca.com/futbol/premier-league/2026/11/27/emery-reconcilia-garnacho-entrenando-bien-actitud-fantastica.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-27T16:47:12",
+      "category": "general"
+    },
+    {
+      "title": "Léo Lemaitre, el Laporte que Francia le birló a España deslumbra en el Mundial Sub17: “Fue complicado localizarlo”",
+      "description": "El canterano del Real Madrid está siendo uno de los centrales más destacados del torneo",
+      "url": "https://www.marca.com/futbol/mundial-sub-17/2026/11/27/leo-lemaitre-laporte-francia-le-birlo-espana-deslumbra-mundial-sub17-complicado-localizarlo.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-27T11:45:21",
+      "category": "mundial"
+    }
+  ]
+}
