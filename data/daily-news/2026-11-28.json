@@ -1,0 +1,55 @@
+{
+  "scrape_date": "2026-11-28",
+  "scraped_at": "2026-11-28T12:51:32.906645-03:00",
+  "total_news": 6,
+  "news": [
+    {
+      "title": "Un verano con Lionel Messi: el astro jugará en las canchas de Boca y River con un mes de diferencia",
+      "description": "La Bombonera y el Monumental se preparan para recibir nuevamente a Lionel Andrés Messi, quien volverá a jugar en Argentina poco después de tener su despedida oficial de la selección. El rosarino segui",
+      "url": "https://442.perfil.com/noticias/futbol/un-verano-con-lionel-messi-el-astro-jugara-en-las-canchas-de-boca-y-river-con-un-mes-de-diferencia.phtml",
+      "source": "Perfil.com",
+      "published_at": "2026-11-26T21:21:29Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Horarios de los partidos de los Pumas 7s para el Seven de Dubái, por el Circuito Mundial 2026-2027",
+      "description": "La selección argentina conforma el Grupo A junto a Australia, Sudáfrica y Estados Unidos y jugará los tres encuentros el sábado",
+      "url": "https://www.lanacion.com.ar/deportes/rugby/horarios-de-los-partidos-de-los-pumas-7s-para-el-seven-de-dubai-por-el-circuito-mundial-2026-2027-nid26112026/",
+      "source": "La Nacion",
+      "published_at": "2026-11-26T17:03:29Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Teles grandes, OLED o incluso Micro RGB: las mejores ofertas en televisores de este Black Friday",
+      "description": "El pasado verano, antes del Mundial de fútbol, se abrió una ventana genial para renovar televisor. Si no la aprovechaste, tienes otra y posiblemente la última del año ahora que estamos en Black Friday",
+      "url": "https://www.xataka.com/seleccion/teles-grandes-oled-incluso-micro-rgb-mejores-ofertas-televisores-este-black-friday",
+      "source": "Xataka.com",
+      "published_at": "2026-11-27T14:46:25Z",
+      "category": "mundial"
+    },
+    {
+      "title": "Básquet: Canal 5 transmitirá Puerto Rico-Uruguay, con la clasificación al Mundial en juego",
+      "description": "El duelo ante los boricuas del próximo domingo se podrá ver por aire. La selección uruguaya no juega una Copa del Mundo desde hace 40 años.",
+      "url": "https://www.montevideo.com.uy/Deportes/Basquet-Canal-5-transmitira-Puerto-Rico-Uruguay-con-la-clasificacion-al-Mundial-en-juego-uc983696",
+      "source": "Montevideo.com.uy",
+      "published_at": "2026-11-27T14:00:00Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "Falleció a los 37 años Ingvar Jónsson, exarquero de la selección de Islandia que luchaba contra el cáncer",
+      "description": "El golero, todavía en actividad, falleció víctima del tumor que le fue detectado a inicios de esta temporada. En junio sus compañeros lo habían homenajeado en la previa a un amistoso con Argentina.",
+      "url": "https://www.elpais.com.uy/ovacion/futbol/fallecio-a-los-37-anos-ingvar-jonsson-exarquero-de-la-seleccion-de-islandia-que-luchaba-contra-el-cancer",
+      "source": "Diario EL PAIS Uruguay",
+      "published_at": "2026-11-27T13:22:42Z",
+      "category": "seleccion"
+    },
+    {
+      "title": "El Belmonte despide a Rafael Candel con 11 de sus expresidentes",
+      "description": "El Albacete homenajeará a su presidente de honor en los prolegómenos del partido ante el Tenerife y tendrá también un recuerdo para Jesús de Miguel",
+      "url": "https://www.marca.com/futbol/albacete/2026/11/28/belmonte-despide-rafael-candel-11-expresidentes.html",
+      "source": "Fútbol",
+      "published_at": "2026-11-28T13:27:22",
+      "category": "seleccion"
+    }
+  ]
+}
